@@ -13,78 +13,270 @@
       "Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğü"
     ],
     "ans": 2,
-    "exp": "1 sayılı CBK'nın ilgili hükümleri uyarınca İller Bankası A.Ş. Bakanlığın ilgili kuruluşu statüsündedir; merkez teşkilatı hizmet birimi değildir."
+    "exp": "İller Bankası A.Ş. Bakanlığın ilgili kuruluşu statüsündedir; merkez hizmet birimi değildir (CBK Md. 100)."
   },
   {
     "id": 2,
     "cat": "Genel %70",
-    "topic": "657 Sayılı Devlet Memurları Kanunu",
+    "topic": "1 Sayılı CBK (Bakanlık Teşkilat ve Görevleri)",
     "weight": 8,
-    "q": "657 sayılı Devlet Memurları Kanunu'na göre aday memurluk süresi içinde kademe ilerlemesi yapılabilir mi?",
+    "q": "1 sayılı Cumhurbaşkanlığı Kararnamesine göre Bakanlığın görevleri arasında aşağıdakilerden hangisi bulunmaz?",
     "opts": [
-      "Evet, bir yıllık sürenin sonunda yapılabilir.",
-      "Hayır, aday memurluk süresinde kademe ilerlemesi yapılmaz.",
-      "Sadece yöneticilerin onayıyla yapılabilir.",
-      "Üç yıllık çalışma sonrasında geriye dönük uygulanır.",
-      "Disiplin cezası almamış olmak koşuluyla yapılabilir."
+      "Ülke genelinde mekânsal strateji planlarını yapmak veya yaptırmak",
+      "Tabiat varlıklarını ve koruma alanlarını belirlemek ve tescil etmek",
+      "Her türlü para ve sermaye piyasası denetimini yürütmek",
+      "İklim değişikliği ve uyum politikalarını ulusal düzeyde yürütmek",
+      "Yapı ruhsatı ve yapı kullanma izin belgelerine ilişkin standartları belirlemek"
     ],
-    "ans": 1,
-    "exp": "657 sayılı Kanun Madde 54 uyarınca aday memurlar asil memur olana kadar kademe ilerlemesinden yararlanamazlar."
+    "ans": 2,
+    "exp": "Para ve sermaye piyasası denetimi Hazine ve Maliye Bakanlığı ile SPK görev alanındadır."
   },
   {
     "id": 3,
     "cat": "Genel %70",
-    "topic": "2872 Sayılı Çevre Kanunu",
-    "weight": 5,
-    "q": "2872 sayılı Çevre Kanunu'nda düzenlenen temel ilkelerden 'kirleten öder' ilkesinin temel hukuki amacı aşağıdakilerden hangisidir?",
+    "topic": "657 Sayılı Devlet Memurları Kanunu",
+    "weight": 8,
+    "q": "657 sayılı Devlet Memurları Kanunu'na göre aday memurluk süresi en az ve en çok ne kadar olabilir?",
     "opts": [
-      "Devlet gelirlerini artırmak",
-      "Kirlenme ve bozulmanın önlenmesi ile giderilmesi masraflarının sorumlulara yüklenmesi",
-      "Belediyelerin çevre bütçelerini dengelemek",
-      "Sanayi tesislerine vergi muafiyeti sağlamak",
-      "Yalnızca atık bertaraf tesislerini finanse etmek"
+      "6 ay - 1 yıl",
+      "1 yıl - 2 yıl",
+      "1 yıl - 3 yıl",
+      "6 ay - 2 yıl",
+      "2 yıl - 3 yıl"
     ],
     "ans": 1,
-    "exp": "2872 sayılı Kanun Md. 3/g bendi gereğince çevresel kirlenme ve bozulmayı önleme, sınırlandırma ve giderme harcamaları doğrudan kirletene yükletilir."
+    "exp": "657 sayılı Kanun Madde 54 uyarınca adaylık süresi bir yıldan az iki yıldan çok olamaz."
   },
   {
     "id": 4,
     "cat": "Genel %70",
-    "topic": "5018 Sayılı Kamu Mali Yönetimi Kanunu",
-    "weight": 5,
-    "q": "5018 sayılı Kanun uyarınca bütçeden harcama yapılması talimatını verme yetkisi ve sorumluluğu kanunen kime aittir?",
+    "topic": "657 Sayılı Devlet Memurları Kanunu",
+    "weight": 8,
+    "q": "657 sayılı Kanuna göre disiplin amirleri tarafından verilen uyarma, kınama ve aylıktan kesme cezalarına karşı hangi mercie itiraz edilebilir?",
     "opts": [
-      "Muhasebe yetkilisi",
-      "Gerçekleştirme görevlisi",
-      "Harcama yetkilisi",
-      "İç denetçi",
-      "Strateji Geliştirme Daire Başkanı"
+      "İdare Mahkemesine",
+      "Disiplin Kuruluna",
+      "Danıştaya",
+      "Kamu Görevlileri Etik Kuruluna",
+      "Sayıştaya"
     ],
-    "ans": 2,
-    "exp": "5018 sayılı Kanun Md. 31 ve 32 uyarınca harcama talimatı verme yetkisi harcama yetkilisine aittir."
+    "ans": 1,
+    "exp": "Disiplin amirleri tarafından verilen disiplin cezalarına karşı disiplin kuruluna itiraz edilebilir (DMK Md. 135)."
   },
   {
     "id": 5,
     "cat": "Genel %70",
-    "topic": "2577 Sayılı İdari Yargılama Usulü Kanunu",
-    "weight": 5,
-    "q": "2577 sayılı İYUK'a göre idari mahkemelerde yazılı yargılama usulü uygulanmakta olup, dava açma süresi özel kanunlarda aksi belirtilmedikçe genel olarak kaç gündür?",
+    "topic": "2709 Sayılı T.C. Anayasası",
+    "weight": 4,
+    "q": "1982 Anayasası'na göre milletvekilliğinin düşmesi veya düşürülmesi ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
     "opts": [
-      "15 gün",
-      "30 gün",
-      "60 gün",
-      "90 gün",
-      "120 gün"
+      "İstifa eden milletvekilinin istifasının geçerliliğine Meclis Başkanlığı karar verir.",
+      "Milletvekilliğinin düşmesine karar verme yetkisi Anayasa Mahkemesine aittir.",
+      "Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içinde toplam beş birleşim günü katılmayan milletvekilininvekilliği TBMM Üye Tam Sayısının salt çoğunluğu ile düşürülebilir.",
+      "Kesin hüküm giyme durumunda karar Meclis Genel Kuruluna okunmakla doğrudan yürürlüğe girer.",
+      "Parti kapatma eylemli odak olan üyelerin vekilliği Cumhurbaşkanı kararıyla düşer."
     ],
-    "ans": 2,
-    "exp": "2577 sayılı İYUK Md. 7 hükmüne göre dava açma süresi, özel kanunlarda ayrı süre gösterilmeyen hallerde idare mahkemelerinde 60 gündür."
+    "ans": 3,
+    "exp": "Kesin mahkeme kararlarının TBMM Genel Kuruluna bildirilmesiyle milletvekilliği düşer (Anayasa Md. 84)."
   },
   {
     "id": 6,
     "cat": "Genel %70",
+    "topic": "Atatürk İlkeleri ve İnkılap Tarihi",
+    "weight": 4,
+    "q": "Aşağıdakilerden hangisi Atatürk ilkelerinden Cumhuriyetçilik ilkesinin doğal sonuçlarından biri olarak gösterilemez?",
+    "opts": [
+      "Milli egemenlik anlayışı",
+      "Seçme ve seçilme hakkı",
+      "Çok partili siyasi hayata geçiş denemeleri",
+      "Devletçilik ve merkezi planlı ekonomi",
+      "Ulusal iradenin üstünlüğü"
+    ],
+    "ans": 3,
+    "exp": "Devletçilik ilkesi doğrudan ekonomi ve devletin ekonomik hayata müdahalesi ile ilgilidir."
+  },
+  {
+    "id": 7,
+    "cat": "Genel %70",
+    "topic": "4734 Sayılı Kamu İhale Kanunu",
+    "weight": 2,
+    "q": "4734 sayılı Kamu İhale Kanunu'na göre temel ihale usulleri arasında aşağıdakilerden hangisi yer almaz?",
+    "opts": [
+      "Açık İhale Usulü",
+      "Belli İstekliler Arasında İhale Usulü",
+      "Pazarlık Usulü",
+      "Doğrudan Temin",
+      "Doğrudan Temin bir temel ihale usulü değil, istisnai bir alım yöntemidir."
+    ],
+    "ans": 4,
+    "exp": "4734 sayılı Kanun Md. 18'e göre temel ihale usulleri açık ihale, belli istekliler arasında ihale ve pazarlık usulüdür. Doğrudan temin ihale usulü değildir."
+  },
+  {
+    "id": 8,
+    "cat": "Genel %70",
+    "topic": "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu",
+    "weight": 3,
+    "q": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu'na göre yapım işlerinde sözleşme bedelinin yüzde kaçına kadar oran dahilinde ek fiyat farkı veya iş artışı yapılabilir?",
+    "opts": [
+      "%10",
+      "%20",
+      "%30",
+      "%40",
+      "%50"
+    ],
+    "ans": 1,
+    "exp": "4735 sayılı Kanun Madde 24 uyarınca yapım işlerinde birim fiyat sözleşmelerde %20 oranına kadar iş artışı mümkündür."
+  },
+  {
+    "id": 9,
+    "cat": "Genel %70",
+    "topic": "2872 Sayılı Çevre Kanunu",
+    "weight": 5,
+    "q": "2872 sayılı Çevre Kanunu'na göre çevrenin korunması amacıyla 'kirleten öder' ilkesi gereği harcamalar kime yükletilir?",
+    "opts": [
+      "İlgili Bakanlığa",
+      "Belediyelere",
+      "Kirletene veya kirlenme ve bozulmaya neden olanlara",
+      "Hazineye",
+      "İl Özel İdarelerine"
+    ],
+    "ans": 2,
+    "exp": "2872 sayılı Kanun Md. 3/g bendi uyarınca kirlenme harcamaları doğrudan kirletene yükletilir."
+  },
+  {
+    "id": 10,
+    "cat": "Genel %70",
+    "topic": "5393 Sayılı Belediye Kanunu",
+    "weight": 4,
+    "q": "5393 sayılı Belediye Kanunu'na göre belediye meclisi olağan toplantılarını ne zaman gerçekleştirir?",
+    "opts": [
+      "Her ayın ilk haftası",
+      "Her ayın başında, o ayki toplantı gününü kararlaştırarak ayda bir kez",
+      "Yılda iki kez (Mayıs ve Kasım aylarında)",
+      "Üç ayda bir kez",
+      "Yalnızca belediye başkanının çağrısı üzerine"
+    ],
+    "ans": 1,
+    "exp": "5393 sayılı Kanun Md. 20 uyarınca belediye meclisi her ayın başında toplanır."
+  },
+  {
+    "id": 11,
+    "cat": "Genel %70",
+    "topic": "5018 Sayılı Kamu Mali Yönetimi Kanunu",
+    "weight": 5,
+    "q": "5018 sayılı Kanuna göre bütçe ödeneklerinin kullanılmasında harcama talimatı verme yetkisi ve sorumluluğu kime aittir?",
+    "opts": [
+      "Muhasebe yetkilisine",
+      "Harcama yetkilisine",
+      "Gerçekleştirme görevlisine",
+      "İç denetçiye",
+      "Üst yöneticiye"
+    ],
+    "ans": 1,
+    "exp": "5018 sayılı Kanun Md. 31-32 uyarınca harcama talimatı verme yetkisi harcama yetkilisine aittir."
+  },
+  {
+    "id": 12,
+    "cat": "Genel %70",
+    "topic": "7552 Sayılı İklim Kanunu",
+    "weight": 4,
+    "q": "7552 sayılı İklim Kanunu çerçevesinde ulusal emisyon ticaret sistemi ve iklim politikalarının koordinasyonu hangi yapı tarafından yürütülür?",
+    "opts": [
+      "İklim Değişikliği Başkanlığı ve ilgili kurul koordinasyonu",
+      "Devlet Su İşleri Genel Müdürlüğü",
+      "Karayolları Genel Müdürlüğü",
+      "Tapu ve Kadastro Genel Müdürlüğü",
+      "Kıyı Emniyeti"
+    ],
+    "ans": 0,
+    "exp": "İklim Kanunu hükümleri uyarınca ulusal koordinasyon İklim Değişikliği Başkanlığı tarafından yürütülür."
+  },
+  {
+    "id": 13,
+    "cat": "Genel %70",
+    "topic": "4982 Sayılı Bilgi Edinme Hakkı Kanunu",
+    "weight": 3,
+    "q": "4982 sayılı Kanuna göre bilgi edinme başvuruları kurum ve kuruluşlarca kaç iş günü içinde cevaplandırılır?",
+    "opts": [
+      "7 iş günü",
+      "10 iş günü",
+      "15 iş günü",
+      "30 iş günü",
+      "60 iş günü"
+    ],
+    "ans": 2,
+    "exp": "4982 sayılı Kanun Md. 11 uyarınca bilgi edinme başvuruları 15 iş günü içinde cevaplandırılır."
+  },
+  {
+    "id": 14,
+    "cat": "Genel %70",
+    "topic": "6698 Sayılı KVKK",
+    "weight": 3,
+    "q": "6698 sayılı KVKK'ya göre veri sorumlusu, ilgili kişilerin başvurularını en geç kaç gün içinde sonuçlandırmak zorundadır?",
+    "opts": [
+      "10 gün",
+      "15 gün",
+      "30 gün",
+      "45 gün",
+      "60 gün"
+    ],
+    "ans": 2,
+    "exp": "6698 sayılı KVKK Md. 13 uyarınca başvurular en geç 30 gün içinde sonuçlandırılır."
+  },
+  {
+    "id": 15,
+    "cat": "Genel %70",
+    "topic": "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu",
+    "weight": 4,
+    "q": "6331 sayılı Kanuna göre çok tehlikeli sınıfta yer alan işyerlerinde acil durum planları en geç kaç yılda bir yenilenir?",
+    "opts": [
+      "1 yıl",
+      "2 yıl",
+      "3 yıl",
+      "4 yıl",
+      "6 yıl"
+    ],
+    "ans": 1,
+    "exp": "Çok tehlikeli işyerlerinde acil durum planları 2 yılda bir yenilenir."
+  },
+  {
+    "id": 16,
+    "cat": "Genel %70",
+    "topic": "2577 Sayılı İdari Yargılama Usulü Kanunu",
+    "weight": 5,
+    "q": "2577 sayılı İYUK'a göre idare mahkemelerinde genel dava açma süresi kaç gündür?",
+    "opts": [
+      "15 gün",
+      "30 gün",
+      "45 gün",
+      "60 gün",
+      "90 gün"
+    ],
+    "ans": 3,
+    "exp": "İYUK Madde 7 gereğince idare mahkemelerinde genel dava açma süresi 60 gündür."
+  },
+  {
+    "id": 17,
+    "cat": "Genel %70",
+    "topic": "4483 Sayılı Memurların Yargılanması Kanunu",
+    "weight": 4,
+    "q": "4483 sayılı Kanuna göre yetkili merci, ön inceleme raporu üzerine soruşturma izni verilmesi veya verilmemesi hususundaki kararını ne kadar sürede vermek zorundadır?",
+    "opts": [
+      "15 gün",
+      "30 gün",
+      "45 gün",
+      "60 gün",
+      "90 gün"
+    ],
+    "ans": 1,
+    "exp": "Yetkili merci kararını 30 gün içinde vermek zorundadır (zorunlu hallerde 15 gün uzatılabilir)."
+  },
+  {
+    "id": 18,
+    "cat": "Genel %70",
     "topic": "3194 Sayılı İmar Kanunu",
     "weight": 4,
-    "q": "3194 sayılı İmar Kanunu'nun 18. maddesi uyarınca yapılan arazi ve arsa düzenlemelerinde, düzenlemeye giren parsellerden ortak hizmet alanları için kesilen Düzenleme Ortaklık Payı (DOP) oranı en fazla yüzde kaç olabilir?",
+    "q": "3194 sayılı İmar Kanunu Madde 18 uygulamalarında kesilebilecek DOP oranı en fazla yüzde kaçtır?",
     "opts": [
       "%",
       "%",
@@ -96,27 +288,43 @@
     "exp": "3194 sayılı Kanun Md. 18 uyarınca DOP oranı %45'i geçemez."
   },
   {
-    "id": 7,
+    "id": 19,
     "cat": "Teknik %30",
-    "topic": "4708 Sayılı Yapı Denetimi Hakkında Kanun",
+    "topic": "5543 Sayılı İskân Kanunu",
     "weight": 4,
-    "q": "4708 sayılı Yapı Denetimi Hakkında Kanun'a göre yapı denetim kuruluşlarının denetledikleri yapılardaki taşıyıcı sistem kusurlarından dolayı sorumluluk süresi ne kadardır?",
+    "q": "5543 sayılı İskân Kanunu'na göre iskân edilen ailelere verilen gayrimenkuller kaç yıl süreyle satılamaz ve devredilemez?",
     "opts": [
-      "2 yıl",
+      "3 yıl",
       "5 yıl",
       "10 yıl",
       "15 yıl",
       "20 yıl"
     ],
-    "ans": 3,
-    "exp": "4708 sayılı Kanun Madde 3 uyarınca yapı denetim kuruluşları taşıyıcı sistemden dolayı yapı kullanma izninden itibaren 15 yıl sorumludur."
+    "ans": 2,
+    "exp": "5543 sayılı Kanun Md. 21 uyarınca verilen taşınmazlar 10 yıl süreyle satılamaz ve haczedilemez."
   },
   {
-    "id": 8,
+    "id": 20,
+    "cat": "Teknik %30",
+    "topic": "775 Sayılı Gecekondu Kanunu",
+    "weight": 4,
+    "q": "775 sayılı Gecekondu Kanunu uyarınca tahsis olunan arsalar üzerine hak sahiplerince kaç yıl içinde bina yapılması zorunludur?",
+    "opts": [
+      "6 ay",
+      "1 yıl",
+      "2 yıl",
+      "3 yıl",
+      "5 yıl"
+    ],
+    "ans": 1,
+    "exp": "775 sayılı Kanun uyarınca tahsis tarihinden itibaren 1 yıl içinde bina yapımına başlanmalıdır."
+  },
+  {
+    "id": 21,
     "cat": "Teknik %30",
     "topic": "3621 Sayılı Kıyı Kanunu",
     "weight": 4,
-    "q": "3621 sayılı Kıyı Kanunu'na göre, sahil şeridinin birinci bölümünün yatay derinliği kıyı kenar çizgisinden itibaren en az kaç metre olarak belirlenmiştir?",
+    "q": "3621 sayılı Kıyı Kanunu'na göre sahil şeridinin birinci bölümünün derinliği kıyı kenar çizgisinden itibaren en az kaç metredir?",
     "opts": [
       "20 metre",
       "50 metre",
@@ -125,38 +333,86 @@
       "200 metre"
     ],
     "ans": 2,
-    "exp": "3621 sayılı Kıyı Kanunu'na göre uygulama imar planı bulunan alanlarda sahil şeridi derinliği en az 100 metredir."
+    "exp": "Kıyı Kanunu Md. 4 uyarınca sahil şeridi en az 100 metredir."
   },
   {
-    "id": 9,
+    "id": 22,
+    "cat": "Teknik %30",
+    "topic": "4708 Sayılı Yapı Denetimi Hakkında Kanun",
+    "weight": 4,
+    "q": "4708 sayılı Yapı Denetimi Hakkında Kanun'a göre yapı denetim kuruluşlarının taşıyıcı sistem kusurlarından sorumlu olduğu süre ne kadardır?",
+    "opts": [
+      "2 yıl",
+      "5 yıl",
+      "10 yıl",
+      "15 yıl",
+      "20 yıl"
+    ],
+    "ans": 3,
+    "exp": "Taşıyıcı sistem kusurlarından dolayı sorumluluk süresi yapı kullanma izninden itibaren 15 yıldır."
+  },
+  {
+    "id": 23,
     "cat": "Teknik %30",
     "topic": "2942 Sayılı Kamulaştırma Kanunu",
     "weight": 4,
-    "q": "2942 sayılı Kamulaştırma Kanunu'na göre, kamulaştırılan taşınmaz mal kamulaştırma amacına uygun olarak idarece kaç yıl içinde kullanılmazsa eski malik geri alma hakkını kullanabilir?",
+    "q": "2942 sayılı Kamulaştırma Kanunu'na göre idarece kamulaştırma amacına uygun işlem kaç yıl içinde yapılmazsa geri alma hakkı doğar?",
     "opts": [
       "1 yıl",
       "3 yıl",
       "5 yıl",
       "10 yıl",
-      "20 yıl"
+      "15 yıl"
     ],
     "ans": 2,
-    "exp": "2942 sayılı Kanun Madde 23 uyarınca 5 yıl içinde kamulaştırma amacına yönelik işlem yapılmadığı takdirde eski malik geri alma hakkına sahiptir."
+    "exp": "2942 sayılı Kanun Md. 23 gereğince 5 yıl içinde amaca uygun işlem yapılmazsa geri alma hakkı doğar."
   },
   {
-    "id": 10,
+    "id": 24,
     "cat": "Teknik %30",
     "topic": "Sıfır Atık Yönetmeliği",
     "weight": 4,
-    "q": "Sıfır Atık Yönetmeliği hükümleri çerçevesinde metal atıkların biriktirilmesi için kullanılacak toplama ekipmanlarının standart rengi aşağıdakilerden hangisidir?",
+    "q": "Sıfır Atık Yönetmeliği'ne göre kağıt ve karton atıkların biriktirilmesinde kullanılan renk kodu nedir?",
     "opts": [
       "Mavi",
       "Sarı",
-      "Gri",
       "Yeşil",
+      "Gri",
       "Kahverengi"
     ],
-    "ans": 2,
-    "exp": "Sıfır Atık standartlarına göre Kağıt/Karton mavi, Plastik sarı, Cam yeşil, Metal gri ve Organik atıklar kahverengi kutularda toplanır."
+    "ans": 0,
+    "exp": "Kağıt ve karton atıklar için mavi renkli toplama ekipmanı kullanılır."
+  },
+  {
+    "id": 25,
+    "cat": "Teknik %30",
+    "topic": "ÇED Yönetmeliği",
+    "weight": 3,
+    "q": "ÇED Yönetmeliği'ne göre 'ÇED Olumlu' kararı verilen projelerde yatırıma kaç yıl içinde başlanmazsa karar geçerliliğini yitirir?",
+    "opts": [
+      "2 yıl",
+      "3 yıl",
+      "5 yıl",
+      "7 yıl",
+      "10 yıl"
+    ],
+    "ans": 3,
+    "exp": "ÇED Olumlu kararı verilen projelerde 7 yıl içinde yatırıma başlanmaması durumunda karar hükümsüz kalır."
+  },
+  {
+    "id": 26,
+    "cat": "Teknik %30",
+    "topic": "Planlı Alanlar İmar Yönetmeliği",
+    "weight": 3,
+    "q": "Planlı Alanlar İmar Yönetmeliği'ne göre yapı ruhsatı alındıktan sonra inşaata başlama süresi ve inşaatı bitirme süresi sırasıyla ne kadardır?",
+    "opts": [
+      "1 yıl başlama - 3 yıl bitirme",
+      "2 yıl başlama - 5 yıl bitirme",
+      "3 yıl başlama - 5 yıl bitirme",
+      "2 yıl başlama - 10 yıl bitirme",
+      "1 yıl başlama - 5 yıl bitirme"
+    ],
+    "ans": 1,
+    "exp": "Ruhsat tarihinden itibaren 2 yıl içinde başlanması ve 5 yıl içinde bitirilmesi zorunludur."
   }
 ]
