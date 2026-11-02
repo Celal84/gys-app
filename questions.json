@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "cat": "Genel %70",
+    "topic": "1 Sayılı CBK (Bakanlık Teşkilat ve Görevleri)",
+    "weight": 8,
+    "q": "1 sayılı Cumhurbaşkanlığı Kararnamesine göre Çevre, Şehircilik ve İklim Değişikliği Bakanlığının merkez teşkilatı hizmet birimleri arasında aşağıdakilerden hangisi yer almaz?",
+    "opts": [
+      "Yerel Yönetimler Genel Müdürlüğü",
+      "Milli Emlak Genel Müdürlüğü",
+      "İller Bankası Anonim Şirketi",
+      "Mesleki Hizmetler Genel Müdürlüğü",
+      "Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğü"
+    ],
+    "ans": 2,
+    "exp": "1 sayılı CBK'nın ilgili hükümleri uyarınca İller Bankası A.Ş. Bakanlığın ilgili kuruluşu statüsündedir; merkez teşkilatı hizmet birimi değildir."
+  },
+  {
+    "id": 2,
+    "cat": "Genel %70",
+    "topic": "657 Sayılı Devlet Memurları Kanunu",
+    "weight": 8,
+    "q": "657 sayılı Devlet Memurları Kanunu'na göre aday memurluk süresi içinde kademe ilerlemesi yapılabilir mi?",
+    "opts": [
+      "Evet, bir yıllık sürenin sonunda yapılabilir.",
+      "Hayır, aday memurluk süresinde kademe ilerlemesi yapılmaz.",
+      "Sadece yöneticilerin onayıyla yapılabilir.",
+      "Üç yıllık çalışma sonrasında geriye dönük uygulanır.",
+      "Disiplin cezası almamış olmak koşuluyla yapılabilir."
+    ],
+    "ans": 1,
+    "exp": "657 sayılı Kanun Madde 54 uyarınca aday memurlar asil memur olana kadar kademe ilerlemesinden yararlanamazlar."
+  },
+  {
+    "id": 3,
+    "cat": "Genel %70",
+    "topic": "2872 Sayılı Çevre Kanunu",
+    "weight": 5,
+    "q": "2872 sayılı Çevre Kanunu'nda düzenlenen temel ilkelerden 'kirleten öder' ilkesinin temel hukuki amacı aşağıdakilerden hangisidir?",
+    "opts": [
+      "Devlet gelirlerini artırmak",
+      "Kirlenme ve bozulmanın önlenmesi ile giderilmesi masraflarının sorumlulara yüklenmesi",
+      "Belediyelerin çevre bütçelerini dengelemek",
+      "Sanayi tesislerine vergi muafiyeti sağlamak",
+      "Yalnızca atık bertaraf tesislerini finanse etmek"
+    ],
+    "ans": 1,
+    "exp": "2872 sayılı Kanun Md. 3/g bendi gereğince çevresel kirlenme ve bozulmayı önleme, sınırlandırma ve giderme harcamaları doğrudan kirletene yükletilir."
+  },
+  {
+    "id": 4,
+    "cat": "Genel %70",
+    "topic": "5018 Sayılı Kamu Mali Yönetimi Kanunu",
+    "weight": 5,
+    "q": "5018 sayılı Kanun uyarınca bütçeden harcama yapılması talimatını verme yetkisi ve sorumluluğu kanunen kime aittir?",
+    "opts": [
+      "Muhasebe yetkilisi",
+      "Gerçekleştirme görevlisi",
+      "Harcama yetkilisi",
+      "İç denetçi",
+      "Strateji Geliştirme Daire Başkanı"
+    ],
+    "ans": 2,
+    "exp": "5018 sayılı Kanun Md. 31 ve 32 uyarınca harcama talimatı verme yetkisi harcama yetkilisine aittir."
+  },
+  {
+    "id": 5,
+    "cat": "Genel %70",
+    "topic": "2577 Sayılı İdari Yargılama Usulü Kanunu",
+    "weight": 5,
+    "q": "2577 sayılı İYUK'a göre idari mahkemelerde yazılı yargılama usulü uygulanmakta olup, dava açma süresi özel kanunlarda aksi belirtilmedikçe genel olarak kaç gündür?",
+    "opts": [
+      "15 gün",
+      "30 gün",
+      "60 gün",
+      "90 gün",
+      "120 gün"
+    ],
+    "ans": 2,
+    "exp": "2577 sayılı İYUK Md. 7 hükmüne göre dava açma süresi, özel kanunlarda ayrı süre gösterilmeyen hallerde idare mahkemelerinde 60 gündür."
+  },
+  {
+    "id": 6,
+    "cat": "Genel %70",
+    "topic": "3194 Sayılı İmar Kanunu",
+    "weight": 4,
+    "q": "3194 sayılı İmar Kanunu'nun 18. maddesi uyarınca yapılan arazi ve arsa düzenlemelerinde, düzenlemeye giren parsellerden ortak hizmet alanları için kesilen Düzenleme Ortaklık Payı (DOP) oranı en fazla yüzde kaç olabilir?",
+    "opts": [
+      "%",
+      "%",
+      "%",
+      "%",
+      "%"
+    ],
+    "ans": 1,
+    "exp": "3194 sayılı Kanun Md. 18 uyarınca DOP oranı %45'i geçemez."
+  },
+  {
+    "id": 7,
+    "cat": "Teknik %30",
+    "topic": "4708 Sayılı Yapı Denetimi Hakkında Kanun",
+    "weight": 4,
+    "q": "4708 sayılı Yapı Denetimi Hakkında Kanun'a göre yapı denetim kuruluşlarının denetledikleri yapılardaki taşıyıcı sistem kusurlarından dolayı sorumluluk süresi ne kadardır?",
+    "opts": [
+      "2 yıl",
+      "5 yıl",
+      "10 yıl",
+      "15 yıl",
+      "20 yıl"
+    ],
+    "ans": 3,
+    "exp": "4708 sayılı Kanun Madde 3 uyarınca yapı denetim kuruluşları taşıyıcı sistemden dolayı yapı kullanma izninden itibaren 15 yıl sorumludur."
+  },
+  {
+    "id": 8,
+    "cat": "Teknik %30",
+    "topic": "3621 Sayılı Kıyı Kanunu",
+    "weight": 4,
+    "q": "3621 sayılı Kıyı Kanunu'na göre, sahil şeridinin birinci bölümünün yatay derinliği kıyı kenar çizgisinden itibaren en az kaç metre olarak belirlenmiştir?",
+    "opts": [
+      "20 metre",
+      "50 metre",
+      "100 metre",
+      "150 metre",
+      "200 metre"
+    ],
+    "ans": 2,
+    "exp": "3621 sayılı Kıyı Kanunu'na göre uygulama imar planı bulunan alanlarda sahil şeridi derinliği en az 100 metredir."
+  },
+  {
+    "id": 9,
+    "cat": "Teknik %30",
+    "topic": "2942 Sayılı Kamulaştırma Kanunu",
+    "weight": 4,
+    "q": "2942 sayılı Kamulaştırma Kanunu'na göre, kamulaştırılan taşınmaz mal kamulaştırma amacına uygun olarak idarece kaç yıl içinde kullanılmazsa eski malik geri alma hakkını kullanabilir?",
+    "opts": [
+      "1 yıl",
+      "3 yıl",
+      "5 yıl",
+      "10 yıl",
+      "20 yıl"
+    ],
+    "ans": 2,
+    "exp": "2942 sayılı Kanun Madde 23 uyarınca 5 yıl içinde kamulaştırma amacına yönelik işlem yapılmadığı takdirde eski malik geri alma hakkına sahiptir."
+  },
+  {
+    "id": 10,
+    "cat": "Teknik %30",
+    "topic": "Sıfır Atık Yönetmeliği",
+    "weight": 4,
+    "q": "Sıfır Atık Yönetmeliği hükümleri çerçevesinde metal atıkların biriktirilmesi için kullanılacak toplama ekipmanlarının standart rengi aşağıdakilerden hangisidir?",
+    "opts": [
+      "Mavi",
+      "Sarı",
+      "Gri",
+      "Yeşil",
+      "Kahverengi"
+    ],
+    "ans": 2,
+    "exp": "Sıfır Atık standartlarına göre Kağıt/Karton mavi, Plastik sarı, Cam yeşil, Metal gri ve Organik atıklar kahverengi kutularda toplanır."
+  }
+]

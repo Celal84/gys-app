@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="GYS Duo" />
+  <meta name="theme-color" content="#131F24" />
+  <title>GYS Duo - Şube Müdürlüğü Hazırlık</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <style>
+    :root {
+      --safe-top: env(safe-area-inset-top, 47px);
+      --safe-bottom: env(safe-area-inset-bottom, 34px);
+    }
+    * { -webkit-tap-highlight-color: transparent; user-select: none; }
+    body {
+      background-color: #131F24;
+      color: #FFFFFF;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif;
+      overscroll-behavior-y: none;
+    }
+    .safe-pt { padding-top: calc(var(--safe-top) + 0.5rem); }
+    .safe-pb { padding-bottom: calc(var(--safe-bottom) + 4.5rem); }
+    .safe-bottom-bar { padding-bottom: calc(var(--safe-bottom) + 0.4rem); }
+    .btn-3d-green { background: #58CC02; box-shadow: 0 4px 0 #46A302; }
+    .btn-3d-green:active { transform: translateY(4px); box-shadow: 0 0 0 #46A302; }
+    .btn-3d-red { background: #FF4B4B; box-shadow: 0 4px 0 #EA2B2B; }
+    .btn-3d-red:active { transform: translateY(4px); box-shadow: 0 0 0 #EA2B2B; }
+    .btn-3d-blue { background: #1CB0F6; box-shadow: 0 4px 0 #1899D6; }
+    .btn-3d-blue:active { transform: translateY(4px); box-shadow: 0 0 0 #1899D6; }
+    .btn-3d-gold { background: #FFC800; box-shadow: 0 4px 0 #E5B400; color: #131F24; }
+    .btn-3d-gold:active { transform: translateY(4px); box-shadow: 0 0 0 #E5B400; }
+    .btn-3d-card { background: #1F2F37; border: 2px solid #37464F; box-shadow: 0 4px 0 #37464F; }
+    .btn-3d-card:active { transform: translateY(3px); box-shadow: 0 1px 0 #37464F; }
+    .btn-3d-selected { background: #182B36; border: 2px solid #1CB0F6; box-shadow: 0 4px 0 #1899D6; color: #1CB0F6; }
+    .btn-3d-correct { background: #163318; border: 2px solid #58CC02; box-shadow: 0 4px 0 #46A302; color: #58CC02; }
+    .btn-3d-wrong { background: #38191C; border: 2px solid #FF4B4B; box-shadow: 0 4px 0 #EA2B2B; color: #FF4B4B; }
+    ::-webkit-scrollbar { display: none; }
+  </style>
+</head>
+<body x-data="gysApp()" x-init="initApp()" class="min-h-screen flex flex-col justify-between max-w-[430px] mx-auto relative overflow-x-hidden border-x border-[#202F36]">
+
+  <!-- ÜST DURUM ÇUBUĞU (Dynamic Island Uyumlu) -->
+  <header class="fixed top-0 left-0 right-0 max-w-[430px] mx-auto bg-[#131F24]/95 backdrop-blur-md border-b border-[#202F36] z-30 safe-pt px-4 pb-2.5">
+    <div class="flex items-center justify-between text-sm font-bold">
+      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
+        <span>🔥</span>
+        <span class="text-[#FF9600]" x-text="state.streak"></span>
+      </div>
+      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
+        <span>⚡</span>
+        <span class="text-[#FFC800]" x-text="state.xp + ' XP'"></span>
+      </div>
+      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
+        <span>🎯</span>
+        <span class="text-[#1CB0F6]" x-text="state.dailyXP + '/' + state.settings.dailyGoal"></span>
+      </div>
+      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
+        <span>❤️</span>
+        <span class="text-[#FF4B4B]" x-text="state.settings.examMode ? state.hearts : '∞'"></span>
+      </div>
+    </div>
+    <!-- Günlük Hedef İlerleme Barı -->
+    <div class="w-full bg-[#202F36] h-1.5 rounded-full mt-2 overflow-hidden">
+      <div class="bg-[#58CC02] h-full transition-all duration-500" :style="`width: ${Math.min(100, (state.dailyXP / state.settings.dailyGoal) * 100)}%`"></div>
+    </div>
+  </header>
+
+  <!-- ANA İÇERİK ALANI -->
+  <main class="flex-1 mt-24 safe-pb px-4">
+
+    <!-- SEKME 1: DUOLINGO PATİKA (HOME) -->
+    <div x-show="activeTab === 'home'" class="space-y-4">
+      <!-- Kategori Filtresi ve Deneme Sınavı Kartı -->
+      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3.5 flex items-center justify-between">
+        <div>
+          <div class="text-xs font-bold uppercase tracking-wider text-[#1CB0F6]">GYS Şube Müdürlüğü</div>
+          <div class="text-sm font-extrabold mt-0.5">100 Soruluk Ağırlıklı Simülasyon</div>
+          <div class="text-xs text-gray-400">%70 Ortak (70) • %30 Teknik (30)</div>
+        </div>
+        <button @click="startWeightedExam()" class="btn-3d-gold px-3.5 py-2 rounded-xl font-extrabold text-xs shrink-0">
+          SINAVA GİR
+        </button>
+      </div>
+
+      <!-- Grup Seçici -->
+      <div class="grid grid-cols-3 gap-2 text-xs font-extrabold">
+        <button @click="filterCat = 'ALL'" :class="filterCat === 'ALL' ? 'btn-3d-blue text-white' : 'bg-[#202F36] text-gray-400'" class="py-2 rounded-xl transition">TÜMÜ (24)</button>
+        <button @click="filterCat = 'Genel %70'" :class="filterCat === 'Genel %70' ? 'btn-3d-green text-white' : 'bg-[#202F36] text-gray-400'" class="py-2 rounded-xl transition">ORTAK %70 (16)</button>
+        <button @click="filterCat = 'Teknik %30'" :class="filterCat === 'Teknik %30' ? 'btn-3d-gold' : 'bg-[#202F36] text-gray-400'" class="py-2 rounded-xl transition">TEKNİK %30 (8)</button>
+      </div>
+
+      <!-- Duolingo Patika Düğümleri -->
+      <div class="flex flex-col items-center space-y-5 py-3 relative">
+        <template x-for="(item, idx) in filteredTopics()" :key="item.code">
+          <div class="w-full flex flex-col items-center" :style="`transform: translateX(${Math.sin(idx * 1.1) * 32}px)`">
+            <button @click="startTopicQuiz(item)"
+              :class="getTopicMastery(item.topic) >= 80 ? 'btn-3d-gold' : (item.cat === 'Teknik %30' ? 'btn-3d-blue' : 'btn-3d-green')"
+              class="w-20 h-20 rounded-full flex flex-col items-center justify-center relative">
+              <span class="text-xl" x-text="item.icon"></span>
+              <span class="text-[10px] font-black uppercase tracking-tighter mt-0.5" x-text="item.weight + ' SORU'"></span>
+              <!-- Ustalık Yüzdesi Rozeti -->
+              <span class="absolute -top-1 -right-1 bg-[#131F24] border-2 border-[#37464F] text-[10px] font-extrabold px-1.5 py-0.5 rounded-full text-white"
+                x-text="'%' + getTopicMastery(item.topic)"></span>
+            </button>
+            <div class="mt-2 max-w-[230px] text-center">
+              <div class="text-xs font-extrabold leading-tight text-white" x-text="item.shortTitle"></div>
+              <div class="text-[10px] text-gray-400 font-semibold" x-text="item.cat + ' • ' + getQuestionCount(item.topic) + ' Soru Havuzda'"></div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <!-- SEKME 2: HATA TEKRAR MOTORU (SPACED REPETITION) -->
+    <div x-show="activeTab === 'mistakes'" class="space-y-4">
+      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-base font-extrabold text-[#FF4B4B]">Hata Eritme Havuzu</h2>
+            <p class="text-xs text-gray-300 mt-0.5">Yanlış yaptığın sorular arka arkaya 2 kez doğru çözülene kadar burada kalır ve testlere %30 oranında serpiştirilir.</p>
+          </div>
+          <div class="text-2xl font-black text-[#FF4B4B] bg-[#38191C] px-3.5 py-2 rounded-xl border border-[#FF4B4B]" x-text="mistakeList().length"></div>
+        </div>
+        <button x-show="mistakeList().length > 0" @click="startMistakeQuiz()" class="btn-3d-red w-full py-3 rounded-xl font-extrabold text-sm mt-3">
+          HATALARI ERİTME TESTİNİ BAŞLAT (<span x-text="Math.min(15, mistakeList().length)"></span> SORU)
+        </button>
+      </div>
+
+      <template x-if="mistakeList().length === 0">
+        <div class="text-center py-12 bg-[#1F2F37] rounded-2xl border-2 border-[#37464F] p-6">
+          <div class="text-4xl mb-2">🏆</div>
+          <div class="font-extrabold text-sm text-[#58CC02]">Hata Havuzun Tertemiz!</div>
+          <div class="text-xs text-gray-400 mt-1">Şu an tekrar etmen gereken hatalı bir GYS sorusu bulunmuyor.</div>
+        </div>
+      </template>
+
+      <div class="space-y-2.5">
+        <template x-for="m in mistakeList()" :key="m.qObj.id">
+          <div class="bg-[#1F2F37] border border-[#37464F] rounded-xl p-3 text-xs space-y-1.5">
+            <div class="flex items-center justify-between">
+              <span class="bg-[#38191C] text-[#FF4B4B] font-bold px-2 py-0.5 rounded-md" x-text="m.qObj.topic"></span>
+              <span class="text-gray-400 font-bold" x-text="'Hata: ' + m.wrongCount + 'x | Seri Doğru: ' + m.streak + '/2'"></span>
+            </div>
+            <div class="font-bold text-white leading-snug" x-text="m.qObj.q"></div>
+            <div class="text-[#58CC02] font-semibold" x-text="'Doğru: ' + m.qObj.opts[m.qObj.ans]"></div>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <!-- SEKME 3: İSTATİSTİK PANELİ (STATS) -->
+    <div x-show="activeTab === 'stats'" class="space-y-4">
+      <div class="grid grid-cols-2 gap-2.5">
+        <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3">
+          <div class="text-[11px] text-gray-400 font-bold">GENEL BAŞARI</div>
+          <div class="text-2xl font-black text-[#58CC02] mt-0.5" x-text="'%' + overallAccuracy()"></div>
+          <div class="text-[10px] text-gray-400" x-text="state.totalCorrect + ' Doğru / ' + state.totalAnswered + ' Soru'"></div>
+        </div>
+        <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3">
+          <div class="text-[11px] text-gray-400 font-bold">TAHMİNİ GYS PUANI</div>
+          <div class="text-2xl font-black text-[#FFC800] mt-0.5" x-text="estimatedGysScore()"></div>
+          <div class="text-[10px] text-gray-400">100 Soru Ağırlıklı Projeksiyon</div>
+        </div>
+      </div>
+
+      <!-- En Zayıf 3 Konu Uyarısı -->
+      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3.5">
+        <div class="text-xs font-extrabold text-[#FF9600] mb-2">⚠️ Öncelikli Tekrar Gereken Zayıf Konular</div>
+        <div class="space-y-2">
+          <template x-for="w in weakestTopics()" :key="w.topic">
+            <div class="flex items-center justify-between text-xs bg-[#131F24] px-3 py-2 rounded-xl">
+              <span class="font-bold truncate pr-2" x-text="w.shortTitle"></span>
+              <span class="font-extrabold text-[#FF4B4B] shrink-0" x-text="'%' + w.acc + ' (' + w.weight + ' Soru)'"></span>
+            </div>
+          </template>
+        </div>
+      </div>
+
+      <!-- 24 Konu Ustalık Barları -->
+      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3.5 space-y-3">
+        <div class="text-xs font-extrabold text-[#1CB0F6]">📊 Resmi GYS Konu Dağılımı ve Ustalık Oranları</div>
+        <template x-for="item in curriculum" :key="item.code">
+          <div class="space-y-1">
+            <div class="flex justify-between text-[11px] font-bold">
+              <span class="truncate pr-2" x-text="item.shortTitle + ' (' + item.weight + ' Soru)'"></span>
+              <span :class="getTopicMastery(item.topic) >= 75 ? 'text-[#58CC02]' : 'text-[#FFC800]'" x-text="'%' + getTopicMastery(item.topic)"></span>
+            </div>
+            <div class="w-full bg-[#131F24] h-2 rounded-full overflow-hidden">
+              <div class="h-full transition-all duration-300"
+                :class="getTopicMastery(item.topic) >= 75 ? 'bg-[#58CC02]' : (getTopicMastery(item.topic) >= 40 ? 'bg-[#FFC800]' : 'bg-[#FF4B4B]')"
+                :style="`width: ${getTopicMastery(item.topic)}%`"></div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <!-- SEKME 4: YÖNETİM VE AYARLAR PANELİ (ADMIN) -->
+    <div x-show="activeTab === 'admin'" class="space-y-4">
+      <!-- Soru Bankası JSON Import / Export -->
+      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4 space-y-3">
+        <h3 class="text-sm font-extrabold text-[#1CB0F6]">📦 Soru Havuzu & JSON Yönetimi</h3>
+        <p class="text-xs text-gray-300">Aktif Havuzda <strong class="text-white" x-text="questions.length"></strong> soru kayıtlı. <code>build_questions.py</code> ile ürettiğin yeni <code>questions.json</code> dosyasını buradan yükleyebilirsin.</p>
+        
+        <label class="btn-3d-green w-full py-2.5 rounded-xl font-extrabold text-xs flex items-center justify-center cursor-pointer">
+          <span>📂 YENİ QUESTIONS.JSON İÇE AKTAR (EKLE/GÜNCELLE)</span>
+          <input type="file" accept=".json" @change="importQuestionsJson($event)" class="hidden" />
+        </label>
+
+        <div class="grid grid-cols-2 gap-2 pt-1">
+          <button @click="exportBackup()" class="btn-3d-blue py-2.5 rounded-xl font-extrabold text-xs">
+            💾 İLERLEMEYİ YEDEKLE
+          </button>
+          <label class="bg-[#202F36] border border-[#37464F] py-2.5 rounded-xl font-extrabold text-xs text-center cursor-pointer">
+            📥 YEDEK YÜKLE
+            <input type="file" accept=".json" @change="importBackup($event)" class="hidden" />
+          </label>
+        </div>
+      </div>
+
+      <!-- Çalışma ve Sınav Parametreleri -->
+      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4 space-y-3 text-xs">
+        <h3 class="text-sm font-extrabold text-[#FFC800]">⚙️ Uygulama ve Eğitim Ayarları</h3>
+
+        <div class="flex items-center justify-between py-1">
+          <div>
+            <div class="font-bold">Tur Başına Soru Sayısı</div>
+            <div class="text-[10px] text-gray-400">Her düğümde sorulacak mikro-ders uzunluğu</div>
+          </div>
+          <select x-model.number="state.settings.quizSize" @change="saveState()" class="bg-[#131F24] border border-[#37464F] rounded-lg px-2.5 py-1.5 font-bold">
+            <option value="5">5 Soru</option>
+            <option value="10">10 Soru</option>
+            <option value="15">15 Soru</option>
+            <option value="20">20 Soru</option>
+          </select>
+        </div>
+
+        <div class="flex items-center justify-between py-1">
+          <div>
+            <div class="font-bold">Günlük XP Hedefi</div>
+            <div class="text-[10px] text-gray-400">Her doğru cevap 10 XP kazandırır</div>
+          </div>
+          <select x-model.number="state.settings.dailyGoal" @change="saveState()" class="bg-[#131F24] border border-[#37464F] rounded-lg px-2.5 py-1.5 font-bold">
+            <option value="50">50 XP (Sakin)</option>
+            <option value="100">100 XP (Normal)</option>
+            <option value="200">200 XP (Ciddi)</option>
+            <option value="300">300 XP (Yoğun Kamp)</option>
+          </select>
+        </div>
+
+        <div class="flex items-center justify-between py-1">
+          <div>
+            <div class="font-bold">Hata Serpiştirme Oranı (%30)</div>
+            <div class="text-[10px] text-gray-400">Normal testlere geçmiş hataları otomatik karıştır</div>
+          </div>
+          <input type="checkbox" x-model="state.settings.mixMistakes" @change="saveState()" class="w-5 h-5 accent-[#58CC02]" />
+        </div>
+
+        <div class="flex items-center justify-between py-1">
+          <div>
+            <div class="font-bold">Sınav Modu (5 Can Sınırı)</div>
+            <div class="text-[10px] text-gray-400">Kapalıyken sınırsız canla (Öğrenme Modu) çalışırsın</div>
+          </div>
+          <input type="checkbox" x-model="state.settings.examMode" @change="state.hearts = 5; saveState()" class="w-5 h-5 accent-[#58CC02]" />
+        </div>
+
+        <div class="flex items-center justify-between py-1">
+          <div>
+            <div class="font-bold">Ses Efektleri (Web Audio)</div>
+            <div class="text-[10px] text-gray-400">Doğru/Yanlış Duolingo ses bildirimleri</div>
+          </div>
+          <input type="checkbox" x-model="state.settings.sound" @change="saveState()" class="w-5 h-5 accent-[#58CC02]" />
+        </div>
+      </div>
+
+      <!-- Konu Ağırlıklarını Özelleştirme -->
+      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4 space-y-2.5 text-xs">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-extrabold text-[#58CC02]">⚖️ GYS Soru Dağılım Ağırlıkları</h3>
+          <button @click="resetWeights()" class="text-[10px] text-[#1CB0F6] underline font-bold">Varsayılana Dön</button>
+        </div>
+        <div class="max-h-56 overflow-y-auto space-y-2 pr-1">
+          <template x-for="item in curriculum" :key="item.code">
+            <div class="flex items-center justify-between bg-[#131F24] px-2.5 py-1.5 rounded-lg">
+              <span class="truncate pr-2 font-semibold" x-text="item.shortTitle"></span>
+              <input type="number" min="1" max="30" x-model.number="item.weight" @change="saveCustomWeights()"
+                class="w-14 bg-[#1F2F37] border border-[#37464F] rounded text-center font-bold py-0.5" />
+            </div>
+          </template>
+        </div>
+      </div>
+
+      <!-- Sıfırlama -->
+      <button @click="resetAllProgress()" class="btn-3d-red w-full py-3 rounded-xl font-extrabold text-xs">
+        🗑️ TÜM İSTATİSTİK VE HATA KAYITLARINI SIFIRLA
+      </button>
+    </div>
+
+  </main>
+
+  <!-- ALT NAVİGASYON BARI (iPhone 14 Başparmak Ergonomisi) -->
+  <nav class="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto bg-[#131F24]/95 backdrop-blur-md border-t border-[#202F36] z-30 safe-bottom-bar pt-2 px-3">
+    <div class="grid grid-cols-4 gap-1 text-[11px] font-extrabold">
+      <button @click="activeTab = 'home'" :class="activeTab === 'home' ? 'text-[#58CC02] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
+        <span class="text-lg">🗺️</span>
+        <span>Patika</span>
+      </button>
+      <button @click="activeTab = 'mistakes'" :class="activeTab === 'mistakes' ? 'text-[#FF4B4B] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl relative">
+        <span class="text-lg">🎯</span>
+        <span>Hatalar</span>
+        <span x-show="mistakeList().length > 0" class="absolute top-1 right-4 bg-[#FF4B4B] text-white text-[9px] px-1.5 rounded-full" x-text="mistakeList().length"></span>
+      </button>
+      <button @click="activeTab = 'stats'" :class="activeTab === 'stats' ? 'text-[#1CB0F6] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
+        <span class="text-lg">📊</span>
+        <span>İstatistik</span>
+      </button>
+      <button @click="activeTab = 'admin'" :class="activeTab === 'admin' ? 'text-[#FFC800] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
+        <span class="text-lg">⚙️</span>
+        <span>Yönetim</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- TAM EKRAN DUOLINGO QUIZ MODAL -->
+  <div x-show="quiz.active" x-transition.opacity class="fixed inset-0 max-w-[430px] mx-auto bg-[#131F24] z-50 flex flex-col justify-between safe-pt safe-bottom-bar px-4">
+    <!-- Quiz Üst Bar: Çıkış, İlerleme Çubuğu, Can -->
+    <div>
+      <div class="flex items-center space-x-3 py-2">
+        <button @click="closeQuiz()" class="text-gray-400 text-xl font-black px-1">✕</button>
+        <div class="flex-1 bg-[#202F36] h-3.5 rounded-full overflow-hidden p-0.5">
+          <div class="bg-[#58CC02] h-full rounded-full transition-all duration-300"
+            :style="`width: ${((quiz.index) / Math.max(1, quiz.items.length)) * 100}%`"></div>
+        </div>
+        <div class="flex items-center space-x-1 text-xs font-extrabold text-[#FF4B4B]">
+          <span>❤️</span>
+          <span x-text="state.settings.examMode ? state.hearts : '∞'"></span>
+        </div>
+      </div>
+
+      <!-- Konu Etiketi ve Hata Tekrar Rozeti -->
+      <div class="flex items-center justify-between mt-2">
+        <span class="text-[11px] font-extrabold uppercase tracking-wider text-[#1CB0F6] bg-[#182B36] px-2.5 py-1 rounded-lg truncate max-w-[75%]"
+          x-text="currentQ()?.topic"></span>
+        <span x-show="isMistakeQuestion(currentQ()?.id)" class="text-[10px] font-extrabold bg-[#38191C] text-[#FF4B4B] px-2 py-1 rounded-lg">
+          🔁 HATA TEKRARI
+        </span>
+      </div>
+
+      <!-- Soru Metni -->
+      <div class="mt-4 text-base font-extrabold leading-relaxed text-white" x-text="currentQ()?.q"></div>
+
+      <!-- Şıklar -->
+      <div class="mt-4 space-y-2.5 overflow-y-auto max-h-[52vh] pb-4">
+        <template x-for="(opt, oIdx) in (currentQ()?.opts || [])" :key="oIdx">
+          <button @click="selectOption(oIdx)"
+            :disabled="quiz.checked"
+            :class="getOptionClass(oIdx)"
+            class="w-full text-left p-3.5 rounded-2xl text-xs font-bold flex items-start space-x-3 transition">
+            <span class="w-6 h-6 rounded-lg border border-current flex items-center justify-center font-black shrink-0"
+              x-text="['A','B','C','D','E'][oIdx]"></span>
+            <span class="leading-snug pt-0.5" x-text="opt"></span>
+          </button>
+        </template>
+      </div>
+    </div>
+
+    <!-- Alt Kontrol / Geri Bildirim Çekmecesi -->
+    <div class="pt-2">
+      <!-- Kontrol Et Butonu -->
+      <button x-show="!quiz.checked"
+        @click="checkAnswer()"
+        :disabled="quiz.selected === null"
+        :class="quiz.selected !== null ? 'btn-3d-green text-white' : 'bg-[#202F36] text-gray-500'"
+        class="w-full py-3.5 rounded-2xl font-extrabold text-sm uppercase tracking-wider transition">
+        KONTROL ET
+      </button>
+
+      <!-- Doğru / Yanlış Açıklama Kutusu -->
+      <div x-show="quiz.checked" x-transition
+        :class="quiz.isCorrect ? 'bg-[#163318] border-[#58CC02]' : 'bg-[#38191C] border-[#FF4B4B]'"
+        class="border-2 rounded-2xl p-3.5 space-y-2.5">
+        <div class="flex items-center justify-between">
+          <div class="font-black text-sm flex items-center space-x-1.5"
+            :class="quiz.isCorrect ? 'text-[#58CC02]' : 'text-[#FF4B4B]'">
+            <span x-text="quiz.isCorrect ? '✅ Mükemmel!' : '❌ Dikkat! Mevzuat Notu:'"></span>
+          </div>
+          <span class="text-[11px] font-bold text-gray-300" x-text="(quiz.index + 1) + ' / ' + quiz.items.length"></span>
+        </div>
+        <div x-show="!quiz.isCorrect" class="text-xs font-extrabold text-[#58CC02]"
+          x-text="'Doğru Cevap: ' + (['A','B','C','D','E'][currentQ()?.ans]) + ') ' + (currentQ()?.opts[currentQ()?.ans])"></div>
+        <div class="text-xs text-gray-200 leading-relaxed" x-text="currentQ()?.exp"></div>
+        <button @click="nextQuestion()"
+          :class="quiz.isCorrect ? 'btn-3d-green' : 'btn-3d-red'"
+          class="w-full py-3 rounded-xl font-extrabold text-sm text-white uppercase tracking-wider">
+          DEVAM ET
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TUR SONU ÖZET MODALI -->
+  <div x-show="quiz.summary" x-transition.opacity class="fixed inset-0 max-w-[430px] mx-auto bg-[#131F24] z-50 flex flex-col items-center justify-center px-6 text-center space-y-5">
+    <div class="text-6xl">🎉</div>
+    <h2 class="text-2xl font-black text-[#FFC800]">Ders Tamamlandı!</h2>
+    <p class="text-xs text-gray-300" x-text="quiz.title"></p>
+    <div class="grid grid-cols-3 gap-3 w-full">
+      <div class="bg-[#1F2F37] border-2 border-[#FFC800] rounded-2xl p-3">
+        <div class="text-[10px] font-bold text-[#FFC800]">KAZANILAN XP</div>
+        <div class="text-xl font-black mt-1" x-text="'+' + (quiz.correctCount * 10)"></div>
+      </div>
+      <div class="bg-[#1F2F37] border-2 border-[#58CC02] rounded-2xl p-3">
+        <div class="text-[10px] font-bold text-[#58CC02]">BAŞARI</div>
+        <div class="text-xl font-black mt-1" x-text="'%' + Math.round((quiz.correctCount / Math.max(1, quiz.items.length)) * 100)"></div>
+      </div>
+      <div class="bg-[#1F2F37] border-2 border-[#1CB0F6] rounded-2xl p-3">
+        <div class="text-[10px] font-bold text-[#1CB0F6]">DOĞRU</div>
+        <div class="text-xl font-black mt-1" x-text="quiz.correctCount + '/' + quiz.items.length"></div>
+      </div>
+    </div>
+    <button @click="quiz.summary = false" class="btn-3d-green w-full py-3.5 rounded-2xl font-extrabold text-sm uppercase">
+      PATİKAYA DÖN
+    </button>
+  </div>
+
+  <script>
+    const DEFAULT_CURRICULUM = [
+      // A) ORTAK KONULAR (%70 - 70 Soru)
+      { code: "G01", cat: "Genel %70", topic: "1 Sayılı CBK (Bakanlık Teşkilat ve Görevleri)", shortTitle: "1 Sayılı CBK (Md. 97-126)", weight: 8, icon: "🏛️" },
+      { code: "G02", cat: "Genel %70", topic: "657 Sayılı Devlet Memurları Kanunu", shortTitle: "657 Devlet Memurları K.", weight: 8, icon: "👔" },
+      { code: "G03", cat: "Genel %70", topic: "2872 Sayılı Çevre Kanunu", shortTitle: "2872 Çevre Kanunu", weight: 5, icon: "🌿" },
+      { code: "G04", cat: "Genel %70", topic: "5018 Sayılı Kamu Mali Yönetimi Kanunu", shortTitle: "5018 Kamu Mali Yönetimi", weight: 5, icon: "💰" },
+      { code: "G05", cat: "Genel %70", topic: "2577 Sayılı İdari Yargılama Usulü Kanunu", shortTitle: "2577 İYUK", weight: 5, icon: "⚖️" },
+      { code: "G06", cat: "Genel %70", topic: "2709 Sayılı T.C. Anayasası", shortTitle: "2709 T.C. Anayasası", weight: 4, icon: "🇹🇷" },
+      { code: "G07", cat: "Genel %70", topic: "Atatürk İlkeleri ve İnkılap Tarihi", shortTitle: "Atatürk İlkeleri ve İnkılap", weight: 4, icon: "📜" },
+      { code: "G08", cat: "Genel %70", topic: "5393 Sayılı Belediye Kanunu", shortTitle: "5393 Belediye Kanunu", weight: 4, icon: "🏙️" },
+      { code: "G09", cat: "Genel %70", topic: "7552 Sayılı İklim Kanunu", shortTitle: "7552 İklim Kanunu", weight: 4, icon: "🌍" },
+      { code: "G10", cat: "Genel %70", topic: "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu", shortTitle: "6331 İş Sağlığı ve Güvenliği", weight: 4, icon: "🦺" },
+      { code: "G11", cat: "Genel %70", topic: "4483 Sayılı Memurların Yargılanması Kanunu", shortTitle: "4483 Memur Yargılanması", weight: 4, icon: "🔍" },
+      { code: "G12", cat: "Genel %70", topic: "3194 Sayılı İmar Kanunu", shortTitle: "3194 İmar Kanunu", weight: 4, icon: "🏗️" },
+      { code: "G13", cat: "Genel %70", topic: "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu", shortTitle: "4735 İhale Sözleşmeleri K.", weight: 3, icon: "📝" },
+      { code: "G14", cat: "Genel %70", topic: "4982 Sayılı Bilgi Edinme Hakkı Kanunu", shortTitle: "4982 Bilgi Edinme Hakkı", weight: 3, icon: "ℹ️" },
+      { code: "G15", cat: "Genel %70", topic: "6698 Sayılı KVKK", shortTitle: "6698 KVKK", weight: 3, icon: "🔐" },
+      { code: "G16", cat: "Genel %70", topic: "4734 Sayılı Kamu İhale Kanunu", shortTitle: "4734 Kamu İhale Kanunu", weight: 2, icon: "📑" },
+      // B) ŞUBE MÜDÜRÜ TEKNİK (%30 - 30 Soru)
+      { code: "T01", cat: "Teknik %30", topic: "5543 Sayılı İskân Kanunu", shortTitle: "5543 İskân Kanunu", weight: 4, icon: "🏘️" },
+      { code: "T02", cat: "Teknik %30", topic: "775 Sayılı Gecekondu Kanunu", shortTitle: "775 Gecekondu Kanunu", weight: 4, icon: "🏚️" },
+      { code: "T03", cat: "Teknik %30", topic: "3621 Sayılı Kıyı Kanunu", shortTitle: "3621 Kıyı Kanunu", weight: 4, icon: "🌊" },
+      { code: "T04", cat: "Teknik %30", topic: "4708 Sayılı Yapı Denetimi Hakkında Kanun", shortTitle: "4708 Yapı Denetimi K.", weight: 4, icon: "🏢" },
+      { code: "T05", cat: "Teknik %30", topic: "2942 Sayılı Kamulaştırma Kanunu", shortTitle: "2942 Kamulaştırma K.", weight: 4, icon: "📐" },
+      { code: "T06", cat: "Teknik %30", topic: "Sıfır Atık Yönetmeliği", shortTitle: "Sıfır Atık Yönetmeliği", weight: 4, icon: "♻️" },
+      { code: "T07", cat: "Teknik %30", topic: "ÇED Yönetmeliği", shortTitle: "ÇED Yönetmeliği", weight: 3, icon: "🏭" },
+      { code: "T08", cat: "Teknik %30", topic: "Planlı Alanlar İmar Yönetmeliği", shortTitle: "Planlı Alanlar İmar Yön.", weight: 3, icon: "🗺️" }
+    ];
+
+    // 24 Konunun tamamı için gömülü başlangıç GYS soruları
+    const SEED_QUESTIONS = [
+      { id: 101, cat: "Genel %70", topic: "1 Sayılı CBK (Bakanlık Teşkilat ve Görevleri)", weight: 8, q: "1 sayılı Cumhurbaşkanlığı Kararnamesine göre aşağıdakilerden hangisi Çevre, Şehircilik ve İklim Değişikliği Bakanlığının hizmet birimlerinden biri değildir?", opts: ["Yerel Yönetimler Genel Müdürlüğü", "Milli Emlak Genel Müdürlüğü", "Mesleki Hizmetler Genel Müdürlüğü", "İller Bankası Anonim Şirketi", "Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğü"], ans: 3, exp: "İller Bankası A.Ş. Bakanlığın bağlı kuruluşu/ilgili kuruluşu statüsündedir; doğrudan merkez hizmet birimi değildir (CBK Md. 100)." },
+      { id: 102, cat: "Genel %70", topic: "657 Sayılı Devlet Memurları Kanunu", weight: 8, q: "657 sayılı Kanuna göre aday memurluk süresi en az ve en çok ne kadardır?", opts: ["6 ay - 1 yıl", "1 yıl - 2 yıl", "1 yıl - 3 yıl", "6 ay - 2 yıl", "2 yıl - 3 yıl"], ans: 1, exp: "657 sayılı DMK Madde 54 uyarınca adaylık süresi bir yıldan az iki yıldan çok olamaz." },
+      { id: 103, cat: "Genel %70", topic: "2872 Sayılı Çevre Kanunu", weight: 5, q: "2872 sayılı Çevre Kanunu'na göre çevrenin korunması ve kirliliğin önlenmesi amacıyla kullanılan temel ilkelerden 'kirleten öder' ilkesi uyarınca harcamalar kime aittir?", opts: ["Sadece Bakanlığa", "İlgili Belediyeye", "Kirletene veya bozulmaya neden olana", "Hazine ve Maliye Bakanlığına", "Valiliğe"], ans: 2, exp: "2872 sayılı Kanun Madde 3/g uyarınca kirlenme ve bozulmanın önlenmesi, sınırlandırılması ve giderilmesi harcamaları kirletene aittir." },
+      { id: 104, cat: "Genel %70", topic: "5018 Sayılı Kamu Mali Yönetimi Kanunu", weight: 5, q: "5018 sayılı Kanuna göre bütçe ödeneklerinin kullanılmasında harcama talimatı verme yetkisi kime aittir?", opts: ["Muhasebe Yetkilisi", "Gerçekleştirme Görevlisi", "Üst Yönetici", "Harcama Yetkilisi", "İç Denetçi"], ans: 3, exp: "5018 sayılı Kanun Madde 31-32 uyarınca bütçeden harcama yapılabilmesi harcama yetkilisinin harcama talimatı vermesiyle mümkündür." },
+      { id: 105, cat: "Genel %70", topic: "2577 Sayılı İdari Yargılama Usulü Kanunu", weight: 5, q: "2577 sayılı İYUK'a göre özel kanunlarında ayrı süre gösterilmeyen hallerde Danıştayda ve idare mahkemelerinde dava açma süresi kaç gündür?", opts: ["15 gün", "30 gün", "45 gün", "60 gün", "90 gün"], ans: 3, exp: "2577 sayılı İYUK Madde 7 uyarınca Danıştayda ve idare mahkemelerinde genel dava açma süresi 60 gündür (vergi mahkemelerinde 30 gün)." },
+      { id: 106, cat: "Genel %70", topic: "2709 Sayılı T.C. Anayasası", weight: 4, q: "1982 Anayasası'na göre Cumhurbaşkanı yardımcıları ve bakanlar kime karşı sorumludur?", opts: ["TBMM'ye", "Anayasa Mahkemesine", "Cumhurbaşkanına", "Danıştaya", "Yargıtaya"], ans: 2, exp: "Anayasa Madde 106 uyarınca Cumhurbaşkanı yardımcıları ve bakanlar, Cumhurbaşkanına karşı sorumludur." },
+      { id: 107, cat: "Genel %70", topic: "Atatürk İlkeleri ve İnkılap Tarihi", weight: 4, q: "Misak-ı Milli kararları aşağıdaki meclis veya kongrelerin hangisinde kabul edilmiştir?", opts: ["Erzurum Kongresi", "Sivas Kongresi", "Son Osmanlı Mebusan Meclisi", "I. TBMM", "Amasya Görüşmeleri"], ans: 2, exp: "Misak-ı Milli 28 Ocak 1920'de Son Osmanlı Mebusan Meclisi'nde kabul edilmiştir." },
+      { id: 108, cat: "Genel %70", topic: "5393 Sayılı Belediye Kanunu", weight: 4, q: "5393 sayılı Belediye Kanunu'na göre bir yerleşim yerinde belediye kurulabilmesi için nüfusun en az kaç olması gerekir?", opts: ["2.000", "5.000", "10.000", "20.000", "50.000"], ans: 1, exp: "5393 sayılı Kanun Madde 4 uyarınca nüfusu 5.000 ve üzerinde olan yerleşim birimlerinde belediye kurulabilir." },
+      { id: 109, cat: "Genel %70", topic: "7552 Sayılı İklim Kanunu", weight: 4, q: "7552 sayılı İklim Kanunu kapsamında sera gazı emisyonlarının azaltımı ve net sıfır emisyon hedefi doğrultusunda ulusal koordinasyonu sağlayan temel mekanizma aşağıdakilerden hangisidir?", opts: ["Emisyon Ticaret Sistemi (ETS) ve İklim Değişikliği Başkanlığı koordinasyonu", "Yalnızca Büyükşehir Belediyeleri", "İl Özel İdareleri", "Kıyı Emniyeti Genel Müdürlüğü", "Tapu ve Kadastro Genel Müdürlüğü"], ans: 0, exp: "7552 sayılı İklim Kanunu ulusal net sıfır emisyon hedefi, ETS ve İklim Değişikliği Başkanlığı koordinasyon esaslarını düzenler." },
+      { id: 110, cat: "Genel %70", topic: "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu", weight: 4, q: "6331 sayılı Kanuna göre çok tehlikeli sınıfta yer alan işyerlerinde acil durum planları en geç kaç yılda bir yenilenir?", opts: ["1 yıl", "2 yıl", "3 yıl", "4 yıl", "6 yıl"], ans: 1, exp: "Acil durum planları; çok tehlikeli sınıfta 2, tehlikeli sınıfta 4, az tehlikeli sınıfta 6 yılda bir yenilenir." },
+      { id: 111, cat: "Genel %70", topic: "4483 Sayılı Memurların Yargılanması Kanunu", weight: 4, q: "4483 sayılı Kanuna göre yetkili merci, soruşturma izni konusundaki kararını suçun öğrenilmesinden itibaren ön inceleme dahil en geç kaç gün içinde verir (zorunlu ek süre hariç)?", opts: ["15 gün", "30 gün", "45 gün", "60 gün", "90 gün"], ans: 1, exp: "4483 sayılı Kanun Madde 7 uyarınca yetkili merci 30 gün içinde karar verir; zorunlu hallerde 15 günü geçmemek üzere bir defa uzatılabilir." },
+      { id: 112, cat: "Genel %70", topic: "3194 Sayılı İmar Kanunu", weight: 4, q: "3194 sayılı İmar Kanunu'na göre Düzenleme Ortaklık Payı (DOP) oranı, düzenlemeye tabi tutulan yerlerin düzenlemeden önceki yüzölçümünün en fazla yüzde kaçı kadar olabilir?", opts: ["%35", "%40", "%45", "%50", "%25"], ans: 2, exp: "3194 sayılı İmar Kanunu Madde 18 uyarınca DOP oranı %45'i geçemez." },
+      { id: 113, cat: "Genel %70", topic: "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu", weight: 3, q: "4735 sayılı Kanuna göre yapım işlerinde birim fiyat sözleşmelerde, sözleşme bedelinin yüzde kaçına kadar oran dahilinde süre uzatımı ve iş artışı yapılabilir?", opts: ["%10", "%20", "%30", "%40", "%50"], ans: 1, exp: "4735 sayılı Kanun Madde 24 uyarınca yapım işlerinde birim fiyat sözleşmelerde %20'ye (Cumhurbaşkanı kararıyla %40'a) kadar iş artışı yapılabilir." },
+      { id: 114, cat: "Genel %70", topic: "4982 Sayılı Bilgi Edinme Hakkı Kanunu", weight: 3, q: "4982 sayılı Kanuna göre kurum ve kuruluşlar bilgi edinme başvurularını kural olarak kaç iş günü içinde cevaplandırır?", opts: ["7 iş günü", "10 iş günü", "15 iş günü", "30 iş günü", "60 iş günü"], ans: 2, exp: "4982 sayılı Kanun Madde 11 uyarınca başvurular 15 iş günü içinde (başka kurumdan görüş alınacaksa 30 iş günü) cevaplandırılır." },
+      { id: 115, cat: "Genel %70", topic: "6698 Sayılı KVKK", weight: 3, q: "6698 sayılı KVKK'ya göre veri sorumlusu, kendisine yöneltilen başvuruları en geç kaç gün içinde ücretsiz olarak sonuçlandırır?", opts: ["10 gün", "15 gün", "30 gün", "45 gün", "60 gün"], ans: 2, exp: "6698 sayılı KVKK Madde 13 uyarınca veri sorumlusu talepleri en geç 30 gün içinde sonuçlandırır." },
+      { id: 116, cat: "Genel %70", topic: "4734 Sayılı Kamu İhale Kanunu", weight: 2, q: "4734 sayılı Kamu İhale Kanunu'na göre aşağıdakilerden hangisi temel ihale usullerinden biridir?", opts: ["Çerçeve Anlaşma", "Dinamik Alım Sistemi", "Belli İstekliler Arasında İhale Usulü", "Elektronik Eksiltme", "Doğrudan Temin"], ans: 2, exp: "4734 sayılı Kanun Madde 18'e göre temel ihale usulleri: Açık ihale, Belli istekliler arasında ihale ve Pazarlık usulüdür." },
+      { id: 201, cat: "Teknik %30", topic: "5543 Sayılı İskân Kanunu", weight: 4, q: "5543 sayılı İskân Kanunu'na göre iskân edilen ailelere verilen taşınmaz mallar, tahsis tarihinden itibaren kaç yıl süreyle hiçbir suretle satılamaz, bağışlanamaz ve haczedilemez?", opts: ["3 yıl", "5 yıl", "10 yıl", "15 yıl", "20 yıl"], ans: 2, exp: "5543 sayılı İskân Kanunu Madde 21 uyarınca verilen taşınmazlar 10 yıl süreyle satılamaz, bağışlanamaz ve haczedilemez." },
+      { id: 202, cat: "Teknik %30", topic: "775 Sayılı Gecekondu Kanunu", weight: 4, q: "775 sayılı Gecekondu Kanunu uyarınca tahsis edilen arsalar üzerine hak sahiplerince ne kadar süre içinde bina yapımına başlanması zorunludur?", opts: ["6 ay", "1 yıl", "2 yıl", "3 yıl", "5 yıl"], ans: 1, exp: "775 sayılı Kanun Madde 27 uyarınca tahsis tarihinden itibaren 1 yıl içinde bina yapımına başlanması şarttır." },
+      { id: 203, cat: "Teknik %30", topic: "3621 Sayılı Kıyı Kanunu", weight: 4, q: "3621 sayılı Kıyı Kanunu'na göre uygulama imar planı yapılacak yerlerde sahil şeridinin derinliği kıyı kenar çizgisinden itibaren en az kaç metredir?", opts: ["20 metre", "50 metre", "100 metre", "150 metre", "200 metre"], ans: 2, exp: "3621 sayılı Kıyı Kanunu Madde 4 uyarınca sahil şeridi kıyı kenar çizgisinden itibaren yatay olarak en az 100 metre genişliğindeki alandır." },
+      { id: 204, cat: "Teknik %30", topic: "4708 Sayılı Yapı Denetimi Hakkında Kanun", weight: 4, q: "4708 sayılı Kanuna göre yapı denetim kuruluşlarının yapıların taşıyıcı sisteminden dolayı sorumluluk süresi, yapı kullanma izninin alındığı tarihten itibaren kaç yıldır?", opts: ["2 yıl", "5 yıl", "10 yıl", "15 yıl", "20 yıl"], ans: 3, exp: "4708 sayılı Kanun Madde 3 uyarınca taşıyıcı sistemden dolayı 15 yıl, taşıyıcı olmayan diğer kısımlardan dolayı 2 yıl sorumluluk vardır." },
+      { id: 205, cat: "Teknik %30", topic: "2942 Sayılı Kamulaştırma Kanunu", weight: 4, q: "2942 sayılı Kamulaştırma Kanunu'na göre kamulaştırma işlemlerinin tamamlanmasından itibaren idarece kaç yıl içinde kamulaştırma amacına uygun hiçbir işlem yapılmazsa eski malik geri alma hakkını kullanabilir?", opts: ["1 yıl", "3 yıl", "5 yıl", "10 yıl", "15 yıl"], ans: 2, exp: "2942 sayılı Kanun Madde 23 uyarınca kamulaştırma bedelinin kesinleşmesinden itibaren 5 yıl içinde amaca uygun işlem yapılmazsa geri alma hakkı doğar." },
+      { id: 206, cat: "Teknik %30", topic: "Sıfır Atık Yönetmeliği", weight: 4, q: "Sıfır Atık Yönetmeliği'ne göre kağıt-karton atıkların biriktirildiği ekipmanlarda kullanılan standart renk aşağıdakilerden hangisidir?", opts: ["Mavi", "Sarı", "Yeşil", "Gri", "Kahverengi"], ans: 0, exp: "Sıfır Atık Yönetmeliği uyarınca Kağıt/Karton için Mavi, Plastik için Sarı, Cam için Yeşil, Metal için Gri, Organik atıklar için Kahverengi kullanılır." },
+      { id: 207, cat: "Teknik %30", topic: "ÇED Yönetmeliği", weight: 3, q: "ÇED Yönetmeliği'ne göre 'ÇED Olumlu' kararı verilen bir projede kaç yıl içinde mücbir sebep olmaksızın yatırıma başlanmazsa karar geçersiz sayılır?", opts: ["2 yıl", "3 yıl", "5 yıl", "7 yıl", "10 yıl"], ans: 3, exp: "ÇED Yönetmeliği uyarınca 'ÇED Olumlu' kararı verilen projelerde 7 yıl içinde yatırıma başlanmaması halinde karar geçersiz sayılır." },
+      { id: 208, cat: "Teknik %30", topic: "Planlı Alanlar İmar Yönetmeliği", weight: 3, q: "Planlı Alanlar İmar Yönetmeliği'ne göre yapı ruhsatı alınan binalarda ruhsat tarihinden itibaren kaç yıl içinde inşaata başlanması ve kaç yıl içinde bitirilmesi zorunludur?", opts: ["1 yıl başlama - 3 yıl bitirme", "2 yıl başlama - 5 yıl bitirme", "2 yıl başlama - 10 yıl bitirme", "3 yıl başlama - 5 yıl bitirme", "1 yıl başlama - 5 yıl bitirme"], ans: 1, exp: "Ruhsat tarihinden itibaren 2 yıl içinde inşaata başlanması ve 5 yıl içinde inşaatın tamamlanması zorunludur." }
+    ];
+
+    function gysApp() {
+      return {
+        activeTab: 'home',
+        filterCat: 'ALL',
+        curriculum: JSON.parse(JSON.stringify(DEFAULT_CURRICULUM)),
+        questions: [],
+        state: {
+          xp: 0,
+          dailyXP: 0,
+          streak: 1,
+          lastActiveDate: null,
+          hearts: 5,
+          totalAnswered: 0,
+          totalCorrect: 0,
+          topicStats: {}, // { topic: { answered: 0, correct: 0 } }
+          mistakes: {},   // { qId: { wrongCount: 1, streak: 0, lastWrong: timestamp } }
+          customWeights: {},
+          settings: {
+            quizSize: 10,
+            dailyGoal: 100,
+            mixMistakes: true,
+            examMode: false,
+            sound: true
+          }
+        },
+        quiz: {
+          active: false,
+          summary: false,
+          title: '',
+          items: [],
+          index: 0,
+          selected: null,
+          checked: false,
+          isCorrect: false,
+          correctCount: 0
+        },
+
+        async initApp() {
+          // 1. LocalStorage'dan kullanıcı durumunu yükle
+          const savedState = localStorage.getItem('gys_duo_state_v1');
+          if (savedState) {
+            try {
+              this.state = { ...this.state, ...JSON.parse(savedState) };
+            } catch (e) {}
+          }
+
+          // Özel ağırlıklar varsa uygula
+          if (this.state.customWeights) {
+            this.curriculum.forEach(c => {
+              if (this.state.customWeights[c.code]) c.weight = this.state.customWeights[c.code];
+            });
+          }
+
+          // Günlük seri kontrolü
+          const today = new Date().toISOString().slice(0, 10);
+          if (this.state.lastActiveDate !== today) {
+            const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+            if (this.state.lastActiveDate === yesterday) {
+              this.state.streak += 1;
+            } else if (this.state.lastActiveDate !== null) {
+              this.state.streak = 1;
+            }
+            this.state.dailyXP = 0;
+            this.state.lastActiveDate = today;
+            this.saveState();
+          }
+
+          // 2. Soru havuzunu yükle (Önce LocalStorage, sonra varsa harici questions.json, yoksa SEED_QUESTIONS)
+          const savedQuestions = localStorage.getItem('gys_duo_questions_v1');
+          if (savedQuestions) {
+            try {
+              this.questions = JSON.parse(savedQuestions);
+            } catch (e) {}
+          }
+          if (!this.questions || this.questions.length === 0) {
+            this.questions = [...SEED_QUESTIONS];
+          }
+
+          // Aynı klasörde questions.json varsa otomatik birleştir
+          try {
+            const res = await fetch('./questions.json', { cache: 'no-store' });
+            if (res.ok) {
+              const extData = await res.json();
+              if (Array.isArray(extData) && extData.length > 0) {
+                this.mergeQuestions(extData);
+              }
+            }
+          } catch (_) {}
+        },
+
+        saveState() {
+          localStorage.setItem('gys_duo_state_v1', JSON.stringify(this.state));
+        },
+
+        mergeQuestions(newItems) {
+          const map = new Map();
+          this.questions.forEach(q => map.set(q.id, q));
+          newItems.forEach((q, idx) => {
+            const id = q.id || (10000 + idx);
+            map.set(id, { ...q, id });
+          });
+          this.questions = Array.from(map.values());
+          localStorage.setItem('gys_duo_questions_v1', JSON.stringify(this.questions));
+        },
+
+        filteredTopics() {
+          const list = this.filterCat === 'ALL'
+            ? this.curriculum
+            : this.curriculum.filter(c => c.cat === this.filterCat);
+          return [...list].sort((a, b) => b.weight - a.weight);
+        },
+
+        getQuestionCount(topicName) {
+          return this.questions.filter(q => q.topic === topicName).length;
+        },
+
+        getTopicMastery(topicName) {
+          const st = this.state.topicStats[topicName];
+          if (!st || !st.answered) return 0;
+          return Math.round((st.correct / st.answered) * 100);
+        },
+
+        overallAccuracy() {
+          if (!this.state.totalAnswered) return 0;
+          return Math.round((this.state.totalCorrect / this.state.totalAnswered) * 100);
+        },
+
+        estimatedGysScore() {
+          let totalScore = 0;
+          this.curriculum.forEach(c => {
+            const st = this.state.topicStats[c.topic];
+            const ratio = (st && st.answered > 0) ? (st.correct / st.answered) : 0.5;
+            totalScore += c.weight * ratio;
+          });
+          return totalScore.toFixed(1);
+        },
+
+        weakestTopics() {
+          return this.curriculum
+            .map(c => ({
+              ...c,
+              acc: this.getTopicMastery(c.topic),
+              ans: this.state.topicStats[c.topic]?.answered || 0
+            }))
+            .sort((a, b) => (a.acc - b.acc) || (b.weight - a.weight))
+            .slice(0, 3);
+        },
+
+        mistakeList() {
+          const list = [];
+          for (const [idStr, meta] of Object.entries(this.state.mistakes)) {
+            const qObj = this.questions.find(q => String(q.id) === String(idStr));
+            if (qObj) list.push({ qObj, ...meta });
+          }
+          return list.sort((a, b) => (b.qObj.weight - a.qObj.weight) || (b.wrongCount - a.wrongCount));
+        },
+
+        isMistakeQuestion(qId) {
+          return Boolean(qId && this.state.mistakes[qId]);
+        },
+
+        // Konu Bazlı Ders Başlat (%30 Hata Serpiştirmeli)
+        startTopicQuiz(topicItem) {
+          if (this.state.settings.examMode && this.state.hearts <= 0) {
+            this.state.hearts = 5;
+          }
+          const size = this.state.settings.quizSize || 10;
+          let pool = this.questions.filter(q => q.topic === topicItem.topic);
+          if (pool.length === 0) pool = [...this.questions];
+
+          let selected = [];
+          if (this.state.settings.mixMistakes) {
+            const topicMistakes = this.mistakeList()
+              .map(m => m.qObj)
+              .filter(q => q.topic === topicItem.topic || q.cat === topicItem.cat);
+            const mistakeQuota = Math.min(topicMistakes.length, Math.max(1, Math.floor(size * 0.3)));
+            selected.push(...this.shuffle(topicMistakes).slice(0, mistakeQuota));
+          }
+
+          const remaining = pool.filter(q => !selected.some(s => s.id === q.id));
+          selected.push(...this.shuffle(remaining).slice(0, size - selected.length));
+
+          this.launchQuiz(topicItem.shortTitle, this.shuffle(selected));
+        },
+
+        // Sadece Hataları Eritme Testi
+        startMistakeQuiz() {
+          const mItems = this.mistakeList().map(m => m.qObj).slice(0, 15);
+          if (mItems.length === 0) return;
+          this.launchQuiz('Hata Eritme Özel Turu', this.shuffle(mItems));
+        },
+
+        // GYS Ağırlıklı Genel Simülasyon
+        startWeightedExam() {
+          const picked = [];
+          this.curriculum.forEach(c => {
+            const topicPool = this.questions.filter(q => q.topic === c.topic);
+            if (topicPool.length > 0) {
+              picked.push(...this.shuffle(topicPool).slice(0, c.weight));
+            }
+          });
+          this.launchQuiz('GYS Ağırlıklı Karma Deneme', this.shuffle(picked).slice(0, 25));
+        },
+
+        launchQuiz(title, items) {
+          if (!items || items.length === 0) return;
+          this.quiz = {
+            active: true,
+            summary: false,
+            title,
+            items,
+            index: 0,
+            selected: null,
+            checked: false,
+            isCorrect: false,
+            correctCount: 0
+          };
+        },
+
+        currentQ() {
+          return this.quiz.items[this.quiz.index] || null;
+        },
+
+        selectOption(idx) {
+          if (this.quiz.checked) return;
+          this.quiz.selected = idx;
+          if (navigator.vibrate) navigator.vibrate(10);
+        },
+
+        getOptionClass(idx) {
+          if (!this.quiz.checked) {
+            return this.quiz.selected === idx ? 'btn-3d-selected' : 'btn-3d-card text-gray-100';
+          }
+          const ans = this.currentQ()?.ans;
+          if (idx === ans) return 'btn-3d-correct';
+          if (idx === this.quiz.selected && idx !== ans) return 'btn-3d-wrong';
+          return 'btn-3d-card opacity-50';
+        },
+
+        checkAnswer() {
+          if (this.quiz.selected === null || this.quiz.checked) return;
+          const q = this.currentQ();
+          const correct = this.quiz.selected === q.ans;
+          this.quiz.checked = true;
+          this.quiz.isCorrect = correct;
+
+          // İstatistik güncelle
+          this.state.totalAnswered += 1;
+          if (!this.state.topicStats[q.topic]) {
+            this.state.topicStats[q.topic] = { answered: 0, correct: 0 };
+          }
+          this.state.topicStats[q.topic].answered += 1;
+
+          if (correct) {
+            this.quiz.correctCount += 1;
+            this.state.totalCorrect += 1;
+            this.state.topicStats[q.topic].correct += 1;
+            this.state.xp += 10;
+            this.state.dailyXP += 10;
+            this.playTone(true);
+
+            // Hata havuzundaysa seri artır, 2 olunca sil
+            if (this.state.mistakes[q.id]) {
+              this.state.mistakes[q.id].streak += 1;
+              if (this.state.mistakes[q.id].streak >= 2) {
+                delete this.state.mistakes[q.id];
+              }
+            }
+          } else {
+            this.playTone(false);
+            if (navigator.vibrate) navigator.vibrate([60, 40, 80]);
+            if (this.state.settings.examMode && this.state.hearts > 0) {
+              this.state.hearts -= 1;
+            }
+            // Hata havuzuna ekle veya sıfırla
+            const prev = this.state.mistakes[q.id] || { wrongCount: 0, streak: 0 };
+            this.state.mistakes[q.id] = {
+              wrongCount: prev.wrongCount + 1,
+              streak: 0,
+              lastWrong: Date.now()
+            };
+          }
+          this.saveState();
+        },
+
+        nextQuestion() {
+          if (this.state.settings.examMode && this.state.hearts <= 0) {
+            alert('Sınav modunda canların tükendi! Tur sonlandırılıyor.');
+            this.state.hearts = 5;
+            this.quiz.active = false;
+            this.quiz.summary = true;
+            this.saveState();
+            return;
+          }
+          if (this.quiz.index + 1 < this.quiz.items.length) {
+            this.quiz.index += 1;
+            this.quiz.selected = null;
+            this.quiz.checked = false;
+            this.quiz.isCorrect = false;
+          } else {
+            this.quiz.active = false;
+            this.quiz.summary = true;
+          }
+        },
+
+        closeQuiz() {
+          this.quiz.active = false;
+        },
+
+        // Web Audio API ile sıfır harici dosyayla Duolingo ses efekti
+        playTone(isSuccess) {
+          if (!this.state.settings.sound) return;
+          try {
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            if (isSuccess) {
+              osc.frequency.setValueAtTime(587.33, ctx.currentTime);
+              osc.frequency.setValueAtTime(880, ctx.currentTime + 0.09);
+            } else {
+              osc.type = 'sawtooth';
+              osc.frequency.setValueAtTime(220, ctx.currentTime);
+              osc.frequency.setValueAtTime(165, ctx.currentTime + 0.12);
+            }
+            gain.gain.setValueAtTime(0.12, ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.25);
+            osc.start();
+            osc.stop(ctx.currentTime + 0.25);
+          } catch (_) {}
+        },
+
+        shuffle(arr) {
+          const a = [...arr];
+          for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+          }
+          return a;
+        },
+
+        // Yönetim Paneli İşlevleri
+        importQuestionsJson(event) {
+          const file = event.target.files[0];
+          if (!file) return;
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            try {
+              const parsed = JSON.parse(e.target.result);
+              if (Array.isArray(parsed)) {
+                this.mergeQuestions(parsed);
+                alert(parsed.length + ' adet soru başarıyla soru bankasına eklendi!');
+              }
+            } catch (err) {
+              alert('Geçersiz JSON formatı!');
+            }
+          };
+          reader.readAsText(file);
+        },
+
+        exportBackup() {
+          const payload = {
+            state: this.state,
+            questions: this.questions
+          };
+          const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'gys_duo_yedek.json';
+          a.click();
+        },
+
+        importBackup(event) {
+          const file = event.target.files[0];
+          if (!file) return;
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            try {
+              const data = JSON.parse(e.target.result);
+              if (data.state) this.state = data.state;
+              if (data.questions) this.questions = data.questions;
+              this.saveState();
+              localStorage.setItem('gys_duo_questions_v1', JSON.stringify(this.questions));
+              alert('Yedek başarıyla geri yüklendi!');
+            } catch (_) {
+              alert('Yedek dosyası okunamadı!');
+            }
+          };
+          reader.readAsText(file);
+        },
+
+        saveCustomWeights() {
+          const wMap = {};
+          this.curriculum.forEach(c => { wMap[c.code] = Number(c.weight) || 1; });
+          this.state.customWeights = wMap;
+          this.saveState();
+        },
+
+        resetWeights() {
+          this.curriculum = JSON.parse(JSON.stringify(DEFAULT_CURRICULUM));
+          this.state.customWeights = {};
+          this.saveState();
+        },
+
+        resetAllProgress() {
+          if (!confirm('Tüm XP, konu istatistikleri ve hata kayıtların sıfırlansın mı?')) return;
+          localStorage.removeItem('gys_duo_state_v1');
+          location.reload();
+        }
+      };
+    }
+  </script>
+</body>
+</html>
