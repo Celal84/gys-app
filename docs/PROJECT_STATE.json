@@ -5,7 +5,7 @@
   "repository": "https://github.com/Celal84/gys-app",
   "baselineCommit": "ab731aa",
   "workBranch": "codex/gys-verified-mvp",
-  "remoteChangesMade": false,
+  "remoteChangesMade": true,
   "productionDeploymentMade": false,
   "productStatus": "MVPWorkingPartialContent",
   "phase0": "Complete",
@@ -82,10 +82,22 @@
     "lint": "Passed",
     "productionBuild": "Passed",
     "realIPhoneSafari": "NotTested",
-    "githubActionsRemote": "NotRun",
+    "githubActionsRemote": {
+      "observedStatus": "in_progress",
+      "observedAt": "2026-11-06T13:01:46.120485+00:00",
+      "runId": 42221869666,
+      "commit": "75d295ab7518a0cf04c43f8aba59fffd89453721"
+    },
     "productionDependencyVulnerabilities": 0,
     "developmentDependencyVulnerabilities": 12,
     "pythonSourceTestsPassed": 9
   },
-  "phase4": "Initial archive verified:9official booklets,480answer matches,580positions;Accepted0,rights/scope/dedup pending"
+  "phase4": "Initial archive verified:9official booklets,480answer matches,580positions;Accepted0,rights/scope/dedup pending",
+  "pullRequest": {
+    "url": "https://github.com/Celal84/gys-app/pull/1",
+    "number": 1,
+    "draft": true,
+    "merged": false,
+    "sourceCommit": "75d295ab7518a0cf04c43f8aba59fffd89453721"
+  }
 }

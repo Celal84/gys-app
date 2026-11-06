@@ -14,7 +14,7 @@
 | Diğer resmî kaynak envanteri | 472 kontrol,0 hata | 23 mevzuat kaynağına bağ; hukuki tam kabul değildir |
 | Bağımlılık denetimi | Kritik/yüksek0 | Geliştirmede10 orta+2 düşük bulgu sürüyor |
 | Gerçek iPhone Safari | **Yapılmadı** | Chromium mobil görünümü gerçek iPhone testi sayılmaz |
-| GitHub Actions | Yapılandırıldı | Uzak çalışma sonucu ayrıca doğrulanmadan geçti sayılmaz |
+| GitHub Actions | Uzakta başlatıldı | PR#1,kod commit75d295a;son kayıtlı gözlem in_progress;tamamlanma sonucu ayrıca doğrulanır |
 
 Gerçek paket E2E'si: 657'de beş soruluk çalışma açıldı; ilk soru yanlış,sonraki dört doğru cevaplandı. Yanlıştan sonra bağlantı kesilip sayfa yenilendi; kalıcı seçenek sırası ve kontrol edilmiş cevapla devam edildi. Sonuç **4 doğru,1 yanlış,0 boş** olarak kaydedildi; benzersiz tamamlama **5/18** ve yanlış defteri doğrulandı. Diğer E2E'ler:9 resmî kitapçık bağlantısı ve0 kabul göstergesi,24/16/8filtre,320px taşma,çevrimdışı kabuk,eksik denemenin engeli,eski localStorage baytlarının korunması ve geçersiz yedek öncesinde onay istenmemesi.
 

@@ -54,3 +54,7 @@ Sonraki içerik büyütme adımı: açık kaynak/kapsam istisnalarını çözmek
 ## Çıkmış kaynakların ilk denetimi
 
 Ayrı arşivde6 Drive dosyası okundu;ZIP'teki5kopya aynı özgün baytları içeriyor. Derleme0 tam soru,26 özet ve480 cevap indeksi taşıyor.9 resmî MEB PDF'si indirildi ve480/480 tarihî anahtar eşleşti;2022 PDF'sinde ayrıca100 kod/cevap görüldü.580 pozisyon,benzersiz veya2027'ye uygun580 soru sayılmadı;Accepted0,Nbilinmiyor.2019/2022kitapçıklarında yazılı izin kısıtı var;tam soru metni kamuya aktarılmadı. Uygulamada güvenli resmî bağlantı kataloğu var.2020duyurusu bu alımdaHTTP503;tam kitapçık yok. Ayrıntı:[HISTORICAL_ARCHIVE_REPORT.md](HISTORICAL_ARCHIVE_REPORT.md).
+
+## Kodun incelemeye alınması
+
+Kaynak kodu `codex/gys-verified-mvp` dalına gönderildi ve [taslak PR#1](https://github.com/Celal84/gys-app/pull/1) açıldı. `main` birleştirilmedi,canlı yayın yapılmadı. GitHub Actions uzakta başlatıldı;sonuç ayrı gözlenir. Özel Drive hamları,PDF kitapçıklar,kullanıcı ilerlemesi ve erişim sırları gönderilmedi. Yalnız resmî kanun alıntıları,özgün içerik ve doğrulama kayıtları kaynak paketindedir.

@@ -35,7 +35,7 @@ npm run audit:content
 npm run test:e2e
 ```
 
-Yerel E2E `/usr/bin/chromium` kullanır; farklı sistemde tarayıcı yolunu ayarlayın. CI, Playwright Chromium'u kurar. Uzak GitHub Actions sonucu ayrıca gözlenmeden başarılı sayılmaz.
+Yerel E2E `/usr/bin/chromium` kullanır; farklı sistemde tarayıcı yolunu ayarlayın. CI, Playwright Chromium'u kurar. [Taslak PR #1](https://github.com/Celal84/gys-app/pull/1) üzerinde uzak CI başlatıldı; sonucu ayrıca gözlenmeden başarılı sayılmaz.
 
 ## İçerik ve kaynak
 
