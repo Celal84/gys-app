@@ -1,0 +1,3808 @@
+{
+  "schemaVersion": 1,
+  "status": "Draft",
+  "topicId": "O01",
+  "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+  "learningObjectives": [
+    {
+      "id": "LO-O01-OFFICIAL-98-organization-three-levels",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-98",
+      "subtopic": "1 sayılı CBK m.98",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 98,
+        "articleLabel": "98",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "organization-three-levels",
+      "objectiveDescription": "98. madde merkez, taşra ve yurtdışı teşkilatını birlikte sayar. Mahalli idareler Bakanlığın teşkilat kademesi olarak gösterilmemiştir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0001"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "recall",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.98; resmî UYAP belge114832; tam HTML p[1217]",
+        "sourceExcerpt": "(1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığı; merkez, taşra ve yurtdışı teşkilatından oluşur.[61]",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-99-current-service-unit-2025",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-99",
+      "subtopic": "1 sayılı CBK m.99",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 99,
+        "articleLabel": "99",
+        "paragraph": null,
+        "clause": "s",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "current-service-unit-2025",
+      "objectiveDescription": "99/1-s bendi 16.10.2025 tarihli değişiklikle Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığını sayar. Eski birim adları güncel liste yerine kullanılamaz.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0002"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "version-recognition",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1242]",
+        "sourceExcerpt": "s) (Mülga:RG-10/1/2019-30651-CK-27/28 md.) (Yeniden Düzenleme:RG-16/10/2025-33049-CK-189/7 md.) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığı,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-100-local-staff-inservice",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-100",
+      "subtopic": "1 sayılı CBK m.100",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 100,
+        "articleLabel": "100",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "local-staff-inservice",
+      "objectiveDescription": "100/1-ç, mahalli idare personelinin hizmet içi eğitimini Yerel Yönetimler Genel Müdürlüğüne verir; Bakanlığın kendi eğitim planıyla karıştırılmamalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0003"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1251]",
+        "sourceExcerpt": "ç) Mahalli idareler personelinin hizmet içi eğitimini planlamak ve uygulanmasını takip etmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-101-treasury-property-transactions",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-101",
+      "subtopic": "1 sayılı CBK m.101",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 101,
+        "articleLabel": "101",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "treasury-property-transactions",
+      "objectiveDescription": "Bent, bu dört tasarruf işlemini Hazinenin özel mülkiyetindeki taşınmazlar için birlikte sayar. Devletin hüküm ve tasarrufu altındaki yerler için aynı bentte kiralama ve gerekli hâllerde kullanma izni ayrıca düzenlenir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0004"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "classification",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1262]",
+        "sourceExcerpt": "b) Hazinenin özel mülkiyetindeki taşınmazların satışı, kiralanması, trampası ve üzerinde sınırlı aynî hak tesisi, Devletin hüküm ve tasarrufu altındaki yerlerin kiralanması ve bu yerler için gerekli görülen hallerde kullanma izni verilmesi işlemlerini yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-102-regional-environmental-plan-unit",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-102",
+      "subtopic": "1 sayılı CBK m.102",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 102,
+        "articleLabel": "102",
+        "paragraph": null,
+        "clause": "c",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "regional-environmental-plan-unit",
+      "objectiveDescription": "102/1-c bu planlama görevini Mekânsal Planlama Genel Müdürlüğüne verir. Çevre kirliliğinin yönetimi ile mekânsal plan yapma görevi farklıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0005"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1283]",
+        "sourceExcerpt": "c) Havza ve bölge bazındaki çevre düzeni planları da dâhil her tür ve ölçekteki çevre düzeni planlarının ve imar planlarının yapılmasına ilişkin usul ve esasları belirlemek, havza veya bölge bazında çevre düzeni planlarını yapmak, yaptırmak, onaylamak ve bu planların uygulanmasını ve denetlenmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-103-exhaust-standard-setting",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-103",
+      "subtopic": "1 sayılı CBK m.103",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 103,
+        "articleLabel": "103",
+        "paragraph": null,
+        "clause": "g",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "exhaust-standard-setting",
+      "objectiveDescription": "103/1-g standart ve usul belirleme görevini Çevre Yönetimi Genel Müdürlüğüne verir; belirlenmiş standarda uygunluğu belgelemek ayrı bir görevdir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0006"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1308]",
+        "sourceExcerpt": "g) Motorlu kara taşıtlarının egzoz emisyonlarının kontrolü için idari, mali ve teknik usul ve esaslar ile standartları belirlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-104-exhaust-compliance-certification",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-104",
+      "subtopic": "1 sayılı CBK m.104",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 104,
+        "articleLabel": "104",
+        "paragraph": null,
+        "clause": "e",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "exhaust-compliance-certification",
+      "objectiveDescription": "104/1-e, uygunluğu belgeleme, izleme ve denetleme görevini ÇED, İzin ve Denetim Genel Müdürlüğüne verir. Standart koyma ile uygunluk belgeleme birbirinden ayrılmalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0007"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1330]",
+        "sourceExcerpt": "e) Motorlu kara taşıtları egzoz emisyonlarının belirlenen standartlara uygunluğunu belgelemek, izlemek ve denetlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-105-settlement-law-implementation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-105",
+      "subtopic": "1 sayılı CBK m.105",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 105,
+        "articleLabel": "105",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "settlement-law-implementation",
+      "objectiveDescription": "105/1-ç, 5543 sayılı İskân Kanunu ile Bakanlığa verilen görevleri Yapı İşleri Genel Müdürlüğünün görevleri arasında açıkça sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0008"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1343]",
+        "sourceExcerpt": "ç) 5543 sayılı İskan Kanunu ile Bakanlığa verilen görevleri yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-107-private-building-principles",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-107",
+      "subtopic": "1 sayılı CBK m.107",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 107,
+        "articleLabel": "107",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "private-building-principles",
+      "objectiveDescription": "107/1-b özel kişilere ait yapılara ilişkin bu ilke ve standart görevini Mesleki Hizmetler Genel Müdürlüğüne verir. Kamu kurumlarına ait yapıların genel ilkeleri ise farklı bentte düzenlenmiştir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0009"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1354]",
+        "sourceExcerpt": "b) Gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapılar ile ilgili genel ilke, strateji ve standartların belirlemesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108-ministry-it-current-unit",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108",
+      "subtopic": "1 sayılı CBK m.108",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108",
+        "paragraph": null,
+        "clause": "i",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "ministry-it-current-unit",
+      "objectiveDescription": "108/1-i bilgi işlem hizmetlerini Coğrafi Bilgi Sistemleri Genel Müdürlüğüne verir. Yeniden düzenlenen 117. maddenin acil durum görevleri bu işle karıştırılmamalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0010"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1384]",
+        "sourceExcerpt": "i) Bakanlığın bilgi işlem hizmetlerini yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108A-basin-integrity-soil-unit",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108A",
+      "subtopic": "1 sayılı CBK m.108/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108/A",
+        "paragraph": null,
+        "clause": "a",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "basin-integrity-soil-unit",
+      "objectiveDescription": "108/A-1-a bu görevi Çölleşme ve Erozyonla Mücadele Genel Müdürlüğüne verir. Esas alınan yaklaşım havza bütünlüğüdür.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0011"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1390]",
+        "sourceExcerpt": "a) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; havza bütünlüğü esas alınarak çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projelerin gerektirdiği etüt ve proje işlerini yürütmek, projeleri uygulamak, uygulanmasını izlemek, kurumlara proje desteği sağlamak, bu iş ve işlemlerle ilgili politika ve stratejilerin belirlenmesi amacıyla ilgili kurum ve kuruluşlar arasında işbirliği ve koordinasyon sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109-natural-site-registration-unit",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109",
+      "subtopic": "1 sayılı CBK m.109",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "natural-site-registration-unit",
+      "objectiveDescription": "109/1-b bu alanlara ilişkin usul ve esasları belirleme ile sınırlarını tespit ve tescil etme görevini Tabiat Varlıklarını Koruma Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0012"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1402]",
+        "sourceExcerpt": "b) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerinin tespit, tescil, onay, değişiklik ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tespit ve tescil etmek, yönetmek ve yönetilmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109A-eu-operational-funds-unit",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109A",
+      "subtopic": "1 sayılı CBK m.109/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109/A",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "eu-operational-funds-unit",
+      "objectiveDescription": "109/A-1-b, operasyonel programların yürütülmesi ve fon uygulamasının koordinasyonunu Avrupa Birliği ve Dış İlişkiler Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0013"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1414]",
+        "sourceExcerpt": "b) Avrupa Birliği ile mali ilişkiler çerçevesindeki operasyonel programları yürütmek ve fonların uygulanmasını koordine etmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109B-ministry-staff-personnel-processes",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109B",
+      "subtopic": "1 sayılı CBK m.109/B",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109/B",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "ministry-staff-personnel-processes",
+      "objectiveDescription": "109/B-1-b, Bakanlık personelinin özlük işlemlerini Personel Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0014"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1428]",
+        "sourceExcerpt": "b) Bakanlık personelinin atama, nakil, terfi, emeklilik ve benzeri özlük işlemlerini yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109C-legal-services-659-reference",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109C",
+      "subtopic": "1 sayılı CBK m.109/C",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109/C",
+        "paragraph": null,
+        "clause": "a",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "legal-services-659-reference",
+      "objectiveDescription": "109/C-1-a, 659 sayılı KHK’nin hukuk birimlerine verdiği görevleri Hukuk Hizmetleri Genel Müdürlüğüne bağlar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0015"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109/C; resmî UYAP belge114832; tam HTML p[1435]",
+        "sourceExcerpt": "a) 26/9/2011 tarihli ve 659 sayılı Kanun Hükmünde Kararname hükümlerine göre hukuk birimlerine verilen görevleri yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-110-ministry-inspection-unit",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-110",
+      "subtopic": "1 sayılı CBK m.110",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 110,
+        "articleLabel": "110",
+        "paragraph": null,
+        "clause": "a",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "ministry-inspection-unit",
+      "objectiveDescription": "110/1-a bu görevleri Rehberlik ve Teftiş Başkanlığına verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0016"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1440]",
+        "sourceExcerpt": "a) Bakanlık teşkilatının her türlü faaliyet ve işlemleriyle ilgili olarak teftiş, inceleme ve soruşturmalar yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-111-strategy-financial-reference",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-111",
+      "subtopic": "1 sayılı CBK m.111",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 111,
+        "articleLabel": "111",
+        "paragraph": null,
+        "clause": "a",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "strategy-financial-reference",
+      "objectiveDescription": "111/1-a, 5018 sayılı Kanun ile 5436 sayılı Kanunun 15. maddesini açıkça sayar; ayrıca Cumhurbaşkanlığı kararnameleri ve diğer mevzuata atıf yapar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0017"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "legal-reference",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.111; resmî UYAP belge114832; tam HTML p[1447]",
+        "sourceExcerpt": "a) 10/12/2003 tarihli ve 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu, 22/12/2005 tarihli ve 5436 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılması Hakkında Kanunun 15 inci maddesi, Cumhurbaşkanlığı kararnameleri ve diğer mevzuatla strateji geliştirme ve malî hizmetler birimlerine verilen görevleri yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-composition-count",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-composition-count",
+      "objectiveDescription": "112/2 bir Başkan ve biri hukukçu olmak üzere on yedi üyeyi öngörür; toplam kişi sayısı on sekizdir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0018"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "composition",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]",
+        "sourceExcerpt": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-115-educational-documentation-library",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-115",
+      "subtopic": "1 sayılı CBK m.115",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 115,
+        "articleLabel": "115",
+        "paragraph": null,
+        "clause": "c",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "educational-documentation-library",
+      "objectiveDescription": "115/1-c eğitim amaçlı bilgi-belge, arşiv, dokümantasyon ve kütüphane hizmetlerini Eğitim ve Yayın Dairesi Başkanlığına verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0019"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1478]",
+        "sourceExcerpt": "c) Eğitim amacıyla Bakanlığın görev alanıyla ilgili her türlü bilgi ve belgeyi toplamak, değerlendirmek, yayımlamak, film, slayt, fotoğraf ve benzeri belgeleri hazırlamak, hazırlatmak, arşiv, dokümantasyon ve kütüphane hizmetlerini yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-116-general-records-archive",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-116",
+      "subtopic": "1 sayılı CBK m.116",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 116,
+        "articleLabel": "116",
+        "paragraph": null,
+        "clause": "c",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "general-records-archive",
+      "objectiveDescription": "116/1-c, genel evrak ve arşiv faaliyetlerini Destek Hizmetleri Dairesi Başkanlığına verir. Eğitim amaçlı dokümantasyon göreviyle aynı kapsamda değildir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0020"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1488]",
+        "sourceExcerpt": "c) Genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-117-disaster-civil-defense-coordinate",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-117",
+      "subtopic": "1 sayılı CBK m.117",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 117,
+        "articleLabel": "117",
+        "paragraph": null,
+        "clause": "a",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "disaster-civil-defense-coordinate",
+      "objectiveDescription": "2025 yılında yeniden düzenlenen 117/1-a bu koordinasyon görevini Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığına verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0021"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1494]",
+        "sourceExcerpt": "a) Afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâline ilişkin mevzuat kapsamındaki iş ve işlemleri diğer hizmet birimleri ile koordineli olarak yerine getirmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-118-access-to-information-applications",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-118",
+      "subtopic": "1 sayılı CBK m.118",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 118,
+        "articleLabel": "118",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "access-to-information-applications",
+      "objectiveDescription": "118/1-b bilgi edinme başvurularına yönelik bu tedbir görevini Basın ve Halkla İlişkiler Müşavirliğine verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0022"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.118; resmî UYAP belge114832; tam HTML p[1504]",
+        "sourceExcerpt": "b) 4982 sayılı Bilgi Edinme Hakkı Kanununa göre yapılacak bilgi edinme başvurularını etkin, süratli ve doğru bir şekilde sonuçlandırmak üzere gerekli tedbirleri almak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-119-minister-protocol-ceremonies",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-119",
+      "subtopic": "1 sayılı CBK m.119",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 119,
+        "articleLabel": "119",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "minister-protocol-ceremonies",
+      "objectiveDescription": "119/1-b Bakanın her türlü protokol ve tören işini Özel Kalem Müdürlüğüne verir. Yurtdışı ilişkilerin protokolü ayrıca düzenlenmiştir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0023"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1510]",
+        "sourceExcerpt": "b) Bakanın her türlü protokol ve tören işlerini düzenlemek ve yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-122-revolving-fund-capital-authority",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-122",
+      "subtopic": "1 sayılı CBK m.122",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 122,
+        "articleLabel": "122",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "revolving-fund-capital-authority",
+      "objectiveDescription": "122/1 Bakanlığın döner sermaye kurmaya yetkili olduğunu, miktarın ise Cumhurbaşkanlığınca belirleneceğini düzenler.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0024"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1524]",
+        "sourceExcerpt": "MADDE 122 – (1) Bakanlık döner sermaye kurmaya yetkilidir. Döner sermaye miktarı, Cumhurbaşkanlığınca belirlenir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-126-domestic-foreign-personnel-reference",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-126",
+      "subtopic": "1 sayılı CBK m.126",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 126,
+        "articleLabel": "126",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "domestic-foreign-personnel-reference",
+      "objectiveDescription": "126/1 yerli veya yabancı personel istihdamında 375 sayılı KHK’nin ek 26. maddesine açık atıf yapar. Diğer seçenekler farklı personel veya görev düzenlemelerine ilişkindir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0025"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "legal-reference",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.126; resmî UYAP belge114832; tam HTML p[1539]",
+        "sourceExcerpt": "MADDE 126 - (1) Bakanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 26 ncı maddesi uyarınca yerli veya yabancı personel istihdam edilebilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-97-public-building-demand-condition",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-97",
+      "subtopic": "1 sayılı CBK m.97",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 97,
+        "articleLabel": "97",
+        "paragraph": null,
+        "clause": "e",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "public-building-demand-condition",
+      "objectiveDescription": "Bent, kapsamındaki kamu bina ve tesislerine yönelik işleri “talepleri halinde” düzenler. İstisnalar ve talep koşulu birlikte korunmalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0026"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "condition",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1195]",
+        "sourceExcerpt": "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-97-municipal-gis-integration",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-97",
+      "subtopic": "1 sayılı CBK m.97",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 97,
+        "articleLabel": "97",
+        "paragraph": null,
+        "clause": "i",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "municipal-gis-integration",
+      "objectiveDescription": "Bent, mahalli idare kent bilgi sistemlerinin kurulmasını ve kullanılmasını, Ulusal Coğrafi Bilgi Sistemiyle entegrasyonuyla birlikte ele alır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0027"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "system-relationship",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1201]",
+        "sourceExcerpt": "i) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak, yaptırmak, mahalli idarelerin planlama, harita, altyapı ve üstyapıya ilişkin faaliyetleri ile ilgili kent bilgi sistemlerinin kurulması, kullanılması ve Ulusal Coğrafi Bilgi Sistemi ile entegre olmasını desteklemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-100-local-organizational-vehicle-staff-standards",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-100",
+      "subtopic": "1 sayılı CBK m.100",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 100,
+        "articleLabel": "100",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "local-organizational-vehicle-staff-standards",
+      "objectiveDescription": "100/1-d yerel idarelerin teşkilat, araç ve kadro standartlarının belirlenmesini Yerel Yönetimler Genel Müdürlüğüne verir. Bakanlık içi özlük işlemleriyle karıştırılmamalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0028"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1252]",
+        "sourceExcerpt": "d) Mahalli idarelerin teşkilat, araç ve kadro standartlarını tespit etmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-101-allocation-withdrawal-grounds",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-101",
+      "subtopic": "1 sayılı CBK m.101",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 101,
+        "articleLabel": "101",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "allocation-withdrawal-grounds",
+      "objectiveDescription": "Bent, tahsis amacının ortadan kalkması ve amaç dışı kullanmayı alternatif kaldırma sebepleri olarak sayar; otomatik bir yıllık süre öngörmez.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0029"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "legal-consequence",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1264]",
+        "sourceExcerpt": "ç) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerden kamu hizmeti için kullanılması gerekli olanları; kamu idarelerine tahsis etmek ve tahsis amacının ortadan kalkması veya amaç dışı kullanılması halinde tahsisi kaldırmak; tahsisi kaldırılan taşınmazlar üzerinde Hazine dışındaki kamu idarelerine ait yapı ve tesisleri tasfiye etmek, tasfiyeye ilişkin esas ve usulleri belirlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-101-expropriation-registration-owner",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-101",
+      "subtopic": "1 sayılı CBK m.101",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 101,
+        "articleLabel": "101",
+        "paragraph": null,
+        "clause": "f",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "expropriation-registration-owner",
+      "objectiveDescription": "Hüküm, genel bütçe kapsamındaki idarelerin kamulaştırdığı yerler bakımından Hazine adına tescili öngörür. İdare kapsamı daraltılmadan veya genişletilmeden okunmalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0030"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "registration",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1267]",
+        "sourceExcerpt": "f) Genel bütçe kapsamındaki kamu idarelerinin kamulaştırdığı yerlerin Hazine adına tescilini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-101-public-housing-annual-costs",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-101",
+      "subtopic": "1 sayılı CBK m.101",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 101,
+        "articleLabel": "101",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "public-housing-annual-costs",
+      "objectiveDescription": "Bent, her yıl yurt içi ve yurtdışındaki kamu konutlarının kira-yakıt bedelleri ile işletme, bakım ve onarım esaslarını birlikte sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0031"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "scope",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1265]",
+        "sourceExcerpt": "d) Devlete ait konutları yönetmek ve kamu idarelerine ait konutların yönetimi konusundaki politikaların belirlenmesi amacıyla çalışmalar yapmak, her yıl yurt içi ve yurtdışındaki kamu konutlarının kira ve yakıt bedelleri ile işletme, bakım ve onarım esaslarını tespit etmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-101-national-estate-inspection-staff",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-101",
+      "subtopic": "1 sayılı CBK m.101",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 101,
+        "articleLabel": "101",
+        "paragraph": null,
+        "clause": "l",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "national-estate-inspection-staff",
+      "objectiveDescription": "101/1-l bu görevleri denetmenleri aracılığıyla yürütmeyi ve uygun görülen büyük il merkezlerinde bölgesel denetim grupları kurmayı düzenler.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0032"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "personnel-role",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1275]",
+        "sourceExcerpt": "l) Teşkilat ve görev alanına giren konularda denetmenleri aracılığıyla teftiş, denetim, inceleme ve soruşturma yapmak ve bu işlerin yürütülmesi amacıyla uygun görülen büyük il merkezlerinde bölge düzeyinde denetim yapmak üzere denetim grupları kurmak,[65]",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-102-planning-geotechnical-approval",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-102",
+      "subtopic": "1 sayılı CBK m.102",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 102,
+        "articleLabel": "102",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "planning-geotechnical-approval",
+      "objectiveDescription": "Bent, risk yönetimi ve sakınım planlarına ilişkin kurallarla birlikte plana esas jeolojik ve jeoteknik etütleri düzenler.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0033"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "scope",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1285]",
+        "sourceExcerpt": "d) Risk yönetimi ve sakınım planlarının yapılmasına ve onaylanmasına ilişkin kuralları belirlemek ve izlemek, plana esas jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-102-coastal-boundary-complete-process",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-102",
+      "subtopic": "1 sayılı CBK m.102",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 102,
+        "articleLabel": "102",
+        "paragraph": null,
+        "clause": "i",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "coastal-boundary-complete-process",
+      "objectiveDescription": "Bent, kıyı kenar çizgisinde tespit, onay ve tescilin sağlanmasını birlikte sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0034"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "procedure",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1292]",
+        "sourceExcerpt": "i) Bütünleşik kıyı alanları yönetimi ve planlaması çalışmaları, kıyı alanlarının düzenlenmesine dair iş ve işlemler ile bu alanlara ilişkin jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak, kıyı kenar çizgisini tespit etmek, onaylamak ve tescilini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-102-settlement-boundary-approval",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-102",
+      "subtopic": "1 sayılı CBK m.102",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 102,
+        "articleLabel": "102",
+        "paragraph": null,
+        "clause": "ğ",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "settlement-boundary-approval",
+      "objectiveDescription": "Bent, iki tür alanın sınır tespitine ilişkin usul-esasların belirlenmesi ile tespit edilen sınırların onaylanmasını birlikte görevlendirir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0035"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "procedure",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1289]",
+        "sourceExcerpt": "ğ) Belediyelerin mücavir alanları ile köylerin yerleşik alanlarının sınırlarının tespitine ilişkin usul ve esasları belirlemek ve tespit edilen sınırları onaylamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-103-wastewater-design-joint-ministry",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-103",
+      "subtopic": "1 sayılı CBK m.103",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 103,
+        "articleLabel": "103",
+        "paragraph": null,
+        "clause": "ı",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "wastewater-design-joint-ministry",
+      "objectiveDescription": "103/1-ı, tasarım esas ve kriterlerinin Tarım ve Orman Bakanlığı ile birlikte belirlenmesini ve onay işlemlerinin yürütülmesini düzenler.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0036"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "cooperation",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1311]",
+        "sourceExcerpt": "ı) Atıksu arıtma tesislerinin tasarım esaslarını ve kriterlerini Tarım ve Orman Bakanlığı ile birlikte belirlemek, onay işlemlerini yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-103-nuclear-safety-cooperating-institution",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-103",
+      "subtopic": "1 sayılı CBK m.103",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 103,
+        "articleLabel": "103",
+        "paragraph": null,
+        "clause": "e",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "nuclear-safety-cooperating-institution",
+      "objectiveDescription": "Resmî gözlenen metnin 103/1-e bendi Türkiye Enerji, Nükleer ve Maden Araştırma Kurumunu açıkça adlandırır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0037"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "institution",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1306]",
+        "sourceExcerpt": "e) Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu ile nükleer güvenlik konusunda işbirliği yapmak,[66]",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-103-local-environment-boards-followup",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-103",
+      "subtopic": "1 sayılı CBK m.103",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 103,
+        "articleLabel": "103",
+        "paragraph": null,
+        "clause": "n",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "local-environment-boards-followup",
+      "objectiveDescription": "103/1-n bu görevi Çevre Yönetimi Genel Müdürlüğüne verir. Kurulun “mahalli” olması görevli birimin otomatik olarak Yerel Yönetimler Genel Müdürlüğü olduğu anlamına gelmez.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0038"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1317]",
+        "sourceExcerpt": "n) Mahalli çevre kurullarının çalışmalarını takip etmek ve yönlendirmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-104-clean-air-centres-establishment",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-104",
+      "subtopic": "1 sayılı CBK m.104",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 104,
+        "articleLabel": "104",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "clean-air-centres-establishment",
+      "objectiveDescription": "104/1-d temiz hava merkezlerinin kurulması ve yönetilmesi işlerini ÇED, İzin ve Denetim Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0039"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1329]",
+        "sourceExcerpt": "d) Temiz hava merkezlerinin kurulması ve yönetilmesiyle ilgili iş ve işlemleri yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-104-environment-laboratory-functions",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-104",
+      "subtopic": "1 sayılı CBK m.104",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 104,
+        "articleLabel": "104",
+        "paragraph": null,
+        "clause": "f",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "environment-laboratory-functions",
+      "objectiveDescription": "Bent, çevreyle ilgili ölçüm, izleme, analiz ve kontroller yapacak laboratuvarların kurulması ve akreditasyonunu açıkça kapsar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0040"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "scope",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1331]",
+        "sourceExcerpt": "f) Alıcı ortamları izlemek, buna ilişkin altyapıyı oluşturmak, çevre kirliliği ile ilgili olarak ölçüm ve analiz ölçütlerini belirlemek, uygulamak ve uygulanmasını sağlamak; çevreyle ilgili her türlü ölçüm, izleme, analiz ve kontroller yapacak laboratuvarlar kurmak, kurdurmak, bunların akreditasyon işlemlerini yapmak, yaptırmak; alıcı ortamlar konusunda ölçüm yapacak kuruluşları belirlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-104-european-environment-agency-relations",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-104",
+      "subtopic": "1 sayılı CBK m.104",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 104,
+        "articleLabel": "104",
+        "paragraph": null,
+        "clause": "h",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "european-environment-agency-relations",
+      "objectiveDescription": "Bent, çevre envanteri ve durum raporlarının hazırlanmasıyla Avrupa Çevre Ajansıyla ilişkileri aynı görev başlığında sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0041"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "institution",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1334]",
+        "sourceExcerpt": "h) Çevre envanterini ve çevre durum raporlarını hazırlamak ve Avrupa Çevre Ajansı ile ilişkileri yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-105-permanent-settlement-construction-chain",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-105",
+      "subtopic": "1 sayılı CBK m.105",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 105,
+        "articleLabel": "105",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "permanent-settlement-construction-chain",
+      "objectiveDescription": "Bent, daimi iskân yapılarının etüt ve planlaması ile inşaatını birlikte kapsar; etüt-planlama için onaylamak veya onaylanmasını sağlamak da sayılmıştır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0042"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "procedure",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1344]",
+        "sourceExcerpt": "d) 5543 sayılı Kanun uyarınca daimi iskân için kamu kurum ve kuruluşlarınca yaptırılacak her türlü yapılara ve konutlara ilişkin etüt ve planlama işlerini yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, daimi iskân için yaptırılacak her türlü yapıların inşaatlarını yapmak veya yaptırmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-107-building-permits-address-database",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-107",
+      "subtopic": "1 sayılı CBK m.107",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 107,
+        "articleLabel": "107",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "building-permits-address-database",
+      "objectiveDescription": "107/1-ç, ruhsat ve yapı kullanma izinleri bakımından ulusal adres veri tabanını açıkça belirtir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0043"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "system-relationship",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1356]",
+        "sourceExcerpt": "ç) Planlı ve plansız alanlardaki projelendirme ve yapılaşmaya, yapı ruhsatı ve yapı kullanma izinlerinin ulusal adres veri tabanına dayalı olarak düzenlenmesine ilişkin usul, esas ve standartları belirlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-107-technical-expert-qualification-scope",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-107",
+      "subtopic": "1 sayılı CBK m.107",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 107,
+        "articleLabel": "107",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "technical-expert-qualification-scope",
+      "objectiveDescription": "Bentteki iş grubu planlama, projelendirme, yapım ve kamulaştırmadır; bilirkişiliğin bütün alanlarını otomatik olarak bu bende dahil etmez.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0044"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "scope",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1357]",
+        "sourceExcerpt": "d) Planlama, projelendirme, yapım ve kamulaştırma iş ve işlemlerinde görev alacak bilirkişilerin niteliklerine ve mesleki yeterliklerine ilişkin usul ve esasları belirlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-107-site-chief-supervision-channel",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-107",
+      "subtopic": "1 sayılı CBK m.107",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 107,
+        "articleLabel": "107",
+        "paragraph": null,
+        "clause": "g",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "site-chief-supervision-channel",
+      "objectiveDescription": "Bent, kişilerin durumuna göre ilgili idare veya meslek kuruluşu denetimini öngörür. Tek ve koşulsuz bir özel kuruluş yetkisi kurmaz.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0045"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "procedure",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1360]",
+        "sourceExcerpt": "g) Yapım işlerinde görev alan şantiye şefleri, fen elemanları ve yetki belgeli ustaların faaliyetlerinin, durumlarına göre, ilgili idarelerce veya meslek kuruluşlarınca denetlenmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108-national-spatial-data-portal",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108",
+      "subtopic": "1 sayılı CBK m.108",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108",
+        "paragraph": null,
+        "clause": "g",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "national-spatial-data-portal",
+      "objectiveDescription": "Portal, Ulusal Coğrafi Bilgi Sistemi kapsamında resmî ve özel kurumlarca üretilen mekânsal verilerin sunulmasına yöneliktir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0046"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "system-purpose",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1380]",
+        "sourceExcerpt": "g) Ulusal Coğrafi Bilgi Sistemi kapsamında resmi ve özel kurum ve kuruluşlarca üretilen mekânsal verilerin sunulduğu portalı kurmak ve işletmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108-gis-certification-accreditation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108",
+      "subtopic": "1 sayılı CBK m.108",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108",
+        "paragraph": null,
+        "clause": "h",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "gis-certification-accreditation",
+      "objectiveDescription": "108/1-h, CBS alanındaki sertifikasyon ve akreditasyonu Coğrafi Bilgi Sistemleri Genel Müdürlüğüne verir. Çevre laboratuvarlarının akreditasyonuyla alan farkı korunmalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0047"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1382]",
+        "sourceExcerpt": "h) Coğrafi bilgi sistemleri ile ilgili sertifikasyon ve akreditasyon çalışmalarının yapılmasını sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108A-erosion-satellite-purpose",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108A",
+      "subtopic": "1 sayılı CBK m.108/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108/A",
+        "paragraph": null,
+        "clause": "e",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "erosion-satellite-purpose",
+      "objectiveDescription": "Bent, uydu işlemlerini görev alanına uygun çölleşme, erozyon, iklim ve çevre amaçlarıyla sınırlar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0048"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "purpose",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1395]",
+        "sourceExcerpt": "e) Çölleşme ve erozyonla mücadele ile iklim ve çevre amaçlı kullanıma uygun uydu gönderimi veya uydu verilerinin teminine ilişkin iş ve işlemleri yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109-overlapping-protected-areas-consultation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109",
+      "subtopic": "1 sayılı CBK m.109",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "overlapping-protected-areas-consultation",
+      "objectiveDescription": "Bent, çakışan koruma alanlarında ilgili bakanlıkların görüşü alınarak esasların belirlenmesini ve yönetim idaresine karar verilmesini düzenler.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0049"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "consultation",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1404]",
+        "sourceExcerpt": "ç) Tabiat varlıkları, doğal, tarihi, arkeolojik ve kentsel sitler ile koruma statüsü bulunan diğer alanların çakıştığı yerlerde koruma ve kullanma esaslarını ilgili bakanlıkların görüşünü alarak belirlemek ve bu alanların kısmen veya tamamen hangi idarelerce yönetileceğine karar vermek, her tür ve ölçekteki çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak ve onaylamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109A-eu-supported-project-payment-accounting",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109A",
+      "subtopic": "1 sayılı CBK m.109/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109/A",
+        "paragraph": null,
+        "clause": "e",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "eu-supported-project-payment-accounting",
+      "objectiveDescription": "Bent, proje seçimi ve önceliklendirme ile ihale-sözleşme aşamalarının yanında ödemelerin gerçekleştirilmesini ve muhasebeleştirilmesini de sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0050"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "procedure",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1418]",
+        "sourceExcerpt": "e) Desteklenecek proje ve faaliyetlere ilişkin olarak; projelerin seçimini yapmak, önceliklendirmek, ihale ve sözleşmelerini yapmak ve yürütülmesini sağlamak, ödemelerini gerçekleştirmek ve muhasebeleştirmek, buna ilişkin kontrol, izleme ve değerlendirmeleri yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109A-foreign-delegation-administration",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109A",
+      "subtopic": "1 sayılı CBK m.109/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109/A",
+        "paragraph": null,
+        "clause": "g",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "foreign-delegation-administration",
+      "objectiveDescription": "109/A-1-g, yurtdışından gelen heyetler ve yurtdışına gönderileceklerle ilgili işleri Avrupa Birliği ve Dış İlişkiler Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0051"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1420]",
+        "sourceExcerpt": "g) Bakanlık faaliyetleri çerçevesinde yurtdışından gelen heyetler ve Bakanlıktan yurtdışına gönderileceklerle ilgili iş ve işlemleri yürütmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109B-ministry-training-plan",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109B",
+      "subtopic": "1 sayılı CBK m.109/B",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109/B",
+        "paragraph": null,
+        "clause": "c",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "ministry-training-plan",
+      "objectiveDescription": "109/B-1-c Bakanlığın eğitim planını Personel Genel Müdürlüğüne verir. Mahalli idare personelinin eğitimi ve eğitim amaçlı yayın hizmetleri farklı görevlerdir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0052"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1429]",
+        "sourceExcerpt": "c) Bakanlığın eğitim planını hazırlamak, uygulamak ve değerlendirmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-110-inspector-employment-reference",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-110",
+      "subtopic": "1 sayılı CBK m.110",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 110,
+        "articleLabel": "110",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "inspector-employment-reference",
+      "objectiveDescription": "110/2, bu Başkanlıktaki müfettiş ve yardımcılarının istihdamı için 375 sayılı KHK’nin ek 24. maddesine atıf yapar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0053"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "legal-reference",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1443]",
+        "sourceExcerpt": "(2) Başkanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Müfettiş ve Müfettiş Yardımcısı istihdam edilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-education-qualification",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-education-qualification",
+      "objectiveDescription": "Hüküm, en az dört yıllık hukuk, mimarlık veya mühendislik fakültelerini ve yetkili makamlarca denkliği kabul edilen yurtdışı kurumlarını sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0054"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "qualification",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]",
+        "sourceExcerpt": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-115-public-education-meb-cooperation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-115",
+      "subtopic": "1 sayılı CBK m.115",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 115,
+        "articleLabel": "115",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "public-education-meb-cooperation",
+      "objectiveDescription": "Bent, halkın eğitilmesi ve plan-program çalışmalarında Millî Eğitim Bakanlığı ile bilimsel ve gönüllü kuruluşlarla işbirliğini açıkça öngörür.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0055"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "cooperation",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1477]",
+        "sourceExcerpt": "b) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ve özel kuruluşlarla işbirliği yapmak, plan ve programların hazırlanmasında, uygulanmasında ve halkın eğitilmesinde Milli Eğitim Bakanlığı ile bilimsel ve gönüllü kuruluşlarla işbirliği yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-quorum-calculation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-quorum-calculation",
+      "objectiveDescription": "Toplam on sekiz kişinin en az üçte ikisi on ikidir. Toplantı yeter sayısı, toplantıya katılanların çoğunluğuna göre belirlenen karar yeter sayısından ayrıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0056"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "calculation",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+        "sourceExcerpt": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-equal-vote-chair",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-equal-vote-chair",
+      "objectiveDescription": "Hüküm, eşitlik durumunda Başkanın taraf olduğu görüşün çoğunlukta sayılacağını açıkça düzenler.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0057"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "decision-application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+        "sourceExcerpt": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-abstention-prohibition",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-abstention-prohibition",
+      "objectiveDescription": "112/4 üyelerin çekimser oy kullanamayacağını belirtir; karşı görüşün açıklanması için ayrı yazılı usul vardır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0058"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "prohibition",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+        "sourceExcerpt": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-written-dissent",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-written-dissent",
+      "objectiveDescription": "Hüküm karşı görüşün yazılı olarak karara eklenmesini emreder. Çekimser oy kullanmak ayrıca yasaktır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0059"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "procedure-application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+        "sourceExcerpt": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-blood-relative-conflict",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-blood-relative-conflict",
+      "objectiveDescription": "112/3, kendileri ve eşleri yanında üçüncü dereceye kadar kan hısımlarını ilgilendiren kararlarda toplantı ve oylamaya katılmayı yasaklar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0060"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "conflict-of-interest",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1464]",
+        "sourceExcerpt": "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-affinity-relative-conflict",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-affinity-relative-conflict",
+      "objectiveDescription": "112/3, kan hısımlığında üçüncü, kayın hısımlığında ikinci dereceye kadar sınır öngörür. İki hısımlık türü aynı dereceyle değerlendirilmemelidir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0061"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "comparison",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1464]",
+        "sourceExcerpt": "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-technical-dispute-joint-request",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": "c",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "technical-dispute-joint-request",
+      "objectiveDescription": "112/1-c taraf olan idarelerin birlikte talebini arar. Bu koşul, farklı uyuşmazlık türlerindeki talep kurallarıyla karıştırılmamalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0062"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "condition",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1454]",
+        "sourceExcerpt": "c) Teknik veya fiziki yönden birbirini etkileyen plan ve yapım işleri ile ilgili olarak, kamu kurum ve kuruluşları arasında doğan anlaşmazlıkları, taraf olan idarelerin birlikte talep etmeleri halinde inceleyip karara bağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-environmental-planning-dispute-request",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": "b",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "environmental-planning-dispute-request",
+      "objectiveDescription": "112/1-b, ilgili idarelerin talebini öngörür. Aynı maddenin başka bendindeki “taraf idarelerin birlikte talebi” ifadesi bu bendin yerine geçirilmemelidir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0063"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "procedure",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1453]",
+        "sourceExcerpt": "b) Çevre ve imar mevzuatının yürütülmesinden doğan anlaşmazlıkları ilgili idarelerin talebine istinaden inceleyip karara bağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-112-board-public-contract-appendix-reference",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-112",
+      "subtopic": "1 sayılı CBK m.112",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 112,
+        "articleLabel": "112",
+        "paragraph": null,
+        "clause": "a",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "board-public-contract-appendix-reference",
+      "objectiveDescription": "Güncel 112/1-a, 4735 sayılı Kamu İhale Sözleşmeleri Kanununun ek 1. maddesindeki görev ve yetkilere atıf yapar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0064"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "legal-reference",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1452]",
+        "sourceExcerpt": "a) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununun ek 1 inci maddesi ile verilen görev ve yetkileri yerine getirmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109-nonforest-no-build-registration-authority",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109",
+      "subtopic": "1 sayılı CBK m.109",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "nonforest-no-build-registration-authority",
+      "objectiveDescription": "109/2’deki özel cümle, bu alanlarda tescil ve ilanı Cumhurbaşkanına verir. Bakan onayına ilişkin önceki cümleyle özel durum ayrılmalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0065"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "exception",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+        "sourceExcerpt": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109-ordinary-protected-area-minister-approval",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109",
+      "subtopic": "1 sayılı CBK m.109",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "ordinary-protected-area-minister-approval",
+      "objectiveDescription": "İlk cümle, sayılan alanların tescil ve ilanını Bakanın onayına bağlar. Sonraki cümlede yapı yasağı önerilen alanları da kapsayan özel Cumhurbaşkanı yetkisi saklıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0066"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+        "sourceExcerpt": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109-private-property-no-build-acquisition",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109",
+      "subtopic": "1 sayılı CBK m.109",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "private-property-no-build-acquisition",
+      "objectiveDescription": "109/2’nin son cümlesi bu işlemleri alanların yönetim ve işletmesini üstlenen kuruluşlara veya Bakanlığa verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0067"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+        "sourceExcerpt": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109-natural-asset-allocation-forest-exception",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109",
+      "subtopic": "1 sayılı CBK m.109",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "natural-asset-allocation-forest-exception",
+      "objectiveDescription": "Bent “orman alanları dışında yer alan” ifadesini taşır. Tahsisin ilke kararlarına ve onaylı planlara uygun kullanım amacı da korunmalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0068"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "exception",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1405]",
+        "sourceExcerpt": "d) Orman alanları dışında yer alan korunması gerekli taşınmaz tabiat varlıkları, koruma alanları ve doğal sit alanlarının Bakanlıkça belirlenen ilke kararlarına, onaylanan planlara uygun olarak kullanılmak üzere tahsisini gerçekleştirmek, uygulamaların tahsis şartlarına uygun olarak gerçekleşmesini izlemek ve denetlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-122-revolving-enterprise-regulation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-122",
+      "subtopic": "1 sayılı CBK m.122",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 122,
+        "articleLabel": "122",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "revolving-enterprise-regulation",
+      "objectiveDescription": "122/2 bu hususların yönetmelikle düzenleneceğini açıkça belirtir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0069"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "regulatory-instrument",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1525]",
+        "sourceExcerpt": "(2) İşletmelerin görevleri, gelirleri, işleyişi ve denetimi ile diğer hususlar yönetmelikle düzenlenir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-123-public-obligation-procurement-exclusion",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-123",
+      "subtopic": "1 sayılı CBK m.123",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 123,
+        "articleLabel": "123",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "public-obligation-procurement-exclusion",
+      "objectiveDescription": "123/1, ilgili kanunlarda aksi hüküm bulunmaması koşuluyla düzenlenen yükümlülükte 4734 ve 4735 sayılı kanunlara göre ihale edilen işleri istisna eder. İstisna kurumun tamamına değil belirtilen işlere ilişkindir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0070"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "exception",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.123; resmî UYAP belge114832; tam HTML p[1528]",
+        "sourceExcerpt": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-123-public-obligation-contrary-law-condition",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-123",
+      "subtopic": "1 sayılı CBK m.123",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 123,
+        "articleLabel": "123",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "public-obligation-contrary-law-condition",
+      "objectiveDescription": "123/1 “ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde” koşulunu içerir; ayrıca 4734 ve 4735’e göre ihale edilen işlere ilişkin istisna vardır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0071"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "condition",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.123; resmî UYAP belge114832; tam HTML p[1528]",
+        "sourceExcerpt": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-124-cadre-legislative-instrument",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-124",
+      "subtopic": "1 sayılı CBK m.124",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 124,
+        "articleLabel": "124",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "cadre-legislative-instrument",
+      "objectiveDescription": "124/1 bu kadro işlemlerini Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümlerine bağlar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0072"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "legal-reference",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.124; resmî UYAP belge114832; tam HTML p[1531]",
+        "sourceExcerpt": "MADDE 124 - (1) Kadroların tespiti, ihdası, kullanımı ve iptali ile kadrolara ilişkin diğer hususlar, Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümlerine göre düzenlenir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-125-expert-personnel-dual-legal-reference",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-125",
+      "subtopic": "1 sayılı CBK m.125",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 125,
+        "articleLabel": "125",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "expert-personnel-dual-legal-reference",
+      "objectiveDescription": "125/1, Çevre ve Şehircilik Uzmanı ve yardımcılarını ek 41’e; Milli Emlak Uzmanı ve yardımcılarını ek 44’e bağlar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0073"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "comparison",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1534]",
+        "sourceExcerpt": "MADDE 125 – (1) Bakanlık, görev alanına giren konularda çalıştırılmak üzere 657 sayılı Kanunun ek 41 inci maddesine göre Çevre ve Şehircilik Uzmanı ile Çevre ve Şehircilik Uzman Yardımcısı, 657 sayılı Kanunun ek 44 üncü maddesine göre Milli Emlak Uzmanı ve Milli Emlak Uzman Yardımcısı istihdam edebilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-125-provincial-estate-inspector-scope",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-125",
+      "subtopic": "1 sayılı CBK m.125",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 125,
+        "articleLabel": "125",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "provincial-estate-inspector-scope",
+      "objectiveDescription": "125/2, taşra teşkilatında milli emlak iş ve işlemleri bakımından teftiş, denetim, inceleme ve soruşturmayı sayar; istihdam dayanağı 375 sayılı KHK ek 24’tür.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0074"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "scope",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1535]",
+        "sourceExcerpt": "(2) (Değişik:RG-10/6/2020-31151-CK-64/6 md.) Bakanlık taşra teşkilatında milli emlak iş ve işlemleri ile ilgili olarak teftiş, denetim, inceleme ve soruşturma yapmakla görevlendirilmek üzere 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Milli Emlak Denetmeni ve Milli Emlak Denetmen Yardımcısı istihdam edilebilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-120A-foreign-organization-authority",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-120A",
+      "subtopic": "1 sayılı CBK m.120/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 120,
+        "articleLabel": "120/A",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "foreign-organization-authority",
+      "objectiveDescription": "120/A-1 Bakanlığın yurtdışı teşkilatı kurma yetkisini açıkça tanır. 120. maddedeki taşra teşkilatı yetkisi bu hükmün yerine geçmez.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0075"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.120/A; resmî UYAP belge114832; tam HTML p[1518]",
+        "sourceExcerpt": "(1) Bakanlık yurtdışı teşkilatı kurmaya yetkilidir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-121-working-group-plural-participation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-121",
+      "subtopic": "1 sayılı CBK m.121",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 121,
+        "articleLabel": "121",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "working-group-plural-participation",
+      "objectiveDescription": "121/1 kamu aktörleri yanında meslek odaları, sivil toplum, özel sektör ve ilgili uzmanların katılımına imkân verir; grupları yalnız Bakanlık personeliyle sınırlamaz.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0076"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "participation",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.121; resmî UYAP belge114832; tam HTML p[1521]",
+        "sourceExcerpt": "MADDE 121 – (1) Bakanlık, görev alanına giren konularla ilgili olarak çalışmalarda bulunmak üzere diğer bakanlıklar, kamu kurum ve kuruluşları, meslek odaları, sivil toplum kuruluşları, özel sektör temsilcileri ve konu ile ilgili uzmanların katılımı ile çalışma grupları oluşturabilir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-97-afforestation-coordination-outside-forest",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-97",
+      "subtopic": "1 sayılı CBK m.97",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 97,
+        "articleLabel": "97",
+        "paragraph": null,
+        "clause": "s",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "afforestation-coordination-outside-forest",
+      "objectiveDescription": "Bent, ağaçlandırma ve ormanla görevli kurumlarla koordinasyonu, gerekli hâllerde orman sınırları dışında özel ağaçlandırmayı ve fidanlık kurmayı birlikte öngörür.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0077"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "condition",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1211]",
+        "sourceExcerpt": "s) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-103-hazardous-waste-transport-rulemaking",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-103",
+      "subtopic": "1 sayılı CBK m.103",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 103,
+        "articleLabel": "103",
+        "paragraph": null,
+        "clause": "j",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "hazardous-waste-transport-rulemaking",
+      "objectiveDescription": "Bent, atık taşıması ve tehlikeli atık taşıma lisanslarının esaslarını işbirliğiyle belirlemeyi ve uygulamayı izlemeyi düzenler; lisans işlemi ile esas belirleme ayrımı korunmalıdır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0078"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "scope",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1313]",
+        "sourceExcerpt": "j) İlgili kurum ve kuruluşlarla işbirliği içinde atıkların taşınması ile tehlikeli atıkların taşınma lisanslarına ilişkin esasları belirlemek, uygulanmasını sağlamak, izlemek, atık ve kimyasallarla kirlenmiş alanların mevcut kirlilik durumlarını tespit etmek, çevre ve insan sağlığına yönelik risklere ve kirlenmiş alanların iyileştirilmesine ilişkin çalışmaları yapmak ve yaptırmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-107-construction-materials-supervision-stages",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-107",
+      "subtopic": "1 sayılı CBK m.107",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 107,
+        "articleLabel": "107",
+        "paragraph": null,
+        "clause": "m",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "construction-materials-supervision-stages",
+      "objectiveDescription": "107/1-m üretim, satış, nakil ve kullanma safhalarını her türlü mekân ve ortamda gözetim ve denetim kapsamına alır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0079"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "scope",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1368]",
+        "sourceExcerpt": "m) Yapı malzemelerinin üretim, satış, nakil ve kullanma safhalarında her türlü mekânda ve ortamda gözetim ve denetimini yapmak, yapı malzemesi numunelerinin test ve deneylerini ilgili standarda göre yapmak, yaptırmak ve laboratuvar altyapısını geliştirmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-117-afad-centre-ministry-representation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-117",
+      "subtopic": "1 sayılı CBK m.117",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 117,
+        "articleLabel": "117",
+        "paragraph": null,
+        "clause": "c",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "afad-centre-ministry-representation",
+      "objectiveDescription": "117/1-c, bu merkezde Bakanlığın temsilini Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığına verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0080"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "authority",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1496]",
+        "sourceExcerpt": "c) Afet ve acil durumlara ilişkin olarak Bakanlığı Afet ve Acil Durum Yönetimi Başkanlığı Afet ve Acil Durum Yönetim Merkezinde temsil etmek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-97-potential-polluting-facility-evaluation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-97",
+      "subtopic": "1 sayılı CBK m.97",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 97,
+        "articleLabel": "97",
+        "paragraph": null,
+        "clause": "c",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "potential-polluting-facility-evaluation",
+      "objectiveDescription": "97/1-c mevcut kirlilik yanında kirlilik oluşturması muhtemel faaliyetleri de kapsar; katı, sıvı ve gaz atıklar birlikte sayılır.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0081"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1192]",
+        "sourceExcerpt": "c) Faaliyetleri sonucu alıcı ortamlara katı, sıvı ve gaz halde atık bırakarak kirlilik oluşturan veya oluşturması muhtemel her türlü tesis ve faaliyetin, çevresel etkilerini değerlendirmek; alıcı ortamlar ile ilgili ölçüm ve izleme çalışmalarını yapmak; bahse konu tesis ve faaliyetleri izlemek, izin vermek, denetlemek ve gürültünün kontrol edilmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-97-defence-nato-construction-exclusion",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-97",
+      "subtopic": "1 sayılı CBK m.97",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 97,
+        "articleLabel": "97",
+        "paragraph": null,
+        "clause": "e",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "defence-nato-construction-exclusion",
+      "objectiveDescription": "97/1-e, MSB’nin inşaat millî ve NATO altyapı hizmetlerini genel görev kapsamından açıkça hariç tutar. Talep koşulu istisnayı ortadan kaldırmaz.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0082"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1195]",
+        "sourceExcerpt": "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-101-idle-movable-general-budget-limitation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-101",
+      "subtopic": "1 sayılı CBK m.101",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 101,
+        "articleLabel": "101",
+        "paragraph": null,
+        "clause": "ğ",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "idle-movable-general-budget-limitation",
+      "objectiveDescription": "101/1-ğ genel bütçe kapsamındaki idarelerin hizmet dışı kalan taşınırlarının satışını Milli Emlak Genel Müdürlüğüne verir. Görev bütün özel taşınır satışlarına genellenemez.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0083"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1269]",
+        "sourceExcerpt": "ğ) Genel bütçe kapsamındaki kamu idarelerinin hizmet dışı kalan taşınırlarının satışını yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-101-estate-receivables-before-collection",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-101",
+      "subtopic": "1 sayılı CBK m.101",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 101,
+        "articleLabel": "101",
+        "paragraph": null,
+        "clause": "k",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "estate-receivables-before-collection",
+      "objectiveDescription": "101/1-k, alacağın mevzuata uygun ve süresinde takip edilerek tahsil aşamasına getirilmesi için tedbir alınmasını düzenler; alacağın otomatik silinmesini öngörmez.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0084"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1274]",
+        "sourceExcerpt": "k) Görev alanına giren konulardaki alacakların süresinde ve mevzuata uygun olarak takip edilerek tahsil aşamasına getirilmesi için gerekli tedbirleri almak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-102-sectoral-plan-spatial-compatibility",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-102",
+      "subtopic": "1 sayılı CBK m.102",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 102,
+        "articleLabel": "102",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "sectoral-plan-spatial-compatibility",
+      "objectiveDescription": "102/1-ç sektörel planların havza veya bölge düzeyindeki mekânsal strateji ve çevre düzeni planlarına uyumlu hazırlanmasını ister.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0085"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1284]",
+        "sourceExcerpt": "ç) Sektörel planların havza veya bölge düzeyindeki mekânsal strateji planlarına ve çevre düzeni planlarına uyumlu hazırlanmasını sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-102-interadministrative-planning-dispute-resolution",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-102",
+      "subtopic": "1 sayılı CBK m.102",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 102,
+        "articleLabel": "102",
+        "paragraph": null,
+        "clause": "h",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "interadministrative-planning-dispute-resolution",
+      "objectiveDescription": "102/1-h genel imar düzeni ve uyumu için idari ihtilaflarda koordinasyon ve giderme, gerektiğinde resen işlem yetkisini öngörür.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0086"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1290]",
+        "sourceExcerpt": "h) İdarelerin ihtilafı halinde, genel imar düzeni ve uyumunu sağlamak üzere, her türlü etüt, harita ve imar planı, plan değişikliği, plan revizyonu, parselasyon planı hazırlanması, onaylanması ve uygulanmasında koordinasyon sağlamak, ihtilafları gidermek, gerektiğinde ihtilaf konusu işi resen yapmak, yaptırmak ve onaylamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-102-plan-hierarchy-contradiction-correction",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-102",
+      "subtopic": "1 sayılı CBK m.102",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 102,
+        "articleLabel": "102",
+        "paragraph": null,
+        "clause": null,
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "plan-hierarchy-contradiction-correction",
+      "objectiveDescription": "102/2, ilgili idarelerin Bakanlıkça verilen süre içinde aykırılıkları gidermesini öngörür. Hüküm tek ve sabit bir gün sayısı vermez.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0087"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1296]",
+        "sourceExcerpt": "(2) Çevre düzeni planlarının Bakanlıkça belirlenen mekânsal strateji planlarına, imar planlarının ise mekânsal strateji planlarına veya çevre düzeni planlarına aykırılığının tespit edilmesi halinde ilgili idareler Bakanlıkça verilen süre içerisinde aykırılıkları giderir.",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-103-waste-source-reduction-policy",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-103",
+      "subtopic": "1 sayılı CBK m.103",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 103,
+        "articleLabel": "103",
+        "paragraph": null,
+        "clause": "i",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "waste-source-reduction-policy",
+      "objectiveDescription": "103/1-i kaynağında azaltma, sınıflandırma, geri kazanım, yeniden kullanım ve diğer atık yönetimi aşamalarına ilişkin politika-strateji çalışmalarını Çevre Yönetimi Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0088"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1312]",
+        "sourceExcerpt": "i) Atıkların kaynağında en aza indirilmesi, sınıflara ayrılması, toplanması, taşınması, geçici depolanması, geri kazanılması, bertaraf edilmesi, yeniden kullanılması, arıtılması, enerjiye dönüştürülmesi ve nihai depolanması konularında politika ve stratejilerin belirlemesi amacıyla çalışmalar yapmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-103-visual-pollution-in-settled-areas",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-103",
+      "subtopic": "1 sayılı CBK m.103",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 103,
+        "articleLabel": "103",
+        "paragraph": null,
+        "clause": "o",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "visual-pollution-in-settled-areas",
+      "objectiveDescription": "103/1-o yerleşik alanlardaki bina ve sair yapılarda görüntü kirliliğini önleyici tedbirleri Çevre Yönetimi Genel Müdürlüğünün görevleri arasında sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0089"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1318]",
+        "sourceExcerpt": "o) Yerleşik alanlarda bina ve sair yapılarda görüntü kirliliğine yol açan uygulamaları önleyici tedbirler almak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-104-dangerous-environmental-activity-stoppage",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-104",
+      "subtopic": "1 sayılı CBK m.104",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 104,
+        "articleLabel": "104",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "dangerous-environmental-activity-stoppage",
+      "objectiveDescription": "104/1-ç olumsuz faaliyetlerin belirlenmesi ve denetlenmesi yanında tehlikeli veya gerekli durumlarda faaliyetlerin durdurulmasını da kapsar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0090"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1328]",
+        "sourceExcerpt": "ç) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü, titreşim ve iyonlaştırıcı olmayan radyasyon ile ilgili faaliyetleri izlemek, yeraltı ve yerüstü sularına, denizlere ve toprağa olumsuz etkileri olan her türlü faaliyeti belirlemek, denetlemek, tehlikeli hallerde veya gerekli durumlarda faaliyetleri durdurmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-104-waste-disposal-plant-licensing",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-104",
+      "subtopic": "1 sayılı CBK m.104",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 104,
+        "articleLabel": "104",
+        "paragraph": null,
+        "clause": "g",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "waste-disposal-plant-licensing",
+      "objectiveDescription": "104/1-g her türlü atık bertaraf tesisine lisans verilmesi ile izleme ve denetlemeyi ÇED, İzin ve Denetim Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0091"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1332]",
+        "sourceExcerpt": "g) Her türlü atık bertaraf tesisine lisans vermek, bunları izlemek ve denetlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-107-building-cooperative-register",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-107",
+      "subtopic": "1 sayılı CBK m.107",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 107,
+        "articleLabel": "107",
+        "paragraph": null,
+        "clause": "k",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "building-cooperative-register",
+      "objectiveDescription": "107/1-k yapı kooperatifleri ve üst birliklerinin kurulması, işleyişi ve denetlenmesi ile kayıt ve sicillerinin tutulmasını Mesleki Hizmetler Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0092"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1366]",
+        "sourceExcerpt": "k) Yapı kooperatiflerinin ve üst birliklerinin kurulması, işleyişi ve denetlenmesine ilişkin iş ve işlemleri yürütmek, kuruluş kayıtlarının ve sicillerinin tutulmasını sağlamak ve uygulamaları denetlemek,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-107-environment-consultant-professional-training",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-107",
+      "subtopic": "1 sayılı CBK m.107",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 107,
+        "articleLabel": "107",
+        "paragraph": null,
+        "clause": "i",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "environment-consultant-professional-training",
+      "objectiveDescription": "107/1-i çevresel etki değerlendirmesi, çevre laboratuvarları ve danışmanlık firmaları yanında belediyelerin çevre koruma tesislerinde çalışacak elemanların eğitilmesini Mesleki Hizmetler Genel Müdürlüğüne verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0093"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1364]",
+        "sourceExcerpt": "i) Çevresel etki değerlendirmesi raporu hazırlanmasında, çevre laboratuvarları, çevre danışmanlık firmaları ile belediyelerin çevre koruma tesislerinin projelerinde ve işletilmesinde görev alacak elemanları eğitmek, proje ve tesis ölçütlerini geliştirmek ve mesleki yetkinliği artırmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108-external-geodata-ministry-use",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108",
+      "subtopic": "1 sayılı CBK m.108",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108",
+        "paragraph": null,
+        "clause": "d",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "external-geodata-ministry-use",
+      "objectiveDescription": "108/1-d resmî ve özel kurum-kuruluş verilerini birlikte kapsar; verinin Ulusal Coğrafi Bilgi Sistemi kapsamındaki konularla ilgili olması gerekir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0094"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1377]",
+        "sourceExcerpt": "d) Ulusal Coğrafi Bilgi Sistemi kapsamına giren tüm konularda, resmi ve özel kurum ve kuruluşlarca üretilen verilerin Bakanlık birimlerince kullanılmasını ve değerlendirilmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108-international-data-sharing-network",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108",
+      "subtopic": "1 sayılı CBK m.108",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108",
+        "paragraph": null,
+        "clause": "ğ",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "international-data-sharing-network",
+      "objectiveDescription": "108/1-ğ uluslararası veri paylaşım ağlarına katılmayı açık bir görev olarak sayar. Veri paylaşımının diğer hukuki koşulları bu görev hükmüyle ortadan kalkmaz.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0095"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1381]",
+        "sourceExcerpt": "ğ) Uluslararası veri paylaşım ağlarına katılmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-108A-erosion-university-research-cooperation",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-108A",
+      "subtopic": "1 sayılı CBK m.108/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 108,
+        "articleLabel": "108/A",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "erosion-university-research-cooperation",
+      "objectiveDescription": "108/A-1-ç üniversiteler ve Ar-Ge kuruluşlarıyla araştırma-geliştirme yürütmeyi, izleme-değerlendirme sistemleri kurmayı Çölleşme ve Erozyonla Mücadele Genel Müdürlüğünün görevleri arasında sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0096"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1393]",
+        "sourceExcerpt": "ç) Üniversiteler ve Ar-Ge kuruluşlarıyla birlikte araştırma ve geliştirme faaliyetleri yürütmek, izleme ve değerlendirme sistemleri kurmak, eğitim, yayın ve tanıtım faaliyetlerinde bulunmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109-protected-area-public-investment-support",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109",
+      "subtopic": "1 sayılı CBK m.109",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109",
+        "paragraph": null,
+        "clause": "e",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "protected-area-public-investment-support",
+      "objectiveDescription": "109/1-e, gerekli görülen alanlarda koruma ve kirliliği önleme amacıyla yatırım yapılmasını veya ilgili idarelerin yatırım projelerinin desteklenmesini sayar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0097"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1406]",
+        "sourceExcerpt": "e) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerine ilişkin olarak; hâlihazır haritaları aldırmak, gerekli görülen projeleri yapmak, yaptırmak ve onaylamak, her türlü araştırma ve inceleme yapmak, yaptırmak, izlemek, eğitim ve bilinçlendirme çalışmaları yürütmek, kullanım yasağı getirilen alanların kamulaştırma veya benzer yollarla kamunun eline geçirilmesini sağlamak, kontrol ve denetim yapmak, gerekli görülen alanların korunması ve kirliliğin önlenmesi amacıyla yatırım yapmak veya ilgili idarelerin yatırım projelerini desteklemek, bu alan ve bölgelerde Devletin hüküm ve tasarrufu altındaki yerlere ilişkin her türlü tasarrufta bulunmak, işletmek, işlettirmek ve kullanım izinlerini vermek, korunan alanlara ilişkin insan ve finansman kaynağı sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-109A-foreign-relations-protocol-routing",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-109A",
+      "subtopic": "1 sayılı CBK m.109/A",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 109,
+        "articleLabel": "109/A",
+        "paragraph": null,
+        "clause": "ğ",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "foreign-relations-protocol-routing",
+      "objectiveDescription": "109/A-1-ğ yurtdışı ilişkilerle ilgili protokolü Avrupa Birliği ve Dış İlişkiler Genel Müdürlüğüne verir. Bakanın kişisel protokol ve tören hizmetiyle konu farkı gözetilmelidir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0098"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1421]",
+        "sourceExcerpt": "ğ) Yurtdışı ilişkilerle ilgili protokol işlemlerinin yürütülmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-117-afad-requested-capability-direction",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-117",
+      "subtopic": "1 sayılı CBK m.117",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 117,
+        "articleLabel": "117",
+        "paragraph": null,
+        "clause": "ç",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "afad-requested-capability-direction",
+      "objectiveDescription": "117/1-ç, AFAD’ın talep ettiği imkân ve kabiliyetlerin yönlendirilmesini ilgili mevzuat çerçevesinde ve Bakanlığın sorumluluğundaki işlerin yerine getirilmesi amacıyla düzenler.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0099"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1497]",
+        "sourceExcerpt": "ç) Afet ve acil durumlarda, ilgili mevzuat çerçevesinde Afet ve Acil Durum Yönetimi Başkanlığınca talep edilen imkân ve kabiliyetlerin yönlendirilmesi ile Bakanlığın sorumluluğundaki iş ve işlemlerin yerine getirilmesini sağlamak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    },
+    {
+      "id": "LO-O01-OFFICIAL-116-ministry-facility-services-outsourcing",
+      "topicId": "O01",
+      "subtopicId": "ST-O01-OFFICIAL-116",
+      "subtopic": "1 sayılı CBK m.116",
+      "legalInstrument": "1 sayılı Cumhurbaşkanlığı Kararnamesi",
+      "legalReference": {
+        "article": 116,
+        "articleLabel": "116",
+        "paragraph": null,
+        "clause": "a",
+        "section": null
+      },
+      "historicalReference": null,
+      "objective": "ministry-facility-services-outsourcing",
+      "objectiveDescription": "116/1-a, 5018 çerçevesinde kiralama ve satın alma işleriyle temizlik, güvenlik, aydınlatma, ısıtma, onarım ve taşıma benzeri hizmetleri Destek Hizmetleri Dairesi Başkanlığına verir.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O01-B-0100"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "WithinOfficialArticleBoundary",
+      "coverageCategory": "application",
+      "evidence": {
+        "sourceDocumentId": "SRC-OFFICIAL-CBK1-UYAP",
+        "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+        "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+        "locator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1486]",
+        "sourceExcerpt": "a) 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu hükümleri çerçevesinde, kiralama ve satın alma işlerini yürütmek, temizlik, güvenlik, aydınlatma, ısıtma, onarım, taşıma ve benzeri hizmetleri yapmak veya yaptırmak,",
+        "verificationStatus": "OfficialTextByteMatchedOnly",
+        "limitations": [
+          "Independent scope/answer review pending.",
+          "Preparation edition observed2026-11-06; cutoff not finalized."
+        ]
+      }
+    }
+  ]
+}

@@ -7,27 +7,31 @@
   "workBranch": "codex/gys-verified-mvp",
   "remoteChangesMade": true,
   "productionDeploymentMade": false,
-  "productStatus": "MVPWorkingPartialContent",
+  "productStatus": "WorkingPartialVerifiedContent",
   "phase0": "Complete",
   "mvpWorking": true,
   "phase1": "Structural extraction and 75-page OCR advanced; O02 extraction disagreement and O04 layout gaps prevent full integrity acceptance",
   "phase2": "24topics,166subtopics,176draft objectives;23official legal sources; final scope/transition approval pending",
-  "phase3": "Working first MVP with18Approved O02 questions, native IndexedDB sessions/results, offline resume and wrong book",
+  "phase3": "Working offline mobile app;400Approved B questions acrossO01/O02/O03/T01; persisted study/results/wrongbook/source links",
   "questionInventory": {
     "targetOriginal": 5400,
     "legacyRecords": 50,
     "duplicateCandidateClusters": 16,
-    "generatedThisPhase": 18,
-    "sourceVerified": 18,
-    "approved": 18,
+    "generatedThisPhase": 648,
+    "sourceVerified": 646,
+    "approved": 400,
     "rejected": 0,
     "pendingLegacyRecords": 50,
     "historicalAccepted": 0,
     "historicalN": null,
-    "pendingNewQuestions": 0,
-    "remainingOriginalTarget": 5382,
+    "pendingNewQuestions": 248,
+    "remainingOriginalTarget": 5000,
     "approvedMockQuestions": 0,
-    "approvedBankQuestions": 18
+    "approvedBankQuestions": 400,
+    "stagedSourceVerifiedMockQuestions": 246,
+    "independentReviewNeedsReview": 2,
+    "readyCompleteExams": 0,
+    "countingNote": "Approved/delivered count includes working published content only;246source-verified A fragments are not complete/published exams and remain within248not-yet-delivered candidates."
   },
   "sourceInventory": {
     "common": 16,
@@ -49,23 +53,23 @@
     "fullOcrIntegrityApproved": false,
     "historicalOfficialBookletsRetrieved": 9,
     "historicalAnswerKeyMatches": 480,
-    "historicalObservedPositions": 580
+    "historicalObservedPositions": 580,
+    "approvedStudyLearningObjectives": 400,
+    "stagedMockLearningObjectives": 246
   },
   "legalEdition": "preparation",
   "cutoffDate": "2027-01-01",
-  "lastSuccessfulLegalWatch": null,
+  "lastSuccessfulLegalWatch": "2026-11-06T14:12:22.385601Z",
   "userDecisionBlockers": [
     "Optional HTTPS publication requires explicit user approval under V4; no live deployment made",
     "Historical full question text is blocked pending written rights clearance; safe official-link catalog is available"
   ],
   "nextTasks": [
-    "Resolve O02 structural extraction difference and O04 OCR layout omissions",
-    "Review final scope, effective dates, transitions and historical sources for24topics",
-    "Expand Approved bank from18 to2400 through independent source/rule/reviewer process",
-    "Audit historical official booklets, answerkeys, rights and2027scope",
-    "Build protected3000question mock pool and validated100/150Strict Mode",
-    "Unify legacy/config+journal backups into one atomic restore format; addPDFreport",
-    "AddSM-2/planning/calibrated estimation/legal watcher; realiPhoneSafari acceptance"
+    "Finish active source-bound O05/O06/T02 banks through separate reviews before publication",
+    "Complete remaining20topic banks and full24topic scope/effective/transition review",
+    "Expand protectedA to3000unique verified questions and30independent full-exam reviews;neverfillfromB",
+    "Resolve O02Word/O04OCR integrity gaps; historical rights/scope/dedup remains pending",
+    "RealphysicaliPhoneSafari acceptance and explicitly authorizedhosting remainexternal"
   ],
   "resumeInstructions": [
     "Read AGENTS.md, docs/PHASE_0_REPORT.md and docs/QA_REPORT.md",
@@ -76,21 +80,21 @@
     "Do not require previous prompt versions; use the V4 contract and recorded state"
   ],
   "verification": {
-    "unitPassed": 79,
-    "mobileChromiumE2EPassed": 7,
+    "unitPassed": 195,
+    "mobileChromiumE2EPassed": 13,
     "typecheck": "Passed",
     "lint": "Passed",
     "productionBuild": "Passed",
     "realIPhoneSafari": "NotTested",
     "githubActionsRemote": {
-      "observedStatus": "in_progress",
-      "observedAt": "2026-11-06T13:01:46.120485+00:00",
-      "runId": 42221869666,
-      "commit": "75d295ab7518a0cf04c43f8aba59fffd89453721"
+      "observedStatus": "PendingNewCommitPush",
+      "note": "Previous18question commitCIpassed; new400question implementation hasnotyetbeenpushed/observed remotely"
     },
     "productionDependencyVulnerabilities": 0,
     "developmentDependencyVulnerabilities": 12,
-    "pythonSourceTestsPassed": 9
+    "pythonSourceTestsPassed": 19,
+    "mobileWebKitEmulationE2EPassed": 13,
+    "physicalIPhoneSafari": "NotTested"
   },
   "phase4": "Initial archive verified:9official booklets,480answer matches,580positions;Accepted0,rights/scope/dedup pending",
   "pullRequest": {
@@ -99,5 +103,24 @@
     "draft": true,
     "merged": false,
     "sourceCommit": "75d295ab7518a0cf04c43f8aba59fffd89453721"
-  }
+  },
+  "updatedAt": "2026-11-06T15:12:18.592124+00:00",
+  "phase5": "4/24 topic banks complete at100each; O05/O06/T02 drafting with separate review queued",
+  "phase6": "Strict100/150engine and protected publication gates implemented/tested;246A items source-verified/staged outside PWA assets;0/30complete exams",
+  "phase7": "SM-2,optional error/self-explanation,measured foreground time,480min planner,experimental first-seen forecast/calibration,focus implemented;limited real measurement data",
+  "phase8": "23registered official sources scanned successfully;local same-origin API+read-only scheduled workflow implemented;no automatic legal approval;workflow schedule not active on default branch",
+  "lastSuccessfulLegalWatchSubset": {
+    "topicIds": [
+      "O02"
+    ],
+    "completedAt": "2026-11-06T14:43:51.175907Z",
+    "officialVersion": 503,
+    "change": "TransportOnlyChanged"
+  },
+  "activeTasks": [
+    "O05bank100production:finish_publisher; separate reviewer:review_o01",
+    "O06bank100production:finish_server; separate reviewer:review_t01",
+    "T02bank100production:review_o03; separate reviewer toassign",
+    "FinalunscrolledWebKitcheck:finish_uiqa; thenT02independentreview"
+  ]
 }

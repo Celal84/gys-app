@@ -1,0 +1,873 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-06T14:23:05.150236+00:00",
+  "scope": "Source/structure checks only, not question legal approval",
+  "questionCount": 100,
+  "sourceVerifiedQuotationCount": 100,
+  "approvedCount": 0,
+  "status": "ValidationPending",
+  "difficulty": {
+    "basic": 25,
+    "medium": 30,
+    "hard": 25,
+    "application": 20
+  },
+  "scenarioCount": 22,
+  "uniqueObjectiveCognitivePairs": 100,
+  "checks": [
+    {
+      "questionId": "Q-O01-B-0001",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0002",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0003",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0004",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0005",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0006",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0007",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0008",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0009",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0010",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0011",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0012",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0013",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0014",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0015",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0016",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0017",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0018",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0019",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0020",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0021",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0022",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0023",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0024",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0025",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0026",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0027",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0028",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0029",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0030",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0031",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0032",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0033",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0034",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0035",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0036",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0037",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0038",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0039",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0040",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0041",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0042",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0043",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0044",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0045",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0046",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0047",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0048",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0049",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0050",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0051",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0052",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0053",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0054",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0055",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0056",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0057",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0058",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0059",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0060",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0061",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0062",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0063",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0064",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0065",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0066",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0067",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0068",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0069",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0070",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0071",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0072",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0073",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0074",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0075",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0076",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0077",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0078",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0079",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0080",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0081",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0082",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0083",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0084",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0085",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0086",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0087",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0088",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0089",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0090",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0091",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0092",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0093",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0094",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0095",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0096",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0097",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0098",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0099",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    },
+    {
+      "questionId": "Q-O01-B-0100",
+      "exactQuoteInSourceArtifact": true,
+      "sourceQuoteSHA256Matches": true,
+      "stableAnswerAndFourDistractors": true,
+      "articleWithinOfficialBoundary": true,
+      "independentLegalReview": "Pending"
+    }
+  ],
+  "distractorRevisionQuestions": [
+    26,
+    27,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    54,
+    57,
+    58,
+    59,
+    62,
+    63,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    81,
+    82,
+    84,
+    85,
+    86,
+    87,
+    89,
+    90,
+    94,
+    95,
+    97,
+    99,
+    100
+  ]
+}

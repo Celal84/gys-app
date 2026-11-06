@@ -1,88 +1,47 @@
-# QA raporu — güncel MVP
+# QA — 6 Kasım 2026
 
-06.11.2026 devam oturumu. Durum: **MVP çalışır / kısmi içerik**. Gerçek iPhone Safari ve nihai ürün kabulü henüz yapılmadı.
+Durum: **çalışan uygulama / kısmi doğrulanmış içerik**. Nihai kabul verilmedi. Yayımlanan çalışma içeriği O01/O02/O03/T01 bankalarında 100'er, toplam **400** sorudur. Korunan havuzda **246 kaynakla doğrulanmış parça** PWA dosyalarının dışında bekler; iki aday anlamsal tekrar nedeniyle incelemededir. **Hazır tam deneme 0/30**. Bu parçalar 400 kullanılabilir soruya eklenmez.
 
-| Kontrol | Sonuç | Kapsam |
+| Kontrol | Gerçek sonuç | Sınır |
 | --- | --- | --- |
-| TypeScript ve ESLint | Geçti | Çekirdek, kayıt katmanı, uygulama ve testler |
-| Birim/entegrasyon | **79/79 geçti** | Kaynak yayını, veri şeması, oturum/cevap atomikliği, çakışma, gerçek paket, kapsam ve regresyon |
-| Python kaynak/HTML testleri | **9/9 geçti** | Yapısal çıkarım ve inline dipnot/paragraf koruması |
-| Mobil Chromium E2E | **7/7 geçti** | Aşağıdaki gerçek soru akışı dahil |
-| Üretim derlemesi | Geçti | Konu parçaları, manifest ve PWA; 10 önbellek girdisi yaklaşık278 KiB |
-| Gerçek içerik yayın denetimi | **18/18 Approved** | Ayrı inceleme + deterministik kural + 11 gerçek kaynak HTML hash'i |
-| Resmî 657 kaynak çıkarımı | 40 kontrol,0 hata | Soru onayı değildir; belge/alinti bütünlüğü |
-| Diğer resmî kaynak envanteri | 472 kontrol,0 hata | 23 mevzuat kaynağına bağ; hukuki tam kabul değildir |
-| Bağımlılık denetimi | Kritik/yüksek0 | Geliştirmede10 orta+2 düşük bulgu sürüyor |
-| Gerçek iPhone Safari | **Yapılmadı** | Chromium mobil görünümü gerçek iPhone testi sayılmaz |
-| GitHub Actions | Uzakta başlatıldı | PR#1,kod commit75d295a;son kayıtlı gözlem in_progress;tamamlanma sonucu ayrıca doğrulanır |
+| TypeScript / ESLint | Geçti | Uygulama, çekirdek, kayıt katmanları, yayıncılar ve testler |
+| Vitest | **195/195 geçti**, 24 dosya | Native IndexedDB, kaynak/yayın/korunan havuz, zaman, yedek, PDF, öğrenme, plan/tahmin ve regresyon; son toplu çalıştırma 15:10 UTC |
+| Python kaynak testleri | **19/19 geçti** | HTML blokları/dipnotlar ve resmî kaynak kontrol kuralları |
+| Mobil Chromium | **13/13 geçti** | 390×844; gerçek 400 soruluk derleme |
+| WebKit iPhone 14 emülasyonu | **13/13 geçti** | 390×664 görünür alan; fiziksel iPhone/Safari değildir |
+| Üretim derlemesi / PWA | Geçti | Yerel paketler, konu parçaları, PNG simgeler, çevrimdışı font/PDF; yaklaşık 5 MiB precache |
+| B yayın kontrolü | **400 onaylı**, 166 gerçek HTML artifact hash kontrolü | Ayrı süreç model destekli kaynak incelemesi + deterministik kural; insan hukuk uzmanı onayı değildir |
+| A yayın kontrolü | **246/248 kaynakla doğrulanmış parça**, 2 NeedsReview | Eksik 100 soruluk tanım, 24 konu ağırlığı veya ayrı tam deneme incelemesi varsa PWA'ya yayımlanmaz |
+| Mevzuat nöbetçisi | **23/23 gerçek resmî kaynak kontrolü başarılı** | 06.11.2026 14:12:22 UTC; sonraki gerçek API kontrolü yalnız O02 için 14:43:51 UTC; teknik gözlem hukuki onay değildir |
+| Bağımlılık denetimi | Üretimde **0**, geliştirmede **10 orta / 2 düşük** | Kritik/yüksek 0; kalan derleme bağımlılıkları nihai güvenlik kabulü değildir |
+| Fiziksel iPhone Safari | **Yapılmadı** | Emülasyon bu kabulün yerine geçmez |
+| GitHub Actions | Yeni commit sonrası gözlenecek | Önceki 18 soruluk sürümün yeşil sonucu yeni sürüme mal edilmez |
 
-Gerçek paket E2E'si: 657'de beş soruluk çalışma açıldı; ilk soru yanlış,sonraki dört doğru cevaplandı. Yanlıştan sonra bağlantı kesilip sayfa yenilendi; kalıcı seçenek sırası ve kontrol edilmiş cevapla devam edildi. Sonuç **4 doğru,1 yanlış,0 boş** olarak kaydedildi; benzersiz tamamlama **5/18** ve yanlış defteri doğrulandı. Diğer E2E'ler:9 resmî kitapçık bağlantısı ve0 kabul göstergesi,24/16/8filtre,320px taşma,çevrimdışı kabuk,eksik denemenin engeli,eski localStorage baytlarının korunması ve geçersiz yedek öncesinde onay istenmemesi.
+## Sınanan ürün davranışları
 
-Kayıt testlerinde yeniden yükleme/ayar değişiminde XP'nin iki kez eklenmemesi,eski sekme sürüm çatışması,çift cevap,şema geçişi,değişmez geçmiş sonuçlar,journal export/merge ve bozuk/kesişen yedekte atomik ret denetlendi. İçe aktarılan sahte aktif soru,güncel paketin kimlikleri kopyalansa bile metin/seçenek/anahtar/kaynakla tam eşleşmeden sürdürülemez. Yanlış serpiştirmesi güncel onaylı nesneyi kullanır. Prototype anahtarları konu istatistiğine sokulmaz.
+- Gerçek beş soruluk çalışmada 4 doğru/1 yanlış/0 boş; seçenekler kalıcı kimlikle eşleşir. Yanlıştan sonra bağlantı kesilip yenileme yapılır; cevap, seçenek sırası, XP, sonuç ve yanlış defteri korunur. Eski v1 localStorage baytları değişmez.
+- Alt konu/kaynak hüküm ve zorluk filtresi gerçekten kalıcı pakete uygulanır. 50 istenip daha az uygun soru varsa yalnız mevcut sayı açılır; başka konudan tamamlanmaz.
+- Kart yanıtı açılmadan gizlidir; kalite 0–5 ve SM-2 uyarlaması kaydedilir. Kaynak/korunan A/hak denetimi kartlara uygulanır. Tek yanlış kesin kavram yanılgısı veya öğrenme kanıtı sayılmaz.
+- Varsayılan takvim 480 dakika; kapasite değişikliği ve tema kalıcıdır. Çalışılmamış günler otomatik tamamlanmaz. Ölçülmeyen konu başarıya sıfır olarak eklenmez. Yetersiz ölçümde puan ve belirsizlik aralığı üretilmez.
+- Odak ve soru ön plan süreleri arka planı ve 15 saniyeden uzun gözlenmeyen boşluğu çalışma saymaz. Strict Mode duvar süresi arka planda devam eder; yenileme/son tarih/otomatik bitiş/cevap değişimi/yeni-tekrar ayrımı 20 çekirdek testinde doğrulanır. Gerçek tam deneme içeriği kabulü yapılmış değildir.
+- Tam JSON yedeği şema/hash/çakışma denetiminden geçer. Bozuk dosya onay veya kısmi yazma başlatmaz. Yeni profil ayrı veritabanlarında hazırlanır; etkin işaretçi ancak hazırlık bitince tek transaction ile değişir. Önceki profil silinmez. Farklı veritabanlarının bütün yazılarının tek transaction olduğu iddia edilmez.
+- Gerçek Türkçe Unicode fontlu PDF indirilip PDF parser ile açılır; uzun içerik sayfalara bölünür. PDF geri yükleme kaynağı değildir.
+- İçe aktarılan `Approved` etiketi yayın yetkisi sayılmaz. Soru/cevap/kaynak ve ölçüm metadata'sı gerçek paketle eşleşmelidir. Bilinmeyen aktif deneme korunur; doğrulanmamış geçmiş sonuç bağımsız ölçüm etiketi/tahmin kazanmaz.
+- Mevzuat kontrolü başarısızken önceki başarılı tarih korunur. Kaynak kimlik takma adları resmî URL ile eşleşir. Yeni kontrol referansı değişse bile eski sorular yeniden onaylanmadan canlanmaz. Kaynak değişimi geçmiş sonuçları değiştirmez.
 
-İlk E2E çalıştırmalarında testin asenkron ekran değişimini beklememesi ve rozetli düğmenin erişilebilir adı yüzünden hata görüldü. Gezinme sırasında kontroller kilitlendi,test gerçek soru metni değişimini bekler hale getirildi,yanlış defteri düğmesine açık erişilebilir ad eklendi. Yukarıdaki7/7sonucu bu düzeltmelerden sonradır. Hatalar gizlenmedi veya beklenen puan değiştirilmedi.
+## İncelemede yakalanıp düzeltilenler
+
+400 soru kabulünden önce Q52/Q67 (657 koşul/istisna), Anayasa süre ve çoğunluk kökleri, O01 birim çeldiricileri, İskân Q88 eksik kaynak paragrafı ve DSİ özel rejimi sınırları düzeltildi. Zor etiketleri kota için yapay yükseltilmedi. O01 A38/A106 anlamsal tekrar nedeniyle bekler. Ayrı yedek incelemesindeki güncel can değeri, geçmiş deneme bağımsızlık etiketi ve eski/yeni güven denetimi farkları uygulamada giderildi.
+
+Bir eski test ilk konunun onaysız olduğunu varsayıyordu; O01 yayımlandığında test boş yayın deposu fixture'ıyla doğru biçimde sınırlandı. PDF uzun rapor testi, eşzamanlı 23 süreç ve tarayıcı yükünde 5 saniyeyi aştı; Vitest iki işçiyle çalışır ve test değişmeden yaklaşık 1,4 saniyede geçti. WebKit çevrimdışı akışında seçenek metnindeki “devam et” ifadesi gevşek düğme seçicisini çakıştırdı; seçici tam erişilebilir ada bağlandı. Hatalar başarı gibi raporlanmadı.
 
 ## Açık kabul işleri
 
-- **İçerik:**18/5.400 özgün;havuzB18/2.400,havuzA0/3.000,tam deneme0/30. Eski50 kayıt incelemede. Bu paket tüm657 kapsamını temsil etmez. Çıkmış sorular kabul edilmedi.
-- **Kaynak:**657 Word çıkarıcı farkı ve O04 OCR renkli kutu eksikleri açık.75 sayfa OCR işlendi fakat tamlık onaylanmadı.
-- **Kapsam:**24 konuda176 hedef taslağı;nihai kapsam paydası ve tüm hukuki yürürlük/geçiş değerlendirmesi bekliyor. Kapsam/hâkimiyet yüzdesi ve güvenilir sınav puanı tahmini üretilmiyor.
-- **Yedek:**Eski kayıt/ayar zarfı ile yeni tam çalışma günlüğü iki ayrı JSON'dur. Tek dosyada bütün veriyi atomik geri yükleme ve PDF raporu sonraki iş. Eski kullanıcı anahtarları silinmez.
-- **Sürüm/zaman:**Mevzuat hazırlık sürümü,kesim01.01.2027gelecekte. Otomatik nöbetçi ve sürekli arka plan taraması yok. Aktif düşünme süresi ölçülmediğinde null;duvar saati düşünme süresi sayılmaz.
-- **Diğer özellikler:**Strict100/150,sınav saati sürekliliği,SM-2,planlama,kalibrasyon,karşılaştırmalar,odak araçları ve30deneme kabulü tamamlanmadı. Can sınırı yalnız isteğe bağlı alıştırma davranışıdır.
-- **Cihaz/PWA:**HTTPS/localhost ve ilk çevrimiçi yükleme gerekir. Gerçek iPhone kurulumu,PNG apple-touch-icon,WebKit/gerçek Safari,güncelleme bildirimi ve cache tahliyesi henüz kabul edilmedi.
-- **Güvenlik:**Yeni IndexedDB cevap/sayaç değişimleri atomik ve revizyon kontrollüdür;eski ayar zarfı localStorage'da kalır. Güncel bağımlılık denetimi12geliştirme bulgusu bildiriyor(kritik/yüksek0). Nihai sızma testi yapılmadı.
+- **İçerik:** 400/2.400 çalışma sorusu; 0/3.000 tamamlanmış deneme sorusu; 0/30 deneme. 246 doğrulanmış korunan parça tam deneme değildir. O05/O06/T02 üretimi ve ayrı incelemesi sürer. 5.400 nihai hedef tamamlanmadı.
+- **Kapsam:** 24 konuda 166 alt konu/176 başlangıç hedefi taslağı ve dört bankanın ayrı hedefleri var. Nihai kapsam paydası, bütün yürürlük/geçiş değerlendirmesi ve öğrenme hâkimiyeti kabulü eksik.
+- **Kaynak:** 24 not dosyası hash'li; 657 Word çıkarım farkı ve O04 renkli kutu/OCR bütünlük açığı sürüyor. Tam görsel dosya kabulü verilmedi.
+- **Çıkmış:** 9 resmî kitapçık, 480 anahtar eşleşmesi, 580 gözlenen pozisyon; Accepted 0, uygun benzersiz N bilinmiyor. Tam metin yeniden yayımı kullanım hakkı izni bekler. 2020 tam kitapçığı varmış gibi soru üretilmez.
+- **Tarih/işletim:** 01.01.2027 kesimi gelecekte; hazırlık sürümüdür. Zamanlanmış workflow varsayılan dala alınmadan sürekli çalışır sayılmaz. Sunucu/API olmadan PWA kapalıyken resmî kaynak taraması yapılmaz. Yeni HTTPS canlı yayın yapılmadı.
+- **Cihaz/güvenlik:** Fiziksel iPhone kurulumu/gerçek Safari, depolama tahliyesi ve nihai güvenlik/performans kabulü bekler. Yerel cevap anahtarlarının mutlak gizliliği iddia edilmez.
 
-Makine raporları: [test-results.json](test-results.json),[content-publication-report.json](content-publication-report.json),[content-audit.json](content-audit.json),[source-integrity-summary.json](source-integrity-summary.json),[security-audit.json](security-audit.json). E2E ayrıntısı test-results/e2e-results.json içinde. [Devam raporu](CONTINUATION_REPORT.md) ve [kayıtlı durum](PROJECT_STATE.json) günceldir.
-
-Aşağıdaki bölüm önceki Faz0oturumunun tarihî raporudur;güncel sonuçlar yukarıdadır.
-
----
-
-# QA raporu — Faz 0
-
-Tarih:06.11.2026. Ürün durumu **Prototip**. Bu rapor Faz 0 kabulünü kapsar; MVP ve nihai içerik kabulünü kapsamaz.
-
-## Çalıştırılan kontroller
-
-|Kontrol|Sonuç|Pratik kapsam|
-|---|---|---|
-|TypeScript `tsc --noEmit`|Geçti|Yeni çekirdek ve TS test/yapılandırma dosyaları;eski JS motoru tam TS'ye çevrilmedi|
-|ESLint|Geçti|src,tests,scripts|
-|Vitest|44/44 geçti|Müfredat,resmî parametre uyumu,İstanbul günü,yayın kapısı,madde sınırı,korunan havuz,Drive dışlama,şema/import/restore/veri korunması,motor regresyonu|
-|Üretim derlemesi|Geçti|Vite + yerel JS/CSS + PWA manifest/service worker|
-|İçerik envanter denetimi|Geçti|50 eski kayıt,16 tekrar adayı,0 onay;nihai içerik kabulü **false**|
-|Mobil Chromium E2E|5/5 geçti|Aşağıdaki gerçek tarayıcı otomasyon senaryoları|
-|Ek mobil görünüm kontrolü|320/390/430px geçti|Taşma/JS hatası yok;filtre24/16/8;~59pxsatır|
-|Bağımlılık denetimi|Üretim0; geliştirme12|Kritik/yüksek0; geliştirme10 orta+2 düşük;tam güvenlik kabulü değil|
-|Git diff boşluk kontrolü|Geçti|`git diff --check`|
-|GitHub Actions|Yalnız yapılandırıldı|Uzak workflow çalıştırılmadı|
-|Gerçek iPhone14Safari|**Yapılmadı**|Emülasyon gerçek cihaz testi değildir|
-
-E2E:1)onay sayısı/filtre/eksik deneme/tahmin;2)320pxyatay taşma;3)service worker sonrası bağlantısız yeniden açılış;4)eski v1verisinin açılış/ayar değişiminde bayt olarak aynı kalması ve sabit ağırlık;5)bozuk yedeğin onay istemeden reddi ve aktif kaydı değiştirmemesi.
-
-Birimlerde seçenek karıştırıldığında kalıcıID eşleşmesi,eksik/yanlış100 soruluk dağılımın reddi,tek başına AIöz-onayı ve kaynaksız onayın reddi;dışlananID'nin listeleme çağrısına hiç ulaşmaması;bozuk yedek/future schema/kimlik çakışması/prototype pollution/kota hatası ve atomik aktif kayıt kontrol edildi. Gün açılışı çalışılmış gün sayılmıyor. Bu testler hukuki içerik doğruluğunu kanıtlamaz.
-
-Makine raporları:[test-results.json](test-results.json),[content-audit.json](content-audit.json),[source-summary.json](source-summary.json). E2E ayrıntısı `test-results/e2e-results.json` içinde;CIartifact olarak saklanır. Mobil ekranlar ve yerel kontroller `.local-reports/` içindedir. Üretim paketinde9önbellek girdisi yaklaşık147 KiB;bu bir iPhone performans benchmark'ı değildir.
-
-## Kaynak kabulü
-
-Resmî duyuru/sınav parametreleri doğrulandı;resmî ve Drive dağılım PDF'leri SHA256eşit.24dersdosyasının baytları ve başlıkları alındı. Bir OCR sınırlı dosya var;24 dosyada hukuki sürüm ve tam madde/bent/dipnot/tablo onayı **bekliyor**. İlerleme dalı açılmadı. Çıkmış arşivde6 dosya listelendi;resmî soru/anahtar/kullanım hakkı incelemesi yapılmadı.
-
-## Açık işler ve sınırlar
-
-- **İçerik/MVP engeli:**50 eski kayıt inceleme bekliyor;onaylı soru0. Konu testleri ve tam deneme bu yüzden kapalı.5.400 hedefin tamamlandığı veya çalışan MVP olduğu iddia edilmez.
-- **Faz 1:**Atatürk OCR hataları;tablo/dipnot/sayfa bütünlüğü. O01/O02/O03 dosyaları müfredattan geniş.
-- **Faz 2:**22 konunun ayrıntılı kapsamı,24 konunun hedefleri,resmî hukuk snapshot'ları ve yürürlük/geçiş tarihleri.01.01.2027 kesimi gelecekte;mevzuat hazırlık sürümünde.
-- **Kayıt:**İlk faz localStorage'dır;IndexedDB ve sürümlü deneme oturumları sonraki fazda. Eşzamanlı iki sekmede compare-and-swap koruması yok;stale sekme yeni v4kaydı ezebilir. MVP öncesi çözülmeli. Eski v1orijinaller korunur.
-- **Cihaz/origin:**Tarayıcı depolama temizliği ve farklı origin'e otomatik taşıma garanti edilmez;JSONyedek gerekir. iOSkurulum ikonunda yalnızSVGvar;apple-touch-iconPNGve gerçek cihaz testi bekliyor.
-- **PWA:**İlk yükleme çevrimiçi veHTTPS/localhost gerekir;cihazın cachetahliye davranışı,gerçekSafari,paket güncelleme bildirimi ve kullanıcı veri geçişi henüz kabul edilmedi. Çevrimdışı kabuğun çalışması onaylı içerik var demek değildir.
-- **Strict:**100/150motor,zamanın kalıcılığı,arka plan/yenileme,saat oynama,sonuç sürümleri ve gerçekStrictE2Ehenüz yok. Alıştırma can sınırıStrictdeğildir.
-- **Akıllı öğrenme:**SM-2,hedefhâkimiyeti,güvenilir tahmin,kalibrasyon,planlama,odak araçları,PDFrapor ve mevzuat nöbetçisi henüz yok. Son başarılı mevzuat kontrolü yok.
-- **Güvenlik:**Şema/XSSiçin metin gösterimi ve sır içermeyen yerel varlıklar kullanılır. Yerelde cevaplar mutlak gizlenemez. Bağımsız sızma testi veya nihai güvenlik kabulü yapılmadı.
-
-Canlı yayın,Drive yazması,eski ilerleme silme ve uzak depo değişikliği yapılmadı. Kullanıcıdan yeni izin/karar gerektiren engel yok. Sonraki adım:Faz 1metin/yapı bütünlüğünü tamamlamak,ardından kapsam haritası ve bağımsız doğrulanmış küçük örnek paket.
-
-## Bağımlılık bulguları
-
-İlk geliştirme denetimindeki iki kritik Vitest/tinypool bulgusu, Vitest 5.1.0 güncellemesiyle giderildi. TypeScript ESLint ve PWA araçları da güncellendi;lint/test/derleme tekrar geçti. Üretim bağımlılığı Alpine için bildirilen açık0. Geliştirme araçlarında12 bulgu kaldı:2 düşük,10 orta;kritik/yüksek yok. Zincirler `deepmerge`, `glob`, `minimatch`, Workbox/Rollup ve TypeScriptESLint. `npm audit fix --force` sürüm düşürme/değişiklikleri uygulanmadı. Sabit güvenilir build globları riski sınırlar;bu,bulguların giderildiği anlamına gelmez. Ayrıntılı özet [security-audit.json](security-audit.json);MVP öncesi yeniden değerlendirilmelidir.
+Kanıtlar: [test-results.json](test-results.json), [browser-acceptance-report.json](browser-acceptance-report.json), [WEBKIT_REPORT.md](WEBKIT_REPORT.md), [content-inventory.json](content-inventory.json), [content-publication-report.json](content-publication-report.json), [protected-exam-publication-report.json](protected-exam-publication-report.json), [security-audit.json](security-audit.json), [ACCEPTANCE_MATRIX.md](ACCEPTANCE_MATRIX.md). Tarihî başlangıç bulguları [PHASE_0_REPORT.md](PHASE_0_REPORT.md) içinde korunur.

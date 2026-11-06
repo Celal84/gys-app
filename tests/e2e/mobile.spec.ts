@@ -5,10 +5,24 @@ test('mobile source status, filters and unavailable exam are honest', async ({pa
   await page.goto('/');
   await expect(page.getByTestId('approved-count')).toHaveText(String(content.questions.length));
   await expect(page.getByTestId('topic-row')).toHaveCount(24);
+  await expect(page.getByTestId('tool-bank')).toBeEnabled();
+  await page.evaluate(()=>{window.scrollTo(0,0);document.body.scrollTop=0;document.documentElement.scrollTop=0;});
+  await page.waitForFunction(()=>scrollY===0&&document.body.scrollTop===0&&document.documentElement.scrollTop===0&&visualViewport?.pageTop===0);
+  const header=await page.locator('.app-header').boundingBox();
+  expect(header!.y).toBeGreaterThanOrEqual(0);expect(header!.y).toBeLessThanOrEqual(1);
+  const firstTopic=await page.getByTestId('topic-row').first().boundingBox();
+  const navigation=await page.getByRole('navigation',{name:'Ana gezinme',exact:true}).boundingBox();
+  expect(firstTopic!.y+firstTopic!.height).toBeLessThanOrEqual(navigation!.y);
   await page.getByTestId('filter-technical').click(); await expect(page.getByTestId('topic-row')).toHaveCount(8);
   await page.getByTestId('filter-common').click(); await expect(page.getByTestId('topic-row')).toHaveCount(16);
-  await page.getByTestId('topic-row').first().click(); await expect(page.getByTestId('notice')).toContainText('onaylı soru henüz yok');
-  await page.getByTestId('full-exam-button').click(); await expect(page.getByTestId('notice')).toContainText('Strict Mode');
+  const unavailable=page.getByTestId('topic-row').filter({has:page.locator('.topic-meta',{hasText:/^0 onaylı soru/})});
+  if(await unavailable.count()){
+    await unavailable.first().click();await expect(page.getByTestId('notice')).toContainText('onaylı soru henüz yok');
+  }
+  await page.getByTestId('exam-sources-panel').locator('summary').click();
+  await page.getByTestId('full-exam-button').click();
+  await expect(page.getByTestId('tools-panel')).toContainText('Hazır deneme:0/30');
+  await expect(page.getByTestId('tools-panel')).toContainText('deneme başlatılamaz');
   await page.getByRole('button', {name:'İstatistik', exact:true}).click();
   await expect(page.getByTestId('score-estimate')).toHaveText('Veri yetersiz');
   expect(errors).toEqual([]);
@@ -49,13 +63,15 @@ test('invalid backup never prompts replacement or changes saved progress', async
   await page.getByRole('combobox').first().selectOption('20');
   const before = await page.evaluate(() => localStorage.getItem('gys_v4_workspace_v1'));
   let dialogs = 0; page.on('dialog', async d => { dialogs++; await d.dismiss(); });
-  await page.locator('input[type=file]').nth(1).setInputFiles({name:'broken.json',mimeType:'application/json',buffer:Buffer.from('{"schemaVersion":1,"state":{"totalAnswered":-1},"questions":[]}')});
+  await page.getByTestId('legacy-import').setInputFiles({name:'broken.json',mimeType:'application/json',buffer:Buffer.from('{"schemaVersion":1,"state":{"totalAnswered":-1},"questions":[]}')});
   await expect(page.getByTestId('notice')).toContainText('Yedek geçersiz');
   expect(dialogs).toBe(0);
   expect(await page.evaluate(() => localStorage.getItem('gys_v4_workspace_v1'))).toBe(before);
 });
 
 test('real approved questions resume offline, score correctly and preserve the wrong book', async ({page,context}) => {
+  // Two service-worker reloads and five complete answers also run on the slower WebKit engine.
+  test.setTimeout(60000);
   const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
   await page.goto('/');await expect(page.getByTestId('approved-count')).toHaveText(String(content.questions.length));
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;});await page.reload();await page.waitForFunction(()=>navigator.serviceWorker.controller!==null);
@@ -66,21 +82,21 @@ test('real approved questions resume offline, score correctly and preserve the w
   const firstText=await page.getByTestId('question-text').innerText();const first=content.questions.find(q=>q.text===firstText)!;
   expect(first).toBeDefined();const wrong=first.options.find(o=>o.id!==first.correctOptionId)!;
   await dialog.getByText(wrong.text,{exact:true}).click();
-  await dialog.getByRole('button',{name:/Kontrol et/i}).click();
+  await dialog.getByRole('button',{name:'Kontrol et',exact:true}).click();
   await expect(dialog.getByRole('link',{name:/İlgili maddeyi oku/})).toBeVisible();
   await context.setOffline(true);await page.reload();await expect(page.getByTestId('resume-card')).toBeVisible();
   await page.getByTestId('resume-study').click();await expect(page.getByTestId('question-text')).toHaveText(firstText);
-  await expect(dialog.getByRole('button',{name:/Kontrol et/i})).toBeHidden();
-  await dialog.getByRole('button',{name:/DEVAM ET/i}).click();
+  await expect(dialog.getByRole('button',{name:'Kontrol et',exact:true})).toBeHidden();
+  await dialog.getByRole('button',{name:'DEVAM ET',exact:true}).click();
   await expect(page.getByTestId('question-text')).not.toHaveText(firstText);
   for(let i=1;i<5;i++){
-    await expect(dialog.getByRole('button',{name:/Kontrol et/i})).toBeVisible();
+    await expect(dialog.getByRole('button',{name:'Kontrol et',exact:true})).toBeVisible();
     const text=await page.getByTestId('question-text').innerText();const question=content.questions.find(q=>q.text===text)!;
     const correct=question.options.find(o=>o.id===question.correctOptionId)!;
     await dialog.getByText(correct.text,{exact:true}).click();
-    await dialog.getByRole('button',{name:/Kontrol et/i}).click();
+    await dialog.getByRole('button',{name:'Kontrol et',exact:true}).click();
     await expect(dialog.getByRole('link',{name:/İlgili maddeyi oku/})).toBeVisible();
-    await dialog.getByRole('button',{name:/DEVAM ET/i}).click();
+    await dialog.getByRole('button',{name:'DEVAM ET',exact:true}).click();
     if(i<4)await expect(page.getByTestId('question-text')).not.toHaveText(text);
   }
   await expect(page.getByTestId('study-result')).toHaveText('4 doğru · 1 yanlış · 0 boş');
@@ -93,7 +109,7 @@ test('real approved questions resume offline, score correctly and preserve the w
 });
 
 test('historical catalog links official booklets without implying580accepted questions',async({page})=>{
- await page.goto('/');await page.getByTestId('historical-catalog-button').click();
+ await page.goto('/');await page.getByTestId('exam-sources-panel').locator('summary').click();await page.getByTestId('historical-catalog-button').click();
  await expect(page.getByTestId('historical-booklet')).toHaveCount(9);
  await expect(page.getByTestId('historical-catalog')).toContainText('Kabul edilen çıkmış soru:0');
  const links=await page.getByTestId('historical-catalog').getByRole('link').evaluateAll(elements=>elements.map(element=>(element as HTMLAnchorElement).href));

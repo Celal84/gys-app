@@ -5,10 +5,10 @@
   "externalRecords": 26,
   "combinedRecordsById": 50,
   "originalQuestionTarget": 5400,
-  "generatedThisPhase": 18,
-  "sourceVerifiedQuestions": 18,
-  "approvedQuestions": 18,
-  "pendingNewQuestions": 0,
+  "generatedThisPhase": 648,
+  "sourceVerifiedQuestions": 400,
+  "approvedQuestions": 400,
+  "pendingNewQuestions": 248,
   "rejectedQuestions": 0,
   "pendingLegacyRecords": 50,
   "duplicateCandidates": [
@@ -78,7 +78,10 @@
     ]
   ],
   "semanticAudit": "NotCompletedForWholeBank",
-  "newPackageIndependentReview": "CompletedFor18",
+  "newPackageIndependentReview": {
+    "status": "CompletedForPublishedPreparationContent",
+    "count": 400
+  },
   "historicalAccepted": 0,
   "historicalReview": "9OfficialBooklets480AnswerMatchesRightsScopePending",
   "finalContentAcceptance": false

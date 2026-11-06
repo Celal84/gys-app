@@ -24,6 +24,10 @@ export interface AttemptQuestion {
   sourceSnapshotId?: string;
   sourceContentHash?: string;
   legalEdition?: 'preparation' | 'exam';
+  learningObjectiveId?: string;
+  difficulty?: 'basic'|'medium'|'hard'|'application';
+  cognitiveType?: string;
+  distractorExplanations?: {optionId:string;explanation:string;conceptId:string;conceptLabel?:string}[];
 }
 export interface AttemptAnswer {
   questionId: string;
@@ -133,6 +137,14 @@ function validateInput(input: StartAttemptInput): void {
     seen.add(q.id);
     if (!Number.isSafeInteger(q.version) || q.version < 1) throw new Error('Geçersiz soru sürümü.');
     if (!/^(O(0[1-9]|1[0-6])|T0[1-8])$/.test(q.topicId)) throw new Error('Geçersiz konu kimliği.');
+    if(q.learningObjectiveId!==undefined)requireIdentity(q.learningObjectiveId);
+    if(q.difficulty!==undefined&&!['basic','medium','hard','application'].includes(q.difficulty))throw new Error('Geçersiz zorluk.');
+    if(q.cognitiveType!==undefined)requireText(q.cognitiveType,'bilişsel tür',200);
+    if(q.distractorExplanations!==undefined){
+      if(!Array.isArray(q.distractorExplanations)||q.distractorExplanations.length>4)throw new Error('Geçersiz çeldirici kayıtları.');
+      if(new Set(q.distractorExplanations.map(d=>d.optionId)).size!==q.distractorExplanations.length)throw new Error('Tekrarlayan çeldirici kimliği.');
+      for(const d of q.distractorExplanations){if(!q.options.some(o=>o.id===d.optionId)||d.optionId===q.correctOptionId)throw new Error('Seçenekle eşleşmeyen çeldirici.');requireIdentity(d.optionId);requireIdentity(d.conceptId);requireText(d.explanation,'çeldirici açıklaması');if(d.conceptLabel!==undefined)requireText(d.conceptLabel,'kavram',1000);}
+    }
     requireText(q.topic, 'konu', 1000);
     if (!Number.isFinite(q.weight) || q.weight <= 0 || q.weight > 100) throw new Error('Geçersiz konu ağırlığı.');
     requireText(q.text, 'soru metni'); requireText(q.explanation, 'açıklama', 30000);
@@ -463,3 +475,9 @@ export function createAttemptStore(dbName = ATTEMPT_DB_NAME) {
   };
 }
 export type AttemptStore = ReturnType<typeof createAttemptStore>;
+
+/** Validate and detach an imported journal without writing storage. */
+export function validateJournalBackup(input: unknown): JournalBackup {
+  const attempts = validateJournal(input);
+  return { kind: 'gys-study-journal', schemaVersion: 1, exportedAt: (input as JournalBackup).exportedAt, attempts };
+}

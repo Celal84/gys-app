@@ -1,102 +1,5437 @@
 {
   "schemaVersion": 1,
-  "batchId": "BATCH-O02-STARTER-20261106-01",
-  "checkedAt": "2026-11-06T12:56:19.052Z",
-  "generated": 18,
-  "approved": 18,
-  "pending": 0,
-  "sourceArtifactsChecked": 11,
+  "checkedAt": "2026-11-06T15:10:18.318Z",
+  "generated": 648,
+  "selectedCandidateCount": 400,
+  "approved": 400,
+  "pending": 248,
+  "sourceArtifactsChecked": 166,
   "independentReview": true,
+  "batches": [
+    {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
+      "topicId": "O02",
+      "generated": 18,
+      "approved": 18,
+      "pending": 0,
+      "sourceArtifactsChecked": 11,
+      "reviewFile": "data/reviews/657-starter-review.json"
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "topicId": "O02",
+      "generated": 82,
+      "approved": 82,
+      "pending": 0,
+      "sourceArtifactsChecked": 117,
+      "reviewFile": "data/reviews/o02-bank-extension-review.json"
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "topicId": "O01",
+      "generated": 100,
+      "approved": 100,
+      "pending": 0,
+      "sourceArtifactsChecked": 35,
+      "reviewFile": "data/reviews/o01-bank-review.json"
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "topicId": "O03",
+      "generated": 100,
+      "approved": 100,
+      "pending": 0,
+      "sourceArtifactsChecked": 1,
+      "reviewFile": "data/reviews/o03-bank-review.json"
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "topicId": "T01",
+      "generated": 100,
+      "approved": 100,
+      "pending": 0,
+      "sourceArtifactsChecked": 2,
+      "reviewFile": "data/reviews/t01-bank-review.json"
+    }
+  ],
   "outcomes": [
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0001",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0002",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0003",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0004",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0005",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0006",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0007",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0008",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0009",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0010",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0011",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0012",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0013",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0014",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0015",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0016",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0017",
       "decision": "Approved",
       "issues": []
     },
     {
+      "batchId": "BATCH-O02-STARTER-20261106-01",
       "questionId": "Q-O02-B-0018",
       "decision": "Approved",
       "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0019",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0020",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0021",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0022",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0023",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0024",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0025",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0026",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0027",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0028",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0029",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0030",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0031",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0032",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0033",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0034",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0035",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0036",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0037",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0038",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0039",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0040",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0041",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0042",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0043",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0044",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0045",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0046",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0047",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0048",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0049",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0050",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0051",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0052",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0053",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0054",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0055",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0056",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0057",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0058",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0059",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0060",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0061",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0062",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0063",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0064",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0065",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0066",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0067",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0068",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0069",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0070",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0071",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0072",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0073",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0074",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0075",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0076",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0077",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0078",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0079",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0080",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0081",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0082",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0083",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0084",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0085",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0086",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0087",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0088",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0089",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0090",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0091",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0092",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0093",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0094",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0095",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0096",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0097",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0098",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0099",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O02-EXTENSION-20261106-01",
+      "questionId": "Q-O02-B-0100",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0001",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0002",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0003",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0004",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0005",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0006",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0007",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0008",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0009",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0010",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0011",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0012",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0013",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0014",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0015",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0016",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0017",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0018",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0019",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0020",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0021",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0022",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0023",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0024",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0025",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0026",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0027",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0028",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0029",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0030",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0031",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0032",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0033",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0034",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0035",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0036",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0037",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0038",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0039",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0040",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0041",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0042",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0043",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0044",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0045",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0046",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0047",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0048",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0049",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0050",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0051",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0052",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0053",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0054",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0055",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0056",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0057",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0058",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0059",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0060",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0061",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0062",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0063",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0064",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0065",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0066",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0067",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0068",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0069",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0070",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0071",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0072",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0073",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0074",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0075",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0076",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0077",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0078",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0079",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0080",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0081",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0082",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0083",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0084",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0085",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0086",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0087",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0088",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0089",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0090",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0091",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0092",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0093",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0094",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0095",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0096",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0097",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0098",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0099",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O01-BANK-20261106-01",
+      "questionId": "Q-O01-B-0100",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0001",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0002",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0003",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0004",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0005",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0006",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0007",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0008",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0009",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0010",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0011",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0012",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0013",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0014",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0015",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0016",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0017",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0018",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0019",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0020",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0021",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0022",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0023",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0024",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0025",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0026",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0027",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0028",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0029",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0030",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0031",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0032",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0033",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0034",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0035",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0036",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0037",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0038",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0039",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0040",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0041",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0042",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0043",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0044",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0045",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0046",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0047",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0048",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0049",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0050",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0051",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0052",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0053",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0054",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0055",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0056",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0057",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0058",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0059",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0060",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0061",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0062",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0063",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0064",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0065",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0066",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0067",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0068",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0069",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0070",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0071",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0072",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0073",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0074",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0075",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0076",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0077",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0078",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0079",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0080",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0081",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0082",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0083",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0084",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0085",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0086",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0087",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0088",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0089",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0090",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0091",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0092",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0093",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0094",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0095",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0096",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0097",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0098",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0099",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-O03-B-20261106-01",
+      "questionId": "Q-O03-B-0100",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0001",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0002",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0003",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0004",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0005",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0006",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0007",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0008",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0009",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0010",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0011",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0012",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0013",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0014",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0015",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0016",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0017",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0018",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0019",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0020",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0021",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0022",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0023",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0024",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0025",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0026",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0027",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0028",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0029",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0030",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0031",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0032",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0033",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0034",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0035",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0036",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0037",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0038",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0039",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0040",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0041",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0042",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0043",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0044",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0045",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0046",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0047",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0048",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0049",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0050",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0051",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0052",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0053",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0054",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0055",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0056",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0057",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0058",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0059",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0060",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0061",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0062",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0063",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0064",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0065",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0066",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0067",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0068",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0069",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0070",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0071",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0072",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0073",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0074",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0075",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0076",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0077",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0078",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0079",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0080",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0081",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0082",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0083",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0084",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0085",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0086",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0087",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0088",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0089",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0090",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0091",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0092",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0093",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0094",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0095",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0096",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0097",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0098",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0099",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "batchId": "BATCH-T01-BANK-20261106-01",
+      "questionId": "Q-T01-B-0100",
+      "decision": "Approved",
+      "issues": []
+    }
+  ],
+  "unpublishedCandidates": [
+    {
+      "questionId": "Q-O01-A-0001",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0002",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0003",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0004",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0005",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0006",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0007",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0008",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0009",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0010",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0011",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0012",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0013",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0014",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0015",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0016",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0017",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0018",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0019",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0020",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0021",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0022",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0023",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0024",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0025",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0026",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0027",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0028",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0029",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0030",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0031",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0032",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0033",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0034",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0035",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0036",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0037",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0038",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "NeedsReview"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0039",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0040",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0041",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0042",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0043",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0044",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0045",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0046",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0047",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0048",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0049",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0050",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0051",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0052",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0053",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0054",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0055",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0056",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0057",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0058",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0059",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0060",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0061",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0062",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0063",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0064",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0065",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0066",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0067",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0068",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0069",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0070",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0071",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0072",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0073",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0074",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0075",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0076",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0077",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0078",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0079",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0080",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0081",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0082",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0083",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0084",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0085",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0086",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0087",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0088",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0089",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0090",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0091",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0092",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0093",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0094",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0095",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0096",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0097",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0098",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0099",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0100",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0101",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0102",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0103",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0104",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0105",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0106",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "NeedsReview"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0107",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0108",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0109",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0110",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0111",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0112",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0113",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0114",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0115",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0116",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0117",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0118",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0119",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0120",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0121",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0122",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0123",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0124",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0125",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0126",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0127",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O01-A-0128",
+      "sourcePool": "A",
+      "topicId": "O01",
+      "file": "data/content-candidates/o01-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o01-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0001",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0002",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0003",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0004",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0005",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0006",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0007",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0008",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0009",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0010",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0011",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0012",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0013",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0014",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0015",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0016",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0017",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0018",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0019",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0020",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0021",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0022",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0023",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0024",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0025",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0026",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0027",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0028",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0029",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0030",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0031",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0032",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0033",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0034",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0035",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0036",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0037",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0038",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0039",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0040",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0041",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0042",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0043",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0044",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0045",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0046",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0047",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0048",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0049",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0050",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0051",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0052",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0053",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0054",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0055",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0056",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0057",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0058",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0059",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0060",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0061",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0062",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0063",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0064",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0065",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0066",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0067",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0068",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0069",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0070",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0071",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0072",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0073",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0074",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0075",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0076",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0077",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0078",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0079",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0080",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0081",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0082",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0083",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0084",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0085",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0086",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0087",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0088",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0089",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0090",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0091",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0092",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0093",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0094",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0095",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0096",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0097",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0098",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0099",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0100",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0101",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0102",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0103",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0104",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0105",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0106",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0107",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0108",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0109",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0110",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0111",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0112",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0113",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0114",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0115",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0116",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0117",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0118",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0119",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
+    },
+    {
+      "questionId": "Q-O03-A-0120",
+      "sourcePool": "A",
+      "topicId": "O03",
+      "file": "data/content-candidates/o03-mocks.json",
+      "status": "ValidationPending",
+      "independentReview": {
+        "reviewFile": "data/reviews/o03-mocks-review.json",
+        "decision": "Pass"
+      },
+      "published": false
     }
   ]
 }

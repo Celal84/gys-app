@@ -1,0 +1,2187 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "o03-independent-review",
+  "reviewType": "SeparateProcessModelAssistedOfficialProvisionReview",
+  "humanReview": false,
+  "candidateFileSHA256": "a8fac105027e90bac4c32dc6609836f521c9f5dc7d2cee676f06db1d6bbfc884",
+  "rulesFileSHA256": "b28bdde538f2505680721aea64217697959a6a0e222351b301addc10c9016671",
+  "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+  "sourceArchiveHashChecks": 5,
+  "sourceIntegrityChecks": {
+    "independentParser": "lxml.html",
+    "fullRawResponse": true,
+    "fullDecodedHTML": true,
+    "decodedContentMatchesRawBase64": true,
+    "provisionJSON": true,
+    "fullParagraphTranscript": true,
+    "paragraphsCompared": 817,
+    "integrityDisagreements": 0,
+    "totalMechanicalChecks": 1628
+  },
+  "legalEdition": "preparation",
+  "examCutoffFinalized": false,
+  "reviewDecisionScope": "Pass supports selected preparation questions only after reproducible source/rule checks pass. It is not human approval, full curriculum-objective acceptance, or a final2027legal-edition decision.",
+  "correctedCandidates": [
+    "Q-O03-B-0015",
+    "Q-O03-B-0026",
+    "Q-O03-B-0027",
+    "Q-O03-B-0033",
+    "Q-O03-B-0036",
+    "Q-O03-B-0040",
+    "Q-O03-B-0041",
+    "Q-O03-B-0043",
+    "Q-O03-B-0044",
+    "Q-O03-B-0049",
+    "Q-O03-B-0050",
+    "Q-O03-B-0051",
+    "Q-O03-B-0075",
+    "Q-O03-B-0076",
+    "Q-O03-B-0083",
+    "Q-O03-B-0085",
+    "Q-O03-B-0086",
+    "Q-O03-B-0095",
+    "Q-O03-B-0096",
+    "Q-O03-B-0097",
+    "Q-O03-B-0098",
+    "Q-O03-B-0100"
+  ],
+  "difficultyCalibrationCandidates": [
+    "Q-O03-B-0057",
+    "Q-O03-B-0058",
+    "Q-O03-B-0061",
+    "Q-O03-B-0065",
+    "Q-O03-B-0079",
+    "Q-O03-B-0080",
+    "Q-O03-B-0077",
+    "Q-O03-B-0063",
+    "Q-O03-B-0073",
+    "Q-O03-B-0078"
+  ],
+  "originalityReview": {
+    "comparedQuestionCount": 200,
+    "baselineQuestions": 100,
+    "extensionQuestions": 100,
+    "distinctExtensionObjectives": 100,
+    "normalizedTextDuplicatesObserved": 0,
+    "semanticDuplicatesObserved": 0,
+    "learningObjectiveDuplicatesObserved": 0,
+    "method": "Separate model-assisted reading of measured legal facts, conditions, results and cognitive operations plus normalized text checks. Q89/Q99 previous O02 overlaps were replaced before this final review. No embedding model or statistical proof claimed.",
+    "pendingCrossPoolReview": "O03A120 and other unreviewed draft batches are not covered by this bank acceptance."
+  },
+  "summary": {
+    "reviewed": 100,
+    "passed": 100,
+    "needsReview": 0,
+    "rejected": 0,
+    "scenarioCount": 20,
+    "difficultyDistribution": {
+      "basic": 35,
+      "medium": 38,
+      "hard": 7,
+      "application": 20
+    },
+    "finalizedForExam2027": false
+  },
+  "reviews": [
+    {
+      "questionId": "Q-O03-B-0001",
+      "candidateSha256": "cc293a4477a4e62e61c907b326b06e5a9a991942636b5594c6748dc881cb113c",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 1 – Türkiye Devleti bir Cumhuriyettir.",
+      "sourceLocator": "2709 sayılı Anayasa m.1; UYAP maddeId=1281411; full HTML p[26]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 1,
+        "legalProvisionId": "LP-2709-1",
+        "learningObjectiveId": "LO-O03-001-B-0001",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-001-B-0001; m.1."
+      },
+      "notes": [
+        "Devlet şekli Cumhuriyettir; federasyon devlet şekliyle, monarşiler anayasal Cumhuriyetle karıştırılmamalıdır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0002",
+      "candidateSha256": "29587e59397a931feaca603b85879a01b98ac9bd3f31fc949916210a9452682b",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 2 – Türkiye Cumhuriyeti, toplumun huzuru, milli dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk Devletidir.",
+      "sourceLocator": "2709 sayılı Anayasa m.2; UYAP maddeId=1281420; full HTML p[29]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 2,
+        "legalProvisionId": "LP-2709-2",
+        "learningObjectiveId": "LO-O03-002-B-0002",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-002-B-0002; m.2."
+      },
+      "notes": [
+        "m.2 demokratik, laik, sosyal hukuk devleti niteliklerini birlikte sayar; diğer seçeneklerdeki nitelikler hükme aykırıdır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0003",
+      "candidateSha256": "ac9eb66752cf7b9eefd453d38d8031e4f240476c169f56c36a425024c0a1b172",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Başkenti Ankara'dır.",
+      "sourceLocator": "2709 sayılı Anayasa m.3; UYAP maddeId=1281428; full HTML p[35]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-2709-3",
+        "learningObjectiveId": "LO-O03-003-B-0003",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-003-B-0003; m.3."
+      },
+      "notes": [
+        "Başkente ilişkin tek anayasal şehir Ankara; tarihî önem taşıyan diğer şehirler başkent değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0004",
+      "candidateSha256": "c08617033dcb9425df20901e1471c4b7759b65d2b4b16160f6635362937a53d3",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 4 – Anayasanın 1 inci maddesindeki Devletin şeklinin Cumhuriyet olduğu hakkındaki hüküm ile, 2 nci maddesindeki Cumhuriyetin nitelikleri ve 3 üncü maddesi hükümleri değiştirilemez ve değiştirilmesi teklif edilemez.",
+      "sourceLocator": "2709 sayılı Anayasa m.4; UYAP maddeId=1281434; full HTML p[38]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 4,
+        "legalProvisionId": "LP-2709-4",
+        "learningObjectiveId": "LO-O03-004-B-0004",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-004-B-0004; m.4."
+      },
+      "notes": [
+        "Koruma m.1’deki Cumhuriyet, m.2 nitelikleri ve m.3 hükümleridir; teklifler de yasaktır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0005",
+      "candidateSha256": "37e1ec7dbb999985ba76c735c7de37884d4415557a36b7d0d7a5759b5fa12784",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 6 – Egemenlik, kayıtsız şartsız Milletindir.",
+      "sourceLocator": "2709 sayılı Anayasa m.6; UYAP maddeId=1281458; full HTML p[44]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 6,
+        "legalProvisionId": "LP-2709-6",
+        "learningObjectiveId": "LO-O03-006-B-0005",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-006-B-0005; m.6."
+      },
+      "notes": [
+        "Egemenlik Milletindir; organların egemenliği anayasal yetkilerle kullanması egemenliğin sahibini değiştirmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0006",
+      "candidateSha256": "71903e2ab7f9dc8cb04af128ff8c52700919a987a2005bd3e2238d5290437d55",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 7 – Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir. Bu yetki devredilemez.",
+      "sourceLocator": "2709 sayılı Anayasa m.7; UYAP maddeId=1281467; full HTML p[49]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 7,
+        "legalProvisionId": "LP-2709-7",
+        "learningObjectiveId": "LO-O03-007-B-0006",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-007-B-0006; m.7."
+      },
+      "notes": [
+        "Yasama TBMM’ye aittir ve devredilemez; yürütme, yargı ve MGK bunun yerine geçmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0007",
+      "candidateSha256": "bc2c36f1ea3d5488e4c3edb3af30507d0bb8db3c1aef8a47e481aa4212c996d0",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 8 – Yürütme yetkisi ve görevi, Cumhurbaşkanı (…)[7] tarafından, Anayasaya ve kanunlara uygun olarak kullanılır ve yerine getirilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.8; UYAP maddeId=1281476; full HTML p[52]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-2709-8",
+        "learningObjectiveId": "LO-O03-008-B-0007",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-008-B-0007; m.8."
+      },
+      "notes": [
+        "2017 sonrası m.8 Cumhurbaşkanını belirtir; Başbakan/Bakanlar Kurulu tarihî çeldiricilerdir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0008",
+      "candidateSha256": "e2071d300bc0979ac6496532e9427023d694bd6062aca742c74cea1674b249a2",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 9 – Yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır. [8]",
+      "sourceLocator": "2709 sayılı Anayasa m.9; UYAP maddeId=1281489; full HTML p[55]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-2709-9",
+        "learningObjectiveId": "LO-O03-009-B-0008",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-009-B-0008; m.9."
+      },
+      "notes": [
+        "Yargı yetkisi bağımsız ve tarafsız mahkemelerindir; yürütme veya parti organları değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0009",
+      "candidateSha256": "3850ddcc0aa3e862f686bbc5b620db19773bf1711ab2ae882fcbc943b4cdf286",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 11 – Anayasa hükümleri, yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır.",
+      "sourceLocator": "2709 sayılı Anayasa m.11; UYAP maddeId=1281512; full HTML p[65]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 11,
+        "legalProvisionId": "LP-2709-11",
+        "learningObjectiveId": "LO-O03-011-B-0009",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-011-B-0009; m.11."
+      },
+      "notes": [
+        "Bağlayıcılık organ, idare, kuruluş ve kişilere uzanır; yalnız bir kamu organıyla sınırlanamaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0010",
+      "candidateSha256": "2e1862c337bd7ca020c34a9c38e11ecb85855fb3b9f68aaa5bbd009d59c31a23",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 12 – Herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir.",
+      "sourceLocator": "2709 sayılı Anayasa m.12; UYAP maddeId=1281543; full HTML p[75]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-2709-12",
+        "learningObjectiveId": "LO-O03-012-B-0010",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-012-B-0010; m.12."
+      },
+      "notes": [
+        "Kişiliğe bağlılık, dokunulmazlık, devredilmezlik ve vazgeçilmezlik birlikte metindedir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0011",
+      "candidateSha256": "d825d4faff549518d7f75b7638f3e3b6c24f878fdb16f37452d9904770a6bd26",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Temel hak ve hürriyetler, özlerine dokunulmaksızın yalnızca Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir. Bu sınırlamalar, Anayasanın sözüne ve ruhuna, demokratik toplum düzeninin ve lâik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.13; UYAP maddeId=1281554; full HTML p[80]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 13,
+        "legalProvisionId": "LP-2709-13",
+        "learningObjectiveId": "LO-O03-013-B-0011",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-013-B-0011; m.13."
+      },
+      "notes": [
+        "Yalnız norm türü sorulmaktadır: kanun; öz, sebep ve ölçülülük gibi ek şartlar açıklamada korunmuştur.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0012",
+      "candidateSha256": "c58101bc2dd82c368f9b96230d56b6a661e1b1273491f5742407d25e3b40a90c",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 16 – Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak kanunla sınırlanabilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.16; UYAP maddeId=1281584; full HTML p[93]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 16,
+        "legalProvisionId": "LP-2709-16",
+        "learningObjectiveId": "LO-O03-016-B-0012",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-016-B-0012; m.16."
+      },
+      "notes": [
+        "Yabancıların sınırlanması kanunla ve milletlerarası hukuka uygun yapılır; keyfî idari takdir değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0013",
+      "candidateSha256": "48812c45dbf90510733b300dd492c4860d4d91f814641f153688e1c8fd0f83ce",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 18 – Hiç kimse zorla çalıştırılamaz. Angarya yasaktır.",
+      "sourceLocator": "2709 sayılı Anayasa m.18; UYAP maddeId=1281611; full HTML p[105]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 18,
+        "legalProvisionId": "LP-2709-18",
+        "learningObjectiveId": "LO-O03-018-B-0013",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-018-B-0013; m.18."
+      },
+      "notes": [
+        "Angarya açıkça yasaktır; diğer seçenekler zorla çalıştırmanın karşılığı değildir. m.18 istisnaları başka hedefte ölçülür.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0014",
+      "candidateSha256": "a3d4c17ac9ccf933496d61eb2718495982a88f97c345885c509fc00e2345551c",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Her ne sebep ve amaçla olursa olsun kimse, düşünce ve kanaatlerini açıklamaya zorlanamaz; düşünce kanaatleri sebebiyle kınanamaz ve suçlanamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.25; UYAP maddeId=1281678; full HTML p[154]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 25,
+        "legalProvisionId": "LP-2709-25",
+        "learningObjectiveId": "LO-O03-025-B-0014",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-025-B-0014; m.25."
+      },
+      "notes": [
+        "Düşünceyi açıklamaya zorlanamama ile ifade etme hakkı ayrıldı; açıklamama da korunur.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0015",
+      "candidateSha256": "5122f26a2c92e55a183d4cefc65899b3ef85650415fa6a163be3be0ba0973f74",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 27 – Herkes, bilim ve sanatı serbestçe öğrenme ve öğretme, açıklama, yayma ve bu alanlarda her türlü araştırma hakkına sahiptir.",
+      "sourceLocator": "2709 sayılı Anayasa m.27; UYAP maddeId=1281699; full HTML p[164]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 27,
+        "legalProvisionId": "LP-2709-27",
+        "learningObjectiveId": "LO-O03-027-B-0015",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-027-B-0015; m.27."
+      },
+      "notes": [
+        "Öğrenme, öğretme, açıklama, yayma ve araştırma birlikte kapsanır; yalnız kurum, vatandaşlık veya tek faaliyetle sınırlanamaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0016",
+      "candidateSha256": "a4a3497dc84e33a08600a113a9b2e410c6a40e00107fea2f00215c27c65a3507",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 28 – Basın hürdür, sansür edilemez. Basımevi kurmak izin alma ve mali teminat yatırma şartına bağlanamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.28; UYAP maddeId=1281707; full HTML p[171]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 28,
+        "legalProvisionId": "LP-2709-28",
+        "learningObjectiveId": "LO-O03-028-B-0016",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-028-B-0016; m.28."
+      },
+      "notes": [
+        "Sansür yasağı temel kuraldır; basımevi kuruluşundaki izin/teminat da yasaktır. Yayın sonrası sorumlulukla karıştırılmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0017",
+      "candidateSha256": "89806174f0bbe5036471a53157fa09a8a423770013e7fd727784d5afef85bd66",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 35 – Herkes, mülkiyet ve miras haklarına sahiptir.",
+      "sourceLocator": "2709 sayılı Anayasa m.35; UYAP maddeId=1281772; full HTML p[218]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 35,
+        "legalProvisionId": "LP-2709-35",
+        "learningObjectiveId": "LO-O03-035-B-0017",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-035-B-0017; m.35."
+      },
+      "notes": [
+        "Mülkiyet ve miras birlikte m.35’te; diğer hak çiftleri başka maddelerde yer alır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0018",
+      "candidateSha256": "cc3ad4e7b778c3ed080e129455ec55c7657c7df5a02d306e857ea1e4e8ac181f",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 36 – Herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma ile adil yargılanma hakkına sahiptir.[16]",
+      "sourceLocator": "2709 sayılı Anayasa m.36; UYAP maddeId=1281783; full HTML p[225]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 36,
+        "legalProvisionId": "LP-2709-36",
+        "learningObjectiveId": "LO-O03-036-B-0018",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-036-B-0018; m.36."
+      },
+      "notes": [
+        "Yargı önünde iddia, savunma ve adil yargılanma birlikte korunur; yerindelik denetimi veya merciyi tek taraflı seçme hakkı değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0019",
+      "candidateSha256": "176e4dd9ed1593e00b349dfc9cc1565eaf6a1e0da2231c174422d0ef5f03eaf1",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 37 – Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.37; UYAP maddeId=1281793; full HTML p[229]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 37,
+        "legalProvisionId": "LP-2709-37",
+        "learningObjectiveId": "LO-O03-037-B-0019",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-037-B-0019; m.37."
+      },
+      "notes": [
+        "Kanuni hâkim güvencesi kanunen tabi olunan merciyi korur; olay sonrası ad hoc merci kurma değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0020",
+      "candidateSha256": "1958f2264be1f4832ec3bd6b87a61e0565c1346283c561f0de9cafb0f74f6cb9",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 41 – Aile, Türk toplumunun temelidir ve eşler arasında eşitliğe dayanır. [18]",
+      "sourceLocator": "2709 sayılı Anayasa m.41; UYAP maddeId=1281846; full HTML p[258]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 41,
+        "legalProvisionId": "LP-2709-41",
+        "learningObjectiveId": "LO-O03-041-B-0020",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-041-B-0020; m.41."
+      },
+      "notes": [
+        "Ailenin eşler arasında eşitliğe dayanması açık cümledir; üstünlük veya idarî vesayet değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0021",
+      "candidateSha256": "4836f34d5857a37a1f60f6adb7ce63b4f60fc0b6d9a1d368ffe3e71a7028a838",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "İlköğretim kız ve erkek bütün vatandaşlar için zorunludur ve Devlet okullarında parasızdır.",
+      "sourceLocator": "2709 sayılı Anayasa m.42; UYAP maddeId=1281854; full HTML p[268]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 42,
+        "legalProvisionId": "LP-2709-42",
+        "learningObjectiveId": "LO-O03-042-B-0021",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-042-B-0021; m.42."
+      },
+      "notes": [
+        "Zorunluluk kız/erkek bütün vatandaşlar; parasızlık Devlet okulları içindir. Kurum ve kişi kapsamı karıştırılmadı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0022",
+      "candidateSha256": "d54c49fde06f6b24fb672ca933d75aeef8a94c77d495d4bc8422afdc7afe396e",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 43 – Kıyılar, Devletin hüküm ve tasarrufu altındadır.",
+      "sourceLocator": "2709 sayılı Anayasa m.43; UYAP maddeId=1281866; full HTML p[278]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 43,
+        "legalProvisionId": "LP-2709-43",
+        "learningObjectiveId": "LO-O03-043-B-0022",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-043-B-0022; m.43."
+      },
+      "notes": [
+        "Kıyıların Devletin hüküm ve tasarrufu altında olması, belediyenin veya bitişik malikin özel mülkiyeti değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0023",
+      "candidateSha256": "e502b5e721ff9d0bd178b7fc319eeacddc279821015ed691185cf9388e590419",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 49 – Çalışma, herkesin hakkı ve ödevidir.",
+      "sourceLocator": "2709 sayılı Anayasa m.49; UYAP maddeId=1281933; full HTML p[310]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 49,
+        "legalProvisionId": "LP-2709-49",
+        "learningObjectiveId": "LO-O03-049-B-0023",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-049-B-0023; m.49."
+      },
+      "notes": [
+        "Çalışma hem hak hem ödev ve herkes içindir; yalnız memur/işverenle sınırlanmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0024",
+      "candidateSha256": "d3a455006626b87cc001840cc9c885a51b9270c333ae34f35f552d6c10e0eb35",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Çevreyi geliştirmek, çevre sağlığını korumak ve çevre kirlenmesini önlemek Devletin ve vatandaşların ödevidir.",
+      "sourceLocator": "2709 sayılı Anayasa m.56; UYAP maddeId=1282011; full HTML p[362]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 56,
+        "legalProvisionId": "LP-2709-56",
+        "learningObjectiveId": "LO-O03-056-B-0024",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-056-B-0024; m.56."
+      },
+      "notes": [
+        "Çevre geliştirme/koruma Devlet ve vatandaşların ödevidir; yerel idare veya işletmeyle sınırlandırılmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0025",
+      "candidateSha256": "328cbcef7537b40f169e380f0e998341f11ebd7e89b708984bf1bbfa67860728",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi genel oyla seçilen altıyüz milletvekilinden oluşur.[29]",
+      "sourceLocator": "2709 sayılı Anayasa m.75; UYAP maddeId=1282213; full HTML p[490]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 75,
+        "legalProvisionId": "LP-2709-75",
+        "learningObjectiveId": "LO-O03-075-B-0025",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-075-B-0025; m.75."
+      },
+      "notes": [
+        "Güncel m.75 altı yüzdür; eski 450/550 sayıları tarihî çeldirici olarak ayrıldı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0026",
+      "candidateSha256": "e38c347c9f416f66d66b04ccc08a03035da1390f94924f0db2bb4f801c3fb720",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 31 – Kişiler ve siyasi partiler, kamu tüzel kişilerinin elindeki basın dışı kitle haberleşme ve yayım araçlarından yararlanma hakkına sahiptir. Bu yararlanmanın şartları ve usulleri kanunla düzenlenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.31; UYAP maddeId=1281732; full HTML p[192]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 31,
+        "legalProvisionId": "LP-2709-31",
+        "learningObjectiveId": "LO-O03-031-B-0026",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-031-B-0026; m.31."
+      },
+      "notes": [
+        "Basın dışı kamu haberleşme araçlarından yararlanma kişiler ve siyasi partilere tanınır; parti grubu veya basın kartı şartı eklenemez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0027",
+      "candidateSha256": "8165853fd67ac1a8049c7929de8d1aa62e6b12d680f5aaecaf8fafdbb47d9267",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 32 – Düzeltme ve cevap hakkı, ancak kişilerin haysiyet ve şereflerine dokunulması veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması hallerinde tanınır ve kanunla düzenlenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.32; UYAP maddeId=1281741; full HTML p[196]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 32,
+        "legalProvisionId": "LP-2709-32",
+        "learningObjectiveId": "LO-O03-032-B-0027",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-032-B-0027; m.32."
+      },
+      "notes": [
+        "Haysiyet/şeref veya kendisiyle ilgili gerçeğe aykırı yayın özel sebeplerdir; salt politika eleştirisi/yer/izin eksikliği değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0028",
+      "candidateSha256": "9860dc0db21b878bd4bf6a37d2abfb76f6a304106e7c8b605cc2004bc953cd12",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Hiç kimse bir derneğe üye olmaya ve dernekte üye kalmaya zorlanamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.33; UYAP maddeId=1281752; full HTML p[204]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 33,
+        "legalProvisionId": "LP-2709-33",
+        "learningObjectiveId": "LO-O03-033-B-0028",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-033-B-0028; m.33."
+      },
+      "notes": [
+        "Derneğe üye olmaya ve üye kalmaya zorlama yasaktır; serbest kuruluş ve çıkış başka hukuki durumlardır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0029",
+      "candidateSha256": "2f0061b591efc8496d8e4d31597142dda6f54344ac8d81c63b189f7474f91c59",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Herkes, önceden izin almadan, silahsız ve saldırısız toplantı ve gösteri yürüyüşü düzenleme hakkına sahiptir.",
+      "sourceLocator": "2709 sayılı Anayasa m.34; UYAP maddeId=1281765; full HTML p[213]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 34,
+        "legalProvisionId": "LP-2709-34",
+        "learningObjectiveId": "LO-O03-034-B-0029",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-034-B-0029; m.34."
+      },
+      "notes": [
+        "Ön izinsiz fakat silahsız ve saldırısız toplantı kuralı; sınırlama sebepleri bu kökle kaldırılmış sayılmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0030",
+      "candidateSha256": "7f073a830d3756834a5fae2bb2b188cec2602c3148be6722c67ae67e4a3ad984",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Bu haklar, ancak kamu yararı amacıyla, kanunla sınırlanabilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.35; UYAP maddeId=1281772; full HTML p[219]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 35,
+        "legalProvisionId": "LP-2709-35",
+        "learningObjectiveId": "LO-O03-035-B-0030",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-035-B-0030; m.35."
+      },
+      "notes": [
+        "Sınırlama kamu yararı ve kanunla; m.35 temel hak tanımı hedefi Q17’den farklıdır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0031",
+      "candidateSha256": "e03bf5cad18b8c657901908da0ef53fed23f7958dee3e251149090879d21772f",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/15 md.) Kanuna aykırı olarak elde edilmiş bulgular, delil olarak kabul edilemez.",
+      "sourceLocator": "2709 sayılı Anayasa m.38; UYAP maddeId=1281803; full HTML p[238]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 38,
+        "legalProvisionId": "LP-2709-38",
+        "learningObjectiveId": "LO-O03-038-B-0031",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-038-B-0031; m.38."
+      },
+      "notes": [
+        "Kanuna aykırı bulgu delil kabul edilemez; idari izin veya savcı takdiri yasak yerine geçmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0032",
+      "candidateSha256": "0659ae8547208d06084df502e27087054ec7642213cd6ec719193a4b50c62fa4",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 39 – Kamu görev ve hizmetinde bulunanlara karşı, bu görev ve hizmetin yerine getirilmesiyle ilgili olarak yapılan isnatlardan dolayı açılan hakaret davalarında, sanık, isnadın doğruluğunu ispat hakkına sahiptir. Bunun dışındaki hallerde ispat isteminin kabulü, ancak isnat olunan fiilin doğru olup olmadığının anlaşılmasında kamu yararı bulunmasına veya şikayetçinin ispata razı olmasına bağlıdır.",
+      "sourceLocator": "2709 sayılı Anayasa m.39; UYAP maddeId=1281814; full HTML p[247]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 39,
+        "legalProvisionId": "LP-2709-39",
+        "learningObjectiveId": "LO-O03-039-B-0032",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-039-B-0032; m.39."
+      },
+      "notes": [
+        "Görevle ilgili isnat şartı kökte mevcut; diğer hallerde kamu yararı/rıza koşuluna dair tam fıkra ayrıca okundu.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0033",
+      "candidateSha256": "1546b5477ce8c8d8dffa4a90b8afabf71cac2047d72d60cfa488f238b97fc68c",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/16 md.) Devlet, işlemlerinde, ilgili kişilerin hangi kanun yolları ve mercilere başvuracağını ve sürelerini belirtmek zorundadır.",
+      "sourceLocator": "2709 sayılı Anayasa m.40; UYAP maddeId=1281823; full HTML p[251]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 40,
+        "legalProvisionId": "LP-2709-40",
+        "learningObjectiveId": "LO-O03-040-B-0033",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-040-B-0033; m.40."
+      },
+      "notes": [
+        "Devlet işlemlerinde yol, merci ve süreyi birlikte belirtir; yalnız gerekçe/makam/tarih veya bu üçlüden eksik bilgi yeterli değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0034",
+      "candidateSha256": "17e4c308eadffb021068dd5b5bb697bc11ee4dd21dfbbc22cd9071003773e931",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Bu amaçla dağıtılan topraklar bölünemez, miras hükümleri dışında başkalarına devredilemez ve ancak dağıtılan çiftçilerle mirasçıları tarafından işletilebilir. Bu şartların kaybı halinde, dağıtılan toprağın Devletçe geri alınmasına ilişkin esaslar kanunla düzenlenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.44; UYAP maddeId=1281878; full HTML p[284]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 44,
+        "legalProvisionId": "LP-2709-44",
+        "learningObjectiveId": "LO-O03-044-B-0034",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-044-B-0034; m.44."
+      },
+      "notes": [
+        "Dağıtılan toprağın bölünmezliği ve devredilmezliği; miras istisnası açık tutuldu, geri alma şartları tam fıkradan kontrol edildi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0035",
+      "candidateSha256": "a5bfff9a3e5cfa293d6154c8a9a3f16c7e48f7cce88bddf0449d2994d5757e85",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Kamulaştırılan topraktan, o toprağı doğrudan doğruya işleten küçük çiftçiye ait olanlarının bedeli, her halde peşin ödenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.46; UYAP maddeId=1281903; full HTML p[294]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 46,
+        "legalProvisionId": "LP-2709-46",
+        "learningObjectiveId": "LO-O03-046-B-0035",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-046-B-0035; m.46."
+      },
+      "notes": [
+        "Toprağını doğrudan işleten küçük çiftçi peşin ödeme güvencesi; taksit genel özel amaçları başka hedefte ölçülür.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0036",
+      "candidateSha256": "c3481be8b56d831530384b3752f9934a44d5d96ef7ccb3f8d5db2bd6c467d930",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Devletleştirme gerçek karşılığı üzerinden yapılır. Gerçek karşılığın hesaplanma tarzı ve usulleri kanunla düzenlenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.47; UYAP maddeId=1281913; full HTML p[299]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 47,
+        "legalProvisionId": "LP-2709-47",
+        "learningObjectiveId": "LO-O03-047-B-0036",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-047-B-0036; m.47."
+      },
+      "notes": [
+        "Devletleştirme gerçek karşılığıyla; vergi değeri, kayıtlı sermaye, karşılıksızlık veya sahibin tek taraflı bedeli değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0037",
+      "candidateSha256": "9922c3747b9f618e02ea6c9215ad1c8c160b051a176bb781cd2240861f7e33f8",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Çalışanlar ve işverenler, üyelerinin çalışma ilişkilerinde, ekonomik ve sosyal hak ve menfaatlerini korumak ve geliştirmek için önceden izin almaksızın sendikalar ve üst kuruluşlar kurma, bunlara serbestçe üye olma ve üyelikten serbestçe çekilme haklarına sahiptir. Hiç kimse bir sendikaya üye olmaya ya da üyelikten ayrılmaya zorlanamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.51; UYAP maddeId=1281956; full HTML p[322]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 51,
+        "legalProvisionId": "LP-2709-51",
+        "learningObjectiveId": "LO-O03-051-B-0037",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-051-B-0037; m.51."
+      },
+      "notes": [
+        "Sendika kuruluşu ön izne tabi değildir; m.51 korunan hak, üyeliğe/ayrılmaya zorlamama şartıyla birlikte okundu.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0038",
+      "candidateSha256": "722f6e0a7082129162616765be2a227b19f1b7008a0699383aae4ae6442618e0",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 7/5/2010-5982/6 md.) Toplu sözleşme yapılması sırasında uyuşmazlık çıkması halinde taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir. Kamu Görevlileri Hakem Kurulu kararları kesindir ve toplu sözleşme hükmündedir.",
+      "sourceLocator": "2709 sayılı Anayasa m.53; UYAP maddeId=1281976; full HTML p[340]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 53,
+        "legalProvisionId": "LP-2709-53",
+        "learningObjectiveId": "LO-O03-053-B-0038",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-053-B-0038; m.53."
+      },
+      "notes": [
+        "Kamu Görevlileri Hakem Kurulu kararı kesin ve toplu sözleşme hükmünde; tavsiye veya kanun teklifi değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0039",
+      "candidateSha256": "bde0395abb9c406974551c7a795afa9db0036e5d1de33dcca2e9dda1985de0d1",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Greve katılmayanların işyerinde çalışmaları, greve katılanlar tarafından hiç bir şekilde engellenemez.",
+      "sourceLocator": "2709 sayılı Anayasa m.54; UYAP maddeId=1281986; full HTML p[351]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 54,
+        "legalProvisionId": "LP-2709-54",
+        "learningObjectiveId": "LO-O03-054-B-0039",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-054-B-0039; m.54."
+      },
+      "notes": [
+        "Greve katılmayanın çalışması katılanlarca engellenemez; bu, bütün işçiler için zorunlu grev anlamına gelmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0040",
+      "candidateSha256": "643b38aad52257cd364bdfd136ebdaede1ad503aa8b5493b675a3241270ea4e5",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Değişik fıkra: 3/10/2001-4709/21 md.) Asgarî ücretin tespitinde çalışanların geçim şartları ile ülkenin ekonomik durumu da gözönünde bulundurulur.",
+      "sourceLocator": "2709 sayılı Anayasa m.55; UYAP maddeId=1281999; full HTML p[356]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 55,
+        "legalProvisionId": "LP-2709-55",
+        "learningObjectiveId": "LO-O03-055-B-0040",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-055-B-0040; m.55."
+      },
+      "notes": [
+        "Geçim şartları ve ekonomik durum birlikte gözetilir; tek endeks/maliyet/katsayı/eski tutar bunların yerine geçmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0041",
+      "candidateSha256": "4b2fb29cd2b0e0d379d89915c18abb2ff3db9cba3d91ed6ac4fdc2822f491754",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 57 – Devlet, şehirlerin özelliklerini ve çevre şartlarını gözeten bir planlama çerçevesinde, konut ihtiyacını karşılayacak tedbirleri alır, ayrıca toplu konut teşebbüslerini destekler.",
+      "sourceLocator": "2709 sayılı Anayasa m.57; UYAP maddeId=1282021; full HTML p[368]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 57,
+        "legalProvisionId": "LP-2709-57",
+        "learningObjectiveId": "LO-O03-057-B-0041",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-057-B-0041; m.57."
+      },
+      "notes": [
+        "Konut planlamasında şehir özellikleri ve çevre şartları; salt arsa, sayı veya yatırım getirisi değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0042",
+      "candidateSha256": "14fb5fecdcdc117fc6fa82b3a385ffad6052938d14c15b5c21675464fc31042a",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 17/3/2011-6214/1 md.) Spor federasyonlarının spor faaliyetlerinin yönetimine ve disiplinine ilişkin kararlarına karşı ancak zorunlu tahkim yoluna başvurulabilir. Tahkim kurulu kararları kesin olup bu kararlara karşı hiçbir yargı merciine başvurulamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.59; UYAP maddeId=1282042; full HTML p[379]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 59,
+        "legalProvisionId": "LP-2709-59",
+        "learningObjectiveId": "LO-O03-059-B-0042",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-059-B-0042; m.59."
+      },
+      "notes": [
+        "Sadece spor faaliyeti yönetim/disiplin kararı sınırı korunmuştur; zorunlu tahkim kesinliği diğer uyuşmazlıklara genellenmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0043",
+      "candidateSha256": "71f653072bb2b9e355c507b105417c929991ccb837970774407e14439827b115",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Bu varlıklar ve değerlerden özel mülkiyet konusu olanlara getirilecek sınırlamalar ve bu nedenle hak sahiplerine yapılacak yardımlar ve tanınacak muafiyetler kanunla düzenlenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.63; UYAP maddeId=1282076; full HTML p[399]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 63,
+        "legalProvisionId": "LP-2709-63",
+        "learningObjectiveId": "LO-O03-063-B-0043",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-063-B-0043; m.63."
+      },
+      "notes": [
+        "Özel varlık sınırlamaları/yardım/muafiyet kanunla; CBK, yönetmelik, yerel karar veya özel sözleşme bu özel şartı karşılamaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0044",
+      "candidateSha256": "e50eadd2a62efe0d2dcb141e832b64876db883b9039bc6a273a927e7b7ba5a2b",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Devlet, sosyal ve ekonomik alanlarda Anayasa ile belirlenen görevlerini, bu görevlerin amaçlarına uygun öncelikleri gözeterek malî kaynaklarının yeterliliği ölçüsünde yerine getirir.",
+      "sourceLocator": "2709 sayılı Anayasa m.65; UYAP maddeId=1282094; full HTML p[406]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 65,
+        "legalProvisionId": "LP-2709-65",
+        "learningObjectiveId": "LO-O03-065-B-0044",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-065-B-0044; m.65."
+      },
+      "notes": [
+        "Amaçlarına uygun öncelikler ve mali yeterlilik birlikte; sınırsız kaynak veya görevin toptan kaldırılması sonucu yoktur.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0045",
+      "candidateSha256": "931d0f41ad1b186351574678ed5ed5f2b1cb824d5bfd212435a10f7da0a3568e",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türk babanın veya Türk ananın çocuğu Türktür. (Mülga ikinci cümle: 3/10/2001-4709/23 md.)",
+      "sourceLocator": "2709 sayılı Anayasa m.66; UYAP maddeId=1282114; full HTML p[413]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 66,
+        "legalProvisionId": "LP-2709-66",
+        "learningObjectiveId": "LO-O03-066-B-0045",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-066-B-0045; m.66."
+      },
+      "notes": [
+        "Türk ana veya baba yeterlidir; yalnız baba/yalnız ana, erginlik veya vatansızlık çeldiricileri yanlıştır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0046",
+      "candidateSha256": "71f53d46de592a04dbcd99d4adb4299e691c8d2ecd88ade91295730fe2a0d33c",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/24 md.) Seçim kanunlarında yapılan değişiklikler, yürürlüğe girdiği tarihten itibaren bir yıl içinde yapılacak seçimlerde uygulanmaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.67; UYAP maddeId=1282121; full HTML p[425]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 67,
+        "legalProvisionId": "LP-2709-67",
+        "learningObjectiveId": "LO-O03-067-B-0046",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-067-B-0046; m.67."
+      },
+      "notes": [
+        "Başlangıç yürürlüğe giriş, süre bir yıl; yayım tarihiyle veya farklı sürelerle değiştirilmedi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0047",
+      "candidateSha256": "927f99819d67310313d21a5eb47b2e1070d0482465f6aec7d02f21e86f2191b3",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Hakimler ve savcılar, Sayıştay dahil yüksek yargı organları mensupları, kamu kurum ve kuruluşlarının memur statüsündeki görevlileri, yaptıkları hizmet bakımından işçi niteliği taşımayan diğer kamu görevlileri, Silahlı Kuvvetler mensupları ile yükseköğretim öncesi öğrencileri siyasi partilere üye olamazlar.",
+      "sourceLocator": "2709 sayılı Anayasa m.68; UYAP maddeId=1282127; full HTML p[435]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 68,
+        "legalProvisionId": "LP-2709-68",
+        "learningObjectiveId": "LO-O03-068-B-0047",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-068-B-0047; m.68."
+      },
+      "notes": [
+        "Memur statüsündeki kamu görevlileri açık yasakta; işçi/emekli/serbest meslek grubuna toptan yasak genellenemez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0048",
+      "candidateSha256": "535164a58f23f87599575276682cad9a7780b6b596f4c3ff1ccf1dee384a6b71",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Siyasi partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır.",
+      "sourceLocator": "2709 sayılı Anayasa m.69; UYAP maddeId=1282137; full HTML p[444]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 69,
+        "legalProvisionId": "LP-2709-69",
+        "learningObjectiveId": "LO-O03-069-B-0048",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-069-B-0048; m.69."
+      },
+      "notes": [
+        "Davacı Yargıtay Cumhuriyet Başsavcısı, karar makamı AYM; idarî ve diğer yargısal makam eşleşmeleri yanlış.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0049",
+      "candidateSha256": "7469b434230355e30205e67d0a519adcc9c57e0cd678f64023d1407f4b1bcb37",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Hizmete alınmada, görevin gerektirdiği niteliklerden başka hiçbir ayırım gözetilemez.",
+      "sourceLocator": "2709 sayılı Anayasa m.70; UYAP maddeId=1282148; full HTML p[457]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 70,
+        "legalProvisionId": "LP-2709-70",
+        "learningObjectiveId": "LO-O03-070-B-0049",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-070-B-0049; m.70."
+      },
+      "notes": [
+        "Hizmete girişte görevin nitelikleri; aile siyasi tercihi/doğum yeri/sendika/akrabalık ayrım için başka ölçütlerdir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0050",
+      "candidateSha256": "7e7d09a4b49f2dafb8635c1874ff0d6f0dae86b86d4daebd16361d57693af67f",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 71– Kamu hizmetine girenlerin mal bildiriminde bulunmaları ve bu bildirimlerin tekrarlanma süreleri kanunla düzenlenir. Yasama ve yürütme organlarında görev alanlar, bundan istisna edilemez.",
+      "sourceLocator": "2709 sayılı Anayasa m.71; UYAP maddeId=1282158; full HTML p[460]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 71,
+        "legalProvisionId": "LP-2709-71",
+        "learningObjectiveId": "LO-O03-071-B-0050",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-071-B-0050; m.71."
+      },
+      "notes": [
+        "İstisna konulamayan açık grup yasama ve yürütmede görev alanlardır; yalnız bir kol veya farklı grup eksiktir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0051",
+      "candidateSha256": "8f4237a9599824d1600d50d3dbeef14fafdc7b14518b53ad788b687a970c5a6d",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Vergi, resim, harç ve benzeri mali yükümlülükler kanunla konulur, değiştirilir veya kaldırılır.",
+      "sourceLocator": "2709 sayılı Anayasa m.73; UYAP maddeId=1282174; full HTML p[468]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 73,
+        "legalProvisionId": "LP-2709-73",
+        "learningObjectiveId": "LO-O03-073-B-0051",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-073-B-0051; m.73."
+      },
+      "notes": [
+        "Genel mali yükümlülük kanuniliği sorulur; oran sınırları içinde yürütmeye verilen yetki ayrı fıkrada saklı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0052",
+      "candidateSha256": "5978686b493830c047a21f106f54ac96c52de0bef3563ef9b9ecee54f47efeb3",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 7/5/2010-5982/8 md.) Türkiye Büyük Millet Meclisi Başkanlığına bağlı olarak kurulan Kamu Denetçiliği Kurumu idarenin işleyişiyle ilgili şikâyetleri inceler.",
+      "sourceLocator": "2709 sayılı Anayasa m.74; UYAP maddeId=1282181; full HTML p[476]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 74,
+        "legalProvisionId": "LP-2709-74",
+        "learningObjectiveId": "LO-O03-074-B-0052",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-074-B-0052; m.74."
+      },
+      "notes": [
+        "Kamu Denetçiliği TBMM Başkanlığına bağlıdır; Cumhurbaşkanlığı, bakanlık veya yüksek yargı organına bağlı değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0053",
+      "candidateSha256": "9bcd215415c1235781d536a182120f741dcb1c7f3ec30315f31b33ec21ccceb5",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 80 – Türkiye Büyük Millet Meclisi üyeleri, seçildikleri bölgeyi veya kendilerini seçenleri değil, bütün Milleti temsil ederler.",
+      "sourceLocator": "2709 sayılı Anayasa m.80; UYAP maddeId=1282259; full HTML p[521]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 80,
+        "legalProvisionId": "LP-2709-80",
+        "learningObjectiveId": "LO-O03-080-B-0053",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-080-B-0053; m.80."
+      },
+      "notes": [
+        "Tüm Millet temsili; seçim çevresi, kişisel seçmen veya parti üyeliğine indirgenmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0054",
+      "candidateSha256": "daeb84decd328477cbd1e7585856ad88640f716c7a63abc2331278a782df1743",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 88 – Kanun teklif etmeye (…)[40] milletvekilleri yetkilidir.",
+      "sourceLocator": "2709 sayılı Anayasa m.88; UYAP maddeId=1282338; full HTML p[563]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 88,
+        "legalProvisionId": "LP-2709-88",
+        "learningObjectiveId": "LO-O03-088-B-0054",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-088-B-0054; m.88."
+      },
+      "notes": [
+        "Genel kanun teklifi milletvekillerince; bütçe özel hükmü bu O03 kökünde genellenmedi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0055",
+      "candidateSha256": "5ebfe2b7aa73edffa7765d8d80515b64fa08cafcf748907b17153b79d5d71773",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Cumhurbaşkanı, kırk yaşını doldurmuş, yükseköğrenim yapmış, milletvekili seçilme yeterliliğine sahip Türk vatandaşları arasından, doğrudan halk tarafından seçilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.101; UYAP maddeId=1282479; full HTML p[639]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 101,
+        "legalProvisionId": "LP-2709-101",
+        "learningObjectiveId": "LO-O03-101-B-0055",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-101-B-0055; m.101."
+      },
+      "notes": [
+        "40 yaş/yükseköğrenim/milletvekili seçilme yeterliği birlikte; Türk vatandaşlığı açıklamada da korunur.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0056",
+      "candidateSha256": "95af6bcf65563a591a7c6296b4bcfcffb67081b4718d716914674d2841956695",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Değişik birinci cümle: 3/10/2001-4709/4 md.) Yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırksekiz saat ve toplu olarak işlenen suçlarda en çok dört gün içinde hâkim önüne çıkarılır. Kimse, bu süreler geçtikten sonra hakim kararı olmaksızın hürriyetinden yoksun bırakılamaz. Bu süreler olağanüstü hal (…)[14] ve savaş hallerinde uzatılabilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.19; UYAP maddeId=1281622; full HTML p[114]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 19,
+        "legalProvisionId": "LP-2709-19",
+        "learningObjectiveId": "LO-O03-019-B-0056",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-019-B-0056; m.19."
+      },
+      "notes": [
+        "Anayasal üst sınır sorusu CMK’daki daha kısa genel süreyle karışmaması için açık; toplu suç, yol, OHAL/savaş ayrı tutuldu.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0057",
+      "candidateSha256": "650bbcf217ae9e93cbab1aa582d9a85d4ce87e6476be7a6cd95c0c695d1b5166",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Değişik fıkra: 3/10/2001-4709/5 md.) Millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak, usulüne göre verilmiş hâkim kararı olmadıkça; yine bu sebeplere bağlı olarak gecikmesinde sakınca bulunan hallerde de kanunla yetkili kılınmış merciin yazılı emri bulunmadıkça; kimsenin üstü, özel kâğıtları ve eşyası aranamaz ve bunlara el konulamaz. Yetkili merciin kararı yirmidört saat içinde görevli hâkimin onayına sunulur. Hâkim, kararını el koymadan itibaren kırksekiz saat içinde açıklar; aksi halde, el koyma kendiliğinden kalkar.",
+      "sourceLocator": "2709 sayılı Anayasa m.20; UYAP maddeId=1281632; full HTML p[124]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 20,
+        "legalProvisionId": "LP-2709-20",
+        "learningObjectiveId": "LO-O03-020-B-0057",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-020-B-0057; m.20."
+      },
+      "notes": [
+        "Yetkili merci kararının hâkime sunulması 24 saat; el koymadan itibaren 48 saatlik hâkim açıklaması başka aşamadır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0058",
+      "candidateSha256": "29f0e81b9bf0438f4975fc29e9fb704493dfbce4001c9c55a5cd5143f224b815",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak usulüne göre verilmiş hâkim kararı olmadıkça; yine bu sebeplere bağlı olarak gecikmesinde sakınca bulunan hallerde de kanunla yetkili kılınmış merciin yazılı emri bulunmadıkça; haberleşme engellenemez ve gizliliğine dokunulamaz. Yetkili merciin kararı yirmidört saat içinde görevli hâkimin onayına sunulur. Hâkim, kararını kırksekiz saat içinde açıklar; aksi halde, karar kendiliğinden kalkar.",
+      "sourceLocator": "2709 sayılı Anayasa m.22; UYAP maddeId=1281652; full HTML p[134]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 22,
+        "legalProvisionId": "LP-2709-22",
+        "learningObjectiveId": "LO-O03-022-B-0058",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-022-B-0058; m.22."
+      },
+      "notes": [
+        "Anayasa m.22 48 saati açıkça söyler; metinde olmayan süre başlangıcı köke eklenmemiştir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0059",
+      "candidateSha256": "e09c5ddc4bef5d72666dda9ddd2f23c0b11a3f9c64c527f33135c7c169d62664",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi üyeliklerinde boşalma olması halinde, ara seçime gidilir. Ara seçim, her seçim döneminde bir defa yapılır ve genel seçimden otuz ay geçmedikçe ara seçime gidilemez. Ancak, boşalan üyeliklerin sayısı, üye tamsayısının yüzde beşini bulduğu hallerde, ara seçimlerinin üç ay içinde yapılmasına karar verilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.78; UYAP maddeId=1282242; full HTML p[506]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 78,
+        "legalProvisionId": "LP-2709-78",
+        "learningObjectiveId": "LO-O03-078-B-0059",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-078-B-0059; m.78."
+      },
+      "notes": [
+        "Yüzde beş boşalma istisnası, otuz ay beklemeden üç ayda yapılmasına karar; boş seçim çevresi ve bir yıl yasağı ayrıca dışlanmıştır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0060",
+      "candidateSha256": "61c90b8545dd1059b0713072d68f621f62170180abcff37f1938cd30a1e763be",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Yüksek Seçim Kurulu yedi asıl ve dört yedek üyeden oluşur. Üyelerin altısı Yargıtay, beşi Danıştay Genel Kurullarınca kendi üyeleri arasından üye tamsayılarının salt çoğunluğunun gizli oyu ile seçilir. Bu üyeler, salt çoğunluk ve gizli oyla aralarından bir başkan ve bir başkanvekili seçerler.",
+      "sourceLocator": "2709 sayılı Anayasa m.79; UYAP maddeId=1282250; full HTML p[514]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 79,
+        "legalProvisionId": "LP-2709-79",
+        "learningObjectiveId": "LO-O03-079-B-0060",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-079-B-0060; m.79."
+      },
+      "notes": [
+        "YSK yedi asıl dört yedek; altı Yargıtay/beş Danıştay dağılımı toplamdan farklı bir özelliktir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0061",
+      "candidateSha256": "611293976d1dc4b44ed6c1b1ff299a1759239219723d010d1755f8d19e7c74ce",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84 üncü maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmiş olması hallerinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak yedi gün içerisinde ilgili milletvekili veya bir diğer milletvekili, kararın, Anayasaya, kanuna veya İçtüzüğe aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir. Anayasa Mahkemesi, iptal istemini onbeş gün içerisinde kesin karara bağlar.",
+      "sourceLocator": "2709 sayılı Anayasa m.85; UYAP maddeId=1282310; full HTML p[549]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 85,
+        "legalProvisionId": "LP-2709-85",
+        "learningObjectiveId": "LO-O03-085-B-0061",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-085-B-0061; m.85."
+      },
+      "notes": [
+        "Dokunulmazlık kararının tarihi başlangıç ve yedi gün başvuru; AYM’nin on beş günlük karar süresiyle ayrıldı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0062",
+      "candidateSha256": "6a37cdd5c91a3a4171abf983a580824a791c4c7647d13dbe55d3433806328cfc",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Ödenek ve yollukların en çok üç aylığı önceden ödenebilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.86; UYAP maddeId=1282320; full HTML p[554]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 86,
+        "legalProvisionId": "LP-2709-86",
+        "learningObjectiveId": "LO-O03-086-B-0062",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-086-B-0062; m.86."
+      },
+      "notes": [
+        "En çok üç aylık ödenek/yolluk peşin; süre yalnız ileri ödeme tavanıdır.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0063",
+      "candidateSha256": "7bed03ba4385f9459b3e2b9038b9afffd8d8ce1646fdcbc1f3b47cfac3dc0776",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türkiye Büyük Millet Meclisinin görev ve yetkileri, kanun koymak, değiştirmek ve kaldırmak; bütçe ve kesinhesap kanun tekliflerini görüşmek ve kabul etmek; para basılmasına ve savaş ilânına karar vermek; milletlerarası andlaşmaların onaylanmasını uygun bulmak, Türkiye Büyük Millet Meclisi üye tamsayısının beşte üç çoğunluğunun kararı ile genel ve özel af ilânına karar vermek ve Anayasanın diğer maddelerinde öngörülen yetkileri kullanmak ve görevleri yerine getirmektir.",
+      "sourceLocator": "2709 sayılı Anayasa m.87; UYAP maddeId=1282328; full HTML p[560]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 87,
+        "legalProvisionId": "LP-2709-87",
+        "learningObjectiveId": "LO-O03-087-B-0063",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-087-B-0063; m.87."
+      },
+      "notes": [
+        "Af kararında üye tamsayısının beşte üçü; toplantıya katılan çoğunluk veya oybirliği değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0064",
+      "candidateSha256": "6aa5f8cf2146ec2ff82fa08a8c385284a951285d285587736a569234e8f73f4e",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi, geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla aynen kabul ederse, kanun Cumhurbaşkanınca yayımlanır; Meclis, geri gönderilen kanunda yeni bir değişiklik yaparsa, Cumhurbaşkanı değiştirilen kanunu tekrar Meclise geri gönderebilir. [43]",
+      "sourceLocator": "2709 sayılı Anayasa m.89; UYAP maddeId=1282350; full HTML p[569]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 89,
+        "legalProvisionId": "LP-2709-89",
+        "learningObjectiveId": "LO-O03-089-B-0064",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-089-B-0064; m.89."
+      },
+      "notes": [
+        "Geri gönderilen kanunu aynen kabul salt çoğunluk; bütçe ve anayasa değişikliği özel rejimleri kökte dışlandı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0065",
+      "candidateSha256": "cfe8f386896f35edd06248047beb0c22622be11c1001a56ed3c8fbef6240863e",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Usulüne göre yürürlüğe konulmuş Milletlerarası andlaşmalar kanun hükmündedir. Bunlar hakkında Anayasaya aykırılık iddiası ile Anayasa Mahkemesine başvurulamaz. (Ek cümle: 7/5/2004-5170/7 md.) Usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası andlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda milletlerarası andlaşma hükümleri esas alınır.",
+      "sourceLocator": "2709 sayılı Anayasa m.90; UYAP maddeId=1282360; full HTML p[577]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 90,
+        "legalProvisionId": "LP-2709-90",
+        "learningObjectiveId": "LO-O03-090-B-0065",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-090-B-0065; m.90."
+      },
+      "notes": [
+        "Temel hak andlaşması/kanun çatışmasında andlaşma; genel bütün andlaşmalar için kanuna üstünlük iddiası kurulmadı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0066",
+      "candidateSha256": "a4a05c1f948078dfd54b991f8a4a1ceed77f48fed0a871760cf3f510a6f08e5a",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Meclis, bir yasama yılında en çok üç ay tatil yapabilir; ara verme veya tatil sırasında (…)[44] Cumhurbaşkanınca toplantıya çağrılır.",
+      "sourceLocator": "2709 sayılı Anayasa m.93; UYAP maddeId=1282394; full HTML p[590]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 93,
+        "legalProvisionId": "LP-2709-93",
+        "learningObjectiveId": "LO-O03-093-B-0066",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-093-B-0066; m.93."
+      },
+      "notes": [
+        "Bir yasama yılında en çok üç ay tatil; ara verme veya toplantıya çağırma ayrıca saklı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0067",
+      "candidateSha256": "4ed8de00010d01c5f3dcf4e70bbe505f8925668ae0de38a1ca8db1c7c5b248bf",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi Başkan adayları, Meclis üyeleri içinden, Meclisin toplandığı günden itibaren beş gün içinde, Başkanlık Divanına bildirilir, Başkan seçimi gizli oyla yapılır. İlk iki oylamada üye tamsayısının üçte iki ve üçüncü oylamada üye tamsayısının salt çoğunluğu aranır. Üçüncü oylamada salt çoğunluk sağlanamazsa, bu oylamada en çok oy alan iki aday için dördüncü oylama yapılır; dördüncü oylamada en fazla oy alan üye, Başkan seçilmiş olur. Başkan seçimi, aday gösterme süresinin bitiminden itibaren, beş gün içinde tamamlanır. [45]",
+      "sourceLocator": "2709 sayılı Anayasa m.94; UYAP maddeId=1282405; full HTML p[598]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 94,
+        "legalProvisionId": "LP-2709-94",
+        "learningObjectiveId": "LO-O03-094-B-0067",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-094-B-0067; m.94."
+      },
+      "notes": [
+        "Üçüncü başkanlık oylaması 600 üyenin salt çoğunluğu301; ilk iki tur400 ve genel alt sınır151 ile karışmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0068",
+      "candidateSha256": "271298a310943b2e28412803a683933b23b5b87a180b71083953caf14df918ec",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "İçtüzük hükümleri, siyasi parti gruplarının, Meclisin bütün faaliyetlerine üye sayısı oranında katılmalarını sağlayacak yolda düzenlenir. Siyasi parti grupları, en az yirmi üyeden meydana gelir.",
+      "sourceLocator": "2709 sayılı Anayasa m.95; UYAP maddeId=1282415; full HTML p[604]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 95,
+        "legalProvisionId": "LP-2709-95",
+        "learningObjectiveId": "LO-O03-095-B-0068",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-095-B-0068; m.95."
+      },
+      "notes": [
+        "Parti grubu en az yirmi; seçim barajı veya kuruluş üye sayısı değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0069",
+      "candidateSha256": "c3a02efdafb7e221edf6f48cc3ce87886499b56141dd02ed30dcdfec59d503ee",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 96 – (Değişik birinci fıkra: 31/5/2007-5678/3 md.) Türkiye Büyük Millet Meclisi, yapacağı seçimler dahil bütün işlerinde üye tamsayısının en az üçte biri ile toplanır. Türkiye Büyük Millet Meclisi, Anayasada başkaca bir hüküm yoksa toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından az olamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.96; UYAP maddeId=1282425; full HTML p[608]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 96,
+        "legalProvisionId": "LP-2709-96",
+        "learningObjectiveId": "LO-O03-096-B-0069",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-096-B-0069; m.96."
+      },
+      "notes": [
+        "Karar sayısının mutlak alt sınırı 151; toplantı nisabı200 ile salt çoğunluk koşulu açıklamada ayrıldı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0070",
+      "candidateSha256": "c080d5e3d60ba7fc6fa279646a6050c52244550c975f2fdbeb39a2127f00f4ea",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Yazılı soru, yazılı olarak en geç onbeş gün içinde cevaplanmak üzere milletvekillerinin, Cumhurbaşkanı yardımcıları ve bakanlara yazılı olarak soru sormalarından ibarettir.",
+      "sourceLocator": "2709 sayılı Anayasa m.98; UYAP maddeId=1282442; full HTML p[624]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 98,
+        "legalProvisionId": "LP-2709-98",
+        "learningObjectiveId": "LO-O03-098-B-0070",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-098-B-0070; m.98."
+      },
+      "notes": [
+        "Yazılı soru en geç15gün; sözlü soru veya güven oylaması değil.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0071",
+      "candidateSha256": "8770ce5959725a043d8ef0834d028c4893e604c487ef6bbb9f3c99df4e7f904b",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Rapor Başkanlığa verildiği tarihten itibaren on gün içinde dağıtılır, dağıtımından itibaren on gün içinde Genel Kurulda görüşülür. Türkiye Büyük Millet Meclisi, üye tamsayısının üçte ikisinin gizli oyuyla Yüce Divana sevk kararı alabilir. Yüce Divan yargılaması üç ay içinde tamamlanır, bu sürede tamamlanamazsa bir defaya mahsus olmak üzere üç aylık ek süre verilir, yargılama bu sürede kesin olarak tamamlanır.",
+      "sourceLocator": "2709 sayılı Anayasa m.105; UYAP maddeId=1282517; full HTML p[682]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 105,
+        "legalProvisionId": "LP-2709-105",
+        "learningObjectiveId": "LO-O03-105-B-0071",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-105-B-0071; m.105."
+      },
+      "notes": [
+        "Yüce Divana sevk 2/3 gizli oy; soruşturma önergesi/açılması aşamalarından farklı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0072",
+      "candidateSha256": "7b9e92ac68f10cff08b0691de3d195b3f505c854207eec0ce51ac545d6b4bc0f",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Cumhurbaşkanlığı makamının herhangi bir nedenle boşalması halinde, kırkbeş gün içinde Cumhurbaşkanı seçimi yapılır. Yenisi seçilene kadar Cumhurbaşkanı yardımcısı Cumhurbaşkanlığına vekâlet eder ve Cumhurbaşkanına ait yetkileri kullanır. Genel seçime bir yıl veya daha az kalmışsa Türkiye Büyük Millet Meclisi seçimi de Cumhurbaşkanı seçimi ile birlikte yenilenir. Genel seçime bir yıldan fazla kalmışsa seçilen Cumhurbaşkanı Türkiye Büyük Millet Meclisi seçim tarihine kadar görevine devam eder. Kalan süreyi tamamlayan Cumhurbaşkanı açısından bu süre dönemden sayılmaz. Türkiye Büyük Millet Meclisi genel seçimlerinin yapılacağı tarihte her iki seçim birlikte yapılır.",
+      "sourceLocator": "2709 sayılı Anayasa m.106; UYAP maddeId=1282528; full HTML p[690]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 106,
+        "legalProvisionId": "LP-2709-106",
+        "learningObjectiveId": "LO-O03-106-B-0072",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-106-B-0072; m.106."
+      },
+      "notes": [
+        "Boşalmada seçim45gün; vekâlet ve genel seçimle yenileme ayrıntıları tam paragrafta kontrol edildi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0073",
+      "candidateSha256": "39ee9fa8f7a61cdd9099660212acf23961b5a00ed57f26ddba76412f8f66df2d",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi, üye tamsayısının beşte üç çoğunluğuyla seçimlerin yenilenmesine karar verebilir. Bu halde Türkiye Büyük Millet Meclisi genel seçimi ile Cumhurbaşkanlığı seçimi birlikte yapılır.",
+      "sourceLocator": "2709 sayılı Anayasa m.116; UYAP maddeId=1282626; full HTML p[735]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 116,
+        "legalProvisionId": "LP-2709-116",
+        "learningObjectiveId": "LO-O03-116-B-0073",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-116-B-0073; m.116."
+      },
+      "notes": [
+        "TBMM seçim yenileme kararı3/5; Cumhurbaşkanının kendi yenileme yetkisi farklı usul.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0074",
+      "candidateSha256": "d56a4c7c7f2221d0b14edf5183a741526d1afa1f2788e1e92e190cdc4669952c",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Cumhurbaşkanı; savaş, savaşı gerektirecek bir durumun başgöstermesi, seferberlik, ayaklanma, vatan veya Cumhuriyete karşı kuvvetli ve eylemli bir kalkışma, ülkenin ve milletin bölünmezliğini içten veya dıştan tehlikeye düşüren şiddet hareketlerinin yaygınlaşması, anayasal düzeni veya temel hak ve hürriyetleri ortadan kaldırmaya yönelik yaygın şiddet hareketlerinin ortaya çıkması, şiddet olayları nedeniyle kamu düzeninin ciddî şekilde bozulması, tabiî afet veya tehlikeli salgın hastalık ya da ağır ekonomik bunalımın ortaya çıkması hallerinde yurdun tamamında veya bir bölgesinde, süresi altı ayı geçmemek üzere olağanüstü hal ilan edebilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.119; UYAP maddeId=1282651; full HTML p[762]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 119,
+        "legalProvisionId": "LP-2709-119",
+        "learningObjectiveId": "LO-O03-119-B-0074",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-119-B-0074; m.119."
+      },
+      "notes": [
+        "İlk OHAL ilanı en çok6ay; TBMM uzatması veya savaş istisnasına genellenmedi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0075",
+      "candidateSha256": "751fc98fdaa2f95de8338aa780d0a9f80c2d6527d2dbd7b047c51efbb43071ce",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Kamu tüzelkişiliği, kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulur. [66]",
+      "sourceLocator": "2709 sayılı Anayasa m.123; UYAP maddeId=1282689; full HTML p[785]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 123,
+        "legalProvisionId": "LP-2709-123",
+        "learningObjectiveId": "LO-O03-123-B-0075",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-123-B-0075; m.123."
+      },
+      "notes": [
+        "Kamu tüzelkişiliği kanun/CBK ile; yönetmelik, protokol, vali onayı veya komisyon kararı tek başına bu kuruluş normları değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0076",
+      "candidateSha256": "4bae05cca169079b21e151f6586e2449614879b41a5fc302f4fee96d4c281d69",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "İdari işlemin uygulanması halinde telafisi güç veya imkansız zararların doğması ve idari işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda gerekçe gösterilerek yürütmenin durdurulmasına karar verilebilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.125; UYAP maddeId=1282710; full HTML p[796]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 125,
+        "legalProvisionId": "LP-2709-125",
+        "learningObjectiveId": "LO-O03-125-B-0076",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-125-B-0076; m.125."
+      },
+      "notes": [
+        "Yürütmeyi durdurma açık hukuka aykırılık VE telafisi güç/imkânsız zarar; yalnız biri yeterli değil, gerekçe koşulu korunur.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0077",
+      "candidateSha256": "ca08709b59e4ef23b513f02aa25d7eeee04b0d494a6e4ccb8b16845384908748",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Mahalli idarelerin seçilmiş organlarının, organlık sıfatını kazanmalarına ilişkin itirazların çözümü ve kaybetmeleri, konusundaki denetim yargı yolu ile olur. Ancak, görevleri ile ilgili bir suç sebebi ile hakkında soruşturma veya kovuşturma açılan mahalli idare organları veya bu organların üyelerini, İçişleri Bakanı, geçici bir tedbir olarak, kesin hükme kadar uzaklaştırabilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.127; UYAP maddeId=1282728; full HTML p[810]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 127,
+        "legalProvisionId": "LP-2709-127",
+        "learningObjectiveId": "LO-O03-127-B-0077",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-127-B-0077; m.127."
+      },
+      "notes": [
+        "Görevle ilgili suç soruşturma/kovuşturma ve kesin hükme kadar geçici tedbir: İçişleri Bakanı; organlık denetimi yargı kuralı ayrı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0078",
+      "candidateSha256": "5dd0ae837f0eccc190953fc3886b56e38fd85cf4badcf29e0b538fc062608b24",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 147 – (Değişik birinci fıkra: 7/5/2010-5982/17 md.) Anayasa Mahkemesi üyeleri oniki yıl için seçilirler. Bir kimse iki defa Anayasa Mahkemesi üyesi seçilemez. Anayasa Mahkemesi üyeleri altmışbeş yaşını doldurunca emekliye ayrılırlar. Zorunlu emeklilik yaşından önce görev süresi dolan üyelerin başka bir görevde çalışmaları ve özlük işleri kanunla düzenlenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.147; UYAP maddeId=1282915; full HTML p[937]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 147,
+        "legalProvisionId": "LP-2709-147",
+        "learningObjectiveId": "LO-O03-147-B-0078",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-147-B-0078; m.147."
+      },
+      "notes": [
+        "AYM üyeliği12yıl ve ikinci kez seçilememe;65yaş emeklilik açıklamada korunarak12yılın mutlak fiili hizmet garantisi olmadığı belirtildi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0079",
+      "candidateSha256": "7e17e9ff69c00c6a063800a0eeaba85c30d17a39f1433a64e47e847369ff3f7d",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 151 – Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya içtüzüğün Resmî Gazetede yayımlanmasından başlayarak altmış gün sonra düşer. [92]",
+      "sourceLocator": "2709 sayılı Anayasa m.151; UYAP maddeId=1282958; full HTML p[965]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 151,
+        "legalProvisionId": "LP-2709-151",
+        "learningObjectiveId": "LO-O03-151-B-0079",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-151-B-0079; m.151."
+      },
+      "notes": [
+        "Doğrudan iptal genel60gün yayım başlangıç; m.148 kanun şekil denetimi10gün özel süresi saklı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0080",
+      "candidateSha256": "3d3c2ce80fc42ab7a0c8c3821052f80ea783bea8fe02d56b10a849e9f1f67ebc",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 160 – Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetlemek ve sorumluların hesap ve işlemlerini kesin hükme bağlamak ve kanunlarla verilen inceleme, denetleme ve hükme bağlama işlerini yapmakla görevlidir. Sayıştayın kesin hükümleri hakkında ilgililer yazılı bildirim tarihinden itibaren onbeş gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilirler. Bu kararlar dolayısıyla idari yargı yoluna başvurulamaz. [107]",
+      "sourceLocator": "2709 sayılı Anayasa m.160; UYAP maddeId=1283044; full HTML p[1022]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 160,
+        "legalProvisionId": "LP-2709-160",
+        "learningObjectiveId": "LO-O03-160-B-0080",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-160-B-0080; m.160."
+      },
+      "notes": [
+        "Sayıştay kesin hükmü karar düzeltilmesi bir kez15gün yazılı bildirim; idari dava veya genel iptal süresi değildir.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0081",
+      "candidateSha256": "807f84cb7befd4e8907794496f39ccd5cfa9f44713f0249c7014175a356b78b6",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 7/5/2004-5170/1 md.) Kadınlar ve erkekler eşit haklara sahiptir. Devlet, bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür. (Ek cümle: 7/5/2010-5982/1 md.) Bu maksatla alınacak tedbirler eşitlik ilkesine aykırı olarak yorumlanamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.10; UYAP maddeId=1281499; full HTML p[59]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 10,
+        "legalProvisionId": "LP-2709-10",
+        "learningObjectiveId": "LO-O03-010-B-0081",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-010-B-0081; m.10."
+      },
+      "notes": [
+        "Kadın/erkek fiili eşitliği tedbiri eşitliğe aykırı yorumlanamaz; her üstünlük veya imtiyazın genel izni olarak sunulmadı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0082",
+      "candidateSha256": "696d2a9a72938f656f089ffd717e7431a7cbf75ea2f7cddf09767328b955ffb8",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Birinci fıkrada belirlenen durumlarda da, savaş hukukuna uygun fiiller sonucu meydana gelen ölümler (…)[11] dışında, kişinin yaşama hakkına, maddi ve manevi varlığının bütünlüğüne dokunulamaz; kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz ve bunlardan dolayı suçlanamaz; suç ve cezalar geçmişe yürütülemez; suçluluğu mahkeme kararı ile saptanıncaya kadar kimse suçlu sayılamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.15; UYAP maddeId=1281574; full HTML p[90]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 15,
+        "legalProvisionId": "LP-2709-15",
+        "learningObjectiveId": "LO-O03-015-B-0082",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-015-B-0082; m.15."
+      },
+      "notes": [
+        "OHAL çekirdek güvencelerinde suç/ceza geriye yürümez; savaş hukuku ölüm istisnası ilgili ayrı unsur için saklı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0083",
+      "candidateSha256": "54c3619d3064aa2ceb574d9f831dcdac3641a0a33f07f5a9011e82f69bd02e06",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Tıbbi zorunluluklar ve kanunda yazılı haller dışında, kişinin vücut bütünlüğüne dokunulamaz; rızası olmadan bilimsel ve tıbbi deneylere tabi tutulamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.17; UYAP maddeId=1281602; full HTML p[100]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 17,
+        "legalProvisionId": "LP-2709-17",
+        "learningObjectiveId": "LO-O03-017-B-0083",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-017-B-0083; m.17."
+      },
+      "notes": [
+        "Bilimsel deney rıza gerektirir; kamu kurumu, etik kurul veya araştırmacının yararı rızanın yerini tek başına tutmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0084",
+      "candidateSha256": "4337c26a0ef7a207e7afe79e57be6812f0218a291d513b4aace81bd99efd660e",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Şekil ve şartları kanunla düzenlenmek üzere hükümlülük veya tutukluluk süreleri içindeki çalıştırmalar; olağanüstü hallerde vatandaşlardan istenecek hizmetler; ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları, zorla çalıştırma sayılmaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.18; UYAP maddeId=1281611; full HTML p[106]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 18,
+        "legalProvisionId": "LP-2709-18",
+        "learningObjectiveId": "LO-O03-018-B-0084",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-018-B-0084; m.18."
+      },
+      "notes": [
+        "Kanuni şekil/şarttaki OHAL hizmeti zorla çalıştırma sayılmaz; angarya temel yasağı Q13’ten farklı istisna bilgisi ölçülür.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0085",
+      "candidateSha256": "de51be8e67c8dea5acbf843e1eca57606ead24b155523d2c3d38780d46f84ddc",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Değişik fıkra: 7/5/2010-5982/3 md.) Vatandaşın yurt dışına çıkma hürriyeti, ancak suç soruşturması veya kovuşturması sebebiyle hâkim kararına bağlı olarak sınırlanabilir.",
+      "sourceLocator": "2709 sayılı Anayasa m.23; UYAP maddeId=1281662; full HTML p[142]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 23,
+        "legalProvisionId": "LP-2709-23",
+        "learningObjectiveId": "LO-O03-023-B-0085",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-023-B-0085; m.23."
+      },
+      "notes": [
+        "Vatandaşın yurt dışına çıkışında suç soruşturması/kovuşturması+hâkim; olağan dönem ve salt idari borç kökte sınırlandırıldı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0086",
+      "candidateSha256": "cc9eda94e95dfaa4b8b01fe616673a7f2b52de13c600c5df152d2337802381d6",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Din ve ahlak eğitim ve öğretimi Devletin gözetim ve denetimi altında yapılır. Din kültürü ve ahlak öğretimi ilk ve ortaöğretim kurumlarında okutulan zorunlu dersler arasında yer alır. Bunun dışındaki din eğitim ve öğretimi ancak, kişilerin kendi isteğine, küçüklerin de kanuni temsilcisinin talebine bağlıdır.",
+      "sourceLocator": "2709 sayılı Anayasa m.24; UYAP maddeId=1281670; full HTML p[149]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 24,
+        "legalProvisionId": "LP-2709-24",
+        "learningObjectiveId": "LO-O03-024-B-0086",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-024-B-0086; m.24."
+      },
+      "notes": [
+        "Zorunlu ders dışı din eğitimi küçükte temsilci talebine bağlı; okul statüsü veya salt sessizlik talep yerine geçmez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0087",
+      "candidateSha256": "ff4bef78e5727fb77f03fd099ca76e91b96c266369b270bd3ceba2147b6c084f",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 28 – Basın hürdür, sansür edilemez. Basımevi kurmak izin alma ve mali teminat yatırma şartına bağlanamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.28; UYAP maddeId=1281707; full HTML p[171]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 28,
+        "legalProvisionId": "LP-2709-28",
+        "learningObjectiveId": "LO-O03-028-B-0087",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-028-B-0087; m.28."
+      },
+      "notes": [
+        "Basımevi kuruluşunda ön izin ve mali teminat yasak; basın sansürü Q16’dan farklı kuruluş bilgisi ölçülür.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0088",
+      "candidateSha256": "5251d11dc520f38dde16f5e9fcddaf259db374b2d1b156c67cd3d171841ff84e",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/15 md.) Hiç kimse, yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.38; UYAP maddeId=1281803; full HTML p[240]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 38,
+        "legalProvisionId": "LP-2709-38",
+        "learningObjectiveId": "LO-O03-038-B-0088",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-038-B-0088; m.38."
+      },
+      "notes": [
+        "Sadece sözleşme yükümlülüğünü yerine getirememe özgürlükten yoksunluk sebebi olamaz; suç teşkil eden başka fiil varsayılmadı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0089",
+      "candidateSha256": "1e19d340bfd7300c0dd914dfaa4228aac7862a7e44184dc70d4bd33e8702f799",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Anayasa Mahkemesi, iki bölüm ve Genel Kurul halinde çalışır. Bölümler, başkanvekili başkanlığında dört üyenin katılımıyla toplanır. Genel Kurul, Mahkeme Başkanının veya Başkanın belirleyeceği başkanvekilinin başkanlığında en az on üye ile toplanır. Bölümler ve Genel Kurul, kararlarını salt çoğunlukla alır. Bireysel başvuruların kabul edilebilirlik incelemesi için komisyonlar oluşturulabilir. [90]",
+      "sourceLocator": "2709 sayılı Anayasa m.149; UYAP maddeId=1282937; full HTML p[954]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 149,
+        "legalProvisionId": "LP-2709-149",
+        "learningObjectiveId": "LO-O03-149-B-0089",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-149-B-0089; m.149."
+      },
+      "notes": [
+        "Genel Kurul en az10üye ve başkan/atanan başkanvekili;9üye yetmez; bölümlerin5kişilik toplamı ayrı organ.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0090",
+      "candidateSha256": "44507a1304f6a41444e035dd6e2435a153e31b79a2b967fa5c3fe128b12b8f97",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Türkçeden başka hiçbir dil, eğitim ve öğretim kurumlarında Türk vatandaşlarına ana dilleri olarak okutulamaz ve öğretilemez. Eğitim ve öğretim kurumlarında okutulacak yabancı diller ile yabancı dille eğitim ve öğretim yapan okulların tabi olacağı esaslar kanunla düzenlenir. Milletlerarası andlaşma hükümleri saklıdır.",
+      "sourceLocator": "2709 sayılı Anayasa m.42; UYAP maddeId=1281854; full HTML p[273]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 42,
+        "legalProvisionId": "LP-2709-42",
+        "learningObjectiveId": "LO-O03-042-B-0090",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-042-B-0090; m.42."
+      },
+      "notes": [
+        "Ana dili öğretimi yasağı, yabancı dil öğretimi ve milletlerarası andlaşma istisnasıyla sınırlandırıldı; bütün yabancı dil yasağına çevrilmedi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0091",
+      "candidateSha256": "29f398c154e971f764d7b64fcbdb06ba002b982ef4d444abc3370f06a17f8f34",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli nakden ve peşin olarak ödenir. Ancak, tarım reformunun uygulanması, büyük enerji ve sulama projeleri ile iskân projelerinin gerçekleştirilmesi, yeni ormanların yetiştirilmesi, kıyıların korunması ve turizm amacıyla kamulaştırılan toprakların bedellerinin ödenme şekli kanunla gösterilir. Kanunun taksitle ödemeyi öngörebileceği bu hallerde, taksitlendirme süresi beş yılı aşamaz; bu takdirde taksitler eşit olarak ödenir.",
+      "sourceLocator": "2709 sayılı Anayasa m.46; UYAP maddeId=1281903; full HTML p[293]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 46,
+        "legalProvisionId": "LP-2709-46",
+        "learningObjectiveId": "LO-O03-046-B-0091",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-046-B-0091; m.46."
+      },
+      "notes": [
+        "Kıyı koruma sayılan taksit amaçlarından; kanun taksit öngörmüş ve küçük çiftçi dışlanmışken azami5yıl/eşit taksit.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0092",
+      "candidateSha256": "46561c2b90ef85d32ce9fd09a5cdf01ef0a59d6bfb145cad5c52aa8375dfe18c",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(Değişik fıkra: 23/7/1995-4121/5 md.) Silah altında bulunan er ve erbaşlar ile askeri öğrenciler, taksirli suçlardan hüküm giyenler hariç ceza infaz kurumlarında bulunan hükümlüler oy kullanamazlar. Ceza infaz kurumları ve tutuk evlerinde oy kullanılması ve oyların sayım ve dökümünde seçim emniyeti açısından alınması gerekli tedbirler Yüksek Seçim Kurulu tarafından tespit edilir ve görevli hakimin yerinde yönetim ve denetimi altında yapılır. [23]",
+      "sourceLocator": "2709 sayılı Anayasa m.67; UYAP maddeId=1282121; full HTML p[423]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 67,
+        "legalProvisionId": "LP-2709-67",
+        "learningObjectiveId": "LO-O03-067-B-0092",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-067-B-0092; m.67."
+      },
+      "notes": [
+        "Taksirli hükümlüler oy yasağı dışı; bu ceza infaz kurumundaki bütün hükümlülere veya bütün seçim koşullarına genellenmedi.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0093",
+      "candidateSha256": "8eac30552ee43bafbc8d444ee0135b2016e8fde1fe20a52f6bb9123d12449b46",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Temelli kapatılan bir parti bir başka ad altında kurulamaz.",
+      "sourceLocator": "2709 sayılı Anayasa m.69; UYAP maddeId=1282137; full HTML p[448]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 69,
+        "legalProvisionId": "LP-2709-69",
+        "learningObjectiveId": "LO-O03-069-B-0093",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-069-B-0093; m.69."
+      },
+      "notes": [
+        "Temelli kapatılan partinin başka adla devamı yasak; sadece yeni parti kurucusunun geçmişiyle karıştırılmadı.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0094",
+      "candidateSha256": "2a6b96dab6a1d6780eb8d2bf509eafc3c4b57cfc96b89c6f49c75b2389c4bae7",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Ekonomik, ticari veya teknik ilişkileri düzenleyen ve süresi bir yılı aşmayan andlaşmalar, Devlet Maliyesi bakımından bir yüklenme getirmemek, kişi hallerine ve Türklerin yabancı memleketlerdeki mülkiyet haklarına dokunmamak şartıyla, yayımlanma ile yürürlüğe konabilir. Bu takdirde bu andlaşmalar, yayımlarından başlayarak iki ay içinde Türkiye Büyük Millet Meclisinin bilgisine sunulur.",
+      "sourceLocator": "2709 sayılı Anayasa m.90; UYAP maddeId=1282360; full HTML p[574]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 90,
+        "legalProvisionId": "LP-2709-90",
+        "learningObjectiveId": "LO-O03-090-B-0094",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-090-B-0094; m.90."
+      },
+      "notes": [
+        "Bir yılı aşmayan teknik andlaşma+yüklenme/kişi hali/mülkiyet yokluğu+kanun değiştirmeme koşulları birlikte; yayımından2ay.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0095",
+      "candidateSha256": "b038e9f57ecb97be74a43353077a4ec97a93486b9c169eb1aa36ff3fc5f75ea8",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir. Anayasanın ikinci kısmının birinci ve ikinci bölümlerinde yer alan temel haklar, kişi hakları ve ödevleriyle dördüncü bölümde yer alan siyasi haklar ve ödevler Cumhurbaşkanlığı kararnamesiyle düzenlenemez. Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz. Kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz. Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması halinde, kanun hükümleri uygulanır. Türkiye Büyük Millet Meclisinin aynı konuda kanun çıkarması durumunda, Cumhurbaşkanlığı kararnamesi hükümsüz hale gelir.",
+      "sourceLocator": "2709 sayılı Anayasa m.104; UYAP maddeId=1282507; full HTML p[673]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 104,
+        "legalProvisionId": "LP-2709-104",
+        "learningObjectiveId": "LO-O03-104-B-0095",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-104-B-0095; m.104."
+      },
+      "notes": [
+        "CBK/kanun çatışmasında kanun; sonraki tarih veya uygulayıcı takdiri kanuni önceliği kaldırmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0096",
+      "candidateSha256": "35c95ea3de3cddd1391cc91748dec33f943ffb95b217a79f0096e6292b091a8a",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "(…) [51] yargı organları, Devlet Denetleme Kurulunun görev alanı dışındadır.",
+      "sourceLocator": "2709 sayılı Anayasa m.108; UYAP maddeId=1282546; full HTML p[706]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 108,
+        "legalProvisionId": "LP-2709-108",
+        "learningObjectiveId": "LO-O03-108-B-0096",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-108-B-0096; m.108."
+      },
+      "notes": [
+        "Yargı organları DDK dışında; istem bu istisnayı kaldırmaz ve farklı yargı kolu/derece ayrımı yapılmaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0097",
+      "candidateSha256": "a74b54f6917972c81a6fb05bcd931cdb82a7a81ab869ac0879f7c0710fd252f9",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Madde 124 – Cumhurbaşkanı, bakanlıklar ve kamu tüzelkişileri, kendi görev alanlarını ilgilendiren kanunların ve Cumhurbaşkanlığı kararnamelerinin uygulanmasını sağlamak üzere ve bunlara aykırı olmamak şartıyla, yönetmelikler çıkarabilirler. [67]",
+      "sourceLocator": "2709 sayılı Anayasa m.124; UYAP maddeId=1282698; full HTML p[788]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 124,
+        "legalProvisionId": "LP-2709-124",
+        "learningObjectiveId": "LO-O03-124-B-0097",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-124-B-0097; m.124."
+      },
+      "notes": [
+        "Yönetmelik dayanak kanun/CBK’ye aykırı olamaz; görev alanı ve uygulama amacı aykırılığa izin vermez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0098",
+      "candidateSha256": "a7fe547a1b339cb23370dd7030fa899a24cc002d93329f37bcce3c1a9800795b",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Memurlar ve diğer kamu görevlileri ile kamu kurumu niteliğindeki meslek kuruluşları ve bunların üst kuruluşları mensuplarına savunma hakkı tanınmadıkça disiplin cezası verilemez.",
+      "sourceLocator": "2709 sayılı Anayasa m.129; UYAP maddeId=1282745; full HTML p[823]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 129,
+        "legalProvisionId": "LP-2709-129",
+        "learningObjectiveId": "LO-O03-129-B-0098",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-129-B-0098; m.129."
+      },
+      "notes": [
+        "Disiplin cezasından önce savunma hakkı; ağır/hafif ceza veya amir takdiri ayrımıyla kaldırılamaz. O02Q16’dan farklı olarak anayasal güvencenin varlığı ölçülür.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0099",
+      "candidateSha256": "b0db2529c389a8eab49adbd340348c8aa858f7f94ee62cfba0cb87430c499d32",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Ceza sorumluluğu şahsidir.",
+      "sourceLocator": "2709 sayılı Anayasa m.38; UYAP maddeId=1281803; full HTML p[239]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 38,
+        "legalProvisionId": "LP-2709-38",
+        "learningObjectiveId": "LO-O03-038-B-0099",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-038-B-0099; m.38."
+      },
+      "notes": [
+        "Ceza sorumluluğu şahsi; akrabalık, miras veya grup sorumluluğu fiilsiz/kusursuz kişiye ceza yüklemez.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O03-B-0100",
+      "candidateSha256": "011f4f775b6b36911520b6c3e7fd388b1d5e8d991791c9e0aa896a2cd8c214ae",
+      "decision": "Pass",
+      "checkedBy": "o03-independent-review",
+      "checkedAt": "2026-11-06T14:48:41.916Z",
+      "sourceQuote": "Yasama ve yürütme organları ile idare, mahkeme kararlarına uymak zorundadır; bu organlar ve idare, mahkeme kararlarını hiçbir suretle değiştiremez ve bunların yerine getirilmesini geciktiremez.",
+      "sourceLocator": "2709 sayılı Anayasa m.138; UYAP maddeId=1282832; full HTML p[888]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 138,
+        "legalProvisionId": "LP-2709-138",
+        "learningObjectiveId": "LO-O03-138-B-0100",
+        "evidenceLocator": "Resmî teknik müfredat PDF s.1; SHA256=48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb; O03 adlandırılmış kısımlar. UYAP103165 tamHTML p[23]/p[69]/p[481], sonraki mali bölüm p[1029]. Seçili hedef: data/content-candidates/o03-bank-objectives.json#LO-O03-138-B-0100; m.138."
+      },
+      "notes": [
+        "Yasama/yürütme/idare mahkeme kararına uyar, değiştiremez ve geciktiremez; farklı görüş/onay/genelge/bütçe dönemi gerekçesi sınır koyamaz.",
+        "Beş kalıcı seçenek, tek doğru, dört çeldirici ve açıklama; kaynak hükmünün tamamı, yakın istisnalar ve seçili madde hedefi ayrı incelemede kontrol edildi.",
+        "O02 bank100 ve diğer O03 bank99 adayıyla bilgi/koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan onayı veya kesin2027 mevzuat sürümü değildir."
+      ]
+    }
+  ]
+}

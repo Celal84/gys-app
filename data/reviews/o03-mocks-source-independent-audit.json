@@ -1,0 +1,19 @@
+{
+  "checkCount": 1788,
+  "failedCount": 0,
+  "failures": [],
+  "paragraphsCompared": 817,
+  "rawResponseVerified": true,
+  "decodedHTMLVerified": true,
+  "parser": "lxml.html",
+  "sourceHashChecks": 5,
+  "scopeHeadingParagraphs1Based": [
+    23,
+    69,
+    481,
+    1029
+  ],
+  "checkedAt": "2026-11-06T14:55:57.696Z",
+  "checkedBy": "o03-mocks-independent-review",
+  "allocationChecks": "30distinctEXAMassignments,4O03perexam,SourcePoolA;320normalizedtexts distinct."
+}

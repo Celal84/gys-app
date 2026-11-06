@@ -1,0 +1,2330 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "t01-independent-review",
+  "reviewType": "SeparateProcessModelAssistedOfficialProvisionReview",
+  "humanReview": false,
+  "candidateFileSHA256": "8a50db2e69dc8c0ff16e11b162fbc7c338cbafd3026df57137308dc17b077763",
+  "rulesFileSHA256": "c1ca5b7fab30fd00e354c63f556d8fead9e07767f59c1f85fae8566669a70363",
+  "objectiveFileSHA256": "e9bb9131ea4ff8bab139862d540c4f3bf652b7cb6dfb2f592f6427a5044aa064",
+  "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+  "sourceArchiveHashChecks": 3,
+  "sourceIntegrityChecks": {
+    "candidateCount": 100,
+    "sourceArtifactHashChecks": 3,
+    "sourceByteLengthChecks": 2,
+    "rawDecodedIdentityChecks": 1,
+    "independentParser": "Python stdlib html.parser.HTMLParser",
+    "fullHTMLParagraphCount": 399,
+    "provisionParagraphsCompared": 65,
+    "selectedArticles": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      27,
+      28,
+      29,
+      30,
+      34,
+      36,
+      39,
+      40,
+      41
+    ],
+    "selectedArticleHeadingChecks": 27,
+    "mechanicalAssertions": 31867,
+    "integrityDisagreements": 0,
+    "difficulty": {
+      "basic": 42,
+      "medium": 30,
+      "hard": 8,
+      "application": 20
+    },
+    "cognitiveTypes": {
+      "recall": 42,
+      "comprehension": 30,
+      "analysis": 8,
+      "application": 20
+    },
+    "scenarioCount": 20,
+    "crossTopicComparisonCandidates": 300,
+    "crossTopicHighestJaccard": {
+      "score": 0.2608695652173913,
+      "questionIds": [
+        "Q-T01-B-0043",
+        "Q-O02-B-0067"
+      ]
+    }
+  },
+  "legalEdition": "preparation",
+  "examCutoffFinalized": false,
+  "reviewDecisionScope": "Pass supports selected-target controlled preparation-package publication only when separate reproducible source/rule checks pass. It is not human review, entire-law scope approval or final2027legal-edition acceptance.",
+  "correctedCandidates": [
+    "Q-T01-B-0002",
+    "Q-T01-B-0004",
+    "Q-T01-B-0006",
+    "Q-T01-B-0010",
+    "Q-T01-B-0013",
+    "Q-T01-B-0020",
+    "Q-T01-B-0023",
+    "Q-T01-B-0027",
+    "Q-T01-B-0031",
+    "Q-T01-B-0033",
+    "Q-T01-B-0036",
+    "Q-T01-B-0037",
+    "Q-T01-B-0038",
+    "Q-T01-B-0041",
+    "Q-T01-B-0042",
+    "Q-T01-B-0044",
+    "Q-T01-B-0045",
+    "Q-T01-B-0048",
+    "Q-T01-B-0049",
+    "Q-T01-B-0050",
+    "Q-T01-B-0051",
+    "Q-T01-B-0052",
+    "Q-T01-B-0060",
+    "Q-T01-B-0061",
+    "Q-T01-B-0062",
+    "Q-T01-B-0064",
+    "Q-T01-B-0071",
+    "Q-T01-B-0077",
+    "Q-T01-B-0080",
+    "Q-T01-B-0081",
+    "Q-T01-B-0083",
+    "Q-T01-B-0085",
+    "Q-T01-B-0086",
+    "Q-T01-B-0087",
+    "Q-T01-B-0088",
+    "Q-T01-B-0090",
+    "Q-T01-B-0094",
+    "Q-T01-B-0095",
+    "Q-T01-B-0096",
+    "Q-T01-B-0098",
+    "Q-T01-B-0099",
+    "Q-T01-B-0100"
+  ],
+  "difficultyCalibrationCandidates": [
+    "Q-T01-B-0030",
+    "Q-T01-B-0032",
+    "Q-T01-B-0033",
+    "Q-T01-B-0034",
+    "Q-T01-B-0035",
+    "Q-T01-B-0036",
+    "Q-T01-B-0037",
+    "Q-T01-B-0038",
+    "Q-T01-B-0039",
+    "Q-T01-B-0040",
+    "Q-T01-B-0041",
+    "Q-T01-B-0042",
+    "Q-T01-B-0043",
+    "Q-T01-B-0047",
+    "Q-T01-B-0048",
+    "Q-T01-B-0058",
+    "Q-T01-B-0060",
+    "Q-T01-B-0061",
+    "Q-T01-B-0062",
+    "Q-T01-B-0063",
+    "Q-T01-B-0064",
+    "Q-T01-B-0065",
+    "Q-T01-B-0067",
+    "Q-T01-B-0068",
+    "Q-T01-B-0070",
+    "Q-T01-B-0071",
+    "Q-T01-B-0073",
+    "Q-T01-B-0074",
+    "Q-T01-B-0077",
+    "Q-T01-B-0078",
+    "Q-T01-B-0080"
+  ],
+  "sourceQuoteContextExpandedCandidates": [
+    "Q-T01-B-0083",
+    "Q-T01-B-0088"
+  ],
+  "scopeReview": {
+    "selectedArticles": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      27,
+      28,
+      29,
+      30,
+      34,
+      36,
+      39,
+      40,
+      41
+    ],
+    "allInstrumentArticlesAssumedInExamScope": false,
+    "selectedObjectives": 100,
+    "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+    "verifiedReadOnlyNoteHeadingCount": 27,
+    "unresolvedTransitionalAndRepealedProvisionsExcluded": true
+  },
+  "originalityReview": {
+    "comparedQuestionCount": 400,
+    "bankQuestions": 100,
+    "crossTopicQuestions": 300,
+    "distinctAuthoredFactKeys": 100,
+    "normalizedTextDuplicatesObserved": 0,
+    "semanticDuplicatesObserved": 0,
+    "learningObjectiveOperationDuplicatesObserved": 0,
+    "method": "Normalized text comparison plus separate model-assisted reading of all100 measured rules, legal conditions, outcomes, cognitive operations and cross-topic closest candidates. No embedding model, human review or statistical proof of semantic uniqueness is claimed.",
+    "highestCrossTopicLexicalSimilarity": {
+      "score": 0.2608695652173913,
+      "questionIds": [
+        "Q-T01-B-0043",
+        "Q-O02-B-0067"
+      ]
+    },
+    "scopeOfCount": "100T01+100O02+100O01+100O03candidate questions; other banks absent, future content requires fresh global duplicate review."
+  },
+  "summary": {
+    "reviewed": 100,
+    "pass": 100,
+    "needsReview": 0,
+    "rejected": 0,
+    "publicationApprovalPerformedByReviewer": false,
+    "approvedQuestions": 0,
+    "scenarioCount": 20,
+    "difficultyDistribution": {
+      "basic": 42,
+      "medium": 30,
+      "hard": 8,
+      "application": 20
+    },
+    "difficultyTargetMet": false,
+    "difficultyTargetException": "Direct provision recall was honestly recalibrated;25/30/25/20is a starting target, not evidence that simple recall is hard. Final42/30/8/20requires future empirical calibration."
+  },
+  "reviews": [
+    {
+      "questionId": "Q-T01-B-0001",
+      "candidateSha256": "befcced116b09316fe098285f1be37b47a8acda8aed17bcb157fbd42bf6b4730",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "a) Tarımsal iskân: Bir aileye projesinde öngörülen miktarda tarım arazisi, işletme binası, konut, irat hayvanı, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[18]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0001",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0001; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0002",
+      "candidateSha256": "5a6ed1aa4ac8a43092dc119951297f994ca4ce3ea44d87e051866c7c751280eb",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "b) Tarım dışı iskân: Bir aileye projesinde öngörülen miktarda arsa, konut, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[19]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0002",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0002; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0003",
+      "candidateSha256": "ea8f007817d48aff364fa2b29115005ecea3dd1448da5c1f1c380864454cda5a",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0003",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0003; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0004",
+      "candidateSha256": "0bd4e602636ce34ba35bf6281b0005afad21dd5d0f8605baaffd7e7e53401eff",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "d) Göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip bu Kanun gereğince kabul olunanlardır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[22]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0004",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0004; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0005",
+      "candidateSha256": "4c3e23cc35de87db491905b900ec4b5ee945087ff01064b267f08e31777fc49a",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "e) Serbest göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip, Devlet eliyle iskân edilmelerini istememek şartıyla yurda kabul edilenlerdir.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[23]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0005",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0005; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0006",
+      "candidateSha256": "60ec16a0f83f64b6390a4c2e8c468912afec018e3b0d9d59692004b3afa9e110",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "f) İskânlı göçmen: Türk soyundan ve Türk kültürüne bağlı olup, özel kanunlarla yurt dışından getirilen ve bu Kanun hükümlerine göre taşınmaz mal verilerek iskânları sağlananlardır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[24]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0006",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0006; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0007",
+      "candidateSha256": "166b2b2df834ef174cf96f5cfaca2eb45bdefa01da33ffe826ea1d058c54a314",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "g) Münferit göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yurdumuza yerleşmek amacıyla bir aile olarak gelenlerdir.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[25]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0007",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0007; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0008",
+      "candidateSha256": "0f6e6ae80db19d2fbe3b5b252d3220545f0876d670cf49d50c514cf696535e30",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ğ) Toplu göçmen: Türk soyundan ve Türk kültürüne bağlı olup, iki ülke arasında yapılan anlaşmaya göre yurdumuza yerleşmek amacıyla toplu olarak gelen ailelerdir.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[26]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0008",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0008; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0009",
+      "candidateSha256": "f6c372d8ad7d1d6b020a4f586f9a5adfcb2ea617c80007fdbdd03340cc6e6744",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 4 – (1) Türk soyundan ve Türk kültürüne bağlı olmayan yabancılar ile Türk soyundan ve Türk kültürüne bağlı bulunup da sınır dışı edilenler ve güvenlik bakımından Türkiye'ye gelmeleri uygun görülmeyenler göçmen olarak kabul edilmezler.",
+      "sourceLocator": "5543 sayılı Kanun m.4; resmî tam HTML p[33]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 4,
+        "legalProvisionId": "LP-5543-4",
+        "learningObjectiveId": "LO-T01-004-BANK-0009",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-004-BANK-0009; selected note heading cross-reference for m.4"
+      },
+      "notes": [
+        "Göçmen kabul engelleri, soy-kültür tanımı ve sonradan tespit halinde iptal hükmü ayrıldı. Engeller başka statüye otomatik kabul veya sadece bekleme sonucu doğurmaz.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0010",
+      "candidateSha256": "9bf5c1bd1c341a6dbf0b21d2a39797947ab2e2caa7bf9485a1225fa5c9d58fdd",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 5,
+        "legalProvisionId": "LP-5543-5",
+        "learningObjectiveId": "LO-T01-005-BANK-0010",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-005-BANK-0010; selected note heading cross-reference for m.5"
+      },
+      "notes": [
+        "Yakın referansı veya konsolosluğa bizzat başvuru alternatifleri; birinci/ikinci derece, Dışişleri-İçişleri incelemesi ve İçişlerinin kabul yetkisi ayrı hedeflerdir.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0011",
+      "candidateSha256": "8f4ed6e921959a1ee6b27a8b5c64ed23a20b5dce09d19216f76cbb633953aa2f",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0011",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0011; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0012",
+      "candidateSha256": "747e118c33195713548daff1da5292be4cd6efe1d969f15f7fbba5f28f58a183",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0012",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0012; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0013",
+      "candidateSha256": "e8791f92f1d35da2184a05bb93f87f62effa451decd1f3300ba42e1289fa9f44",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0013",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0013; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0014",
+      "candidateSha256": "576873974dbf4d0c8a9611c563ef4d32a9916503d452695f5954c124986b6204",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Tarımsal iskân projesinde öngörülen yıllık işletme ve donatım kredilerini, tarım arazilerinin devrinden sonraki iki yıl içinde istemeyen ailelere bu krediler kullandırılmaz.",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[62]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0014",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0014; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0015",
+      "candidateSha256": "152b5d8acc9043f8a0a4ea48e8eb5bb326defe0acb05811a66b8be907b5eb678",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(4) Yukarıda sayılanların yeni iskân alanına nakilleri, hazırlanacak nakil projesine göre Devlet tarafından karşılıksız olarak sağlanır.",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[64]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0015",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0015; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0016",
+      "candidateSha256": "86f302d900f05ceadb613eb61fd27ac2e17c13ecf868dab12b215cc2b7665dfd",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 10 – (1) Yurda kabul edilen iskânlı göçmenler, şartların elverdiği yerlerde Bakanlıkça bu Kanun hükümlerine göre iskân olunurlar. Ancak, Türkiye'ye geldikleri tarihten itibaren iki yıl içinde iskânını istemeyen göçmenler, Bakanlıkça iskân edilemezler ve yapılmakta olan karşılıksız yardımlar kesilir.",
+      "sourceLocator": "5543 sayılı Kanun m.10; resmî tam HTML p[67]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 10,
+        "legalProvisionId": "LP-5543-10",
+        "learningObjectiveId": "LO-T01-010-BANK-0016",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-010-BANK-0016; selected note heading cross-reference for m.10"
+      },
+      "notes": [
+        "İki yıl Türkiye’ye gelişten başlar; istememe halinde iskân edilememe ve karşılıksız yardımların kesilmesi birlikte doğar. Vatandaşlığın kendiliğinden kaybı gibi sonuç eklenmedi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0017",
+      "candidateSha256": "53b977ca97bdee1fb1895f31657974bd2d41a3caba8b4894b397e1566a014837",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 11 – (1) Göçebeler, İçişleri Bakanlığı ile gerektiğinde diğer ilgili kamu kurum ve kuruluşlarının da görüşleri alınmak suretiyle Bakanlıkça uygun görülecek yerlere bu Kanun hükümlerine göre iskân edilirler. Ancak, iskân duyurusu tarihinin bitiminden sonra yüzseksen gün içinde müracaat etmeyen aileler iskân edilemezler.",
+      "sourceLocator": "5543 sayılı Kanun m.11; resmî tam HTML p[70]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 11,
+        "legalProvisionId": "LP-5543-11",
+        "learningObjectiveId": "LO-T01-011-BANK-0017",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-011-BANK-0017; selected note heading cross-reference for m.11"
+      },
+      "notes": [
+        "Göçebe iskânında İçişleri görüşü ve gerektiğinde diğer ilgili kurum görüşleri; duyurunun bitiminden sonra180gün başvuru süresi ayrı kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0018",
+      "candidateSha256": "6958aa1cdc6227b7ed8c8292c807dcefbc1aea812defd8baec792cd9bf3cddd7",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(4) Bu madde kapsamına giren ve Devlet eliyle iskânlarını isteyen ailelerden; iskân duyurusu tarihinin bitiminden sonra doksan gün içinde müracaat etmeyenler ile aldıkları veya alacakları kamulaştırma bedelinin, Bakanlıkça belirlenen miktarını; kamulaştırma bedelinin Bakanlıkça belirlenen miktardan az olması halinde ise kamulaştırma ve tezyidi bedellerinin tamamını, Bakanlık Merkez Muhasebe Birimi Hesabına yatırmayı taahhüt etmeyenler iskân edilmezler.",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[79]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0018",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0018; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0019",
+      "candidateSha256": "aad8303fb8bb502e42a841aaaae8e0f5c7905737fbb8a7e71294326a4b9b90c5",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 14 – (1) 10, 11, 12 ve 13 üncü maddeler kapsamına giren hak sahibi ailelerin, Bakanlığın gösterdiği yerlerde iskân edilmeyi kabul etmemeleri halinde hak sahiplilik durumları Mahalli İskân Komisyonunca iptal edilir. Bu durumdaki aileler ikinci bir iskân talebinde bulunamazlar.",
+      "sourceLocator": "5543 sayılı Kanun m.14; resmî tam HTML p[85]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 14,
+        "legalProvisionId": "LP-5543-14",
+        "learningObjectiveId": "LO-T01-014-BANK-0019",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-014-BANK-0019; selected note heading cross-reference for m.14"
+      },
+      "notes": [
+        "Gösterilen yeri kabul etmeyen hak sahibinde Mahalli Komisyonun iptal yetkisi ve ikinci iskân talebinin yasaklanması farklı bilgi hedefleridir; mülga13’e yeni hak bağlanmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0020",
+      "candidateSha256": "f57c1db9dc07fcea6a62f6ec1216e9868679fa179b4c01d8a68a002e6d3b28ab",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "a) Karı ile koca,",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[107]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 17,
+        "legalProvisionId": "LP-5543-17",
+        "learningObjectiveId": "LO-T01-017-BANK-0020",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-017-BANK-0020; selected note heading cross-reference for m.17"
+      },
+      "notes": [
+        "Karı-koca, evlenmemiş çocuk/sağ ebeveyn, evli çocuk-torun ve anasız babasız bekâr kardeş/tek çocuk hükümleri ayrı okundu.2020değişikliği esas alındı; yaşa veya cinsiyete dayalı pay yaratılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0021",
+      "candidateSha256": "d8b6024cd826de8f6bf89069d6dd72d6843793dd16d54ff5b36878b038b37fbd",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 19 – (1) Bu Kanun hükümlerine göre verilen taşınmaz malların temlikine, vali ve kaymakamlar yetkilidir. Dağıtım defter veya kararlarının vali veya kaymakamlarca onanması, temliktir. Onaylı defter veya kararlardaki miktarlar geçerlidir.",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[121]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 19,
+        "legalProvisionId": "LP-5543-19",
+        "learningObjectiveId": "LO-T01-019-BANK-0021",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-019-BANK-0021; selected note heading cross-reference for m.19"
+      },
+      "notes": [
+        "Genel m19kuralları temlik yetkisi, onamanın hukuki niteliği/geçerli miktar ve temlik tarihinde yaşayan fertlere eşit pay olarak ayrıldı. Ek2DSİ özel uygulaması yetki sorularında açıkça hariç tutuldu; ilk temlikle ayrı miras ihtilafları karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0022",
+      "candidateSha256": "24ea740ad47d7b13bdd0cfce8a7ab8a997fc601684e54a93918747056e214516",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Verilen taşınmaz mallar, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle temlik ve tapuya tescil ettirilir.",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[122]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 19,
+        "legalProvisionId": "LP-5543-19",
+        "learningObjectiveId": "LO-T01-019-BANK-0022",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-019-BANK-0022; selected note heading cross-reference for m.19"
+      },
+      "notes": [
+        "Genel m19kuralları temlik yetkisi, onamanın hukuki niteliği/geçerli miktar ve temlik tarihinde yaşayan fertlere eşit pay olarak ayrıldı. Ek2DSİ özel uygulaması yetki sorularında açıkça hariç tutuldu; ilk temlikle ayrı miras ihtilafları karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0023",
+      "candidateSha256": "1cb9ca3dd64c644335b2004331a0b1ea33749f73a50e564e2a7ca6d7be8ea4c3",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 22 – (1) Bu Kanunun uygulanması amacıyla sağlanan veya hak sahiplerine verilecek yapılar, arsa ve araziler; kimin işgali altında olursa olsun o yerin en büyük mülki amirinin yazılı emirleriyle kolluk kuvvetlerince boşaltılır ve kendilerine teslim olunur. Bunlara vuku bulacak tecavüzlerde de o yerin en büyük mülki amirleri kolluk kuvvetlerini kullanarak tahliyeye yetkilidir.",
+      "sourceLocator": "5543 sayılı Kanun m.22; resmî tam HTML p[134]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 22,
+        "legalProvisionId": "LP-5543-22",
+        "learningObjectiveId": "LO-T01-022-BANK-0023",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-022-BANK-0023; selected note heading cross-reference for m.22"
+      },
+      "notes": [
+        "En büyük mülki amirin yazılı emri ve kollukla boşaltma yetkisi, iskân komisyonu ile tapu sicil işlevinden ayrıldı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0024",
+      "candidateSha256": "84089e8723b9f913593d9bd2572401aafec52cfd7f2204b8c80e59d3f8ac064b",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(6) Bu Kanun hükümlerine göre borçlandırma suretiyle yapılan iskân yardımlarının tamamı için, verilecek taşınmaz mallarda Hazine lehine birinci derecede ve birinci sırada ipotek tesis edilir.",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[179]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 27,
+        "legalProvisionId": "LP-5543-27",
+        "learningObjectiveId": "LO-T01-027-BANK-0024",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-027-BANK-0024; selected note heading cross-reference for m.27"
+      },
+      "notes": [
+        "Maliyet/rayiç/edinme bedelleri ve bir yıl içinde tahsis edilmeyenin rayici ayrıldı.2022sözleşme aşamasında%65peşin indirim; ödemesiz dönem oranları ve mülga5.fıkra sorulmadı. Faizsiz taşınmaz bedeli ile faizli krediler ve birinci derece/sıra ipotek kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0025",
+      "candidateSha256": "ee2f0570b70bd78a58e0bce7c44b998001258d1e4d5df211a10cee9a52d01d96",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 39 – (1) Köy tüzel kişiliğine ait arsa ve araziler, köy ihtiyar heyetince karar verildiği takdirde bu Kanun kapsamında kullanılabilir. Bu tür arsa ve arazilerin kıymet takdiri köy ihtiyar heyetince yapılır, arsa ve arazinin hak sahiplerine satışından elde edilen para köy bütçesine gelir kaydedilir.",
+      "sourceLocator": "5543 sayılı Kanun m.39; resmî tam HTML p[233]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 39,
+        "legalProvisionId": "LP-5543-39",
+        "learningObjectiveId": "LO-T01-039-BANK-0025",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-039-BANK-0025; selected note heading cross-reference for m.39"
+      },
+      "notes": [
+        "Köy tüzel kişiliği arsa/arazi satış gelirinin köy bütçesine kaydı, belediye bütçesi veya üyelere dağıtımla karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0026",
+      "candidateSha256": "781b51c911799c54c54523f7aee8f10e5fc6922e20fa6c1d9982fc6a4958f8fa",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "c) Fiziksel yerleşim: Bir aileye, yerleşim yerinin elverişsizliği nedeniyle köylerin nakledilmesi veya dağınık yerleşim birimleri ve afet sonucu parçalanmış köylerin toplulaştırılması amacıyla veya köy gelişme alanından ihtiyaçlılara yapılacak arsa satışından sonra Bakanlıkça belirlenecek kredi miktarı üzerinden verilecek kredi desteğiyle yapılan iskândır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[20]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0026",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0026; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0027",
+      "candidateSha256": "94c254b8177c7c4dc1727a2b8e56b730f5061889bae1071b65ab9fd88ca13ec7",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0027",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0027; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0028",
+      "candidateSha256": "dc2a02cd844f827049aeb37eaf20d2bc57d5cc6054d61ee2f411bb94e90d674c",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0028",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0028; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0029",
+      "candidateSha256": "8dc6752feebdf1ff497e10b56b2b840d8778cc76dfd3b14d398f63a1542756cb",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 4 – (1) Türk soyundan ve Türk kültürüne bağlı olmayan yabancılar ile Türk soyundan ve Türk kültürüne bağlı bulunup da sınır dışı edilenler ve güvenlik bakımından Türkiye'ye gelmeleri uygun görülmeyenler göçmen olarak kabul edilmezler.",
+      "sourceLocator": "5543 sayılı Kanun m.4; resmî tam HTML p[33]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 4,
+        "legalProvisionId": "LP-5543-4",
+        "learningObjectiveId": "LO-T01-004-BANK-0029",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-004-BANK-0029; selected note heading cross-reference for m.4"
+      },
+      "notes": [
+        "Göçmen kabul engelleri, soy-kültür tanımı ve sonradan tespit halinde iptal hükmü ayrıldı. Engeller başka statüye otomatik kabul veya sadece bekleme sonucu doğurmaz.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0030",
+      "candidateSha256": "e06c4498e7faf848ce752f9a8fb461f98bf36388a099eefc5cd9a32e87cba5dd",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 5,
+        "legalProvisionId": "LP-5543-5",
+        "learningObjectiveId": "LO-T01-005-BANK-0030",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-005-BANK-0030; selected note heading cross-reference for m.5"
+      },
+      "notes": [
+        "Yakın referansı veya konsolosluğa bizzat başvuru alternatifleri; birinci/ikinci derece, Dışişleri-İçişleri incelemesi ve İçişlerinin kabul yetkisi ayrı hedeflerdir.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0031",
+      "candidateSha256": "4909e6955c7a3c600a21883c0fcf56fce35bcb705461dd30eebbcd4bb9a0d1d6",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 5,
+        "legalProvisionId": "LP-5543-5",
+        "learningObjectiveId": "LO-T01-005-BANK-0031",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-005-BANK-0031; selected note heading cross-reference for m.5"
+      },
+      "notes": [
+        "Yakın referansı veya konsolosluğa bizzat başvuru alternatifleri; birinci/ikinci derece, Dışişleri-İçişleri incelemesi ve İçişlerinin kabul yetkisi ayrı hedeflerdir.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0032",
+      "candidateSha256": "67725b5241e188c56535a52a6891ed0a79b9894ad6c5b6c7a3fbd20670e302b5",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 5,
+        "legalProvisionId": "LP-5543-5",
+        "learningObjectiveId": "LO-T01-005-BANK-0032",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-005-BANK-0032; selected note heading cross-reference for m.5"
+      },
+      "notes": [
+        "Yakın referansı veya konsolosluğa bizzat başvuru alternatifleri; birinci/ikinci derece, Dışişleri-İçişleri incelemesi ve İçişlerinin kabul yetkisi ayrı hedeflerdir.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0033",
+      "candidateSha256": "c60773bd6c43dfecea2c02220b5856c2004cc8253df294aaf964d73cc9392068",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Bu giderler için Maliye Bakanlığınca ivedilikle ödenek aktarılır.",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[48]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0033",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0033; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0034",
+      "candidateSha256": "8920b5af6365e9272fb0de6b3d13ea2a5922ec928de116a0e6908afcbe57d86e",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 8 – (1) 5 inci ve 6 ncı maddeler uyarınca yurda toplu olarak kabul olunan göçmenler, sınırlarımızdan girdikten sonra giriş noktalarındaki göçmen kabul merkezlerinde sağlık, gümrük, idari ve nakil işlemleri tamamlanıncaya kadar misafir edilirler. Bu süre içinde bakım, beslenme ve barınma ihtiyaçları Kızılay Derneğinin de yardımlarıyla İçişleri Bakanlığınca karşılıksız sağlanır.[3]",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[47]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0034",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0034; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0035",
+      "candidateSha256": "49dde37133a9006d7969bdda0d56933a73d790fb84cdc61587fda0d14b147942",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 8 – (1) 5 inci ve 6 ncı maddeler uyarınca yurda toplu olarak kabul olunan göçmenler, sınırlarımızdan girdikten sonra giriş noktalarındaki göçmen kabul merkezlerinde sağlık, gümrük, idari ve nakil işlemleri tamamlanıncaya kadar misafir edilirler. Bu süre içinde bakım, beslenme ve barınma ihtiyaçları Kızılay Derneğinin de yardımlarıyla İçişleri Bakanlığınca karşılıksız sağlanır.[3]",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[47]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0035",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0035; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0036",
+      "candidateSha256": "500450b3e126d0831acd798acec6d8708b2af1da036221ad211ce402bd0d1ddd",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0036",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0036; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0037",
+      "candidateSha256": "ba01d0df8a5d0bac850f96c7ab3596d8446b5d3be72a7951ae684e8a0084b270",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0037",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0037; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0038",
+      "candidateSha256": "28a10e2d22538bf418c429bf5d886917cfa01445508f972291d22bd2e91b09b5",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0038",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0038; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0039",
+      "candidateSha256": "a1f3b2838065e3d6d39b587accde0416b9a042cdffd693f71100cb6dc1a67b7a",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0039",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0039; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0040",
+      "candidateSha256": "faaaec76ad491a9c8357939897bdb086974eb91e57015d2e966e1b7deae82138",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(5) 4 üncü maddede sayılan engellerden herhangi birini taşıdığı yurda girdikten sonra tespit edilen şahısların, göçmenlik işlemleri iptal edilir.",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[51]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0040",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0040; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0041",
+      "candidateSha256": "2d2fbbde3bdc1039de6d8b3f1ee680691621e66bc46f1e1d8e3f93701bdff2b8",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "a) Öncelikle konut ve arsası,",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[57]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0041",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0041; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0042",
+      "candidateSha256": "40cf19cbc8797a13f55fac7840429720a4bbc976a6265f5562a04b4e482d405a",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "b) Esnaf, sanatkâr ve tüccarlara, geçimlerini sağlayacak işyeri ve arsası ile işletme kredisi,",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[58]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0042",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0042; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0043",
+      "candidateSha256": "767646c22d48d89c272deb64b98af016cf474fc3cb63aac4bd77a4f684114925",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "c) Çiftçilere tarımsal projesinde öngörülen arazi, gerekli tarımsal girdiler, tarımsal yapılar veya arsası ile aynî ve nakdî işletme ve donatım kredileri,",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[59]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0043",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0043; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0044",
+      "candidateSha256": "d264ccea4a544b778c25f26999b17c6e29433241ae2176026d9b948d43603931",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ç) Hak sahiplerinin talepleri halinde, konut, işyeri ve tarım arazisi kendileri tarafından bulunarak teklif edilmesi ve Bakanlıkça uygun görülmesi halinde toplu veya münferit olarak ailelere iskân kredileri,",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[60]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0044",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0044; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0045",
+      "candidateSha256": "763cba55e6bec5c4145e3d6b43fef4ec12aedfeb2936d7a4783e44dbf3c79a8d",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "verilmek suretiyle bu Kanun hükümlerine göre borçlandırma yoluyla yapılır.",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[61]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0045",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0045; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0046",
+      "candidateSha256": "1cd3918b1dd09b6bac48f8c854709bb70115fa8927003fb85ebb468be8cfb2ea",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır.",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0046",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0046; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0047",
+      "candidateSha256": "d0906186e33310d9c7c798ce64239c24cbea8d32c4b7abc561321fcf6137592b",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 10 – (1) Yurda kabul edilen iskânlı göçmenler, şartların elverdiği yerlerde Bakanlıkça bu Kanun hükümlerine göre iskân olunurlar. Ancak, Türkiye'ye geldikleri tarihten itibaren iki yıl içinde iskânını istemeyen göçmenler, Bakanlıkça iskân edilemezler ve yapılmakta olan karşılıksız yardımlar kesilir.",
+      "sourceLocator": "5543 sayılı Kanun m.10; resmî tam HTML p[67]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 10,
+        "legalProvisionId": "LP-5543-10",
+        "learningObjectiveId": "LO-T01-010-BANK-0047",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-010-BANK-0047; selected note heading cross-reference for m.10"
+      },
+      "notes": [
+        "İki yıl Türkiye’ye gelişten başlar; istememe halinde iskân edilememe ve karşılıksız yardımların kesilmesi birlikte doğar. Vatandaşlığın kendiliğinden kaybı gibi sonuç eklenmedi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0048",
+      "candidateSha256": "cd5906bea739000820a40261b67f9bbf8c9ac3f2c7f4bef79bb58550839f275f",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 11 – (1) Göçebeler, İçişleri Bakanlığı ile gerektiğinde diğer ilgili kamu kurum ve kuruluşlarının da görüşleri alınmak suretiyle Bakanlıkça uygun görülecek yerlere bu Kanun hükümlerine göre iskân edilirler. Ancak, iskân duyurusu tarihinin bitiminden sonra yüzseksen gün içinde müracaat etmeyen aileler iskân edilemezler.",
+      "sourceLocator": "5543 sayılı Kanun m.11; resmî tam HTML p[70]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 11,
+        "legalProvisionId": "LP-5543-11",
+        "learningObjectiveId": "LO-T01-011-BANK-0048",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-011-BANK-0048; selected note heading cross-reference for m.11"
+      },
+      "notes": [
+        "Göçebe iskânında İçişleri görüşü ve gerektiğinde diğer ilgili kurum görüşleri; duyurunun bitiminden sonra180gün başvuru süresi ayrı kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0049",
+      "candidateSha256": "6c3413b05ffe47e6553ffd61bc1c03e5187ce390d56a1683df4efa7a43964f44",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler,",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[75]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0049",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0049; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0050",
+      "candidateSha256": "f3160ba032e104ac48c9321cb02f84d26b80e7742e6987777baa8ed4b64e5670",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Ancak, iskân planlama etütlerinin başladığı tarihten önce yerini terk etmiş olup kamulaştırılacak taşınmaz malı bulunan aileler iskân edilmezler. Bu tarihten geriye doğru üç yıl içerisinde, taşınmaz mallarını zorunlu hal olmadan ellerinden çıkaran ve yerine eşdeğerde veya daha fazla değerde taşınmaz mal almayan aileler yerlerini terk etmemiş olsalar dahi iskân edilmezler. Zorunlu haller yönetmelikle belirlenir.",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[77]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0050",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0050; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0051",
+      "candidateSha256": "c8775b2f188232efeae2c9c9ab9ee6413ab87b96fad3156b24cc290329860021",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Kamu kurum ve kuruluşlarınca kamulaştırılan alanlarda yerleşik olan ve kamulaştırmadan etkilenen ailelerden Devlet eliyle başka yerde iskânını istemeyenler, yazılı başvuruları üzerine, ilgili valiliğin teklifi ve İçişleri Bakanlığının olumlu görüşü alınmak şartıyla Bakanlıkça kendi köy hudutları içinde gösterilecek bir yerde iskân edilebilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[78]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0051",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0051; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0052",
+      "candidateSha256": "d3de1ac1a41f38375811b96c2926be5f19ff1fe6c285f82f63db4efa18d735bf",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 14 – (1) 10, 11, 12 ve 13 üncü maddeler kapsamına giren hak sahibi ailelerin, Bakanlığın gösterdiği yerlerde iskân edilmeyi kabul etmemeleri halinde hak sahiplilik durumları Mahalli İskân Komisyonunca iptal edilir. Bu durumdaki aileler ikinci bir iskân talebinde bulunamazlar.",
+      "sourceLocator": "5543 sayılı Kanun m.14; resmî tam HTML p[85]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 14,
+        "legalProvisionId": "LP-5543-14",
+        "learningObjectiveId": "LO-T01-014-BANK-0052",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-014-BANK-0052; selected note heading cross-reference for m.14"
+      },
+      "notes": [
+        "Gösterilen yeri kabul etmeyen hak sahibinde Mahalli Komisyonun iptal yetkisi ve ikinci iskân talebinin yasaklanması farklı bilgi hedefleridir; mülga13’e yeni hak bağlanmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0053",
+      "candidateSha256": "718fd8a53ca738627f8bf3c8ec529efc2d10bdfcb12b405f6072ef530c10e7fc",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Ancak, birinci fıkranın (a) ve (b) bentlerindeki hizmetlerin yapılabilmesi için köy seçmen listesinde kayıtlı olanların yarıdan bir fazlasının, o yerin en büyük mülki amirliğine yazılı müracaatı esastır.",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[101]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 16,
+        "legalProvisionId": "LP-5543-16",
+        "learningObjectiveId": "LO-T01-016-BANK-0053",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-016-BANK-0053; selected note heading cross-reference for m.16"
+      },
+      "notes": [
+        "Fiziksel yerleşim hizmetleri ve yalnız1/a–b için seçmen listesinde yarıdan bir fazla yazılı müracaat ayrıldı. Afetten etkilenmemiş ailenin talebi, teknik proje ölçütleri ve rezerv arsa kredisi kapsamları kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0054",
+      "candidateSha256": "174ab101ddf9a842e50c250fa943def6d756084f9386cc4154039b7d217bb09c",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "c) Evli çocuklar, evli torunlar ile çocuksuz erkek ve kadın dullar başlı başına,",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[109]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 17,
+        "legalProvisionId": "LP-5543-17",
+        "learningObjectiveId": "LO-T01-017-BANK-0054",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-017-BANK-0054; selected note heading cross-reference for m.17"
+      },
+      "notes": [
+        "Karı-koca, evlenmemiş çocuk/sağ ebeveyn, evli çocuk-torun ve anasız babasız bekâr kardeş/tek çocuk hükümleri ayrı okundu.2020değişikliği esas alındı; yaşa veya cinsiyete dayalı pay yaratılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0055",
+      "candidateSha256": "75978f28084115921edd89d039718f080b306e67aec7037b519d003aa9fa435a",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ç) (Değişik:14/2/2020-7221/36 md.) Anasız ve babasız bekâr kardeş çocuklar birlikte ve eşit hisselerle; bekâr kardeşi olmayan ya da tek kalan çocuklar başlı başına,",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[110]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 17,
+        "legalProvisionId": "LP-5543-17",
+        "learningObjectiveId": "LO-T01-017-BANK-0055",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-017-BANK-0055; selected note heading cross-reference for m.17"
+      },
+      "notes": [
+        "Karı-koca, evlenmemiş çocuk/sağ ebeveyn, evli çocuk-torun ve anasız babasız bekâr kardeş/tek çocuk hükümleri ayrı okundu.2020değişikliği esas alındı; yaşa veya cinsiyete dayalı pay yaratılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0056",
+      "candidateSha256": "2915aa5c25cf56761a07918e8fd3bb1e097c3dcd85844d05f22fbb3cdfc635c2",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Ancak, iskân planlama etütlerinin başladığı tarihten önce yerini terk etmiş olup kamulaştırılacak taşınmaz malı bulunan aileler iskân edilmezler. Bu tarihten geriye doğru üç yıl içerisinde, taşınmaz mallarını zorunlu hal olmadan ellerinden çıkaran ve yerine eşdeğerde veya daha fazla değerde taşınmaz mal almayan aileler yerlerini terk etmemiş olsalar dahi iskân edilmezler. Zorunlu haller yönetmelikle belirlenir.",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[77]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0056",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0056; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0057",
+      "candidateSha256": "173ff57f617cc2c6ef561fde3b44b25b4b1105f1efb09314b9e1abbac8a6ebe4",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(4) Bu madde kapsamına giren ve Devlet eliyle iskânlarını isteyen ailelerden; iskân duyurusu tarihinin bitiminden sonra doksan gün içinde müracaat etmeyenler ile aldıkları veya alacakları kamulaştırma bedelinin, Bakanlıkça belirlenen miktarını; kamulaştırma bedelinin Bakanlıkça belirlenen miktardan az olması halinde ise kamulaştırma ve tezyidi bedellerinin tamamını, Bakanlık Merkez Muhasebe Birimi Hesabına yatırmayı taahhüt etmeyenler iskân edilmezler.",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[79]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0057",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0057; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0058",
+      "candidateSha256": "a0ad57c25057eb6bc3f11c8c5b2484b23e3486320929f8fe312392c019e6db6a",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "c) Afet nedeniyle parçalanmış köylerde, afete maruz kalmayan ailelerin talepleri halinde yeni yerleşim yerine ekleme yapılması,",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[96]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 16,
+        "legalProvisionId": "LP-5543-16",
+        "learningObjectiveId": "LO-T01-016-BANK-0058",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-016-BANK-0058; selected note heading cross-reference for m.16"
+      },
+      "notes": [
+        "Fiziksel yerleşim hizmetleri ve yalnız1/a–b için seçmen listesinde yarıdan bir fazla yazılı müracaat ayrıldı. Afetten etkilenmemiş ailenin talebi, teknik proje ölçütleri ve rezerv arsa kredisi kapsamları kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0059",
+      "candidateSha256": "a2f9d63fdf9d1ef60b52bdbcbcf69680aec836c5913ae013db259fdf176d319b",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "d) Çevrenin iklimine, sosyal ve ekonomik şartlarına, yapı malzemesi imkânlarına uygun nitelikte konut, tarımsal işletme binaları ve sosyal tesislerin tiplerinin ve uygun yerleşim modellerinin araştırılması, teknik yardım niteliğindeki tip projelerin hazırlanarak istekli köy veya köylülere verilmesi, gerektiği hallerde köylerde sosyal, kültürel, idari, ekonomik yapı ve tesisler ile köy içi altyapılarının yapılması,",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[98]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 16,
+        "legalProvisionId": "LP-5543-16",
+        "learningObjectiveId": "LO-T01-016-BANK-0059",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-016-BANK-0059; selected note heading cross-reference for m.16"
+      },
+      "notes": [
+        "Fiziksel yerleşim hizmetleri ve yalnız1/a–b için seçmen listesinde yarıdan bir fazla yazılı müracaat ayrıldı. Afetten etkilenmemiş ailenin talebi, teknik proje ölçütleri ve rezerv arsa kredisi kapsamları kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0060",
+      "candidateSha256": "60003912a1cb008581167cd885c93e38ab9036f008c6336bf632b8671b6f2ab0",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "e) Nakil, toplulaştırma ve fiziksel yerleşim iyileştirilmesi uygulamaları tamamlanan köylerde, daha sonraki yıllarda rezerv arsalardan satın alan ailelere, kendi evini yapana yardım metodu ile kredi açılması,",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[99]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 16,
+        "legalProvisionId": "LP-5543-16",
+        "learningObjectiveId": "LO-T01-016-BANK-0060",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-016-BANK-0060; selected note heading cross-reference for m.16"
+      },
+      "notes": [
+        "Fiziksel yerleşim hizmetleri ve yalnız1/a–b için seçmen listesinde yarıdan bir fazla yazılı müracaat ayrıldı. Afetten etkilenmemiş ailenin talebi, teknik proje ölçütleri ve rezerv arsa kredisi kapsamları kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0061",
+      "candidateSha256": "a24dc9203478b1f0bbad2d9ded08a4b496c12d8342118e14b4b022ecee5b674b",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 18 – (1) Bakanlıkça ihtiyaç duyulması halinde, Bakanın veya görevlendireceği kişinin başkanlığında, gerekli görülecek diğer bakanlık ve kuruluşların temsilcilerinden oluşan bir Merkezi İskân Komisyonu kurulur.",
+      "sourceLocator": "5543 sayılı Kanun m.18; resmî tam HTML p[114]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 18,
+        "legalProvisionId": "LP-5543-18",
+        "learningObjectiveId": "LO-T01-018-BANK-0061",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-018-BANK-0061; selected note heading cross-reference for m.18"
+      },
+      "notes": [
+        "İhtiyaç halinde merkezi komisyonun Bakan/görevlendirdiği kişi başkanlığında oluşumu ile Mahalli Komisyonun tespit/tahsis yetkisi ayrı kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0062",
+      "candidateSha256": "55c8ed399a12e5ffc6dad96fe0c95dc23f161b5196187cf6482abeeeae8137e3",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Bu Kanun hükümlerine göre iskân edilecekleri tespite ve taşınmaz mal tahsisine mahallin en büyük mülki amirinin veya görevlendireceği kişinin başkanlığında; bayındırlık ve iskân, tapu, maliye, tarım ve gerektiğinde ihtiyaç duyulacak konularda hizmet veren kamu kurum ve kuruluşlarının görevlilerinden teşekkül edecek Mahalli İskân Komisyonu yetkilidir.",
+      "sourceLocator": "5543 sayılı Kanun m.18; resmî tam HTML p[116]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 18,
+        "legalProvisionId": "LP-5543-18",
+        "learningObjectiveId": "LO-T01-018-BANK-0062",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-018-BANK-0062; selected note heading cross-reference for m.18"
+      },
+      "notes": [
+        "İhtiyaç halinde merkezi komisyonun Bakan/görevlendirdiği kişi başkanlığında oluşumu ile Mahalli Komisyonun tespit/tahsis yetkisi ayrı kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0063",
+      "candidateSha256": "7aeffd439cd3b304a5e6ef641987b34564fae98813c16c43e3a345de73cfea7c",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 19 – (1) Bu Kanun hükümlerine göre verilen taşınmaz malların temlikine, vali ve kaymakamlar yetkilidir. Dağıtım defter veya kararlarının vali veya kaymakamlarca onanması, temliktir. Onaylı defter veya kararlardaki miktarlar geçerlidir.",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[121]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 19,
+        "legalProvisionId": "LP-5543-19",
+        "learningObjectiveId": "LO-T01-019-BANK-0063",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-019-BANK-0063; selected note heading cross-reference for m.19"
+      },
+      "notes": [
+        "Genel m19kuralları temlik yetkisi, onamanın hukuki niteliği/geçerli miktar ve temlik tarihinde yaşayan fertlere eşit pay olarak ayrıldı. Ek2DSİ özel uygulaması yetki sorularında açıkça hariç tutuldu; ilk temlikle ayrı miras ihtilafları karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0064",
+      "candidateSha256": "ba70ff5172bd1efcc3d77bfeb154a5a280fc11f67c10ede175f3a18a4d1b0005",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 20 – (1) Temlik edilmiş olan taşınmaz mallar mülkiyetine ilişkin olarak açılacak davalarda, davalı yeni malik ile birlikte tapudaki tescil durumuna göre Hazinedir.",
+      "sourceLocator": "5543 sayılı Kanun m.20; resmî tam HTML p[125]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 20,
+        "legalProvisionId": "LP-5543-20",
+        "learningObjectiveId": "LO-T01-020-BANK-0064",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-020-BANK-0064; selected note heading cross-reference for m.20"
+      },
+      "notes": [
+        "Yeni malik ile tapudaki tescil durumuna göre Hazinenin davalı oluşu; temlikten1yıl sonra bedel talebinde el koyma tarihindeki rayiç ayrı kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0065",
+      "candidateSha256": "c7b82553f8ff91eb998f4bcea0db46a54d4f7867fbddff5fbb5d94d7df8558a3",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Temlik tarihinden itibaren bir yıl geçtikten sonra malın kendisine ait olduğunu iddia edenler tarafından, el koyma tarihindeki rayiç bedel üzerinden dava açılabilir.",
+      "sourceLocator": "5543 sayılı Kanun m.20; resmî tam HTML p[126]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 20,
+        "legalProvisionId": "LP-5543-20",
+        "learningObjectiveId": "LO-T01-020-BANK-0065",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-020-BANK-0065; selected note heading cross-reference for m.20"
+      },
+      "notes": [
+        "Yeni malik ile tapudaki tescil durumuna göre Hazinenin davalı oluşu; temlikten1yıl sonra bedel talebinde el koyma tarihindeki rayiç ayrı kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0066",
+      "candidateSha256": "7326e5866c8f5046dd1211d090afddcd399b8d108cacdb4015f8ce11919a09dc",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır.",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 21,
+        "legalProvisionId": "LP-5543-21",
+        "learningObjectiveId": "LO-T01-021-BANK-0066",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-021-BANK-0066; selected note heading cross-reference for m.21"
+      },
+      "notes": [
+        "Tam ödeme öncesi tasarruf yasakları, beşinci yıl sonu+tam ödeme ile belirtmenin kaldırılması ve takyit döneminde belgelendirilmiş özür ile mahkemeden iptal/tescil istemi ayrıldı. Özür, genel satış izni veya borç affı sayılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0067",
+      "candidateSha256": "43ed8dc479239da3e4016f9da147de0a128de90fde06e461d9cd775d9708ccd4",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır.",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 21,
+        "legalProvisionId": "LP-5543-21",
+        "learningObjectiveId": "LO-T01-021-BANK-0067",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-021-BANK-0067; selected note heading cross-reference for m.21"
+      },
+      "notes": [
+        "Tam ödeme öncesi tasarruf yasakları, beşinci yıl sonu+tam ödeme ile belirtmenin kaldırılması ve takyit döneminde belgelendirilmiş özür ile mahkemeden iptal/tescil istemi ayrıldı. Özür, genel satış izni veya borç affı sayılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0068",
+      "candidateSha256": "107878de5f076c539281906c55ff89c9dfa50d7bacad6de83fd38ec814b48a86",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir.",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 21,
+        "legalProvisionId": "LP-5543-21",
+        "learningObjectiveId": "LO-T01-021-BANK-0068",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-021-BANK-0068; selected note heading cross-reference for m.21"
+      },
+      "notes": [
+        "Tam ödeme öncesi tasarruf yasakları, beşinci yıl sonu+tam ödeme ile belirtmenin kaldırılması ve takyit döneminde belgelendirilmiş özür ile mahkemeden iptal/tescil istemi ayrıldı. Özür, genel satış izni veya borç affı sayılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0069",
+      "candidateSha256": "34bc3d9793b93e3f335b92974da39595fa38be47fe1ce639fdebcf8ebef1b4de",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir.",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 21,
+        "legalProvisionId": "LP-5543-21",
+        "learningObjectiveId": "LO-T01-021-BANK-0069",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-021-BANK-0069; selected note heading cross-reference for m.21"
+      },
+      "notes": [
+        "Tam ödeme öncesi tasarruf yasakları, beşinci yıl sonu+tam ödeme ile belirtmenin kaldırılması ve takyit döneminde belgelendirilmiş özür ile mahkemeden iptal/tescil istemi ayrıldı. Özür, genel satış izni veya borç affı sayılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0070",
+      "candidateSha256": "12f0abafdad5d87dfbcb368714a81b3f66290ec5a95d5cd8cee180fee51b154d",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 23 – (1) Bu Kanun hükümlerine uygun olarak iskân edilenlerin istihkaklarının eksiksiz olarak vaktinde dağıtılıp teslim olunmasına ve üretici hale getirilmesine ait işler ile diğer iskân işleri Bakanlığın mahalli teşkilatınca yürütülür. Bakanlığa ait personel, araç ve gerecin yetersiz olduğu yerlerdeki vali ve kaymakamlar; kendi il ve ilçelerindeki yargı organları hariç, Devlet memurları, özel idare ve belediye personeli ile araç ve gereçlerden uygun gördüklerini, iskân olunanları yerleştirmek, bunlara verilecek yerleri ölçmek, dağıtmak ve inşaatları kontrol etmek gibi iskân ve nakil işlerinde görevlendirmeye yetkilidir. Görevlendirilen personel öncelikle bu işleri yapmaya zorunludur.",
+      "sourceLocator": "5543 sayılı Kanun m.23; resmî tam HTML p[136]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 23,
+        "legalProvisionId": "LP-5543-23",
+        "learningObjectiveId": "LO-T01-023-BANK-0070",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-023-BANK-0070; selected note heading cross-reference for m.23"
+      },
+      "notes": [
+        "Yetersizlik halinde vali/kaymakamın personel ve araç görevlendirmesinde yargı organlarının açık istisnası kontrol edildi; belediye/özel idare personeli yanlışlıkla hariç sayılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0071",
+      "candidateSha256": "6483e47a617b5186a28b69d7b13d5b5af38e27f9c9ce9b7a7fd3eee67cd36427",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 24 – (1) Bu Kanuna göre iskân edilenlerin tespit edilecek hayat seviyesine kavuşabilmeleri için geliştirme, yan gelir temini gibi tedbirler, Bakanlık ile diğer ilgili kurum ve kuruluşlarca ortaklaşa hazırlanacak plan ve projelere göre yürütülür. Bu projelerde yer alan tarım araç ve gereçleri, iskânlı ailelerin kooperatif kurmaları şartıyla kullandırılır.",
+      "sourceLocator": "5543 sayılı Kanun m.24; resmî tam HTML p[140]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 24,
+        "legalProvisionId": "LP-5543-24",
+        "learningObjectiveId": "LO-T01-024-BANK-0071",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-024-BANK-0071; selected note heading cross-reference for m.24"
+      },
+      "notes": [
+        "Ortak plan/projedeki tarım araç ve gereçleri için kooperatif kurma koşulu okundu; herhangi bir örgütlenme veya bireysel talep bunun yerine geçirilmedi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0072",
+      "candidateSha256": "2f5390d06dbf631db7d7320bd690dae16c74e0f95f73621c796640cbc94912c6",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 27,
+        "legalProvisionId": "LP-5543-27",
+        "learningObjectiveId": "LO-T01-027-BANK-0072",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-027-BANK-0072; selected note heading cross-reference for m.27"
+      },
+      "notes": [
+        "Maliyet/rayiç/edinme bedelleri ve bir yıl içinde tahsis edilmeyenin rayici ayrıldı.2022sözleşme aşamasında%65peşin indirim; ödemesiz dönem oranları ve mülga5.fıkra sorulmadı. Faizsiz taşınmaz bedeli ile faizli krediler ve birinci derece/sıra ipotek kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0073",
+      "candidateSha256": "89e6681bbe4ea720fa601e866b5cb2112c9665a86c95c1dcef47cf41e2d9482f",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 27,
+        "legalProvisionId": "LP-5543-27",
+        "learningObjectiveId": "LO-T01-027-BANK-0073",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-027-BANK-0073; selected note heading cross-reference for m.27"
+      },
+      "notes": [
+        "Maliyet/rayiç/edinme bedelleri ve bir yıl içinde tahsis edilmeyenin rayici ayrıldı.2022sözleşme aşamasında%65peşin indirim; ödemesiz dönem oranları ve mülga5.fıkra sorulmadı. Faizsiz taşınmaz bedeli ile faizli krediler ve birinci derece/sıra ipotek kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0074",
+      "candidateSha256": "6c5bbf52b23e8f23ef6d865c0a4f5679fad4b1599b7f28c5aff80ca10a6aa264",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 27,
+        "legalProvisionId": "LP-5543-27",
+        "learningObjectiveId": "LO-T01-027-BANK-0074",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-027-BANK-0074; selected note heading cross-reference for m.27"
+      },
+      "notes": [
+        "Maliyet/rayiç/edinme bedelleri ve bir yıl içinde tahsis edilmeyenin rayici ayrıldı.2022sözleşme aşamasında%65peşin indirim; ödemesiz dönem oranları ve mülga5.fıkra sorulmadı. Faizsiz taşınmaz bedeli ile faizli krediler ve birinci derece/sıra ipotek kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0075",
+      "candidateSha256": "5850975324e7db12715159fb7a8ea03082fbe98c853b8dd8dedcf158496a5151",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Taşınmaz mallara ait borçlandırma bedelleri faizsiz olarak tahsil olunur. Bu Kanun uyarınca açılacak işletme ve donatım kredileri ile fiziksel yerleşimi düzenleme amacıyla yapılacak taksitli arsa satışları ve aileye verilen konut ve işletme binası kredileri faize tâbidir.",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[176]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 27,
+        "legalProvisionId": "LP-5543-27",
+        "learningObjectiveId": "LO-T01-027-BANK-0075",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-027-BANK-0075; selected note heading cross-reference for m.27"
+      },
+      "notes": [
+        "Maliyet/rayiç/edinme bedelleri ve bir yıl içinde tahsis edilmeyenin rayici ayrıldı.2022sözleşme aşamasında%65peşin indirim; ödemesiz dönem oranları ve mülga5.fıkra sorulmadı. Faizsiz taşınmaz bedeli ile faizli krediler ve birinci derece/sıra ipotek kontrol edildi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0076",
+      "candidateSha256": "a2965528eba1f5dce21c8702592f4ba5f7db9693fa6f4bc06a123ab97a4e66d7",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 28 – (1) Bakanlık Merkez Muhasebe Birimi Hesabına yatırılmış kamulaştırma bedelleri, borçlandırma bedellerinden düşülür; fazlası iade edilir; eksik kaldığı takdirde bu Kanun hükümlerine göre ilgililer borçlandırılır. Yatırılmış kamulaştırma bedelleri, borçlandırma ve/veya iade tarihi itibariyle güncelleştirilir.",
+      "sourceLocator": "5543 sayılı Kanun m.28; resmî tam HTML p[185]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 28,
+        "legalProvisionId": "LP-5543-28",
+        "learningObjectiveId": "LO-T01-028-BANK-0076",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-028-BANK-0076; selected note heading cross-reference for m.28"
+      },
+      "notes": [
+        "Hesaba yatırılan güncellenmiş kamulaştırma bedelinin mahsup, fazlasını iade, eksik için borçlandırma sırası kontrol edildi; senaryoda güncelleme tamamlanmış varsayıldı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0077",
+      "candidateSha256": "46216ce5c79e844143eb8dc01bb6d81e9db20daf74d7f443cdea04a3132f7dd9",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 29 – (1) Mahkeme kararı ile taşınmaz malların geri alınması halinde, evvelce ödenen taksitler veya zaruri ve faydalı giderler, geri verilecek paralar tertibinden iade edilir.",
+      "sourceLocator": "5543 sayılı Kanun m.29; resmî tam HTML p[188]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 29,
+        "legalProvisionId": "LP-5543-29",
+        "learningObjectiveId": "LO-T01-029-BANK-0077",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-029-BANK-0077; selected note heading cross-reference for m.29"
+      },
+      "notes": [
+        "Mahkeme kararıyla geri alınan taşınmazda önceki taksit/zaruri-faydalı giderin geri verilecek paralar tertibinden iadesi kontrol edildi; başka geçici maddeye özgü hesaplaşma eklenmedi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0078",
+      "candidateSha256": "5606445acca338830ad14b17dce2335d88a4df452f5b06caa1dc751f519472b3",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 30 – (1) Bu Kanunun uygulanmasına ilişkin olarak yapılacak; karşılıksız iskân yardımları, altyapı tesisleri, sosyal, kültürel, idari, ekonomik ve diğer tesisler, imar planları ve teknik yardım niteliğindeki tip projeler karşılıksız olarak yapılır veya yaptırılır.",
+      "sourceLocator": "5543 sayılı Kanun m.30; resmî tam HTML p[191]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 30,
+        "legalProvisionId": "LP-5543-30",
+        "learningObjectiveId": "LO-T01-030-BANK-0078",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-030-BANK-0078; selected note heading cross-reference for m.30"
+      },
+      "notes": [
+        "İmar planı ve teknik yardım niteliğinde tip projelerin karşılıksızlığı; taşınmaz mülkiyet bedeli veya bütün işletme kredilerinin hibesiyle karıştırılmadı.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0079",
+      "candidateSha256": "4355bcce40a2f4a7ed60d6b8353006c6f43d14c2b001ea7f6d2f26e6b81e330a",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 34 – (1) Bu Kanun hükümlerine göre kabul edilen göçmenlerin, bir aile veya aile sayılan kişiler ile bir köy, mahalle veya topluluk olarak yurda getirecekleri kullanılmış zati, mesleki ve ev eşyaları bir defaya mahsus olmak üzere gümrük vergileri ile damga vergisinden ve diğer her türlü resim, vergi ve harçlardan muaftır.",
+      "sourceLocator": "5543 sayılı Kanun m.34; resmî tam HTML p[205]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 34,
+        "legalProvisionId": "LP-5543-34",
+        "learningObjectiveId": "LO-T01-034-BANK-0079",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-034-BANK-0079; selected note heading cross-reference for m.34"
+      },
+      "notes": [
+        "Kanuna göre kabul edilen göçmenlerde kullanılmış zati, mesleki, ev eşyası ile bir defalık muafiyet birlikte kontrol edildi; bütün yeni ticari ithalata genişletilmedi.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0080",
+      "candidateSha256": "b68c188b53666cd3794bb94cbb4c96cbcf491db7f61199ad58ecff1b558b70be",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(4) (Ek:14/2/2020-7221/37 md.) Bu Kanun hükümlerine göre yapılacak yapılara ilişkin ruhsat ve izinler, 26/5/1981 tarihli ve 2464 sayılı Belediye Gelirleri Kanununa göre alınan bina inşaat harcı ve imarla ilgili harçlardan müstesnadır. Ayrıca, bu yapılara ilişkin belediyece ve il özel idaresince verilen hizmetlerden ücret alınmaz.",
+      "sourceLocator": "5543 sayılı Kanun m.36; resmî tam HTML p[214]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 36,
+        "legalProvisionId": "LP-5543-36",
+        "learningObjectiveId": "LO-T01-036-BANK-0080",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-036-BANK-0080; selected note heading cross-reference for m.36"
+      },
+      "notes": [
+        "2020eklenen4.fıkra bina inşaat/imar harçları ve belediye/il özel idaresi hizmet ücretlerini kapsar; ruhsat/izin işleminin kendisini kaldırmaz.",
+        "Sorulan hüküm, beş seçenek ve dört çeldiricinin açıklaması son aday üzerinde ayrı okundu; kalıcı seçenek kimliği ve tek doğru cevap kontrol edildi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0081",
+      "candidateSha256": "b19e330dd1315a03e7053e860b205be052859016417e83c79ca120a4066ac94c",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "a) Tarımsal iskân: Bir aileye projesinde öngörülen miktarda tarım arazisi, işletme binası, konut, irat hayvanı, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[18]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0081",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0081; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0082",
+      "candidateSha256": "86bcad26e40f0a92a6fafda53d12c89a160cf3ef0de560039602bc7fde0a7de7",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0082",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0082; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0083",
+      "candidateSha256": "a7c1231576b98e8aaa79000aa5fec83f414d722a93846d6708d262f2ec3b012b",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "d) Göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip bu Kanun gereğince kabul olunanlardır.",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[22]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 3,
+        "legalProvisionId": "LP-5543-3",
+        "learningObjectiveId": "LO-T01-003-BANK-0083",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-003-BANK-0083; selected note heading cross-reference for m.3"
+      },
+      "notes": [
+        "Tanımların ayrımları m3/a–ğ birlikte okundu; tarımsal/tarım dışı unsurlar, göçebe yaşam biçimi, göçmen kabul niteliği, geliş birimi ve anlaşma dayanağı birbirine karıştırılmadı.",
+        "Soy ve kültür unsurlarının birlikte aranması m3/d pozitif tanımına dayandırıldı; m4’ün kısaltılmış olumsuz lafzından tek başına yorum üretilmedi.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0084",
+      "candidateSha256": "679fb07f88edff9c53338353faec47061905b97e47ef0d90c970ec3c98d0ba95",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 5,
+        "legalProvisionId": "LP-5543-5",
+        "learningObjectiveId": "LO-T01-005-BANK-0084",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-005-BANK-0084; selected note heading cross-reference for m.5"
+      },
+      "notes": [
+        "Yakın referansı veya konsolosluğa bizzat başvuru alternatifleri; birinci/ikinci derece, Dışişleri-İçişleri incelemesi ve İçişlerinin kabul yetkisi ayrı hedeflerdir.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0085",
+      "candidateSha256": "b9d31d6b77d066fdc79bac7655a3623143fd5b793c66f81dba111398f9982335",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 8,
+        "legalProvisionId": "LP-5543-8",
+        "learningObjectiveId": "LO-T01-008-BANK-0085",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-008-BANK-0085; selected note heading cross-reference for m.8"
+      },
+      "notes": [
+        "Geçici kabul merkezi ihtiyaçları, Göçmen Belgesi ve Cumhurbaşkanı kararıyla vatandaşlığa alınma ayrı işlemlerdir. İki yıllık belge süresi, barınma süresi veya kesin vatandaşlık belgesi sayılmadı. 2020 İçişleri değişikliği ve küçüklerin özel hükümleri okundu.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0086",
+      "candidateSha256": "0b63d72e3102ac3bf37cb5701992c71c07a590fb90ff43d66fbd060a9ee87ff6",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır.",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0086",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0086; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0087",
+      "candidateSha256": "114dc85eb082eb2e4083d525cb8ceced567f32b413e8ca632647ef72e7bca135",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır.",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 9,
+        "legalProvisionId": "LP-5543-9",
+        "learningObjectiveId": "LO-T01-009-BANK-0087",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-009-BANK-0087; selected note heading cross-reference for m.9"
+      },
+      "notes": [
+        "Birinci fıkradaki borçlandırmayla iskân unsurları; üçüncü/dördüncü fıkralardaki karşılıksız yardımlar ve nakil birbirinden ayrıldı. Hak sahibi, süre başlangıcı ve yardım türü kök sınırı içinde değerlendirildi.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0088",
+      "candidateSha256": "67f41a86107af12e148d6a57a857345f9ec678de619408f97e98ab602cd0b1bb",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 12 – (1) Kamu kurum ve kuruluşlarınca yapılacak baraj, baraj mücavir alanı, koruma alanı, havaalanı, karayolu, demiryolu, fabrika, ekonomi ve savunma ile ilgili diğer tesislerin inşası, tarih ve tabiat kıymetlerinin korunması gibi amaçlar için veya özel kanunların uygulanması sebebiyle; a) Taşınmaz mallarının kısmen veya tamamen kamulaştırılması sonucu yerlerini terk etmek zorunda kalan aileler, b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler, talep ettikleri takdirde Bakanlıkça gösterilecek yerlerde bu Kanun hükümlerine göre iskân edilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.12/1; resmî tam HTML p[73–76]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0088",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0088; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "m12/1-a eksik kaynak bağlamı tam resmî HTML p74ile tamamlandı; p73–76alıntısı bağımsız parser ile yeniden doğrulandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0089",
+      "candidateSha256": "3db8b1caa4df590bd814197eb2973a4cc8d9f78c78527dc45ebdc507d73171e8",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler,",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[75]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0089",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0089; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0090",
+      "candidateSha256": "b2ea11ae518ce569b39221c2c86182f0c138e4479dc0960ad86ffa0781eaa7f3",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(3) Kamu kurum ve kuruluşlarınca kamulaştırılan alanlarda yerleşik olan ve kamulaştırmadan etkilenen ailelerden Devlet eliyle başka yerde iskânını istemeyenler, yazılı başvuruları üzerine, ilgili valiliğin teklifi ve İçişleri Bakanlığının olumlu görüşü alınmak şartıyla Bakanlıkça kendi köy hudutları içinde gösterilecek bir yerde iskân edilebilirler.",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[78]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 12,
+        "legalProvisionId": "LP-5543-12",
+        "learningObjectiveId": "LO-T01-012-BANK-0090",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-012-BANK-0090; selected note heading cross-reference for m.12"
+      },
+      "notes": [
+        "Kamulaştırılan/taşınmazı olmayan aile koşulları; etütlerin başladığı takvim yılı başlangıcı, önce terk, üç yıllık elden çıkarma, aynı köyde yazılı talep,90gün ve bedel taahhüdü ayrı okundu. DSİ barajı yerine karayolu olayı kullanılarak ek2özel rejimiyle yetki karışıklığı önlendi.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0091",
+      "candidateSha256": "2438d26c5327c1a5ccfff50b00282185542df8537b36c68775dde3ea0931b05e",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Ancak, birinci fıkranın (a) ve (b) bentlerindeki hizmetlerin yapılabilmesi için köy seçmen listesinde kayıtlı olanların yarıdan bir fazlasının, o yerin en büyük mülki amirliğine yazılı müracaatı esastır.",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[101]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 16,
+        "legalProvisionId": "LP-5543-16",
+        "learningObjectiveId": "LO-T01-016-BANK-0091",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-016-BANK-0091; selected note heading cross-reference for m.16"
+      },
+      "notes": [
+        "Fiziksel yerleşim hizmetleri ve yalnız1/a–b için seçmen listesinde yarıdan bir fazla yazılı müracaat ayrıldı. Afetten etkilenmemiş ailenin talebi, teknik proje ölçütleri ve rezerv arsa kredisi kapsamları kontrol edildi.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0092",
+      "candidateSha256": "29aaf48a5100bd98861f62a115e9dddad6e92f9085009fa2d576a1c8e94c99ea",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "b) Evlenmemiş çocuklar, ana ve baba ile veya bunlardan sağ olanı ile birlikte,",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[108]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 17,
+        "legalProvisionId": "LP-5543-17",
+        "learningObjectiveId": "LO-T01-017-BANK-0092",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-017-BANK-0092; selected note heading cross-reference for m.17"
+      },
+      "notes": [
+        "Karı-koca, evlenmemiş çocuk/sağ ebeveyn, evli çocuk-torun ve anasız babasız bekâr kardeş/tek çocuk hükümleri ayrı okundu.2020değişikliği esas alındı; yaşa veya cinsiyete dayalı pay yaratılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0093",
+      "candidateSha256": "d194ae1fd30e5df2d992668de710d8b1980dd5deab2cde3dc749486cf927ffa4",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "ç) (Değişik:14/2/2020-7221/36 md.) Anasız ve babasız bekâr kardeş çocuklar birlikte ve eşit hisselerle; bekâr kardeşi olmayan ya da tek kalan çocuklar başlı başına,",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[110]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 17,
+        "legalProvisionId": "LP-5543-17",
+        "learningObjectiveId": "LO-T01-017-BANK-0093",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-017-BANK-0093; selected note heading cross-reference for m.17"
+      },
+      "notes": [
+        "Karı-koca, evlenmemiş çocuk/sağ ebeveyn, evli çocuk-torun ve anasız babasız bekâr kardeş/tek çocuk hükümleri ayrı okundu.2020değişikliği esas alındı; yaşa veya cinsiyete dayalı pay yaratılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0094",
+      "candidateSha256": "40a5b9b32cfab2553d773248e6c594b252668f5129af73e712ea12eb7f451f06",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Verilen taşınmaz mallar, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle temlik ve tapuya tescil ettirilir.",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[122]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 19,
+        "legalProvisionId": "LP-5543-19",
+        "learningObjectiveId": "LO-T01-019-BANK-0094",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-019-BANK-0094; selected note heading cross-reference for m.19"
+      },
+      "notes": [
+        "Genel m19kuralları temlik yetkisi, onamanın hukuki niteliği/geçerli miktar ve temlik tarihinde yaşayan fertlere eşit pay olarak ayrıldı. Ek2DSİ özel uygulaması yetki sorularında açıkça hariç tutuldu; ilk temlikle ayrı miras ihtilafları karıştırılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0095",
+      "candidateSha256": "999d49cda1e20150f74107035bee8e46238cf0e8e617899ae5fd6442a0f69eb8",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır.",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 21,
+        "legalProvisionId": "LP-5543-21",
+        "learningObjectiveId": "LO-T01-021-BANK-0095",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-021-BANK-0095; selected note heading cross-reference for m.21"
+      },
+      "notes": [
+        "Tam ödeme öncesi tasarruf yasakları, beşinci yıl sonu+tam ödeme ile belirtmenin kaldırılması ve takyit döneminde belgelendirilmiş özür ile mahkemeden iptal/tescil istemi ayrıldı. Özür, genel satış izni veya borç affı sayılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0096",
+      "candidateSha256": "992059b051033a7957716a65711d87550b439d768c91155bb3cd4b718e5ea806",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir.",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 21,
+        "legalProvisionId": "LP-5543-21",
+        "learningObjectiveId": "LO-T01-021-BANK-0096",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-021-BANK-0096; selected note heading cross-reference for m.21"
+      },
+      "notes": [
+        "Tam ödeme öncesi tasarruf yasakları, beşinci yıl sonu+tam ödeme ile belirtmenin kaldırılması ve takyit döneminde belgelendirilmiş özür ile mahkemeden iptal/tescil istemi ayrıldı. Özür, genel satış izni veya borç affı sayılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0097",
+      "candidateSha256": "712818b971cd594aa7313eb605cbcc19ef229fbeec8a2a45c627505206e7e850",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 27,
+        "legalProvisionId": "LP-5543-27",
+        "learningObjectiveId": "LO-T01-027-BANK-0097",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-027-BANK-0097; selected note heading cross-reference for m.27"
+      },
+      "notes": [
+        "Maliyet/rayiç/edinme bedelleri ve bir yıl içinde tahsis edilmeyenin rayici ayrıldı.2022sözleşme aşamasında%65peşin indirim; ödemesiz dönem oranları ve mülga5.fıkra sorulmadı. Faizsiz taşınmaz bedeli ile faizli krediler ve birinci derece/sıra ipotek kontrol edildi.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0098",
+      "candidateSha256": "bd9b46a4b3031e64510a093a5219dad8e4613df75f4781a7eb8f5b4c635aa8df",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 28 – (1) Bakanlık Merkez Muhasebe Birimi Hesabına yatırılmış kamulaştırma bedelleri, borçlandırma bedellerinden düşülür; fazlası iade edilir; eksik kaldığı takdirde bu Kanun hükümlerine göre ilgililer borçlandırılır. Yatırılmış kamulaştırma bedelleri, borçlandırma ve/veya iade tarihi itibariyle güncelleştirilir.",
+      "sourceLocator": "5543 sayılı Kanun m.28; resmî tam HTML p[185]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 28,
+        "legalProvisionId": "LP-5543-28",
+        "learningObjectiveId": "LO-T01-028-BANK-0098",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-028-BANK-0098; selected note heading cross-reference for m.28"
+      },
+      "notes": [
+        "Hesaba yatırılan güncellenmiş kamulaştırma bedelinin mahsup, fazlasını iade, eksik için borçlandırma sırası kontrol edildi; senaryoda güncelleme tamamlanmış varsayıldı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0099",
+      "candidateSha256": "74757c1374162392b55c2cd891ef8891d8846c392f945a168e949fe946f2fc13",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "MADDE 40 – (1) Bu Kanun kapsamında kullanılacak arsa ve araziler, özel kanun hükümleri ve millî güvenlik nedeniyle tahsis edilmiş veya 18/12/1981 tarihli ve 2565 sayılı Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Kanunu hükümlerine göre tesis edilecek askeri yasak bölgeler ve güvenlik bölgeleri sınırları kapsamında kalan yerlerden seçilmez. (2) Ancak zorunlu hallerde söz konusu arsa ve araziler ilgili kurumların uygun görüşü doğrultusunda kullanılabilir.",
+      "sourceLocator": "5543 sayılı Kanun m.40; resmî tam HTML p[236]–p[237]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 40,
+        "legalProvisionId": "LP-5543-40",
+        "learningObjectiveId": "LO-T01-040-BANK-0099",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-040-BANK-0099; selected note heading cross-reference for m.40"
+      },
+      "notes": [
+        "Genel seçmeme kuralının zorunlu hal+ilgili kurumların uygun görüşü istisnası birlikte okundu; yalnız zorunlu hal yeterli sayılmadı.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0100",
+      "candidateSha256": "684479e4626a1958c68d6511fc35ae3e7e9fe7b12de2697f873c41fd7117a9c5",
+      "decision": "Pass",
+      "checkedBy": "t01-independent-review",
+      "checkedAt": "2026-11-06T14:51:11.645Z",
+      "sourceQuote": "(2) Bu ortak yapı ve tesislerin korunması, bakım ve onarımı ile amacına uygun olarak kullanılmasından, adına tescil işlemi yapılan tüzel kişilik sorumludur. Belirtilen hususların yerine getirilip getirilmediği, mülki amirlerince kontrol edilir ve gerekli tedbirler alınır.",
+      "sourceLocator": "5543 sayılı Kanun m.41; resmî tam HTML p[241]",
+      "scopeMapping": {
+        "status": "Approved",
+        "articleNumber": 41,
+        "legalProvisionId": "LP-5543-41",
+        "learningObjectiveId": "LO-T01-041-BANK-0100",
+        "evidenceLocator": "Resmî teknik müfredat s.2 T01 (5543,4soru); data/content-candidates/t01-objective-proposals.json#LO-T01-041-BANK-0100; selected note heading cross-reference for m.41"
+      },
+      "notes": [
+        "Adına tescil edilen tüzel kişinin bakım/onarım/koruma sorumluluğu ile mülki amirin kontrol ve tedbir görevi ayrı tutuldu.",
+        "Somut olayda aranan koşullar, verilen veya açıkça varsayılan diğer şartlar ve uygulanacak sonuç ayrı okundu; hesap varsa sayısal işlem bağımsız tekrarlandı.",
+        "Yalnız bu seçilmiş hedef için hazırlık paketi kapsam eşlemesi kabul edildi. Bütün5543maddeleri veya kesin2027mevzuatı kapsamda sayılmadı; işlem insan incelemesi değildir."
+      ]
+    }
+  ]
+}

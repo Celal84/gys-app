@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "kind": "GYSBrowserAcceptanceReport",
+  "recordedAt": "2026-11-06T15:18:03.076253+00:00",
+  "stats": {
+    "startTime": "2026-11-06T15:15:42.317Z",
+    "duration": 65296.039000000004,
+    "expected": 26,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "approvedStudyQuestions": 400,
+  "projects": {
+    "mobile-chromium": {
+      "passed": 13,
+      "browser": "Chromium156.0.8078.79",
+      "host": "Debian13Linux",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "mobile-webkit": {
+      "passed": 13,
+      "browser": "PlaywrightWebKit",
+      "version": "27.2",
+      "revision": "2388",
+      "host": "Debian13Linux",
+      "emulation": "iPhone14",
+      "physicalIPhone": false,
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "physicalScreen": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  },
+  "playwrightVersion": "1.65.0",
+  "physicalIPhoneSafari": "NotTested",
+  "hostDependencies": {
+    "systemInstall": false,
+    "reason": "No root privilege; officialDebian packages extracted to temporary user directory",
+    "runtimeLDLibraryPathUsed": true,
+    "cachedBrowserWrapperPreservesLDLibraryPath": true,
+    "hostPreflightBypassed": true,
+    "preflightReason": "dlopen lookup uses ldconfig and does not see local GLES library; actual WebKit launched and all tests executed",
+    "testsSkipped": 0
+  },
+  "filesSHA256": {
+    "dist/index.html": "7d7ad6bfa6a1b6175c142353dedacf33d659e8ef5b1c2f06880f8b2d3a8de631",
+    "src/app.js": "c18409e1c9d4bfe28f8e94521f400d87f249d73e547d58095e2d8ee8e99f7acc",
+    "src/feature-controller.js": "09623425f2c0c11283a0a8f9dd3b38dbcdcfc7b688904a0b7f048290eef64fd0",
+    "src/content-repository.ts": "4c7ba97440b879b4ba4d082f7493fa47af4d47638452a66931399929f9abf7dd",
+    "index.html": "979d398f5af9a2197c8b0c85b1b95627577bdb2354306b3d987f5fa3f9a11365",
+    "playwright.config.ts": "a1908669803f679b22885bbe014086d624796bf6c155df0cc6e7735149cc6457",
+    "tests/e2e/mobile.spec.ts": "2472d95e1410d2422457648e2ee21c5e4fa74b037bf5c922c1a81e88380437d4",
+    "tests/e2e/features.spec.ts": "616acdd3a3ef7feda87e186c4aa9d7b908c7693533de1c542548fce984be5455",
+    "data/content-manifest.json": "6d25f79219c77a90e1d73807f21e735a912f5ff3cb95aa1770f970bfd307dd54",
+    "public/content/legal-watch.json": "610ecfc74ccfcead935e27cba82d664d0f963313c73af2304cc5d415edc762ca"
+  },
+  "tests": [
+    {
+      "project": "mobile-chromium",
+      "title": "topic bank applies difficulty and provision filters before persisting a bounded package",
+      "status": "expected",
+      "durationMs": 8542,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "topic bank applies difficulty and provision filters before persisting a bounded package",
+      "status": "expected",
+      "durationMs": 6413,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "source-backed review cards hide answers, schedule one review and persist it",
+      "status": "expected",
+      "durationMs": 11559,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "source-backed review cards hide answers, schedule one review and persist it",
+      "status": "expected",
+      "durationMs": 8594,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "weekly capacity and light theme persist without marking unworked tasks complete",
+      "status": "expected",
+      "durationMs": 12779,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "weekly capacity and light theme persist without marking unworked tasks complete",
+      "status": "expected",
+      "durationMs": 11535,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "legal watcher keeps its actual successful timestamp after a failed check",
+      "status": "expected",
+      "durationMs": 7742,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "legal watcher keeps its actual successful timestamp after a failed check",
+      "status": "expected",
+      "durationMs": 4275,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "focus timer pauses, retains its session on reload and does not count paused time",
+      "status": "expected",
+      "durationMs": 8632,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "focus timer pauses, retains its session on reload and does not count paused time",
+      "status": "expected",
+      "durationMs": 8258,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "full backup rejects corruption, restores into a retained new profile and exports a real PDF",
+      "status": "expected",
+      "durationMs": 12364,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "full backup rejects corruption, restores into a retained new profile and exports a real PDF",
+      "status": "expected",
+      "durationMs": 11559,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "mobile source status, filters and unavailable exam are honest",
+      "status": "expected",
+      "durationMs": 6895,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "mobile source status, filters and unavailable exam are honest",
+      "status": "expected",
+      "durationMs": 7814,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "no horizontal overflow at narrow mobile width",
+      "status": "expected",
+      "durationMs": 4392,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "no horizontal overflow at narrow mobile width",
+      "status": "expected",
+      "durationMs": 2472,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "offline reload uses locally bundled app after service worker activation",
+      "status": "expected",
+      "durationMs": 6995,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "offline reload uses locally bundled app after service worker activation",
+      "status": "expected",
+      "durationMs": 6704,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "legacy progress remains byte identical across launch and settings write",
+      "status": "expected",
+      "durationMs": 3781,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "legacy progress remains byte identical across launch and settings write",
+      "status": "expected",
+      "durationMs": 4054,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "invalid backup never prompts replacement or changes saved progress",
+      "status": "expected",
+      "durationMs": 3678,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "invalid backup never prompts replacement or changes saved progress",
+      "status": "expected",
+      "durationMs": 3816,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "real approved questions resume offline, score correctly and preserve the wrong book",
+      "status": "expected",
+      "durationMs": 12307,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "real approved questions resume offline, score correctly and preserve the wrong book",
+      "status": "expected",
+      "durationMs": 11790,
+      "retry": 0
+    },
+    {
+      "project": "mobile-chromium",
+      "title": "historical catalog links official booklets without implying580accepted questions",
+      "status": "expected",
+      "durationMs": 3314,
+      "retry": 0
+    },
+    {
+      "project": "mobile-webkit",
+      "title": "historical catalog links official booklets without implying580accepted questions",
+      "status": "expected",
+      "durationMs": 3064,
+      "retry": 0
+    }
+  ],
+  "mobilePreview": {
+    "recordedAt": "2026-11-06T15:18:53.135Z",
+    "viewport": {
+      "width": 390,
+      "height": 664
+    },
+    "physicalScreen": {
+      "width": 390,
+      "height": 844
+    },
+    "before": {
+      "scrollY": 0,
+      "scrollX": 0,
+      "bodyScrollTop": 0,
+      "documentElementScrollTop": 0,
+      "scrollingElement": "HTML",
+      "visualViewport": {
+        "height": 664,
+        "offsetTop": 0,
+        "pageTop": 0,
+        "scale": 1
+      },
+      "body": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 2136.3125,
+        "top": 0,
+        "right": 390,
+        "bottom": 2136.3125,
+        "left": 0
+      },
+      "header": {
+        "x": 1,
+        "y": 0,
+        "width": 388,
+        "height": 89.5,
+        "top": 0,
+        "right": 389,
+        "bottom": 89.5,
+        "left": 1
+      },
+      "activeElement": "<body x-data=\"gysApp()\" x-init=\"initApp()\" class=\"min-h-screen flex flex-col justify-between max-w-[430px] mx-auto relative overflow-x-hidden border-x"
+    },
+    "ready": {
+      "scrollY": 0,
+      "scrollX": 0,
+      "bodyScrollTop": 0,
+      "documentElementScrollTop": 0,
+      "scrollingElement": "HTML",
+      "visualViewport": {
+        "height": 664,
+        "offsetTop": 0,
+        "pageTop": 0,
+        "scale": 1
+      },
+      "body": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 2136.3125,
+        "top": 0,
+        "right": 390,
+        "bottom": 2136.3125,
+        "left": 0
+      },
+      "header": {
+        "x": 1,
+        "y": 0,
+        "width": 388,
+        "height": 89.5,
+        "top": 0,
+        "right": 389,
+        "bottom": 89.5,
+        "left": 1
+      },
+      "activeElement": "<body x-data=\"gysApp()\" x-init=\"initApp()\" class=\"min-h-screen flex flex-col justify-between max-w-[430px] mx-auto relative overflow-x-hidden border-x"
+    },
+    "reset": {
+      "scrollY": 0,
+      "scrollX": 0,
+      "bodyScrollTop": 0,
+      "documentElementScrollTop": 0,
+      "scrollingElement": "HTML",
+      "visualViewport": {
+        "height": 664,
+        "offsetTop": 0,
+        "pageTop": 0,
+        "scale": 1
+      },
+      "body": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 2136.3125,
+        "top": 0,
+        "right": 390,
+        "bottom": 2136.3125,
+        "left": 0
+      },
+      "header": {
+        "x": 1,
+        "y": 0,
+        "width": 388,
+        "height": 89.5,
+        "top": 0,
+        "right": 389,
+        "bottom": 89.5,
+        "left": 1
+      },
+      "activeElement": "<body x-data=\"gysApp()\" x-init=\"initApp()\" class=\"min-h-screen flex flex-col justify-between max-w-[430px] mx-auto relative overflow-x-hidden border-x"
+    },
+    "afterScreenshot": {
+      "scrollY": 0,
+      "scrollX": 0,
+      "bodyScrollTop": 0,
+      "documentElementScrollTop": 0,
+      "scrollingElement": "HTML",
+      "visualViewport": {
+        "height": 664,
+        "offsetTop": 0,
+        "pageTop": 0,
+        "scale": 1
+      },
+      "body": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 2136.3125,
+        "top": 0,
+        "right": 390,
+        "bottom": 2136.3125,
+        "left": 0
+      },
+      "header": {
+        "x": 1,
+        "y": 0,
+        "width": 388,
+        "height": 89.5,
+        "top": 0,
+        "right": 389,
+        "bottom": 89.5,
+        "left": 1
+      },
+      "activeElement": "<body x-data=\"gysApp()\" x-init=\"initApp()\" class=\"min-h-screen flex flex-col justify-between max-w-[430px] mx-auto relative overflow-x-hidden border-x"
+    },
+    "firstTopic": {
+      "x": 17,
+      "y": 493.1875,
+      "width": 356,
+      "height": 59.046875
+    },
+    "navigation": {
+      "x": 0,
+      "y": 598,
+      "width": 390,
+      "height": 66
+    },
+    "firstTopicFullyAboveNavigation": true,
+    "pixelSize": {
+      "width": 390,
+      "height": 664
+    },
+    "captureScale": "css",
+    "finalScroll": {
+      "scrollY": 0,
+      "bodyScrollTop": 0,
+      "documentElementScrollTop": 0,
+      "visualViewportPageTop": 0,
+      "header": {
+        "x": 1,
+        "y": 0,
+        "width": 388,
+        "height": 89.5,
+        "top": 0,
+        "right": 389,
+        "bottom": 89.5,
+        "left": 1
+      }
+    },
+    "path": "docs/mobile-preview.png",
+    "capturedAfterExplicitScrollReset": true,
+    "sha256": "8fed55da9a1dfcd03818fe17eb589ec898f5e52d319f5a194c138b0754c82492"
+  },
+  "compactLayoutFirstTopicAboveNavigation": true
+}

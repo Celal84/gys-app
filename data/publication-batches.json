@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "description": "Explicit opt-in of independently reviewed preparation batches. Unlisted candidates remain unpublished. Pool A is excluded from study publication.",
+  "batches": [
+    {
+      "candidateFile": "data/content-candidates/657-starter.json",
+      "rulesFile": "data/content-candidates/657-starter-rules.json",
+      "sourceFile": "data/public-legal-sources/657-provisions.json",
+      "auditFile": "data/public-legal-sources/657-source-audit.json",
+      "reviewFile": "data/reviews/657-starter-review.json",
+      "topicId": "O02",
+      "sourcePool": "B"
+    },
+    {
+      "candidateFile": "data/content-candidates/o02-bank-extension.json",
+      "rulesFile": "data/content-candidates/o02-bank-extension-rules.json",
+      "sourceFile": "data/public-legal-sources/657-extension-provisions.json",
+      "auditFile": "data/public-legal-sources/657-extension-source-audit.json",
+      "reviewFile": "data/reviews/o02-bank-extension-review.json",
+      "objectiveFile": "data/public-legal-sources/657-extension-objectives.json",
+      "topicId": "O02",
+      "sourcePool": "B"
+    },
+    {
+      "candidateFile": "data/content-candidates/o01-bank.json",
+      "rulesFile": "data/content-candidates/o01-bank-rules.json",
+      "sourceFile": "data/public-legal-sources/o01-provisions.json",
+      "auditFile": "data/public-legal-sources/o01-source-audit.json",
+      "reviewFile": "data/reviews/o01-bank-review.json",
+      "objectiveFile": "data/content-candidates/o01-objectives.json",
+      "topicId": "O01",
+      "sourcePool": "B"
+    },
+    {
+      "candidateFile": "data/content-candidates/o03-bank.json",
+      "rulesFile": "data/content-candidates/o03-bank-rules.json",
+      "sourceFile": "data/public-legal-sources/o03-provisions.json",
+      "auditFile": "data/public-legal-sources/o03-source-audit.json",
+      "reviewFile": "data/reviews/o03-bank-review.json",
+      "objectiveFile": "data/content-candidates/o03-bank-objectives.json",
+      "topicId": "O03",
+      "sourcePool": "B"
+    },
+    {
+      "candidateFile": "data/content-candidates/t01-bank.json",
+      "rulesFile": "data/content-candidates/t01-bank-rules.json",
+      "sourceFile": "data/public-legal-sources/t01-provisions.json",
+      "auditFile": "data/public-legal-sources/t01-source-audit.json",
+      "reviewFile": "data/reviews/t01-bank-review.json",
+      "objectiveFile": "data/content-candidates/t01-objective-proposals.json",
+      "topicId": "T01",
+      "sourcePool": "B"
+    }
+  ]
+}

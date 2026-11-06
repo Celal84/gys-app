@@ -8,6 +8,7 @@
   <meta name="apple-mobile-web-app-title" content="GYS 85+" />
   <meta name="theme-color" content="#0e1725" />
   <noscript><style>body[x-cloak] { display: block !important; } body[x-cloak] > :not(noscript) { display: none !important; }</style></noscript>
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
   <title>GYS 85+ · Şube Müdürü Teknik</title>
   <style>
     :root { color-scheme: dark; --safe-top: env(safe-area-inset-top, 0px); --safe-bottom: env(safe-area-inset-bottom, 0px); --page: #0e1725; --panel: #172335; --line: #29384b; --muted: #a8b6c9; --accent: #5ee0bf; }
@@ -24,25 +25,25 @@
     .safe-pt { padding-top: calc(var(--safe-top) + 12px); }
     .safe-pb { padding-bottom: calc(var(--safe-bottom) + 88px); }
     .safe-bottom-bar { padding-bottom: calc(var(--safe-bottom) + 8px); }
-    .app-header { position: sticky; top: 0; z-index: 30; padding: calc(var(--safe-top) + 14px) 18px 12px; background: #0e1725f5; backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+    .app-header { position: sticky; top: 0; z-index: 30; padding: calc(var(--safe-top) + 10px) 18px 10px; background: #0e1725f5; backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
     .brand-line { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
     .brand { display: flex; align-items: center; gap: 10px; }
     .brand-mark { width: 35px; height: 35px; border-radius: 11px; background: #153e3c; display: grid; place-items: center; color: var(--accent); font-size: 15px; font-weight: 800; }
     .brand h1 { margin: 0; font-size: 17px; letter-spacing: -.4px; font-weight: 750; }
     .brand p { margin: 0; font-size: 12px; color: var(--muted); }
     .goal-tag { color: var(--accent); font-size: 13px; border: 1px solid #346159; padding: 5px 9px; border-radius: 8px; font-weight: 700; white-space: nowrap; }
-    .session-strip { display: flex; justify-content: space-between; gap: 8px; padding-top: 11px; color: var(--muted); font-size: 12px; }
+    .session-strip { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; color: var(--muted); font-size: 12px; }
     .session-strip strong { color: #eef4fb; font-weight: 650; }
     .section-heading { margin: 0; font-size: 15px; font-weight: 700; letter-spacing: -.2px; }
     .eyebrow { color: var(--muted); font-size: 12px; }
-    .home-intro { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 16px 0 12px; }
-    .home-intro h2 { font-size: 20px; line-height: 1.25; font-weight: 750; margin: 0; letter-spacing: -.5px; }
+    .home-intro { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 12px 0 9px; }
+    .home-intro h2 { font-size: 18px; line-height: 1.25; font-weight: 750; margin: 0; letter-spacing: -.5px; }
     .status-pill { font-size: 11px; padding: 4px 7px; border-radius: 6px; border: 1px solid #3d4e63; color: #bfccd9; white-space: nowrap; }
     .overview { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
-    .metric { border: 1px solid var(--line); border-radius: 12px; padding: 10px; background: var(--panel); min-width: 0; }
-    .metric-value { display: block; font-size: 25px; line-height: 1.2; font-weight: 750; letter-spacing: -.7px; margin: 5px 0; }
-    .metric-label { color: var(--muted); font-size: 12px; }
-    .metric-detail { color: #c5d0dc; font-size: 11px; }
+    .metric { display:flex;flex-direction:column;gap:2px; border: 1px solid var(--line); border-radius: 10px; padding: 8px; background: var(--panel); min-width: 0; }
+    .metric-value { display: block; font-size: 24px; line-height: 1.2; font-weight: 750; letter-spacing: -.7px; margin: 0; }
+    .metric-label { display:block;color: var(--muted); font-size: 12px;line-height:1.3; }
+    .metric-detail { display:block;color: #c5d0dc; font-size: 11px;line-height:1.3; }
     .source-note { display: flex; align-items: flex-start; gap: 9px; margin: 12px 0; padding: 11px 12px; background: #162d30; border: 1px solid #294c4c; border-radius: 11px; font-size: 12px; color: #b9d9d4; }
     .source-note strong { color: #e3f3ee; font-weight: 650; }
     .source-dot { width: 7px; height: 7px; border-radius: 50%; margin-top: 6px; background: var(--accent); flex-shrink: 0; }
@@ -103,30 +104,32 @@
   </header>
 
   <!-- ANA İÇERİK ALANI -->
-  <main class="flex-1 safe-pb px-4" id="main-content">
+  <main :inert="strictView ? '' : null" :aria-hidden="strictView ? 'true' : null" class="flex-1 safe-pb px-4" id="main-content">
     <div x-show="notice" x-text="notice" role="status" data-testid="notice" class="source-note mt-3"></div>
 
     <section x-show="activeTab === 'home'" data-testid="home-panel" aria-label="Konu çalışma alanı">
-      <div class="home-intro"><h2>Hazırlığına odaklan.</h2><span class="status-pill" x-text="approvedQuestionCount() ? 'İlk çalışma paketi' : 'Kaynak kontrolü'"></span></div>
+      <div class="home-intro"><h2>Hazırlığına odaklan.</h2><span class="status-pill" x-text="approvedQuestionCount() ? 'Kısmi içerik' : 'Kaynak kontrolü'"></span></div>
       <div class="overview">
         <div class="metric"><span class="metric-label">Sınava kalan</span><strong class="metric-value" x-text="daysUntilExam()" data-testid="exam-countdown"></strong><span class="metric-detail">gün · İstanbul</span></div>
         <div class="metric"><span class="metric-label">Onaylı soru</span><strong class="metric-value" x-text="approvedQuestionCount()" data-testid="approved-count"></strong><span class="metric-detail">5.400 hedef</span></div>
         <div class="metric"><span class="metric-label">Müfredat</span><strong class="metric-value">24</strong><span class="metric-detail">16 ortak · 8 teknik</span></div>
       </div>
-      <div class="source-note" role="status" data-testid="content-status"><span class="source-dot" aria-hidden="true"></span><div><strong x-text="approvedQuestionCount() ? approvedQuestionCount() + ' onaylı hazırlık sorusu' : 'İçerik doğrulaması sürüyor.'"></strong> <span x-text="approvedQuestionCount() ? 'Kaynak, cevap ve ayrı kontrol sürecinden geçen ilk paket açık. Diğer konuların incelemesi sürüyor.' : 'Kaynak ve cevap kontrolü tamamlanan sorular çalışmaya açılacak. Mevcut kayıtlar korunuyor.'"></span></div></div>
-      <p class="eyebrow" style="margin: 0 0 12px">Hazırlık mevzuatı · kesim 01.01.2027. Son mevzuat kontrolü: henüz yapılmadı.</p>
+      <details class="source-note" style="display:block;padding:0 10px;margin:9px 0" role="status" data-testid="content-status"><summary style="min-height:44px;display:flex;align-items:center;gap:7px;cursor:pointer"><span class="source-dot" style="margin:0" aria-hidden="true"></span><strong x-text="approvedQuestionCount() ? approvedQuestionCount() + ' onaylı hazırlık sorusu' : 'İçerik doğrulaması sürüyor.'"></strong><span aria-hidden="true" style="margin-left:auto">ⓘ</span></summary><p class="pb-3">Hazırlık mevzuatı · kesim 01.01.2027. Yalnız kaynak ve ayrı cevap incelemesi tamamlanan sorular çalışmaya açılır. Son başarılı tam mevzuat kontrolü: <span x-text="watchStatus?.lastSuccessfulFullCheck?new Date(watchStatus.lastSuccessfulFullCheck).toLocaleDateString('tr-TR'):'henüz yok'"></span>. <a href="https://kariyerkapisi.gov.tr/IlanDetay?i=232d3886-9af8-4b69-a802-b393f13a600d" target="_blank" rel="noopener noreferrer">Resmî sınav duyurusu</a></p></details>
       <div x-show="activeAttempt" class="exam-card mb-3" data-testid="resume-card">
         <h3 class="section-heading">Yarım kalan çalışma</h3>
         <p x-text="activeAttempt?.title"></p>
         <div class="grid grid-cols-2 gap-2"><button @click="resumeStudy()" class="btn-3d-green rounded-lg p-2 text-xs" data-testid="resume-study">Devam et</button><button @click="finishStudy()" :disabled="savingAnswer" class="exam-button" data-testid="finish-study">Sonuçlandır</button></div>
       </div>
+      <details class="exam-card" style="padding:0" data-testid="exam-sources-panel"><summary style="min-height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;cursor:pointer"><strong class="text-xs">Sınav ve çıkmış kaynaklar</strong><span class="eyebrow">27.02.2027 ▾</span></summary><div class="p-3 pt-0">
       <div class="exam-card">
         <div class="exam-card-header"><h3 class="section-heading">27 Şubat 2027</h3><span class="eyebrow">100 soru · 150 dakika</span></div>
-        <p>70 ortak + 30 teknik. Yanlışlar doğruları götürmez. <a href="https://kariyerkapisi.gov.tr/IlanDetay?i=232d3886-9af8-4b69-a802-b393f13a600d" target="_blank" rel="noopener noreferrer">Resmî duyuru</a></p>
+        <p>70 ortak · 30 teknik · Yanlış cezası yok.</p>
         <button @click="startWeightedExam()" class="exam-button" data-testid="full-exam-button"><span>Tam deneme hazırlanıyor</span><span aria-hidden="true">→</span></button>
       </div>
       <button @click="activeTab='historical'" class="exam-button mt-3" data-testid="historical-catalog-button"><span>Çıkmış sınav kaynakları</span><span>9 kitapçık →</span></button>
-      <div class="flex items-center justify-between mt-5"><h3 class="section-heading">Konu kütüphanesi</h3><span class="eyebrow">Sabit sınav dağılımı</span></div>
+      </div></details>
+      <div class="tool-row mt-3"><button class="tool-button secondary" @click="openTool('plan')" :disabled="!toolsReady">Bugünün planı</button><button class="tool-button secondary" @click="openTool('cards')" :disabled="!toolsReady">Akıllı tekrar</button></div>
+      <div class="flex items-center justify-between mt-3"><h3 class="section-heading">Konu kütüphanesi</h3><span class="eyebrow">Sabit sınav dağılımı</span></div>
       <div class="filters" aria-label="Konu grubu">
         <button @click="filterCat = 'ALL'" :class="{'filter-active': filterCat === 'ALL'}" :aria-pressed="filterCat === 'ALL'" data-testid="filter-all">Tümü · 24</button>
         <button @click="filterCat = 'Genel %70'" :class="{'filter-active': filterCat === 'Genel %70'}" :aria-pressed="filterCat === 'Genel %70'" data-testid="filter-common">Ortak · 16</button>
@@ -253,8 +256,67 @@
       </div>
     </div>
 
+    <section x-show="activeTab==='tools'" class="tool-panel" aria-label="Çalışma araçları" data-testid="tools-panel">
+      <div class="tool-row" style="justify-content:space-between"><h2 x-text="featureMenu.find(item=>item.id===toolMode)?.label||'Araçlar'"></h2><button class="tool-button secondary" @click="activeTab='admin'">Yönetim</button></div>
+      <p x-show="toolBusy" role="status">Hazırlanıyor…</p>
+      <div x-show="toolMode==='bank'" class="tool-panel" data-testid="bank-tool">
+        <h2>Konu soru bankası</h2>
+        <label>Konu<select aria-label="Banka konusu" x-model="toolTopicId" @change="bankProvision='all';loadLearningTopic()"><template x-for="topic in toolTopics" :key="topic.id"><option :value="topic.id" x-text="topic.title"></option></template></select></label>
+        <div class="tool-row"><label>Zorluk<select aria-label="Banka zorluk" x-model="bankDifficulty"><option value="all">Tüm düzeyler</option><option value="basic">Temel</option><option value="medium">Orta</option><option value="hard">Zor</option><option value="application">Uygulama / yorum</option></select></label><label>Paket<select aria-label="Banka paket büyüklüğü" x-model.number="state.settings.quizSize" @change="saveState()"><template x-for="size in [5,10,20,25,50,100]" :key="size"><option :value="size" x-text="size+' soru'"></option></template></select></label></div>
+        <label>Alt konu / kaynak hüküm<select aria-label="Banka alt konu" x-model="bankProvision"><option value="all">Tüm alt konular</option><template x-for="locator in bankProvisions()" :key="locator"><option :value="locator" x-text="locator"></option></template></select></label>
+        <p x-text="filteredBankCount()+' onaylı soru eşleşiyor. Paket, mevcut soru sayısıyla sınırlanır.'"></p>
+        <button class="tool-button" @click="startFilteredBank()" :disabled="!filteredBankCount()||loadingContent">Çalışmayı başlat</button>
+      </div>
+      <div x-show="toolMode==='learn'">
+        <label>Konu <select x-model="toolTopicId" @change="loadLearningTopic()"><template x-for="topic in toolTopics" :key="topic.id"><option :value="topic.id" x-text="topic.title"></option></template></select></label>
+        <p class="feature-message">Yalnız onaylı sorulara bağlı kaynak hükümleri gösterilir. Kartın öğrenilmesi, bütün konunun öğrenildiği anlamına gelmez.</p>
+        <template x-for="row in learnRows" :key="row.id"><article class="tool-card"><h3 x-text="row.title"></h3><p><strong x-text="row.answer"></strong></p><p x-text="row.explanation"></p><details><summary class="text-xs">Kaynak hüküm</summary><p class="source-quote" x-text="row.quote"></p></details><a :href="row.sourceUrl" target="_blank" rel="noopener noreferrer" class="text-xs" x-text="row.locator+' · resmî metin'"></a></article></template>
+      </div>
+      <div x-show="toolMode==='cards'||toolMode==='review'">
+        <label>Konu <select x-model="toolTopicId"><template x-for="topic in toolTopics" :key="topic.id"><option :value="topic.id" x-text="topic.title"></option></template></select></label>
+        <button class="tool-button" @click="registerStudyCards()" :disabled="toolBusy" data-testid="register-cards">Onaylı kartları hazırla</button>
+        <p class="feature-message">Tekrar:1,3,7,14,30gün başlangıç aralıkları;sonra performansa göre. Kalite0–5;başarısız kart ertesi güne döner. Bu uyarlama özgün SM-2'nin1/6gün başlangıcından farklıdır.</p>
+        <p x-show="!cards.length">Bugün bekleyen onaylı kart yok. Onaylı paketi seçerek kartlarını hazırlayabilirsin.</p>
+        <article x-show="cards.length" class="tool-card" data-testid="review-card"><small x-text="cards.length+' kart bugün sırada'"></small><h3 x-text="cards[0]?.front"></h3><button x-show="!cardRevealed" class="tool-button mt-3" @click="cardRevealed=true" data-testid="reveal-card">Cevabı göster</button><div x-show="cardRevealed"><p><strong x-text="cards[0]?.back"></strong></p><p x-text="cards[0]?.explanation"></p><a :href="cards[0]?.source.url" target="_blank" rel="noopener noreferrer" class="text-xs" x-text="cards[0]?.source.locator"></a><p>Hatırlama kaliteni değerlendir:0=hatırlamadım,5=kolayca hatırladım.</p><div class="quality-grid"><template x-for="quality in [0,1,2,3,4,5]" :key="quality"><button @click="gradeCard(quality)" :disabled="toolBusy" x-text="quality" :aria-label="'Kalite '+quality"></button></template></div></div></article>
+        <p class="eyebrow" x-text="learningStats?learningStats.reviewCount+' değerlendirme · '+learningStats.totalCards+' etkin kart':''"></p>
+      </div>
+      <div x-show="toolMode==='plan'">
+        <p class="feature-message" x-text="studyPlan?studyPlan.weeklyCapacityMinutes+' dakika haftalık kapasite · '+studyPlan.daysToExam+' gün kaldı (İstanbul)':''"></p>
+        <details class="tool-card"><summary>Çalışma kapasitesini değiştir</summary><div class="cap-grid mt-3"><template x-for="(label,key) in {monday:'Pazartesi',tuesday:'Salı',wednesday:'Çarşamba',thursday:'Perşembe',friday:'Cuma',saturday:'Cumartesi',sunday:'Pazar'}" :key="key"><div style="display:contents"><label x-text="label"></label><input type="number" min="0" max="720" x-model.number="capacityDraft[key]" :aria-label="label+' dakika'"/></div></template></div><button @click="saveCapacity()" class="tool-button mt-3">Kapasiteyi kaydet</button></details>
+        <template x-for="day in studyPlan?.days||[]" :key="day.date"><article class="tool-card"><h3 x-text="day.date+' · '+day.plannedMinutes+' dakika'"></h3><template x-for="task in day.tasks" :key="task.id"><div class="py-3 border-b border-[#29384b]"><strong class="text-sm" x-text="task.title"></strong><p x-text="task.reason"></p><p x-text="task.minutes+' dakika · '+task.questionCount+' soru · '+task.sourceLocator"></p><small x-show="task.sourceStatus==='pending'">Bu hedefin kapsam/kaynak incelemesi sürüyor;onaylı hukuk özeti gibi sunulmaz.</small><button class="tool-button secondary mt-2" @click="confirmPlanTask(day,task)" :disabled="task.status==='completed'" x-text="task.status==='completed'?'Çalışma kaydedildi':'Gerçekten çalıştım, kaydet'"></button></div></template></article></template>
+      </div>
+      <div x-show="toolMode==='analysis'">
+        <div class="tool-card"><h3>Tahmini sınav puanı</h3><strong class="clock-display" x-text="forecast?.score===null?'Veri yetersiz':forecast?.score?.toFixed(1)"></strong><p x-text="forecast?.reasons?.join(' ')"></p><p x-show="forecast?.interval" x-text="forecast?.interval?'Belirsizlik aralığı:'+forecast.interval[0].toFixed(1)+'–'+forecast.interval[1].toFixed(1):''"></p><p class="eyebrow">Tahmin kesin sınav sonucu veya85garantisi değildir. Tekrarlar ve tarihî sorular bağımsız ilk ölçüm sayılmaz.</p><button x-show="forecast?.score!==null" class="tool-button" @click="saveForecast()">Tahmini kalibrasyon için kaydet</button></div>
+        <div class="tool-card"><h3>Hata nedenleri</h3><p>Kendi belirttiğin nedenler ve sistem çıkarımları ayrı tutulur. Tek yanlıştan kesin kavram yanılgısı çıkarılmaz.</p><template x-for="(count,reason) in learningStats?.userReasons||{}" :key="reason"><p x-text="errorReasons[reason]+': '+count"></p></template><p x-show="!learningStats?.errorCount">Henüz hata analizi kaydı yok.</p><template x-for="item in learningStats?.conceptRecommendations||[]" :key="item.conceptId"><p class="feature-message" x-text="item.recommendation"></p></template></div>
+        <div class="tool-card"><h3>Tahmin kalibrasyonu</h3><p x-text="calibration?.meanAbsoluteError===null?'Henüz sonradan çözülmüş bağımsız deneme eşleşmesi yok.':'Ortalama mutlak hata:'+calibration?.meanAbsoluteError?.toFixed(1)"></p></div>
+      </div>
+      <div x-show="toolMode==='compare'">
+        <div class="tool-row"><template x-for="kind in [{id:'durations',label:'Süreler'},{id:'authorities',label:'Yetkiler'},{id:'remedies',label:'Başvuru yolları'},{id:'historical',label:'Eski/yeni hukuk'}]" :key="kind.id"><button class="tool-button secondary" @click="comparisonKind=kind.id" x-text="kind.label"></button></template></div>
+        <p class="feature-message" x-show="!comparisonTables[comparisonKind]?.length">Bu tablo için onaylı kaynaklı kayıt henüz yok. Eski seçenekler güncel hukuka uymuyorsa yapay cevap harfi atanmaz.</p>
+        <template x-for="fact in comparisonTables[comparisonKind]||[]" :key="fact.id"><article class="tool-card"><h3 x-text="fact.title"></h3><p x-text="fact.value"></p><p x-show="fact.startingEvent" x-text="'Başlangıç:'+fact.startingEvent"></p><p class="source-quote" x-text="fact.quote"></p><a :href="fact.sourceUrl" target="_blank" rel="noopener noreferrer" x-text="fact.sourceLocator"></a></article></template>
+      </div>
+      <div x-show="toolMode==='watch'">
+        <p class="feature-message">Yayımlanma,yürürlük ve geçiş hükümleri ayrıdır. Yeni metin, sınav sürümünü sessizce değiştirmez. PWA kapalıyken sürekli tarama yaptığı iddia edilmez.</p>
+        <div class="tool-card"><h3>Son başarılı tam kontrol</h3><p x-text="watchStatus?.lastSuccessfulFullCheck||'Henüz başarılı tam kontrol yok'"></p><p x-text="(watchStatus?.changedSources||0)+' değişen kaynak · '+(watchStatus?.pendingRevalidation||0)+' yeniden doğrulama kaydı'"></p><button class="tool-button" @click="checkLaws()" :disabled="watchChecking" x-text="watchChecking?'Resmî kaynaklar kontrol ediliyor…':'Şimdi resmî kaynakları kontrol et'"></button><label class="tool-button secondary mt-3">Kontrol JSON raporu içe aktar<input type="file" accept=".json" class="sr-only" @change="importWatch($event)" /></label></div>
+        <template x-for="item in revalidationQueue" :key="item.id"><article class="tool-card"><h3 x-text="item.topicId+' · yeniden doğrulama'"></h3><p x-text="item.affected.questionIds.length+' soru etkileniyor. Eski sonuçlar korunur.'"></p></article></template>
+      </div>
+      <div x-show="toolMode==='focus'">
+        <div class="tool-card text-center"><p x-text="focusSession?.phase==='break'?'Mola':'Odak çalışma'"></p><div class="clock-display" x-text="focusClock()" data-testid="focus-clock"></div><p class="eyebrow">Yalnız görünür ekranda ölçülen süre çalışma sayılır. Arka plan ve uzun kesintiler otomatik tamamlanmış sayılmaz.</p><div class="tool-row mt-3" style="justify-content:center"><button x-show="!focusSession||focusSession.status==='completed'" class="tool-button" @click="focusAction('start')">Başlat</button><button x-show="focusSession?.status==='running'" class="tool-button secondary" @click="focusAction('pause')">Duraklat</button><button x-show="focusSession?.status==='paused'" class="tool-button" @click="focusAction('resume')">Sürdür</button><button x-show="focusSession?.status==='awaiting-confirmation'" class="tool-button" @click="focusAction('confirm')">Ölçülen bölümü tamamla</button></div></div><label>Çalışma (dakika)<input type="number" min="1" max="180" x-model.number="focusDraft.workMinutes"/></label><label>Mola (dakika)<input type="number" min="1" max="60" x-model.number="focusDraft.breakMinutes"/></label>
+      </div>
+      <div x-show="toolMode==='exams'">
+        <p class="feature-message">30bağımsız deneme hedefi. Hazır deneme:<span x-text="strictCatalog.readyExams.length"></span>/30. Her deneme100soru,70ortak+30teknik,150dakika;duraklatma ve sınav içi açıklama yok.</p><p x-show="!strictCatalog.readyExams.length">Korunan100soruluk onaylı paket henüz tamamlanmadığı için deneme başlatılamaz. Konu soruları tam denemeye doldurulmaz.</p>
+        <template x-for="exam in strictCatalog.readyExams" :key="exam.id"><article class="tool-card"><h3 x-text="exam.title"></h3><button class="tool-button" @click="startStrict(exam)" :disabled="strictBusy">Strict Mode başlat</button></article></template>
+        <h3>Kayıtlı tam deneme sonuçları</h3><template x-for="attempt in strictHistory.filter(a=>a.status==='completed')" :key="attempt.id"><button class="tool-button secondary w-full mb-2" @click="openStrictResult(attempt.id)" x-text="attempt.title+' · '+attempt.result.score+'/100 · '+(attempt.isFirstAttempt?'İlk':'Tekrar')"></button></template>
+      </div>
+      <div x-show="toolMode==='data'">
+        <div class="tool-card"><h3>Tam JSON yedeği</h3><p>Eski kayıtlar,ayarlar,yeni çalışmalar,kartlar,tekrarlar,denemeler,takvim,odak ve mevzuat kontrol kayıtları tek sürümlü dosyada. PDF geri yükleme kaynağı değildir.</p><button class="tool-button" @click="exportFullBackup()" :disabled="toolBusy" data-testid="export-full-backup">Tam yedeği indir</button><label class="tool-button secondary mt-3">Tam JSON yedeği seç<input type="file" accept=".json" class="sr-only" @change="prepareRestore($event)" data-testid="import-full-backup"/></label><div x-show="restoreProposal" class="feature-message"><p x-text="restoreProposal?restoreProposal.review.studyAttempts+' konu çalışması · '+restoreProposal.review.answeredQuestions+' cevap · '+restoreProposal.review.legacyQuestions+' eski soru kaydı':''"></p><p>Önceki profil silinmez. Yeni profil hazırlanırken hata olursa etkin veri değişmez. Diğer sekmeleri kapatın.</p><button class="tool-button" @click="commitRestore()" :disabled="toolBusy" data-testid="commit-full-restore">İncelenen yedeği yeni profil olarak aç</button></div></div>
+        <div class="tool-card"><h3>Okunabilir PDF</h3><p>Sonuçlar,ilerleme özeti,konu başarıları ve çalışma planı Türkçe PDF raporuna alınır.</p><button class="tool-button" @click="exportPdf()" :disabled="toolBusy" data-testid="export-pdf">PDF raporu indir</button></div>
+      </div>
+    </section>
+
     <!-- SEKME 4: YÖNETİM VE AYARLAR PANELİ (ADMIN) -->
     <div x-show="activeTab === 'admin'" class="space-y-4 mt-4">
+      <div class="tool-grid" data-testid="feature-menu"><template x-for="tool in featureMenu" :key="tool.id"><button @click="openTool(tool.id)" :disabled="!toolsReady" x-text="tool.label" :data-testid="'tool-'+tool.id"></button></template></div>
       <!-- Soru Bankası JSON Import / Export -->
       <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-4 space-y-3">
         <h3 class="text-sm font-extrabold text-[#99d5f9]">📦 Soru Havuzu & JSON Yönetimi</h3>
@@ -271,7 +333,7 @@
           </button>
           <label class="file-button bg-[#1c2b3f] border border-[#29384b] py-2.5 rounded-xl font-extrabold text-xs text-center cursor-pointer">
             ESKİ YEDEK YÜKLE
-            <input type="file" accept=".json" @change="importBackup($event)" class="sr-only" />
+            <input data-testid="legacy-import" type="file" accept=".json" @change="importBackup($event)" class="sr-only" />
           </label>
         </div>
       </div>
@@ -362,8 +424,9 @@
 
   </main>
 
+  <div x-show="activeTab==='admin'" class="px-4 safe-pb"><label class="tool-row text-sm">Görünüm<select aria-label="Renk teması" x-model="featureTheme" @change="applyTheme()" class="tool-button secondary"><option value="dark">Koyu</option><option value="light">Açık</option></select></label></div>
   <!-- ALT NAVİGASYON BARI (iPhone 14 Başparmak Ergonomisi) -->
-  <nav class="bottom-nav" aria-label="Ana gezinme">
+  <nav :inert="strictView ? '' : null" class="bottom-nav" aria-label="Ana gezinme">
     <div class="grid grid-cols-4 gap-1 text-[11px] font-extrabold">
       <button @click="activeTab = 'home'" data-testid="nav-home" :aria-current="activeTab === 'home' ? 'page' : null" :class="activeTab === 'home' ? 'text-[#7ae3c5] bg-[#1c2b3f]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
         <span class="text-lg" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 4.5h6a3 3 0 0 1 3 3V21a4 4 0 0 0-4-3H4z"/><path d="M20 4.5h-4a3 3 0 0 0-3 3V21a4 4 0 0 1 4-3h3z"/></svg></span>
@@ -457,6 +520,7 @@
         <div class="text-xs text-gray-200 leading-relaxed" x-text="currentQ()?.exp"></div>
         <p class="eyebrow" x-show="currentQ()?.legalEdition === 'preparation'">Hazırlık mevzuatı · Nihai sınav sürümü henüz kesinleşmedi.</p>
         <a x-show="currentQ()?.sourceUrl" :href="currentQ()?.sourceUrl" target="_blank" rel="noopener noreferrer" class="block text-xs">İlgili maddeyi oku <span x-text="currentQ()?.sourceLocator || ''"></span></a>
+        <details x-show="!quiz.isCorrect" class="text-xs"><summary>İsteğe bağlı hata analizi</summary><label>Hata nedeni<select x-model="errorReasonChoice" class="bg-[#172335] rounded p-2 w-full"><option value="">Belirtmek istemiyorum</option><template x-for="(label,key) in errorReasons" :key="key"><option :value="key" x-text="label"></option></template></select></label><button @click="recordStudyError(errorReasonChoice)" x-show="errorReasonChoice" class="tool-button secondary mt-2">Nedeni kaydet</button><label class="block mt-2">Doğru neden doğru,seçtiğin neden yanlış?<textarea x-model="explanationText" class="bg-[#172335] rounded p-2 w-full" rows="3"></textarea></label><button @click="compareExplanation()" class="tool-button secondary">Kavram yardımını göster</button><p x-show="explanationResult" x-text="explanationResult?.help"></p><p x-show="explanationResult" x-text="explanationResult?.notice"></p></details>
         <button @click="nextQuestion()" :disabled="savingAnswer"
           :class="quiz.isCorrect ? 'btn-3d-green' : 'btn-3d-red'"
           class="w-full py-3 rounded-xl font-extrabold text-sm text-white uppercase tracking-wider">
@@ -493,7 +557,20 @@
   </div>
 
   <noscript><style>body[x-cloak]{display:block!important}</style><p style="padding:20px">GYS Hazırlık uygulamasını kullanmak için JavaScript’i açın.</p></noscript>
-  <noscript>Uygulamayı kullanmak için JavaScript etkin olmalıdır. Bu sürüm prototiptir; onaylı içerik henüz yayımlanmadı.</noscript>
+  <div x-show="strictView" class="strict-overlay" role="dialog" aria-modal="true" aria-label="Strict deneme" data-testid="strict-dialog" tabindex="-1" @keydown.tab="trapStrictFocus($event)">
+    <template x-if="strictView?.status==='active'"><div>
+      <div class="tool-row" style="justify-content:space-between"><h2>Strict Mode</h2><strong class="text-lg" x-text="strictClock()"></strong></div>
+      <p class="text-xs mt-2" x-text="(strictView.cursor+1)+'/100 · Duraklatma yok'"></p><p x-show="strictView.clockWarning" class="feature-message">Cihaz saatinde değişiklik algılandı. Çevrimdışı saatin güvenilirliği sınırlıdır;süre uzatılmaz.</p>
+      <h3 class="text-base font-bold my-5" x-text="strictQuestion()?.text"></h3>
+      <div class="strict-options"><template x-for="option in strictQuestion()?.options||[]" :key="option.id"><button @click="strictAnswer(option.id)" :disabled="strictBusy" :class="{'selected':strictSelected()===option.id}" x-text="option.text"></button></template></div>
+      <div class="tool-row"><button class="tool-button secondary" @click="strictMove(Math.max(0,strictView.cursor-1))" :disabled="strictBusy||strictView.cursor===0">Önceki</button><button class="tool-button secondary" @click="strictAnswer(null)" :disabled="strictBusy">Cevabı boş bırak</button><button class="tool-button" @click="strictMove(Math.min(99,strictView.cursor+1))" :disabled="strictBusy||strictView.cursor===99">Sonraki</button></div>
+      <details class="mt-4"><summary class="text-sm">Sorular arasında geçiş</summary><div class="number-grid mt-3"><template x-for="(question,index) in strictView.questions" :key="question.id"><button @click="strictMove(index)" :disabled="strictBusy" :class="{current:strictView.cursor===index,answered:strictView.answers.some(a=>a.questionId===question.id)}" x-text="index+1"></button></template></div></details>
+      <p x-show="notice" class="feature-message" x-text="notice"></p><button class="tool-button mt-4 w-full" @click="finishStrict()" :disabled="strictBusy">Denemeyi bitir</button>
+    </div></template>
+    <template x-if="strictView?.status==='completed'"><div><h2 x-text="strictView.title"></h2><div class="clock-display" x-text="strictView.result.score+'/100'"></div><p x-text="strictView.result.correct+' doğru · '+strictView.result.wrong+' yanlış · '+strictView.result.blank+' boş'"></p><p x-text="strictResultTrusted?(strictView.isFirstAttempt?'İlk bağımsız çözüm':'Tekrar denemesi'):'İçe aktarılan geçmiş kayıt · bağımsızlığı doğrulanmadı'"></p><p x-text="'Ortak:'+strictView.result.common.correct+'/70 · Teknik:'+strictView.result.technical.correct+'/30'"></p><template x-for="topic in strictView.result.perTopic" :key="topic.topicId"><p class="text-xs" x-text="topic.topicId+': '+topic.correct+' doğru / '+topic.wrong+' yanlış / '+topic.blank+' boş'"></p></template><details class="tool-card"><summary>Kaydedilmiş soru sürümlerini incele</summary><template x-for="question in strictView.review?.questions||[]" :key="question.id"><article class="py-4 border-b border-[#29384b]"><strong class="text-sm" x-text="question.text"></strong><p class="text-sm" x-text="question.options.find(o=>o.id===question.correctOptionId)?.text"></p><p class="text-xs" x-text="question.explanation"></p></article></template></details><button class="tool-button" @click="closeStrictResult()">Sonucu kapat</button></div></template>
+  </div>
+  <div x-show="updateAvailable" class="source-note fixed bottom-24 left-4 right-4 z-40 max-w-[398px] mx-auto"><span>Yeni uygulama sürümü hazır.</span><button class="tool-button" @click="activateAppUpdate()">Güncelle</button></div>
+  <noscript>Uygulamayı kullanmak için JavaScript etkin olmalıdır. Çalışma içerikleri kademeli doğrulanır; nihai sınav mevzuatı henüz kesinleşmedi.</noscript>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>

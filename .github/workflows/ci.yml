@@ -14,11 +14,12 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run verify:content
+      - run: npm run verify:exams
       - run: npm run test:sources
       - run: npm run test
       - run: npm run build
       - run: npm run audit:content
-      - run: npx playwright install --with-deps chromium
+      - run: npx playwright install --with-deps chromium webkit
       - run: npm run test:e2e
       - uses: actions/upload-artifact@v4
         if: always()

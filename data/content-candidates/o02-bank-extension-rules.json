@@ -1,0 +1,2226 @@
+{
+  "schemaVersion": 1,
+  "batchId": "BATCH-O02-EXTENSION-20261106-01",
+  "status": "ValidationPending",
+  "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+  "description": "Exact official quote/hash/locator and option binding are deterministic checks; separate legal review is mandatory. No candidate is Approved by generator.",
+  "rules": [
+    {
+      "questionId": "Q-O02-B-0019",
+      "learningObjectiveId": "LO-O02-004-EXT01",
+      "articleNumber": 4,
+      "ruleId": "RULE-Q-O02-B-0019",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Mevcut kuruluş biçimine bakılmaksızın, Devlet ve diğer kamu tüzel kişiliklerince genel idare esaslarına göre yürütülen asli ve sürekli kamu hizmetlerini ifa ile görevlendirilenler, bu Kanunun uygulanmasında memur sayılır.",
+      "sourceQuoteSHA256": "da3c45ad7a618addaef06712be68d0eb86769ae2b16e4d99dfc7387c7c87436b",
+      "sourceLocator": "657 sayılı Kanun m.4; UYAP maddeId=1653313; HTML p[5]",
+      "requiredSourceFragments": [
+        "genel idare esaslarına göre yürütülen asli ve sürekli kamu hizmetlerini"
+      ],
+      "correctOptionId": "Q-O02-B-0019-opt-01",
+      "normalizedCorrectText": "devlet ve diğer kamu tüzel kişiliklerince genel idare esaslarına göre yürütülen asli ve sürekli kamu hizmetlerini yerine getirmekle görevlendirilenler.",
+      "distractorOptionIds": [
+        "Q-O02-B-0019-opt-02",
+        "Q-O02-B-0019-opt-03",
+        "Q-O02-B-0019-opt-04",
+        "Q-O02-B-0019-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0020",
+      "learningObjectiveId": "LO-O02-006-EXT01",
+      "articleNumber": 6,
+      "ruleId": "RULE-Q-O02-B-0020",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurları, Türkiye Cumhuriyeti Anayasasına ve kanunlarına sadakatla bağlı kalmak ve milletin hizmetinde Türkiye Cumhuriyeti kanunlarını sadakatla uygulamak zorundadırlar.Devlet memurları bu hususu \"Asli Devlet Memurluğuna\" atandıktan sonra en geç bir ay içinde kurumlarınca düzenlenecek merasimle yetkili amirlerin huzurunda yapacakları yeminle belirtirler ve özlük dosyalarına konulacak aşağıdaki \"Yemin Belgesi\" ni imzalayarak göreve başlarlar.",
+      "sourceQuoteSHA256": "ab4fc2f00c297b538bdf59ae813ec595aa9fc7c8bfff7140ba053c388fa3c0d6",
+      "sourceLocator": "657 sayılı Kanun m.6; UYAP maddeId=1653321; HTML p[3]",
+      "requiredSourceFragments": [
+        "\"Asli Devlet Memurluğuna\" atandıktan sonra en geç bir ay içinde",
+        "özlük dosyalarına"
+      ],
+      "correctOptionId": "Q-O02-B-0020-opt-01",
+      "normalizedCorrectText": "asli devlet memurluğuna atandıktan sonra en geç bir ay içinde; özlük dosyasına.",
+      "distractorOptionIds": [
+        "Q-O02-B-0020-opt-02",
+        "Q-O02-B-0020-opt-03",
+        "Q-O02-B-0020-opt-04",
+        "Q-O02-B-0020-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0021",
+      "learningObjectiveId": "LO-O02-007-EXT01",
+      "articleNumber": 7,
+      "ruleId": "RULE-Q-O02-B-0021",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurları siyasi partiye üye olamazlar, herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamazlar; görevlerini yerine getirirlerken dil, ırk, cinsiyet, siyasi düşünce, felsefi inanç, din ve mezhep gibi ayırım yapamazlar; hiçbir şekilde siyasi ve ideolojik amaçlı beyanda ve eylemde bulunamazlar ve bu eylemlere katılamazlar.",
+      "sourceQuoteSHA256": "7b51ae6865630d96d75067aa045f3183cc389faa42fd47a7391018ccf7c1c1a6",
+      "sourceLocator": "657 sayılı Kanun m.7; UYAP maddeId=1653324; HTML p[3]",
+      "requiredSourceFragments": [
+        "herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan",
+        "siyasi düşünce"
+      ],
+      "correctOptionId": "Q-O02-B-0021-opt-01",
+      "normalizedCorrectText": "görevde siyasi düşünce ayrımı yapma ve belirli bir siyasi kesimin yararını hedefleme yasağına aykırıdır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0021-opt-02",
+        "Q-O02-B-0021-opt-03",
+        "Q-O02-B-0021-opt-04",
+        "Q-O02-B-0021-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0022",
+      "learningObjectiveId": "LO-O02-008-EXT01",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-O02-B-0022",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 8 – Devlet memurları, resmi sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içindeki ve dışındaki davranışlariyle göstermek zorundadırlar.",
+      "sourceQuoteSHA256": "ccbfb4053e65794ef7aeadb90012c5e94c21c558b387435d7eea54d984219841",
+      "sourceLocator": "657 sayılı Kanun m.8; UYAP maddeId=1653327; HTML p[2]",
+      "requiredSourceFragments": [
+        "hizmet içindeki ve dışındaki davranışlariyle"
+      ],
+      "correctOptionId": "Q-O02-B-0022-opt-01",
+      "normalizedCorrectText": "hem hizmet içindeki hem hizmet dışındaki davranışları.",
+      "distractorOptionIds": [
+        "Q-O02-B-0022-opt-02",
+        "Q-O02-B-0022-opt-03",
+        "Q-O02-B-0022-opt-04",
+        "Q-O02-B-0022-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0023",
+      "learningObjectiveId": "LO-O02-009-EXT01",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-O02-B-0023",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 9 – Devlet memurlarından sürekli veya geçici görevle veya yetişme, inceleme ve araştırma için yabancı memleketlerde bulunanlar Devlet itibarını veya görev haysiyetini zedeleyici fiil ve davranışlarda bulunamazlar.",
+      "sourceQuoteSHA256": "8eea81c16a8492c0dad050f822bfe6ed3d2916ced27bfbe4b1afeaa17eebf8fb",
+      "sourceLocator": "657 sayılı Kanun m.9; UYAP maddeId=1653330; HTML p[2]",
+      "requiredSourceFragments": [
+        "sürekli veya geçici görevle veya yetişme, inceleme ve araştırma"
+      ],
+      "correctOptionId": "Q-O02-B-0023-opt-01",
+      "normalizedCorrectText": "sürekli veya geçici görevle yahut yetişme, inceleme ve araştırma için yabancı ülkede bulunan memurları.",
+      "distractorOptionIds": [
+        "Q-O02-B-0023-opt-02",
+        "Q-O02-B-0023-opt-03",
+        "Q-O02-B-0023-opt-04",
+        "Q-O02-B-0023-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0024",
+      "learningObjectiveId": "LO-O02-010-EXT01",
+      "articleNumber": 10,
+      "ruleId": "RULE-Q-O02-B-0024",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Amir, maiyetindeki memurlara kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir veremez ve maiyetindeki memurdan hususi bir menfaat temin edecek bir talepte bulunamaz, hediyesini kabul edemez ve borç alamaz.",
+      "sourceQuoteSHA256": "53e9c3ed7e064b8ef77ed8f1de48dca29c91464b2d3c6b0168ddc0f3f29c6de6",
+      "sourceLocator": "657 sayılı Kanun m.10; UYAP maddeId=1653333; HTML p[5]",
+      "requiredSourceFragments": [
+        "maiyetindeki memurdan",
+        "borç alamaz"
+      ],
+      "correctOptionId": "Q-O02-B-0024-opt-01",
+      "normalizedCorrectText": "amir, maiyetindeki memurdan borç alamaz; memurun gönüllü olması bu yasağı kaldırmaz.",
+      "distractorOptionIds": [
+        "Q-O02-B-0024-opt-02",
+        "Q-O02-B-0024-opt-03",
+        "Q-O02-B-0024-opt-04",
+        "Q-O02-B-0024-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0025",
+      "learningObjectiveId": "LO-O02-011-EXT01",
+      "articleNumber": 11,
+      "ruleId": "RULE-Q-O02-B-0025",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memuru amirinden aldığı emri, Anayasa, kanun, Cumhurbaşkanlığı kararnamesi ve yönetmelik hükümlerine aykırı görürse, yerine getirmez ve bu aykırılığı o emri verene bildirir. Amir emrinde israr eder ve bu emrini yazı ile yenilerse, memur bu emri yapmağa mecburdur. Ancak emrin yerine getirilmesinden doğacak sorumluluk emri verene aittir.[18]\nKonusu suç teşkil eden emir, hiçbir suretle yerine getirilmez; yerine getiren kimse sorumluluktan kurtulamaz.\nAcele hallerde kamu düzeninin ve kamu güvenliğinin korunması için kanunla gösterilen istisnalar saklıdır.",
+      "sourceQuoteSHA256": "a08278e6a77ef7ba25ecccfc1f32e151ef0f3cc4d1163f3f97aa27e458206a7b",
+      "sourceLocator": "657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[4]; 657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[5]; 657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[6]",
+      "requiredSourceFragments": [
+        "bu emrini yazı ile yenilerse",
+        "sorumluluk emri verene aittir",
+        "istisnalar saklıdır"
+      ],
+      "correctOptionId": "Q-O02-B-0025-opt-01",
+      "normalizedCorrectText": "memur emri yerine getirir; yerine getirmeden doğacak sorumluluk emri verene aittir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0025-opt-02",
+        "Q-O02-B-0025-opt-03",
+        "Q-O02-B-0025-opt-04",
+        "Q-O02-B-0025-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0026",
+      "learningObjectiveId": "LO-O02-011-EXT02",
+      "articleNumber": 11,
+      "ruleId": "RULE-Q-O02-B-0026",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Konusu suç teşkil eden emir, hiçbir suretle yerine getirilmez; yerine getiren kimse sorumluluktan kurtulamaz.",
+      "sourceQuoteSHA256": "f6c2b047985841c6e7b6d7a9539c607b207cff2c69843006f1e52b528ed2a383",
+      "sourceLocator": "657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[5]",
+      "requiredSourceFragments": [
+        "Konusu suç teşkil eden emir, hiçbir suretle yerine getirilmez",
+        "sorumluluktan kurtulamaz"
+      ],
+      "correctOptionId": "Q-O02-B-0026-opt-01",
+      "normalizedCorrectText": "emri yerine getiremez; yazılı emir, yerine getiren kişiyi sorumluluktan kurtarmaz.",
+      "distractorOptionIds": [
+        "Q-O02-B-0026-opt-02",
+        "Q-O02-B-0026-opt-03",
+        "Q-O02-B-0026-opt-04",
+        "Q-O02-B-0026-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0027",
+      "learningObjectiveId": "LO-O02-012-EXT01",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-O02-B-0027",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurunun kasıt, kusur, ihmal veya tedbirsizliği sonucu idare zarara uğratılmışsa, bu zararın ilgili memur tarafından rayiç bedeli üzerinden ödenmesi esastır.",
+      "sourceQuoteSHA256": "39eb3b507006290e6e8ff4cd6099a566b8c1a7f60d2f5eeddc33c17fea8e1e78",
+      "sourceLocator": "657 sayılı Kanun m.12; UYAP maddeId=1653338; HTML p[4]",
+      "requiredSourceFragments": [
+        "kasıt, kusur, ihmal veya tedbirsizliği",
+        "rayiç bedeli üzerinden"
+      ],
+      "correctOptionId": "Q-O02-B-0027-opt-01",
+      "normalizedCorrectText": "rayiç bedel.",
+      "distractorOptionIds": [
+        "Q-O02-B-0027-opt-02",
+        "Q-O02-B-0027-opt-03",
+        "Q-O02-B-0027-opt-04",
+        "Q-O02-B-0027-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0028",
+      "learningObjectiveId": "LO-O02-013-EXT01",
+      "articleNumber": 13,
+      "ruleId": "RULE-Q-O02-B-0028",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "(Değişik birinci fıkra: 6/6/1990 - 3657/1 md.) Kişiler kamu hukukuna tabi görevlerle ilgili olarak uğradıkları zararlardan dolayı bu görevleri yerine getiren personel aleyhine değil, ilgili kurum aleyhine dava açarlar. Ancak, Devlet dairelerine tevdi veya bu dairelerce tahsil veya muhafaza edilen para ve para hükmündeki değerli kağıtların ilgili personel tarafından zimmete geçirilmesi halinde, zimmete geçirilen miktar, cezai takibat sonucu beklenmeden Hazine tarafından hak sahibine ödenir. Kurumun, genel hükümlere göre sorumlu personele rücu hakkı saklıdır.",
+      "sourceQuoteSHA256": "f260d58abf91c777eb40b4ff4cd74c6c7a28134c173acf7f62fd1380153c5cb5",
+      "sourceLocator": "657 sayılı Kanun m.13; UYAP maddeId=1653341; HTML p[3]",
+      "requiredSourceFragments": [
+        "personel aleyhine değil, ilgili kurum aleyhine dava açarlar",
+        "rücu hakkı saklıdır"
+      ],
+      "correctOptionId": "Q-O02-B-0028-opt-01",
+      "normalizedCorrectText": "dava ilgili kurum aleyhine açılır; kurumun sorumlu personele genel hükümlere göre rücu hakkı saklıdır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0028-opt-02",
+        "Q-O02-B-0028-opt-03",
+        "Q-O02-B-0028-opt-04",
+        "Q-O02-B-0028-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0029",
+      "learningObjectiveId": "LO-O02-014-EXT01",
+      "articleNumber": 14,
+      "ruleId": "RULE-Q-O02-B-0029",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 14 – Devlet memurları, kendileriyle, eşlerine ve velayetleri altındaki çocuklarına ait taşınır ve taşınmaz malları, alacak ve borçları hakkında, özel kanunda yazılı hükümler uyarınca, mal bildirimi verirler.",
+      "sourceQuoteSHA256": "afdc8160c4a3b4419b07eb918c93980f8df4ffd1f6dff7de98c1fc8fa70268e1",
+      "sourceLocator": "657 sayılı Kanun m.14; UYAP maddeId=1653344; HTML p[2]",
+      "requiredSourceFragments": [
+        "kendileriyle, eşlerine ve velayetleri altındaki çocuklarına",
+        "alacak ve borçları"
+      ],
+      "correctOptionId": "Q-O02-B-0029-opt-01",
+      "normalizedCorrectText": "memurun kendisi, eşi ve velayeti altındaki çocuklarının taşınır ve taşınmaz malları ile alacak ve borçları.",
+      "distractorOptionIds": [
+        "Q-O02-B-0029-opt-02",
+        "Q-O02-B-0029-opt-03",
+        "Q-O02-B-0029-opt-04",
+        "Q-O02-B-0029-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0030",
+      "learningObjectiveId": "LO-O02-015-EXT01",
+      "articleNumber": 15,
+      "ruleId": "RULE-Q-O02-B-0030",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet Memurları, kamu görevleri hakkında basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç veremezler. Bu konuda gerekli bilgi ancak bakanın yetkili kılacağı görevli illerde valiler veya yetkili kılacağı görevli tarafından verilebilir.",
+      "sourceQuoteSHA256": "3c9805fad46f69d21e192906b118d754fbb4df9f8f9703278cbc5b4299712aff",
+      "sourceLocator": "657 sayılı Kanun m.15; UYAP maddeId=1653347; HTML p[3]",
+      "requiredSourceFragments": [
+        "bakanın yetkili kılacağı görevli",
+        "illerde valiler veya yetkili kılacağı görevli"
+      ],
+      "correctOptionId": "Q-O02-B-0030-opt-01",
+      "normalizedCorrectText": "bakanın yetkili kılacağı görevli; illerde vali veya valinin yetkili kılacağı görevli.",
+      "distractorOptionIds": [
+        "Q-O02-B-0030-opt-02",
+        "Q-O02-B-0030-opt-03",
+        "Q-O02-B-0030-opt-04",
+        "Q-O02-B-0030-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0031",
+      "learningObjectiveId": "LO-O02-016-EXT01",
+      "articleNumber": 16,
+      "ruleId": "RULE-Q-O02-B-0031",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurları görevleri icabı kendilerine teslim edilen resmi belge, araç ve gereçleri görevleri sona erdiği zaman iade etmek zorundadırlar. Bu zorunluluk memurun mirasçılarına da şamildir.",
+      "sourceQuoteSHA256": "1bfd8b35f5aabe304632733d1aa9381cab31b3a4386d88d403de35e76dd51b9f",
+      "sourceLocator": "657 sayılı Kanun m.16; UYAP maddeId=1653350; HTML p[4]",
+      "requiredSourceFragments": [
+        "görevleri sona erdiği zaman iade etmek",
+        "memurun mirasçılarına da şamildir"
+      ],
+      "correctOptionId": "Q-O02-B-0031-opt-01",
+      "normalizedCorrectText": "iade zorunluluğu memurun mirasçılarını da kapsar.",
+      "distractorOptionIds": [
+        "Q-O02-B-0031-opt-02",
+        "Q-O02-B-0031-opt-03",
+        "Q-O02-B-0031-opt-04",
+        "Q-O02-B-0031-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0032",
+      "learningObjectiveId": "LO-O02-018-EXT01",
+      "articleNumber": 18,
+      "ruleId": "RULE-Q-O02-B-0032",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 18 – Kanunlarda yazılı haller dışında Devlet memurunun memurluğuna son verilmez, aylık ve başka hakları elinden alınamaz.",
+      "sourceQuoteSHA256": "db7055e1d10beb8ddb0237db9ff087823c53fe2f0b6802c576fab08eb84063d6",
+      "sourceLocator": "657 sayılı Kanun m.18; UYAP maddeId=1653359; HTML p[2]",
+      "requiredSourceFragments": [
+        "Kanunlarda yazılı haller dışında",
+        "memurluğuna son verilmez"
+      ],
+      "correctOptionId": "Q-O02-B-0032-opt-01",
+      "normalizedCorrectText": "kanunlarda yazılı hâller dışında memurluğa son verilemez; aylık ve başka haklar elden alınamaz.",
+      "distractorOptionIds": [
+        "Q-O02-B-0032-opt-02",
+        "Q-O02-B-0032-opt-03",
+        "Q-O02-B-0032-opt-04",
+        "Q-O02-B-0032-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0033",
+      "learningObjectiveId": "LO-O02-021-EXT01",
+      "articleNumber": 21,
+      "ruleId": "RULE-Q-O02-B-0033",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Müracaat ve şikayetler söz veya yazı ile en yakın amirden başlayarak silsile yolu ile şikayet edilen amirler atlanarak yapılır.",
+      "sourceQuoteSHA256": "6c43392db174f50be4900ae00b52d844222848bc77ba52eefa147644e84c9545",
+      "sourceLocator": "657 sayılı Kanun m.21; UYAP maddeId=1653368; HTML p[4]",
+      "requiredSourceFragments": [
+        "söz veya yazı ile",
+        "şikayet edilen amirler atlanarak"
+      ],
+      "correctOptionId": "Q-O02-B-0033-opt-01",
+      "normalizedCorrectText": "şikâyet edilen en yakın amir atlanarak silsile izlenir; şikâyet söz veya yazıyla yapılabilir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0033-opt-02",
+        "Q-O02-B-0033-opt-03",
+        "Q-O02-B-0033-opt-04",
+        "Q-O02-B-0033-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0034",
+      "learningObjectiveId": "LO-O02-022-EXT01",
+      "articleNumber": 22,
+      "ruleId": "RULE-Q-O02-B-0034",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurları, Anayasada ve özel kanununda belirtilen hükümler uyarınca sendikalar ve üst kuruluşlar kurabilir ve bunlara üye olabilirler.",
+      "sourceQuoteSHA256": "7d2dd339047e2c50812322d21f5db959c156e76448c376c4f049233f260cda75",
+      "sourceLocator": "657 sayılı Kanun m.22; UYAP maddeId=1653373; HTML p[3]",
+      "requiredSourceFragments": [
+        "sendikalar ve üst kuruluşlar kurabilir",
+        "üye olabilirler"
+      ],
+      "correctOptionId": "Q-O02-B-0034-opt-01",
+      "normalizedCorrectText": "anayasa ve özel kanundaki hükümler uyarınca sendikalar ve üst kuruluşlar kurma ve bunlara üye olma.",
+      "distractorOptionIds": [
+        "Q-O02-B-0034-opt-02",
+        "Q-O02-B-0034-opt-03",
+        "Q-O02-B-0034-opt-04",
+        "Q-O02-B-0034-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0035",
+      "learningObjectiveId": "LO-O02-024-EXT01",
+      "articleNumber": 24,
+      "ruleId": "RULE-Q-O02-B-0035",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 24 – Devlet memurlarının görevleri ile ilgili veya görevleri sırasında işledikleri suçlardan dolayı soruşturma ve kovuşturma yapılması ve haklarında dava açılması özel hükümlere tabidir.",
+      "sourceQuoteSHA256": "c4cece1c5556b2dcf54efd588219c2c65c71734afe776dcc9fc3fccd0ddce90f",
+      "sourceLocator": "657 sayılı Kanun m.24; UYAP maddeId=1653378; HTML p[2]",
+      "requiredSourceFragments": [
+        "soruşturma ve kovuşturma yapılması",
+        "özel hükümlere tabidir"
+      ],
+      "correctOptionId": "Q-O02-B-0035-opt-01",
+      "normalizedCorrectText": "soruşturma, kovuşturma ve dava açılması özel hükümlere tabidir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0035-opt-02",
+        "Q-O02-B-0035-opt-03",
+        "Q-O02-B-0035-opt-04",
+        "Q-O02-B-0035-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0036",
+      "learningObjectiveId": "LO-O02-025-EXT01",
+      "articleNumber": 25,
+      "ruleId": "RULE-Q-O02-B-0036",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 25 – Devlet memurları hakkındaki ihbar ve şikayetler, garaz veya mücerret hakaret için, uydurma bir suç isnadı suretiyle yapıldığı ve soruşturma veya yargılamanın tabi olduğu kanuni işlem sonucunda bu isnat sabit olmadığı takdirde, merkezde bu memurun en büyük amiri, illerde valiler, isnatta bulunanlar hakkında kamu davası açılmasını Cumhuriyet Savcılığından isterler.",
+      "sourceQuoteSHA256": "36767f69dade3d6f68f552fad79616280f77678c323cfa795fdc569d56a9426e",
+      "sourceLocator": "657 sayılı Kanun m.25; UYAP maddeId=1653381; HTML p[2]",
+      "requiredSourceFragments": [
+        "garaz veya mücerret hakaret için",
+        "bu isnat sabit olmadığı takdirde",
+        "illerde valiler"
+      ],
+      "correctOptionId": "Q-O02-B-0036-opt-01",
+      "normalizedCorrectText": "vali.",
+      "distractorOptionIds": [
+        "Q-O02-B-0036-opt-02",
+        "Q-O02-B-0036-opt-03",
+        "Q-O02-B-0036-opt-04",
+        "Q-O02-B-0036-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0037",
+      "learningObjectiveId": "LO-O02-026-EXT01",
+      "articleNumber": 26,
+      "ruleId": "RULE-Q-O02-B-0037",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurlarının kamu hizmetlerini aksatacak şekilde memurluktan kasıtlı olarak birlikte çekilmeleri veya görevlerine gelmemeleri veya görevlerine gelipte Devlet hizmetlerinin ve işlerinin yavaşlatılması veya aksatılması sonucunu doğuracak eylem ve hareketlerde bulunmaları yasaktır.",
+      "sourceQuoteSHA256": "6354906ebc363f1c9025c458f07696de1ea8ed9cccc3ccc4a8328257c06323af",
+      "sourceLocator": "657 sayılı Kanun m.26; UYAP maddeId=1653387; HTML p[4]",
+      "requiredSourceFragments": [
+        "kamu hizmetlerini aksatacak şekilde",
+        "görevlerine gelmemeleri"
+      ],
+      "correctOptionId": "Q-O02-B-0037-opt-01",
+      "normalizedCorrectText": "bu davranış kamu hizmetini aksatacak toplu eylem ve hareket yasağı kapsamındadır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0037-opt-02",
+        "Q-O02-B-0037-opt-03",
+        "Q-O02-B-0037-opt-04",
+        "Q-O02-B-0037-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0038",
+      "learningObjectiveId": "LO-O02-027-EXT01",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-O02-B-0038",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 27 – Devlet memurlarının greve karar vermeleri, grev tertiplemeleri, ilan etmeleri, bu yolda propaganda yapmaları yasaktır.\nDevlet memurları, harhangi bir greve veya grev teşebbüsüne katılamaz, grevi destekliyemez veya teşvik edemezler.",
+      "sourceQuoteSHA256": "9abc3c904cdb4959d35caf0a8eab3e871d3f385d667d975d979b11d602f51426",
+      "sourceLocator": "657 sayılı Kanun m.27; UYAP maddeId=1653390; HTML p[2]; 657 sayılı Kanun m.27; UYAP maddeId=1653390; HTML p[3]",
+      "requiredSourceFragments": [
+        "grev tertiplemeleri, ilan etmeleri",
+        "grevi destekliyemez veya teşvik edemezler"
+      ],
+      "correctOptionId": "Q-O02-B-0038-opt-01",
+      "normalizedCorrectText": "greve karar verme, tertipleme, ilan ve propaganda yanında greve katılma, destekleme ve teşvik de yasaktır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0038-opt-02",
+        "Q-O02-B-0038-opt-03",
+        "Q-O02-B-0038-opt-04",
+        "Q-O02-B-0038-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0039",
+      "learningObjectiveId": "LO-O02-028-EXT01",
+      "articleNumber": 28,
+      "ruleId": "RULE-Q-O02-B-0039",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Eşleri, reşit olmayan veya mahcur olan çocukları, yasaklanan faaliyetlerde bulunan memurlar bu durumu 15 gün içinde bağlı oldukları kuruma bildirmekle yükümlüdürler,",
+      "sourceQuoteSHA256": "94531364e213708faef23b37472a336a3ce7bcebe1db63ccc3b154367fd01b2b",
+      "sourceLocator": "657 sayılı Kanun m.28; UYAP maddeId=1653393; HTML p[5]",
+      "requiredSourceFragments": [
+        "Eşleri, reşit olmayan veya mahcur olan çocukları",
+        "15 gün içinde"
+      ],
+      "correctOptionId": "Q-O02-B-0039-opt-01",
+      "normalizedCorrectText": "15 gün içinde.",
+      "distractorOptionIds": [
+        "Q-O02-B-0039-opt-02",
+        "Q-O02-B-0039-opt-03",
+        "Q-O02-B-0039-opt-04",
+        "Q-O02-B-0039-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0040",
+      "learningObjectiveId": "LO-O02-028-EXT02",
+      "articleNumber": 28,
+      "ruleId": "RULE-Q-O02-B-0040",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "(Değişik ikinci fıkra: 8/8/2011 - KHK-650/38 md.; İptal ikinci fıkra: Anayasa Mahkemesinin 18/7/2012 tarihli ve E.: 2011/113 K.: 2012/108 sayılı Kararı ile ; Yeniden düzenleme: 2/1/2014 - 6514/9 md.) Memurların üyesi oldukları yapı, kalkınma ve tüketim kooperatifleri, kamu kurumu niteliğindeki meslek kuruluşları ve kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulmuş yardım sandıklarının yönetim, denetim ve disiplin kurulları üyelikleri ile özel kanunlarda belirtilen görevler bu yasaklamanın dışındadır.[23]",
+      "sourceQuoteSHA256": "c0ad4586cb65193dd342b1307701e24dac2f0fba6d9af6d8ee13d7e09ea4455f",
+      "sourceLocator": "657 sayılı Kanun m.28; UYAP maddeId=1653393; HTML p[4]",
+      "requiredSourceFragments": [
+        "üyesi oldukları yapı, kalkınma ve tüketim kooperatifleri",
+        "yönetim, denetim ve disiplin kurulları üyelikleri"
+      ],
+      "correctOptionId": "Q-O02-B-0040-opt-01",
+      "normalizedCorrectText": "memurun üyesi olduğu yapı kooperatifinin yönetim kurulu üyeliği.",
+      "distractorOptionIds": [
+        "Q-O02-B-0040-opt-02",
+        "Q-O02-B-0040-opt-03",
+        "Q-O02-B-0040-opt-04",
+        "Q-O02-B-0040-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0041",
+      "learningObjectiveId": "LO-O02-029-EXT01",
+      "articleNumber": 29,
+      "ruleId": "RULE-Q-O02-B-0041",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 29 – Devlet memurlarının doğrudan doğruya veya aracı eliyle hediye istemeleri ve görevleri sırasında olmasa dahi menfaat sağlama amacı ile hediye kabul etmeleri veya iş sahiplerinden borç para istemeleri ve almaları yasaktır.",
+      "sourceQuoteSHA256": "9c392b2546eb0e143f744d756f9296be7d7a02b7926716a8de8dd6addc270ccb",
+      "sourceLocator": "657 sayılı Kanun m.29; UYAP maddeId=1653396; HTML p[2]",
+      "requiredSourceFragments": [
+        "görevleri sırasında olmasa dahi menfaat sağlama amacı ile"
+      ],
+      "correctOptionId": "Q-O02-B-0041-opt-01",
+      "normalizedCorrectText": "menfaat sağlama amacıyla hediye kabulü görev sırasında olmasa da yasaktır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0041-opt-02",
+        "Q-O02-B-0041-opt-03",
+        "Q-O02-B-0041-opt-04",
+        "Q-O02-B-0041-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0042",
+      "learningObjectiveId": "LO-O02-030-EXT01",
+      "articleNumber": 30,
+      "ruleId": "RULE-Q-O02-B-0042",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 30 – Devlet memurunun, denetimi altında bulunan veya kendi görevi veya mensup olduğu kurum ile ilgisi olan bir teşebbüsten, doğrudan doğruya veya aracı eliyle her ne ad altında olursa olsun bir menfaat sağlaması yasaktır.",
+      "sourceQuoteSHA256": "b7e8305d6c932e9038c9c6d181a4e11fa2f0c7b50cb3552d2cc7e130fe32a3d6",
+      "sourceLocator": "657 sayılı Kanun m.30; UYAP maddeId=1653399; HTML p[2]",
+      "requiredSourceFragments": [
+        "denetimi altında bulunan",
+        "doğrudan doğruya veya aracı eliyle",
+        "her ne ad altında olursa olsun"
+      ],
+      "correctOptionId": "Q-O02-B-0042-opt-01",
+      "normalizedCorrectText": "aracı kullanılması yasağı kaldırmaz; denetim altındaki teşebbüsten menfaat sağlamak yasaktır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0042-opt-02",
+        "Q-O02-B-0042-opt-03",
+        "Q-O02-B-0042-opt-04",
+        "Q-O02-B-0042-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0043",
+      "learningObjectiveId": "LO-O02-031-EXT01",
+      "articleNumber": 31,
+      "ruleId": "RULE-Q-O02-B-0043",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurlarının kamu hizmetleri ile ilgili gizli bilgileri görevlerinden ayrılmış bile olsalar, yetkili bakanın yazılı izni olmadıkça açıklamaları yasaktır.",
+      "sourceQuoteSHA256": "7002c1dfe9087fe0730d4d13a6a83fec20c5dbae338fad2ddd33317663aa465c",
+      "sourceLocator": "657 sayılı Kanun m.31; UYAP maddeId=1653402; HTML p[3]",
+      "requiredSourceFragments": [
+        "görevlerinden ayrılmış bile olsalar",
+        "yetkili bakanın yazılı izni"
+      ],
+      "correctOptionId": "Q-O02-B-0043-opt-01",
+      "normalizedCorrectText": "görevden ayrılmak yasağı sona erdirmez; yetkili bakanın yazılı izni olmadıkça açıklama yasaktır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0043-opt-02",
+        "Q-O02-B-0043-opt-03",
+        "Q-O02-B-0043-opt-04",
+        "Q-O02-B-0043-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0044",
+      "learningObjectiveId": "LO-O02-036-EXT01",
+      "articleNumber": 36,
+      "ruleId": "RULE-Q-O02-B-0044",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "II - TEKNİK HİZMETLER SINIFI:\nBu Kanunun kapsamına giren kurumlarda meslekleriyle ilgili görevleri fiilen ifa eden ve meri hükümlere göre yüksek mühendis, mühendis, yüksek mimar, mimar, jeolog, hidrojeolog, hidrolog, jeofizikçi, fizikçi, kimyager, matematikçi, istatistikçi, yöneylemci (Hareket araştırmacısı), matematiksel iktisatcı, ekonomici ve benzeri ile teknik öğretmen okullarından mezun olup da, öğretmenlik mesleği dışında teknik hizmetlerde çalışanlar, 3437 ve 9/5/1969 tarih 1177 sayılı Kanunlara göre tütün eksperi yetiştirilenler ile müskirat ve çay eksperleri, fen memuru, yüksek tekniker, tekniker teknisyen ve emsali teknik unvanlara sahip olup, en az orta derecede mesleki tahsil görmüş bulunanlar, Teknik Hizmetler sınıfını teşkil eder. [26][27][28]",
+      "sourceQuoteSHA256": "0f7075b83a19147728f48b1329d5911843ae038671170725e76621a7d0385d63",
+      "sourceLocator": "657 sayılı Kanun m.36; UYAP maddeId=1653419; HTML p[6]; 657 sayılı Kanun m.36; UYAP maddeId=1653419; HTML p[7]",
+      "requiredSourceFragments": [
+        "II - TEKNİK HİZMETLER SINIFI:",
+        "meslekleriyle ilgili görevleri fiilen ifa eden",
+        "mühendis"
+      ],
+      "correctOptionId": "Q-O02-B-0044-opt-01",
+      "normalizedCorrectText": "teknik hizmetler sınıfı.",
+      "distractorOptionIds": [
+        "Q-O02-B-0044-opt-02",
+        "Q-O02-B-0044-opt-03",
+        "Q-O02-B-0044-opt-04",
+        "Q-O02-B-0044-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0045",
+      "learningObjectiveId": "LO-O02-048-EXT01",
+      "articleNumber": 48,
+      "ruleId": "RULE-Q-O02-B-0045",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "5. (Değişik: 23/1/2008 - 5728/317 md.) Türk Ceza Kanununun 53 üncü maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla süreyle hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, (…)[113] zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+      "sourceQuoteSHA256": "4f368a9249e072a0a508e9725d894a0d94c05220591390c0179c37991aa63667",
+      "sourceLocator": "657 sayılı Kanun m.48; UYAP maddeId=1653464; HTML p[9]",
+      "requiredSourceFragments": [
+        "affa uğramış olsa bile",
+        "rüşvet"
+      ],
+      "correctOptionId": "Q-O02-B-0045-opt-01",
+      "normalizedCorrectText": "rüşvet.",
+      "distractorOptionIds": [
+        "Q-O02-B-0045-opt-02",
+        "Q-O02-B-0045-opt-03",
+        "Q-O02-B-0045-opt-04",
+        "Q-O02-B-0045-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0046",
+      "learningObjectiveId": "LO-O02-050-EXT01",
+      "articleNumber": 50,
+      "ruleId": "RULE-Q-O02-B-0046",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet kamu hizmet ve görevlerine Devlet memuru olarak atanacakların açılacak Devlet memurluğu sınavlarına girmeleri ve sınavı kazanmaları şarttır.\nSınavların yapılmasına dair usul ve esaslar ile sınava tabi tutulmadan girilebilecek hizmet ve görevler ve bunların tabi olacağı esaslar Devlet Personel Başkanlığınca hazırlanacak bir genel yönetmelikle düzenlenir.",
+      "sourceQuoteSHA256": "426bc8fc132b4be738d541a5e724ac905497f3cb4f5063ca9590cb9eb3ba7884",
+      "sourceLocator": "657 sayılı Kanun m.50; UYAP maddeId=1653471; HTML p[3]; 657 sayılı Kanun m.50; UYAP maddeId=1653471; HTML p[4]",
+      "requiredSourceFragments": [
+        "sınavlarına girmeleri ve sınavı kazanmaları şarttır",
+        "sınava tabi tutulmadan girilebilecek"
+      ],
+      "correctOptionId": "Q-O02-B-0046-opt-01",
+      "normalizedCorrectText": "açılacak devlet memurluğu sınavına girmek ve sınavı kazanmak.",
+      "distractorOptionIds": [
+        "Q-O02-B-0046-opt-02",
+        "Q-O02-B-0046-opt-03",
+        "Q-O02-B-0046-opt-04",
+        "Q-O02-B-0046-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0047",
+      "learningObjectiveId": "LO-O02-055-EXT01",
+      "articleNumber": 55,
+      "ruleId": "RULE-Q-O02-B-0047",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Aday olarak atanan memurların önce bütün memurların ortak vasıfları ile ilgili temel eğitime, bilahara sınıfları ile ilgili hazırlayıcı eğitime ve staja tabi tutulmaları ve Devlet memuru olarak atanabilmeleri için başarılı olmaları şarttır.\nTemel eğitim ile hazırlayıcı eğitim aynı kurumda yapılır.",
+      "sourceQuoteSHA256": "868153923b9cf0f4b6bf6850e6bbee57183de3c47d2021166897b0b616df8a9e",
+      "sourceLocator": "657 sayılı Kanun m.55; UYAP maddeId=1653487; HTML p[3]; 657 sayılı Kanun m.55; UYAP maddeId=1653487; HTML p[4]",
+      "requiredSourceFragments": [
+        "önce bütün memurların ortak vasıfları ile ilgili temel eğitime",
+        "hazırlayıcı eğitime ve staja"
+      ],
+      "correctOptionId": "Q-O02-B-0047-opt-01",
+      "normalizedCorrectText": "ortak vasıflarla ilgili temel eğitim, sınıfıyla ilgili hazırlayıcı eğitim ve staj.",
+      "distractorOptionIds": [
+        "Q-O02-B-0047-opt-02",
+        "Q-O02-B-0047-opt-03",
+        "Q-O02-B-0047-opt-04",
+        "Q-O02-B-0047-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0048",
+      "learningObjectiveId": "LO-O02-056-EXT01",
+      "articleNumber": 56,
+      "ruleId": "RULE-Q-O02-B-0048",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 56 – (Değişik: 23/1/2026 - 7573/1 md.)\nAdaylık süresi içinde; temel ve hazırlayıcı eğitim ve staj devrelerinin herhangi birinde başarısız olanlar, birden fazla uyarma ve/veya kınama cezası almış olanlar ile aylıktan kesme ya da kademe ilerlemesinin durdurulması cezası almış olanların disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile ilişikleri kesilir. İlişikleri kesilenler ilgili kurumlarca derhal Kamu Personel Bilgi Sisteminin bulunduğu kuruma bildirilir.",
+      "sourceQuoteSHA256": "e42a58ac384c320b2091b4ce3df1f69c01f6cf70989021cddfce73327dcec6f8",
+      "sourceLocator": "657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[2]; 657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[3]",
+      "requiredSourceFragments": [
+        "23/1/2026 - 7573/1 md.",
+        "birden fazla uyarma ve/veya kınama",
+        "disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı"
+      ],
+      "correctOptionId": "Q-O02-B-0048-opt-01",
+      "normalizedCorrectText": "birden fazla uyarma ve/veya kınama cezası alınması, disiplin amirinin teklifi ve atamaya yetkili amirin onayıyla ilişik kesme nedenidir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0048-opt-02",
+        "Q-O02-B-0048-opt-03",
+        "Q-O02-B-0048-opt-04",
+        "Q-O02-B-0048-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0049",
+      "learningObjectiveId": "LO-O02-056-EXT02",
+      "articleNumber": 56,
+      "ruleId": "RULE-Q-O02-B-0049",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Bu madde hükümlerine göre ilişikleri kesilenler (sağlık nedenleri hariç) üç yıl süre ile Devlet memurluğuna alınmazlar.",
+      "sourceQuoteSHA256": "6f02fdbd5c955d954f5b2814f1dee4261c867e2ac7a4aa3fef364934c015e943",
+      "sourceLocator": "657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[4]",
+      "requiredSourceFragments": [
+        "(sağlık nedenleri hariç) üç yıl süre"
+      ],
+      "correctOptionId": "Q-O02-B-0049-opt-01",
+      "normalizedCorrectText": "üç yıl.",
+      "distractorOptionIds": [
+        "Q-O02-B-0049-opt-02",
+        "Q-O02-B-0049-opt-03",
+        "Q-O02-B-0049-opt-04",
+        "Q-O02-B-0049-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0050",
+      "learningObjectiveId": "LO-O02-058-EXT01",
+      "articleNumber": 58,
+      "ruleId": "RULE-Q-O02-B-0050",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Adaylık devresi içinde eğitimde başarılı olan adaylar disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile onay tarihinden geçerli olmak üzere asli memurluğa atanırlar.[118]\nAsli memurluğa geçme tarihi adaylık süresinin sonunu geçemez.",
+      "sourceQuoteSHA256": "034869512e9bd460fca2753a944ec9ad138c712aa6aca293e877f6cf9edcc360",
+      "sourceLocator": "657 sayılı Kanun m.58; UYAP maddeId=1653500; HTML p[3]; 657 sayılı Kanun m.58; UYAP maddeId=1653500; HTML p[4]",
+      "requiredSourceFragments": [
+        "onay tarihinden geçerli olmak üzere",
+        "adaylık süresinin sonunu geçemez"
+      ],
+      "correctOptionId": "Q-O02-B-0050-opt-01",
+      "normalizedCorrectText": "atamaya yetkili amirin onay tarihinden.",
+      "distractorOptionIds": [
+        "Q-O02-B-0050-opt-02",
+        "Q-O02-B-0050-opt-03",
+        "Q-O02-B-0050-opt-04",
+        "Q-O02-B-0050-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0051",
+      "learningObjectiveId": "LO-O02-059-EXT01",
+      "articleNumber": 59,
+      "ruleId": "RULE-Q-O02-B-0051",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Birinci fıkrada sayılan memurların bulundukları bu kadrolar emeklilik aylığının hesabında ve diğer memurluklara naklen atanmalarında herhangi bir sınıf için kazanılmış hak sayılmaz. Bu görevlerde bulunan memurların emeklilik kıdemleri yürümekte devam eder.",
+      "sourceQuoteSHA256": "d6f308d5ecaa4e39ae46fb6f6e61ac68b4dabe51aaf2edb2adf79ae4589b1b6d",
+      "sourceLocator": "657 sayılı Kanun m.59; UYAP maddeId=1653503; HTML p[4]",
+      "requiredSourceFragments": [
+        "herhangi bir sınıf için kazanılmış hak sayılmaz",
+        "emeklilik kıdemleri yürümekte devam eder"
+      ],
+      "correctOptionId": "Q-O02-B-0051-opt-01",
+      "normalizedCorrectText": "bu kadrolar, emeklilik aylığının hesabında ve başka memurluğa nakilde herhangi bir sınıf için kazanılmış hak sayılmaz; emeklilik kıdemi işlemeye devam eder.",
+      "distractorOptionIds": [
+        "Q-O02-B-0051-opt-02",
+        "Q-O02-B-0051-opt-03",
+        "Q-O02-B-0051-opt-04",
+        "Q-O02-B-0051-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0052",
+      "learningObjectiveId": "LO-O02-062-EXT01",
+      "articleNumber": 62,
+      "ruleId": "RULE-Q-O02-B-0052",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "İlk defa veya yeniden veyahut yer değiştirme suretiyle;\na) Aynı yerdeki görevlere atananlar atama emirlerinin kendilerine tebliğ gününü,\nb) Başka yerdeki görevlere atananlar, atama emirlerinin kendilerine tebliğ tarihinden itibaren 15 gün içerisinde o yere hareket ederek belli yol süresini,\nizleyen iş günü içinde işe başlamak zorundadırlar. Savaş ve olağanüstü hallerde bu süre Cumhurbaşkanı Kararı ile kısaltılabilir.[140]",
+      "sourceQuoteSHA256": "5387abae50f251ada4ce2204275db6c8256fbbd38ce54d76e3dd7226ebade1fa",
+      "sourceLocator": "657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[3]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[4]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[5]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[6]",
+      "requiredSourceFragments": [
+        "a) Aynı yerdeki görevlere atananlar",
+        "tebliğ gününü",
+        "izleyen iş günü içinde"
+      ],
+      "correctOptionId": "Q-O02-B-0052-opt-01",
+      "normalizedCorrectText": "salı günü, yani tebliği izleyen iş günü içinde.",
+      "distractorOptionIds": [
+        "Q-O02-B-0052-opt-02",
+        "Q-O02-B-0052-opt-03",
+        "Q-O02-B-0052-opt-04",
+        "Q-O02-B-0052-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0053",
+      "learningObjectiveId": "LO-O02-062-EXT02",
+      "articleNumber": 62,
+      "ruleId": "RULE-Q-O02-B-0053",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Yukarıdaki süreler;\n1 - Kanuni izinlerin kullanılması veya geçici bir görevin yapılması sırasında başka bir göreve atanan memurlar için iznin veya geçici görevin bitimi,\n2 - Hesaplarını, yerlerine gelenlere devir zorunda bulunan sayman ve sayman mutemetleri için devrin sona ermesi,\n3 - Eski görevlerine devamları kurumlarınca yazılı olarak tebliğ edilenler için yerlerine atanan memurların gelmesi veya yeni görev yerlerine hareketlerinin kurumlarınca tebliği,\ntarihinde başlar.",
+      "sourceQuoteSHA256": "fb540a2f67c0d01faf736a8b08609b9456385946b18d30fcc7aa4cfb4dfd35f9",
+      "sourceLocator": "657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[7]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[8]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[9]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[10]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[11]",
+      "requiredSourceFragments": [
+        "Kanuni izinlerin kullanılması veya geçici bir görevin yapılması sırasında",
+        "iznin veya geçici görevin bitimi",
+        "tarihinde başlar."
+      ],
+      "correctOptionId": "Q-O02-B-0053-opt-01",
+      "normalizedCorrectText": "iznin veya geçici görevin bitiminde.",
+      "distractorOptionIds": [
+        "Q-O02-B-0053-opt-02",
+        "Q-O02-B-0053-opt-03",
+        "Q-O02-B-0053-opt-04",
+        "Q-O02-B-0053-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0054",
+      "learningObjectiveId": "LO-O02-063-EXT01",
+      "articleNumber": 63,
+      "ruleId": "RULE-Q-O02-B-0054",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "(Değişik: 12/5/1982 - 2670/24 md.) Bir göreve ilk defa veya yeniden atananlardan belge ile isbatı mümkün zorlayıcı sebepler olmaksızın 62 nci maddedeki süre içinde işe başlamayanların atanmaları iptal edilir ve bunlar 1 yıl süreyle Devlet memuru olarak istihdam edilemezler. Bunların belge ile isbatı mümkün zorlayıcı sebepler nedeniyle göreve başlamama hali iki ayı aştığı takdirde atama işlemi atamaya yetkili makamlarca iptal edilir.",
+      "sourceQuoteSHA256": "df74dddb5f6cc923fb83c099f69a62431686847a228fbbe9a1fecef4ee071a23",
+      "sourceLocator": "657 sayılı Kanun m.63; UYAP maddeId=1653515; HTML p[3]",
+      "requiredSourceFragments": [
+        "ilk defa veya yeniden atananlardan",
+        "atanmaları iptal edilir",
+        "1 yıl süreyle"
+      ],
+      "correctOptionId": "Q-O02-B-0054-opt-01",
+      "normalizedCorrectText": "ataması iptal edilir ve bir yıl süreyle devlet memuru olarak istihdam edilemez.",
+      "distractorOptionIds": [
+        "Q-O02-B-0054-opt-02",
+        "Q-O02-B-0054-opt-03",
+        "Q-O02-B-0054-opt-04",
+        "Q-O02-B-0054-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0055",
+      "learningObjectiveId": "LO-O02-064-EXT01",
+      "articleNumber": 64,
+      "ruleId": "RULE-Q-O02-B-0055",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Kademe; derece içinde, görevin önemi veya sorumluluğu artmadan, memurun aylığındaki ilerlemedir.",
+      "sourceQuoteSHA256": "76c16d38e35daabe600db2d3b57650d5bd29602f3ffb8acc7e2fe25e2395e300",
+      "sourceLocator": "657 sayılı Kanun m.64; UYAP maddeId=1653519; HTML p[3]",
+      "requiredSourceFragments": [
+        "derece içinde",
+        "görevin önemi veya sorumluluğu artmadan",
+        "aylığındaki ilerlemedir"
+      ],
+      "correctOptionId": "Q-O02-B-0055-opt-01",
+      "normalizedCorrectText": "derece içinde, görevin önemi veya sorumluluğu artmadan memurun aylığındaki ilerleme.",
+      "distractorOptionIds": [
+        "Q-O02-B-0055-opt-02",
+        "Q-O02-B-0055-opt-03",
+        "Q-O02-B-0055-opt-04",
+        "Q-O02-B-0055-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0056",
+      "learningObjectiveId": "LO-O02-064-EXT02",
+      "articleNumber": 64,
+      "ruleId": "RULE-Q-O02-B-0056",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Son sekiz yıl içinde herhangi bir disiplin cezası almayan memurlara, aylık derecelerinin yükseltilmesinde dikkate alınmak üzere bir kademe ilerlemesi uygulanır.",
+      "sourceQuoteSHA256": "fd3feffe03b6a0b013469f91aae1255371254ac07dbba205bb3a7bc24d1b7742",
+      "sourceLocator": "657 sayılı Kanun m.64; UYAP maddeId=1653519; HTML p[6]",
+      "requiredSourceFragments": [
+        "Son sekiz yıl içinde herhangi bir disiplin cezası almayan"
+      ],
+      "correctOptionId": "Q-O02-B-0056-opt-01",
+      "normalizedCorrectText": "son sekiz yıl.",
+      "distractorOptionIds": [
+        "Q-O02-B-0056-opt-02",
+        "Q-O02-B-0056-opt-03",
+        "Q-O02-B-0056-opt-04",
+        "Q-O02-B-0056-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0057",
+      "learningObjectiveId": "LO-O02-067-EXT01",
+      "articleNumber": 67,
+      "ruleId": "RULE-Q-O02-B-0057",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Diğer şartları taşımakla birlikte üst derecelerde (...)142 kadro olmadığı için derece yükselmesi yapamayan memurların kazanılmış hak aylıkları, öğrenim durumları itibariyle yükselebilecekleri dereceyi aşmamak şartıyla işgal etmekte oldukları kadroların üst derecelerine yükseltilir.[142]",
+      "sourceQuoteSHA256": "e260deea6fa37b2b3c3be93e95781213e8fe327585a1bdf31e5fd49d5de53243",
+      "sourceLocator": "657 sayılı Kanun m.67; UYAP maddeId=1653528; HTML p[3]",
+      "requiredSourceFragments": [
+        "öğrenim durumları itibariyle yükselebilecekleri dereceyi aşmamak"
+      ],
+      "correctOptionId": "Q-O02-B-0057-opt-01",
+      "normalizedCorrectText": "öğrenim durumu itibarıyla yükselebileceği dereceyi aşmaması.",
+      "distractorOptionIds": [
+        "Q-O02-B-0057-opt-02",
+        "Q-O02-B-0057-opt-03",
+        "Q-O02-B-0057-opt-04",
+        "Q-O02-B-0057-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0058",
+      "learningObjectiveId": "LO-O02-068-EXT01",
+      "articleNumber": 68,
+      "ruleId": "RULE-Q-O02-B-0058",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "B) (Değişik: 4/5/1984 – KHK-199/1 md.) Eğitim ve Öğretim Hizmetleri Sınıfı ile Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfı hariç, sınıfların 1, 2, 3 ve 4 üncü derecelerindeki kadrolarına, derece yükselmesindeki süre kaydı aranmaksızın, atanmasındaki usule göre daha aşağıdaki derecelerden atama yapılabilir.[143]\n(Değişik ikinci paragraf: 13/2/2011 - 6111/101 md.) Ancak, bu şekilde bir atamanın yapılabilmesi için ilgilinin;\na) 1 inci dereceli kadrolardan ek göstergesi 5300 ve daha yukarıda olanlar için en az 12 yıl,\nb) 1 inci ve 2 nci dereceli kadrolardan ek göstergesi 5300’den az olanlar için en az 10 yıl,\nc) 3 üncü ve 4 üncü dereceli kadrolar için en az 8 yıl,\nhizmetinin bulunması ve yükseköğrenim görmüş olması şarttır. Dört yıldan az süreli yükseköğrenim görenler için bu sürelere iki yıl ilave edilir. Bu sürelerin hesabında; 8/6/1984 tarihli ve 217 sayılı Kanun Hükmünde Kararnamenin 2 nci maddesi kapsamına dâhil kurumlarda fiilen çalışılan süreler ile Yasama Organı Üyeliğinde, belediye başkanlığında, belediye ve il genel meclisi üyeliğinde, kanunlarla kurulan fonlarda, muvazzaf askerlikte, okul devresi dâhil yedek astsubaylık ve yedek subaylıkta ve uluslararası kuruluşlarda geçen sürelerin tamamı ile yükseköğrenim gördükten sonra özel kurumlarda veya serbest olarak çalıştıkları sürenin; Başbakanlık ve bakanlıkların bağlı ve ilgili kuruluşlarının müsteşar ve müsteşar yardımcıları ile en üst yönetici konumundaki genel müdür ve başkan kadrolarına atanacaklar için tamamı, diğer kadrolara atanacaklar için altı yılı geçmemek üzere dörtte üçü dikkate alınır.[144]",
+      "sourceQuoteSHA256": "d26ba92ec803189da8140fbd27359c1b182676f02f318971f5e102b13bfb14eb",
+      "sourceLocator": "657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[9]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[10]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[11]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[12]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[13]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[14]",
+      "requiredSourceFragments": [
+        "3 üncü ve 4 üncü dereceli kadrolar için en az 8 yıl",
+        "Dört yıldan az süreli yükseköğrenim görenler için bu sürelere iki yıl ilave edilir"
+      ],
+      "correctOptionId": "Q-O02-B-0058-opt-01",
+      "normalizedCorrectText": "10 yıl.",
+      "distractorOptionIds": [
+        "Q-O02-B-0058-opt-02",
+        "Q-O02-B-0058-opt-03",
+        "Q-O02-B-0058-opt-04",
+        "Q-O02-B-0058-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0059",
+      "learningObjectiveId": "LO-O02-074-EXT01",
+      "articleNumber": 74,
+      "ruleId": "RULE-Q-O02-B-0059",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Memurların bu Kanuna tabi kurumlar arasında, kurumların muvafakatı ile kazanılmış hak dereceleri üzerinden veya 68 inci maddedeki esaslar çerçevesinde derece yükselmesi suretiyle, bulundukları sınıftan veya öğrenim durumları itibariyle girebilecekleri sınıftan, bir kadroya nakilleri mümkündür. Kazanılmış hak derecelerinin altındaki derecelere atanabilmeleri için ise atanacakları kadro derecesi ile kazanılmış hak dereceleri arasındaki farkın 3 dereceden çok olmaması ve memurların isteği de şarttır.",
+      "sourceQuoteSHA256": "c687007f56f6eba7c5fa92bc469d6ce6851c3bf7992fc4c56e72eef185f23946",
+      "sourceLocator": "657 sayılı Kanun m.74; UYAP maddeId=1653551; HTML p[3]",
+      "requiredSourceFragments": [
+        "kurumlar arasında, kurumların muvafakatı ile"
+      ],
+      "correctOptionId": "Q-O02-B-0059-opt-01",
+      "normalizedCorrectText": "kurumların muvafakati.",
+      "distractorOptionIds": [
+        "Q-O02-B-0059-opt-02",
+        "Q-O02-B-0059-opt-03",
+        "Q-O02-B-0059-opt-04",
+        "Q-O02-B-0059-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0060",
+      "learningObjectiveId": "LO-O02-076-EXT01",
+      "articleNumber": 76,
+      "ruleId": "RULE-Q-O02-B-0060",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Memurlar istekleri ile, kurumlarında kazanılmış hak derecelerinin en çok üç derece altında aynı veya başka yerlerdeki kadrolara atanabilirler.",
+      "sourceQuoteSHA256": "9edba9ee3574d53ce99eef8178ee467079ff05987efb20f49705ab0eaa6476ea",
+      "sourceLocator": "657 sayılı Kanun m.76; UYAP maddeId=1653557; HTML p[4]",
+      "requiredSourceFragments": [
+        "istekleri ile",
+        "en çok üç derece altında"
+      ],
+      "correctOptionId": "Q-O02-B-0060-opt-01",
+      "normalizedCorrectText": "üç derece.",
+      "distractorOptionIds": [
+        "Q-O02-B-0060-opt-02",
+        "Q-O02-B-0060-opt-03",
+        "Q-O02-B-0060-opt-04",
+        "Q-O02-B-0060-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0061",
+      "learningObjectiveId": "LO-O02-078-EXT01",
+      "articleNumber": 78,
+      "ruleId": "RULE-Q-O02-B-0061",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 78 – Mesleklerine ait öğrenimini bitirerek Devlet memurluğuna alınmış ve asli memur olarak atanmış olanlardan mesleklerine ait hizmetlerde yetiştirilmek, eğitilmek, bilgilerini artırmak veya staj yapmak üzere dış memleketlere:\na) Kurumlarınca açılacak seçme veya yarışma sınavlarında başarı gösterenlere,\nb) Dış burslara dayanılarak gönderilenlere,\nİki yıla kadar ayrılma müsaadesi verilebilir.\nGerekirse bu süre en çok bir kat uzatılabilir.",
+      "sourceQuoteSHA256": "fe9213e20aee5eb1121c51517d31b359d7c71ee1eef1145a850e4f8983e8277e",
+      "sourceLocator": "657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[2]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[3]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[4]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[5]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[6]",
+      "requiredSourceFragments": [
+        "İki yıla kadar ayrılma müsaadesi",
+        "en çok bir kat uzatılabilir"
+      ],
+      "correctOptionId": "Q-O02-B-0061-opt-01",
+      "normalizedCorrectText": "iki yıla kadar izin; gerekirse bu sürenin en çok bir kat uzatılması.",
+      "distractorOptionIds": [
+        "Q-O02-B-0061-opt-02",
+        "Q-O02-B-0061-opt-03",
+        "Q-O02-B-0061-opt-04",
+        "Q-O02-B-0061-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0062",
+      "learningObjectiveId": "LO-O02-083-EXT01",
+      "articleNumber": 83,
+      "ruleId": "RULE-Q-O02-B-0062",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memuru iken muvazzaf askerlik hizmetini yapmak üzere silah altına alınanlardan askerlik görevini tamamlayıp memuriyete dönmek isteyenler, terhis tarihinden itibaren 30 gün içinde kurumlarına başvurmak ve kurumları da başvurma tarihinden itibaren azami 30 gün içinde ilgilileri göreve başlatmak zorundadırlar.",
+      "sourceQuoteSHA256": "812ff783d925225b70a379406ef0f3bee6acb7e7e972cbb7d1fd07c23ce4eccc",
+      "sourceLocator": "657 sayılı Kanun m.83; UYAP maddeId=1653578; HTML p[3]",
+      "requiredSourceFragments": [
+        "terhis tarihinden itibaren 30 gün içinde",
+        "başvurma tarihinden itibaren azami 30 gün içinde"
+      ],
+      "correctOptionId": "Q-O02-B-0062-opt-01",
+      "normalizedCorrectText": "terhisten itibaren 30 gün içinde başvuru; başvurudan itibaren en çok 30 gün içinde göreve başlatma.",
+      "distractorOptionIds": [
+        "Q-O02-B-0062-opt-02",
+        "Q-O02-B-0062-opt-03",
+        "Q-O02-B-0062-opt-04",
+        "Q-O02-B-0062-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0063",
+      "learningObjectiveId": "LO-O02-084-EXT01",
+      "articleNumber": 84,
+      "ruleId": "RULE-Q-O02-B-0063",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Muvazzaf askerlik görevini yaptıktan sonra Devlet memurluğuna atananlar adaylık esaslarına tabi olurlar ve muvazzaf askerlikte geçen süreleri asaletlerinin tasdikinden sonra kademe ilerlemesi yapılmak ve sınav veya seçmeye tabi tutulmak suretiyle derece yükseltilmesinde de değerlendirilir.",
+      "sourceQuoteSHA256": "3d02d4e3997c67578e315613541609919acefbf1a9290a7bc7d60ce5efb71e8c",
+      "sourceLocator": "657 sayılı Kanun m.84; UYAP maddeId=1653581; HTML p[3]",
+      "requiredSourceFragments": [
+        "adaylık esaslarına tabi olurlar",
+        "asaletlerinin tasdikinden sonra"
+      ],
+      "correctOptionId": "Q-O02-B-0063-opt-01",
+      "normalizedCorrectText": "adaylık esaslarına tabi olurlar; askerlik süreleri asalet tasdikinden sonra kademe ilerlemesinde ve kanuni koşullarla derece yükselmesinde değerlendirilir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0063-opt-02",
+        "Q-O02-B-0063-opt-03",
+        "Q-O02-B-0063-opt-04",
+        "Q-O02-B-0063-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0064",
+      "learningObjectiveId": "LO-O02-086-EXT01",
+      "articleNumber": 86,
+      "ruleId": "RULE-Q-O02-B-0064",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Bir görevin memurlar eliyle vekaleten yürütülmesi halinde aylıksız vekalet asıldır.",
+      "sourceQuoteSHA256": "4d52c50df7ccbc79a31c2d6c02986c82f0af0b24969799e497e4d35b7090d708",
+      "sourceLocator": "657 sayılı Kanun m.86; UYAP maddeId=1653586; HTML p[4]",
+      "requiredSourceFragments": [
+        "aylıksız vekalet asıldır"
+      ],
+      "correctOptionId": "Q-O02-B-0064-opt-01",
+      "normalizedCorrectText": "aylıksız vekâlet.",
+      "distractorOptionIds": [
+        "Q-O02-B-0064-opt-02",
+        "Q-O02-B-0064-opt-03",
+        "Q-O02-B-0064-opt-04",
+        "Q-O02-B-0064-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0065",
+      "learningObjectiveId": "LO-O02-088-EXT01",
+      "articleNumber": 88,
+      "ruleId": "RULE-Q-O02-B-0065",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Bu Kanuna tabi kurumlarda çalışan Devlet memurlarına esas görevlerinin yanında;\nA) Özel kanunlarla, Cumhurbaşkanlığı kararnameleriyle veya bunların verdiği yetkiye dayanılarak memurlara gördürülmesi öngörülen sürekli hizmetler,[158]\nB) Mesleki bilgisi ile ilgili olarak, hizmet olanakları elverişli bulunmak ve atamaya yetkili amir tarafından uygun görülmek şartiyle;\n1) (Değişik: 29/11/1984 – KHK-243/15 md.) 87 nci maddede yazılı kurumların tabiplikleri, diş tabiplikleri, eczacılıkları, kimyagerlikleri, veterinerlikleri, avukatlıkları ile Adli Tıp Kurumu Uzmanlıkları,\n2) Asıl görevlerinin bulunduğu bucak, ilçe ve zorunlu hallerde iller belediyelerinin yüksek mühendis, mühendis, yüksek mimar ve mimarlarca yürütülmesi gereken teknik hizmetleri,\nİkinci görev olarak verilebilir.",
+      "sourceQuoteSHA256": "cf583d3825f445b2ceaa18c85d59ddc256956e8877f73de7d697307b0da7297e",
+      "sourceLocator": "657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[3]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[4]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[5]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[6]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[7]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[8]",
+      "requiredSourceFragments": [
+        "Mesleki bilgisi ile ilgili olarak",
+        "hizmet olanakları elverişli bulunmak",
+        "atamaya yetkili amir tarafından uygun görülmek"
+      ],
+      "correctOptionId": "Q-O02-B-0065-opt-01",
+      "normalizedCorrectText": "görevin mesleki bilgisiyle ilgili olması, hizmet olanaklarının elvermesi ve atamaya yetkili amirin uygun görmesi.",
+      "distractorOptionIds": [
+        "Q-O02-B-0065-opt-02",
+        "Q-O02-B-0065-opt-03",
+        "Q-O02-B-0065-opt-04",
+        "Q-O02-B-0065-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0066",
+      "learningObjectiveId": "LO-O02-089-EXT01",
+      "articleNumber": 89,
+      "ruleId": "RULE-Q-O02-B-0066",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Her derecedeki eğitim ve öğretim kurumları ile Üniversite ve Akademi (Askeri Akademiler dahil), okul, kurs veya yaygın eğitim yapan kurumlarda ve benzeri kuruluşlarda öğretmen veya öğretim üyesi bulunmaması halinde öğretmenlere, öğretim üyelerine veya diğer memurlara veyahut açıktan atanacaklara ücret ile ek ders görevi verilebilir.",
+      "sourceQuoteSHA256": "7bc7b92d3a35eaa3d47bb3b68a38f3fc226a6dd43e6b4b05b0c26afbeb282163",
+      "sourceLocator": "657 sayılı Kanun m.89; UYAP maddeId=1653594; HTML p[3]",
+      "requiredSourceFragments": [
+        "öğretmen veya öğretim üyesi bulunmaması halinde"
+      ],
+      "correctOptionId": "Q-O02-B-0066-opt-01",
+      "normalizedCorrectText": "öğretmen veya öğretim üyesi bulunmaması hâli.",
+      "distractorOptionIds": [
+        "Q-O02-B-0066-opt-02",
+        "Q-O02-B-0066-opt-03",
+        "Q-O02-B-0066-opt-04",
+        "Q-O02-B-0066-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0067",
+      "learningObjectiveId": "LO-O02-091-EXT01",
+      "articleNumber": 91,
+      "ruleId": "RULE-Q-O02-B-0067",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Kadrosu kaldırılan memurlar, en geç altı ay içinde kendi kurumlarında niteliklerine uygun bir kadroya atanırlar. Bu memurlar, kurumlarında atama imkânı bulunmaması hâlinde aynı süre içinde başka bir kurumdaki kadrolara atanmak üzere Devlet Personel Başkanlığına bildirilir. Bunlar, atama işlemi yapılıncaya kadar kurumlarında niteliklerine uygun işlerde çalıştırılır ve yeni bir kadroya atanıncaya kadar eski kadrolarına ait malî haklardan ve sosyal yardımlardan yararlanmaya devam ederler.",
+      "sourceQuoteSHA256": "467a53ef27f88d7eed4f45ba8ef674f0d90d5f4b59a5d0a95823645686952edc",
+      "sourceLocator": "657 sayılı Kanun m.91; UYAP maddeId=1653600; HTML p[3]",
+      "requiredSourceFragments": [
+        "en geç altı ay içinde",
+        "yeni bir kadroya atanıncaya kadar eski kadrolarına ait malî haklardan ve sosyal yardımlardan"
+      ],
+      "correctOptionId": "Q-O02-B-0067-opt-01",
+      "normalizedCorrectText": "kurumunda imkân varsa en geç altı ay içinde uygun kadroya atanır; yoksa aynı sürede başka kuruma atama için bildirim yapılır. yeni kadroya atanana kadar eski kadronun mali hak ve sosyal yardımları devam eder.",
+      "distractorOptionIds": [
+        "Q-O02-B-0067-opt-02",
+        "Q-O02-B-0067-opt-03",
+        "Q-O02-B-0067-opt-04",
+        "Q-O02-B-0067-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0068",
+      "learningObjectiveId": "LO-O02-092-EXT01",
+      "articleNumber": 92,
+      "ruleId": "RULE-Q-O02-B-0068",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "İki defadan fazla olmamak üzere memurluktan kendi istekleriyle çekilenlerden veya bu Kanun hükümlerine göre çekilmiş sayılanlardan tekrar memurluğa dönmek isteyenler, ayrıldıkları sınıfta boş kadro bulunmak ve bu sınıfın niteliklerini taşımak şartıyla ayrıldıkları tarihte almakta oldukları aylık derecesine eşit bir derecenin aynı kademesine veya 71 inci madde hükümlerine uyulmak suretiyle diğer bir sınıfta eşit derecedeki kadrolara atanabilirler.",
+      "sourceQuoteSHA256": "7ed2b6f40a4d2f7f9534c46f0f06f35885cac87be01791e3dad4877340d76501",
+      "sourceLocator": "657 sayılı Kanun m.92; UYAP maddeId=1653603; HTML p[3]",
+      "requiredSourceFragments": [
+        "İki defadan fazla olmamak üzere",
+        "boş kadro bulunmak"
+      ],
+      "correctOptionId": "Q-O02-B-0068-opt-01",
+      "normalizedCorrectText": "iki defadan fazla olmamak üzere.",
+      "distractorOptionIds": [
+        "Q-O02-B-0068-opt-02",
+        "Q-O02-B-0068-opt-03",
+        "Q-O02-B-0068-opt-04",
+        "Q-O02-B-0068-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0069",
+      "learningObjectiveId": "LO-O02-097-EXT01",
+      "articleNumber": 97,
+      "ruleId": "RULE-Q-O02-B-0069",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Memurlardan mali ve cezai sorumlulukları saklı kalmak üzere;\nA) 94 üncü maddenin 2 nci ve 3 üncü fıkrasına uygun olarak memuriyetten çekilenler altı ay geçmeden,\nB) Bu Kanuna göre çekilmiş sayılanlar ile 94 üncü maddenin 2 nci fıkrasına uymadan görevlerinden ayrılanlar bir yıl geçmeden,\nC) 95 inci maddede yazılı zorunluluklara uymayanlar 3 yıl geçmeden,\nD) 96 ncı maddeye aykırı hareket edenler hiçbir surette,\nDevlet memurluğuna alınamazlar.",
+      "sourceQuoteSHA256": "bd98fc150397afe89ce32918f80a341cd596e2bd3677d02d58b19a7e209e7426",
+      "sourceLocator": "657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[3]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[4]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[5]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[6]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[7]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[8]",
+      "requiredSourceFragments": [
+        "94 üncü maddenin 2 nci ve 3 üncü fıkrasına uygun",
+        "altı ay geçmeden"
+      ],
+      "correctOptionId": "Q-O02-B-0069-opt-01",
+      "normalizedCorrectText": "altı ay.",
+      "distractorOptionIds": [
+        "Q-O02-B-0069-opt-02",
+        "Q-O02-B-0069-opt-03",
+        "Q-O02-B-0069-opt-04",
+        "Q-O02-B-0069-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0070",
+      "learningObjectiveId": "LO-O02-098-EXT01",
+      "articleNumber": 98,
+      "ruleId": "RULE-Q-O02-B-0070",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 98 – Devlet memurlarının\na) Bu kanun hükümlerine göre memurluktan çıkarılması;\nb) Memurluğa alınma şartlarından her hangi birini taşımadığının sonradan anlaşılması veya memurlukları sırasında bu şartlardan her hangi birini kaybetmesi;\nc) Memurluktan çekilmesi;\nç) İstek, yaş haddi, malûllük (…)[160] sebeplerinden biri ile emekliye ayrılması;\nd) Ölümü;\nhallerinde memurluğu sona erer.",
+      "sourceQuoteSHA256": "434d20483e4c712811c0da3c583dd01c6aef77d845639e76c21e1972cac2698f",
+      "sourceLocator": "657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[2]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[3]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[4]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[5]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[6]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[7]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[8]",
+      "requiredSourceFragments": [
+        "memurlukları sırasında bu şartlardan her hangi birini kaybetmesi",
+        "memurluğu sona erer"
+      ],
+      "correctOptionId": "Q-O02-B-0070-opt-01",
+      "normalizedCorrectText": "memurluğun sona ermesi hâllerinden biri olarak.",
+      "distractorOptionIds": [
+        "Q-O02-B-0070-opt-02",
+        "Q-O02-B-0070-opt-03",
+        "Q-O02-B-0070-opt-04",
+        "Q-O02-B-0070-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0071",
+      "learningObjectiveId": "LO-O02-099-EXT01",
+      "articleNumber": 99,
+      "ruleId": "RULE-Q-O02-B-0071",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Memurların haftalık çalışma süresi genel olarak 40 saattir.\nBu süre Cumartesi ve Pazar günleri tatil olmak üzere düzenlenir.\nAncak bu kanuna, özel kanunlara, Cumhurbaşkanlığı kararnamelerine veya bunlara dayanılarak çıkarılacak yönetmeliklerle, kurumların ve hizmetlerin özellikleri dikkate alınmak suretiyle farklı çalışma süreleri tespit olunabilir.",
+      "sourceQuoteSHA256": "c2a7dbb866af7177738e74e911fb89e31f2d6cd41bf8fa171200f576b495e2d8",
+      "sourceLocator": "657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[3]; 657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[4]; 657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[5]",
+      "requiredSourceFragments": [
+        "haftalık çalışma süresi genel olarak 40 saattir",
+        "farklı çalışma süreleri tespit olunabilir"
+      ],
+      "correctOptionId": "Q-O02-B-0071-opt-01",
+      "normalizedCorrectText": "40 saat.",
+      "distractorOptionIds": [
+        "Q-O02-B-0071-opt-02",
+        "Q-O02-B-0071-opt-03",
+        "Q-O02-B-0071-opt-04",
+        "Q-O02-B-0071-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0072",
+      "learningObjectiveId": "LO-O02-100-EXT01",
+      "articleNumber": 100,
+      "ruleId": "RULE-Q-O02-B-0072",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 100 – Günlük çalışmanın başlama ve bitme saatleri ile öğle dinlenme süresi, bölgelerin ve hizmetin özelliklerine göre merkezde Cumhurbaşkanınca, illerde valiler tarafından tesbit olunur.",
+      "sourceQuoteSHA256": "02de532fcc2336f3d00ed0ac36d79b3b6231eabfd08d480f95d7299e2c26bf7c",
+      "sourceLocator": "657 sayılı Kanun m.100; UYAP maddeId=1653635; HTML p[2]",
+      "requiredSourceFragments": [
+        "merkezde Cumhurbaşkanınca, illerde valiler"
+      ],
+      "correctOptionId": "Q-O02-B-0072-opt-01",
+      "normalizedCorrectText": "merkezde cumhurbaşkanı, illerde valiler.",
+      "distractorOptionIds": [
+        "Q-O02-B-0072-opt-02",
+        "Q-O02-B-0072-opt-03",
+        "Q-O02-B-0072-opt-04",
+        "Q-O02-B-0072-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0073",
+      "learningObjectiveId": "LO-O02-101-EXT01",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O02-B-0073",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Ancak, kadın memurlara; tabip raporunda belirtilmesi hâlinde hamileliğin yirmidördüncü haftasından önce ve her hâlde hamileliğin yirmidördüncü haftasından itibaren ve doğumdan sonraki iki yıl süreyle gece nöbeti ve gece vardiyası görevi verilemez. Engelli memurlara da isteği dışında gece nöbeti ve gece vardiyası görevi verilemez.[164][165]",
+      "sourceQuoteSHA256": "d6a90c39ac9e5d1d23ad625e095a848c935dc402b9eb97684c49396e396c852c",
+      "sourceLocator": "657 sayılı Kanun m.101; UYAP maddeId=1653638; HTML p[4]",
+      "requiredSourceFragments": [
+        "her hâlde hamileliğin yirmidördüncü haftasından itibaren",
+        "doğumdan sonraki iki yıl",
+        "tabip raporunda belirtilmesi hâlinde"
+      ],
+      "correctOptionId": "Q-O02-B-0073-opt-01",
+      "normalizedCorrectText": "her hâlde gebeliğin 24. haftasından itibaren ve doğumdan sonraki iki yıl uygulanır; raporda belirtilirse 24. haftadan önce de uygulanır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0073-opt-02",
+        "Q-O02-B-0073-opt-03",
+        "Q-O02-B-0073-opt-04",
+        "Q-O02-B-0073-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0074",
+      "learningObjectiveId": "LO-O02-103-EXT01",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O02-B-0074",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 103 – Yıllık izinler, amirin uygun bulacağı zamanlarda, toptan veya ihtiyaca göre kısım kısım kullanılabilir. Birbirini izliyen iki yılın izni bir arada verilebilir. (Değişik cümle: 6/7/1995 – KHK-562/2 md.) Cari yıl ile bir önceki yıl hariç, önceki yıllara ait kullanılmayan izin hakları düşer.",
+      "sourceQuoteSHA256": "0fe4f79b7e7f55b94abd33ee3af7cdac967e01056c599e546df29037edaf2b70",
+      "sourceLocator": "657 sayılı Kanun m.103; UYAP maddeId=1653643; HTML p[2]",
+      "requiredSourceFragments": [
+        "Cari yıl ile bir önceki yıl hariç",
+        "kullanılmayan izin hakları düşer"
+      ],
+      "correctOptionId": "Q-O02-B-0074-opt-01",
+      "normalizedCorrectText": "cari yıl ve bir önceki yıl dışındaki önceki yıllara ait kullanılmayan izin hakları düşer.",
+      "distractorOptionIds": [
+        "Q-O02-B-0074-opt-02",
+        "Q-O02-B-0074-opt-03",
+        "Q-O02-B-0074-opt-04",
+        "Q-O02-B-0074-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0075",
+      "learningObjectiveId": "LO-O02-104-EXT01",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O02-B-0075",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "A) Kadın memura; doğumdan önce sekiz, doğumdan sonra onaltı hafta olmak üzere toplam yirmidört hafta süreyle analık izni verilir. Çoğul gebelik durumunda, doğum öncesi sekiz haftalık analık izni süresine iki hafta eklenir. Ancak beklenen doğum tarihinden sekiz hafta öncesine kadar sağlık durumunun çalışmaya uygun olduğunu tabip raporuyla belgeleyen kadın memur, isteği hâlinde doğumdan önceki iki haftaya kadar kurumunda çalışabilir. Bu durumda, doğum öncesinde bu rapora dayanarak fiilen çalıştığı süreler doğum sonrası analık izni süresine eklenir. Doğumun erken gerçekleşmesi sebebiyle, doğum öncesi analık izninin kullanılamayan bölümü de doğum sonrası analık izni süresine ilave edilir. (Ek cümle: 29/1/2016 - 6663/6 md.) Doğum öncesi analık izninin başlaması gereken tarihten önce gerçekleşen doğumlarda ise doğum tarihi ile analık izninin başlaması gereken tarih arasındaki süre doğum sonrası analık iznine ilave edilir. Doğumda veya doğum sonrasında analık izni kullanılırken annenin ölümü hâlinde, isteği üzerine memur olan babaya anne için öngörülen süre kadar izin verilir. (Ek cümleler: 29/1/2016 - 6663/6 md.) Üç yaşını doldurmamış bir çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar ile memur olmayan eşin münferit olarak evlat edinmesi hâlinde memur olan eşlerine, çocuğun teslim edildiği tarihten itibaren sekiz hafta süre ile izin verilir. Bu izin evlatlık kararı verilmeden önce çocuğun fiilen teslim edildiği durumlarda da uygulanır. (Ek cümle:22/4/2026-7578/2 md.) Bir veya daha fazla çocuğa eşiyle birlikte veya münferit olarak koruyucu aile olan memura çocuğun koruyucu aile yanına teslim edildiği tarihten sonra isteği üzerine on gün izin verilir.[169]\nB) Memura, eşinin doğum yapması hâlinde, isteği üzerine on gün babalık izni; kendisinin veya çocuğunun evlenmesi ya da eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde isteği üzerine yedi gün izin verilir.\nC) (A) ve (B) fıkralarında belirtilen hâller dışında, merkezde atamaya yetkili amir, ilde vali, ilçede kaymakam ve yurt dışında diplomatik misyon şefi tarafından, birim amirinin muvafakati ile bir yıl içinde toptan veya bölümler hâlinde, mazeretleri sebebiyle memurlara on gün izin verilebilir. Zaruret hâlinde öğretmenler hariç olmak üzere, aynı usûlle on gün daha mazeret izni verilebilir. Bu takdirde, ikinci kez verilen bu izin, yıllık izinden düşülür.\nD) Kadın memura, çocuğunu emzirmesi için doğum sonrası analık izni süresinin bitim tarihinden itibaren ilk altı ayda günde üç saat, ikinci altı ayda günde birbuçuk saat süt izni verilir. Süt izninin hangi saatler arasında ve günde kaç kez kullanılacağı hususunda, kadın memurun tercihi esastır.\nE) (Ek: 20/2/2014 - 6525/7 md.) Memurlara; en az yüzde 70 oranında engelli ya da süreğen hastalığı olan çocuğunun (çocuğun evli olması durumunda eşinin de en az yüzde 70 oranında engelli olması kaydıyla) hastalanması hâlinde hastalık raporuna dayalı olarak ana veya babadan sadece biri tarafından kullanılması kaydıyla bir yıl içinde toptan veya bölümler hâlinde on güne kadar mazeret izni verilir.\nF) (Ek: 29/1/2016 - 6663/6 md.) Doğum sonrası analık izni süresi sonunda kadın memur, isteği hâlinde çocuğun hayatta olması kaydıyla analık izni bitiminde başlamak üzere ayrıca süt izni verilmeksizin birinci doğumda iki ay, ikinci doğumda dört ay, sonraki doğumlarda ise altı ay süreyle günlük çalışma süresinin yarısı kadar çalışabilir. Çoğul doğumlarda bu sürelere birer ay ilave edilir. Çocuğun engelli doğması veya doğumdan sonraki on iki ay içinde çocuğun engellilik durumunun tespiti hâllerinde bu süreler on iki ay olarak uygulanır. Üç yaşını doldurmamış bir çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar ile memur olmayan eşin münferit olarak evlat edinmesi hâlinde memur olan eşleri de, istekleri üzerine (A) fıkrası uyarınca verilen sekiz haftalık iznin bitiminden itibaren bu haktan aynı esaslar çerçevesinde yararlanır. Memurun çalışacağı süreler ilgili kurum tarafından belirlenir.[170]\nG) Yıllık izin ve mazeret izinleri sırasında fiili çalışmaya bağlı her türlü ödemeler hariç malî haklar ile sosyal yardımlara dokunulmaz.[171]\n[169] 22/4/2026 tarihli ve 7578 sayılı Kanunun 2 nci maddesiyle bu fıkranın birinci cümlesinde yer alan “doğumdan sonra sekiz” ibaresi “doğumdan sonra onaltı” şeklinde, “toplam onaltı” ibaresi “toplam yirmidört” şeklinde, üçüncü cümlesinde yer alan “üç” ibaresi “iki” şeklinde değiştirilmiştir.",
+      "sourceQuoteSHA256": "332d999519fb245c23ba9b2db021af11f720ab13ad3aefcbb688dd6ddde4553c",
+      "sourceLocator": "657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[3]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[4]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[5]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[6]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[7]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[8]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[9]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[10]",
+      "requiredSourceFragments": [
+        "doğumdan önce sekiz, doğumdan sonra onaltı hafta",
+        "toplam yirmidört hafta",
+        "22/4/2026 tarihli ve 7578"
+      ],
+      "correctOptionId": "Q-O02-B-0075-opt-01",
+      "normalizedCorrectText": "doğumdan önce 8, doğumdan sonra 16 hafta; toplam 24 hafta.",
+      "distractorOptionIds": [
+        "Q-O02-B-0075-opt-02",
+        "Q-O02-B-0075-opt-03",
+        "Q-O02-B-0075-opt-04",
+        "Q-O02-B-0075-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0076",
+      "learningObjectiveId": "LO-O02-104-EXT02",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O02-B-0076",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "B) Memura, eşinin doğum yapması hâlinde, isteği üzerine on gün babalık izni; kendisinin veya çocuğunun evlenmesi ya da eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde isteği üzerine yedi gün izin verilir.",
+      "sourceQuoteSHA256": "568d342854f5e8598416a8f4f7215678cb2d68deb2ba896bf2b15117a46b1185",
+      "sourceLocator": "657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[4]",
+      "requiredSourceFragments": [
+        "isteği üzerine on gün babalık izni"
+      ],
+      "correctOptionId": "Q-O02-B-0076-opt-01",
+      "normalizedCorrectText": "10 gün.",
+      "distractorOptionIds": [
+        "Q-O02-B-0076-opt-02",
+        "Q-O02-B-0076-opt-03",
+        "Q-O02-B-0076-opt-04",
+        "Q-O02-B-0076-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0077",
+      "learningObjectiveId": "LO-O02-105-EXT01",
+      "articleNumber": 105,
+      "ruleId": "RULE-Q-O02-B-0077",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Memura, aylık ve özlük hakları korunarak, verilecek raporda gösterilecek lüzum üzerine, kanser, verem ve akıl hastalığı gibi uzun süreli bir tedaviye ihtiyaç gösteren hastalığı hâlinde onsekiz aya kadar, diğer hastalık hâllerinde ise oniki aya kadar izin verilir.",
+      "sourceQuoteSHA256": "e393f5584b5b01e1e920d6e74d6e2ad231d2544d50b1b2cfd4762f72d8c9f1e0",
+      "sourceLocator": "657 sayılı Kanun m.105; UYAP maddeId=1653649; HTML p[3]",
+      "requiredSourceFragments": [
+        "onsekiz aya kadar",
+        "diğer hastalık hâllerinde ise oniki aya kadar"
+      ],
+      "correctOptionId": "Q-O02-B-0077-opt-01",
+      "normalizedCorrectText": "kanser, verem ve akıl hastalığı gibi uzun tedavi gereken hastalıklarda 18 aya; diğer hastalıklarda 12 aya kadar.",
+      "distractorOptionIds": [
+        "Q-O02-B-0077-opt-02",
+        "Q-O02-B-0077-opt-03",
+        "Q-O02-B-0077-opt-04",
+        "Q-O02-B-0077-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0078",
+      "learningObjectiveId": "LO-O02-108-EXT01",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O02-B-0078",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "E) Memura, yıllık izinde esas alınan süreler itibarıyla beş hizmet yılını tamamlamış olması ve isteği hâlinde memuriyeti boyunca ve en fazla iki defada kullanılmak üzere, toplam bir yıla kadar aylıksız izin verilebilir. Ancak, (…)[175] olağanüstü hâl veya genel hayata müessir afet hâli ilan edilen bölgelere 72 nci madde gereğince belli bir süre görev yapmak üzere zorunlu olarak sürekli görevle atananlar hakkında bu bölgelerdeki görev süreleri içinde bu fıkra hükmü uygulanmaz.",
+      "sourceQuoteSHA256": "4127e3098ea26016a0f87aaf173679ec78f5cdd7328df1a2bba356bf4abc4428",
+      "sourceLocator": "657 sayılı Kanun m.108; UYAP maddeId=1653657; HTML p[7]",
+      "requiredSourceFragments": [
+        "beş hizmet yılını tamamlamış",
+        "en fazla iki defada",
+        "toplam bir yıla kadar"
+      ],
+      "correctOptionId": "Q-O02-B-0078-opt-01",
+      "normalizedCorrectText": "yıllık izin hesabına esas en az 5 hizmet yılını tamamlama; memuriyet boyunca en fazla iki defada toplam 1 yıla kadar.",
+      "distractorOptionIds": [
+        "Q-O02-B-0078-opt-02",
+        "Q-O02-B-0078-opt-03",
+        "Q-O02-B-0078-opt-04",
+        "Q-O02-B-0078-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0079",
+      "learningObjectiveId": "LO-O02-108-EXT02",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O02-B-0079",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "F) Aylıksız izin süresinin bitiminden önce mazereti gerektiren sebebin ortadan kalkması hâlinde, on gün içinde göreve dönülmesi zorunludur. Aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen on gün içinde görevine dönmeyenler, memuriyetten çekilmiş sayılır.",
+      "sourceQuoteSHA256": "d895b4ae93c8e30372ce53c9da890f053b17e752149f0c252e29068a3ea5d091",
+      "sourceLocator": "657 sayılı Kanun m.108; UYAP maddeId=1653657; HTML p[8]",
+      "requiredSourceFragments": [
+        "on gün içinde göreve dönülmesi zorunludur",
+        "memuriyetten çekilmiş sayılır"
+      ],
+      "correctOptionId": "Q-O02-B-0079-opt-01",
+      "normalizedCorrectText": "mazeret sebebinin ortadan kalkmasından itibaren 10 gün içinde göreve dönmek.",
+      "distractorOptionIds": [
+        "Q-O02-B-0079-opt-02",
+        "Q-O02-B-0079-opt-03",
+        "Q-O02-B-0079-opt-04",
+        "Q-O02-B-0079-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0080",
+      "learningObjectiveId": "LO-O02-126-EXT01",
+      "articleNumber": 126,
+      "ruleId": "RULE-Q-O02-B-0080",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Disiplin kurulu ve yüksek disiplin kurulunun ayrı bir ceza tayinine yetkisi yoktur, cezayı kabul veya reddeder. Ret halinde atamaya yetkili amirler 15 gün içinde başka bir disiplin cezası vermekte serbesttirler.\nÖzel kanunların disiplin cezası vermeye yetkili amir ve kurullarla ilgili hükümleri saklıdır.",
+      "sourceQuoteSHA256": "5e12456f68b9b61a4479c3c98556ec5efd4ade3cd4d5ded99052da978f60c70b",
+      "sourceLocator": "657 sayılı Kanun m.126; UYAP maddeId=1653713; HTML p[5]; 657 sayılı Kanun m.126; UYAP maddeId=1653713; HTML p[6]",
+      "requiredSourceFragments": [
+        "ayrı bir ceza tayinine yetkisi yoktur",
+        "Ret halinde atamaya yetkili amirler 15 gün içinde"
+      ],
+      "correctOptionId": "Q-O02-B-0080-opt-01",
+      "normalizedCorrectText": "kurul kendisi ayrı bir ceza tayin etmez; atamaya yetkili amir 15 gün içinde başka bir disiplin cezası vermekte serbesttir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0080-opt-02",
+        "Q-O02-B-0080-opt-03",
+        "Q-O02-B-0080-opt-04",
+        "Q-O02-B-0080-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0081",
+      "learningObjectiveId": "LO-O02-127-EXT01",
+      "articleNumber": 127,
+      "ruleId": "RULE-Q-O02-B-0081",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "(Değişik fıkra: 23/1/2026 - 7573/3 md.) Disiplin cezasını gerektiren fiil ve hallerin işlendiği tarihten itibaren nihayet iki yıl içinde disiplin cezası verilmediği takdirde ceza verme yetkisi zamanaşımına uğrar. Disiplin cezasının yargı kararıyla iptal edilmesi hâlinde, kararın idareye ulaştığı tarihten itibaren kalan disiplin ceza zamanaşımı süresi içinde; zamanaşımı süresinin dolması veya altı aydan daha az süre kalması hâlinde en geç altı ay içinde karar gerekçesi dikkate alınarak yeniden disiplin cezası tesis edilebilir.",
+      "sourceQuoteSHA256": "c90b9a052c40e9711ae192094874c68078b2c7d23becde610f5cbf2adab5571f",
+      "sourceLocator": "657 sayılı Kanun m.127; UYAP maddeId=1653716; HTML p[7]",
+      "requiredSourceFragments": [
+        "kararın idareye ulaştığı tarihten",
+        "altı aydan daha az süre kalması hâlinde",
+        "en geç altı ay içinde",
+        "karar gerekçesi dikkate alınarak"
+      ],
+      "correctOptionId": "Q-O02-B-0081-opt-01",
+      "normalizedCorrectText": "kararın idareye ulaştığı tarihten itibaren, karar gerekçesi gözetilerek en geç altı ay içinde yeniden ceza tesis edilebilir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0081-opt-02",
+        "Q-O02-B-0081-opt-03",
+        "Q-O02-B-0081-opt-04",
+        "Q-O02-B-0081-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0082",
+      "learningObjectiveId": "LO-O02-128-EXT01",
+      "articleNumber": 128,
+      "ruleId": "RULE-Q-O02-B-0082",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Disiplin amirleri uyarma, kınama ve aylıktan kesme cezalarını soruşturmanın tamamlandığı günden itibaren 15 gün içinde vermek zorundadırlar.",
+      "sourceQuoteSHA256": "82a05e638bae35111436d25180edec62650348b223b07e57dea53fcd435924a9",
+      "sourceLocator": "657 sayılı Kanun m.128; UYAP maddeId=1653718; HTML p[3]",
+      "requiredSourceFragments": [
+        "soruşturmanın tamamlandığı günden itibaren 15 gün içinde"
+      ],
+      "correctOptionId": "Q-O02-B-0082-opt-01",
+      "normalizedCorrectText": "soruşturmanın tamamlandığı günden itibaren 15 gün içinde.",
+      "distractorOptionIds": [
+        "Q-O02-B-0082-opt-02",
+        "Q-O02-B-0082-opt-03",
+        "Q-O02-B-0082-opt-04",
+        "Q-O02-B-0082-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0083",
+      "learningObjectiveId": "LO-O02-131-EXT01",
+      "articleNumber": 131,
+      "ruleId": "RULE-Q-O02-B-0083",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 131 – Aynı olaydan dolayı memur hakkında ceza mahkemesinde kovuşturmaya başlanmış olması, disiplin kovuşturmasını geciktiremez.\nMemurun ceza kanununa göre mahkûm olması veya olmaması halleri, ayrıca disiplin cezasının uygulanmasına engel olamaz.",
+      "sourceQuoteSHA256": "0b5fda69e59d4a2a26a70c2b900cb7387c162c4454a9713ecf65fae7c42c52a7",
+      "sourceLocator": "657 sayılı Kanun m.131; UYAP maddeId=1653727; HTML p[2]; 657 sayılı Kanun m.131; UYAP maddeId=1653727; HTML p[3]",
+      "requiredSourceFragments": [
+        "disiplin kovuşturmasını geciktiremez",
+        "mahkûm olması veya olmaması"
+      ],
+      "correctOptionId": "Q-O02-B-0083-opt-01",
+      "normalizedCorrectText": "disiplin kovuşturmasını geciktiremez; ceza mahkûmiyeti bulunup bulunmaması ayrıca disiplin cezası uygulanmasına tek başına engel değildir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0083-opt-02",
+        "Q-O02-B-0083-opt-03",
+        "Q-O02-B-0083-opt-04",
+        "Q-O02-B-0083-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0084",
+      "learningObjectiveId": "LO-O02-132-EXT01",
+      "articleNumber": 132,
+      "ruleId": "RULE-Q-O02-B-0084",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Aylıktan kesme cezası, cezanın veriliş tarihini takip eden aybaşında uygulanır.",
+      "sourceQuoteSHA256": "302b278e8a295a65c492acc434a6ee0a2ff1a76b75ac75cd51093c411ec303ce",
+      "sourceLocator": "657 sayılı Kanun m.132; UYAP maddeId=1653729; HTML p[4]",
+      "requiredSourceFragments": [
+        "cezanın veriliş tarihini takip eden aybaşında"
+      ],
+      "correctOptionId": "Q-O02-B-0084-opt-01",
+      "normalizedCorrectText": "cezanın veriliş tarihini takip eden aybaşında.",
+      "distractorOptionIds": [
+        "Q-O02-B-0084-opt-02",
+        "Q-O02-B-0084-opt-03",
+        "Q-O02-B-0084-opt-04",
+        "Q-O02-B-0084-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0085",
+      "learningObjectiveId": "LO-O02-133-EXT01",
+      "articleNumber": 133,
+      "ruleId": "RULE-Q-O02-B-0085",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Disiplin cezaları memurun özlük dosyasına işlenir. Devlet memurluğundan çıkarma cezasından başka bir disiplin cezasına çarptırılmış olan memur uyarma ve kınama cezalarının uygulanmasından 5 sene, diğer cezaların uygulanmasından 10 sene sonra atamaya yetkili amire başvurarak, verilmiş olan cezalarının özlük dosyasından silinmesini isteyebilir.\nMemurun, yukarıda yazılan süreler içerisindeki davranışları, bu isteğini haklı kılacak nitelikte görülürse, isteğinin yerine getirilmesine karar verilerek bu karar özlük dosyasına işlenir.",
+      "sourceQuoteSHA256": "e45bc364c5e3cc28fd83e4d8fd38c76f1bbb2fe4d7c992b659d5b25c47e2790f",
+      "sourceLocator": "657 sayılı Kanun m.133; UYAP maddeId=1653732; HTML p[3]; 657 sayılı Kanun m.133; UYAP maddeId=1653732; HTML p[4]",
+      "requiredSourceFragments": [
+        "uyarma ve kınama cezalarının uygulanmasından 5 sene",
+        "diğer cezaların uygulanmasından 10 sene",
+        "bu isteğini haklı kılacak"
+      ],
+      "correctOptionId": "Q-O02-B-0085-opt-01",
+      "normalizedCorrectText": "uygulamadan itibaren uyarma ve kınamada 5 yıl, diğerlerinde 10 yıl; silinme otomatik değil talep ve değerlendirmeye bağlıdır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0085-opt-02",
+        "Q-O02-B-0085-opt-03",
+        "Q-O02-B-0085-opt-04",
+        "Q-O02-B-0085-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0086",
+      "learningObjectiveId": "LO-O02-137-EXT01",
+      "articleNumber": 137,
+      "ruleId": "RULE-Q-O02-B-0086",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 137 – Görevden uzaklaştırma, Devlet kamu hizmetlerinin gerektirdiği hallerde, görevi başında kalmasında sakınca görülecek Devlet memurları hakkında alınan ihtiyati bir tedbirdir.\nGörevden uzaklaştırma tedbiri, soruşturmanın herhangi bir safhasında da alınabilir.",
+      "sourceQuoteSHA256": "f596ae3ff1cd19c97456c5a23436fe57c2ac33347ea8e00fd5155d8cddb4c92b",
+      "sourceLocator": "657 sayılı Kanun m.137; UYAP maddeId=1653746; HTML p[2]; 657 sayılı Kanun m.137; UYAP maddeId=1653746; HTML p[3]",
+      "requiredSourceFragments": [
+        "ihtiyati bir tedbirdir"
+      ],
+      "correctOptionId": "Q-O02-B-0086-opt-01",
+      "normalizedCorrectText": "görevi başında kalmasında sakınca görülen memur hakkında alınan ihtiyati tedbir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0086-opt-02",
+        "Q-O02-B-0086-opt-03",
+        "Q-O02-B-0086-opt-04",
+        "Q-O02-B-0086-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0087",
+      "learningObjectiveId": "LO-O02-138-EXT01",
+      "articleNumber": 138,
+      "ruleId": "RULE-Q-O02-B-0087",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 138 – Görevden uzaklaştırmaya yetkililer şunlardır.\na) Atamaya yetkili amirler;\nb) Bakanlık ve genel müdürlük müfettişleri;\nc) İllerde valiler;\nç) İlçelerde kaymakamlar (İlçe idare şube başkanları hakkında valinin muvafakati şarttır.)",
+      "sourceQuoteSHA256": "c68ee8cd7be3630d186fe8e1d42293136113f560a9ff6e193752c2af9a724941",
+      "sourceLocator": "657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[2]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[3]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[4]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[5]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[6]",
+      "requiredSourceFragments": [
+        "İlçelerde kaymakamlar",
+        "İlçe idare şube başkanları hakkında valinin muvafakati şarttır."
+      ],
+      "correctOptionId": "Q-O02-B-0087-opt-01",
+      "normalizedCorrectText": "valinin muvafakatine.",
+      "distractorOptionIds": [
+        "Q-O02-B-0087-opt-02",
+        "Q-O02-B-0087-opt-03",
+        "Q-O02-B-0087-opt-04",
+        "Q-O02-B-0087-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0088",
+      "learningObjectiveId": "LO-O02-139-EXT01",
+      "articleNumber": 139,
+      "ruleId": "RULE-Q-O02-B-0088",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Görevinden uzaklaştırılan Devlet memurları hakkında görevden uzaklaştırmayı izleyen 10 iş günü içinde soruşturmaya başlanması şarttır.",
+      "sourceQuoteSHA256": "f95437b8ee0a5f5ae37c20ed5e87c610125d540a0a7284dc9ccc4020a1186603",
+      "sourceLocator": "657 sayılı Kanun m.139; UYAP maddeId=1653751; HTML p[3]",
+      "requiredSourceFragments": [
+        "görevden uzaklaştırmayı izleyen 10 iş günü içinde"
+      ],
+      "correctOptionId": "Q-O02-B-0088-opt-01",
+      "normalizedCorrectText": "görevden uzaklaştırmayı izleyen 10 iş günü içinde.",
+      "distractorOptionIds": [
+        "Q-O02-B-0088-opt-02",
+        "Q-O02-B-0088-opt-03",
+        "Q-O02-B-0088-opt-04",
+        "Q-O02-B-0088-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0089",
+      "learningObjectiveId": "LO-O02-141-EXT01",
+      "articleNumber": 141,
+      "ruleId": "RULE-Q-O02-B-0089",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Görevden uzaklaştırılan ve görevi ile ilgili olsun veya olmasın herhangi bir suçtan tutuklanan veya gözaltına alınan memurlara bu süre içinde aylıklarının üçte ikisi ödenir. Bu gibiler bu Kanunun öngördüğü sosyal hak ve yardımlardan faydalanmaya devam ederler.",
+      "sourceQuoteSHA256": "d0f63d4728f70fe1c157192bf2a01d8ef6ac5fce662d9d56bee6a324367491e9",
+      "sourceLocator": "657 sayılı Kanun m.141; UYAP maddeId=1653756; HTML p[3]",
+      "requiredSourceFragments": [
+        "aylıklarının üçte ikisi ödenir",
+        "sosyal hak ve yardımlardan faydalanmaya devam ederler"
+      ],
+      "correctOptionId": "Q-O02-B-0089-opt-01",
+      "normalizedCorrectText": "aylığının üçte ikisi ödenir; kanunun öngördüğü sosyal hak ve yardımlardan yararlanmaya devam eder.",
+      "distractorOptionIds": [
+        "Q-O02-B-0089-opt-02",
+        "Q-O02-B-0089-opt-03",
+        "Q-O02-B-0089-opt-04",
+        "Q-O02-B-0089-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0090",
+      "learningObjectiveId": "LO-O02-142-EXT01",
+      "articleNumber": 142,
+      "ruleId": "RULE-Q-O02-B-0090",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 142 – Soruşturma sonunda disiplin yüzünden memurluktan çıkarma veya cezai bir işlem uygulanmasına lüzum kalmıyan Devlet memurları için alınmış olan görevden uzaklaştırma tedbiri, 138 inci maddedeki yetkililerce (Müfettişler tarafından görevden uzaklaştırılanlar hakkında atamaya yetkili amirlerce) derhal kaldırılır.",
+      "sourceQuoteSHA256": "24be169765c1abe641d3c9ccded7bbfb42a3b925bfb2494c9559b2756544a445",
+      "sourceLocator": "657 sayılı Kanun m.142; UYAP maddeId=1653759; HTML p[2]",
+      "requiredSourceFragments": [
+        "Müfettişler tarafından görevden uzaklaştırılanlar hakkında atamaya yetkili amirlerce",
+        "derhal kaldırılır"
+      ],
+      "correctOptionId": "Q-O02-B-0090-opt-01",
+      "normalizedCorrectText": "atamaya yetkili amir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0090-opt-02",
+        "Q-O02-B-0090-opt-03",
+        "Q-O02-B-0090-opt-04",
+        "Q-O02-B-0090-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0091",
+      "learningObjectiveId": "LO-O02-143-EXT01",
+      "articleNumber": 143,
+      "ruleId": "RULE-Q-O02-B-0091",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 143 – Soruşturma veya yargılama sonunda yetkili mercilerce:\na) Haklarında memurluktan çıkarmadan başka bir disiplin cezası verilenler;\nb) Yargılamanın men'ine veya beraatine karar verilenler;\nc) Hükümden evvel haklarındaki kovuşturma genel af ile kaldırılanlar;\nç) Görevlerine ve memurluklarına ilişkin olsun veya olmasın memurluğa engel olmıyacak bir ceza ile hükümlü olup cezası ertelenenler;\nBu kararların kesinleşmesi üzerine haklarındaki görevden uzaklaştırma tedbiri kaldırılır.",
+      "sourceQuoteSHA256": "365174119a64fe4e2aa4cf4d4ca0aea89f2c54d33f1f82054d23738411c9552c",
+      "sourceLocator": "657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[2]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[3]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[4]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[5]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[6]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[7]",
+      "requiredSourceFragments": [
+        "Bu kararların kesinleşmesi üzerine",
+        "görevden uzaklaştırma tedbiri kaldırılır"
+      ],
+      "correctOptionId": "Q-O02-B-0091-opt-01",
+      "normalizedCorrectText": "maddede sayılan kararların kesinleşmesine.",
+      "distractorOptionIds": [
+        "Q-O02-B-0091-opt-02",
+        "Q-O02-B-0091-opt-03",
+        "Q-O02-B-0091-opt-04",
+        "Q-O02-B-0091-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0092",
+      "learningObjectiveId": "LO-O02-145-EXT01",
+      "articleNumber": 145,
+      "ruleId": "RULE-Q-O02-B-0092",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 145 – Görevden uzaklaştırma; bir disiplin kovuşturması icabından olduğu takdirde en çok 3 ay devam edebilir. Bu süre sonunda hakkında bir karar verilmediği takdirde memur görevine başlatılır.",
+      "sourceQuoteSHA256": "8a1822933d42d877f0b3ac19db27a5667dc1798569babbace9cf7da5f7a614c9",
+      "sourceLocator": "657 sayılı Kanun m.145; UYAP maddeId=1653768; HTML p[2]",
+      "requiredSourceFragments": [
+        "en çok 3 ay devam edebilir",
+        "memur görevine başlatılır"
+      ],
+      "correctOptionId": "Q-O02-B-0092-opt-01",
+      "normalizedCorrectText": "3 ay; bu sürede karar verilmezse memur görevine başlatılır.",
+      "distractorOptionIds": [
+        "Q-O02-B-0092-opt-02",
+        "Q-O02-B-0092-opt-03",
+        "Q-O02-B-0092-opt-04",
+        "Q-O02-B-0092-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0093",
+      "learningObjectiveId": "LO-O02-145-EXT02",
+      "articleNumber": 145,
+      "ruleId": "RULE-Q-O02-B-0093",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Bir ceza kovuşturması icabından olduğu takdirde görevinden uzaklaştırmaya yetkili amir (Müfettişlerin görevinden uzaklaştırdıkları memurlar hakkında atamaya yetkili amir) ilgilinin durumunu her iki ayda bir inceliyerek görevine dönüp dönmemesi hakkında bir karar verir ve ilgiliye de yazı ile tebliğ eder.",
+      "sourceQuoteSHA256": "28dc14f4be230975564990d56dd6916dc44724589fe8b1d38b2880f97855f725",
+      "sourceLocator": "657 sayılı Kanun m.145; UYAP maddeId=1653768; HTML p[3]",
+      "requiredSourceFragments": [
+        "her iki ayda bir inceliyerek",
+        "ilgiliye de yazı ile tebliğ eder"
+      ],
+      "correctOptionId": "Q-O02-B-0093-opt-01",
+      "normalizedCorrectText": "her iki ayda bir; karar ilgiliye yazıyla bildirilir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0093-opt-02",
+        "Q-O02-B-0093-opt-03",
+        "Q-O02-B-0093-opt-04",
+        "Q-O02-B-0093-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0094",
+      "learningObjectiveId": "LO-O02-164-EXT01",
+      "articleNumber": 164,
+      "ruleId": "RULE-Q-O02-B-0094",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Memurlara aylıkları her ayın başında peşin ödenir. Emekliye ayrılma ve ölüm hallerinde o aya ait peşin ödenen aylık, geri alınmaz.",
+      "sourceQuoteSHA256": "e22d5eb97b26e9a5581b7d9c60d7f3329f1c79ad37b0f68c7b05330bbe6f1447",
+      "sourceLocator": "657 sayılı Kanun m.164; UYAP maddeId=1653822; HTML p[3]",
+      "requiredSourceFragments": [
+        "her ayın başında peşin ödenir",
+        "Emekliye ayrılma ve ölüm hallerinde",
+        "geri alınmaz"
+      ],
+      "correctOptionId": "Q-O02-B-0094-opt-01",
+      "normalizedCorrectText": "aylık ay başında peşin ödenir; emekliye ayrılma ve ölüm hâllerinde o aya ait peşin aylık geri alınmaz.",
+      "distractorOptionIds": [
+        "Q-O02-B-0094-opt-02",
+        "Q-O02-B-0094-opt-03",
+        "Q-O02-B-0094-opt-04",
+        "Q-O02-B-0094-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0095",
+      "learningObjectiveId": "LO-O02-165-EXT01",
+      "articleNumber": 165,
+      "ruleId": "RULE-Q-O02-B-0095",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Bir göreve açıktan aday veya asıl memur olarak atananlar, göreve başladıkları günden itibaren aylığa hak kazanırlar.\nBu suretle göreve başlamada ilk aylık, gün hesabiyle ay sonunda ödenir.",
+      "sourceQuoteSHA256": "4ef857540fc6de1660aad17f76c08920dd4c7f40d2b74d1895e1c45925f1830d",
+      "sourceLocator": "657 sayılı Kanun m.165; UYAP maddeId=1653825; HTML p[3]; 657 sayılı Kanun m.165; UYAP maddeId=1653825; HTML p[4]",
+      "requiredSourceFragments": [
+        "göreve başladıkları günden itibaren",
+        "ilk aylık, gün hesabiyle ay sonunda ödenir"
+      ],
+      "correctOptionId": "Q-O02-B-0095-opt-01",
+      "normalizedCorrectText": "göreve başladığı gün hak kazanır; ilk aylık gün hesabıyla ay sonunda ödenir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0095-opt-02",
+        "Q-O02-B-0095-opt-03",
+        "Q-O02-B-0095-opt-04",
+        "Q-O02-B-0095-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0096",
+      "learningObjectiveId": "LO-O02-178-EXT01",
+      "articleNumber": 178,
+      "ruleId": "RULE-Q-O02-B-0096",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "B) (İptal: Anayasa Mahkemesinin 14/2/1997 tarihli ve E: 1997/20, K: 1997/32 sayılı Kararı ile; Yeniden düzenleme: 3/4/1998 - 4359/4) Kurumlar gerektiği takdirde personelini günlük çalışma saatleri dışında fazla çalışma ücreti vermeksizin çalıştırabilirler. Bu durumda personele yaptırılacak fazla çalışmanın her sekiz saati için bir gün hesabı ile izin verilir. Ancak, bu suretle verilecek iznin en çok on günlük kısmı yıllık izinle birleştirilerek yılı içinde kullandırılabilir.",
+      "sourceQuoteSHA256": "e46680956bd04246ebd4991cf43b8fb6b2eef20ae534af674c7d4051f2f2e80e",
+      "sourceLocator": "657 sayılı Kanun m.178; UYAP maddeId=1653860; HTML p[8]",
+      "requiredSourceFragments": [
+        "her sekiz saati için bir gün",
+        "en çok on günlük kısmı",
+        "yılı içinde"
+      ],
+      "correctOptionId": "Q-O02-B-0096-opt-01",
+      "normalizedCorrectText": "her 8 saat için 1 gün izin; bunun en çok 10 günlük kısmı yıllık izinle birleştirilerek yılı içinde kullandırılabilir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0096-opt-02",
+        "Q-O02-B-0096-opt-03",
+        "Q-O02-B-0096-opt-04",
+        "Q-O02-B-0096-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0097",
+      "learningObjectiveId": "LO-O02-202-EXT01",
+      "articleNumber": 202,
+      "ruleId": "RULE-Q-O02-B-0097",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Devlet memurunun, geçimini sağladığı üvey çocukları için de bu ödenek verilir.",
+      "sourceQuoteSHA256": "558afccee4e3c9ff61548c03638eda2b98df46beb67506ad57df7e5cd8580473",
+      "sourceLocator": "657 sayılı Kanun m.202; UYAP maddeId=1653922; HTML p[6]",
+      "requiredSourceFragments": [
+        "geçimini sağladığı üvey çocukları için de"
+      ],
+      "correctOptionId": "Q-O02-B-0097-opt-01",
+      "normalizedCorrectText": "evet; geçimini sağladığı üvey çocuklar için de ödenek verilir.",
+      "distractorOptionIds": [
+        "Q-O02-B-0097-opt-02",
+        "Q-O02-B-0097-opt-03",
+        "Q-O02-B-0097-opt-04",
+        "Q-O02-B-0097-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0098",
+      "learningObjectiveId": "LO-O02-203-EXT01",
+      "articleNumber": 203,
+      "ruleId": "RULE-Q-O02-B-0098",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Aile yardımı ödenekleri hiç bir vergi ve kesintiye tabi tutulmaksızın ödenir ve borç için haczedilemez.",
+      "sourceQuoteSHA256": "4ad072e00fada8f4e89e64283464532d1c8f9b7822d5b6ba0441590b770342db",
+      "sourceLocator": "657 sayılı Kanun m.203; UYAP maddeId=1653925; HTML p[4]",
+      "requiredSourceFragments": [
+        "hiç bir vergi ve kesintiye tabi tutulmaksızın",
+        "borç için haczedilemez"
+      ],
+      "correctOptionId": "Q-O02-B-0098-opt-01",
+      "normalizedCorrectText": "hiçbir vergi ve kesintiye tabi tutulmaksızın ödenir; borç için haczedilemez.",
+      "distractorOptionIds": [
+        "Q-O02-B-0098-opt-02",
+        "Q-O02-B-0098-opt-03",
+        "Q-O02-B-0098-opt-04",
+        "Q-O02-B-0098-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0099",
+      "learningObjectiveId": "LO-O02-204-EXT01",
+      "articleNumber": 204,
+      "ruleId": "RULE-Q-O02-B-0099",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 204 – Memur, eş için ödenen aile yardımı ödeneğine evlendiği; çocuk için ödenen yardıma da çocuğunun doğduğu tarihi takip eden ay başından itibaren hak kazanır.",
+      "sourceQuoteSHA256": "c04ef1cd74a024a4093af15cdbf57cead59c6a798618a1defd3fc4dad1634394",
+      "sourceLocator": "657 sayılı Kanun m.204; UYAP maddeId=1653928; HTML p[2]",
+      "requiredSourceFragments": [
+        "evlendiği",
+        "çocuğunun doğduğu tarihi takip eden ay başından"
+      ],
+      "correctOptionId": "Q-O02-B-0099-opt-01",
+      "normalizedCorrectText": "her iki olayın gerçekleştiği tarihi takip eden aybaşından itibaren.",
+      "distractorOptionIds": [
+        "Q-O02-B-0099-opt-02",
+        "Q-O02-B-0099-opt-03",
+        "Q-O02-B-0099-opt-04",
+        "Q-O02-B-0099-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O02-B-0100",
+      "learningObjectiveId": "LO-O02-208-EXT01",
+      "articleNumber": 208,
+      "ruleId": "RULE-Q-O02-B-0100",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "sourceQuote": "Madde 208 – (Değişik birinci fıkra: 6/7/1995 – KHK-562/4 md.) Devlet memurlarından: memur olmayan eşi ile (…)[280] aile yardımı ödeneğine müstehak çocuğu ölenlere en yüksek Devlet memuru aylığı (ek gösterge dahil) tutarında, memurun ölümü halinde sağlığında bildiri ile gösterdiği kimseye, eğer bildiri vermemiş ise eşine ve çocuklarına, bunlar yoksa ana ve babasına, bunlar da yoksa kardeşlerine en yüksek Devlet memuru aylığının (ek gösterge dahil) iki katı tutarında, ölüm yardımı ödeneği verilir.",
+      "sourceQuoteSHA256": "d19e481052ec05e2d2cf2d955fcf080ecbafb96f1984674e5e1c5d5dfaed1205",
+      "sourceLocator": "657 sayılı Kanun m.208; UYAP maddeId=1653939; HTML p[2]",
+      "requiredSourceFragments": [
+        "eğer bildiri vermemiş ise eşine ve çocuklarına",
+        "bunlar yoksa ana ve babasına",
+        "bunlar da yoksa kardeşlerine"
+      ],
+      "correctOptionId": "Q-O02-B-0100-opt-01",
+      "normalizedCorrectText": "önce eş ve çocuklar; bunlar yoksa ana ve baba; bunlar da yoksa kardeşler.",
+      "distractorOptionIds": [
+        "Q-O02-B-0100-opt-02",
+        "Q-O02-B-0100-opt-03",
+        "Q-O02-B-0100-opt-04",
+        "Q-O02-B-0100-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official provision review; source fragment matching alone is insufficient.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    }
+  ]
+}

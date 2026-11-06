@@ -1,0 +1,1566 @@
+{
+  "schemaVersion": 1,
+  "status": "ProposedForIndependentReview",
+  "topicId": "O02",
+  "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "objectives": [
+    {
+      "id": "LO-O02-004-EXT01",
+      "topicId": "O02",
+      "subtopic": "İstihdam şekilleri:",
+      "legalProvisionId": "LP-657-4",
+      "articleNumber": 4,
+      "clause": "A",
+      "learningObjective": "Memur tanımının asli ve sürekli hizmet ölçütünü belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0019"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.4; UYAP maddeId=1653313; HTML p[5]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-006-EXT01",
+      "topicId": "O02",
+      "subtopic": "Sadakat:",
+      "legalProvisionId": "LP-657-6",
+      "articleNumber": 6,
+      "clause": null,
+      "learningObjective": "Asli memurluk yemininin zamanını ve belgenin yerini belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0020"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.6; UYAP maddeId=1653321; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-007-EXT01",
+      "topicId": "O02",
+      "subtopic": "Tarafsızlık ve devlete bağlılık:",
+      "legalProvisionId": "LP-657-7",
+      "articleNumber": 7,
+      "clause": null,
+      "learningObjective": "Hizmet sunumunda siyasi ayrım yasağını olaya uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0021"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.7; UYAP maddeId=1653324; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-008-EXT01",
+      "topicId": "O02",
+      "subtopic": "Davranış ve işbirliği:",
+      "legalProvisionId": "LP-657-8",
+      "articleNumber": 8,
+      "clause": null,
+      "learningObjective": "İtibar ve güven yükümlülüğünün hizmet dışına uzandığını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0022"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.8; UYAP maddeId=1653327; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-009-EXT01",
+      "topicId": "O02",
+      "subtopic": "Yurt dışında davranış:",
+      "legalProvisionId": "LP-657-9",
+      "articleNumber": 9,
+      "clause": null,
+      "learningObjective": "Yurt dışında davranış yasağına tabi görevlendirme türlerini belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0023"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.9; UYAP maddeId=1653330; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-010-EXT01",
+      "topicId": "O02",
+      "subtopic": "Amir durumda olan devlet memurlarının görev ve sorumlulukları:[16]",
+      "legalProvisionId": "LP-657-10",
+      "articleNumber": 10,
+      "clause": null,
+      "learningObjective": "Amirin maiyetinden borç alma yasağını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0024"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.10; UYAP maddeId=1653333; HTML p[5]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-011-EXT01",
+      "topicId": "O02",
+      "subtopic": "Devlet memurlarının görev ve sorumlulukları:",
+      "legalProvisionId": "LP-657-11",
+      "articleNumber": 11,
+      "clause": null,
+      "learningObjective": "Suç oluşturmayan hukuka aykırı emirde yazılı ısrar ve sorumluluğu ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0025"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[4]; 657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[5]; 657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[6]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-011-EXT02",
+      "topicId": "O02",
+      "subtopic": "Devlet memurlarının görev ve sorumlulukları:",
+      "legalProvisionId": "LP-657-11",
+      "articleNumber": 11,
+      "clause": null,
+      "learningObjective": "Konusu suç olan emirde yazılılık savunmasının geçersizliğini uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0026"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[5]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-012-EXT01",
+      "topicId": "O02",
+      "subtopic": "Kişisel sorumluluk ve zarar:",
+      "legalProvisionId": "LP-657-12",
+      "articleNumber": 12,
+      "clause": null,
+      "learningObjective": "Memurun idareye verdiği zararın değerleme esasını belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0027"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.12; UYAP maddeId=1653338; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-013-EXT01",
+      "topicId": "O02",
+      "subtopic": "Kişilerin uğradıkları zararlar:",
+      "legalProvisionId": "LP-657-13",
+      "articleNumber": 13,
+      "clause": null,
+      "learningObjective": "Kamu görevi zararında davalı kurum ve rücu ayrımını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0028"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.13; UYAP maddeId=1653341; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-014-EXT01",
+      "topicId": "O02",
+      "subtopic": "Mal bildirimi:",
+      "legalProvisionId": "LP-657-14",
+      "articleNumber": 14,
+      "clause": null,
+      "learningObjective": "Mal bildiriminin aile ve malvarlığı kapsamını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0029"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.14; UYAP maddeId=1653344; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-015-EXT01",
+      "topicId": "O02",
+      "subtopic": "Basına bilgi veya demeç verme:",
+      "legalProvisionId": "LP-657-15",
+      "articleNumber": 15,
+      "clause": null,
+      "learningObjective": "Kamu görevi hakkında basına bilgi verme yetkisinin merkez ve il ayrımını yapar.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0030"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.15; UYAP maddeId=1653347; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-016-EXT01",
+      "topicId": "O02",
+      "subtopic": "Resmi belge, araç ve gereçlerin yetki verilen mahaller dışına çıkarılmaması ve iadesi:",
+      "legalProvisionId": "LP-657-16",
+      "articleNumber": 16,
+      "clause": null,
+      "learningObjective": "Resmi belge ve araçların iadesinin mirasçılara da uzandığını açıklar.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0031"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.16; UYAP maddeId=1653350; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-018-EXT01",
+      "topicId": "O02",
+      "subtopic": "Güvenlik:",
+      "legalProvisionId": "LP-657-18",
+      "articleNumber": 18,
+      "clause": null,
+      "learningObjective": "Memurluk güvencesinin kanuni sınırını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0032"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.18; UYAP maddeId=1653359; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-021-EXT01",
+      "topicId": "O02",
+      "subtopic": "Müracaat, şikayet ve dava açma:",
+      "legalProvisionId": "LP-657-21",
+      "articleNumber": 21,
+      "clause": null,
+      "learningObjective": "Şikâyette silsile ve şikâyet edilen amiri atlama kuralını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0033"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.21; UYAP maddeId=1653368; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-022-EXT01",
+      "topicId": "O02",
+      "subtopic": "Sendika kurma:",
+      "legalProvisionId": "LP-657-22",
+      "articleNumber": 22,
+      "clause": null,
+      "learningObjective": "Sendika kurma ve üyelik hakkının dayanağını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0034"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.22; UYAP maddeId=1653373; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-024-EXT01",
+      "topicId": "O02",
+      "subtopic": "Kovuşturma ve yargılama:",
+      "legalProvisionId": "LP-657-24",
+      "articleNumber": 24,
+      "clause": null,
+      "learningObjective": "Görev suçları bakımından özel hüküm ilkesini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0035"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.24; UYAP maddeId=1653378; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-025-EXT01",
+      "topicId": "O02",
+      "subtopic": "İsnat ve iftiralara karşı koruma:",
+      "legalProvisionId": "LP-657-25",
+      "articleNumber": 25,
+      "clause": null,
+      "learningObjective": "İsnat ve iftira koşulları gerçekleşince illerdeki koruma makamını belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0036"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.25; UYAP maddeId=1653381; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-026-EXT01",
+      "topicId": "O02",
+      "subtopic": "Toplu eylem ve hareketlerde bulunma yasağı:",
+      "legalProvisionId": "LP-657-26",
+      "articleNumber": 26,
+      "clause": null,
+      "learningObjective": "Kamu hizmetini aksatan toplu göreve gelmeme yasağını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0037"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.26; UYAP maddeId=1653387; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-027-EXT01",
+      "topicId": "O02",
+      "subtopic": "Grev yasağı:",
+      "legalProvisionId": "LP-657-27",
+      "articleNumber": 27,
+      "clause": null,
+      "learningObjective": "Grev yasağının karar, propaganda ve destek boyutlarını ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0038"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.27; UYAP maddeId=1653390; HTML p[2]; 657 sayılı Kanun m.27; UYAP maddeId=1653390; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-028-EXT01",
+      "topicId": "O02",
+      "subtopic": "Ticaret ve diğer kazanç getirici faaliyetlerde bulunma yasağı:",
+      "legalProvisionId": "LP-657-28",
+      "articleNumber": 28,
+      "clause": null,
+      "learningObjective": "Yakınların yasak faaliyeti için bildirim süresini belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0039"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.28; UYAP maddeId=1653393; HTML p[5]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-028-EXT02",
+      "topicId": "O02",
+      "subtopic": "Ticaret ve diğer kazanç getirici faaliyetlerde bulunma yasağı:",
+      "legalProvisionId": "LP-657-28",
+      "articleNumber": 28,
+      "clause": null,
+      "learningObjective": "Ticaret yasağındaki kooperatif kurulu istisnasını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0040"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.28; UYAP maddeId=1653393; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-029-EXT01",
+      "topicId": "O02",
+      "subtopic": "Hediye alma, menfaat sağlama yasağı:",
+      "legalProvisionId": "LP-657-29",
+      "articleNumber": 29,
+      "clause": null,
+      "learningObjective": "Görev dışında menfaat amaçlı hediye kabul yasağını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0041"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.29; UYAP maddeId=1653396; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-030-EXT01",
+      "topicId": "O02",
+      "subtopic": "Denetimindeki teşebbüsten menfaat sağlama yasağı:",
+      "legalProvisionId": "LP-657-30",
+      "articleNumber": 30,
+      "clause": null,
+      "learningObjective": "Denetlenen teşebbüsten dolaylı menfaat yasağını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0042"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.30; UYAP maddeId=1653399; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-031-EXT01",
+      "topicId": "O02",
+      "subtopic": "Gizli bilgileri açıklama yasağı:",
+      "legalProvisionId": "LP-657-31",
+      "articleNumber": 31,
+      "clause": null,
+      "learningObjective": "Gizli bilgi yasağının memurluk sonrasındaki devamını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0043"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.31; UYAP maddeId=1653402; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-036-EXT01",
+      "topicId": "O02",
+      "subtopic": "Tesis edilen sınıflar:[24][25]",
+      "legalProvisionId": "LP-657-36",
+      "articleNumber": 36,
+      "clause": null,
+      "learningObjective": "Fiilen mesleğini icra eden mühendis için hizmet sınıfını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0044"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.36; UYAP maddeId=1653419; HTML p[6]; 657 sayılı Kanun m.36; UYAP maddeId=1653419; HTML p[7]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-048-EXT01",
+      "topicId": "O02",
+      "subtopic": "Genel ve özel şartlar:",
+      "legalProvisionId": "LP-657-48",
+      "articleNumber": 48,
+      "clause": "A/5",
+      "learningObjective": "Af durumunun rüşvet mahkûmiyetine ilişkin genel şarta etkisini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0045"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.48; UYAP maddeId=1653464; HTML p[9]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-050-EXT01",
+      "topicId": "O02",
+      "subtopic": "Sınav şartı:",
+      "legalProvisionId": "LP-657-50",
+      "articleNumber": 50,
+      "clause": null,
+      "learningObjective": "Memuriyete girişte genel sınav şartını ve istisna çerçevesini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0046"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.50; UYAP maddeId=1653471; HTML p[3]; 657 sayılı Kanun m.50; UYAP maddeId=1653471; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-055-EXT01",
+      "topicId": "O02",
+      "subtopic": "Adayların yetiştirilmesi:",
+      "legalProvisionId": "LP-657-55",
+      "articleNumber": 55,
+      "clause": null,
+      "learningObjective": "Aday yetiştirmede eğitim ve stajın sırasını belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0047"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.55; UYAP maddeId=1653487; HTML p[3]; 657 sayılı Kanun m.55; UYAP maddeId=1653487; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-056-EXT01",
+      "topicId": "O02",
+      "subtopic": "Adaylık devresi içinde göreve son verme:",
+      "legalProvisionId": "LP-657-56",
+      "articleNumber": 56,
+      "clause": null,
+      "learningObjective": "2026 düzenlemesinde adaylığa son verme için disiplin eşiğini ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0048"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[2]; 657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-056-EXT02",
+      "topicId": "O02",
+      "subtopic": "Adaylık devresi içinde göreve son verme:",
+      "legalProvisionId": "LP-657-56",
+      "articleNumber": 56,
+      "clause": null,
+      "learningObjective": "Adaylıkta ilişik kesme sonrası yeniden alınmama süresini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0049"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-058-EXT01",
+      "topicId": "O02",
+      "subtopic": "Asli memurluğa atanma:",
+      "legalProvisionId": "LP-657-58",
+      "articleNumber": 58,
+      "clause": null,
+      "learningObjective": "Asli memurluk atamasının geçerli olacağı tarihi belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0050"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.58; UYAP maddeId=1653500; HTML p[3]; 657 sayılı Kanun m.58; UYAP maddeId=1653500; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-059-EXT01",
+      "topicId": "O02",
+      "subtopic": "İstisnai memurluklar:",
+      "legalProvisionId": "LP-657-59",
+      "articleNumber": 59,
+      "clause": null,
+      "learningObjective": "İstisnai kadronun kazanılmış hak ve emeklilik kıdemi etkisini ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0051"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.59; UYAP maddeId=1653503; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-062-EXT01",
+      "topicId": "O02",
+      "subtopic": "Atamalarda görev yerine hareket ve işe başlama süresi:",
+      "legalProvisionId": "LP-657-62",
+      "articleNumber": 62,
+      "clause": null,
+      "learningObjective": "Aynı yerde göreve başlamanın tebliği izleyen iş günü kuralını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0052"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[3]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[4]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[5]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[6]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-062-EXT02",
+      "topicId": "O02",
+      "subtopic": "Atamalarda görev yerine hareket ve işe başlama süresi:",
+      "legalProvisionId": "LP-657-62",
+      "articleNumber": 62,
+      "clause": null,
+      "learningObjective": "İzin veya geçici görev sırasında atamada süre başlangıcını ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0053"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[7]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[8]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[9]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[10]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[11]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-063-EXT01",
+      "topicId": "O02",
+      "subtopic": "İşe başlamama halinde yapılacak işlem:",
+      "legalProvisionId": "LP-657-63",
+      "articleNumber": 63,
+      "clause": null,
+      "learningObjective": "İlk veya yeniden atamada mazeretsiz başlamamanın bir yıllık sonucunu belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0054"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.63; UYAP maddeId=1653515; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-064-EXT01",
+      "topicId": "O02",
+      "subtopic": "Kademe ve kademe ilerlemesi:[141]",
+      "legalProvisionId": "LP-657-64",
+      "articleNumber": 64,
+      "clause": null,
+      "learningObjective": "Kademe ilerlemesinin derece içi ve aylığa ilişkin niteliğini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0055"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.64; UYAP maddeId=1653519; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-064-EXT02",
+      "topicId": "O02",
+      "subtopic": "Kademe ve kademe ilerlemesi:[141]",
+      "legalProvisionId": "LP-657-64",
+      "articleNumber": 64,
+      "clause": null,
+      "learningObjective": "Disiplin cezasız dönem için ilave kademe süresini belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0056"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.64; UYAP maddeId=1653519; HTML p[6]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-067-EXT01",
+      "topicId": "O02",
+      "subtopic": "Kadrosuzluk sebebiyle derece yükselmesi yapamayanların aylıkları:",
+      "legalProvisionId": "LP-657-67",
+      "articleNumber": 67,
+      "clause": null,
+      "learningObjective": "Kadrosuzluk nedeniyle aylık derece ilerlemesinin öğrenim tavanını belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0057"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.67; UYAP maddeId=1653528; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-068-EXT01",
+      "topicId": "O02",
+      "subtopic": "Derece yükselmesinin usul ve şartları:",
+      "legalProvisionId": "LP-657-68",
+      "articleNumber": 68,
+      "clause": "B",
+      "learningObjective": "68/B atamasında kısa yükseköğrenimin ilave hizmet süresini hesaplar.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0058"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[9]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[10]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[11]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[12]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[13]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[14]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-074-EXT01",
+      "topicId": "O02",
+      "subtopic": "Memurların bir kurumdan diğerine nakilleri:",
+      "legalProvisionId": "LP-657-74",
+      "articleNumber": 74,
+      "clause": null,
+      "learningObjective": "Kurumlar arası nakilde kurum muvafakati koşulunu tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0059"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.74; UYAP maddeId=1653551; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-076-EXT01",
+      "topicId": "O02",
+      "subtopic": "Memurların kurumlarınca görevlerinin ve yerlerinin değiştirilmesi:",
+      "legalProvisionId": "LP-657-76",
+      "articleNumber": 76,
+      "clause": null,
+      "learningObjective": "İstekle kurum içi aşağı derece atamasının üç derece sınırını belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0060"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.76; UYAP maddeId=1653557; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-078-EXT01",
+      "topicId": "O02",
+      "subtopic": "Bilgilerini artırmak üzere dış memleketlere gönderilme:",
+      "legalProvisionId": "LP-657-78",
+      "articleNumber": 78,
+      "clause": null,
+      "learningObjective": "Bilgi artırma amacıyla yurt dışına gönderilmede temel ve uzatma süresini belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0061"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[2]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[3]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[4]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[5]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[6]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-083-EXT01",
+      "topicId": "O02",
+      "subtopic": "Muvazzaf askerliğe ayrılan memurların terhislerinde göreve başlatılmaları ile muvazzaf askerlikte geçen sürelerin kademe ve derece intibaklarında değerlendirilmesi:",
+      "legalProvisionId": "LP-657-83",
+      "articleNumber": 83,
+      "clause": null,
+      "learningObjective": "Muvazzaf askerlik sonrası başvuru ve başlatma sürelerinin başlangıçlarını ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0062"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.83; UYAP maddeId=1653578; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-084-EXT01",
+      "topicId": "O02",
+      "subtopic": "Muvazzaf askerliğini yaptıktan sonra Devlet memurluğuna girenlerin kademe intibakları:",
+      "legalProvisionId": "LP-657-84",
+      "articleNumber": 84,
+      "clause": null,
+      "learningObjective": "Askerliğini önceden yapanın adaylığı ve süre değerlendirmesini ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0063"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.84; UYAP maddeId=1653581; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-086-EXT01",
+      "topicId": "O02",
+      "subtopic": "Vekalet görevi ve aylık verilmesinin şartları:",
+      "legalProvisionId": "LP-657-86",
+      "articleNumber": 86,
+      "clause": null,
+      "learningObjective": "Memurlar eliyle vekâlette aylıksızlığın genel esas olduğunu tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0064"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.86; UYAP maddeId=1653586; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-088-EXT01",
+      "topicId": "O02",
+      "subtopic": "İkinci görev verilecek memurlar ve görevler:",
+      "legalProvisionId": "LP-657-88",
+      "articleNumber": 88,
+      "clause": "B",
+      "learningObjective": "Belediye teknik hizmetinin ikinci görev koşullarını birlikte tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0065"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[3]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[4]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[5]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[6]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[7]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[8]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-089-EXT01",
+      "topicId": "O02",
+      "subtopic": "Ders görevi:",
+      "legalProvisionId": "LP-657-89",
+      "articleNumber": 89,
+      "clause": null,
+      "learningObjective": "Ücretli ek ders görevinin personel eksikliği koşulunu tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0066"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.89; UYAP maddeId=1653594; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-091-EXT01",
+      "topicId": "O02",
+      "subtopic": "Kadroları kaldırılan devlet memurları:",
+      "legalProvisionId": "LP-657-91",
+      "articleNumber": 91,
+      "clause": null,
+      "learningObjective": "Kadrosu kaldırılan memurun atanma süresi ve ara dönem haklarını birlikte tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0067"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.91; UYAP maddeId=1653600; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-092-EXT01",
+      "topicId": "O02",
+      "subtopic": "Memurluktan çekilenlerin yeniden atanmaları:",
+      "legalProvisionId": "LP-657-92",
+      "articleNumber": 92,
+      "clause": null,
+      "learningObjective": "Genel yeniden atanma düzenlemesinde çekilme sayısı sınırını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0068"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.92; UYAP maddeId=1653603; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-097-EXT01",
+      "topicId": "O02",
+      "subtopic": "Çekilen ve çekilmiş sayılanların yeniden atanmaları:",
+      "legalProvisionId": "LP-657-97",
+      "articleNumber": 97,
+      "clause": "A",
+      "learningObjective": "Usulüne uygun olağan çekilmede altı aylık yeniden alınmama süresini belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0069"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[3]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[4]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[5]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[6]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[7]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[8]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-098-EXT01",
+      "topicId": "O02",
+      "subtopic": "Memurluğun sona ermesi:",
+      "legalProvisionId": "LP-657-98",
+      "articleNumber": 98,
+      "clause": "b",
+      "learningObjective": "Memurlukta giriş şartının sonradan kaybının statü sonucunu uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0070"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[2]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[3]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[4]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[5]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[6]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[7]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[8]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-099-EXT01",
+      "topicId": "O02",
+      "subtopic": "Çalışma saatleri:[161]",
+      "legalProvisionId": "LP-657-99",
+      "articleNumber": 99,
+      "clause": null,
+      "learningObjective": "Genel haftalık çalışma süresini istisnalarıyla tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0071"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[3]; 657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[4]; 657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[5]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-100-EXT01",
+      "topicId": "O02",
+      "subtopic": "Günlük çalışma saatlerinin tesbiti:[162]",
+      "legalProvisionId": "LP-657-100",
+      "articleNumber": 100,
+      "clause": null,
+      "learningObjective": "Genel günlük saat belirleme yetkisinin merkez ve il ayrımını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0072"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.100; UYAP maddeId=1653635; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-101-EXT01",
+      "topicId": "O02",
+      "subtopic": "Günün 24 saatinde devamlılık gösteren hizmetlerde çalışma saat ve usulünün tesbiti:",
+      "legalProvisionId": "LP-657-101",
+      "articleNumber": 101,
+      "clause": null,
+      "learningObjective": "Gebelik ve doğum sonrasında gece görevi yasağının sürelerini ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0073"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.101; UYAP maddeId=1653638; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-103-EXT01",
+      "topicId": "O02",
+      "subtopic": "Yıllık izinlerin kullanılışı:",
+      "legalProvisionId": "LP-657-103",
+      "articleNumber": 103,
+      "clause": null,
+      "learningObjective": "Kullanılmayan yıllık iznin hangi yıllarda korunduğunu belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0074"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.103; UYAP maddeId=1653643; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-104-EXT01",
+      "topicId": "O02",
+      "subtopic": "Mazeret izni:[166][167][168]",
+      "legalProvisionId": "LP-657-104",
+      "articleNumber": 104,
+      "clause": "A",
+      "learningObjective": "2026 analık izni değişikliğini doğum öncesi ve sonrası süreleriyle tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0075"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[3]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[4]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[5]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[6]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[7]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[8]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[9]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[10]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-104-EXT02",
+      "topicId": "O02",
+      "subtopic": "Mazeret izni:[166][167][168]",
+      "legalProvisionId": "LP-657-104",
+      "articleNumber": 104,
+      "clause": "B",
+      "learningObjective": "İstek üzerine verilen babalık izninin süresini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0076"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-105-EXT01",
+      "topicId": "O02",
+      "subtopic": "Hastalık ve refakat izni:[172]",
+      "legalProvisionId": "LP-657-105",
+      "articleNumber": 105,
+      "clause": null,
+      "learningObjective": "Uzun tedavi gerektiren ve diğer hastalıklarda izin üst sınırlarını ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0077"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.105; UYAP maddeId=1653649; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-108-EXT01",
+      "topicId": "O02",
+      "subtopic": "Aylıksız izin:[173]",
+      "legalProvisionId": "LP-657-108",
+      "articleNumber": 108,
+      "clause": "E",
+      "learningObjective": "Kişisel istekle aylıksız iznin hizmet, parça ve toplam sınırlarını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0078"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.108; UYAP maddeId=1653657; HTML p[7]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-108-EXT02",
+      "topicId": "O02",
+      "subtopic": "Aylıksız izin:[173]",
+      "legalProvisionId": "LP-657-108",
+      "articleNumber": 108,
+      "clause": "F",
+      "learningObjective": "Aylıksız iznin mazereti erken kalkınca dönüş süresini uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0079"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.108; UYAP maddeId=1653657; HTML p[8]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-126-EXT01",
+      "topicId": "O02",
+      "subtopic": "Disiplin cezası vermeye yetkili amir ve kurullar:",
+      "legalProvisionId": "LP-657-126",
+      "articleNumber": 126,
+      "clause": null,
+      "learningObjective": "Disiplin kurulunun ayrı ceza tayin edememesini ve ret sonrası yetkiyi ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0080"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.126; UYAP maddeId=1653713; HTML p[5]; 657 sayılı Kanun m.126; UYAP maddeId=1653713; HTML p[6]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-127-EXT01",
+      "topicId": "O02",
+      "subtopic": "Zamanaşımı:",
+      "legalProvisionId": "LP-657-127",
+      "articleNumber": 127,
+      "clause": null,
+      "learningObjective": "Yargısal iptal sonrası kısa kalan ceza zamanaşımında altı aylık yeniden tesis kuralını uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0081"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.127; UYAP maddeId=1653716; HTML p[7]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-128-EXT01",
+      "topicId": "O02",
+      "subtopic": "Karar süresi:",
+      "legalProvisionId": "LP-657-128",
+      "articleNumber": 128,
+      "clause": null,
+      "learningObjective": "Disiplin amirinin ilk üç cezadaki karar süresini ve başlangıcını belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0082"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.128; UYAP maddeId=1653718; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-131-EXT01",
+      "topicId": "O02",
+      "subtopic": "Cezai kovuşturma ile disiplin kovuşturmasının bir arada yürütülmesi:",
+      "legalProvisionId": "LP-657-131",
+      "articleNumber": 131,
+      "clause": null,
+      "learningObjective": "Ceza kovuşturması ile disiplinin paralel yürüyebileceğini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0083"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.131; UYAP maddeId=1653727; HTML p[2]; 657 sayılı Kanun m.131; UYAP maddeId=1653727; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-132-EXT01",
+      "topicId": "O02",
+      "subtopic": "Uygulama:",
+      "legalProvisionId": "LP-657-132",
+      "articleNumber": 132,
+      "clause": null,
+      "learningObjective": "Aylıktan kesmenin uygulanacağı ayı belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0084"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.132; UYAP maddeId=1653729; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-133-EXT01",
+      "topicId": "O02",
+      "subtopic": "Disiplin cezalarının bir süre sonra özlük dosyasından silinmesi:[191]",
+      "legalProvisionId": "LP-657-133",
+      "articleNumber": 133,
+      "clause": null,
+      "learningObjective": "Özlük dosyasından ceza silinmesi için başvuru süreleriyle otomatik silinmeyi ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0085"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.133; UYAP maddeId=1653732; HTML p[3]; 657 sayılı Kanun m.133; UYAP maddeId=1653732; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-137-EXT01",
+      "topicId": "O02",
+      "subtopic": "Görevden uzaklaştırma:",
+      "legalProvisionId": "LP-657-137",
+      "articleNumber": 137,
+      "clause": null,
+      "learningObjective": "Görevden uzaklaştırmanın ceza değil ihtiyati tedbir olduğunu tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0086"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.137; UYAP maddeId=1653746; HTML p[2]; 657 sayılı Kanun m.137; UYAP maddeId=1653746; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-138-EXT01",
+      "topicId": "O02",
+      "subtopic": "Yetkililer:",
+      "legalProvisionId": "LP-657-138",
+      "articleNumber": 138,
+      "clause": "ç",
+      "learningObjective": "Kaymakamın ilçe idare şube başkanını uzaklaştırmasında vali muvafakatini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0087"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[2]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[3]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[4]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[5]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[6]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-139-EXT01",
+      "topicId": "O02",
+      "subtopic": "Görevden uzaklaştıran amirin sorumluluğu:",
+      "legalProvisionId": "LP-657-139",
+      "articleNumber": 139,
+      "clause": null,
+      "learningObjective": "Uzaklaştırmayı izleyen soruşturmaya başlama süresinde iş günü niteliğini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0088"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.139; UYAP maddeId=1653751; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-141-EXT01",
+      "topicId": "O02",
+      "subtopic": "Görevden uzaklaştırılan veya görevinden uzak kalan memurların hak ve yükümlülüğü:",
+      "legalProvisionId": "LP-657-141",
+      "articleNumber": 141,
+      "clause": null,
+      "learningObjective": "Görevden uzaklaştırmada aylık oranı ve sosyal hakların devamını ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0089"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.141; UYAP maddeId=1653756; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-142-EXT01",
+      "topicId": "O02",
+      "subtopic": "Tedbirin kaldırılması:",
+      "legalProvisionId": "LP-657-142",
+      "articleNumber": 142,
+      "clause": null,
+      "learningObjective": "Müfettişçe uygulanan uzaklaştırmanın kaldırılacağı makamı ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0090"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.142; UYAP maddeId=1653759; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-143-EXT01",
+      "topicId": "O02",
+      "subtopic": "Memurun göreve tekrar başlatılması zorunlu olan haller:",
+      "legalProvisionId": "LP-657-143",
+      "articleNumber": 143,
+      "clause": null,
+      "learningObjective": "Zorunlu göreve başlatmada kararın kesinleşmesi koşulunu tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0091"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[2]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[3]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[4]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[5]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[6]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[7]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-145-EXT01",
+      "topicId": "O02",
+      "subtopic": "Süre:",
+      "legalProvisionId": "LP-657-145",
+      "articleNumber": 145,
+      "clause": null,
+      "learningObjective": "Disiplin kovuşturmasında uzaklaştırmanın üç aylık üst sınırını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0092"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.145; UYAP maddeId=1653768; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-145-EXT02",
+      "topicId": "O02",
+      "subtopic": "Süre:",
+      "legalProvisionId": "LP-657-145",
+      "articleNumber": 145,
+      "clause": null,
+      "learningObjective": "Ceza kovuşturmasında uzaklaştırmanın periyodik inceleme süresini belirler.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0093"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.145; UYAP maddeId=1653768; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-164-EXT01",
+      "topicId": "O02",
+      "subtopic": "Aylığın ödeme zamanı ve Esasları:[270]",
+      "legalProvisionId": "LP-657-164",
+      "articleNumber": 164,
+      "clause": null,
+      "learningObjective": "Memur aylığının peşin ödenmesi ve iki geri almama hâlini tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0094"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.164; UYAP maddeId=1653822; HTML p[3]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-165-EXT01",
+      "topicId": "O02",
+      "subtopic": "Açıktan atanmada aylığa hak kazanma:",
+      "legalProvisionId": "LP-657-165",
+      "articleNumber": 165,
+      "clause": null,
+      "learningObjective": "Açıktan atamada aylık hakkının fiili göreve başlamayla doğduğunu uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0095"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.165; UYAP maddeId=1653825; HTML p[3]; 657 sayılı Kanun m.165; UYAP maddeId=1653825; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-178-EXT01",
+      "topicId": "O02",
+      "subtopic": "Fazla çalışma ücreti:",
+      "legalProvisionId": "LP-657-178",
+      "articleNumber": 178,
+      "clause": "B",
+      "learningObjective": "Ücretsiz fazla çalışmanın izin dönüşüm oranını ve yıllık izinle birleştirme sınırını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0096"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.178; UYAP maddeId=1653860; HTML p[8]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-202-EXT01",
+      "topicId": "O02",
+      "subtopic": "Aile yardımı ödeneği:[276]",
+      "legalProvisionId": "LP-657-202",
+      "articleNumber": 202,
+      "clause": null,
+      "learningObjective": "Geçimi sağlanan üvey çocuğun aile yardımı kapsamını tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0097"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.202; UYAP maddeId=1653922; HTML p[6]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-203-EXT01",
+      "topicId": "O02",
+      "subtopic": "Aile yardımı ödeneğinin ödeme usulü:",
+      "legalProvisionId": "LP-657-203",
+      "articleNumber": 203,
+      "clause": null,
+      "learningObjective": "Aile yardımının vergi, kesinti ve haciz bakımından korumasını birlikte tanır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0098"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.203; UYAP maddeId=1653925; HTML p[4]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-204-EXT01",
+      "topicId": "O02",
+      "subtopic": "Aile yardımı ödeneğine hak kazanma:",
+      "legalProvisionId": "LP-657-204",
+      "articleNumber": 204,
+      "clause": null,
+      "learningObjective": "Evlilik ve doğumda aile yardımı başlangıcını izleyen aybaşı olarak uygular.",
+      "importance": "high",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0099"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.204; UYAP maddeId=1653928; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    },
+    {
+      "id": "LO-O02-208-EXT01",
+      "topicId": "O02",
+      "subtopic": "Ölüm yardımı ödeneği:",
+      "legalProvisionId": "LP-657-208",
+      "articleNumber": 208,
+      "clause": null,
+      "learningObjective": "Memurun ölüm yardımında bildirim ve yakınlık sırasını ayırır.",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-O02-B-0100"
+      ],
+      "learningStatus": "Unmeasured",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.208; UYAP maddeId=1653939; HTML p[2]",
+      "scopeStatus": "SourceBoundWithinExplicitO02Articles1To212",
+      "approvalStatus": "ProposedForIndependentReview"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
+import { createStudyTimingTracker } from './core/study-timing';
+import { matchesPublishedStudy } from './core/content-authority';
+import { createFeatureController, profileStorage } from './feature-controller';
 import { TOPICS, daysUntilExam } from './core/curriculum';
 import historicalCatalog from '../data/historical-catalog.json';
 import contentManifest from '../data/content-manifest.json';
@@ -69,10 +72,16 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
     export function gysApp(dependencies = {}) {
       const repository = dependencies.repository || createContentRepository(contentManifest);
       // Keep database connections outside Alpine's reactive proxies.
-      const attemptStore = dependencies.attemptStore || (typeof indexedDB === 'undefined' ? null : createAttemptStore());
+      let attemptStore = dependencies.attemptStore || (typeof indexedDB === 'undefined' ? null : createAttemptStore());
       let baselineState = null;
+      let studyTiming=createStudyTimingTracker();
       const clone = value => JSON.parse(JSON.stringify(value));
+      let workspaceStorage = null;
+      const storage = () => workspaceStorage || localStorage;
+      const features = createFeatureController({repository,getJournal:()=>attemptStore,getLegacy:()=>({schemaVersion:1,state:baselineState?{...clone(baselineState),settings:clone(appState?.settings||baselineState.settings),hearts:appState?.hearts??baselineState.hearts}:clone(appState),questions:clone(appQuestions)})});
+      let appState=null;let appQuestions=[];
       return {
+        ...features,
         activeTab: 'home',
         historicalCatalog,
         notice: '',
@@ -117,13 +126,20 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         },
 
         async initApp() {
+          if(typeof window!=='undefined'&&typeof indexedDB!=='undefined'){
+            try{
+              const profile=await this.loadFeatureProfile();
+              if(profile){workspaceStorage=profileStorage(localStorage,profile);attemptStore=createAttemptStore('gys_attempts_v1:'+profile.profileId);}
+            }catch(error){this.notice='Veri profili okunamadı: '+error.message;this.storageBlocked=true;}
+          }
           // Original v1 keys are read-only. All future writes use one versioned envelope.
-          const loaded = readWorkspace(localStorage, this.state);
+          const loaded = readWorkspace(storage(), this.state);
           this.state = loaded.state;
           baselineState = clone(loaded.state);
-          this.storageBlocked = Boolean(loaded.error);
-          this.notice = loaded.error || '';
+          this.storageBlocked = this.storageBlocked || Boolean(loaded.error);
+          this.notice = loaded.error || this.notice;
           this.questions = loaded.questions || [...SEED_QUESTIONS];
+          appState=this.state;appQuestions=this.questions;
 
           // Opening the app is not evidence of studying. Only an answer marks an active day.
           const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Istanbul' }).format(new Date());
@@ -147,6 +163,10 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
               if (active) { this.activeAttempt = active; this.notice = 'Yarım kalan çalışma kaydedildi. Devam düğmesiyle sürdürebilirsiniz.'; }
             } catch (error) { this.notice = 'Çalışma kayıtları açılamadı: ' + error.message; }
           }
+          appState=this.state;appQuestions=this.questions;
+          if(typeof window!=='undefined'&&typeof indexedDB!=='undefined'){
+            try{await this.initFeatures();}catch(error){this.notice='Yardımcı kayıtlar hazırlanamadı: '+error.message;}
+          }
         },
 
         saveState() {
@@ -154,7 +174,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
             this.notice = 'Yerel kayıt okunamadı. Veriler korunuyor; geri yükleme öncesi yedek alın.';
             return;
           }
-          try { saveWorkspace(localStorage, baselineState ? { ...baselineState, settings: clone(this.state.settings),hearts:this.state.hearts } : this.state, this.questions); }
+          try { saveWorkspace(storage(), baselineState ? { ...baselineState, settings: clone(this.state.settings),hearts:this.state.hearts } : this.state, this.questions); }
           catch { this.notice = 'Kayıt yapılamadı. Depolama alanını kontrol edin ve yedek alın.'; }
         },
 
@@ -173,9 +193,9 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           if (persist) {
             if (this.storageBlocked) throw new Error('Yerel kayıt korunuyor; yeni içerik yazılamaz.');
             // Commit persistent bytes first; failed writes must not change the visible bank.
-            saveWorkspace(localStorage, baselineState ? {...baselineState,settings:clone(this.state.settings),hearts:this.state.hearts} : this.state, next);
+            saveWorkspace(storage(), baselineState ? {...baselineState,settings:clone(this.state.settings),hearts:this.state.hearts} : this.state, next);
           }
-          this.questions = next;
+          this.questions = next;appQuestions=this.questions;
         },
 
         studyQuestions() {
@@ -183,11 +203,12 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
             const topic = DEFAULT_CURRICULUM.find(t => t.code === q.topicId);
             const source = chunk.snapshots.find(s => s.id === q.sourceSnapshotId);
             return { id: q.id, version: q.version, topicId: q.topicId,
+              learningObjectiveId:q.learningObjectiveId,difficulty:q.difficulty,cognitiveType:q.cognitiveType,
               q: q.text, opts: q.options.map(o => o.text), optionIds: q.options.map(o => o.id),
               correctOptionId: q.correctOptionId,
               ans: q.options.findIndex(o => o.id === q.correctOptionId), exp: q.explanation,
               topic: topic.topic, cat: topic.cat, weight: topic.weight,
-              distractorExplanations: q.distractorExplanations || {},
+              distractorExplanations: q.distractorExplanations || [],
               sourceUrl: source.sourceUrl, sourceLocator: q.sourceLocator,sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:source.contentHash,legalEdition:source.legalEdition };
           }));
         },
@@ -261,7 +282,8 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         },
 
         // Konu Bazlı Ders Başlat (%30 Hata Serpiştirmeli)
-        async startTopicQuiz(topicItem) {
+        async startTopicQuiz(topicItem, filters={}) {
+          if(this.strictView?.status==='active'||this.strictUntrusted||this.profileSwitched){this.notice='Aktif sınav veya değişen veri profili nedeniyle konu çalışması açılmadı.';return;}
           if (this.loadingContent) return;
           if (this.activeAttempt) { this.notice = 'Önce yarım kalan çalışmayı sürdürün veya sonucunu kaydederek bitirin.'; return; }
           this.loadingContent = true;
@@ -272,7 +294,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
             this.state.hearts = 5;
           }
           const size = this.state.settings.quizSize || 10;
-          const pool = this.studyQuestions().filter(q => q.topic === topicItem.topic);
+          const pool = this.studyQuestions().filter(q => q.topic === topicItem.topic && (!filters.difficulty||filters.difficulty==='all'||q.difficulty===filters.difficulty) && (!filters.provision||filters.provision==='all'||q.sourceLocator===filters.provision));
           if (!pool.length) { this.notice = 'Bu konuda onaylı soru henüz yok. Kaynak doğrulaması bekleniyor.'; return; }
 
           const selected = [];
@@ -298,6 +320,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         fromSavedQuestion(q) {
           const topic=DEFAULT_CURRICULUM.find(t=>t.code===q.topicId);
           return {id:q.id,version:q.version,topicId:q.topicId,topic:q.topic,cat:topic?.cat,weight:q.weight,
+            learningObjectiveId:q.learningObjectiveId,difficulty:q.difficulty,cognitiveType:q.cognitiveType,distractorExplanations:q.distractorExplanations||[],
             q:q.text,opts:q.options.map(o=>o.text),optionIds:q.options.map(o=>o.id),correctOptionId:q.correctOptionId,
             ans:q.options.findIndex(o=>o.id===q.correctOptionId),exp:q.explanation,sourceUrl:q.sourceUrl,sourceLocator:q.sourceLocator,
             sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:q.sourceContentHash,legalEdition:q.legalEdition};
@@ -305,6 +328,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
 
         // Sadece Hataları Eritme Testi
         async startMistakeQuiz() {
+          if(this.strictView?.status==='active'||this.strictUntrusted||this.profileSwitched){this.notice='Aktif sınav sırasında yardımcı çalışma kapalıdır.';return;}
           if (this.activeAttempt) { this.notice = 'Önce yarım kalan çalışmayı tamamlayın.'; return; }
           try {
             const topics=new Set(this.mistakeList().map(m=>m.qObj.topicId).filter(Boolean));
@@ -318,22 +342,31 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
 
         // GYS Ağırlıklı Genel Simülasyon
         startWeightedExam() {
+          if(this.toolsReady){this.openTool('exams');return;}
           this.notice = 'Tam deneme henüz hazır değil. Her konuda yeterli onaylı soru ve Strict Mode testleri tamamlandığında açılacak.';
+        },
+
+        writeStudy(callback) {
+          if(this.storageBlocked||this.profileSwitched)throw new Error('Kayıt koruması açık; yenileyerek devam edin.');
+          return typeof window==='undefined'?callback():this.withProfileWrite(callback);
         },
 
         async launchQuiz(title, items) {
           if (!items || items.length === 0) return;
           if (attemptStore) {
             try {
-              this.activeAttempt = await attemptStore.start({title, mode:'study', questions:items.map(q => ({
+              this.activeAttempt = await this.writeStudy(() => attemptStore.start({title, mode:'study', questions:clone(items.map(q => ({
                 id:String(q.id),version:q.version,topicId:q.topicId,topic:q.topic,weight:q.weight,text:q.q,
                 options:q.opts.map((text,i) => ({id:q.optionIds[i],text})),correctOptionId:q.correctOptionId,
                 explanation:q.exp,sourceUrl:q.sourceUrl,sourceLocator:q.sourceLocator,
+                learningObjectiveId:q.learningObjectiveId,difficulty:q.difficulty,cognitiveType:q.cognitiveType,distractorExplanations:q.distractorExplanations,
                 sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:q.sourceContentHash,legalEdition:q.legalEdition
-              }))});
+              })))}));
             } catch (error) { this.notice = error.message; return; }
           } else if (typeof window !== 'undefined') { this.notice = 'IndexedDB kullanılamıyor; güvenilir kayıt için çalışma başlatılmadı.'; return; }
           this.notice = '';
+          studyTiming=createStudyTimingTracker();studyTiming.setVisible(typeof document==='undefined'||!document.hidden);studyTiming.view(String(items[0].id));
+          this.errorReasonChoice='';this.explanationText='';this.explanationResult=null;
           this.quiz = {
             active: true,
             summary: false,
@@ -346,6 +379,9 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
             correctCount: 0
           };
         },
+
+        tickStudyTiming(visible=true){return studyTiming.tick(visible);},
+        setStudyVisibility(visible){studyTiming.setVisible(visible);},
 
         currentQ() {
           return this.quiz.items[this.quiz.index] || null;
@@ -381,15 +417,17 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           if (this.quiz.selected === null || this.quiz.checked || this.savingAnswer) return;
           const q = this.currentQ();
           const correct = this.quiz.selected === q.ans;
+          const timing=studyTiming.finish(String(q.id));
           if (attemptStore && this.activeAttempt) {
             this.savingAnswer = true;
             try {
-              this.activeAttempt = await attemptStore.saveAnswer(this.activeAttempt.id, {
-                questionId:String(q.id),selectedOptionId:q.optionIds[this.quiz.selected],expectedRevision:this.activeAttempt.revision
-              });
+              this.activeAttempt = await this.writeStudy(() => attemptStore.saveAnswer(this.activeAttempt.id, {
+                questionId:String(q.id),selectedOptionId:q.optionIds[this.quiz.selected],activeTimeMs:timing?.activeTimeMs??undefined,expectedRevision:this.activeAttempt.revision
+              }));
               this.quiz.checked = true; this.quiz.isCorrect = correct;
               this.quiz.correctCount = this.activeAttempt.answers.filter(a => a.correct).length;
               await this.refreshJournalProgress(); this.playTone(correct);
+              if(!correct&&this.toolsReady)await this.recordStudyError();
               if(!correct&&this.state.settings.examMode){this.state.hearts=Math.max(0,this.state.hearts-1);this.saveState();}
             } catch (error) { this.notice = error.message; }
             finally { this.savingAnswer = false; }
@@ -448,7 +486,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
               if (this.quiz.index + 1 < this.quiz.items.length) {
                 this.savingAnswer=true;
                 try {
-                  this.activeAttempt = await attemptStore.setCursor(this.activeAttempt.id,this.quiz.index+1,this.activeAttempt.revision);
+                  this.activeAttempt = await this.writeStudy(() => attemptStore.setCursor(this.activeAttempt.id,this.quiz.index+1,this.activeAttempt.revision));
                   this.applyAttempt(this.activeAttempt);
                 } finally { this.savingAnswer=false; }
               } else { await this.finishStudy(); }
@@ -475,13 +513,16 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         },
 
         applyAttempt(attempt) {
+          this.errorReasonChoice='';this.explanationText='';this.explanationResult=null;
           this.activeAttempt = attempt;
           const items = attempt.questions.map(q => ({id:q.id,version:q.version,topicId:q.topicId,
+            learningObjectiveId:q.learningObjectiveId,difficulty:q.difficulty,cognitiveType:q.cognitiveType,distractorExplanations:q.distractorExplanations||[],
             q:q.text,opts:q.options.map(o=>o.text),optionIds:q.options.map(o=>o.id),correctOptionId:q.correctOptionId,
             ans:q.options.findIndex(o=>o.id===q.correctOptionId),exp:q.explanation,topic:q.topic,weight:q.weight,
             sourceUrl:q.sourceUrl,sourceLocator:q.sourceLocator,sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:q.sourceContentHash,legalEdition:q.legalEdition}));
           const current=items[attempt.cursor];
           const answer=attempt.answers.find(a=>a.questionId===current.id);
+          if(!answer){studyTiming.setVisible(typeof document==='undefined'||!document.hidden);studyTiming.view(String(current.id));}
           this.quiz={active:attempt.status==='active',summary:attempt.status==='completed',title:attempt.title,
             items,index:attempt.cursor,selected:answer?current.optionIds.indexOf(answer.selectedOptionId):null,
             checked:Boolean(answer),isCorrect:answer?.correct||false,correctCount:attempt.answers.filter(a=>a.correct).length,
@@ -489,23 +530,21 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         },
         async trustedAttempt(attempt) {
           await Promise.all([...new Set(attempt.questions.map(q=>q.topicId))].map(id=>repository.loadTopic(id)));
-          const approved=this.studyQuestions();
+          const chunks=repository.loadedChunks();
           return attempt.questions.every(saved=>{
-            const current=approved.find(q=>q.id===saved.id&&q.version===saved.version);
-            if(!current||current.q!==saved.text||current.exp!==saved.explanation||current.correctOptionId!==saved.correctOptionId
-              ||current.topicId!==saved.topicId||current.topic!==saved.topic||current.weight!==saved.weight
-              ||current.sourceSnapshotId!==saved.sourceSnapshotId||current.sourceContentHash!==saved.sourceContentHash
-              ||current.sourceUrl!==saved.sourceUrl||current.sourceLocator!==saved.sourceLocator)return false;
-            return saved.options.length===current.opts.length&&saved.options.every(option=>{
-              const index=current.optionIds.indexOf(option.id);return index>=0&&current.opts[index]===option.text;
-            });
+            const chunk=chunks.find(c=>c.questions.some(q=>q.id===saved.id));
+            const question=chunk?.questions.find(q=>q.id===saved.id);const source=chunk?.snapshots.find(s=>s.id===question?.sourceSnapshotId);
+            const topic=this.curriculum.find(t=>t.code===saved.topicId);
+            return Boolean(question&&source&&topic&&saved.topic===topic.topic&&saved.weight===topic.weight&&matchesPublishedStudy(saved,question,source));
           });
         },
         async resumeStudy() {
+          if(this.strictView?.status==='active'||this.strictUntrusted||this.profileSwitched){this.notice='Aktif tam deneme sırasında konu çalışması açılamaz.';return;}
           if (!attemptStore || !this.activeAttempt) return;
           try {
             const saved=await attemptStore.load(this.activeAttempt.id);
             if(saved){
+              studyTiming=createStudyTimingTracker();
               if(!await this.trustedAttempt(saved)){this.notice='Kayıtlı sorular güncel onaylı paketle eşleşmiyor. Geçmiş kayıt korunur; çalışma sürdürülmedi.';return;}
               if(this.state.settings.examMode)this.state.hearts=Math.max(0,5-saved.answers.filter(a=>!a.correct).length);
               this.applyAttempt(saved);
@@ -517,7 +556,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           if (!attemptStore || !this.activeAttempt || this.savingAnswer) return;
           this.savingAnswer=true;
           try {
-            const saved=await attemptStore.finish(this.activeAttempt.id,this.activeAttempt.revision);
+            const saved=await this.writeStudy(() => attemptStore.finish(this.activeAttempt.id,this.activeAttempt.revision));
             this.applyAttempt(saved);this.activeAttempt=null;
             this.completedAttempts=await attemptStore.listCompleted();await this.refreshJournalProgress();
           } catch(error) { this.notice=error.message; }
@@ -632,7 +671,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           const file=event.target.files[0];if(!file||!attemptStore)return;
           if(file.size>32*1024*1024){this.notice='Dosya32 MB sınırını aşıyor.';return;}
           try{
-            const result=await attemptStore.importJournal(JSON.parse(await file.text()));
+            const result=await this.writeStudy(async() => attemptStore.importJournal(JSON.parse(await file.text())));
             await this.refreshJournalProgress();this.completedAttempts=await attemptStore.listCompleted();this.activeAttempt=await attemptStore.getActive();
             this.notice=result.imported+' yeni çalışma kaydı birleştirildi. Mevcut kayıtlar silinmedi.';
           }catch(error){this.notice='Çalışma yedeği yüklenemedi: '+error.message;}
@@ -647,10 +686,10 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
             try {
               const data = prepareBackup(JSON.parse(e.target.result), { schemaVersion: 1, state: this.state, questions: this.questions });
               if (!confirm(`Doğrulanan yedek: ${data.state.totalAnswered} cevap ve ${data.questions.length} soru kaydı. Cihazdaki ${this.state.totalAnswered} cevaplık ilerlemenin yerini alacak. Devam edilsin mi? Önceki kayıt korunur.`)) return;
-              const restored = restoreBackup(localStorage, data, { schemaVersion: 1, state: this.state, questions: this.questions });
+              const restored = restoreBackup(storage(), data, { schemaVersion: 1, state: this.state, questions: this.questions });
               baselineState=clone(restored.state);
               this.state = restored.state;
-              this.questions = restored.questions;
+              this.questions = restored.questions;appQuestions=this.questions;appState=this.state;
               this.storageBlocked = false;
               this.notice = 'Eski kayıt ve ayarlar geri yüklendi. Yeni çalışma günlüğü ayrı korunur.';
               this.refreshJournalProgress().catch(error=>{this.notice=error.message;});

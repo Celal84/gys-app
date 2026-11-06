@@ -20,7 +20,7 @@ describe('Preserved engine and safe phase-0 behavior', () => {
     expect(app.studyQuestions()).toEqual([]);
   });
   it('does not start an incomplete full exam or fall back to unrelated topic content', async () => {
-    const app = gysApp(); app.questions = [...SEED_QUESTIONS];
+    const app = gysApp({repository:{totalCount:()=>0,countFor:()=>0,loadedChunks:()=>[],loadTopic:async()=>null}}); app.questions = [...SEED_QUESTIONS];
     app.startWeightedExam(); expect(app.quiz.active).toBe(false);
     await app.startTopicQuiz(DEFAULT_CURRICULUM[0]); expect(app.quiz.active).toBe(false);
     expect(app.notice).toContain('onaylı soru henüz yok');

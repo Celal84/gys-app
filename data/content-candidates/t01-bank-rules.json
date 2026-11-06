@@ -1,0 +1,3015 @@
+{
+  "schemaVersion": 1,
+  "batchId": "BATCH-T01-BANK-20261106-01",
+  "status": "ValidationPending",
+  "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+  "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+  "description": "Verbatim source and stable-answer deterministic checks; independent legal/scope review still required.",
+  "rules": [
+    {
+      "questionId": "Q-T01-B-0001",
+      "learningObjectiveId": "LO-T01-003-BANK-0001",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0001",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "a) Tarımsal iskân: Bir aileye projesinde öngörülen miktarda tarım arazisi, işletme binası, konut, irat hayvanı, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır.",
+      "sourceQuoteSHA256": "8f70a8c963a92fda5d815e9c953b6dc6830d9273783fa08dad3b8bf23397f46b",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[18]",
+      "requiredSourceFragments": [
+        "a) Tarımsal iskân: Bir aileye projesinde öngörülen miktarda tarım arazisi, işletme binası, konut, irat hayvanı, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır."
+      ],
+      "correctOptionId": "Q-T01-B-0001-opt-05",
+      "normalizedCorrectText": "tarımsal iskân",
+      "distractorOptionIds": [
+        "Q-T01-B-0001-opt-01",
+        "Q-T01-B-0001-opt-02",
+        "Q-T01-B-0001-opt-03",
+        "Q-T01-B-0001-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "agricultural-definition",
+      "fullHTMLParagraphIndices": [
+        18
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0002",
+      "learningObjectiveId": "LO-T01-003-BANK-0002",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0002",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "b) Tarım dışı iskân: Bir aileye projesinde öngörülen miktarda arsa, konut, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır.",
+      "sourceQuoteSHA256": "39d5bde0a9a126d7a19eed2bf9bf4e2b16c73094277657eb0c43fe7060ab9f25",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[19]",
+      "requiredSourceFragments": [
+        "b) Tarım dışı iskân: Bir aileye projesinde öngörülen miktarda arsa, konut, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır."
+      ],
+      "correctOptionId": "Q-T01-B-0002-opt-03",
+      "normalizedCorrectText": "arsa, konut, araç, gereç, tezgâh ve krediler",
+      "distractorOptionIds": [
+        "Q-T01-B-0002-opt-01",
+        "Q-T01-B-0002-opt-02",
+        "Q-T01-B-0002-opt-04",
+        "Q-T01-B-0002-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nonagricultural-definition",
+      "fullHTMLParagraphIndices": [
+        19
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0003",
+      "learningObjectiveId": "LO-T01-003-BANK-0003",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0003",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "requiredSourceFragments": [
+        "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır."
+      ],
+      "correctOptionId": "Q-T01-B-0003-opt-01",
+      "normalizedCorrectText": "türk vatandaşı olması gerekir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0003-opt-02",
+        "Q-T01-B-0003-opt-03",
+        "Q-T01-B-0003-opt-04",
+        "Q-T01-B-0003-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nomad-citizenship",
+      "fullHTMLParagraphIndices": [
+        21
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0004",
+      "learningObjectiveId": "LO-T01-003-BANK-0004",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0004",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "d) Göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip bu Kanun gereğince kabul olunanlardır.",
+      "sourceQuoteSHA256": "2fc17bd51cdda4b62da5deb46114fa351253d942025001bdf2f7f8a8b58680a4",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[22]",
+      "requiredSourceFragments": [
+        "d) Göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip bu Kanun gereğince kabul olunanlardır."
+      ],
+      "correctOptionId": "Q-T01-B-0004-opt-04",
+      "normalizedCorrectText": "yerleşmek",
+      "distractorOptionIds": [
+        "Q-T01-B-0004-opt-01",
+        "Q-T01-B-0004-opt-02",
+        "Q-T01-B-0004-opt-03",
+        "Q-T01-B-0004-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "migrant-definition",
+      "fullHTMLParagraphIndices": [
+        22
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0005",
+      "learningObjectiveId": "LO-T01-003-BANK-0005",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0005",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "e) Serbest göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip, Devlet eliyle iskân edilmelerini istememek şartıyla yurda kabul edilenlerdir.",
+      "sourceQuoteSHA256": "f36409a3180b3799ed198625dbf7d91f8fe54b82fcc7107f14424d0a8e0142e0",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[23]",
+      "requiredSourceFragments": [
+        "e) Serbest göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip, Devlet eliyle iskân edilmelerini istememek şartıyla yurda kabul edilenlerdir."
+      ],
+      "correctOptionId": "Q-T01-B-0005-opt-02",
+      "normalizedCorrectText": "devlet eliyle iskân edilmeyi istememek",
+      "distractorOptionIds": [
+        "Q-T01-B-0005-opt-01",
+        "Q-T01-B-0005-opt-03",
+        "Q-T01-B-0005-opt-04",
+        "Q-T01-B-0005-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "free-migrant-condition",
+      "fullHTMLParagraphIndices": [
+        23
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0006",
+      "learningObjectiveId": "LO-T01-003-BANK-0006",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0006",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "f) İskânlı göçmen: Türk soyundan ve Türk kültürüne bağlı olup, özel kanunlarla yurt dışından getirilen ve bu Kanun hükümlerine göre taşınmaz mal verilerek iskânları sağlananlardır.",
+      "sourceQuoteSHA256": "10d8efc6dfa1704a730dfa57d08545c5c7583c06dbb0d03cb96bdb4e281a0ddb",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[24]",
+      "requiredSourceFragments": [
+        "f) İskânlı göçmen: Türk soyundan ve Türk kültürüne bağlı olup, özel kanunlarla yurt dışından getirilen ve bu Kanun hükümlerine göre taşınmaz mal verilerek iskânları sağlananlardır."
+      ],
+      "correctOptionId": "Q-T01-B-0006-opt-05",
+      "normalizedCorrectText": "taşınmaz mal verilmesi",
+      "distractorOptionIds": [
+        "Q-T01-B-0006-opt-01",
+        "Q-T01-B-0006-opt-02",
+        "Q-T01-B-0006-opt-03",
+        "Q-T01-B-0006-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "settled-migrant-property",
+      "fullHTMLParagraphIndices": [
+        24
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0007",
+      "learningObjectiveId": "LO-T01-003-BANK-0007",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0007",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "g) Münferit göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yurdumuza yerleşmek amacıyla bir aile olarak gelenlerdir.",
+      "sourceQuoteSHA256": "a919278ad00bc2ef5ff56a21577abe47eed9665ac110c41bd71cc9304bf0fad9",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[25]",
+      "requiredSourceFragments": [
+        "g) Münferit göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yurdumuza yerleşmek amacıyla bir aile olarak gelenlerdir."
+      ],
+      "correctOptionId": "Q-T01-B-0007-opt-03",
+      "normalizedCorrectText": "bir aile olarak gelme",
+      "distractorOptionIds": [
+        "Q-T01-B-0007-opt-01",
+        "Q-T01-B-0007-opt-02",
+        "Q-T01-B-0007-opt-04",
+        "Q-T01-B-0007-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "individual-migrant-unit",
+      "fullHTMLParagraphIndices": [
+        25
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0008",
+      "learningObjectiveId": "LO-T01-003-BANK-0008",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0008",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ğ) Toplu göçmen: Türk soyundan ve Türk kültürüne bağlı olup, iki ülke arasında yapılan anlaşmaya göre yurdumuza yerleşmek amacıyla toplu olarak gelen ailelerdir.",
+      "sourceQuoteSHA256": "137679efd32544cb8dc12776392190bb1e1702f7caebd5c45d52a1bf684e50ed",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[26]",
+      "requiredSourceFragments": [
+        "ğ) Toplu göçmen: Türk soyundan ve Türk kültürüne bağlı olup, iki ülke arasında yapılan anlaşmaya göre yurdumuza yerleşmek amacıyla toplu olarak gelen ailelerdir."
+      ],
+      "correctOptionId": "Q-T01-B-0008-opt-01",
+      "normalizedCorrectText": "iki ülke arasında yapılan anlaşma",
+      "distractorOptionIds": [
+        "Q-T01-B-0008-opt-02",
+        "Q-T01-B-0008-opt-03",
+        "Q-T01-B-0008-opt-04",
+        "Q-T01-B-0008-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "collective-migrant-agreement",
+      "fullHTMLParagraphIndices": [
+        26
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0009",
+      "learningObjectiveId": "LO-T01-004-BANK-0009",
+      "articleNumber": 4,
+      "ruleId": "RULE-Q-T01-B-0009",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 4 – (1) Türk soyundan ve Türk kültürüne bağlı olmayan yabancılar ile Türk soyundan ve Türk kültürüne bağlı bulunup da sınır dışı edilenler ve güvenlik bakımından Türkiye'ye gelmeleri uygun görülmeyenler göçmen olarak kabul edilmezler.",
+      "sourceQuoteSHA256": "ed50987b85ed2b20b9a9d8bb387d403ce7addb4022c344fdde99d1e834eba659",
+      "sourceLocator": "5543 sayılı Kanun m.4; resmî tam HTML p[33]",
+      "requiredSourceFragments": [
+        "MADDE 4 – (1) Türk soyundan ve Türk kültürüne bağlı olmayan yabancılar ile Türk soyundan ve Türk kültürüne bağlı bulunup da sınır dışı edilenler ve güvenlik bakımından Türkiye'ye gelmeleri uygun görülmeyenler göçmen olarak kabul edilmezler."
+      ],
+      "correctOptionId": "Q-T01-B-0009-opt-04",
+      "normalizedCorrectText": "sınır dışı edilen kişi",
+      "distractorOptionIds": [
+        "Q-T01-B-0009-opt-01",
+        "Q-T01-B-0009-opt-02",
+        "Q-T01-B-0009-opt-03",
+        "Q-T01-B-0009-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "expelled-exclusion",
+      "fullHTMLParagraphIndices": [
+        33
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0010",
+      "learningObjectiveId": "LO-T01-005-BANK-0010",
+      "articleNumber": 5,
+      "ruleId": "RULE-Q-T01-B-0010",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "requiredSourceFragments": [
+        "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0010-opt-02",
+      "normalizedCorrectText": "içişleri bakanlığı",
+      "distractorOptionIds": [
+        "Q-T01-B-0010-opt-01",
+        "Q-T01-B-0010-opt-03",
+        "Q-T01-B-0010-opt-04",
+        "Q-T01-B-0010-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "individual-admission-authority",
+      "fullHTMLParagraphIndices": [
+        36
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0011",
+      "learningObjectiveId": "LO-T01-008-BANK-0011",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0011",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "requiredSourceFragments": [
+        "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0011-opt-05",
+      "normalizedCorrectText": "iki yıl",
+      "distractorOptionIds": [
+        "Q-T01-B-0011-opt-01",
+        "Q-T01-B-0011-opt-02",
+        "Q-T01-B-0011-opt-03",
+        "Q-T01-B-0011-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "migrant-document-validity",
+      "fullHTMLParagraphIndices": [
+        49
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0012",
+      "learningObjectiveId": "LO-T01-008-BANK-0012",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0012",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "requiredSourceFragments": [
+        "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0012-opt-03",
+      "normalizedCorrectText": "geçici kimlik belgesi",
+      "distractorOptionIds": [
+        "Q-T01-B-0012-opt-01",
+        "Q-T01-B-0012-opt-02",
+        "Q-T01-B-0012-opt-04",
+        "Q-T01-B-0012-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "migrant-document-function",
+      "fullHTMLParagraphIndices": [
+        49
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0013",
+      "learningObjectiveId": "LO-T01-008-BANK-0013",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0013",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]",
+      "sourceQuoteSHA256": "5ae559de72a72f3415d919bcec2d062ab5b45fc1a8b6420613c7f7e395c05e1c",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "requiredSourceFragments": [
+        "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]"
+      ],
+      "correctOptionId": "Q-T01-B-0013-opt-01",
+      "normalizedCorrectText": "cumhurbaşkanı kararıyla",
+      "distractorOptionIds": [
+        "Q-T01-B-0013-opt-02",
+        "Q-T01-B-0013-opt-03",
+        "Q-T01-B-0013-opt-04",
+        "Q-T01-B-0013-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "naturalization-decision",
+      "fullHTMLParagraphIndices": [
+        50
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0014",
+      "learningObjectiveId": "LO-T01-009-BANK-0014",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0014",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Tarımsal iskân projesinde öngörülen yıllık işletme ve donatım kredilerini, tarım arazilerinin devrinden sonraki iki yıl içinde istemeyen ailelere bu krediler kullandırılmaz.",
+      "sourceQuoteSHA256": "ced34860cf4a08dc3d898f4aaebc6b010fe49783ee5f54aa4e66f525613423fe",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[62]",
+      "requiredSourceFragments": [
+        "(2) Tarımsal iskân projesinde öngörülen yıllık işletme ve donatım kredilerini, tarım arazilerinin devrinden sonraki iki yıl içinde istemeyen ailelere bu krediler kullandırılmaz."
+      ],
+      "correctOptionId": "Q-T01-B-0014-opt-04",
+      "normalizedCorrectText": "iki yıl",
+      "distractorOptionIds": [
+        "Q-T01-B-0014-opt-01",
+        "Q-T01-B-0014-opt-02",
+        "Q-T01-B-0014-opt-03",
+        "Q-T01-B-0014-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "agricultural-credit-request-time",
+      "fullHTMLParagraphIndices": [
+        62
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0015",
+      "learningObjectiveId": "LO-T01-009-BANK-0015",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0015",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(4) Yukarıda sayılanların yeni iskân alanına nakilleri, hazırlanacak nakil projesine göre Devlet tarafından karşılıksız olarak sağlanır.",
+      "sourceQuoteSHA256": "11bd66092797896aae218d73b0771af1600a4b0e9305c9fce809dcf655db2eff",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[64]",
+      "requiredSourceFragments": [
+        "(4) Yukarıda sayılanların yeni iskân alanına nakilleri, hazırlanacak nakil projesine göre Devlet tarafından karşılıksız olarak sağlanır."
+      ],
+      "correctOptionId": "Q-T01-B-0015-opt-02",
+      "normalizedCorrectText": "hazırlanacak nakil projesine göre devletçe karşılıksız",
+      "distractorOptionIds": [
+        "Q-T01-B-0015-opt-01",
+        "Q-T01-B-0015-opt-03",
+        "Q-T01-B-0015-opt-04",
+        "Q-T01-B-0015-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "transfer-cost",
+      "fullHTMLParagraphIndices": [
+        64
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0016",
+      "learningObjectiveId": "LO-T01-010-BANK-0016",
+      "articleNumber": 10,
+      "ruleId": "RULE-Q-T01-B-0016",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 10 – (1) Yurda kabul edilen iskânlı göçmenler, şartların elverdiği yerlerde Bakanlıkça bu Kanun hükümlerine göre iskân olunurlar. Ancak, Türkiye'ye geldikleri tarihten itibaren iki yıl içinde iskânını istemeyen göçmenler, Bakanlıkça iskân edilemezler ve yapılmakta olan karşılıksız yardımlar kesilir.",
+      "sourceQuoteSHA256": "84c16240abcc04fca1c46ec8656a8013231c9ce2e54fe1453cb53625e66c1b35",
+      "sourceLocator": "5543 sayılı Kanun m.10; resmî tam HTML p[67]",
+      "requiredSourceFragments": [
+        "MADDE 10 – (1) Yurda kabul edilen iskânlı göçmenler, şartların elverdiği yerlerde Bakanlıkça bu Kanun hükümlerine göre iskân olunurlar. Ancak, Türkiye'ye geldikleri tarihten itibaren iki yıl içinde iskânını istemeyen göçmenler, Bakanlıkça iskân edilemezler ve yapılmakta olan karşılıksız yardımlar kesilir."
+      ],
+      "correctOptionId": "Q-T01-B-0016-opt-05",
+      "normalizedCorrectText": "türkiye’ye geldikleri tarih",
+      "distractorOptionIds": [
+        "Q-T01-B-0016-opt-01",
+        "Q-T01-B-0016-opt-02",
+        "Q-T01-B-0016-opt-03",
+        "Q-T01-B-0016-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "settled-migrant-request-time",
+      "fullHTMLParagraphIndices": [
+        67
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0017",
+      "learningObjectiveId": "LO-T01-011-BANK-0017",
+      "articleNumber": 11,
+      "ruleId": "RULE-Q-T01-B-0017",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 11 – (1) Göçebeler, İçişleri Bakanlığı ile gerektiğinde diğer ilgili kamu kurum ve kuruluşlarının da görüşleri alınmak suretiyle Bakanlıkça uygun görülecek yerlere bu Kanun hükümlerine göre iskân edilirler. Ancak, iskân duyurusu tarihinin bitiminden sonra yüzseksen gün içinde müracaat etmeyen aileler iskân edilemezler.",
+      "sourceQuoteSHA256": "2f628687a81ae717624f6efd6c1ae11458741169e03afe0057023adf7fc57db3",
+      "sourceLocator": "5543 sayılı Kanun m.11; resmî tam HTML p[70]",
+      "requiredSourceFragments": [
+        "MADDE 11 – (1) Göçebeler, İçişleri Bakanlığı ile gerektiğinde diğer ilgili kamu kurum ve kuruluşlarının da görüşleri alınmak suretiyle Bakanlıkça uygun görülecek yerlere bu Kanun hükümlerine göre iskân edilirler. Ancak, iskân duyurusu tarihinin bitiminden sonra yüzseksen gün içinde müracaat etmeyen aileler iskân edilemezler."
+      ],
+      "correctOptionId": "Q-T01-B-0017-opt-03",
+      "normalizedCorrectText": "yüz seksen gün",
+      "distractorOptionIds": [
+        "Q-T01-B-0017-opt-01",
+        "Q-T01-B-0017-opt-02",
+        "Q-T01-B-0017-opt-04",
+        "Q-T01-B-0017-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nomad-request-time",
+      "fullHTMLParagraphIndices": [
+        70
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0018",
+      "learningObjectiveId": "LO-T01-012-BANK-0018",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0018",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(4) Bu madde kapsamına giren ve Devlet eliyle iskânlarını isteyen ailelerden; iskân duyurusu tarihinin bitiminden sonra doksan gün içinde müracaat etmeyenler ile aldıkları veya alacakları kamulaştırma bedelinin, Bakanlıkça belirlenen miktarını; kamulaştırma bedelinin Bakanlıkça belirlenen miktardan az olması halinde ise kamulaştırma ve tezyidi bedellerinin tamamını, Bakanlık Merkez Muhasebe Birimi Hesabına yatırmayı taahhüt etmeyenler iskân edilmezler.",
+      "sourceQuoteSHA256": "03b4bd729fa158594f7e452d415a97c3e69ae3742c9d8af39e2b28683116ae65",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[79]",
+      "requiredSourceFragments": [
+        "(4) Bu madde kapsamına giren ve Devlet eliyle iskânlarını isteyen ailelerden; iskân duyurusu tarihinin bitiminden sonra doksan gün içinde müracaat etmeyenler ile aldıkları veya alacakları kamulaştırma bedelinin, Bakanlıkça belirlenen miktarını; kamulaştırma bedelinin Bakanlıkça belirlenen miktardan az olması halinde ise kamulaştırma ve tezyidi bedellerinin tamamını, Bakanlık Merkez Muhasebe Birimi Hesabına yatırmayı taahhüt etmeyenler iskân edilmezler."
+      ],
+      "correctOptionId": "Q-T01-B-0018-opt-01",
+      "normalizedCorrectText": "doksan gün",
+      "distractorOptionIds": [
+        "Q-T01-B-0018-opt-02",
+        "Q-T01-B-0018-opt-03",
+        "Q-T01-B-0018-opt-04",
+        "Q-T01-B-0018-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "expropriated-request-time",
+      "fullHTMLParagraphIndices": [
+        79
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0019",
+      "learningObjectiveId": "LO-T01-014-BANK-0019",
+      "articleNumber": 14,
+      "ruleId": "RULE-Q-T01-B-0019",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 14 – (1) 10, 11, 12 ve 13 üncü maddeler kapsamına giren hak sahibi ailelerin, Bakanlığın gösterdiği yerlerde iskân edilmeyi kabul etmemeleri halinde hak sahiplilik durumları Mahalli İskân Komisyonunca iptal edilir. Bu durumdaki aileler ikinci bir iskân talebinde bulunamazlar.",
+      "sourceQuoteSHA256": "3ede279b057494efc55ceb0d2ff6371572faa717b5738a3029a6c07254e53d7d",
+      "sourceLocator": "5543 sayılı Kanun m.14; resmî tam HTML p[85]",
+      "requiredSourceFragments": [
+        "MADDE 14 – (1) 10, 11, 12 ve 13 üncü maddeler kapsamına giren hak sahibi ailelerin, Bakanlığın gösterdiği yerlerde iskân edilmeyi kabul etmemeleri halinde hak sahiplilik durumları Mahalli İskân Komisyonunca iptal edilir. Bu durumdaki aileler ikinci bir iskân talebinde bulunamazlar."
+      ],
+      "correctOptionId": "Q-T01-B-0019-opt-04",
+      "normalizedCorrectText": "mahalli iskân komisyonu",
+      "distractorOptionIds": [
+        "Q-T01-B-0019-opt-01",
+        "Q-T01-B-0019-opt-02",
+        "Q-T01-B-0019-opt-03",
+        "Q-T01-B-0019-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "refusal-effect",
+      "fullHTMLParagraphIndices": [
+        85
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0020",
+      "learningObjectiveId": "LO-T01-017-BANK-0020",
+      "articleNumber": 17,
+      "ruleId": "RULE-Q-T01-B-0020",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "a) Karı ile koca,",
+      "sourceQuoteSHA256": "2036f75cdab07c4d3504d7018902d27a9438a9ca8fef0f99c6912bd2392e0626",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[107]",
+      "requiredSourceFragments": [
+        "a) Karı ile koca,"
+      ],
+      "correctOptionId": "Q-T01-B-0020-opt-02",
+      "normalizedCorrectText": "karı ile koca",
+      "distractorOptionIds": [
+        "Q-T01-B-0020-opt-01",
+        "Q-T01-B-0020-opt-03",
+        "Q-T01-B-0020-opt-04",
+        "Q-T01-B-0020-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "family-spouses",
+      "fullHTMLParagraphIndices": [
+        107
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0021",
+      "learningObjectiveId": "LO-T01-019-BANK-0021",
+      "articleNumber": 19,
+      "ruleId": "RULE-Q-T01-B-0021",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 19 – (1) Bu Kanun hükümlerine göre verilen taşınmaz malların temlikine, vali ve kaymakamlar yetkilidir. Dağıtım defter veya kararlarının vali veya kaymakamlarca onanması, temliktir. Onaylı defter veya kararlardaki miktarlar geçerlidir.",
+      "sourceQuoteSHA256": "00d9618e2a213ff3b2a87c44f3472e37a9a463ca4bba6155ab0c741225f013d4",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[121]",
+      "requiredSourceFragments": [
+        "MADDE 19 – (1) Bu Kanun hükümlerine göre verilen taşınmaz malların temlikine, vali ve kaymakamlar yetkilidir. Dağıtım defter veya kararlarının vali veya kaymakamlarca onanması, temliktir. Onaylı defter veya kararlardaki miktarlar geçerlidir."
+      ],
+      "correctOptionId": "Q-T01-B-0021-opt-05",
+      "normalizedCorrectText": "vali ve kaymakamlar",
+      "distractorOptionIds": [
+        "Q-T01-B-0021-opt-01",
+        "Q-T01-B-0021-opt-02",
+        "Q-T01-B-0021-opt-03",
+        "Q-T01-B-0021-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "conveyance-authority",
+      "fullHTMLParagraphIndices": [
+        121
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0022",
+      "learningObjectiveId": "LO-T01-019-BANK-0022",
+      "articleNumber": 19,
+      "ruleId": "RULE-Q-T01-B-0022",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Verilen taşınmaz mallar, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle temlik ve tapuya tescil ettirilir.",
+      "sourceQuoteSHA256": "0f2e5735f8a2d734f0f1eac6833355d3a65d0b0a5a0836d795beb331b22da565",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[122]",
+      "requiredSourceFragments": [
+        "(2) Verilen taşınmaz mallar, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle temlik ve tapuya tescil ettirilir."
+      ],
+      "correctOptionId": "Q-T01-B-0022-opt-03",
+      "normalizedCorrectText": "eşit hisselerle",
+      "distractorOptionIds": [
+        "Q-T01-B-0022-opt-01",
+        "Q-T01-B-0022-opt-02",
+        "Q-T01-B-0022-opt-04",
+        "Q-T01-B-0022-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "equal-shares",
+      "fullHTMLParagraphIndices": [
+        122
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0023",
+      "learningObjectiveId": "LO-T01-022-BANK-0023",
+      "articleNumber": 22,
+      "ruleId": "RULE-Q-T01-B-0023",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 22 – (1) Bu Kanunun uygulanması amacıyla sağlanan veya hak sahiplerine verilecek yapılar, arsa ve araziler; kimin işgali altında olursa olsun o yerin en büyük mülki amirinin yazılı emirleriyle kolluk kuvvetlerince boşaltılır ve kendilerine teslim olunur. Bunlara vuku bulacak tecavüzlerde de o yerin en büyük mülki amirleri kolluk kuvvetlerini kullanarak tahliyeye yetkilidir.",
+      "sourceQuoteSHA256": "b1d8d2d8b5b97f9fc55ceb33c825b8aa1fba68aff6db334444ab06a0fea0a68a",
+      "sourceLocator": "5543 sayılı Kanun m.22; resmî tam HTML p[134]",
+      "requiredSourceFragments": [
+        "MADDE 22 – (1) Bu Kanunun uygulanması amacıyla sağlanan veya hak sahiplerine verilecek yapılar, arsa ve araziler; kimin işgali altında olursa olsun o yerin en büyük mülki amirinin yazılı emirleriyle kolluk kuvvetlerince boşaltılır ve kendilerine teslim olunur. Bunlara vuku bulacak tecavüzlerde de o yerin en büyük mülki amirleri kolluk kuvvetlerini kullanarak tahliyeye yetkilidir."
+      ],
+      "correctOptionId": "Q-T01-B-0023-opt-01",
+      "normalizedCorrectText": "o yerin en büyük mülki amiri",
+      "distractorOptionIds": [
+        "Q-T01-B-0023-opt-02",
+        "Q-T01-B-0023-opt-03",
+        "Q-T01-B-0023-opt-04",
+        "Q-T01-B-0023-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "removal-authority",
+      "fullHTMLParagraphIndices": [
+        134
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0024",
+      "learningObjectiveId": "LO-T01-027-BANK-0024",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-T01-B-0024",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(6) Bu Kanun hükümlerine göre borçlandırma suretiyle yapılan iskân yardımlarının tamamı için, verilecek taşınmaz mallarda Hazine lehine birinci derecede ve birinci sırada ipotek tesis edilir.",
+      "sourceQuoteSHA256": "648c7e2096f5c8be3a8cf28f20b3fddbb0e33d7be89adb61303bf18ac89c787f",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[179]",
+      "requiredSourceFragments": [
+        "(6) Bu Kanun hükümlerine göre borçlandırma suretiyle yapılan iskân yardımlarının tamamı için, verilecek taşınmaz mallarda Hazine lehine birinci derecede ve birinci sırada ipotek tesis edilir."
+      ],
+      "correctOptionId": "Q-T01-B-0024-opt-04",
+      "normalizedCorrectText": "birinci derecede ve birinci sırada ipotek",
+      "distractorOptionIds": [
+        "Q-T01-B-0024-opt-01",
+        "Q-T01-B-0024-opt-02",
+        "Q-T01-B-0024-opt-03",
+        "Q-T01-B-0024-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "mortgage-rank",
+      "fullHTMLParagraphIndices": [
+        179
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0025",
+      "learningObjectiveId": "LO-T01-039-BANK-0025",
+      "articleNumber": 39,
+      "ruleId": "RULE-Q-T01-B-0025",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 39 – (1) Köy tüzel kişiliğine ait arsa ve araziler, köy ihtiyar heyetince karar verildiği takdirde bu Kanun kapsamında kullanılabilir. Bu tür arsa ve arazilerin kıymet takdiri köy ihtiyar heyetince yapılır, arsa ve arazinin hak sahiplerine satışından elde edilen para köy bütçesine gelir kaydedilir.",
+      "sourceQuoteSHA256": "54631ea64f766455c8fe380af53041ed9533b0ce293a570b854f10471cbd08fe",
+      "sourceLocator": "5543 sayılı Kanun m.39; resmî tam HTML p[233]",
+      "requiredSourceFragments": [
+        "MADDE 39 – (1) Köy tüzel kişiliğine ait arsa ve araziler, köy ihtiyar heyetince karar verildiği takdirde bu Kanun kapsamında kullanılabilir. Bu tür arsa ve arazilerin kıymet takdiri köy ihtiyar heyetince yapılır, arsa ve arazinin hak sahiplerine satışından elde edilen para köy bütçesine gelir kaydedilir."
+      ],
+      "correctOptionId": "Q-T01-B-0025-opt-02",
+      "normalizedCorrectText": "köy bütçesine",
+      "distractorOptionIds": [
+        "Q-T01-B-0025-opt-01",
+        "Q-T01-B-0025-opt-03",
+        "Q-T01-B-0025-opt-04",
+        "Q-T01-B-0025-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "village-sale-revenue",
+      "fullHTMLParagraphIndices": [
+        233
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0026",
+      "learningObjectiveId": "LO-T01-003-BANK-0026",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0026",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "c) Fiziksel yerleşim: Bir aileye, yerleşim yerinin elverişsizliği nedeniyle köylerin nakledilmesi veya dağınık yerleşim birimleri ve afet sonucu parçalanmış köylerin toplulaştırılması amacıyla veya köy gelişme alanından ihtiyaçlılara yapılacak arsa satışından sonra Bakanlıkça belirlenecek kredi miktarı üzerinden verilecek kredi desteğiyle yapılan iskândır.",
+      "sourceQuoteSHA256": "b6c7f0bb452651d6fc2eb82065fe203dbd7ed8a6c1be74eae76514bfaf65457a",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[20]",
+      "requiredSourceFragments": [
+        "c) Fiziksel yerleşim: Bir aileye, yerleşim yerinin elverişsizliği nedeniyle köylerin nakledilmesi veya dağınık yerleşim birimleri ve afet sonucu parçalanmış köylerin toplulaştırılması amacıyla veya köy gelişme alanından ihtiyaçlılara yapılacak arsa satışından sonra Bakanlıkça belirlenecek kredi miktarı üzerinden verilecek kredi desteğiyle yapılan iskândır."
+      ],
+      "correctOptionId": "Q-T01-B-0026-opt-05",
+      "normalizedCorrectText": "fiziksel yerleşim",
+      "distractorOptionIds": [
+        "Q-T01-B-0026-opt-01",
+        "Q-T01-B-0026-opt-02",
+        "Q-T01-B-0026-opt-03",
+        "Q-T01-B-0026-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "physical-relocation-credit",
+      "fullHTMLParagraphIndices": [
+        20
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0027",
+      "learningObjectiveId": "LO-T01-003-BANK-0027",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0027",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "requiredSourceFragments": [
+        "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır."
+      ],
+      "correctOptionId": "Q-T01-B-0027-opt-03",
+      "normalizedCorrectText": "yaylak ve kışlaklar",
+      "distractorOptionIds": [
+        "Q-T01-B-0027-opt-01",
+        "Q-T01-B-0027-opt-02",
+        "Q-T01-B-0027-opt-04",
+        "Q-T01-B-0027-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nomad-mobility",
+      "fullHTMLParagraphIndices": [
+        21
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0028",
+      "learningObjectiveId": "LO-T01-003-BANK-0028",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0028",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "requiredSourceFragments": [
+        "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır."
+      ],
+      "correctOptionId": "Q-T01-B-0028-opt-01",
+      "normalizedCorrectText": "göçer hayvancılıkla geçinip hayvancılığı grup halinde yürütme",
+      "distractorOptionIds": [
+        "Q-T01-B-0028-opt-02",
+        "Q-T01-B-0028-opt-03",
+        "Q-T01-B-0028-opt-04",
+        "Q-T01-B-0028-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nomad-group-livelihood",
+      "fullHTMLParagraphIndices": [
+        21
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0029",
+      "learningObjectiveId": "LO-T01-004-BANK-0029",
+      "articleNumber": 4,
+      "ruleId": "RULE-Q-T01-B-0029",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 4 – (1) Türk soyundan ve Türk kültürüne bağlı olmayan yabancılar ile Türk soyundan ve Türk kültürüne bağlı bulunup da sınır dışı edilenler ve güvenlik bakımından Türkiye'ye gelmeleri uygun görülmeyenler göçmen olarak kabul edilmezler.",
+      "sourceQuoteSHA256": "ed50987b85ed2b20b9a9d8bb387d403ce7addb4022c344fdde99d1e834eba659",
+      "sourceLocator": "5543 sayılı Kanun m.4; resmî tam HTML p[33]",
+      "requiredSourceFragments": [
+        "MADDE 4 – (1) Türk soyundan ve Türk kültürüne bağlı olmayan yabancılar ile Türk soyundan ve Türk kültürüne bağlı bulunup da sınır dışı edilenler ve güvenlik bakımından Türkiye'ye gelmeleri uygun görülmeyenler göçmen olarak kabul edilmezler."
+      ],
+      "correctOptionId": "Q-T01-B-0029-opt-04",
+      "normalizedCorrectText": "güvenlik bakımından türkiye’ye gelmesi uygun görülmeyen kişi kabul edilmez.",
+      "distractorOptionIds": [
+        "Q-T01-B-0029-opt-01",
+        "Q-T01-B-0029-opt-02",
+        "Q-T01-B-0029-opt-03",
+        "Q-T01-B-0029-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "security-exclusion",
+      "fullHTMLParagraphIndices": [
+        33
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0030",
+      "learningObjectiveId": "LO-T01-005-BANK-0030",
+      "articleNumber": 5,
+      "ruleId": "RULE-Q-T01-B-0030",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "requiredSourceFragments": [
+        "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0030-opt-02",
+      "normalizedCorrectText": "birinci veya ikinci derece",
+      "distractorOptionIds": [
+        "Q-T01-B-0030-opt-01",
+        "Q-T01-B-0030-opt-03",
+        "Q-T01-B-0030-opt-04",
+        "Q-T01-B-0030-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "reference-degree",
+      "fullHTMLParagraphIndices": [
+        36
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0031",
+      "learningObjectiveId": "LO-T01-005-BANK-0031",
+      "articleNumber": 5,
+      "ruleId": "RULE-Q-T01-B-0031",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "requiredSourceFragments": [
+        "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0031-opt-05",
+      "normalizedCorrectText": "bulunduğu ülkedeki konsolosluk temsilciliğimize bizzat başvuru",
+      "distractorOptionIds": [
+        "Q-T01-B-0031-opt-01",
+        "Q-T01-B-0031-opt-02",
+        "Q-T01-B-0031-opt-03",
+        "Q-T01-B-0031-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "consular-alternative",
+      "fullHTMLParagraphIndices": [
+        36
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0032",
+      "learningObjectiveId": "LO-T01-005-BANK-0032",
+      "articleNumber": 5,
+      "ruleId": "RULE-Q-T01-B-0032",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "requiredSourceFragments": [
+        "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0032-opt-03",
+      "normalizedCorrectText": "dışişleri ve içişleri bakanlıkları",
+      "distractorOptionIds": [
+        "Q-T01-B-0032-opt-01",
+        "Q-T01-B-0032-opt-02",
+        "Q-T01-B-0032-opt-04",
+        "Q-T01-B-0032-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "joint-examination",
+      "fullHTMLParagraphIndices": [
+        36
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0033",
+      "learningObjectiveId": "LO-T01-008-BANK-0033",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0033",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Bu giderler için Maliye Bakanlığınca ivedilikle ödenek aktarılır.",
+      "sourceQuoteSHA256": "d7349f0edd1fa4cbec1e07890d65f6bf762cf8e33cd00ce527eb9f6ac0709e15",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[48]",
+      "requiredSourceFragments": [
+        "(2) Bu giderler için Maliye Bakanlığınca ivedilikle ödenek aktarılır."
+      ],
+      "correctOptionId": "Q-T01-B-0033-opt-01",
+      "normalizedCorrectText": "ödeneğin ivedilikle aktarılması",
+      "distractorOptionIds": [
+        "Q-T01-B-0033-opt-02",
+        "Q-T01-B-0033-opt-03",
+        "Q-T01-B-0033-opt-04",
+        "Q-T01-B-0033-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "reception-budget-urgency",
+      "fullHTMLParagraphIndices": [
+        48
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0034",
+      "learningObjectiveId": "LO-T01-008-BANK-0034",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0034",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 8 – (1) 5 inci ve 6 ncı maddeler uyarınca yurda toplu olarak kabul olunan göçmenler, sınırlarımızdan girdikten sonra giriş noktalarındaki göçmen kabul merkezlerinde sağlık, gümrük, idari ve nakil işlemleri tamamlanıncaya kadar misafir edilirler. Bu süre içinde bakım, beslenme ve barınma ihtiyaçları Kızılay Derneğinin de yardımlarıyla İçişleri Bakanlığınca karşılıksız sağlanır.[3]",
+      "sourceQuoteSHA256": "ca825832b4a4dc7ce4c5f36ed1275062db78f2b95d845c17dfe048b9a4e1e60c",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[47]",
+      "requiredSourceFragments": [
+        "MADDE 8 – (1) 5 inci ve 6 ncı maddeler uyarınca yurda toplu olarak kabul olunan göçmenler, sınırlarımızdan girdikten sonra giriş noktalarındaki göçmen kabul merkezlerinde sağlık, gümrük, idari ve nakil işlemleri tamamlanıncaya kadar misafir edilirler. Bu süre içinde bakım, beslenme ve barınma ihtiyaçları Kızılay Derneğinin de yardımlarıyla İçişleri Bakanlığınca karşılıksız sağlanır.[3]"
+      ],
+      "correctOptionId": "Q-T01-B-0034-opt-04",
+      "normalizedCorrectText": "sağlık, gümrük, idari ve nakil işlemleri",
+      "distractorOptionIds": [
+        "Q-T01-B-0034-opt-01",
+        "Q-T01-B-0034-opt-02",
+        "Q-T01-B-0034-opt-03",
+        "Q-T01-B-0034-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "reception-center-stay",
+      "fullHTMLParagraphIndices": [
+        47
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0035",
+      "learningObjectiveId": "LO-T01-008-BANK-0035",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0035",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 8 – (1) 5 inci ve 6 ncı maddeler uyarınca yurda toplu olarak kabul olunan göçmenler, sınırlarımızdan girdikten sonra giriş noktalarındaki göçmen kabul merkezlerinde sağlık, gümrük, idari ve nakil işlemleri tamamlanıncaya kadar misafir edilirler. Bu süre içinde bakım, beslenme ve barınma ihtiyaçları Kızılay Derneğinin de yardımlarıyla İçişleri Bakanlığınca karşılıksız sağlanır.[3]",
+      "sourceQuoteSHA256": "ca825832b4a4dc7ce4c5f36ed1275062db78f2b95d845c17dfe048b9a4e1e60c",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[47]",
+      "requiredSourceFragments": [
+        "MADDE 8 – (1) 5 inci ve 6 ncı maddeler uyarınca yurda toplu olarak kabul olunan göçmenler, sınırlarımızdan girdikten sonra giriş noktalarındaki göçmen kabul merkezlerinde sağlık, gümrük, idari ve nakil işlemleri tamamlanıncaya kadar misafir edilirler. Bu süre içinde bakım, beslenme ve barınma ihtiyaçları Kızılay Derneğinin de yardımlarıyla İçişleri Bakanlığınca karşılıksız sağlanır.[3]"
+      ],
+      "correctOptionId": "Q-T01-B-0035-opt-02",
+      "normalizedCorrectText": "kızılayın da yardımlarıyla içişleri bakanlığınca karşılıksız",
+      "distractorOptionIds": [
+        "Q-T01-B-0035-opt-01",
+        "Q-T01-B-0035-opt-03",
+        "Q-T01-B-0035-opt-04",
+        "Q-T01-B-0035-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "reception-support-authority",
+      "fullHTMLParagraphIndices": [
+        47
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0036",
+      "learningObjectiveId": "LO-T01-008-BANK-0036",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0036",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "requiredSourceFragments": [
+        "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0036-opt-05",
+      "normalizedCorrectText": "yerleştikleri yerdeki",
+      "distractorOptionIds": [
+        "Q-T01-B-0036-opt-01",
+        "Q-T01-B-0036-opt-02",
+        "Q-T01-B-0036-opt-03",
+        "Q-T01-B-0036-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "document-application-place",
+      "fullHTMLParagraphIndices": [
+        49
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0037",
+      "learningObjectiveId": "LO-T01-008-BANK-0037",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0037",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "requiredSourceFragments": [
+        "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0037-opt-03",
+      "normalizedCorrectText": "vatandaşlığa girme beyannamesi",
+      "distractorOptionIds": [
+        "Q-T01-B-0037-opt-01",
+        "Q-T01-B-0037-opt-02",
+        "Q-T01-B-0037-opt-04",
+        "Q-T01-B-0037-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "citizenship-declaration",
+      "fullHTMLParagraphIndices": [
+        49
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0038",
+      "learningObjectiveId": "LO-T01-008-BANK-0038",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0038",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir.",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "requiredSourceFragments": [
+        "(3) Özel kanunlarla yurdumuza getirilen iskânlı göçmenler, sınırlarımızdan yurda girdikten sonra geçici veya kesin iskânları için belirlenen yerlerin, serbest göçmenler ise yerleştikleri yerlerin en büyük mülki amirine müracaatla kendileri ve aile fertleri için \"Vatandaşlığa Girme Beyannamesi\"ni imzalayarak \"Göçmen Belgesi\" almaya mecburdur. Göçmen Belgesi, iki yıl için geçerli olup, geçici kimlik belgesi olarak kullanılır. Bu belgede, göçmenin bu Kanunun hangi maddesi uyarınca yurda kabul edildiği belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0038-opt-01",
+      "normalizedCorrectText": "kanunun hangi maddesi uyarınca kabul edildiği",
+      "distractorOptionIds": [
+        "Q-T01-B-0038-opt-02",
+        "Q-T01-B-0038-opt-03",
+        "Q-T01-B-0038-opt-04",
+        "Q-T01-B-0038-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "document-admission-basis",
+      "fullHTMLParagraphIndices": [
+        49
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0039",
+      "learningObjectiveId": "LO-T01-008-BANK-0039",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0039",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]",
+      "sourceQuoteSHA256": "5ae559de72a72f3415d919bcec2d062ab5b45fc1a8b6420613c7f7e395c05e1c",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "requiredSourceFragments": [
+        "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]"
+      ],
+      "correctOptionId": "Q-T01-B-0039-opt-04",
+      "normalizedCorrectText": "yaşlarına bakılmaksızın vatandaşlığa alınırlar.",
+      "distractorOptionIds": [
+        "Q-T01-B-0039-opt-01",
+        "Q-T01-B-0039-opt-02",
+        "Q-T01-B-0039-opt-03",
+        "Q-T01-B-0039-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "unaccompanied-minor-age",
+      "fullHTMLParagraphIndices": [
+        50
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0040",
+      "learningObjectiveId": "LO-T01-008-BANK-0040",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0040",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(5) 4 üncü maddede sayılan engellerden herhangi birini taşıdığı yurda girdikten sonra tespit edilen şahısların, göçmenlik işlemleri iptal edilir.",
+      "sourceQuoteSHA256": "ceda1606dc2f009966ac6e86942e602bb889c00a7c922b14415882825249210a",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[51]",
+      "requiredSourceFragments": [
+        "(5) 4 üncü maddede sayılan engellerden herhangi birini taşıdığı yurda girdikten sonra tespit edilen şahısların, göçmenlik işlemleri iptal edilir."
+      ],
+      "correctOptionId": "Q-T01-B-0040-opt-02",
+      "normalizedCorrectText": "göçmenlik işlemlerinin iptali",
+      "distractorOptionIds": [
+        "Q-T01-B-0040-opt-01",
+        "Q-T01-B-0040-opt-03",
+        "Q-T01-B-0040-opt-04",
+        "Q-T01-B-0040-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "later-exclusion-discovery",
+      "fullHTMLParagraphIndices": [
+        51
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0041",
+      "learningObjectiveId": "LO-T01-009-BANK-0041",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0041",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "a) Öncelikle konut ve arsası,",
+      "sourceQuoteSHA256": "bdc6a7812a4df4ddecb1c2ccb923a7a8bfac97b560595a2654c447e9efaedd5f",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[57]",
+      "requiredSourceFragments": [
+        "a) Öncelikle konut ve arsası,"
+      ],
+      "correctOptionId": "Q-T01-B-0041-opt-05",
+      "normalizedCorrectText": "konut ve arsası",
+      "distractorOptionIds": [
+        "Q-T01-B-0041-opt-01",
+        "Q-T01-B-0041-opt-02",
+        "Q-T01-B-0041-opt-03",
+        "Q-T01-B-0041-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "housing-priority",
+      "fullHTMLParagraphIndices": [
+        57
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0042",
+      "learningObjectiveId": "LO-T01-009-BANK-0042",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0042",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "b) Esnaf, sanatkâr ve tüccarlara, geçimlerini sağlayacak işyeri ve arsası ile işletme kredisi,",
+      "sourceQuoteSHA256": "e674bc1acf24f873096a9a33481eca095e76b2aebccc17bbefefe77d40118b5c",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[58]",
+      "requiredSourceFragments": [
+        "b) Esnaf, sanatkâr ve tüccarlara, geçimlerini sağlayacak işyeri ve arsası ile işletme kredisi,"
+      ],
+      "correctOptionId": "Q-T01-B-0042-opt-03",
+      "normalizedCorrectText": "işyeri ve arsası ile işletme kredisi",
+      "distractorOptionIds": [
+        "Q-T01-B-0042-opt-01",
+        "Q-T01-B-0042-opt-02",
+        "Q-T01-B-0042-opt-04",
+        "Q-T01-B-0042-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "craftsman-aid",
+      "fullHTMLParagraphIndices": [
+        58
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0043",
+      "learningObjectiveId": "LO-T01-009-BANK-0043",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0043",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "c) Çiftçilere tarımsal projesinde öngörülen arazi, gerekli tarımsal girdiler, tarımsal yapılar veya arsası ile aynî ve nakdî işletme ve donatım kredileri,",
+      "sourceQuoteSHA256": "8e7b1247e3c8d899871dd06b20d621173384c4147972e4bc60e5bd94cbe4c273",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[59]",
+      "requiredSourceFragments": [
+        "c) Çiftçilere tarımsal projesinde öngörülen arazi, gerekli tarımsal girdiler, tarımsal yapılar veya arsası ile aynî ve nakdî işletme ve donatım kredileri,"
+      ],
+      "correctOptionId": "Q-T01-B-0043-opt-01",
+      "normalizedCorrectText": "aynî ve nakdî kredi verilebilir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0043-opt-02",
+        "Q-T01-B-0043-opt-03",
+        "Q-T01-B-0043-opt-04",
+        "Q-T01-B-0043-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "farmer-aid-kind",
+      "fullHTMLParagraphIndices": [
+        59
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0044",
+      "learningObjectiveId": "LO-T01-009-BANK-0044",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0044",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ç) Hak sahiplerinin talepleri halinde, konut, işyeri ve tarım arazisi kendileri tarafından bulunarak teklif edilmesi ve Bakanlıkça uygun görülmesi halinde toplu veya münferit olarak ailelere iskân kredileri,",
+      "sourceQuoteSHA256": "3a39a349e0909e0e63423d60284b385f5aaf9a2ccaf9687544ba0819b6efeb87",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[60]",
+      "requiredSourceFragments": [
+        "ç) Hak sahiplerinin talepleri halinde, konut, işyeri ve tarım arazisi kendileri tarafından bulunarak teklif edilmesi ve Bakanlıkça uygun görülmesi halinde toplu veya münferit olarak ailelere iskân kredileri,"
+      ],
+      "correctOptionId": "Q-T01-B-0044-opt-04",
+      "normalizedCorrectText": "bakanlığın uygun görmesi",
+      "distractorOptionIds": [
+        "Q-T01-B-0044-opt-01",
+        "Q-T01-B-0044-opt-02",
+        "Q-T01-B-0044-opt-03",
+        "Q-T01-B-0044-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "self-found-property-approval",
+      "fullHTMLParagraphIndices": [
+        60
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0045",
+      "learningObjectiveId": "LO-T01-009-BANK-0045",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0045",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "verilmek suretiyle bu Kanun hükümlerine göre borçlandırma yoluyla yapılır.",
+      "sourceQuoteSHA256": "a49f6b8fd8ff39a030c3aa56a419eca4b9d8e4c1db7884bb46cee8efb0567ca9",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[61]",
+      "requiredSourceFragments": [
+        "verilmek suretiyle bu Kanun hükümlerine göre borçlandırma yoluyla yapılır."
+      ],
+      "correctOptionId": "Q-T01-B-0045-opt-02",
+      "normalizedCorrectText": "borçlandırma yoluyla iskân",
+      "distractorOptionIds": [
+        "Q-T01-B-0045-opt-01",
+        "Q-T01-B-0045-opt-03",
+        "Q-T01-B-0045-opt-04",
+        "Q-T01-B-0045-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "settlement-indebtedness",
+      "fullHTMLParagraphIndices": [
+        61
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0046",
+      "learningObjectiveId": "LO-T01-009-BANK-0046",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0046",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır.",
+      "sourceQuoteSHA256": "e90b3c7fffe268ad0761d33b070b259cb2dc44720706121b7322893ceadee4c1",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "requiredSourceFragments": [
+        "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır."
+      ],
+      "correctOptionId": "Q-T01-B-0046-opt-05",
+      "normalizedCorrectText": "muhtaç durumda olanlara bir defaya mahsus",
+      "distractorOptionIds": [
+        "Q-T01-B-0046-opt-01",
+        "Q-T01-B-0046-opt-02",
+        "Q-T01-B-0046-opt-03",
+        "Q-T01-B-0046-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "clothing-oneoff-need",
+      "fullHTMLParagraphIndices": [
+        63
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0047",
+      "learningObjectiveId": "LO-T01-010-BANK-0047",
+      "articleNumber": 10,
+      "ruleId": "RULE-Q-T01-B-0047",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 10 – (1) Yurda kabul edilen iskânlı göçmenler, şartların elverdiği yerlerde Bakanlıkça bu Kanun hükümlerine göre iskân olunurlar. Ancak, Türkiye'ye geldikleri tarihten itibaren iki yıl içinde iskânını istemeyen göçmenler, Bakanlıkça iskân edilemezler ve yapılmakta olan karşılıksız yardımlar kesilir.",
+      "sourceQuoteSHA256": "84c16240abcc04fca1c46ec8656a8013231c9ce2e54fe1453cb53625e66c1b35",
+      "sourceLocator": "5543 sayılı Kanun m.10; resmî tam HTML p[67]",
+      "requiredSourceFragments": [
+        "MADDE 10 – (1) Yurda kabul edilen iskânlı göçmenler, şartların elverdiği yerlerde Bakanlıkça bu Kanun hükümlerine göre iskân olunurlar. Ancak, Türkiye'ye geldikleri tarihten itibaren iki yıl içinde iskânını istemeyen göçmenler, Bakanlıkça iskân edilemezler ve yapılmakta olan karşılıksız yardımlar kesilir."
+      ],
+      "correctOptionId": "Q-T01-B-0047-opt-03",
+      "normalizedCorrectText": "iskân edilemez ve karşılıksız yardımları kesilir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0047-opt-01",
+        "Q-T01-B-0047-opt-02",
+        "Q-T01-B-0047-opt-04",
+        "Q-T01-B-0047-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "late-settled-migrant-result",
+      "fullHTMLParagraphIndices": [
+        67
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0048",
+      "learningObjectiveId": "LO-T01-011-BANK-0048",
+      "articleNumber": 11,
+      "ruleId": "RULE-Q-T01-B-0048",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 11 – (1) Göçebeler, İçişleri Bakanlığı ile gerektiğinde diğer ilgili kamu kurum ve kuruluşlarının da görüşleri alınmak suretiyle Bakanlıkça uygun görülecek yerlere bu Kanun hükümlerine göre iskân edilirler. Ancak, iskân duyurusu tarihinin bitiminden sonra yüzseksen gün içinde müracaat etmeyen aileler iskân edilemezler.",
+      "sourceQuoteSHA256": "2f628687a81ae717624f6efd6c1ae11458741169e03afe0057023adf7fc57db3",
+      "sourceLocator": "5543 sayılı Kanun m.11; resmî tam HTML p[70]",
+      "requiredSourceFragments": [
+        "MADDE 11 – (1) Göçebeler, İçişleri Bakanlığı ile gerektiğinde diğer ilgili kamu kurum ve kuruluşlarının da görüşleri alınmak suretiyle Bakanlıkça uygun görülecek yerlere bu Kanun hükümlerine göre iskân edilirler. Ancak, iskân duyurusu tarihinin bitiminden sonra yüzseksen gün içinde müracaat etmeyen aileler iskân edilemezler."
+      ],
+      "correctOptionId": "Q-T01-B-0048-opt-01",
+      "normalizedCorrectText": "içişleri bakanlığının; gerektiğinde diğer ilgili kamu kurumlarının",
+      "distractorOptionIds": [
+        "Q-T01-B-0048-opt-02",
+        "Q-T01-B-0048-opt-03",
+        "Q-T01-B-0048-opt-04",
+        "Q-T01-B-0048-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nomad-consultation",
+      "fullHTMLParagraphIndices": [
+        70
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0049",
+      "learningObjectiveId": "LO-T01-012-BANK-0049",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0049",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler,",
+      "sourceQuoteSHA256": "7a9d4617f8153957fcfa637156457a21567fec029660df1971cf0d0173c260e5",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[75]",
+      "requiredSourceFragments": [
+        "b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler,"
+      ],
+      "correctOptionId": "Q-T01-B-0049-opt-04",
+      "normalizedCorrectText": "iskân planlama etütlerinin başladığı takvim yılının başlangıcına göre",
+      "distractorOptionIds": [
+        "Q-T01-B-0049-opt-01",
+        "Q-T01-B-0049-opt-02",
+        "Q-T01-B-0049-opt-03",
+        "Q-T01-B-0049-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nonowner-three-year-start",
+      "fullHTMLParagraphIndices": [
+        75
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0050",
+      "learningObjectiveId": "LO-T01-012-BANK-0050",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0050",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Ancak, iskân planlama etütlerinin başladığı tarihten önce yerini terk etmiş olup kamulaştırılacak taşınmaz malı bulunan aileler iskân edilmezler. Bu tarihten geriye doğru üç yıl içerisinde, taşınmaz mallarını zorunlu hal olmadan ellerinden çıkaran ve yerine eşdeğerde veya daha fazla değerde taşınmaz mal almayan aileler yerlerini terk etmemiş olsalar dahi iskân edilmezler. Zorunlu haller yönetmelikle belirlenir.",
+      "sourceQuoteSHA256": "a7282b51471d67b3b4b1a1cae81d8a49949529f54b7eed342951060811262be7",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[77]",
+      "requiredSourceFragments": [
+        "(2) Ancak, iskân planlama etütlerinin başladığı tarihten önce yerini terk etmiş olup kamulaştırılacak taşınmaz malı bulunan aileler iskân edilmezler. Bu tarihten geriye doğru üç yıl içerisinde, taşınmaz mallarını zorunlu hal olmadan ellerinden çıkaran ve yerine eşdeğerde veya daha fazla değerde taşınmaz mal almayan aileler yerlerini terk etmemiş olsalar dahi iskân edilmezler. Zorunlu haller yönetmelikle belirlenir."
+      ],
+      "correctOptionId": "Q-T01-B-0050-opt-02",
+      "normalizedCorrectText": "bu madde kapsamında iskân edilmez.",
+      "distractorOptionIds": [
+        "Q-T01-B-0050-opt-01",
+        "Q-T01-B-0050-opt-03",
+        "Q-T01-B-0050-opt-04",
+        "Q-T01-B-0050-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "left-before-studies",
+      "fullHTMLParagraphIndices": [
+        77
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0051",
+      "learningObjectiveId": "LO-T01-012-BANK-0051",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0051",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Kamu kurum ve kuruluşlarınca kamulaştırılan alanlarda yerleşik olan ve kamulaştırmadan etkilenen ailelerden Devlet eliyle başka yerde iskânını istemeyenler, yazılı başvuruları üzerine, ilgili valiliğin teklifi ve İçişleri Bakanlığının olumlu görüşü alınmak şartıyla Bakanlıkça kendi köy hudutları içinde gösterilecek bir yerde iskân edilebilirler.",
+      "sourceQuoteSHA256": "bc45562f3fbdcced1ecdcdb4b44f7d1c367f57f91d55abf28953435ff3f578a7",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[78]",
+      "requiredSourceFragments": [
+        "(3) Kamu kurum ve kuruluşlarınca kamulaştırılan alanlarda yerleşik olan ve kamulaştırmadan etkilenen ailelerden Devlet eliyle başka yerde iskânını istemeyenler, yazılı başvuruları üzerine, ilgili valiliğin teklifi ve İçişleri Bakanlığının olumlu görüşü alınmak şartıyla Bakanlıkça kendi köy hudutları içinde gösterilecek bir yerde iskân edilebilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0051-opt-05",
+      "normalizedCorrectText": "ilgili valiliğin teklifi ve içişleri bakanlığının olumlu görüşü",
+      "distractorOptionIds": [
+        "Q-T01-B-0051-opt-01",
+        "Q-T01-B-0051-opt-02",
+        "Q-T01-B-0051-opt-03",
+        "Q-T01-B-0051-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "within-village-process",
+      "fullHTMLParagraphIndices": [
+        78
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0052",
+      "learningObjectiveId": "LO-T01-014-BANK-0052",
+      "articleNumber": 14,
+      "ruleId": "RULE-Q-T01-B-0052",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 14 – (1) 10, 11, 12 ve 13 üncü maddeler kapsamına giren hak sahibi ailelerin, Bakanlığın gösterdiği yerlerde iskân edilmeyi kabul etmemeleri halinde hak sahiplilik durumları Mahalli İskân Komisyonunca iptal edilir. Bu durumdaki aileler ikinci bir iskân talebinde bulunamazlar.",
+      "sourceQuoteSHA256": "3ede279b057494efc55ceb0d2ff6371572faa717b5738a3029a6c07254e53d7d",
+      "sourceLocator": "5543 sayılı Kanun m.14; resmî tam HTML p[85]",
+      "requiredSourceFragments": [
+        "MADDE 14 – (1) 10, 11, 12 ve 13 üncü maddeler kapsamına giren hak sahibi ailelerin, Bakanlığın gösterdiği yerlerde iskân edilmeyi kabul etmemeleri halinde hak sahiplilik durumları Mahalli İskân Komisyonunca iptal edilir. Bu durumdaki aileler ikinci bir iskân talebinde bulunamazlar."
+      ],
+      "correctOptionId": "Q-T01-B-0052-opt-03",
+      "normalizedCorrectText": "bulunamaz.",
+      "distractorOptionIds": [
+        "Q-T01-B-0052-opt-01",
+        "Q-T01-B-0052-opt-02",
+        "Q-T01-B-0052-opt-04",
+        "Q-T01-B-0052-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "second-settlement-ban",
+      "fullHTMLParagraphIndices": [
+        85
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0053",
+      "learningObjectiveId": "LO-T01-016-BANK-0053",
+      "articleNumber": 16,
+      "ruleId": "RULE-Q-T01-B-0053",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Ancak, birinci fıkranın (a) ve (b) bentlerindeki hizmetlerin yapılabilmesi için köy seçmen listesinde kayıtlı olanların yarıdan bir fazlasının, o yerin en büyük mülki amirliğine yazılı müracaatı esastır.",
+      "sourceQuoteSHA256": "bec4bef0a6fdb5ec111e9e0f63d3f6f253bb6655039cb2c507fa9db504fc3e39",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[101]",
+      "requiredSourceFragments": [
+        "(2) Ancak, birinci fıkranın (a) ve (b) bentlerindeki hizmetlerin yapılabilmesi için köy seçmen listesinde kayıtlı olanların yarıdan bir fazlasının, o yerin en büyük mülki amirliğine yazılı müracaatı esastır."
+      ],
+      "correctOptionId": "Q-T01-B-0053-opt-01",
+      "normalizedCorrectText": "köy seçmen listesinde kayıtlı olanların yarıdan bir fazlası",
+      "distractorOptionIds": [
+        "Q-T01-B-0053-opt-02",
+        "Q-T01-B-0053-opt-03",
+        "Q-T01-B-0053-opt-04",
+        "Q-T01-B-0053-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "village-majority",
+      "fullHTMLParagraphIndices": [
+        101
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0054",
+      "learningObjectiveId": "LO-T01-017-BANK-0054",
+      "articleNumber": 17,
+      "ruleId": "RULE-Q-T01-B-0054",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "c) Evli çocuklar, evli torunlar ile çocuksuz erkek ve kadın dullar başlı başına,",
+      "sourceQuoteSHA256": "3389925958d29a45ca0220e2d70035825f0b0cdcfee3ae8b00cb1e650e7134d9",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[109]",
+      "requiredSourceFragments": [
+        "c) Evli çocuklar, evli torunlar ile çocuksuz erkek ve kadın dullar başlı başına,"
+      ],
+      "correctOptionId": "Q-T01-B-0054-opt-04",
+      "normalizedCorrectText": "başlı başına aile olarak",
+      "distractorOptionIds": [
+        "Q-T01-B-0054-opt-01",
+        "Q-T01-B-0054-opt-02",
+        "Q-T01-B-0054-opt-03",
+        "Q-T01-B-0054-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "separate-married-family",
+      "fullHTMLParagraphIndices": [
+        109
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0055",
+      "learningObjectiveId": "LO-T01-017-BANK-0055",
+      "articleNumber": 17,
+      "ruleId": "RULE-Q-T01-B-0055",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ç) (Değişik:14/2/2020-7221/36 md.) Anasız ve babasız bekâr kardeş çocuklar birlikte ve eşit hisselerle; bekâr kardeşi olmayan ya da tek kalan çocuklar başlı başına,",
+      "sourceQuoteSHA256": "d1ac39802f60ef1b2d2cc852c30c39b740eb2af042b2d6817d88b969f22b08ff",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[110]",
+      "requiredSourceFragments": [
+        "ç) (Değişik:14/2/2020-7221/36 md.) Anasız ve babasız bekâr kardeş çocuklar birlikte ve eşit hisselerle; bekâr kardeşi olmayan ya da tek kalan çocuklar başlı başına,"
+      ],
+      "correctOptionId": "Q-T01-B-0055-opt-02",
+      "normalizedCorrectText": "birlikte ve eşit hisselerle",
+      "distractorOptionIds": [
+        "Q-T01-B-0055-opt-01",
+        "Q-T01-B-0055-opt-03",
+        "Q-T01-B-0055-opt-04",
+        "Q-T01-B-0055-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "orphan-sibling-shares",
+      "fullHTMLParagraphIndices": [
+        110
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0056",
+      "learningObjectiveId": "LO-T01-012-BANK-0056",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0056",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Ancak, iskân planlama etütlerinin başladığı tarihten önce yerini terk etmiş olup kamulaştırılacak taşınmaz malı bulunan aileler iskân edilmezler. Bu tarihten geriye doğru üç yıl içerisinde, taşınmaz mallarını zorunlu hal olmadan ellerinden çıkaran ve yerine eşdeğerde veya daha fazla değerde taşınmaz mal almayan aileler yerlerini terk etmemiş olsalar dahi iskân edilmezler. Zorunlu haller yönetmelikle belirlenir.",
+      "sourceQuoteSHA256": "a7282b51471d67b3b4b1a1cae81d8a49949529f54b7eed342951060811262be7",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[77]",
+      "requiredSourceFragments": [
+        "(2) Ancak, iskân planlama etütlerinin başladığı tarihten önce yerini terk etmiş olup kamulaştırılacak taşınmaz malı bulunan aileler iskân edilmezler. Bu tarihten geriye doğru üç yıl içerisinde, taşınmaz mallarını zorunlu hal olmadan ellerinden çıkaran ve yerine eşdeğerde veya daha fazla değerde taşınmaz mal almayan aileler yerlerini terk etmemiş olsalar dahi iskân edilmezler. Zorunlu haller yönetmelikle belirlenir."
+      ],
+      "correctOptionId": "Q-T01-B-0056-opt-05",
+      "normalizedCorrectText": "zorunlu hal olmadan elden çıkarma ve yerine eşdeğer veya daha değerli taşınmaz almama",
+      "distractorOptionIds": [
+        "Q-T01-B-0056-opt-01",
+        "Q-T01-B-0056-opt-02",
+        "Q-T01-B-0056-opt-03",
+        "Q-T01-B-0056-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "recent-disposal-exception",
+      "fullHTMLParagraphIndices": [
+        77
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0057",
+      "learningObjectiveId": "LO-T01-012-BANK-0057",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0057",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(4) Bu madde kapsamına giren ve Devlet eliyle iskânlarını isteyen ailelerden; iskân duyurusu tarihinin bitiminden sonra doksan gün içinde müracaat etmeyenler ile aldıkları veya alacakları kamulaştırma bedelinin, Bakanlıkça belirlenen miktarını; kamulaştırma bedelinin Bakanlıkça belirlenen miktardan az olması halinde ise kamulaştırma ve tezyidi bedellerinin tamamını, Bakanlık Merkez Muhasebe Birimi Hesabına yatırmayı taahhüt etmeyenler iskân edilmezler.",
+      "sourceQuoteSHA256": "03b4bd729fa158594f7e452d415a97c3e69ae3742c9d8af39e2b28683116ae65",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[79]",
+      "requiredSourceFragments": [
+        "(4) Bu madde kapsamına giren ve Devlet eliyle iskânlarını isteyen ailelerden; iskân duyurusu tarihinin bitiminden sonra doksan gün içinde müracaat etmeyenler ile aldıkları veya alacakları kamulaştırma bedelinin, Bakanlıkça belirlenen miktarını; kamulaştırma bedelinin Bakanlıkça belirlenen miktardan az olması halinde ise kamulaştırma ve tezyidi bedellerinin tamamını, Bakanlık Merkez Muhasebe Birimi Hesabına yatırmayı taahhüt etmeyenler iskân edilmezler."
+      ],
+      "correctOptionId": "Q-T01-B-0057-opt-03",
+      "normalizedCorrectText": "kamulaştırma ve tezyidi bedellerinin tamamının",
+      "distractorOptionIds": [
+        "Q-T01-B-0057-opt-01",
+        "Q-T01-B-0057-opt-02",
+        "Q-T01-B-0057-opt-04",
+        "Q-T01-B-0057-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "insufficient-expropriation-deposit",
+      "fullHTMLParagraphIndices": [
+        79
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0058",
+      "learningObjectiveId": "LO-T01-016-BANK-0058",
+      "articleNumber": 16,
+      "ruleId": "RULE-Q-T01-B-0058",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "c) Afet nedeniyle parçalanmış köylerde, afete maruz kalmayan ailelerin talepleri halinde yeni yerleşim yerine ekleme yapılması,",
+      "sourceQuoteSHA256": "10dc15a5ba96517759c67b9f1d578690c0fbdbf32df323a646d5cc6bbf65b94d",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[96]",
+      "requiredSourceFragments": [
+        "c) Afet nedeniyle parçalanmış köylerde, afete maruz kalmayan ailelerin talepleri halinde yeni yerleşim yerine ekleme yapılması,"
+      ],
+      "correctOptionId": "Q-T01-B-0058-opt-01",
+      "normalizedCorrectText": "bu ailelerin talepte bulunmasına",
+      "distractorOptionIds": [
+        "Q-T01-B-0058-opt-02",
+        "Q-T01-B-0058-opt-03",
+        "Q-T01-B-0058-opt-04",
+        "Q-T01-B-0058-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "disaster-unaffected-family-request",
+      "fullHTMLParagraphIndices": [
+        96
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0059",
+      "learningObjectiveId": "LO-T01-016-BANK-0059",
+      "articleNumber": 16,
+      "ruleId": "RULE-Q-T01-B-0059",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "d) Çevrenin iklimine, sosyal ve ekonomik şartlarına, yapı malzemesi imkânlarına uygun nitelikte konut, tarımsal işletme binaları ve sosyal tesislerin tiplerinin ve uygun yerleşim modellerinin araştırılması, teknik yardım niteliğindeki tip projelerin hazırlanarak istekli köy veya köylülere verilmesi, gerektiği hallerde köylerde sosyal, kültürel, idari, ekonomik yapı ve tesisler ile köy içi altyapılarının yapılması,",
+      "sourceQuoteSHA256": "a2e45305cd4b73606905744350456ca95a90fec07c0461f981d47eb9a59a1a0c",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[98]",
+      "requiredSourceFragments": [
+        "d) Çevrenin iklimine, sosyal ve ekonomik şartlarına, yapı malzemesi imkânlarına uygun nitelikte konut, tarımsal işletme binaları ve sosyal tesislerin tiplerinin ve uygun yerleşim modellerinin araştırılması, teknik yardım niteliğindeki tip projelerin hazırlanarak istekli köy veya köylülere verilmesi, gerektiği hallerde köylerde sosyal, kültürel, idari, ekonomik yapı ve tesisler ile köy içi altyapılarının yapılması,"
+      ],
+      "correctOptionId": "Q-T01-B-0059-opt-04",
+      "normalizedCorrectText": "iklim, sosyal ve ekonomik şartlar ile yapı malzemesi imkânları",
+      "distractorOptionIds": [
+        "Q-T01-B-0059-opt-01",
+        "Q-T01-B-0059-opt-02",
+        "Q-T01-B-0059-opt-03",
+        "Q-T01-B-0059-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "model-project-context",
+      "fullHTMLParagraphIndices": [
+        98
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0060",
+      "learningObjectiveId": "LO-T01-016-BANK-0060",
+      "articleNumber": 16,
+      "ruleId": "RULE-Q-T01-B-0060",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "e) Nakil, toplulaştırma ve fiziksel yerleşim iyileştirilmesi uygulamaları tamamlanan köylerde, daha sonraki yıllarda rezerv arsalardan satın alan ailelere, kendi evini yapana yardım metodu ile kredi açılması,",
+      "sourceQuoteSHA256": "e767c188d4915eb7a0450a7136281cf50c6e1106f3064c6467191ea46738e918",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[99]",
+      "requiredSourceFragments": [
+        "e) Nakil, toplulaştırma ve fiziksel yerleşim iyileştirilmesi uygulamaları tamamlanan köylerde, daha sonraki yıllarda rezerv arsalardan satın alan ailelere, kendi evini yapana yardım metodu ile kredi açılması,"
+      ],
+      "correctOptionId": "Q-T01-B-0060-opt-02",
+      "normalizedCorrectText": "kendi evini yapana yardım metodu",
+      "distractorOptionIds": [
+        "Q-T01-B-0060-opt-01",
+        "Q-T01-B-0060-opt-03",
+        "Q-T01-B-0060-opt-04",
+        "Q-T01-B-0060-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "reserve-plot-credit-method",
+      "fullHTMLParagraphIndices": [
+        99
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0061",
+      "learningObjectiveId": "LO-T01-018-BANK-0061",
+      "articleNumber": 18,
+      "ruleId": "RULE-Q-T01-B-0061",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 18 – (1) Bakanlıkça ihtiyaç duyulması halinde, Bakanın veya görevlendireceği kişinin başkanlığında, gerekli görülecek diğer bakanlık ve kuruluşların temsilcilerinden oluşan bir Merkezi İskân Komisyonu kurulur.",
+      "sourceQuoteSHA256": "3cc7fa03a5dc007dc4578125e6123cab97c869ecdbde1a5635dd0d554224b657",
+      "sourceLocator": "5543 sayılı Kanun m.18; resmî tam HTML p[114]",
+      "requiredSourceFragments": [
+        "MADDE 18 – (1) Bakanlıkça ihtiyaç duyulması halinde, Bakanın veya görevlendireceği kişinin başkanlığında, gerekli görülecek diğer bakanlık ve kuruluşların temsilcilerinden oluşan bir Merkezi İskân Komisyonu kurulur."
+      ],
+      "correctOptionId": "Q-T01-B-0061-opt-05",
+      "normalizedCorrectText": "bakanlıkça ihtiyaç duyulursa bakanın veya görevlendirdiği kişinin başkanlığında kurulur.",
+      "distractorOptionIds": [
+        "Q-T01-B-0061-opt-01",
+        "Q-T01-B-0061-opt-02",
+        "Q-T01-B-0061-opt-03",
+        "Q-T01-B-0061-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "central-commission-formation",
+      "fullHTMLParagraphIndices": [
+        114
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0062",
+      "learningObjectiveId": "LO-T01-018-BANK-0062",
+      "articleNumber": 18,
+      "ruleId": "RULE-Q-T01-B-0062",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Bu Kanun hükümlerine göre iskân edilecekleri tespite ve taşınmaz mal tahsisine mahallin en büyük mülki amirinin veya görevlendireceği kişinin başkanlığında; bayındırlık ve iskân, tapu, maliye, tarım ve gerektiğinde ihtiyaç duyulacak konularda hizmet veren kamu kurum ve kuruluşlarının görevlilerinden teşekkül edecek Mahalli İskân Komisyonu yetkilidir.",
+      "sourceQuoteSHA256": "a0179cf4ef683ec18a1d85549e9953e034f8b468b2a722592a6ae6afc5c3c8c8",
+      "sourceLocator": "5543 sayılı Kanun m.18; resmî tam HTML p[116]",
+      "requiredSourceFragments": [
+        "(3) Bu Kanun hükümlerine göre iskân edilecekleri tespite ve taşınmaz mal tahsisine mahallin en büyük mülki amirinin veya görevlendireceği kişinin başkanlığında; bayındırlık ve iskân, tapu, maliye, tarım ve gerektiğinde ihtiyaç duyulacak konularda hizmet veren kamu kurum ve kuruluşlarının görevlilerinden teşekkül edecek Mahalli İskân Komisyonu yetkilidir."
+      ],
+      "correctOptionId": "Q-T01-B-0062-opt-03",
+      "normalizedCorrectText": "mahalli iskân komisyonu",
+      "distractorOptionIds": [
+        "Q-T01-B-0062-opt-01",
+        "Q-T01-B-0062-opt-02",
+        "Q-T01-B-0062-opt-04",
+        "Q-T01-B-0062-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "local-commission-allocation",
+      "fullHTMLParagraphIndices": [
+        116
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0063",
+      "learningObjectiveId": "LO-T01-019-BANK-0063",
+      "articleNumber": 19,
+      "ruleId": "RULE-Q-T01-B-0063",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 19 – (1) Bu Kanun hükümlerine göre verilen taşınmaz malların temlikine, vali ve kaymakamlar yetkilidir. Dağıtım defter veya kararlarının vali veya kaymakamlarca onanması, temliktir. Onaylı defter veya kararlardaki miktarlar geçerlidir.",
+      "sourceQuoteSHA256": "00d9618e2a213ff3b2a87c44f3472e37a9a463ca4bba6155ab0c741225f013d4",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[121]",
+      "requiredSourceFragments": [
+        "MADDE 19 – (1) Bu Kanun hükümlerine göre verilen taşınmaz malların temlikine, vali ve kaymakamlar yetkilidir. Dağıtım defter veya kararlarının vali veya kaymakamlarca onanması, temliktir. Onaylı defter veya kararlardaki miktarlar geçerlidir."
+      ],
+      "correctOptionId": "Q-T01-B-0063-opt-01",
+      "normalizedCorrectText": "onama temliktir; onaylı defter veya karardaki miktarlar geçerlidir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0063-opt-02",
+        "Q-T01-B-0063-opt-03",
+        "Q-T01-B-0063-opt-04",
+        "Q-T01-B-0063-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "conveyance-approval-amount",
+      "fullHTMLParagraphIndices": [
+        121
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0064",
+      "learningObjectiveId": "LO-T01-020-BANK-0064",
+      "articleNumber": 20,
+      "ruleId": "RULE-Q-T01-B-0064",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 20 – (1) Temlik edilmiş olan taşınmaz mallar mülkiyetine ilişkin olarak açılacak davalarda, davalı yeni malik ile birlikte tapudaki tescil durumuna göre Hazinedir.",
+      "sourceQuoteSHA256": "04e798deca8f74a9ffd7722dc181b19aeba82a0f8a7a23f2b572602c6e28994e",
+      "sourceLocator": "5543 sayılı Kanun m.20; resmî tam HTML p[125]",
+      "requiredSourceFragments": [
+        "MADDE 20 – (1) Temlik edilmiş olan taşınmaz mallar mülkiyetine ilişkin olarak açılacak davalarda, davalı yeni malik ile birlikte tapudaki tescil durumuna göre Hazinedir."
+      ],
+      "correctOptionId": "Q-T01-B-0064-opt-04",
+      "normalizedCorrectText": "yeni malik ile birlikte tapudaki tescil durumuna göre hazine",
+      "distractorOptionIds": [
+        "Q-T01-B-0064-opt-01",
+        "Q-T01-B-0064-opt-02",
+        "Q-T01-B-0064-opt-03",
+        "Q-T01-B-0064-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "ownership-litigation-defendants",
+      "fullHTMLParagraphIndices": [
+        125
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0065",
+      "learningObjectiveId": "LO-T01-020-BANK-0065",
+      "articleNumber": 20,
+      "ruleId": "RULE-Q-T01-B-0065",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Temlik tarihinden itibaren bir yıl geçtikten sonra malın kendisine ait olduğunu iddia edenler tarafından, el koyma tarihindeki rayiç bedel üzerinden dava açılabilir.",
+      "sourceQuoteSHA256": "90fbbb30ecb4a5962012dc088d504b3e4dfd990c3bbd320e45e4d0f4feb29b2e",
+      "sourceLocator": "5543 sayılı Kanun m.20; resmî tam HTML p[126]",
+      "requiredSourceFragments": [
+        "(2) Temlik tarihinden itibaren bir yıl geçtikten sonra malın kendisine ait olduğunu iddia edenler tarafından, el koyma tarihindeki rayiç bedel üzerinden dava açılabilir."
+      ],
+      "correctOptionId": "Q-T01-B-0065-opt-02",
+      "normalizedCorrectText": "el koyma tarihindeki rayiç",
+      "distractorOptionIds": [
+        "Q-T01-B-0065-opt-01",
+        "Q-T01-B-0065-opt-03",
+        "Q-T01-B-0065-opt-04",
+        "Q-T01-B-0065-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "post-year-price-date",
+      "fullHTMLParagraphIndices": [
+        126
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0066",
+      "learningObjectiveId": "LO-T01-021-BANK-0066",
+      "articleNumber": 21,
+      "ruleId": "RULE-Q-T01-B-0066",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır.",
+      "sourceQuoteSHA256": "17fefc365162c933c8d5c8899c2d8c28635bec104582edd7fdaface7ed6f74d8",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "requiredSourceFragments": [
+        "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır."
+      ],
+      "correctOptionId": "Q-T01-B-0066-opt-05",
+      "normalizedCorrectText": "temlikten itibaren beşinci yılın sonuna gelinmesi ve borçlandırma bedelinin tamamının ödenmesi",
+      "distractorOptionIds": [
+        "Q-T01-B-0066-opt-01",
+        "Q-T01-B-0066-opt-02",
+        "Q-T01-B-0066-opt-03",
+        "Q-T01-B-0066-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "release-two-conditions",
+      "fullHTMLParagraphIndices": [
+        130
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0067",
+      "learningObjectiveId": "LO-T01-021-BANK-0067",
+      "articleNumber": 21,
+      "ruleId": "RULE-Q-T01-B-0067",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır.",
+      "sourceQuoteSHA256": "17fefc365162c933c8d5c8899c2d8c28635bec104582edd7fdaface7ed6f74d8",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "requiredSourceFragments": [
+        "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır."
+      ],
+      "correctOptionId": "Q-T01-B-0067-opt-03",
+      "normalizedCorrectText": "tapu kütüğüne satış vaadi şerhi konulması",
+      "distractorOptionIds": [
+        "Q-T01-B-0067-opt-01",
+        "Q-T01-B-0067-opt-02",
+        "Q-T01-B-0067-opt-04",
+        "Q-T01-B-0067-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "unpaid-property-prohibitions",
+      "fullHTMLParagraphIndices": [
+        130
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0068",
+      "learningObjectiveId": "LO-T01-021-BANK-0068",
+      "articleNumber": 21,
+      "ruleId": "RULE-Q-T01-B-0068",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir.",
+      "sourceQuoteSHA256": "329d479c3d668fdbeee593595c0c8e064a41855d5ba2280895a320a77d0c04e1",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "requiredSourceFragments": [
+        "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir."
+      ],
+      "correctOptionId": "Q-T01-B-0068-opt-01",
+      "normalizedCorrectText": "özrün belgelendirilmiş olması",
+      "distractorOptionIds": [
+        "Q-T01-B-0068-opt-02",
+        "Q-T01-B-0068-opt-03",
+        "Q-T01-B-0068-opt-04",
+        "Q-T01-B-0068-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "valid-excuse-documentation",
+      "fullHTMLParagraphIndices": [
+        131
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0069",
+      "learningObjectiveId": "LO-T01-021-BANK-0069",
+      "articleNumber": 21,
+      "ruleId": "RULE-Q-T01-B-0069",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir.",
+      "sourceQuoteSHA256": "329d479c3d668fdbeee593595c0c8e064a41855d5ba2280895a320a77d0c04e1",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "requiredSourceFragments": [
+        "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir."
+      ],
+      "correctOptionId": "Q-T01-B-0069-opt-04",
+      "normalizedCorrectText": "hak sahipliği iptalinden sonra mahkemeden talep",
+      "distractorOptionIds": [
+        "Q-T01-B-0069-opt-01",
+        "Q-T01-B-0069-opt-02",
+        "Q-T01-B-0069-opt-03",
+        "Q-T01-B-0069-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "recovery-judicial-registration",
+      "fullHTMLParagraphIndices": [
+        131
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0070",
+      "learningObjectiveId": "LO-T01-023-BANK-0070",
+      "articleNumber": 23,
+      "ruleId": "RULE-Q-T01-B-0070",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 23 – (1) Bu Kanun hükümlerine uygun olarak iskân edilenlerin istihkaklarının eksiksiz olarak vaktinde dağıtılıp teslim olunmasına ve üretici hale getirilmesine ait işler ile diğer iskân işleri Bakanlığın mahalli teşkilatınca yürütülür. Bakanlığa ait personel, araç ve gerecin yetersiz olduğu yerlerdeki vali ve kaymakamlar; kendi il ve ilçelerindeki yargı organları hariç, Devlet memurları, özel idare ve belediye personeli ile araç ve gereçlerden uygun gördüklerini, iskân olunanları yerleştirmek, bunlara verilecek yerleri ölçmek, dağıtmak ve inşaatları kontrol etmek gibi iskân ve nakil işlerinde görevlendirmeye yetkilidir. Görevlendirilen personel öncelikle bu işleri yapmaya zorunludur.",
+      "sourceQuoteSHA256": "c1f1a973afd3b94363c0928078123088769030ec465d551f8bf7eb77d0aeca88",
+      "sourceLocator": "5543 sayılı Kanun m.23; resmî tam HTML p[136]",
+      "requiredSourceFragments": [
+        "MADDE 23 – (1) Bu Kanun hükümlerine uygun olarak iskân edilenlerin istihkaklarının eksiksiz olarak vaktinde dağıtılıp teslim olunmasına ve üretici hale getirilmesine ait işler ile diğer iskân işleri Bakanlığın mahalli teşkilatınca yürütülür. Bakanlığa ait personel, araç ve gerecin yetersiz olduğu yerlerdeki vali ve kaymakamlar; kendi il ve ilçelerindeki yargı organları hariç, Devlet memurları, özel idare ve belediye personeli ile araç ve gereçlerden uygun gördüklerini, iskân olunanları yerleştirmek, bunlara verilecek yerleri ölçmek, dağıtmak ve inşaatları kontrol etmek gibi iskân ve nakil işlerinde görevlendirmeye yetkilidir. Görevlendirilen personel öncelikle bu işleri yapmaya zorunludur."
+      ],
+      "correctOptionId": "Q-T01-B-0070-opt-02",
+      "normalizedCorrectText": "yargı organları kapsam dışındadır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0070-opt-01",
+        "Q-T01-B-0070-opt-03",
+        "Q-T01-B-0070-opt-04",
+        "Q-T01-B-0070-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "judicial-personnel-exclusion",
+      "fullHTMLParagraphIndices": [
+        136
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0071",
+      "learningObjectiveId": "LO-T01-024-BANK-0071",
+      "articleNumber": 24,
+      "ruleId": "RULE-Q-T01-B-0071",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 24 – (1) Bu Kanuna göre iskân edilenlerin tespit edilecek hayat seviyesine kavuşabilmeleri için geliştirme, yan gelir temini gibi tedbirler, Bakanlık ile diğer ilgili kurum ve kuruluşlarca ortaklaşa hazırlanacak plan ve projelere göre yürütülür. Bu projelerde yer alan tarım araç ve gereçleri, iskânlı ailelerin kooperatif kurmaları şartıyla kullandırılır.",
+      "sourceQuoteSHA256": "4cb9f38cebfad6eb1dba5b1c177d3aedb0a0657372ccdebca66172cbf992be5f",
+      "sourceLocator": "5543 sayılı Kanun m.24; resmî tam HTML p[140]",
+      "requiredSourceFragments": [
+        "MADDE 24 – (1) Bu Kanuna göre iskân edilenlerin tespit edilecek hayat seviyesine kavuşabilmeleri için geliştirme, yan gelir temini gibi tedbirler, Bakanlık ile diğer ilgili kurum ve kuruluşlarca ortaklaşa hazırlanacak plan ve projelere göre yürütülür. Bu projelerde yer alan tarım araç ve gereçleri, iskânlı ailelerin kooperatif kurmaları şartıyla kullandırılır."
+      ],
+      "correctOptionId": "Q-T01-B-0071-opt-05",
+      "normalizedCorrectText": "ailelerin kooperatif kurmalarına",
+      "distractorOptionIds": [
+        "Q-T01-B-0071-opt-01",
+        "Q-T01-B-0071-opt-02",
+        "Q-T01-B-0071-opt-03",
+        "Q-T01-B-0071-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "project-tools-cooperative",
+      "fullHTMLParagraphIndices": [
+        140
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0072",
+      "learningObjectiveId": "LO-T01-027-BANK-0072",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-T01-B-0072",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "requiredSourceFragments": [
+        "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0072-opt-03",
+      "normalizedCorrectText": "yapıda maliyet; hazine arazisinde rayiç bedel",
+      "distractorOptionIds": [
+        "Q-T01-B-0072-opt-01",
+        "Q-T01-B-0072-opt-02",
+        "Q-T01-B-0072-opt-04",
+        "Q-T01-B-0072-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "valuation-bases",
+      "fullHTMLParagraphIndices": [
+        174
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0073",
+      "learningObjectiveId": "LO-T01-027-BANK-0073",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-T01-B-0073",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "requiredSourceFragments": [
+        "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0073-opt-01",
+      "normalizedCorrectText": "rayiç bedelden",
+      "distractorOptionIds": [
+        "Q-T01-B-0073-opt-02",
+        "Q-T01-B-0073-opt-03",
+        "Q-T01-B-0073-opt-04",
+        "Q-T01-B-0073-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "reallocation-after-year",
+      "fullHTMLParagraphIndices": [
+        174
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0074",
+      "learningObjectiveId": "LO-T01-027-BANK-0074",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-T01-B-0074",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "requiredSourceFragments": [
+        "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0074-opt-04",
+      "normalizedCorrectText": "yüzde altmış beş",
+      "distractorOptionIds": [
+        "Q-T01-B-0074-opt-01",
+        "Q-T01-B-0074-opt-02",
+        "Q-T01-B-0074-opt-03",
+        "Q-T01-B-0074-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "contract-cash-discount",
+      "fullHTMLParagraphIndices": [
+        174
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0075",
+      "learningObjectiveId": "LO-T01-027-BANK-0075",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-T01-B-0075",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Taşınmaz mallara ait borçlandırma bedelleri faizsiz olarak tahsil olunur. Bu Kanun uyarınca açılacak işletme ve donatım kredileri ile fiziksel yerleşimi düzenleme amacıyla yapılacak taksitli arsa satışları ve aileye verilen konut ve işletme binası kredileri faize tâbidir.",
+      "sourceQuoteSHA256": "c5c5a5f110df5b84c75ccd6cd5b60958e50f438ac273d0c28a0d925517b83afd",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[176]",
+      "requiredSourceFragments": [
+        "(3) Taşınmaz mallara ait borçlandırma bedelleri faizsiz olarak tahsil olunur. Bu Kanun uyarınca açılacak işletme ve donatım kredileri ile fiziksel yerleşimi düzenleme amacıyla yapılacak taksitli arsa satışları ve aileye verilen konut ve işletme binası kredileri faize tâbidir."
+      ],
+      "correctOptionId": "Q-T01-B-0075-opt-02",
+      "normalizedCorrectText": "taşınmaz borçlandırma bedeli faizsiz; işletme ve donatım kredileri faizlidir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0075-opt-01",
+        "Q-T01-B-0075-opt-03",
+        "Q-T01-B-0075-opt-04",
+        "Q-T01-B-0075-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "interest-distinction",
+      "fullHTMLParagraphIndices": [
+        176
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0076",
+      "learningObjectiveId": "LO-T01-028-BANK-0076",
+      "articleNumber": 28,
+      "ruleId": "RULE-Q-T01-B-0076",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 28 – (1) Bakanlık Merkez Muhasebe Birimi Hesabına yatırılmış kamulaştırma bedelleri, borçlandırma bedellerinden düşülür; fazlası iade edilir; eksik kaldığı takdirde bu Kanun hükümlerine göre ilgililer borçlandırılır. Yatırılmış kamulaştırma bedelleri, borçlandırma ve/veya iade tarihi itibariyle güncelleştirilir.",
+      "sourceQuoteSHA256": "f82490aa4275d238b0a88f86cce722adfabda8b93843cb724ebe520fa26e5c93",
+      "sourceLocator": "5543 sayılı Kanun m.28; resmî tam HTML p[185]",
+      "requiredSourceFragments": [
+        "MADDE 28 – (1) Bakanlık Merkez Muhasebe Birimi Hesabına yatırılmış kamulaştırma bedelleri, borçlandırma bedellerinden düşülür; fazlası iade edilir; eksik kaldığı takdirde bu Kanun hükümlerine göre ilgililer borçlandırılır. Yatırılmış kamulaştırma bedelleri, borçlandırma ve/veya iade tarihi itibariyle güncelleştirilir."
+      ],
+      "correctOptionId": "Q-T01-B-0076-opt-05",
+      "normalizedCorrectText": "fazlası iade edilir; eksik kalan için ilgililer borçlandırılır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0076-opt-01",
+        "Q-T01-B-0076-opt-02",
+        "Q-T01-B-0076-opt-03",
+        "Q-T01-B-0076-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "expropriation-balance",
+      "fullHTMLParagraphIndices": [
+        185
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0077",
+      "learningObjectiveId": "LO-T01-029-BANK-0077",
+      "articleNumber": 29,
+      "ruleId": "RULE-Q-T01-B-0077",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 29 – (1) Mahkeme kararı ile taşınmaz malların geri alınması halinde, evvelce ödenen taksitler veya zaruri ve faydalı giderler, geri verilecek paralar tertibinden iade edilir.",
+      "sourceQuoteSHA256": "77f92987824e7e1509aec9ec1e218215f2f174370836274bbb7d0126d9290f2c",
+      "sourceLocator": "5543 sayılı Kanun m.29; resmî tam HTML p[188]",
+      "requiredSourceFragments": [
+        "MADDE 29 – (1) Mahkeme kararı ile taşınmaz malların geri alınması halinde, evvelce ödenen taksitler veya zaruri ve faydalı giderler, geri verilecek paralar tertibinden iade edilir."
+      ],
+      "correctOptionId": "Q-T01-B-0077-opt-03",
+      "normalizedCorrectText": "geri verilecek paralar tertibinden iade",
+      "distractorOptionIds": [
+        "Q-T01-B-0077-opt-01",
+        "Q-T01-B-0077-opt-02",
+        "Q-T01-B-0077-opt-04",
+        "Q-T01-B-0077-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "recovery-refund-items",
+      "fullHTMLParagraphIndices": [
+        188
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0078",
+      "learningObjectiveId": "LO-T01-030-BANK-0078",
+      "articleNumber": 30,
+      "ruleId": "RULE-Q-T01-B-0078",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 30 – (1) Bu Kanunun uygulanmasına ilişkin olarak yapılacak; karşılıksız iskân yardımları, altyapı tesisleri, sosyal, kültürel, idari, ekonomik ve diğer tesisler, imar planları ve teknik yardım niteliğindeki tip projeler karşılıksız olarak yapılır veya yaptırılır.",
+      "sourceQuoteSHA256": "2a8a54cde5afc29e967421a4a343af7e2b93050df117138571e3188bd4192ba0",
+      "sourceLocator": "5543 sayılı Kanun m.30; resmî tam HTML p[191]",
+      "requiredSourceFragments": [
+        "MADDE 30 – (1) Bu Kanunun uygulanmasına ilişkin olarak yapılacak; karşılıksız iskân yardımları, altyapı tesisleri, sosyal, kültürel, idari, ekonomik ve diğer tesisler, imar planları ve teknik yardım niteliğindeki tip projeler karşılıksız olarak yapılır veya yaptırılır."
+      ],
+      "correctOptionId": "Q-T01-B-0078-opt-01",
+      "normalizedCorrectText": "imar planları ve teknik yardım niteliğindeki tip projeler",
+      "distractorOptionIds": [
+        "Q-T01-B-0078-opt-02",
+        "Q-T01-B-0078-opt-03",
+        "Q-T01-B-0078-opt-04",
+        "Q-T01-B-0078-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nondebt-services",
+      "fullHTMLParagraphIndices": [
+        191
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0079",
+      "learningObjectiveId": "LO-T01-034-BANK-0079",
+      "articleNumber": 34,
+      "ruleId": "RULE-Q-T01-B-0079",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 34 – (1) Bu Kanun hükümlerine göre kabul edilen göçmenlerin, bir aile veya aile sayılan kişiler ile bir köy, mahalle veya topluluk olarak yurda getirecekleri kullanılmış zati, mesleki ve ev eşyaları bir defaya mahsus olmak üzere gümrük vergileri ile damga vergisinden ve diğer her türlü resim, vergi ve harçlardan muaftır.",
+      "sourceQuoteSHA256": "07e58edbccfdceaec9311101065a6a868c103c7c9cfb46566d50acd611a1e435",
+      "sourceLocator": "5543 sayılı Kanun m.34; resmî tam HTML p[205]",
+      "requiredSourceFragments": [
+        "MADDE 34 – (1) Bu Kanun hükümlerine göre kabul edilen göçmenlerin, bir aile veya aile sayılan kişiler ile bir köy, mahalle veya topluluk olarak yurda getirecekleri kullanılmış zati, mesleki ve ev eşyaları bir defaya mahsus olmak üzere gümrük vergileri ile damga vergisinden ve diğer her türlü resim, vergi ve harçlardan muaftır."
+      ],
+      "correctOptionId": "Q-T01-B-0079-opt-04",
+      "normalizedCorrectText": "kullanılmış zati, mesleki ve ev eşyası; bir defaya mahsus",
+      "distractorOptionIds": [
+        "Q-T01-B-0079-opt-01",
+        "Q-T01-B-0079-opt-02",
+        "Q-T01-B-0079-opt-03",
+        "Q-T01-B-0079-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "customs-used-once",
+      "fullHTMLParagraphIndices": [
+        205
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0080",
+      "learningObjectiveId": "LO-T01-036-BANK-0080",
+      "articleNumber": 36,
+      "ruleId": "RULE-Q-T01-B-0080",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(4) (Ek:14/2/2020-7221/37 md.) Bu Kanun hükümlerine göre yapılacak yapılara ilişkin ruhsat ve izinler, 26/5/1981 tarihli ve 2464 sayılı Belediye Gelirleri Kanununa göre alınan bina inşaat harcı ve imarla ilgili harçlardan müstesnadır. Ayrıca, bu yapılara ilişkin belediyece ve il özel idaresince verilen hizmetlerden ücret alınmaz.",
+      "sourceQuoteSHA256": "62b8c3e602f1c6915b298e9278a73a80f6fd0e056d13c134afdb03a7fe92b112",
+      "sourceLocator": "5543 sayılı Kanun m.36; resmî tam HTML p[214]",
+      "requiredSourceFragments": [
+        "(4) (Ek:14/2/2020-7221/37 md.) Bu Kanun hükümlerine göre yapılacak yapılara ilişkin ruhsat ve izinler, 26/5/1981 tarihli ve 2464 sayılı Belediye Gelirleri Kanununa göre alınan bina inşaat harcı ve imarla ilgili harçlardan müstesnadır. Ayrıca, bu yapılara ilişkin belediyece ve il özel idaresince verilen hizmetlerden ücret alınmaz."
+      ],
+      "correctOptionId": "Q-T01-B-0080-opt-02",
+      "normalizedCorrectText": "ruhsat ve izinler bina inşaat ve imarla ilgili harçlardan müstesnadır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0080-opt-01",
+        "Q-T01-B-0080-opt-03",
+        "Q-T01-B-0080-opt-04",
+        "Q-T01-B-0080-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "building-permit-exemptions",
+      "fullHTMLParagraphIndices": [
+        214
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0081",
+      "learningObjectiveId": "LO-T01-003-BANK-0081",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0081",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "a) Tarımsal iskân: Bir aileye projesinde öngörülen miktarda tarım arazisi, işletme binası, konut, irat hayvanı, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır.",
+      "sourceQuoteSHA256": "8f70a8c963a92fda5d815e9c953b6dc6830d9273783fa08dad3b8bf23397f46b",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[18]",
+      "requiredSourceFragments": [
+        "a) Tarımsal iskân: Bir aileye projesinde öngörülen miktarda tarım arazisi, işletme binası, konut, irat hayvanı, araç, gereç, tezgah ve kredilerden bir veya birkaçının verilmesiyle yapılan iskândır."
+      ],
+      "correctOptionId": "Q-T01-B-0081-opt-05",
+      "normalizedCorrectText": "tanımdaki unsurlardan birinin verilmesi tarımsal iskân sayılabilir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0081-opt-01",
+        "Q-T01-B-0081-opt-02",
+        "Q-T01-B-0081-opt-03",
+        "Q-T01-B-0081-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "agricultural-one-element-scenario",
+      "fullHTMLParagraphIndices": [
+        18
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0082",
+      "learningObjectiveId": "LO-T01-003-BANK-0082",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0082",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır.",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "requiredSourceFragments": [
+        "ç) Göçebe: Yerleşik tarımsal faaliyetler dışında kalmış, sabit ve daimi bir konuta bağlı olmadan geçimlerini göçer hayvancılıkla sağlayan, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçen, bu hayat tarzını kadimden beri sürdüren, aralarında hısımlık ilişkileri bulunan ve hayvancılık faaliyetlerini bir grup halinde yürüten Türk vatandaşlarıdır."
+      ],
+      "correctOptionId": "Q-T01-B-0082-opt-03",
+      "normalizedCorrectText": "göçer hayvancılık ve sabit konuta bağlı olmama unsurları sağlanmadığından tanım karşılanmaz.",
+      "distractorOptionIds": [
+        "Q-T01-B-0082-opt-01",
+        "Q-T01-B-0082-opt-02",
+        "Q-T01-B-0082-opt-04",
+        "Q-T01-B-0082-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "seasonal-worker-not-nomad",
+      "fullHTMLParagraphIndices": [
+        21
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0083",
+      "learningObjectiveId": "LO-T01-003-BANK-0083",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-T01-B-0083",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "d) Göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip bu Kanun gereğince kabul olunanlardır.",
+      "sourceQuoteSHA256": "2fc17bd51cdda4b62da5deb46114fa351253d942025001bdf2f7f8a8b58680a4",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[22]",
+      "requiredSourceFragments": [
+        "d) Göçmen: Türk soyundan ve Türk kültürüne bağlı olup, yerleşmek amacıyla tek başına veya toplu halde Türkiye'ye gelip bu Kanun gereğince kabul olunanlardır."
+      ],
+      "correctOptionId": "Q-T01-B-0083-opt-01",
+      "normalizedCorrectText": "türk soyu tek başına yeterli olmadığından göçmen olarak kabul edilmez.",
+      "distractorOptionIds": [
+        "Q-T01-B-0083-opt-02",
+        "Q-T01-B-0083-opt-03",
+        "Q-T01-B-0083-opt-04",
+        "Q-T01-B-0083-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "origin-without-culture-scenario",
+      "fullHTMLParagraphIndices": [
+        22
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0084",
+      "learningObjectiveId": "LO-T01-005-BANK-0084",
+      "articleNumber": 5,
+      "ruleId": "RULE-Q-T01-B-0084",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler.",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "requiredSourceFragments": [
+        "MADDE 5 – (1) Türkiye'de yerleşmek isteyen Türk soyundan ve Türk kültürüne bağlı bulunan kimselerden, Türk uyruklu ve Türkiye'deki birinci veya ikinci derecede bir yakını tarafından referans verilen veya bulundukları ülkedeki konsolosluk temsilciliklerimize bizzat müracaat eden ve bu Kanun hükümlerine göre Dışişleri ve İçişleri bakanlıklarınca yapılacak incelemelerden sonra uygun görülerek serbest göçmen vizesi alanlar, Hükümetten hiçbir iskân yardımı istememeleri şartıyla İçişleri Bakanlığınca serbest göçmen olarak kabul edilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0084-opt-04",
+      "normalizedCorrectText": "bizzat konsolosluk başvurusu alternatif olduğundan referans yokluğu tek başına bu yolu kapatmaz.",
+      "distractorOptionIds": [
+        "Q-T01-B-0084-opt-01",
+        "Q-T01-B-0084-opt-02",
+        "Q-T01-B-0084-opt-03",
+        "Q-T01-B-0084-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "consular-no-reference-scenario",
+      "fullHTMLParagraphIndices": [
+        36
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0085",
+      "learningObjectiveId": "LO-T01-008-BANK-0085",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-T01-B-0085",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]",
+      "sourceQuoteSHA256": "5ae559de72a72f3415d919bcec2d062ab5b45fc1a8b6420613c7f7e395c05e1c",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "requiredSourceFragments": [
+        "(4) Göçmen olarak kabul edilenler, gerekli işlemlerin ilgili kuruluşlarca tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınırlar. Küçükler; baba ve analarına, baba veya anaları yoksa kan ve kayın hısımlarına bağlı tutulurlar. Kimsesiz gelen küçükler, yaşlarına bakılmaksızın vatandaşlığa alınırlar.[4]"
+      ],
+      "correctOptionId": "Q-T01-B-0085-opt-02",
+      "normalizedCorrectText": "kan ve kayın hısımlarına bağlı tutulur.",
+      "distractorOptionIds": [
+        "Q-T01-B-0085-opt-01",
+        "Q-T01-B-0085-opt-03",
+        "Q-T01-B-0085-opt-04",
+        "Q-T01-B-0085-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "minor-relatives-scenario",
+      "fullHTMLParagraphIndices": [
+        50
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0086",
+      "learningObjectiveId": "LO-T01-009-BANK-0086",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0086",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır.",
+      "sourceQuoteSHA256": "e90b3c7fffe268ad0761d33b070b259cb2dc44720706121b7322893ceadee4c1",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "requiredSourceFragments": [
+        "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır."
+      ],
+      "correctOptionId": "Q-T01-B-0086-opt-05",
+      "normalizedCorrectText": "sınırlarımızdan girişi",
+      "distractorOptionIds": [
+        "Q-T01-B-0086-opt-01",
+        "Q-T01-B-0086-opt-02",
+        "Q-T01-B-0086-opt-03",
+        "Q-T01-B-0086-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "migrant-support-start-scenario",
+      "fullHTMLParagraphIndices": [
+        63
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0087",
+      "learningObjectiveId": "LO-T01-009-BANK-0087",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-T01-B-0087",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır.",
+      "sourceQuoteSHA256": "e90b3c7fffe268ad0761d33b070b259cb2dc44720706121b7322893ceadee4c1",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "requiredSourceFragments": [
+        "(3) Bu Kanun uyarınca yurda kabul edilen göçmenlerin, gümrükten muaf kullanılmış eşyalarıyla birlikte sınırlarımızdan girişlerinden itibaren; yerleri kamulaştırılanlarla, millî güvenlik nedeniyle iskân edilenlere ve göçebelere yeni iskân alanına nakledilmeye başladıkları tarihten itibaren barındırma, yiyecek, yakacak ve tedavi yardımları ile bunlardan muhtaç durumda olanlara bir defaya mahsus olmak üzere giyecek yardımları ve ayrıca yerleri kamulaştırılanlara geçici iskân için karşılıksız yardımlar yönetmelikte belirtilen süre, miktar ve şartlara göre yapılır."
+      ],
+      "correctOptionId": "Q-T01-B-0087-opt-03",
+      "normalizedCorrectText": "yeni iskân alanına nakledilmeye başlanması",
+      "distractorOptionIds": [
+        "Q-T01-B-0087-opt-01",
+        "Q-T01-B-0087-opt-02",
+        "Q-T01-B-0087-opt-04",
+        "Q-T01-B-0087-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nomad-support-start-scenario",
+      "fullHTMLParagraphIndices": [
+        63
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0088",
+      "learningObjectiveId": "LO-T01-012-BANK-0088",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0088",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 12 – (1) Kamu kurum ve kuruluşlarınca yapılacak baraj, baraj mücavir alanı, koruma alanı, havaalanı, karayolu, demiryolu, fabrika, ekonomi ve savunma ile ilgili diğer tesislerin inşası, tarih ve tabiat kıymetlerinin korunması gibi amaçlar için veya özel kanunların uygulanması sebebiyle; a) Taşınmaz mallarının kısmen veya tamamen kamulaştırılması sonucu yerlerini terk etmek zorunda kalan aileler, b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler, talep ettikleri takdirde Bakanlıkça gösterilecek yerlerde bu Kanun hükümlerine göre iskân edilirler.",
+      "sourceQuoteSHA256": "fa8840c162620cd8e32a15aec419f1907ae7b2945420fa86ec4da79c07a82996",
+      "sourceLocator": "5543 sayılı Kanun m.12/1; resmî tam HTML p[73–76]",
+      "requiredSourceFragments": [
+        "MADDE 12 – (1) Kamu kurum ve kuruluşlarınca yapılacak baraj, baraj mücavir alanı, koruma alanı, havaalanı, karayolu, demiryolu, fabrika, ekonomi ve savunma ile ilgili diğer tesislerin inşası, tarih ve tabiat kıymetlerinin korunması gibi amaçlar için veya özel kanunların uygulanması sebebiyle; a) Taşınmaz mallarının kısmen veya tamamen kamulaştırılması sonucu yerlerini terk etmek zorunda kalan aileler, b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler, talep ettikleri takdirde Bakanlıkça gösterilecek yerlerde bu Kanun hükümlerine göre iskân edilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0088-opt-01",
+      "normalizedCorrectText": "tam kamulaştırma şart değildir; kısmi kamulaştırma da bu kapsama girebilir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0088-opt-02",
+        "Q-T01-B-0088-opt-03",
+        "Q-T01-B-0088-opt-04",
+        "Q-T01-B-0088-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "partial-expropriation-scenario",
+      "fullHTMLParagraphIndices": [
+        73,
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0089",
+      "learningObjectiveId": "LO-T01-012-BANK-0089",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0089",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler,",
+      "sourceQuoteSHA256": "7a9d4617f8153957fcfa637156457a21567fec029660df1971cf0d0173c260e5",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[75]",
+      "requiredSourceFragments": [
+        "b) Yapılan iskân planlama etütlerinin başladığı takvim yılı başlangıcından en az üç yıl önce kamulaştırma sahasında yerleşmiş olup da taşınmaz malı olmayan aileler,"
+      ],
+      "correctOptionId": "Q-T01-B-0089-opt-04",
+      "normalizedCorrectText": "2026 yılbaşından en az üç yıl önce yerleştiği için bu süre şartını sağlar.",
+      "distractorOptionIds": [
+        "Q-T01-B-0089-opt-01",
+        "Q-T01-B-0089-opt-02",
+        "Q-T01-B-0089-opt-03",
+        "Q-T01-B-0089-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "nonowner-duration-calculation",
+      "fullHTMLParagraphIndices": [
+        75
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0090",
+      "learningObjectiveId": "LO-T01-012-BANK-0090",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-T01-B-0090",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(3) Kamu kurum ve kuruluşlarınca kamulaştırılan alanlarda yerleşik olan ve kamulaştırmadan etkilenen ailelerden Devlet eliyle başka yerde iskânını istemeyenler, yazılı başvuruları üzerine, ilgili valiliğin teklifi ve İçişleri Bakanlığının olumlu görüşü alınmak şartıyla Bakanlıkça kendi köy hudutları içinde gösterilecek bir yerde iskân edilebilirler.",
+      "sourceQuoteSHA256": "bc45562f3fbdcced1ecdcdb4b44f7d1c367f57f91d55abf28953435ff3f578a7",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[78]",
+      "requiredSourceFragments": [
+        "(3) Kamu kurum ve kuruluşlarınca kamulaştırılan alanlarda yerleşik olan ve kamulaştırmadan etkilenen ailelerden Devlet eliyle başka yerde iskânını istemeyenler, yazılı başvuruları üzerine, ilgili valiliğin teklifi ve İçişleri Bakanlığının olumlu görüşü alınmak şartıyla Bakanlıkça kendi köy hudutları içinde gösterilecek bir yerde iskân edilebilirler."
+      ],
+      "correctOptionId": "Q-T01-B-0090-opt-02",
+      "normalizedCorrectText": "yazılı başvuru şartı karşılanmamıştır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0090-opt-01",
+        "Q-T01-B-0090-opt-03",
+        "Q-T01-B-0090-opt-04",
+        "Q-T01-B-0090-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "within-village-written-application",
+      "fullHTMLParagraphIndices": [
+        78
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0091",
+      "learningObjectiveId": "LO-T01-016-BANK-0091",
+      "articleNumber": 16,
+      "ruleId": "RULE-Q-T01-B-0091",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Ancak, birinci fıkranın (a) ve (b) bentlerindeki hizmetlerin yapılabilmesi için köy seçmen listesinde kayıtlı olanların yarıdan bir fazlasının, o yerin en büyük mülki amirliğine yazılı müracaatı esastır.",
+      "sourceQuoteSHA256": "bec4bef0a6fdb5ec111e9e0f63d3f6f253bb6655039cb2c507fa9db504fc3e39",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[101]",
+      "requiredSourceFragments": [
+        "(2) Ancak, birinci fıkranın (a) ve (b) bentlerindeki hizmetlerin yapılabilmesi için köy seçmen listesinde kayıtlı olanların yarıdan bir fazlasının, o yerin en büyük mülki amirliğine yazılı müracaatı esastır."
+      ],
+      "correctOptionId": "Q-T01-B-0091-opt-05",
+      "normalizedCorrectText": "yarıdan bir fazla şartı için en az 51 başvuru gerektiğinden yeterli değildir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0091-opt-01",
+        "Q-T01-B-0091-opt-02",
+        "Q-T01-B-0091-opt-03",
+        "Q-T01-B-0091-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "village-majority-calculation",
+      "fullHTMLParagraphIndices": [
+        101
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0092",
+      "learningObjectiveId": "LO-T01-017-BANK-0092",
+      "articleNumber": 17,
+      "ruleId": "RULE-Q-T01-B-0092",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "b) Evlenmemiş çocuklar, ana ve baba ile veya bunlardan sağ olanı ile birlikte,",
+      "sourceQuoteSHA256": "c3f5156193136faba9d6a88982d2d102c51a0cbd23097080a0d11ef975b82617",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[108]",
+      "requiredSourceFragments": [
+        "b) Evlenmemiş çocuklar, ana ve baba ile veya bunlardan sağ olanı ile birlikte,"
+      ],
+      "correctOptionId": "Q-T01-B-0092-opt-03",
+      "normalizedCorrectText": "evlenmemiş çocuk sağ olan annesiyle birlikte aile sayılır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0092-opt-01",
+        "Q-T01-B-0092-opt-02",
+        "Q-T01-B-0092-opt-04",
+        "Q-T01-B-0092-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "unmarried-surviving-parent",
+      "fullHTMLParagraphIndices": [
+        108
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0093",
+      "learningObjectiveId": "LO-T01-017-BANK-0093",
+      "articleNumber": 17,
+      "ruleId": "RULE-Q-T01-B-0093",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "ç) (Değişik:14/2/2020-7221/36 md.) Anasız ve babasız bekâr kardeş çocuklar birlikte ve eşit hisselerle; bekâr kardeşi olmayan ya da tek kalan çocuklar başlı başına,",
+      "sourceQuoteSHA256": "d1ac39802f60ef1b2d2cc852c30c39b740eb2af042b2d6817d88b969f22b08ff",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[110]",
+      "requiredSourceFragments": [
+        "ç) (Değişik:14/2/2020-7221/36 md.) Anasız ve babasız bekâr kardeş çocuklar birlikte ve eşit hisselerle; bekâr kardeşi olmayan ya da tek kalan çocuklar başlı başına,"
+      ],
+      "correctOptionId": "Q-T01-B-0093-opt-01",
+      "normalizedCorrectText": "başlı başına aile olarak iskân edilebilir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0093-opt-02",
+        "Q-T01-B-0093-opt-03",
+        "Q-T01-B-0093-opt-04",
+        "Q-T01-B-0093-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "sole-orphan-child",
+      "fullHTMLParagraphIndices": [
+        110
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0094",
+      "learningObjectiveId": "LO-T01-019-BANK-0094",
+      "articleNumber": 19,
+      "ruleId": "RULE-Q-T01-B-0094",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Verilen taşınmaz mallar, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle temlik ve tapuya tescil ettirilir.",
+      "sourceQuoteSHA256": "0f2e5735f8a2d734f0f1eac6833355d3a65d0b0a5a0836d795beb331b22da565",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[122]",
+      "requiredSourceFragments": [
+        "(2) Verilen taşınmaz mallar, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle temlik ve tapuya tescil ettirilir."
+      ],
+      "correctOptionId": "Q-T01-B-0094-opt-04",
+      "normalizedCorrectText": "temlik tarihinde yaşayan aile fertleri esas alınır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0094-opt-01",
+        "Q-T01-B-0094-opt-02",
+        "Q-T01-B-0094-opt-03",
+        "Q-T01-B-0094-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "living-family-at-conveyance",
+      "fullHTMLParagraphIndices": [
+        122
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0095",
+      "learningObjectiveId": "LO-T01-021-BANK-0095",
+      "articleNumber": 21,
+      "ruleId": "RULE-Q-T01-B-0095",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır.",
+      "sourceQuoteSHA256": "17fefc365162c933c8d5c8899c2d8c28635bec104582edd7fdaface7ed6f74d8",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "requiredSourceFragments": [
+        "(1) Bu Kanuna göre verilen taşınmaz mallar, temlik tarihinden itibaren borcun tamamı ödenmeden önce hiçbir suretle satılamaz, bağışlanamaz, rehin edilemez, tapu kütüğüne satış vaadi şerhi konulamaz ve haczolunamaz. Bu taşınmazların tapu kütüklerinin beyanlar hanesine bu yönde belirtme yapılır. Ancak, temlik tarihinden itibaren beşinci yılın sonunda başlamak üzere, borçlandırma bedelinin tamamını ödeyenlerin tapu kaydına yapılan belirtme kaldırılır."
+      ],
+      "correctOptionId": "Q-T01-B-0095-opt-02",
+      "normalizedCorrectText": "tam ödeme gerçekleşse de kaldırma için beşinci yılın sonu beklenir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0095-opt-01",
+        "Q-T01-B-0095-opt-03",
+        "Q-T01-B-0095-opt-04",
+        "Q-T01-B-0095-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "debt-paid-early-scenario",
+      "fullHTMLParagraphIndices": [
+        130
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0096",
+      "learningObjectiveId": "LO-T01-021-BANK-0096",
+      "articleNumber": 21,
+      "ruleId": "RULE-Q-T01-B-0096",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir.",
+      "sourceQuoteSHA256": "329d479c3d668fdbeee593595c0c8e064a41855d5ba2280895a320a77d0c04e1",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "requiredSourceFragments": [
+        "(2) Bu Kanuna göre hak sahiplerine verilen taşınmazların takyit süresi içinde belgelendirilmiş olmak koşuluyla ticari faaliyet dahil geçim imkanının temini, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi geçerli bir özrü olmaksızın kullanılmadığı, bağışlandığı veya satıldığı tespit olunduğunda, Mahalli İskân Komisyonunca hak sahiplilik durumu iptal edilir, iskân amaçlarında kullanılmak üzere tapu kaydının iptali ile Hazine adına tescili mahkemeden istenir."
+      ],
+      "correctOptionId": "Q-T01-B-0096-opt-05",
+      "normalizedCorrectText": "eğitim kanunda sayılan geçerli özürlerdendir; belge dikkate alınmalıdır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0096-opt-01",
+        "Q-T01-B-0096-opt-02",
+        "Q-T01-B-0096-opt-03",
+        "Q-T01-B-0096-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "education-excuse-scenario",
+      "fullHTMLParagraphIndices": [
+        131
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0097",
+      "learningObjectiveId": "LO-T01-027-BANK-0097",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-T01-B-0097",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir.",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "requiredSourceFragments": [
+        "MADDE 27 – (1) İskân ve fiziksel yerleşim düzenlemelerinde hak sahipleri; kendilerine verilen taşınmazlardan dolayı, kamulaştırılan ve satın alınan taşınmaz mallar için kamulaştırma veya satın alma bedelleri, yapılar için maliyet bedelleri, Hazine arazileri için rayiç bedelleri üzerinden borçlandırılırlar. Ancak, iskân amacıyla kamulaştırılmış, satın alınmış, inşa edilmiş olup, çeşitli nedenlerle tahsisleri bir yıl içinde yapılmamış taşınmaz mallar yeniden iskân uygulamasına alındığı takdirde, yeni hak sahipleri bu taşınmaz malların rayiç bedelleri üzerinden borçlandırılırlar. (Ek cümleler:10/6/2022-7410/21 md.) Bu Kanunun 10 uncu, 11 inci ve 12 nci maddeleri kapsamına giren hak sahibi ailelerden sözleşme aşamasında borcunu peşin olarak ödemek isteyenlere borçlandırma bedeli üzerinden yüzde altmış beş oranında indirim yapılır. Ödemesiz süre içerisindeki işlerde ise borçlandırma bedeli üzerinden yapılacak peşin ödeme indirim oranları yönetmelikte belirtilir."
+      ],
+      "correctOptionId": "Q-T01-B-0097-opt-03",
+      "normalizedCorrectText": "350.000 tl",
+      "distractorOptionIds": [
+        "Q-T01-B-0097-opt-01",
+        "Q-T01-B-0097-opt-02",
+        "Q-T01-B-0097-opt-04",
+        "Q-T01-B-0097-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "cash-discount-calculation",
+      "fullHTMLParagraphIndices": [
+        174
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0098",
+      "learningObjectiveId": "LO-T01-028-BANK-0098",
+      "articleNumber": 28,
+      "ruleId": "RULE-Q-T01-B-0098",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 28 – (1) Bakanlık Merkez Muhasebe Birimi Hesabına yatırılmış kamulaştırma bedelleri, borçlandırma bedellerinden düşülür; fazlası iade edilir; eksik kaldığı takdirde bu Kanun hükümlerine göre ilgililer borçlandırılır. Yatırılmış kamulaştırma bedelleri, borçlandırma ve/veya iade tarihi itibariyle güncelleştirilir.",
+      "sourceQuoteSHA256": "f82490aa4275d238b0a88f86cce722adfabda8b93843cb724ebe520fa26e5c93",
+      "sourceLocator": "5543 sayılı Kanun m.28; resmî tam HTML p[185]",
+      "requiredSourceFragments": [
+        "MADDE 28 – (1) Bakanlık Merkez Muhasebe Birimi Hesabına yatırılmış kamulaştırma bedelleri, borçlandırma bedellerinden düşülür; fazlası iade edilir; eksik kaldığı takdirde bu Kanun hükümlerine göre ilgililer borçlandırılır. Yatırılmış kamulaştırma bedelleri, borçlandırma ve/veya iade tarihi itibariyle güncelleştirilir."
+      ],
+      "correctOptionId": "Q-T01-B-0098-opt-01",
+      "normalizedCorrectText": "aileye iade edilir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0098-opt-02",
+        "Q-T01-B-0098-opt-03",
+        "Q-T01-B-0098-opt-04",
+        "Q-T01-B-0098-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "expropriation-surplus-scenario",
+      "fullHTMLParagraphIndices": [
+        185
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0099",
+      "learningObjectiveId": "LO-T01-040-BANK-0099",
+      "articleNumber": 40,
+      "ruleId": "RULE-Q-T01-B-0099",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "MADDE 40 – (1) Bu Kanun kapsamında kullanılacak arsa ve araziler, özel kanun hükümleri ve millî güvenlik nedeniyle tahsis edilmiş veya 18/12/1981 tarihli ve 2565 sayılı Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Kanunu hükümlerine göre tesis edilecek askeri yasak bölgeler ve güvenlik bölgeleri sınırları kapsamında kalan yerlerden seçilmez. (2) Ancak zorunlu hallerde söz konusu arsa ve araziler ilgili kurumların uygun görüşü doğrultusunda kullanılabilir.",
+      "sourceQuoteSHA256": "15889068b1d104d20108ab12c7a21f25eab721b54a7845fd65fcb934d2199b86",
+      "sourceLocator": "5543 sayılı Kanun m.40; resmî tam HTML p[236]–p[237]",
+      "requiredSourceFragments": [
+        "MADDE 40 – (1) Bu Kanun kapsamında kullanılacak arsa ve araziler, özel kanun hükümleri ve millî güvenlik nedeniyle tahsis edilmiş veya 18/12/1981 tarihli ve 2565 sayılı Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Kanunu hükümlerine göre tesis edilecek askeri yasak bölgeler ve güvenlik bölgeleri sınırları kapsamında kalan yerlerden seçilmez.",
+        "(2) Ancak zorunlu hallerde söz konusu arsa ve araziler ilgili kurumların uygun görüşü doğrultusunda kullanılabilir."
+      ],
+      "correctOptionId": "Q-T01-B-0099-opt-04",
+      "normalizedCorrectText": "uygun görüş de gerektiğinden yalnız zorunlu hal yeterli değildir.",
+      "distractorOptionIds": [
+        "Q-T01-B-0099-opt-01",
+        "Q-T01-B-0099-opt-02",
+        "Q-T01-B-0099-opt-03",
+        "Q-T01-B-0099-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "restricted-land-exception-scenario",
+      "fullHTMLParagraphIndices": [
+        236,
+        237
+      ]
+    },
+    {
+      "questionId": "Q-T01-B-0100",
+      "learningObjectiveId": "LO-T01-041-BANK-0100",
+      "articleNumber": 41,
+      "ruleId": "RULE-Q-T01-B-0100",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceContentHash": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "sourceQuote": "(2) Bu ortak yapı ve tesislerin korunması, bakım ve onarımı ile amacına uygun olarak kullanılmasından, adına tescil işlemi yapılan tüzel kişilik sorumludur. Belirtilen hususların yerine getirilip getirilmediği, mülki amirlerince kontrol edilir ve gerekli tedbirler alınır.",
+      "sourceQuoteSHA256": "f0f5d64b687394719d30b387f77e40b1c1d1b95d48e8597b006ba94dd6116874",
+      "sourceLocator": "5543 sayılı Kanun m.41; resmî tam HTML p[241]",
+      "requiredSourceFragments": [
+        "(2) Bu ortak yapı ve tesislerin korunması, bakım ve onarımı ile amacına uygun olarak kullanılmasından, adına tescil işlemi yapılan tüzel kişilik sorumludur. Belirtilen hususların yerine getirilip getirilmediği, mülki amirlerince kontrol edilir ve gerekli tedbirler alınır."
+      ],
+      "correctOptionId": "Q-T01-B-0100-opt-02",
+      "normalizedCorrectText": "adına tescil edilen tüzel kişi sorumludur; mülki amirler kontrol edip tedbir alır.",
+      "distractorOptionIds": [
+        "Q-T01-B-0100-opt-01",
+        "Q-T01-B-0100-opt-03",
+        "Q-T01-B-0100-opt-04",
+        "Q-T01-B-0100-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Independent legal/scope/uniqueness review required. Exact source matching alone cannot establish single-correct validity.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true,
+      "semanticFactKey": "common-facility-maintenance-scenario",
+      "fullHTMLParagraphIndices": [
+        241
+      ]
+    }
+  ]
+}

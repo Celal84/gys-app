@@ -24,7 +24,7 @@ const report = {
   pendingNewQuestions: publication.pending,
   rejectedQuestions: 0, pendingLegacyRecords: all.length,
   duplicateCandidates: [...groups.values()].filter(ids => ids.length > 1),
-  semanticAudit: 'NotCompletedForWholeBank', newPackageIndependentReview: 'CompletedFor18', historicalAccepted: 0, historicalReview: '9OfficialBooklets480AnswerMatchesRightsScopePending',
+  semanticAudit: 'NotCompletedForWholeBank', newPackageIndependentReview: { status: 'CompletedForPublishedPreparationContent', count: publication.approved }, historicalAccepted: 0, historicalReview: '9OfficialBooklets480AnswerMatchesRightsScopePending',
   finalContentAcceptance: false,
 };
 await writeFile(new URL('../docs/content-audit.json', import.meta.url), JSON.stringify(report, null, 2) + '\n');
