@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-06",
+  "production": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "developmentAfterUpdates": {
+    "critical": 0,
+    "high": 0,
+    "moderate": 10,
+    "low": 2,
+    "total": 12
+  },
+  "updatesApplied": [
+    "vitest 5.1.0 removed critical tinypool chain",
+    "typescript-eslint 8.72.1",
+    "vite-plugin-pwa 2.0.0",
+    "npm audit fix nonbreaking updates"
+  ],
+  "remainingPackages": [
+    "deepmerge",
+    "@rollup/plugin-node-resolve",
+    "glob",
+    "minimatch",
+    "workbox-build",
+    "vite-plugin-pwa",
+    "typescript-eslint transitive chain"
+  ],
+  "remainingScope": "Development/build tooling; 10 production dependencies currently report zero advisories",
+  "forceDowngradesApplied": false,
+  "fullSecurityAcceptance": false,
+  "latestDevelopmentAudit": {
+    "info": 0,
+    "low": 2,
+    "moderate": 10,
+    "high": 0,
+    "critical": 0,
+    "total": 12
+  },
+  "latestAuditFile": ".local-reports/npm-audit-current.json",
+  "latestAuditAt": "2026-11-06"
+}

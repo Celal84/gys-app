@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "plannedExamCount": 30,
+  "description": "Explicit opt-in of independently reviewed protected A candidates. Verified fragments remain non-public until all24topic weights,100questions and a separate full-exam distribution/duplicate review pass. B/C never fill deficits.",
+  "batches": [
+    {
+      "candidateFile": "data/content-candidates/o03-mocks.json",
+      "rulesFile": "data/content-candidates/o03-mocks-rules.json",
+      "sourceFile": "data/public-legal-sources/o03-provisions.json",
+      "auditFile": "data/public-legal-sources/o03-source-audit.json",
+      "reviewFile": "data/reviews/o03-mocks-review.json",
+      "objectiveFile": "data/content-candidates/o03-mocks-objectives.json",
+      "topicId": "O03",
+      "sourcePool": "A"
+    },
+    {
+      "candidateFile": "data/content-candidates/o01-mocks.json",
+      "rulesFile": "data/content-candidates/o01-mocks-rules.json",
+      "sourceFile": "data/public-legal-sources/o01-provisions.json",
+      "auditFile": "data/public-legal-sources/o01-source-audit.json",
+      "reviewFile": "data/reviews/o01-mocks-review.json",
+      "objectiveFile": "data/content-candidates/o01-mock-objectives.json",
+      "topicId": "O01",
+      "sourcePool": "A"
+    }
+  ],
+  "examReviews": []
+}

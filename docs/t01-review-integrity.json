@@ -1,0 +1,62 @@
+{
+  "candidateCount": 100,
+  "sourceArtifactHashChecks": 3,
+  "sourceByteLengthChecks": 2,
+  "rawDecodedIdentityChecks": 1,
+  "independentParser": "Python stdlib html.parser.HTMLParser",
+  "fullHTMLParagraphCount": 399,
+  "provisionParagraphsCompared": 65,
+  "selectedArticles": [
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    27,
+    28,
+    29,
+    30,
+    34,
+    36,
+    39,
+    40,
+    41
+  ],
+  "selectedArticleHeadingChecks": 27,
+  "mechanicalAssertions": 31867,
+  "integrityDisagreements": 0,
+  "difficulty": {
+    "basic": 42,
+    "medium": 30,
+    "hard": 8,
+    "application": 20
+  },
+  "cognitiveTypes": {
+    "recall": 42,
+    "comprehension": 30,
+    "analysis": 8,
+    "application": 20
+  },
+  "scenarioCount": 20,
+  "crossTopicComparisonCandidates": 300,
+  "crossTopicHighestJaccard": {
+    "score": 0.2608695652173913,
+    "questionIds": [
+      "Q-T01-B-0043",
+      "Q-O02-B-0067"
+    ]
+  }
+}

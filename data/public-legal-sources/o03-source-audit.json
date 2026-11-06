@@ -1,0 +1,1031 @@
+{
+  "schemaVersion": 1,
+  "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+  "checkedAt": "2026-11-06T14:31:56.404360+00:00",
+  "checkedBy": "planner_analytics-source-extraction",
+  "scope": "Official source byte integrity and quotation locations only; not independent question or legal approval.",
+  "sourceDocumentURL": "https://mevzuat.adalet.gov.tr/mevzuat/103165",
+  "rawFullResponseSHA256": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+  "decodedFullHTMLSHA256": "f3619ac0e027047a0e593e0eca5075bcdbcf5c093af8a6a429430c5159a3b328",
+  "publicProvisionFile": "data/public-legal-sources/o03-provisions.json",
+  "publicProvisionFileSHA256": "ae01d2d4ef617b1fe22f4b212f8d845465e7562df8b03273c208dd87a8887594",
+  "artifacts": [
+    {
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372/full-f3619ac0e027047a0e593e0eca5075bcdbcf5c093af8a6a429430c5159a3b328.html",
+      "sha256": "f3619ac0e027047a0e593e0eca5075bcdbcf5c093af8a6a429430c5159a3b328",
+      "byteLength": 665207,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "retrievedAt": "2026-11-06T12:36:30.270247+00:00"
+    }
+  ],
+  "checks": [
+    {
+      "questionId": "Q-O03-B-0001",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0001",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0002",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0002",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0003",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0003",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0004",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0004",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0005",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0005",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0006",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0006",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0007",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0007",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0008",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0008",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0009",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0009",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0010",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0010",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0011",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0011",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0012",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0012",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0013",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0013",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0014",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0014",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0015",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0015",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0016",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0016",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0017",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0017",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0018",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0018",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0019",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0019",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0020",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0020",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0021",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0021",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0022",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0022",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0023",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0023",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0024",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0024",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0025",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0025",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0026",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0026",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0027",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0027",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0028",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0028",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0029",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0029",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0030",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0030",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0031",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0031",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0032",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0032",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0033",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0033",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0034",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0034",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0035",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0035",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0036",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0036",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0037",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0037",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0038",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0038",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0039",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0039",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0040",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0040",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0041",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0041",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0042",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0042",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0043",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0043",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0044",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0044",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0045",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0045",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0046",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0046",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0047",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0047",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0048",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0048",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0049",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0049",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0050",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0050",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0051",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0051",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0052",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0052",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0053",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0053",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0054",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0054",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0055",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0055",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0056",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0056",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0057",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0057",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0058",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0058",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0059",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0059",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0060",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0060",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0061",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0061",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0062",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0062",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0063",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0063",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0064",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0064",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0065",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0065",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0066",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0066",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0067",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0067",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0068",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0068",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0069",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0069",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0070",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0070",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0071",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0071",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0072",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0072",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0073",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0073",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0074",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0074",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0075",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0075",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0076",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0076",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0077",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0077",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0078",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0078",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0079",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0079",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0080",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0080",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0081",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0081",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0082",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0082",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0083",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0083",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0084",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0084",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0085",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0085",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0086",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0086",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0087",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0087",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0088",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0088",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0089",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0089",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0090",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0090",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0091",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0091",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0092",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0092",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0093",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0093",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0094",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0094",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0095",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0095",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0096",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0096",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0097",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0097",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0098",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0098",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0099",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0099",
+      "check": "stable-single-option-id",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0100",
+      "check": "quote-exact-in-article",
+      "passed": true
+    },
+    {
+      "questionId": "Q-O03-B-0100",
+      "check": "stable-single-option-id",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "passed": 200,
+    "failed": 0,
+    "questionApprovalCount": 0
+  }
+}

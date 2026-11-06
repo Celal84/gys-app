@@ -1,0 +1,1812 @@
+{
+  "schemaVersion": 1,
+  "snapshot": {
+    "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+    "sourceId": "SRC-OFFICIAL-CBK1-UYAP",
+    "lawNumber": 1,
+    "legislationType": "Cumhurbaşkanlığı Kararnamesi",
+    "lawTitle": "CUMHURBAŞKANLIĞI TEŞKİLATI HAKKINDA CUMHURBAŞKANLIĞI KARARNAMESİ",
+    "authority": "T.C. Adalet Bakanlığı UYAP Mevzuat ve İçtihat Programı",
+    "documentURL": "https://mevzuat.adalet.gov.tr/mevzuat/114832",
+    "canonicalLegislationURL": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1&MevzuatTur=19&MevzuatTertip=5",
+    "transportURL": "https://bedesten.adalet.gov.tr/mevzuat/getDocumentContent",
+    "requestMethod": "POST",
+    "requestBody": {
+      "data": {
+        "documentType": "MEVZUAT",
+        "id": "114832"
+      },
+      "applicationName": "UyapMevzuat"
+    },
+    "authentication": "Public official endpoint; no credential supplied.",
+    "retrievedAt": "2026-11-06T12:36:33.795254+00:00",
+    "responseDateHeader": "Fri, 06 Nov 2026 12:36:29 GMT",
+    "responseStatus": 200,
+    "rawResponseSHA256": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+    "rawResponseByteLength": 3382201,
+    "decodedHTMLSHA256": "bd3418f3bc69f3aa073f967b53839a69be10b462c81116502a5516d9a73db202",
+    "decodedHTMLByteLength": 2536433,
+    "officialContentVersion": 1368,
+    "legalVersionStage": "Preparation",
+    "examCutoffDate": "2027-01-01",
+    "examVersionFinalized": false,
+    "originalPublicationDate": "2018-07-10",
+    "originalOfficialGazetteNumber": "30474",
+    "originalEffectiveDate": null,
+    "transitionalProvisionsStatus": "NotIndependentlyResolved",
+    "legalCutoffAssessment": "06.11.2026 resmî gözlemidir. Kesim tarihi gelmedi; nihai sınav sürümü değildir. İptal kararlarının yayın/yürürlük ve geçiş etkileri ayrı inceleme gerektirir.",
+    "scope": "97–126; bu aralıktaki ek A/B/C maddeleri kendi madde etiketleriyle korunur; geçici maddeler bu pakete dahil edilmez."
+  },
+  "provisions": [
+    {
+      "legalProvisionId": "LP-CBK1-97",
+      "articleNumber": 97,
+      "articleLabel": "97",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 97 – (1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığının görev ve yetkileri şunlardır:[59]\na) Yerleşmeye, çevreye ve yapılaşmaya dair imar, çevre, yapı ve yapım mevzuatını hazırlamak, uygulamaları izlemek ve denetlemek, Bakanlığın görev alanı ile ilgili mesleki hizmetlerin norm ve standartlarını hazırlamak, geliştirmek, uygulanmasını sağlamak ve ilgililerin kayıtlarını tutmak,\nb) Çevrenin korunması, iyileştirilmesi, çölleşme ve erozyonla mücadele ile çevre kirliliğinin önlenmesine yönelik prensip ve politikaların belirlenmesi amacıyla gerekli çalışmaları yapmak, standart ve ölçütler geliştirmek, programlar hazırlamak; bu çerçevede eğitim, araştırma, projelendirme, eylem planları ve kirlilik haritalarını oluşturmak, bunların uygulama esaslarını tespit etmek ve izlemek, iklim değişikliği ile ilgili iş ve işlemleri yürütmek,\nc) Faaliyetleri sonucu alıcı ortamlara katı, sıvı ve gaz halde atık bırakarak kirlilik oluşturan veya oluşturması muhtemel her türlü tesis ve faaliyetin, çevresel etkilerini değerlendirmek; alıcı ortamlar ile ilgili ölçüm ve izleme çalışmalarını yapmak; bahse konu tesis ve faaliyetleri izlemek, izin vermek, denetlemek ve gürültünün kontrol edilmesini sağlamak,\nç) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\nd) Mekânsal strateji planlarını ilgili kurum ve kuruluşlarla işbirliği yapmak suretiyle hazırlamak ve mahalli idarelerin plan kararlarının bu stratejilere uygunluğunu denetlemek,\ne) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,\nf) Yapı denetimi sistemini oluşturarak 29/6/2001 tarihli ve 4708 sayılı Yapı Denetimi Hakkında Kanun ile Bakanlığa verilen görevleri yapmak ve kamu kurum ve kuruluşları tarafından yapılan veya yaptırılanlar da dâhil olmak üzere yapıların can ve mal emniyeti ile mevzuata ve tekniğine uygunluk bakımından denetimini yapmak veya yaptırmak, tespit edilen aykırılık ve noksanlıkların giderilmesini istemek ve sağlamak; yapılarda enerji verimliliğini artırıcı düzenlemeleri yapmak, buna ilişkin faaliyetleri yönetmek ve izlemek; yapı malzemelerinin denetimine ve uygunluk değerlendirmesine ilişkin iş ve işlemleri yapmak,\ng) Konut sektörüne ilişkin strateji geliştirme ve programlama iş ve işlemlerini yürütmek, yapı kooperatifçiliğinin gelişmesini sağlayacak tedbirleri almak ve 19/9/2006 tarihli ve 5543 sayılı İskân Kanunu uyarınca Bakanlığa verilen görevleri yapmak,\nğ) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\nh) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\nı) (Mülga:RG-16/10/2023-32341-C.K-153/1 md.)\ni) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak, yaptırmak, mahalli idarelerin planlama, harita, altyapı ve üstyapıya ilişkin faaliyetleri ile ilgili kent bilgi sistemlerinin kurulması, kullanılması ve Ulusal Coğrafi Bilgi Sistemi ile entegre olmasını desteklemek,\nj) Bakanlığın görev alanına giren konularda mahalli idarelerin idari ve teknik kapasitesinin geliştirilmesi için çalışmalarda bulunmak ve bunlara teknik destek sağlamak,\nk) Bayındırlık ve iskân işleri ile ilgili şartname, tip sözleşme, yıllık rayiç, birim fiyat, birim fiyatlara ait analiz ve tarifleri hazırlamak, yayımlamak ve gerekli görülen hallerde yayımlanan rayiç ve birim fiyatları güncellemek,[60]\nl) Küresel iklim değişikliği ve bununla ilgili gerekli tedbirlerin alınması için plan ve politikaların belirlenmesi amacıyla çalışmalar yapmak,\nm) Bakanlığın görev alanına giren konularda uluslararası çalışmaların izlenmesi ve bunlara katkıda bulunulması maksadıyla ulusal düzeyde yapılan hazırlıkları ilgili kuruluşlarla işbirliği halinde yürütmek,\nn) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\no) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\nö) Kamu mallarına ilişkin politikaları tespit etmek amacıyla çalışma yapmak, Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerin edinim, yönetim ve elden çıkarılmasına ilişkin işlemleri yürütmek, kamu idarelerinin taşınmazları ile ilgili kayıt ve yönetim esaslarını belirlemek,\np) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projeleri uygulamak,\nr) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme ve erozyonla mücadele amacıyla su havzalarının geliştirilmesine yönelik ulusal ve bölgesel düzeyde planlama yapmak, politika ve stratejilerin belirlenmesi amacıyla çalışmalar yapmak,\ns) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,\nş) Kanunlarla ve Cumhurbaşkanlığı kararnameleriyle verilen diğer görevleri yapmak.\n(2) Bakanlık, birinci fıkranın (h) bendindeki iş ve işlemleri tesis etmeden evvel, bu iş ve işlemleri esasen tesise yetkili olan idarelerin görüşlerini ister. İdareler, bu iş ve işlemlerin yapılmama gerekçelerini etraflıca açıklayarak konu hakkındaki görüşlerini en geç onbeş gün içinde Bakanlığa bildirmek zorundadır.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1189,
+          "text": "MADDE 97 – (1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığının görev ve yetkileri şunlardır:[59]",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1189]"
+        },
+        {
+          "htmlParagraphIndex": 1190,
+          "text": "a) Yerleşmeye, çevreye ve yapılaşmaya dair imar, çevre, yapı ve yapım mevzuatını hazırlamak, uygulamaları izlemek ve denetlemek, Bakanlığın görev alanı ile ilgili mesleki hizmetlerin norm ve standartlarını hazırlamak, geliştirmek, uygulanmasını sağlamak ve ilgililerin kayıtlarını tutmak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1190]"
+        },
+        {
+          "htmlParagraphIndex": 1191,
+          "text": "b) Çevrenin korunması, iyileştirilmesi, çölleşme ve erozyonla mücadele ile çevre kirliliğinin önlenmesine yönelik prensip ve politikaların belirlenmesi amacıyla gerekli çalışmaları yapmak, standart ve ölçütler geliştirmek, programlar hazırlamak; bu çerçevede eğitim, araştırma, projelendirme, eylem planları ve kirlilik haritalarını oluşturmak, bunların uygulama esaslarını tespit etmek ve izlemek, iklim değişikliği ile ilgili iş ve işlemleri yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1191]"
+        },
+        {
+          "htmlParagraphIndex": 1192,
+          "text": "c) Faaliyetleri sonucu alıcı ortamlara katı, sıvı ve gaz halde atık bırakarak kirlilik oluşturan veya oluşturması muhtemel her türlü tesis ve faaliyetin, çevresel etkilerini değerlendirmek; alıcı ortamlar ile ilgili ölçüm ve izleme çalışmalarını yapmak; bahse konu tesis ve faaliyetleri izlemek, izin vermek, denetlemek ve gürültünün kontrol edilmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1192]"
+        },
+        {
+          "htmlParagraphIndex": 1193,
+          "text": "ç) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1193]"
+        },
+        {
+          "htmlParagraphIndex": 1194,
+          "text": "d) Mekânsal strateji planlarını ilgili kurum ve kuruluşlarla işbirliği yapmak suretiyle hazırlamak ve mahalli idarelerin plan kararlarının bu stratejilere uygunluğunu denetlemek,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1194]"
+        },
+        {
+          "htmlParagraphIndex": 1195,
+          "text": "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1195]"
+        },
+        {
+          "htmlParagraphIndex": 1196,
+          "text": "f) Yapı denetimi sistemini oluşturarak 29/6/2001 tarihli ve 4708 sayılı Yapı Denetimi Hakkında Kanun ile Bakanlığa verilen görevleri yapmak ve kamu kurum ve kuruluşları tarafından yapılan veya yaptırılanlar da dâhil olmak üzere yapıların can ve mal emniyeti ile mevzuata ve tekniğine uygunluk bakımından denetimini yapmak veya yaptırmak, tespit edilen aykırılık ve noksanlıkların giderilmesini istemek ve sağlamak; yapılarda enerji verimliliğini artırıcı düzenlemeleri yapmak, buna ilişkin faaliyetleri yönetmek ve izlemek; yapı malzemelerinin denetimine ve uygunluk değerlendirmesine ilişkin iş ve işlemleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1196]"
+        },
+        {
+          "htmlParagraphIndex": 1197,
+          "text": "g) Konut sektörüne ilişkin strateji geliştirme ve programlama iş ve işlemlerini yürütmek, yapı kooperatifçiliğinin gelişmesini sağlayacak tedbirleri almak ve 19/9/2006 tarihli ve 5543 sayılı İskân Kanunu uyarınca Bakanlığa verilen görevleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1197]"
+        },
+        {
+          "htmlParagraphIndex": 1198,
+          "text": "ğ) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1198]"
+        },
+        {
+          "htmlParagraphIndex": 1199,
+          "text": "h) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1199]"
+        },
+        {
+          "htmlParagraphIndex": 1200,
+          "text": "ı) (Mülga:RG-16/10/2023-32341-C.K-153/1 md.)",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1200]"
+        },
+        {
+          "htmlParagraphIndex": 1201,
+          "text": "i) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak, yaptırmak, mahalli idarelerin planlama, harita, altyapı ve üstyapıya ilişkin faaliyetleri ile ilgili kent bilgi sistemlerinin kurulması, kullanılması ve Ulusal Coğrafi Bilgi Sistemi ile entegre olmasını desteklemek,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1201]"
+        },
+        {
+          "htmlParagraphIndex": 1202,
+          "text": "j) Bakanlığın görev alanına giren konularda mahalli idarelerin idari ve teknik kapasitesinin geliştirilmesi için çalışmalarda bulunmak ve bunlara teknik destek sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1202]"
+        },
+        {
+          "htmlParagraphIndex": 1203,
+          "text": "k) Bayındırlık ve iskân işleri ile ilgili şartname, tip sözleşme, yıllık rayiç, birim fiyat, birim fiyatlara ait analiz ve tarifleri hazırlamak, yayımlamak ve gerekli görülen hallerde yayımlanan rayiç ve birim fiyatları güncellemek,[60]",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1203]"
+        },
+        {
+          "htmlParagraphIndex": 1204,
+          "text": "l) Küresel iklim değişikliği ve bununla ilgili gerekli tedbirlerin alınması için plan ve politikaların belirlenmesi amacıyla çalışmalar yapmak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1204]"
+        },
+        {
+          "htmlParagraphIndex": 1205,
+          "text": "m) Bakanlığın görev alanına giren konularda uluslararası çalışmaların izlenmesi ve bunlara katkıda bulunulması maksadıyla ulusal düzeyde yapılan hazırlıkları ilgili kuruluşlarla işbirliği halinde yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1205]"
+        },
+        {
+          "htmlParagraphIndex": 1206,
+          "text": "n) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1206]"
+        },
+        {
+          "htmlParagraphIndex": 1207,
+          "text": "o) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1207]"
+        },
+        {
+          "htmlParagraphIndex": 1208,
+          "text": "ö) Kamu mallarına ilişkin politikaları tespit etmek amacıyla çalışma yapmak, Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerin edinim, yönetim ve elden çıkarılmasına ilişkin işlemleri yürütmek, kamu idarelerinin taşınmazları ile ilgili kayıt ve yönetim esaslarını belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1208]"
+        },
+        {
+          "htmlParagraphIndex": 1209,
+          "text": "p) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projeleri uygulamak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1209]"
+        },
+        {
+          "htmlParagraphIndex": 1210,
+          "text": "r) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme ve erozyonla mücadele amacıyla su havzalarının geliştirilmesine yönelik ulusal ve bölgesel düzeyde planlama yapmak, politika ve stratejilerin belirlenmesi amacıyla çalışmalar yapmak,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1210]"
+        },
+        {
+          "htmlParagraphIndex": 1211,
+          "text": "s) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1211]"
+        },
+        {
+          "htmlParagraphIndex": 1212,
+          "text": "ş) Kanunlarla ve Cumhurbaşkanlığı kararnameleriyle verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1212]"
+        },
+        {
+          "htmlParagraphIndex": 1213,
+          "text": "(2) Bakanlık, birinci fıkranın (h) bendindeki iş ve işlemleri tesis etmeden evvel, bu iş ve işlemleri esasen tesise yetkili olan idarelerin görüşlerini ister. İdareler, bu iş ve işlemlerin yapılmama gerekçelerini etraflıca açıklayarak konu hakkındaki görüşlerini en geç onbeş gün içinde Bakanlığa bildirmek zorundadır.",
+          "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1213]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-98",
+      "articleNumber": 98,
+      "articleLabel": "98",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 98 – (Değişik:RG-10/1/2019-30651-CK-27/27 md.)\n(1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığı; merkez, taşra ve yurtdışı teşkilatından oluşur.[61]",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1216,
+          "text": "MADDE 98 – (Değişik:RG-10/1/2019-30651-CK-27/27 md.)",
+          "sourceLocator": "1 sayılı CBK m.98; resmî UYAP belge114832; tam HTML p[1216]"
+        },
+        {
+          "htmlParagraphIndex": 1217,
+          "text": "(1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığı; merkez, taşra ve yurtdışı teşkilatından oluşur.[61]",
+          "sourceLocator": "1 sayılı CBK m.98; resmî UYAP belge114832; tam HTML p[1217]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-99",
+      "articleNumber": 99,
+      "articleLabel": "99",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 99 – (1) Bakanlığın hizmet birimleri şunlardır:[62] [63]\na) Yerel Yönetimler Genel Müdürlüğü,\nb) Milli Emlak Genel Müdürlüğü,\nc) Mekânsal Planlama Genel Müdürlüğü,\nç) Çevre Yönetimi Genel Müdürlüğü,\nd) Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğü,\ne) Yapı İşleri Genel Müdürlüğü,\nf) (Mülga:RG-16/10/2023-32341-C.K-153/2 md.)\ng) Mesleki Hizmetler Genel Müdürlüğü,\nğ) Coğrafi Bilgi Sistemleri Genel Müdürlüğü,\nh) (Ek:RG-29/10/2021-31643-C.K-85/4 md.) Çölleşme ve Erozyonla Mücadele Genel Müdürlüğü,\nı) Tabiat Varlıklarını Koruma Genel Müdürlüğü,\ni) (Ek:RG-10/1/2019-30651-CK-27/28 md.) Avrupa Birliği ve Dış İlişkiler Genel Müdürlüğü,\nj) (Ek:RG-10/1/2019-30651-CK-27/28 md.) Personel Genel Müdürlüğü,\nk) (Ek:RG-10/1/2019-30651-CK-27/28 md.) Hukuk Hizmetleri Genel Müdürlüğü,\nl) Rehberlik ve Teftiş Başkanlığı,\nm) Strateji Geliştirme Başkanlığı,\nn) Yüksek Fen Kurulu Başkanlığı,\no) (Mülga:RG-10/1/2019-30651-CK-27/28 md.)\nö) (Mülga:RG-10/1/2019-30651-CK-27/28 md.)\np) Eğitim ve Yayın Dairesi Başkanlığı,\nr) Destek Hizmetleri Dairesi Başkanlığı,\ns) (Mülga:RG-10/1/2019-30651-CK-27/28 md.) (Yeniden Düzenleme:RG-16/10/2025-33049-CK-189/7 md.) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığı,\nş) Basın ve Halkla İlişkiler Müşavirliği,\nt) Özel Kalem Müdürlüğü.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1220,
+          "text": "MADDE 99 – (1) Bakanlığın hizmet birimleri şunlardır:[62] [63]",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1220]"
+        },
+        {
+          "htmlParagraphIndex": 1221,
+          "text": "a) Yerel Yönetimler Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1221]"
+        },
+        {
+          "htmlParagraphIndex": 1222,
+          "text": "b) Milli Emlak Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1222]"
+        },
+        {
+          "htmlParagraphIndex": 1223,
+          "text": "c) Mekânsal Planlama Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1223]"
+        },
+        {
+          "htmlParagraphIndex": 1224,
+          "text": "ç) Çevre Yönetimi Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1224]"
+        },
+        {
+          "htmlParagraphIndex": 1225,
+          "text": "d) Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1225]"
+        },
+        {
+          "htmlParagraphIndex": 1226,
+          "text": "e) Yapı İşleri Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1226]"
+        },
+        {
+          "htmlParagraphIndex": 1227,
+          "text": "f) (Mülga:RG-16/10/2023-32341-C.K-153/2 md.)",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1227]"
+        },
+        {
+          "htmlParagraphIndex": 1228,
+          "text": "g) Mesleki Hizmetler Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1228]"
+        },
+        {
+          "htmlParagraphIndex": 1229,
+          "text": "ğ) Coğrafi Bilgi Sistemleri Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1229]"
+        },
+        {
+          "htmlParagraphIndex": 1230,
+          "text": "h) (Ek:RG-29/10/2021-31643-C.K-85/4 md.) Çölleşme ve Erozyonla Mücadele Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1230]"
+        },
+        {
+          "htmlParagraphIndex": 1231,
+          "text": "ı) Tabiat Varlıklarını Koruma Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1231]"
+        },
+        {
+          "htmlParagraphIndex": 1232,
+          "text": "i) (Ek:RG-10/1/2019-30651-CK-27/28 md.) Avrupa Birliği ve Dış İlişkiler Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1232]"
+        },
+        {
+          "htmlParagraphIndex": 1233,
+          "text": "j) (Ek:RG-10/1/2019-30651-CK-27/28 md.) Personel Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1233]"
+        },
+        {
+          "htmlParagraphIndex": 1234,
+          "text": "k) (Ek:RG-10/1/2019-30651-CK-27/28 md.) Hukuk Hizmetleri Genel Müdürlüğü,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1234]"
+        },
+        {
+          "htmlParagraphIndex": 1235,
+          "text": "l) Rehberlik ve Teftiş Başkanlığı,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1235]"
+        },
+        {
+          "htmlParagraphIndex": 1236,
+          "text": "m) Strateji Geliştirme Başkanlığı,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1236]"
+        },
+        {
+          "htmlParagraphIndex": 1237,
+          "text": "n) Yüksek Fen Kurulu Başkanlığı,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1237]"
+        },
+        {
+          "htmlParagraphIndex": 1238,
+          "text": "o) (Mülga:RG-10/1/2019-30651-CK-27/28 md.)",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1238]"
+        },
+        {
+          "htmlParagraphIndex": 1239,
+          "text": "ö) (Mülga:RG-10/1/2019-30651-CK-27/28 md.)",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1239]"
+        },
+        {
+          "htmlParagraphIndex": 1240,
+          "text": "p) Eğitim ve Yayın Dairesi Başkanlığı,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1240]"
+        },
+        {
+          "htmlParagraphIndex": 1241,
+          "text": "r) Destek Hizmetleri Dairesi Başkanlığı,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1241]"
+        },
+        {
+          "htmlParagraphIndex": 1242,
+          "text": "s) (Mülga:RG-10/1/2019-30651-CK-27/28 md.) (Yeniden Düzenleme:RG-16/10/2025-33049-CK-189/7 md.) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığı,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1242]"
+        },
+        {
+          "htmlParagraphIndex": 1243,
+          "text": "ş) Basın ve Halkla İlişkiler Müşavirliği,",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1243]"
+        },
+        {
+          "htmlParagraphIndex": 1244,
+          "text": "t) Özel Kalem Müdürlüğü.",
+          "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1244]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-100",
+      "articleNumber": 100,
+      "articleLabel": "100",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 100 – (1) Yerel Yönetimler Genel Müdürlüğünün görev ve yetkileri şunlardır:[64]\na) Mahalli idarelerin iş ve işlemlerine dair mevzuatla verilen görev ve hizmetleri yapmak, takip etmek, sonuçlandırmak ve geliştirmek,\nb) Mahalli idare yatırım ve hizmetlerinin kalkınma planları ile yıllık programlara uygun şekilde yapılmasını gözetmek,\nc) Mahalli idarelerin geliştirilmesi amacıyla araştırmalar yapmak, istatistiki bilgileri toplamak, değerlendirmek ve yayımlamak,\nç) Mahalli idareler personelinin hizmet içi eğitimini planlamak ve uygulanmasını takip etmek,\nd) Mahalli idarelerin teşkilat, araç ve kadro standartlarını tespit etmek,\ne) (Ek:RG-16/10/2023-32341-C.K-153/3 md.) (İptal bent:Anayasa Mahkemesinin 9/5/2024 Tarihli ve E: 2023/193, K: 2024/106 Sayılı Kararı ile)\nf) (Ek:RG-16/10/2023-32341-C.K-153/3 md.) (İptal bent:Anayasa Mahkemesinin 9/5/2024 Tarihli ve E: 2023/193, K: 2024/106 Sayılı Kararı ile)\ng) (Mülga: RG-15/7/2018-30479 - CK-4/799 md.)\nğ) Bakan tarafından verilen diğer görevleri yapmak.\n(2) (Mülga: RG-15/7/2018-30479 - CK-4/799 md.)",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1247,
+          "text": "MADDE 100 – (1) Yerel Yönetimler Genel Müdürlüğünün görev ve yetkileri şunlardır:[64]",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1247]"
+        },
+        {
+          "htmlParagraphIndex": 1248,
+          "text": "a) Mahalli idarelerin iş ve işlemlerine dair mevzuatla verilen görev ve hizmetleri yapmak, takip etmek, sonuçlandırmak ve geliştirmek,",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1248]"
+        },
+        {
+          "htmlParagraphIndex": 1249,
+          "text": "b) Mahalli idare yatırım ve hizmetlerinin kalkınma planları ile yıllık programlara uygun şekilde yapılmasını gözetmek,",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1249]"
+        },
+        {
+          "htmlParagraphIndex": 1250,
+          "text": "c) Mahalli idarelerin geliştirilmesi amacıyla araştırmalar yapmak, istatistiki bilgileri toplamak, değerlendirmek ve yayımlamak,",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1250]"
+        },
+        {
+          "htmlParagraphIndex": 1251,
+          "text": "ç) Mahalli idareler personelinin hizmet içi eğitimini planlamak ve uygulanmasını takip etmek,",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1251]"
+        },
+        {
+          "htmlParagraphIndex": 1252,
+          "text": "d) Mahalli idarelerin teşkilat, araç ve kadro standartlarını tespit etmek,",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1252]"
+        },
+        {
+          "htmlParagraphIndex": 1253,
+          "text": "e) (Ek:RG-16/10/2023-32341-C.K-153/3 md.) (İptal bent:Anayasa Mahkemesinin 9/5/2024 Tarihli ve E: 2023/193, K: 2024/106 Sayılı Kararı ile)",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1253]"
+        },
+        {
+          "htmlParagraphIndex": 1254,
+          "text": "f) (Ek:RG-16/10/2023-32341-C.K-153/3 md.) (İptal bent:Anayasa Mahkemesinin 9/5/2024 Tarihli ve E: 2023/193, K: 2024/106 Sayılı Kararı ile)",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1254]"
+        },
+        {
+          "htmlParagraphIndex": 1255,
+          "text": "g) (Mülga: RG-15/7/2018-30479 - CK-4/799 md.)",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1255]"
+        },
+        {
+          "htmlParagraphIndex": 1256,
+          "text": "ğ) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1256]"
+        },
+        {
+          "htmlParagraphIndex": 1257,
+          "text": "(2) (Mülga: RG-15/7/2018-30479 - CK-4/799 md.)",
+          "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1257]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-101",
+      "articleNumber": 101,
+      "articleLabel": "101",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 101 - (1) Milli Emlak Genel Müdürlüğünün görevleri şunlardır:\na) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerin yönetimine ilişkin hizmetleri, gerektiğinde diğer kamu idareleri ile işbirliği yaparak yürütmek,\nb) Hazinenin özel mülkiyetindeki taşınmazların satışı, kiralanması, trampası ve üzerinde sınırlı aynî hak tesisi, Devletin hüküm ve tasarrufu altındaki yerlerin kiralanması ve bu yerler için gerekli görülen hallerde kullanma izni verilmesi işlemlerini yapmak,\nc) Devlete intikali gereken taşınır ve taşınmazlarla hakların Hazineye maledilmesi işlemlerini yürütmek, taşınmazların tescilini, taşınır malların tasfiyesini sağlamak,\nç) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerden kamu hizmeti için kullanılması gerekli olanları; kamu idarelerine tahsis etmek ve tahsis amacının ortadan kalkması veya amaç dışı kullanılması halinde tahsisi kaldırmak; tahsisi kaldırılan taşınmazlar üzerinde Hazine dışındaki kamu idarelerine ait yapı ve tesisleri tasfiye etmek, tasfiyeye ilişkin esas ve usulleri belirlemek,\nd) Devlete ait konutları yönetmek ve kamu idarelerine ait konutların yönetimi konusundaki politikaların belirlenmesi amacıyla çalışmalar yapmak, her yıl yurt içi ve yurtdışındaki kamu konutlarının kira ve yakıt bedelleri ile işletme, bakım ve onarım esaslarını tespit etmek,\ne) Hazineye ait taşınmazların envanter kayıtlarını tutmak ve diğer kamu idarelerinin taşınmazlarının envanter kayıtlarının tutulmasına ilişkin usul ve esasları belirlemek,\nf) Genel bütçe kapsamındaki kamu idarelerinin kamulaştırdığı yerlerin Hazine adına tescilini sağlamak,\ng) Kanunlar ve antlaşmalar gereğince muayyen zümrelere izafetle elkonulması gereken para, mal ve hakların işlemlerini yapmak ve tasfiyelerini sonuçlandırmak,\nğ) Genel bütçe kapsamındaki kamu idarelerinin hizmet dışı kalan taşınırlarının satışını yapmak,\nh) Kamu idarelerine ait taşınmazların yönetim esaslarını belirlemek,\nı) Kamu idarelerinin taşınmaz edinme ve yönetimine ilişkin olarak hazırlayacakları mevzuat taslakları hakkında görüş bildirmek,\ni) Kamu mallarına ilişkin politikaları tespit etmeye yönelik çalışmalar yapmak,\nj) Görev alanına giren konularda ilgili mevzuatla Bakanlığa verilen görevleri yürütmek,\nk) Görev alanına giren konulardaki alacakların süresinde ve mevzuata uygun olarak takip edilerek tahsil aşamasına getirilmesi için gerekli tedbirleri almak,\nl) Teşkilat ve görev alanına giren konularda denetmenleri aracılığıyla teftiş, denetim, inceleme ve soruşturma yapmak ve bu işlerin yürütülmesi amacıyla uygun görülen büyük il merkezlerinde bölge düzeyinde denetim yapmak üzere denetim grupları kurmak,[65]\nm) Cumhurbaşkanınca uygulama usul ve esasları belirlenen projeler kapsamında; Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerleri geliştirmek, değerlendirmek, kişilerin mülkiyetinde bulunan taşınmazları satın almak, trampa etmek, kamulaştırma ve toplulaştırma yapmak.\nn) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1260,
+          "text": "MADDE 101 - (1) Milli Emlak Genel Müdürlüğünün görevleri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1260]"
+        },
+        {
+          "htmlParagraphIndex": 1261,
+          "text": "a) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerin yönetimine ilişkin hizmetleri, gerektiğinde diğer kamu idareleri ile işbirliği yaparak yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1261]"
+        },
+        {
+          "htmlParagraphIndex": 1262,
+          "text": "b) Hazinenin özel mülkiyetindeki taşınmazların satışı, kiralanması, trampası ve üzerinde sınırlı aynî hak tesisi, Devletin hüküm ve tasarrufu altındaki yerlerin kiralanması ve bu yerler için gerekli görülen hallerde kullanma izni verilmesi işlemlerini yapmak,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1262]"
+        },
+        {
+          "htmlParagraphIndex": 1263,
+          "text": "c) Devlete intikali gereken taşınır ve taşınmazlarla hakların Hazineye maledilmesi işlemlerini yürütmek, taşınmazların tescilini, taşınır malların tasfiyesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1263]"
+        },
+        {
+          "htmlParagraphIndex": 1264,
+          "text": "ç) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerden kamu hizmeti için kullanılması gerekli olanları; kamu idarelerine tahsis etmek ve tahsis amacının ortadan kalkması veya amaç dışı kullanılması halinde tahsisi kaldırmak; tahsisi kaldırılan taşınmazlar üzerinde Hazine dışındaki kamu idarelerine ait yapı ve tesisleri tasfiye etmek, tasfiyeye ilişkin esas ve usulleri belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1264]"
+        },
+        {
+          "htmlParagraphIndex": 1265,
+          "text": "d) Devlete ait konutları yönetmek ve kamu idarelerine ait konutların yönetimi konusundaki politikaların belirlenmesi amacıyla çalışmalar yapmak, her yıl yurt içi ve yurtdışındaki kamu konutlarının kira ve yakıt bedelleri ile işletme, bakım ve onarım esaslarını tespit etmek,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1265]"
+        },
+        {
+          "htmlParagraphIndex": 1266,
+          "text": "e) Hazineye ait taşınmazların envanter kayıtlarını tutmak ve diğer kamu idarelerinin taşınmazlarının envanter kayıtlarının tutulmasına ilişkin usul ve esasları belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1266]"
+        },
+        {
+          "htmlParagraphIndex": 1267,
+          "text": "f) Genel bütçe kapsamındaki kamu idarelerinin kamulaştırdığı yerlerin Hazine adına tescilini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1267]"
+        },
+        {
+          "htmlParagraphIndex": 1268,
+          "text": "g) Kanunlar ve antlaşmalar gereğince muayyen zümrelere izafetle elkonulması gereken para, mal ve hakların işlemlerini yapmak ve tasfiyelerini sonuçlandırmak,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1268]"
+        },
+        {
+          "htmlParagraphIndex": 1269,
+          "text": "ğ) Genel bütçe kapsamındaki kamu idarelerinin hizmet dışı kalan taşınırlarının satışını yapmak,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1269]"
+        },
+        {
+          "htmlParagraphIndex": 1270,
+          "text": "h) Kamu idarelerine ait taşınmazların yönetim esaslarını belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1270]"
+        },
+        {
+          "htmlParagraphIndex": 1271,
+          "text": "ı) Kamu idarelerinin taşınmaz edinme ve yönetimine ilişkin olarak hazırlayacakları mevzuat taslakları hakkında görüş bildirmek,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1271]"
+        },
+        {
+          "htmlParagraphIndex": 1272,
+          "text": "i) Kamu mallarına ilişkin politikaları tespit etmeye yönelik çalışmalar yapmak,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1272]"
+        },
+        {
+          "htmlParagraphIndex": 1273,
+          "text": "j) Görev alanına giren konularda ilgili mevzuatla Bakanlığa verilen görevleri yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1273]"
+        },
+        {
+          "htmlParagraphIndex": 1274,
+          "text": "k) Görev alanına giren konulardaki alacakların süresinde ve mevzuata uygun olarak takip edilerek tahsil aşamasına getirilmesi için gerekli tedbirleri almak,",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1274]"
+        },
+        {
+          "htmlParagraphIndex": 1275,
+          "text": "l) Teşkilat ve görev alanına giren konularda denetmenleri aracılığıyla teftiş, denetim, inceleme ve soruşturma yapmak ve bu işlerin yürütülmesi amacıyla uygun görülen büyük il merkezlerinde bölge düzeyinde denetim yapmak üzere denetim grupları kurmak,[65]",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1275]"
+        },
+        {
+          "htmlParagraphIndex": 1276,
+          "text": "m) Cumhurbaşkanınca uygulama usul ve esasları belirlenen projeler kapsamında; Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerleri geliştirmek, değerlendirmek, kişilerin mülkiyetinde bulunan taşınmazları satın almak, trampa etmek, kamulaştırma ve toplulaştırma yapmak.",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1276]"
+        },
+        {
+          "htmlParagraphIndex": 1277,
+          "text": "n) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1277]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-102",
+      "articleNumber": 102,
+      "articleLabel": "102",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 102 – (1) Mekânsal Planlama Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Yerleşme, yapılaşma ve arazi kullanımına yön veren, her tür ve ölçekte fiziki planlara ve uygulamalara esas teşkil eden üst ölçekli mekânsal strateji planlarını ve çevre düzeni planlarını ilgili kurum ve kuruluşlarla işbirliği yaparak hazırlamak, hazırlatmak, onaylamak ve uygulamanın bu stratejilere göre yürütülmesini sağlamak,\nb) Kentlerde ve kırsal alanlarda arazi kullanımına ilişkin temel ilke, strateji ve standartların belirlenmesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,\nc) Havza ve bölge bazındaki çevre düzeni planları da dâhil her tür ve ölçekteki çevre düzeni planlarının ve imar planlarının yapılmasına ilişkin usul ve esasları belirlemek, havza veya bölge bazında çevre düzeni planlarını yapmak, yaptırmak, onaylamak ve bu planların uygulanmasını ve denetlenmesini sağlamak,\nç) Sektörel planların havza veya bölge düzeyindeki mekânsal strateji planlarına ve çevre düzeni planlarına uyumlu hazırlanmasını sağlamak,\nd) Risk yönetimi ve sakınım planlarının yapılmasına ve onaylanmasına ilişkin kuralları belirlemek ve izlemek, plana esas jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak,\ne) 97 nci maddenin birinci fıkrasının (ı) bendinde belirtilen konularla ilgili olarak her ölçekteki imar planı ve imar uygulamalarını, kentsel tasarım projelerini yapmak, yaptırmak ve onaylamak,\nf) Arazi ve arsa düzenlemesi ve parselasyon planlarının hazırlanmasına ilişkin genel ilke, strateji ve esasların belirlenmesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,\ng) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\nğ) Belediyelerin mücavir alanları ile köylerin yerleşik alanlarının sınırlarının tespitine ilişkin usul ve esasları belirlemek ve tespit edilen sınırları onaylamak,\nh) İdarelerin ihtilafı halinde, genel imar düzeni ve uyumunu sağlamak üzere, her türlü etüt, harita ve imar planı, plan değişikliği, plan revizyonu, parselasyon planı hazırlanması, onaylanması ve uygulanmasında koordinasyon sağlamak, ihtilafları gidermek, gerektiğinde ihtilaf konusu işi resen yapmak, yaptırmak ve onaylamak,\nı) Her tür ve ölçekteki fiziki planların birbiriyle uyumunu ve mekânsal strateji planları hedeflerine ve kararlarına uygunluğunu sağlamak amacıyla gerekli tedbirleri almak, ilgili idareler tarafından Bakanlıkça verilen süre içinde yapılmayan il çevre düzeni planlarını yapmak, yaptırmak ve resen onaylamak,\ni) Bütünleşik kıyı alanları yönetimi ve planlaması çalışmaları, kıyı alanlarının düzenlenmesine dair iş ve işlemler ile bu alanlara ilişkin jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak, kıyı kenar çizgisini tespit etmek, onaylamak ve tescilini sağlamak,\nj) Kıyı ve dolgu alanları ile bu alanların fonksiyonel ve fiziksel olarak devamı niteliğindeki geri sahalarına ilişkin her tür ve ölçekteki etüt, harita ve planları yapmak, yaptırmak ve resen onaylamak ve bunların uygulanmasını sağlamak,\nk) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\nl) Bakan tarafından verilen diğer görevleri yapmak.\n(2) Çevre düzeni planlarının Bakanlıkça belirlenen mekânsal strateji planlarına, imar planlarının ise mekânsal strateji planlarına veya çevre düzeni planlarına aykırılığının tespit edilmesi halinde ilgili idareler Bakanlıkça verilen süre içerisinde aykırılıkları giderir.\n(3) Birinci fıkranın (a) bendinde belirtilen ulusal ve bölgesel nitelikteki fiziki planları Bakanlık yapar, yaptırır ve onaylar. Büyükşehir belediyeleri sınırları içerisindeki çevre düzeni planlarını büyükşehir belediyeleri, büyükşehir olmayan illerde ise Bakanlık yapar, yaptırır ve onaylar.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1280,
+          "text": "MADDE 102 – (1) Mekânsal Planlama Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1280]"
+        },
+        {
+          "htmlParagraphIndex": 1281,
+          "text": "a) Yerleşme, yapılaşma ve arazi kullanımına yön veren, her tür ve ölçekte fiziki planlara ve uygulamalara esas teşkil eden üst ölçekli mekânsal strateji planlarını ve çevre düzeni planlarını ilgili kurum ve kuruluşlarla işbirliği yaparak hazırlamak, hazırlatmak, onaylamak ve uygulamanın bu stratejilere göre yürütülmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1281]"
+        },
+        {
+          "htmlParagraphIndex": 1282,
+          "text": "b) Kentlerde ve kırsal alanlarda arazi kullanımına ilişkin temel ilke, strateji ve standartların belirlenmesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1282]"
+        },
+        {
+          "htmlParagraphIndex": 1283,
+          "text": "c) Havza ve bölge bazındaki çevre düzeni planları da dâhil her tür ve ölçekteki çevre düzeni planlarının ve imar planlarının yapılmasına ilişkin usul ve esasları belirlemek, havza veya bölge bazında çevre düzeni planlarını yapmak, yaptırmak, onaylamak ve bu planların uygulanmasını ve denetlenmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1283]"
+        },
+        {
+          "htmlParagraphIndex": 1284,
+          "text": "ç) Sektörel planların havza veya bölge düzeyindeki mekânsal strateji planlarına ve çevre düzeni planlarına uyumlu hazırlanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1284]"
+        },
+        {
+          "htmlParagraphIndex": 1285,
+          "text": "d) Risk yönetimi ve sakınım planlarının yapılmasına ve onaylanmasına ilişkin kuralları belirlemek ve izlemek, plana esas jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1285]"
+        },
+        {
+          "htmlParagraphIndex": 1286,
+          "text": "e) 97 nci maddenin birinci fıkrasının (ı) bendinde belirtilen konularla ilgili olarak her ölçekteki imar planı ve imar uygulamalarını, kentsel tasarım projelerini yapmak, yaptırmak ve onaylamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1286]"
+        },
+        {
+          "htmlParagraphIndex": 1287,
+          "text": "f) Arazi ve arsa düzenlemesi ve parselasyon planlarının hazırlanmasına ilişkin genel ilke, strateji ve esasların belirlenmesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1287]"
+        },
+        {
+          "htmlParagraphIndex": 1288,
+          "text": "g) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1288]"
+        },
+        {
+          "htmlParagraphIndex": 1289,
+          "text": "ğ) Belediyelerin mücavir alanları ile köylerin yerleşik alanlarının sınırlarının tespitine ilişkin usul ve esasları belirlemek ve tespit edilen sınırları onaylamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1289]"
+        },
+        {
+          "htmlParagraphIndex": 1290,
+          "text": "h) İdarelerin ihtilafı halinde, genel imar düzeni ve uyumunu sağlamak üzere, her türlü etüt, harita ve imar planı, plan değişikliği, plan revizyonu, parselasyon planı hazırlanması, onaylanması ve uygulanmasında koordinasyon sağlamak, ihtilafları gidermek, gerektiğinde ihtilaf konusu işi resen yapmak, yaptırmak ve onaylamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1290]"
+        },
+        {
+          "htmlParagraphIndex": 1291,
+          "text": "ı) Her tür ve ölçekteki fiziki planların birbiriyle uyumunu ve mekânsal strateji planları hedeflerine ve kararlarına uygunluğunu sağlamak amacıyla gerekli tedbirleri almak, ilgili idareler tarafından Bakanlıkça verilen süre içinde yapılmayan il çevre düzeni planlarını yapmak, yaptırmak ve resen onaylamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1291]"
+        },
+        {
+          "htmlParagraphIndex": 1292,
+          "text": "i) Bütünleşik kıyı alanları yönetimi ve planlaması çalışmaları, kıyı alanlarının düzenlenmesine dair iş ve işlemler ile bu alanlara ilişkin jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak, kıyı kenar çizgisini tespit etmek, onaylamak ve tescilini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1292]"
+        },
+        {
+          "htmlParagraphIndex": 1293,
+          "text": "j) Kıyı ve dolgu alanları ile bu alanların fonksiyonel ve fiziksel olarak devamı niteliğindeki geri sahalarına ilişkin her tür ve ölçekteki etüt, harita ve planları yapmak, yaptırmak ve resen onaylamak ve bunların uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1293]"
+        },
+        {
+          "htmlParagraphIndex": 1294,
+          "text": "k) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1294]"
+        },
+        {
+          "htmlParagraphIndex": 1295,
+          "text": "l) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1295]"
+        },
+        {
+          "htmlParagraphIndex": 1296,
+          "text": "(2) Çevre düzeni planlarının Bakanlıkça belirlenen mekânsal strateji planlarına, imar planlarının ise mekânsal strateji planlarına veya çevre düzeni planlarına aykırılığının tespit edilmesi halinde ilgili idareler Bakanlıkça verilen süre içerisinde aykırılıkları giderir.",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1296]"
+        },
+        {
+          "htmlParagraphIndex": 1297,
+          "text": "(3) Birinci fıkranın (a) bendinde belirtilen ulusal ve bölgesel nitelikteki fiziki planları Bakanlık yapar, yaptırır ve onaylar. Büyükşehir belediyeleri sınırları içerisindeki çevre düzeni planlarını büyükşehir belediyeleri, büyükşehir olmayan illerde ise Bakanlık yapar, yaptırır ve onaylar.",
+          "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1297]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-103",
+      "articleNumber": 103,
+      "articleLabel": "103",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 103 – (1) Çevre Yönetimi Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Çevre kirliliğinin önlenmesi ve kontrolü ile ilgili mevzuatı hazırlamak, standart geliştirmek, ölçüm, tespit ve kalite ölçütlerini belirlemek; alıcı ortam özelliklerine göre çevre kirliliği yönünden görüş vermek,\nb) Hava kalitesinin korunması, hava kirliliği, gürültü ve titreşimin azaltılması veya bertaraf edilmesi için hedef ve ilkelerin belirlenmesine ilişkin çalışmaları yapmak; temiz hava eylem planları yapmak ve yaptırmak; konuyla ilgili kurum ve kuruluşlarla koordineli çalışmalar yapmak, ölçüt ve standartları belirlemek,\nc) Temiz üretim ve entegre kirlilik önleme çalışmalarına yönelik politika ve stratejilerin belirlenmesine ilişkin çalışmaları yapmak ve ilgili mevzuatı hazırlamak,\nç) Yenilenebilir enerji kaynakları başta olmak üzere, temiz enerji kullanımını teşvik etmek, yakıtların hava kirliliğine yol açmayacak şekilde kullanılabilmesi için hedef ve ölçütlerin belirlenmesine ilişkin çalışmaları yapmak,\nd) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü ve titreşim ile ilgili ölçütleri belirlemek,\ne) Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu ile nükleer güvenlik konusunda işbirliği yapmak,[66]\nf) Etkili bir çevre yönetimi gerçekleştirmek, atık ve kimyasalların çevre ile uyumunu sağlamak üzere gerekli ekonomik araçları belirlemek ve bu konuda standartlar geliştirmek,\ng) Motorlu kara taşıtlarının egzoz emisyonlarının kontrolü için idari, mali ve teknik usul ve esaslar ile standartları belirlemek,\nğ) Yeraltı ve yerüstü sularının, denizlerin ve toprağın korunması, kirliliğin önlenmesi veya bertaraf edilmesi maksadıyla kirletici unsurlar ile kirliliğin giderilmesi ve kontrolüne ilişkin usul ve esasları tespit etmek ve uygulamayı sağlamak, acil müdahale planları yapmak ve yaptırmak, çevrenin korunması maksadıyla uygun teknolojileri belirlemek ve bu maksatla kurulacak tesislerin vasıflarını tespit etmek ve bu çerçevede gerekli tedbirleri almak ve aldırmak,\nh) Atık ve kimyasalların yönetimine ilişkin hedef, politika ve ölçütlerin belirlenmesine ilişkin çalışmaları yapmak,\nı) Atıksu arıtma tesislerinin tasarım esaslarını ve kriterlerini Tarım ve Orman Bakanlığı ile birlikte belirlemek, onay işlemlerini yürütmek,\ni) Atıkların kaynağında en aza indirilmesi, sınıflara ayrılması, toplanması, taşınması, geçici depolanması, geri kazanılması, bertaraf edilmesi, yeniden kullanılması, arıtılması, enerjiye dönüştürülmesi ve nihai depolanması konularında politika ve stratejilerin belirlemesi amacıyla çalışmalar yapmak,\nj) İlgili kurum ve kuruluşlarla işbirliği içinde atıkların taşınması ile tehlikeli atıkların taşınma lisanslarına ilişkin esasları belirlemek, uygulanmasını sağlamak, izlemek, atık ve kimyasallarla kirlenmiş alanların mevcut kirlilik durumlarını tespit etmek, çevre ve insan sağlığına yönelik risklere ve kirlenmiş alanların iyileştirilmesine ilişkin çalışmaları yapmak ve yaptırmak,\nk) Yasaklanacak ve kısıtlanacak yakıt, atık ve kimyasalların ve bunlar ile çevre kirliliğine yol açabilecek diğer maddelerin ithalat ve ihracatına ilişkin ölçütleri belirlemek, uygulanmasını sağlamak,\nl) Ulusal çevre stratejisi ve eylem planlarının hazırlamasına ilişkin çalışmaları yürütmek ve koordinasyonu sağlamak,\nm) (Mülga:RG-29/10/2021-31643-C.K-85/5 md.)\nn) Mahalli çevre kurullarının çalışmalarını takip etmek ve yönlendirmek,\no) Yerleşik alanlarda bina ve sair yapılarda görüntü kirliliğine yol açan uygulamaları önleyici tedbirler almak,\nö) Görev alanına giren konularda ulusal ve uluslararası çalışmaları izlemek ve yürütmek.\np) 19/10/1989 tarihli ve 383 sayılı Özel Çevre Koruma Kurumu Başkanlığı Kurulmasına Dair Kanun Hükmünde Kararname ile verilen görevleri yapmak,\nr) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1300,
+          "text": "MADDE 103 – (1) Çevre Yönetimi Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1300]"
+        },
+        {
+          "htmlParagraphIndex": 1301,
+          "text": "a) Çevre kirliliğinin önlenmesi ve kontrolü ile ilgili mevzuatı hazırlamak, standart geliştirmek, ölçüm, tespit ve kalite ölçütlerini belirlemek; alıcı ortam özelliklerine göre çevre kirliliği yönünden görüş vermek,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1301]"
+        },
+        {
+          "htmlParagraphIndex": 1302,
+          "text": "b) Hava kalitesinin korunması, hava kirliliği, gürültü ve titreşimin azaltılması veya bertaraf edilmesi için hedef ve ilkelerin belirlenmesine ilişkin çalışmaları yapmak; temiz hava eylem planları yapmak ve yaptırmak; konuyla ilgili kurum ve kuruluşlarla koordineli çalışmalar yapmak, ölçüt ve standartları belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1302]"
+        },
+        {
+          "htmlParagraphIndex": 1303,
+          "text": "c) Temiz üretim ve entegre kirlilik önleme çalışmalarına yönelik politika ve stratejilerin belirlenmesine ilişkin çalışmaları yapmak ve ilgili mevzuatı hazırlamak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1303]"
+        },
+        {
+          "htmlParagraphIndex": 1304,
+          "text": "ç) Yenilenebilir enerji kaynakları başta olmak üzere, temiz enerji kullanımını teşvik etmek, yakıtların hava kirliliğine yol açmayacak şekilde kullanılabilmesi için hedef ve ölçütlerin belirlenmesine ilişkin çalışmaları yapmak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1304]"
+        },
+        {
+          "htmlParagraphIndex": 1305,
+          "text": "d) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü ve titreşim ile ilgili ölçütleri belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1305]"
+        },
+        {
+          "htmlParagraphIndex": 1306,
+          "text": "e) Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu ile nükleer güvenlik konusunda işbirliği yapmak,[66]",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1306]"
+        },
+        {
+          "htmlParagraphIndex": 1307,
+          "text": "f) Etkili bir çevre yönetimi gerçekleştirmek, atık ve kimyasalların çevre ile uyumunu sağlamak üzere gerekli ekonomik araçları belirlemek ve bu konuda standartlar geliştirmek,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1307]"
+        },
+        {
+          "htmlParagraphIndex": 1308,
+          "text": "g) Motorlu kara taşıtlarının egzoz emisyonlarının kontrolü için idari, mali ve teknik usul ve esaslar ile standartları belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1308]"
+        },
+        {
+          "htmlParagraphIndex": 1309,
+          "text": "ğ) Yeraltı ve yerüstü sularının, denizlerin ve toprağın korunması, kirliliğin önlenmesi veya bertaraf edilmesi maksadıyla kirletici unsurlar ile kirliliğin giderilmesi ve kontrolüne ilişkin usul ve esasları tespit etmek ve uygulamayı sağlamak, acil müdahale planları yapmak ve yaptırmak, çevrenin korunması maksadıyla uygun teknolojileri belirlemek ve bu maksatla kurulacak tesislerin vasıflarını tespit etmek ve bu çerçevede gerekli tedbirleri almak ve aldırmak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1309]"
+        },
+        {
+          "htmlParagraphIndex": 1310,
+          "text": "h) Atık ve kimyasalların yönetimine ilişkin hedef, politika ve ölçütlerin belirlenmesine ilişkin çalışmaları yapmak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1310]"
+        },
+        {
+          "htmlParagraphIndex": 1311,
+          "text": "ı) Atıksu arıtma tesislerinin tasarım esaslarını ve kriterlerini Tarım ve Orman Bakanlığı ile birlikte belirlemek, onay işlemlerini yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1311]"
+        },
+        {
+          "htmlParagraphIndex": 1312,
+          "text": "i) Atıkların kaynağında en aza indirilmesi, sınıflara ayrılması, toplanması, taşınması, geçici depolanması, geri kazanılması, bertaraf edilmesi, yeniden kullanılması, arıtılması, enerjiye dönüştürülmesi ve nihai depolanması konularında politika ve stratejilerin belirlemesi amacıyla çalışmalar yapmak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1312]"
+        },
+        {
+          "htmlParagraphIndex": 1313,
+          "text": "j) İlgili kurum ve kuruluşlarla işbirliği içinde atıkların taşınması ile tehlikeli atıkların taşınma lisanslarına ilişkin esasları belirlemek, uygulanmasını sağlamak, izlemek, atık ve kimyasallarla kirlenmiş alanların mevcut kirlilik durumlarını tespit etmek, çevre ve insan sağlığına yönelik risklere ve kirlenmiş alanların iyileştirilmesine ilişkin çalışmaları yapmak ve yaptırmak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1313]"
+        },
+        {
+          "htmlParagraphIndex": 1314,
+          "text": "k) Yasaklanacak ve kısıtlanacak yakıt, atık ve kimyasalların ve bunlar ile çevre kirliliğine yol açabilecek diğer maddelerin ithalat ve ihracatına ilişkin ölçütleri belirlemek, uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1314]"
+        },
+        {
+          "htmlParagraphIndex": 1315,
+          "text": "l) Ulusal çevre stratejisi ve eylem planlarının hazırlamasına ilişkin çalışmaları yürütmek ve koordinasyonu sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1315]"
+        },
+        {
+          "htmlParagraphIndex": 1316,
+          "text": "m) (Mülga:RG-29/10/2021-31643-C.K-85/5 md.)",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1316]"
+        },
+        {
+          "htmlParagraphIndex": 1317,
+          "text": "n) Mahalli çevre kurullarının çalışmalarını takip etmek ve yönlendirmek,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1317]"
+        },
+        {
+          "htmlParagraphIndex": 1318,
+          "text": "o) Yerleşik alanlarda bina ve sair yapılarda görüntü kirliliğine yol açan uygulamaları önleyici tedbirler almak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1318]"
+        },
+        {
+          "htmlParagraphIndex": 1319,
+          "text": "ö) Görev alanına giren konularda ulusal ve uluslararası çalışmaları izlemek ve yürütmek.",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1319]"
+        },
+        {
+          "htmlParagraphIndex": 1320,
+          "text": "p) 19/10/1989 tarihli ve 383 sayılı Özel Çevre Koruma Kurumu Başkanlığı Kurulmasına Dair Kanun Hükmünde Kararname ile verilen görevleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1320]"
+        },
+        {
+          "htmlParagraphIndex": 1321,
+          "text": "r) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1321]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-104",
+      "articleNumber": 104,
+      "articleLabel": "104",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 104 – (1) Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Çevresel etki değerlendirmesi ve stratejik çevresel değerlendirme çalışmalarını yapmak ve bu konuda gerekli kararları almak, izlemek ve denetlemek,\nb) Çevre kirliliğini önleme ve çevre kalitesini iyileştirmeye yönelik her türlü faaliyet ve tesisi izlemek, gerekli tedbirleri almak ve aldırmak, denetlemek, çevre izni ve lisansı vermek,\nc) Çevre kirliliğine neden olan faaliyet ve tesislerin emisyon, deşarj ve atıklar ile arıtma ve bertaraf sistemlerini izlemek ve denetlemek,\nç) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü, titreşim ve iyonlaştırıcı olmayan radyasyon ile ilgili faaliyetleri izlemek, yeraltı ve yerüstü sularına, denizlere ve toprağa olumsuz etkileri olan her türlü faaliyeti belirlemek, denetlemek, tehlikeli hallerde veya gerekli durumlarda faaliyetleri durdurmak,\nd) Temiz hava merkezlerinin kurulması ve yönetilmesiyle ilgili iş ve işlemleri yürütmek,\ne) Motorlu kara taşıtları egzoz emisyonlarının belirlenen standartlara uygunluğunu belgelemek, izlemek ve denetlemek,\nf) Alıcı ortamları izlemek, buna ilişkin altyapıyı oluşturmak, çevre kirliliği ile ilgili olarak ölçüm ve analiz ölçütlerini belirlemek, uygulamak ve uygulanmasını sağlamak; çevreyle ilgili her türlü ölçüm, izleme, analiz ve kontroller yapacak laboratuvarlar kurmak, kurdurmak, bunların akreditasyon işlemlerini yapmak, yaptırmak; alıcı ortamlar konusunda ölçüm yapacak kuruluşları belirlemek,\ng) Her türlü atık bertaraf tesisine lisans vermek, bunları izlemek ve denetlemek,\nğ) Bakanlığın görev alanına giren ürünlerin ilgili mevzuat ve teknik düzenlemelere uygunluğunu ve güvenirliğini tespit etmek amacıyla denetim yapmak, yaptırmak, yetkili kuruluşlar arasında koordinasyonu sağlamak,\nh) Çevre envanterini ve çevre durum raporlarını hazırlamak ve Avrupa Çevre Ajansı ile ilişkileri yürütmek,\nı) Görev alanına giren faaliyetleri izlemek ve denetlemek, uluslararası çalışmaları izlemek ve ulusal düzeyde uygulanmasını sağlamak,\ni) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1324,
+          "text": "MADDE 104 – (1) Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1324]"
+        },
+        {
+          "htmlParagraphIndex": 1325,
+          "text": "a) Çevresel etki değerlendirmesi ve stratejik çevresel değerlendirme çalışmalarını yapmak ve bu konuda gerekli kararları almak, izlemek ve denetlemek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1325]"
+        },
+        {
+          "htmlParagraphIndex": 1326,
+          "text": "b) Çevre kirliliğini önleme ve çevre kalitesini iyileştirmeye yönelik her türlü faaliyet ve tesisi izlemek, gerekli tedbirleri almak ve aldırmak, denetlemek, çevre izni ve lisansı vermek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1326]"
+        },
+        {
+          "htmlParagraphIndex": 1327,
+          "text": "c) Çevre kirliliğine neden olan faaliyet ve tesislerin emisyon, deşarj ve atıklar ile arıtma ve bertaraf sistemlerini izlemek ve denetlemek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1327]"
+        },
+        {
+          "htmlParagraphIndex": 1328,
+          "text": "ç) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü, titreşim ve iyonlaştırıcı olmayan radyasyon ile ilgili faaliyetleri izlemek, yeraltı ve yerüstü sularına, denizlere ve toprağa olumsuz etkileri olan her türlü faaliyeti belirlemek, denetlemek, tehlikeli hallerde veya gerekli durumlarda faaliyetleri durdurmak,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1328]"
+        },
+        {
+          "htmlParagraphIndex": 1329,
+          "text": "d) Temiz hava merkezlerinin kurulması ve yönetilmesiyle ilgili iş ve işlemleri yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1329]"
+        },
+        {
+          "htmlParagraphIndex": 1330,
+          "text": "e) Motorlu kara taşıtları egzoz emisyonlarının belirlenen standartlara uygunluğunu belgelemek, izlemek ve denetlemek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1330]"
+        },
+        {
+          "htmlParagraphIndex": 1331,
+          "text": "f) Alıcı ortamları izlemek, buna ilişkin altyapıyı oluşturmak, çevre kirliliği ile ilgili olarak ölçüm ve analiz ölçütlerini belirlemek, uygulamak ve uygulanmasını sağlamak; çevreyle ilgili her türlü ölçüm, izleme, analiz ve kontroller yapacak laboratuvarlar kurmak, kurdurmak, bunların akreditasyon işlemlerini yapmak, yaptırmak; alıcı ortamlar konusunda ölçüm yapacak kuruluşları belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1331]"
+        },
+        {
+          "htmlParagraphIndex": 1332,
+          "text": "g) Her türlü atık bertaraf tesisine lisans vermek, bunları izlemek ve denetlemek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1332]"
+        },
+        {
+          "htmlParagraphIndex": 1333,
+          "text": "ğ) Bakanlığın görev alanına giren ürünlerin ilgili mevzuat ve teknik düzenlemelere uygunluğunu ve güvenirliğini tespit etmek amacıyla denetim yapmak, yaptırmak, yetkili kuruluşlar arasında koordinasyonu sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1333]"
+        },
+        {
+          "htmlParagraphIndex": 1334,
+          "text": "h) Çevre envanterini ve çevre durum raporlarını hazırlamak ve Avrupa Çevre Ajansı ile ilişkileri yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1334]"
+        },
+        {
+          "htmlParagraphIndex": 1335,
+          "text": "ı) Görev alanına giren faaliyetleri izlemek ve denetlemek, uluslararası çalışmaları izlemek ve ulusal düzeyde uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1335]"
+        },
+        {
+          "htmlParagraphIndex": 1336,
+          "text": "i) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1336]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-105",
+      "articleNumber": 105,
+      "articleLabel": "105",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 105 – (1) Yapı İşleri Genel Müdürlüğünün görev ve yetkileri şunlardır:[67]\na) Kamu kurum ve kuruluşlarına ait her türlü yapılar ile ilgili genel ilkeleri, stratejileri ve standartları belirlemek ve uygulanmasını sağlamak,\nb) Kamu yatırımlarının projeleri ve yapımla ilgili iş ve işlemlere ilişkin usul ve esaslar ile etüt ve projelerin niteliklerini belirlemek ve uygulanmasını sağlamak,\nc) 97 nci maddenin birinci fıkrasının (e) bendi ile Bakanlığa verilen görevleri yürütmek,\nç) 5543 sayılı İskan Kanunu ile Bakanlığa verilen görevleri yapmak,\nd) 5543 sayılı Kanun uyarınca daimi iskân için kamu kurum ve kuruluşlarınca yaptırılacak her türlü yapılara ve konutlara ilişkin etüt ve planlama işlerini yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, daimi iskân için yaptırılacak her türlü yapıların inşaatlarını yapmak veya yaptırmak,\ne) (Ek:RG-16/10/2023-32341-C.K-153/4 md.) (İptal bent:Anayasa Mahkemesinin 9/5/2024 Tarihli ve E: 2023/193, K: 2024/106 Sayılı Kararı ile)\nf) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1339,
+          "text": "MADDE 105 – (1) Yapı İşleri Genel Müdürlüğünün görev ve yetkileri şunlardır:[67]",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1339]"
+        },
+        {
+          "htmlParagraphIndex": 1340,
+          "text": "a) Kamu kurum ve kuruluşlarına ait her türlü yapılar ile ilgili genel ilkeleri, stratejileri ve standartları belirlemek ve uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1340]"
+        },
+        {
+          "htmlParagraphIndex": 1341,
+          "text": "b) Kamu yatırımlarının projeleri ve yapımla ilgili iş ve işlemlere ilişkin usul ve esaslar ile etüt ve projelerin niteliklerini belirlemek ve uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1341]"
+        },
+        {
+          "htmlParagraphIndex": 1342,
+          "text": "c) 97 nci maddenin birinci fıkrasının (e) bendi ile Bakanlığa verilen görevleri yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1342]"
+        },
+        {
+          "htmlParagraphIndex": 1343,
+          "text": "ç) 5543 sayılı İskan Kanunu ile Bakanlığa verilen görevleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1343]"
+        },
+        {
+          "htmlParagraphIndex": 1344,
+          "text": "d) 5543 sayılı Kanun uyarınca daimi iskân için kamu kurum ve kuruluşlarınca yaptırılacak her türlü yapılara ve konutlara ilişkin etüt ve planlama işlerini yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, daimi iskân için yaptırılacak her türlü yapıların inşaatlarını yapmak veya yaptırmak,",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1344]"
+        },
+        {
+          "htmlParagraphIndex": 1345,
+          "text": "e) (Ek:RG-16/10/2023-32341-C.K-153/4 md.) (İptal bent:Anayasa Mahkemesinin 9/5/2024 Tarihli ve E: 2023/193, K: 2024/106 Sayılı Kararı ile)",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1345]"
+        },
+        {
+          "htmlParagraphIndex": 1346,
+          "text": "f) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1346]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-106",
+      "articleNumber": 106,
+      "articleLabel": "106",
+      "examScope": true,
+      "status": "Repealed",
+      "text": "MADDE 106 – (Mülga:RG-16/10/2023-32341-C.K-153/5 md.)",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1349,
+          "text": "MADDE 106 – (Mülga:RG-16/10/2023-32341-C.K-153/5 md.)",
+          "sourceLocator": "1 sayılı CBK m.106; resmî UYAP belge114832; tam HTML p[1349]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-107",
+      "articleNumber": 107,
+      "articleLabel": "107",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 107 – (1) Mesleki Hizmetler Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Yerleşme ve yapılaşmaya yönelik mimarlık, mühendislik, müteahhitlik ve müşavirlik hizmetlerine ilişkin düzenlemeleri yapmak, uygulamaları denetlemek ve izlemek,\nb) Gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapılar ile ilgili genel ilke, strateji ve standartların belirlemesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,\nc) Planlama, harita yapımı, arazi ve arsa düzenlemesi, değerleme, parselasyon, etüt ve proje müellifliği, harita plan, proje ve yapım kontrol müşavirliği, her türlü altyapı ve tesisat dâhil olmak üzere yapı müteahhitliği gibi hizmet alanlarında çalışan gerçek veya tüzel kişilerin görev, yetki ve sorumluluklarına ve kayıtlarının tutulmasına ilişkin esasları belirlemek, mesleki yeterlikleri ile kuruluş yeterliklerini değerlendirerek bunlara tescil ve yeterlik belgeleri vermek veya verilmesini ve kayıtlarının tutulmasını sağlamak,\nç) Planlı ve plansız alanlardaki projelendirme ve yapılaşmaya, yapı ruhsatı ve yapı kullanma izinlerinin ulusal adres veri tabanına dayalı olarak düzenlenmesine ilişkin usul, esas ve standartları belirlemek,\nd) Planlama, projelendirme, yapım ve kamulaştırma iş ve işlemlerinde görev alacak bilirkişilerin niteliklerine ve mesleki yeterliklerine ilişkin usul ve esasları belirlemek,\ne) Yöresel mimarinin ve yapılarda yerel malzemenin kullanımının teşvik edilmesi, binalarda enerji verimliliğinin sağlanması ve ileri yapım teknolojilerinin kullanılması ve yaygınlaştırılması için gerekli tedbirleri almak,\nf) Kamu kurum ve kuruluşları ile gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapıların denetlenmesinde görev alan mimar ve mühendisler ile yardımcı kontrol elemanlarını denetlemek, ilgili idareler ile denetim ve müşavirlik kuruluşlarınca denetlenmesini sağlamak,\ng) Yapım işlerinde görev alan şantiye şefleri, fen elemanları ve yetki belgeli ustaların faaliyetlerinin, durumlarına göre, ilgili idarelerce veya meslek kuruluşlarınca denetlenmesini sağlamak,\nğ) Kamuya ve özel sektöre ait her türlü yapı ve tesisin projelerinin ve yapım işlerinin denetlenmesinde görev alacak mimar ve mühendisler ile yardımcı kontrol elemanlarının, yapı denetim kuruluşlarının ve müşavirlik kuruluşlarının niteliklerine, görev, yetki ve sorumluluklarına ilişkin esasları belirlemek, mesleki yeterlikleri ile kuruluş yeterliklerini değerlendirerek bunlara belge verilmesini ve kayıtlarının tutulmasını sağlamak,\nh) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)\nı) Çevre yönetimi, çevre denetimi ve çevresel etki değerlendirilmesi iş ve işlemlerinde görev alanların niteliklerine, görev, yetki ve sorumluluklarına ilişkin esasları belirlemek, mesleki yeterlikleri ile kuruluş yeterliklerini değerlendirerek bunlara belge verilmesini ve kayıtlarının tutulmasını sağlamak,\ni) Çevresel etki değerlendirmesi raporu hazırlanmasında, çevre laboratuvarları, çevre danışmanlık firmaları ile belediyelerin çevre koruma tesislerinin projelerinde ve işletilmesinde görev alacak elemanları eğitmek, proje ve tesis ölçütlerini geliştirmek ve mesleki yetkinliği artırmak,\nj) Konut politikalarının belirlenmesine yönelik çalışmalarda bulunmak, belirlenmiş politika, plan ve stratejilere göre uygulamayı temin ve sonuçlarını takip etmek,\nk) Yapı kooperatiflerinin ve üst birliklerinin kurulması, işleyişi ve denetlenmesine ilişkin iş ve işlemleri yürütmek, kuruluş kayıtlarının ve sicillerinin tutulmasını sağlamak ve uygulamaları denetlemek,\nl) Yapılarda kullanılacak malzemelerin kullanım amacına uygunluğuna dair esasları belirlemek, koordinasyon ve yetkilendirme çalışmalarını yürütmek, yapı malzemelerine ilişkin standartların hazırlanıp yayımlanmasını sağlamak,\nm) Yapı malzemelerinin üretim, satış, nakil ve kullanma safhalarında her türlü mekânda ve ortamda gözetim ve denetimini yapmak, yapı malzemesi numunelerinin test ve deneylerini ilgili standarda göre yapmak, yaptırmak ve laboratuvar altyapısını geliştirmek,\nn) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1352,
+          "text": "MADDE 107 – (1) Mesleki Hizmetler Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1352]"
+        },
+        {
+          "htmlParagraphIndex": 1353,
+          "text": "a) Yerleşme ve yapılaşmaya yönelik mimarlık, mühendislik, müteahhitlik ve müşavirlik hizmetlerine ilişkin düzenlemeleri yapmak, uygulamaları denetlemek ve izlemek,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1353]"
+        },
+        {
+          "htmlParagraphIndex": 1354,
+          "text": "b) Gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapılar ile ilgili genel ilke, strateji ve standartların belirlemesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1354]"
+        },
+        {
+          "htmlParagraphIndex": 1355,
+          "text": "c) Planlama, harita yapımı, arazi ve arsa düzenlemesi, değerleme, parselasyon, etüt ve proje müellifliği, harita plan, proje ve yapım kontrol müşavirliği, her türlü altyapı ve tesisat dâhil olmak üzere yapı müteahhitliği gibi hizmet alanlarında çalışan gerçek veya tüzel kişilerin görev, yetki ve sorumluluklarına ve kayıtlarının tutulmasına ilişkin esasları belirlemek, mesleki yeterlikleri ile kuruluş yeterliklerini değerlendirerek bunlara tescil ve yeterlik belgeleri vermek veya verilmesini ve kayıtlarının tutulmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1355]"
+        },
+        {
+          "htmlParagraphIndex": 1356,
+          "text": "ç) Planlı ve plansız alanlardaki projelendirme ve yapılaşmaya, yapı ruhsatı ve yapı kullanma izinlerinin ulusal adres veri tabanına dayalı olarak düzenlenmesine ilişkin usul, esas ve standartları belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1356]"
+        },
+        {
+          "htmlParagraphIndex": 1357,
+          "text": "d) Planlama, projelendirme, yapım ve kamulaştırma iş ve işlemlerinde görev alacak bilirkişilerin niteliklerine ve mesleki yeterliklerine ilişkin usul ve esasları belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1357]"
+        },
+        {
+          "htmlParagraphIndex": 1358,
+          "text": "e) Yöresel mimarinin ve yapılarda yerel malzemenin kullanımının teşvik edilmesi, binalarda enerji verimliliğinin sağlanması ve ileri yapım teknolojilerinin kullanılması ve yaygınlaştırılması için gerekli tedbirleri almak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1358]"
+        },
+        {
+          "htmlParagraphIndex": 1359,
+          "text": "f) Kamu kurum ve kuruluşları ile gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapıların denetlenmesinde görev alan mimar ve mühendisler ile yardımcı kontrol elemanlarını denetlemek, ilgili idareler ile denetim ve müşavirlik kuruluşlarınca denetlenmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1359]"
+        },
+        {
+          "htmlParagraphIndex": 1360,
+          "text": "g) Yapım işlerinde görev alan şantiye şefleri, fen elemanları ve yetki belgeli ustaların faaliyetlerinin, durumlarına göre, ilgili idarelerce veya meslek kuruluşlarınca denetlenmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1360]"
+        },
+        {
+          "htmlParagraphIndex": 1361,
+          "text": "ğ) Kamuya ve özel sektöre ait her türlü yapı ve tesisin projelerinin ve yapım işlerinin denetlenmesinde görev alacak mimar ve mühendisler ile yardımcı kontrol elemanlarının, yapı denetim kuruluşlarının ve müşavirlik kuruluşlarının niteliklerine, görev, yetki ve sorumluluklarına ilişkin esasları belirlemek, mesleki yeterlikleri ile kuruluş yeterliklerini değerlendirerek bunlara belge verilmesini ve kayıtlarının tutulmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1361]"
+        },
+        {
+          "htmlParagraphIndex": 1362,
+          "text": "h) (İptal bent: Anayasa Mahkemesinin 26/10/2023 tarihli ve E.:2018/118; K.:2023/180 sayılı Kararı ile.)",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1362]"
+        },
+        {
+          "htmlParagraphIndex": 1363,
+          "text": "ı) Çevre yönetimi, çevre denetimi ve çevresel etki değerlendirilmesi iş ve işlemlerinde görev alanların niteliklerine, görev, yetki ve sorumluluklarına ilişkin esasları belirlemek, mesleki yeterlikleri ile kuruluş yeterliklerini değerlendirerek bunlara belge verilmesini ve kayıtlarının tutulmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1363]"
+        },
+        {
+          "htmlParagraphIndex": 1364,
+          "text": "i) Çevresel etki değerlendirmesi raporu hazırlanmasında, çevre laboratuvarları, çevre danışmanlık firmaları ile belediyelerin çevre koruma tesislerinin projelerinde ve işletilmesinde görev alacak elemanları eğitmek, proje ve tesis ölçütlerini geliştirmek ve mesleki yetkinliği artırmak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1364]"
+        },
+        {
+          "htmlParagraphIndex": 1365,
+          "text": "j) Konut politikalarının belirlenmesine yönelik çalışmalarda bulunmak, belirlenmiş politika, plan ve stratejilere göre uygulamayı temin ve sonuçlarını takip etmek,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1365]"
+        },
+        {
+          "htmlParagraphIndex": 1366,
+          "text": "k) Yapı kooperatiflerinin ve üst birliklerinin kurulması, işleyişi ve denetlenmesine ilişkin iş ve işlemleri yürütmek, kuruluş kayıtlarının ve sicillerinin tutulmasını sağlamak ve uygulamaları denetlemek,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1366]"
+        },
+        {
+          "htmlParagraphIndex": 1367,
+          "text": "l) Yapılarda kullanılacak malzemelerin kullanım amacına uygunluğuna dair esasları belirlemek, koordinasyon ve yetkilendirme çalışmalarını yürütmek, yapı malzemelerine ilişkin standartların hazırlanıp yayımlanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1367]"
+        },
+        {
+          "htmlParagraphIndex": 1368,
+          "text": "m) Yapı malzemelerinin üretim, satış, nakil ve kullanma safhalarında her türlü mekânda ve ortamda gözetim ve denetimini yapmak, yapı malzemesi numunelerinin test ve deneylerini ilgili standarda göre yapmak, yaptırmak ve laboratuvar altyapısını geliştirmek,",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1368]"
+        },
+        {
+          "htmlParagraphIndex": 1369,
+          "text": "n) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1369]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-108",
+      "articleNumber": 108,
+      "articleLabel": "108",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 108 – (1) Coğrafi Bilgi Sistemleri Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak ve yaptırmak,\nb) Çağdaş coğrafi bilgi teknolojilerinin ülkede etkin ve verimli bir şekilde kullanılmasını teşvik etmek ve eşgüdümü sağlamak,\nc) Coğrafi veri ve bilginin ulusal düzeyde üretimine, kalitesine ve paylaşımına yönelik standartlar ile bunlara ilişkin temel politika ve stratejilerin belirlenmesini sağlamak amacıyla çalışmalar yapmak ve gerekli mevzuatı hazırlamak,\nç) Coğrafi bilgi sistemleri konusunda ulusal ve uluslararası kurum ve kuruluşlarca gerçekleştirilen çalışmalarda ülkemizi temsil etmek, işbirliği ve uyum çalışmalarını koordine etmek,\nd) Ulusal Coğrafi Bilgi Sistemi kapsamına giren tüm konularda, resmi ve özel kurum ve kuruluşlarca üretilen verilerin Bakanlık birimlerince kullanılmasını ve değerlendirilmesini sağlamak,\ne) Bakanlık hizmetlerinin etkin bir şekilde yürütülebilmesi için Bakanlık mekânsal veri altyapısının oluşturulması ve geliştirilmesi ile Bakanlığın ihtiyaç duyacağı her türlü verinin iletilmesi ve temin edilmesi konularında çalışmalar yürütmek,\nf) Kent bilgi sistemlerinin standart ve yaygın bir şekilde oluşturulması için gerekli düzenlemeler yapmak,\ng) Ulusal Coğrafi Bilgi Sistemi kapsamında resmi ve özel kurum ve kuruluşlarca üretilen mekânsal verilerin sunulduğu portalı kurmak ve işletmek,\nğ) Uluslararası veri paylaşım ağlarına katılmak,\nh) Coğrafi bilgi sistemleri ile ilgili sertifikasyon ve akreditasyon çalışmalarının yapılmasını sağlamak,\nı) Coğrafi bilgi sistemleri uygulamalarını bütünleyen navigasyon, yönetim, otomasyon ve dokümantasyon sistemleri ile uzaktan algılama tekniği konularında uygulama, düzenleme, geliştirme ve izleme faaliyetlerini yürütmek,\ni) Bakanlığın bilgi işlem hizmetlerini yürütmek,\nj) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1372,
+          "text": "MADDE 108 – (1) Coğrafi Bilgi Sistemleri Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1372]"
+        },
+        {
+          "htmlParagraphIndex": 1373,
+          "text": "a) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak ve yaptırmak,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1373]"
+        },
+        {
+          "htmlParagraphIndex": 1374,
+          "text": "b) Çağdaş coğrafi bilgi teknolojilerinin ülkede etkin ve verimli bir şekilde kullanılmasını teşvik etmek ve eşgüdümü sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1374]"
+        },
+        {
+          "htmlParagraphIndex": 1375,
+          "text": "c) Coğrafi veri ve bilginin ulusal düzeyde üretimine, kalitesine ve paylaşımına yönelik standartlar ile bunlara ilişkin temel politika ve stratejilerin belirlenmesini sağlamak amacıyla çalışmalar yapmak ve gerekli mevzuatı hazırlamak,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1375]"
+        },
+        {
+          "htmlParagraphIndex": 1376,
+          "text": "ç) Coğrafi bilgi sistemleri konusunda ulusal ve uluslararası kurum ve kuruluşlarca gerçekleştirilen çalışmalarda ülkemizi temsil etmek, işbirliği ve uyum çalışmalarını koordine etmek,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1376]"
+        },
+        {
+          "htmlParagraphIndex": 1377,
+          "text": "d) Ulusal Coğrafi Bilgi Sistemi kapsamına giren tüm konularda, resmi ve özel kurum ve kuruluşlarca üretilen verilerin Bakanlık birimlerince kullanılmasını ve değerlendirilmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1377]"
+        },
+        {
+          "htmlParagraphIndex": 1378,
+          "text": "e) Bakanlık hizmetlerinin etkin bir şekilde yürütülebilmesi için Bakanlık mekânsal veri altyapısının oluşturulması ve geliştirilmesi ile Bakanlığın ihtiyaç duyacağı her türlü verinin iletilmesi ve temin edilmesi konularında çalışmalar yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1378]"
+        },
+        {
+          "htmlParagraphIndex": 1379,
+          "text": "f) Kent bilgi sistemlerinin standart ve yaygın bir şekilde oluşturulması için gerekli düzenlemeler yapmak,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1379]"
+        },
+        {
+          "htmlParagraphIndex": 1380,
+          "text": "g) Ulusal Coğrafi Bilgi Sistemi kapsamında resmi ve özel kurum ve kuruluşlarca üretilen mekânsal verilerin sunulduğu portalı kurmak ve işletmek,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1380]"
+        },
+        {
+          "htmlParagraphIndex": 1381,
+          "text": "ğ) Uluslararası veri paylaşım ağlarına katılmak,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1381]"
+        },
+        {
+          "htmlParagraphIndex": 1382,
+          "text": "h) Coğrafi bilgi sistemleri ile ilgili sertifikasyon ve akreditasyon çalışmalarının yapılmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1382]"
+        },
+        {
+          "htmlParagraphIndex": 1383,
+          "text": "ı) Coğrafi bilgi sistemleri uygulamalarını bütünleyen navigasyon, yönetim, otomasyon ve dokümantasyon sistemleri ile uzaktan algılama tekniği konularında uygulama, düzenleme, geliştirme ve izleme faaliyetlerini yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1383]"
+        },
+        {
+          "htmlParagraphIndex": 1384,
+          "text": "i) Bakanlığın bilgi işlem hizmetlerini yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1384]"
+        },
+        {
+          "htmlParagraphIndex": 1385,
+          "text": "j) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1385]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-108A",
+      "articleNumber": 108,
+      "articleLabel": "108/A",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 108/A- (Ek:RG-29/10/2021-31643-C.K-85/6 md.)\n(1) Çölleşme ve Erozyonla Mücadele Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; havza bütünlüğü esas alınarak çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projelerin gerektirdiği etüt ve proje işlerini yürütmek, projeleri uygulamak, uygulanmasını izlemek, kurumlara proje desteği sağlamak, bu iş ve işlemlerle ilgili politika ve stratejilerin belirlenmesi amacıyla ilgili kurum ve kuruluşlar arasında işbirliği ve koordinasyon sağlamak,\nb) Çölleşme ve erozyonla mücadele amacıyla su havzalarının geliştirilmesine yönelik ulusal ve bölgesel düzeyde planlama yapmak, politika ve stratejiler belirlemek,\nc) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,\nç) Üniversiteler ve Ar-Ge kuruluşlarıyla birlikte araştırma ve geliştirme faaliyetleri yürütmek, izleme ve değerlendirme sistemleri kurmak, eğitim, yayın ve tanıtım faaliyetlerinde bulunmak,\nd) Görev alanına giren konularda etüt, araştırma, iş tanımı, analiz ve birim fiyat tespiti yapmak, yaptırmak, onaylamak, uygulama esaslarını tespit etmek,\ne) Çölleşme ve erozyonla mücadele ile iklim ve çevre amaçlı kullanıma uygun uydu gönderimi veya uydu verilerinin teminine ilişkin iş ve işlemleri yürütmek,\nf) Görev alanına giren konularda ülkemizin taraf olduğu uluslararası sözleşmeler ile kararların ulusal düzeyde uygulanmasını izlemek ve değerlendirmek, ilgili kurum ve kuruluşlar arasında koordinasyonu sağlamak,\ng) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1388,
+          "text": "MADDE 108/A- (Ek:RG-29/10/2021-31643-C.K-85/6 md.)",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1388]"
+        },
+        {
+          "htmlParagraphIndex": 1389,
+          "text": "(1) Çölleşme ve Erozyonla Mücadele Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1389]"
+        },
+        {
+          "htmlParagraphIndex": 1390,
+          "text": "a) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; havza bütünlüğü esas alınarak çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projelerin gerektirdiği etüt ve proje işlerini yürütmek, projeleri uygulamak, uygulanmasını izlemek, kurumlara proje desteği sağlamak, bu iş ve işlemlerle ilgili politika ve stratejilerin belirlenmesi amacıyla ilgili kurum ve kuruluşlar arasında işbirliği ve koordinasyon sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1390]"
+        },
+        {
+          "htmlParagraphIndex": 1391,
+          "text": "b) Çölleşme ve erozyonla mücadele amacıyla su havzalarının geliştirilmesine yönelik ulusal ve bölgesel düzeyde planlama yapmak, politika ve stratejiler belirlemek,",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1391]"
+        },
+        {
+          "htmlParagraphIndex": 1392,
+          "text": "c) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1392]"
+        },
+        {
+          "htmlParagraphIndex": 1393,
+          "text": "ç) Üniversiteler ve Ar-Ge kuruluşlarıyla birlikte araştırma ve geliştirme faaliyetleri yürütmek, izleme ve değerlendirme sistemleri kurmak, eğitim, yayın ve tanıtım faaliyetlerinde bulunmak,",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1393]"
+        },
+        {
+          "htmlParagraphIndex": 1394,
+          "text": "d) Görev alanına giren konularda etüt, araştırma, iş tanımı, analiz ve birim fiyat tespiti yapmak, yaptırmak, onaylamak, uygulama esaslarını tespit etmek,",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1394]"
+        },
+        {
+          "htmlParagraphIndex": 1395,
+          "text": "e) Çölleşme ve erozyonla mücadele ile iklim ve çevre amaçlı kullanıma uygun uydu gönderimi veya uydu verilerinin teminine ilişkin iş ve işlemleri yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1395]"
+        },
+        {
+          "htmlParagraphIndex": 1396,
+          "text": "f) Görev alanına giren konularda ülkemizin taraf olduğu uluslararası sözleşmeler ile kararların ulusal düzeyde uygulanmasını izlemek ve değerlendirmek, ilgili kurum ve kuruluşlar arasında koordinasyonu sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1396]"
+        },
+        {
+          "htmlParagraphIndex": 1397,
+          "text": "g) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1397]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-109",
+      "articleNumber": 109,
+      "articleLabel": "109",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 109 – (1) Tabiat Varlıklarını Koruma Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Milli parklar, tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri koruma statüsü bulunan diğer alanların tescil, onay ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tescil etmek,\nb) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerinin tespit, tescil, onay, değişiklik ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tespit ve tescil etmek, yönetmek ve yönetilmesini sağlamak,\nc) Milli parklar, tabiat parkları, tabiat anıtları, tabiatı koruma alanları, doğal sit alanları, sulak alanlar, özel çevre koruma bölgeleri ve benzeri koruma statüsü bulunan diğer alanların kullanma ve yapılaşmaya yönelik ilke kararlarını belirlemek ve her tür ve ölçekte çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak, değiştirmek, onaylamak, uygulamak veya uygulanmasını sağlamak,\nç) Tabiat varlıkları, doğal, tarihi, arkeolojik ve kentsel sitler ile koruma statüsü bulunan diğer alanların çakıştığı yerlerde koruma ve kullanma esaslarını ilgili bakanlıkların görüşünü alarak belirlemek ve bu alanların kısmen veya tamamen hangi idarelerce yönetileceğine karar vermek, her tür ve ölçekteki çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak ve onaylamak,\nd) Orman alanları dışında yer alan korunması gerekli taşınmaz tabiat varlıkları, koruma alanları ve doğal sit alanlarının Bakanlıkça belirlenen ilke kararlarına, onaylanan planlara uygun olarak kullanılmak üzere tahsisini gerçekleştirmek, uygulamaların tahsis şartlarına uygun olarak gerçekleşmesini izlemek ve denetlemek,\ne) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerine ilişkin olarak; hâlihazır haritaları aldırmak, gerekli görülen projeleri yapmak, yaptırmak ve onaylamak, her türlü araştırma ve inceleme yapmak, yaptırmak, izlemek, eğitim ve bilinçlendirme çalışmaları yürütmek, kullanım yasağı getirilen alanların kamulaştırma veya benzer yollarla kamunun eline geçirilmesini sağlamak, kontrol ve denetim yapmak, gerekli görülen alanların korunması ve kirliliğin önlenmesi amacıyla yatırım yapmak veya ilgili idarelerin yatırım projelerini desteklemek, bu alan ve bölgelerde Devletin hüküm ve tasarrufu altındaki yerlere ilişkin her türlü tasarrufta bulunmak, işletmek, işlettirmek ve kullanım izinlerini vermek, korunan alanlara ilişkin insan ve finansman kaynağı sağlamak,\nf) Bakan tarafından verilen diğer görevleri yapmak.\n(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1400,
+          "text": "MADDE 109 – (1) Tabiat Varlıklarını Koruma Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1400]"
+        },
+        {
+          "htmlParagraphIndex": 1401,
+          "text": "a) Milli parklar, tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri koruma statüsü bulunan diğer alanların tescil, onay ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tescil etmek,",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1401]"
+        },
+        {
+          "htmlParagraphIndex": 1402,
+          "text": "b) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerinin tespit, tescil, onay, değişiklik ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tespit ve tescil etmek, yönetmek ve yönetilmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1402]"
+        },
+        {
+          "htmlParagraphIndex": 1403,
+          "text": "c) Milli parklar, tabiat parkları, tabiat anıtları, tabiatı koruma alanları, doğal sit alanları, sulak alanlar, özel çevre koruma bölgeleri ve benzeri koruma statüsü bulunan diğer alanların kullanma ve yapılaşmaya yönelik ilke kararlarını belirlemek ve her tür ve ölçekte çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak, değiştirmek, onaylamak, uygulamak veya uygulanmasını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1403]"
+        },
+        {
+          "htmlParagraphIndex": 1404,
+          "text": "ç) Tabiat varlıkları, doğal, tarihi, arkeolojik ve kentsel sitler ile koruma statüsü bulunan diğer alanların çakıştığı yerlerde koruma ve kullanma esaslarını ilgili bakanlıkların görüşünü alarak belirlemek ve bu alanların kısmen veya tamamen hangi idarelerce yönetileceğine karar vermek, her tür ve ölçekteki çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak ve onaylamak,",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1404]"
+        },
+        {
+          "htmlParagraphIndex": 1405,
+          "text": "d) Orman alanları dışında yer alan korunması gerekli taşınmaz tabiat varlıkları, koruma alanları ve doğal sit alanlarının Bakanlıkça belirlenen ilke kararlarına, onaylanan planlara uygun olarak kullanılmak üzere tahsisini gerçekleştirmek, uygulamaların tahsis şartlarına uygun olarak gerçekleşmesini izlemek ve denetlemek,",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1405]"
+        },
+        {
+          "htmlParagraphIndex": 1406,
+          "text": "e) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerine ilişkin olarak; hâlihazır haritaları aldırmak, gerekli görülen projeleri yapmak, yaptırmak ve onaylamak, her türlü araştırma ve inceleme yapmak, yaptırmak, izlemek, eğitim ve bilinçlendirme çalışmaları yürütmek, kullanım yasağı getirilen alanların kamulaştırma veya benzer yollarla kamunun eline geçirilmesini sağlamak, kontrol ve denetim yapmak, gerekli görülen alanların korunması ve kirliliğin önlenmesi amacıyla yatırım yapmak veya ilgili idarelerin yatırım projelerini desteklemek, bu alan ve bölgelerde Devletin hüküm ve tasarrufu altındaki yerlere ilişkin her türlü tasarrufta bulunmak, işletmek, işlettirmek ve kullanım izinlerini vermek, korunan alanlara ilişkin insan ve finansman kaynağı sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1406]"
+        },
+        {
+          "htmlParagraphIndex": 1407,
+          "text": "f) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1407]"
+        },
+        {
+          "htmlParagraphIndex": 1408,
+          "text": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+          "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-109A",
+      "articleNumber": 109,
+      "articleLabel": "109/A",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 109/A- (Ek:RG-10/1/2019-30651-CK-27/29 md.)\n(1) Avrupa Birliği ve Dış İlişkiler Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Avrupa Birliği ile ilişkilerde ve Avrupa Birliğine yönelik mevzuat ve uyum çalışmaları ile ekonomik ve teknik işbirliğine yönelik çalışmalarda Bakanlık hizmetlerinin süratli, düzenli, etkili ve verimli bir şekilde yürütülmesi için gerekli irtibat ve eşgüdümü sağlamak,\nb) Avrupa Birliği ile mali ilişkiler çerçevesindeki operasyonel programları yürütmek ve fonların uygulanmasını koordine etmek,\nc) İlgili mevzuat, Avrupa Birliği müktesebatı ve uluslararası anlaşmalar çerçevesinde operasyonel programları hazırlamak ve uygulamak,\nç) Uluslararası alanda faaliyet gösteren kuruluşlarla Bakanlığın görev alanına giren konularda uluslararası sözleşmeler de dâhil olmak üzere ilişkileri düzenlemek, gerekli irtibat ve eşgüdümü sağlamak,\nd) Bakanlığın görev alanı ile ilgili olarak Avrupa Birliği mevzuatı ve uygulamaları konusunda inceleme ve araştırmalar yapmak, yaptırmak ve ilgililere duyurmak,\ne) Desteklenecek proje ve faaliyetlere ilişkin olarak; projelerin seçimini yapmak, önceliklendirmek, ihale ve sözleşmelerini yapmak ve yürütülmesini sağlamak, ödemelerini gerçekleştirmek ve muhasebeleştirmek, buna ilişkin kontrol, izleme ve değerlendirmeleri yapmak,\nf) İlgili kurum ve makamlara görevleri ile ilgili bilgi, belge ve raporların intikalini sağlamak ve operasyonel programın özelliğine göre yapısal fonların kullanımı için gerekli hazırlıkları yapmak,\ng) Bakanlık faaliyetleri çerçevesinde yurtdışından gelen heyetler ve Bakanlıktan yurtdışına gönderileceklerle ilgili iş ve işlemleri yürütmek,\nğ) Yurtdışı ilişkilerle ilgili protokol işlemlerinin yürütülmesini sağlamak,\nh) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1411,
+          "text": "MADDE 109/A- (Ek:RG-10/1/2019-30651-CK-27/29 md.)",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1411]"
+        },
+        {
+          "htmlParagraphIndex": 1412,
+          "text": "(1) Avrupa Birliği ve Dış İlişkiler Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1412]"
+        },
+        {
+          "htmlParagraphIndex": 1413,
+          "text": "a) Avrupa Birliği ile ilişkilerde ve Avrupa Birliğine yönelik mevzuat ve uyum çalışmaları ile ekonomik ve teknik işbirliğine yönelik çalışmalarda Bakanlık hizmetlerinin süratli, düzenli, etkili ve verimli bir şekilde yürütülmesi için gerekli irtibat ve eşgüdümü sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1413]"
+        },
+        {
+          "htmlParagraphIndex": 1414,
+          "text": "b) Avrupa Birliği ile mali ilişkiler çerçevesindeki operasyonel programları yürütmek ve fonların uygulanmasını koordine etmek,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1414]"
+        },
+        {
+          "htmlParagraphIndex": 1415,
+          "text": "c) İlgili mevzuat, Avrupa Birliği müktesebatı ve uluslararası anlaşmalar çerçevesinde operasyonel programları hazırlamak ve uygulamak,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1415]"
+        },
+        {
+          "htmlParagraphIndex": 1416,
+          "text": "ç) Uluslararası alanda faaliyet gösteren kuruluşlarla Bakanlığın görev alanına giren konularda uluslararası sözleşmeler de dâhil olmak üzere ilişkileri düzenlemek, gerekli irtibat ve eşgüdümü sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1416]"
+        },
+        {
+          "htmlParagraphIndex": 1417,
+          "text": "d) Bakanlığın görev alanı ile ilgili olarak Avrupa Birliği mevzuatı ve uygulamaları konusunda inceleme ve araştırmalar yapmak, yaptırmak ve ilgililere duyurmak,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1417]"
+        },
+        {
+          "htmlParagraphIndex": 1418,
+          "text": "e) Desteklenecek proje ve faaliyetlere ilişkin olarak; projelerin seçimini yapmak, önceliklendirmek, ihale ve sözleşmelerini yapmak ve yürütülmesini sağlamak, ödemelerini gerçekleştirmek ve muhasebeleştirmek, buna ilişkin kontrol, izleme ve değerlendirmeleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1418]"
+        },
+        {
+          "htmlParagraphIndex": 1419,
+          "text": "f) İlgili kurum ve makamlara görevleri ile ilgili bilgi, belge ve raporların intikalini sağlamak ve operasyonel programın özelliğine göre yapısal fonların kullanımı için gerekli hazırlıkları yapmak,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1419]"
+        },
+        {
+          "htmlParagraphIndex": 1420,
+          "text": "g) Bakanlık faaliyetleri çerçevesinde yurtdışından gelen heyetler ve Bakanlıktan yurtdışına gönderileceklerle ilgili iş ve işlemleri yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1420]"
+        },
+        {
+          "htmlParagraphIndex": 1421,
+          "text": "ğ) Yurtdışı ilişkilerle ilgili protokol işlemlerinin yürütülmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1421]"
+        },
+        {
+          "htmlParagraphIndex": 1422,
+          "text": "h) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1422]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-109B",
+      "articleNumber": 109,
+      "articleLabel": "109/B",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 109/B- (Ek:RG-10/1/2019-30651-CK-27/29 md.)\n(1) Personel Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) Bakanlığın personel planlaması ve politikası ile ilgili çalışmaları yapmak, personel sisteminin geliştirilmesi için tekliflerde bulunmak,\nb) Bakanlık personelinin atama, nakil, terfi, emeklilik ve benzeri özlük işlemlerini yürütmek,\nc) Bakanlığın eğitim planını hazırlamak, uygulamak ve değerlendirmek,\nç) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1425,
+          "text": "MADDE 109/B- (Ek:RG-10/1/2019-30651-CK-27/29 md.)",
+          "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1425]"
+        },
+        {
+          "htmlParagraphIndex": 1426,
+          "text": "(1) Personel Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1426]"
+        },
+        {
+          "htmlParagraphIndex": 1427,
+          "text": "a) Bakanlığın personel planlaması ve politikası ile ilgili çalışmaları yapmak, personel sisteminin geliştirilmesi için tekliflerde bulunmak,",
+          "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1427]"
+        },
+        {
+          "htmlParagraphIndex": 1428,
+          "text": "b) Bakanlık personelinin atama, nakil, terfi, emeklilik ve benzeri özlük işlemlerini yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1428]"
+        },
+        {
+          "htmlParagraphIndex": 1429,
+          "text": "c) Bakanlığın eğitim planını hazırlamak, uygulamak ve değerlendirmek,",
+          "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1429]"
+        },
+        {
+          "htmlParagraphIndex": 1430,
+          "text": "ç) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1430]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-109C",
+      "articleNumber": 109,
+      "articleLabel": "109/C",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 109/C- (Ek:RG-10/1/2019-30651-CK-27/29 md.)\n(1) Hukuk Hizmetleri Genel Müdürlüğünün görev ve yetkileri şunlardır:\na) 26/9/2011 tarihli ve 659 sayılı Kanun Hükmünde Kararname hükümlerine göre hukuk birimlerine verilen görevleri yapmak,\nb) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1433,
+          "text": "MADDE 109/C- (Ek:RG-10/1/2019-30651-CK-27/29 md.)",
+          "sourceLocator": "1 sayılı CBK m.109/C; resmî UYAP belge114832; tam HTML p[1433]"
+        },
+        {
+          "htmlParagraphIndex": 1434,
+          "text": "(1) Hukuk Hizmetleri Genel Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.109/C; resmî UYAP belge114832; tam HTML p[1434]"
+        },
+        {
+          "htmlParagraphIndex": 1435,
+          "text": "a) 26/9/2011 tarihli ve 659 sayılı Kanun Hükmünde Kararname hükümlerine göre hukuk birimlerine verilen görevleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.109/C; resmî UYAP belge114832; tam HTML p[1435]"
+        },
+        {
+          "htmlParagraphIndex": 1436,
+          "text": "b) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.109/C; resmî UYAP belge114832; tam HTML p[1436]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-110",
+      "articleNumber": 110,
+      "articleLabel": "110",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 110 – (1) Rehberlik ve Teftiş Başkanlığının görev ve yetkileri şunlardır:\na) Bakanlık teşkilatının her türlü faaliyet ve işlemleriyle ilgili olarak teftiş, inceleme ve soruşturmalar yapmak,\nb) Bakanlığın amaçlarını daha iyi gerçekleştirmek, mevzuata, plan ve programlara uygun çalışmasını temin etmek amacıyla gerekli teklifleri hazırlamak ve Bakana sunmak,\nc) Bakan tarafından verilen diğer görevleri yapmak,\n(2) Başkanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Müfettiş ve Müfettiş Yardımcısı istihdam edilir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1439,
+          "text": "MADDE 110 – (1) Rehberlik ve Teftiş Başkanlığının görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1439]"
+        },
+        {
+          "htmlParagraphIndex": 1440,
+          "text": "a) Bakanlık teşkilatının her türlü faaliyet ve işlemleriyle ilgili olarak teftiş, inceleme ve soruşturmalar yapmak,",
+          "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1440]"
+        },
+        {
+          "htmlParagraphIndex": 1441,
+          "text": "b) Bakanlığın amaçlarını daha iyi gerçekleştirmek, mevzuata, plan ve programlara uygun çalışmasını temin etmek amacıyla gerekli teklifleri hazırlamak ve Bakana sunmak,",
+          "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1441]"
+        },
+        {
+          "htmlParagraphIndex": 1442,
+          "text": "c) Bakan tarafından verilen diğer görevleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1442]"
+        },
+        {
+          "htmlParagraphIndex": 1443,
+          "text": "(2) Başkanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Müfettiş ve Müfettiş Yardımcısı istihdam edilir.",
+          "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1443]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-111",
+      "articleNumber": 111,
+      "articleLabel": "111",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 111 - (1) Strateji Geliştirme Başkanlığının görev ve yetkileri şunlardır:\na) 10/12/2003 tarihli ve 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu, 22/12/2005 tarihli ve 5436 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılması Hakkında Kanunun 15 inci maddesi, Cumhurbaşkanlığı kararnameleri ve diğer mevzuatla strateji geliştirme ve malî hizmetler birimlerine verilen görevleri yapmak,\nb) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1446,
+          "text": "MADDE 111 - (1) Strateji Geliştirme Başkanlığının görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.111; resmî UYAP belge114832; tam HTML p[1446]"
+        },
+        {
+          "htmlParagraphIndex": 1447,
+          "text": "a) 10/12/2003 tarihli ve 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu, 22/12/2005 tarihli ve 5436 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılması Hakkında Kanunun 15 inci maddesi, Cumhurbaşkanlığı kararnameleri ve diğer mevzuatla strateji geliştirme ve malî hizmetler birimlerine verilen görevleri yapmak,",
+          "sourceLocator": "1 sayılı CBK m.111; resmî UYAP belge114832; tam HTML p[1447]"
+        },
+        {
+          "htmlParagraphIndex": 1448,
+          "text": "b) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.111; resmî UYAP belge114832; tam HTML p[1448]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-112",
+      "articleNumber": 112,
+      "articleLabel": "112",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 112 – (1) Yüksek Fen Kurulu Başkanlığının görev ve yetkileri şunlardır: [68]\na) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununun ek 1 inci maddesi ile verilen görev ve yetkileri yerine getirmek,\nb) Çevre ve imar mevzuatının yürütülmesinden doğan anlaşmazlıkları ilgili idarelerin talebine istinaden inceleyip karara bağlamak,\nc) Teknik veya fiziki yönden birbirini etkileyen plan ve yapım işleri ile ilgili olarak, kamu kurum ve kuruluşları arasında doğan anlaşmazlıkları, taraf olan idarelerin birlikte talep etmeleri halinde inceleyip karara bağlamak,\nç) Plan, çevre, yapım ve yapımla ilgili hizmet işlerine ilişkin konularda kamu kurum ve kuruluşları ile yapı kooperatiflerine görüş vermek,\nd) Bayındırlık ve iskân işleri ile ilgili şartname, tip sözleşme, yıllık rayiç, birim fiyat, birim fiyatlara ait analiz ve tarifleri hazırlamak, yayımlamak ve gerekli görülen hallerde yayımlanan rayiç ve birim fiyatları güncellemek, [69]\ne) Yapı, tesis ve onarım işleri ihalelerinde kullanılan müteahhitlik karneleri ve iş bitirme belgelerinin yıllara ait değerlendirme katsayılarını, mimarlık ve mühendislik hizmet bedellerinin hesabında kullanılacak yapı yaklaşık birim maliyetlerini ve proje ve kontrollük işlerinde uygulanacak fiyat artış oranlarını tespit etmek ve yayımlamak,\nf) Bakanlığın görev alanı ile ilgili olarak yurt içinde ve yurt dışında meydana gelen teknik gelişmeleri izlemek, değerlendirmek ve bunlardan faydalı görülenler hakkında teklifte bulunmak,\ng) Bakanlık birimleri arasında teknik konularda uygulama birliği ve koordinasyonu sağlamak,\nğ) (Ek:RG-10/6/2020-31151-CK-64/5 md.) Sözleşme uygulamaları ile ilgili eğitim vermek, ulusal ve uluslararası koordinasyonu sağlamak,\nh) (Ek:RG-10/6/2020-31151-CK-64/5 md.) Yapım işlerinde kullanılacak yerli malzemeleri ve üreticilerini destekleyici tedbirleri almak,\nı) Bakan tarafından verilen diğeri görevleri yapmak.\n(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.\n(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.\n(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.\n(5) Yüksek Fen Kurulu Başkanlığının çalışma usul ve esasları yönetmelikle belirlenir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1451,
+          "text": "MADDE 112 – (1) Yüksek Fen Kurulu Başkanlığının görev ve yetkileri şunlardır: [68]",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1451]"
+        },
+        {
+          "htmlParagraphIndex": 1452,
+          "text": "a) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununun ek 1 inci maddesi ile verilen görev ve yetkileri yerine getirmek,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1452]"
+        },
+        {
+          "htmlParagraphIndex": 1453,
+          "text": "b) Çevre ve imar mevzuatının yürütülmesinden doğan anlaşmazlıkları ilgili idarelerin talebine istinaden inceleyip karara bağlamak,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1453]"
+        },
+        {
+          "htmlParagraphIndex": 1454,
+          "text": "c) Teknik veya fiziki yönden birbirini etkileyen plan ve yapım işleri ile ilgili olarak, kamu kurum ve kuruluşları arasında doğan anlaşmazlıkları, taraf olan idarelerin birlikte talep etmeleri halinde inceleyip karara bağlamak,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1454]"
+        },
+        {
+          "htmlParagraphIndex": 1455,
+          "text": "ç) Plan, çevre, yapım ve yapımla ilgili hizmet işlerine ilişkin konularda kamu kurum ve kuruluşları ile yapı kooperatiflerine görüş vermek,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1455]"
+        },
+        {
+          "htmlParagraphIndex": 1456,
+          "text": "d) Bayındırlık ve iskân işleri ile ilgili şartname, tip sözleşme, yıllık rayiç, birim fiyat, birim fiyatlara ait analiz ve tarifleri hazırlamak, yayımlamak ve gerekli görülen hallerde yayımlanan rayiç ve birim fiyatları güncellemek, [69]",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1456]"
+        },
+        {
+          "htmlParagraphIndex": 1457,
+          "text": "e) Yapı, tesis ve onarım işleri ihalelerinde kullanılan müteahhitlik karneleri ve iş bitirme belgelerinin yıllara ait değerlendirme katsayılarını, mimarlık ve mühendislik hizmet bedellerinin hesabında kullanılacak yapı yaklaşık birim maliyetlerini ve proje ve kontrollük işlerinde uygulanacak fiyat artış oranlarını tespit etmek ve yayımlamak,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1457]"
+        },
+        {
+          "htmlParagraphIndex": 1458,
+          "text": "f) Bakanlığın görev alanı ile ilgili olarak yurt içinde ve yurt dışında meydana gelen teknik gelişmeleri izlemek, değerlendirmek ve bunlardan faydalı görülenler hakkında teklifte bulunmak,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1458]"
+        },
+        {
+          "htmlParagraphIndex": 1459,
+          "text": "g) Bakanlık birimleri arasında teknik konularda uygulama birliği ve koordinasyonu sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1459]"
+        },
+        {
+          "htmlParagraphIndex": 1460,
+          "text": "ğ) (Ek:RG-10/6/2020-31151-CK-64/5 md.) Sözleşme uygulamaları ile ilgili eğitim vermek, ulusal ve uluslararası koordinasyonu sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1460]"
+        },
+        {
+          "htmlParagraphIndex": 1461,
+          "text": "h) (Ek:RG-10/6/2020-31151-CK-64/5 md.) Yapım işlerinde kullanılacak yerli malzemeleri ve üreticilerini destekleyici tedbirleri almak,",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1461]"
+        },
+        {
+          "htmlParagraphIndex": 1462,
+          "text": "ı) Bakan tarafından verilen diğeri görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1462]"
+        },
+        {
+          "htmlParagraphIndex": 1463,
+          "text": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]"
+        },
+        {
+          "htmlParagraphIndex": 1464,
+          "text": "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1464]"
+        },
+        {
+          "htmlParagraphIndex": 1465,
+          "text": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]"
+        },
+        {
+          "htmlParagraphIndex": 1466,
+          "text": "(5) Yüksek Fen Kurulu Başkanlığının çalışma usul ve esasları yönetmelikle belirlenir.",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1466]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-113",
+      "articleNumber": 113,
+      "articleLabel": "113",
+      "examScope": true,
+      "status": "Repealed",
+      "text": "MADDE 113 – (Mülga:RG-10/1/2019-30651-CK-27/30 md.)",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1469,
+          "text": "MADDE 113 – (Mülga:RG-10/1/2019-30651-CK-27/30 md.)",
+          "sourceLocator": "1 sayılı CBK m.113; resmî UYAP belge114832; tam HTML p[1469]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-114",
+      "articleNumber": 114,
+      "articleLabel": "114",
+      "examScope": true,
+      "status": "Repealed",
+      "text": "MADDE 114 – (Mülga:RG-10/1/2019-30651-CK-27/30 md.)",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1472,
+          "text": "MADDE 114 – (Mülga:RG-10/1/2019-30651-CK-27/30 md.)",
+          "sourceLocator": "1 sayılı CBK m.114; resmî UYAP belge114832; tam HTML p[1472]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-115",
+      "articleNumber": 115,
+      "articleLabel": "115",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 115 – (1) Eğitim ve Yayın Dairesi Başkanlığının görev ve yetkileri şunlardır:\na) Bakanlığın görev alanına giren konularda yazılı, işitsel ve görsel dokümanların basım ve yayımını desteklemek,\nb) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ve özel kuruluşlarla işbirliği yapmak, plan ve programların hazırlanmasında, uygulanmasında ve halkın eğitilmesinde Milli Eğitim Bakanlığı ile bilimsel ve gönüllü kuruluşlarla işbirliği yapmak,\nc) Eğitim amacıyla Bakanlığın görev alanıyla ilgili her türlü bilgi ve belgeyi toplamak, değerlendirmek, yayımlamak, film, slayt, fotoğraf ve benzeri belgeleri hazırlamak, hazırlatmak, arşiv, dokümantasyon ve kütüphane hizmetlerini yürütmek,\nç) Kamu kurum ve kuruluşları ile üniversitelerin faaliyet ve araştırma programlarına Bakanlığın görev alanına giren konuları katmak için ortak çalışmalar yapmak, gerektiğinde ilgili kuruluşlarla işbirliği yapmak, bilgi, belge ve eğiticilerin mübadelesinin sağlanması çalışmalarını yürütmek,\nd) Çevre değerlerini ortaya çıkarmak ve tanıtmak amacıyla gerekli çalışmaları yapmak, çevre eğitimi konusunda uluslararası kuruluşların program, proje ve faaliyetlerini izlemek, uluslararası ve kurumlar arası enformasyon hizmetlerini yerine getirmek,\ne) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ile meslek kuruluşlarına mesleki eğitim vermek veya verdirmek,\nf) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1475,
+          "text": "MADDE 115 – (1) Eğitim ve Yayın Dairesi Başkanlığının görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1475]"
+        },
+        {
+          "htmlParagraphIndex": 1476,
+          "text": "a) Bakanlığın görev alanına giren konularda yazılı, işitsel ve görsel dokümanların basım ve yayımını desteklemek,",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1476]"
+        },
+        {
+          "htmlParagraphIndex": 1477,
+          "text": "b) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ve özel kuruluşlarla işbirliği yapmak, plan ve programların hazırlanmasında, uygulanmasında ve halkın eğitilmesinde Milli Eğitim Bakanlığı ile bilimsel ve gönüllü kuruluşlarla işbirliği yapmak,",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1477]"
+        },
+        {
+          "htmlParagraphIndex": 1478,
+          "text": "c) Eğitim amacıyla Bakanlığın görev alanıyla ilgili her türlü bilgi ve belgeyi toplamak, değerlendirmek, yayımlamak, film, slayt, fotoğraf ve benzeri belgeleri hazırlamak, hazırlatmak, arşiv, dokümantasyon ve kütüphane hizmetlerini yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1478]"
+        },
+        {
+          "htmlParagraphIndex": 1479,
+          "text": "ç) Kamu kurum ve kuruluşları ile üniversitelerin faaliyet ve araştırma programlarına Bakanlığın görev alanına giren konuları katmak için ortak çalışmalar yapmak, gerektiğinde ilgili kuruluşlarla işbirliği yapmak, bilgi, belge ve eğiticilerin mübadelesinin sağlanması çalışmalarını yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1479]"
+        },
+        {
+          "htmlParagraphIndex": 1480,
+          "text": "d) Çevre değerlerini ortaya çıkarmak ve tanıtmak amacıyla gerekli çalışmaları yapmak, çevre eğitimi konusunda uluslararası kuruluşların program, proje ve faaliyetlerini izlemek, uluslararası ve kurumlar arası enformasyon hizmetlerini yerine getirmek,",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1480]"
+        },
+        {
+          "htmlParagraphIndex": 1481,
+          "text": "e) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ile meslek kuruluşlarına mesleki eğitim vermek veya verdirmek,",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1481]"
+        },
+        {
+          "htmlParagraphIndex": 1482,
+          "text": "f) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1482]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-116",
+      "articleNumber": 116,
+      "articleLabel": "116",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 116 – (1) Destek Hizmetleri Dairesi Başkanlığının görev ve yetkileri şunlardır:\na) 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu hükümleri çerçevesinde, kiralama ve satın alma işlerini yürütmek, temizlik, güvenlik, aydınlatma, ısıtma, onarım, taşıma ve benzeri hizmetleri yapmak veya yaptırmak,\nb) Bakanlığın taşınır ve taşınmazlarına ilişkin işlemleri ilgili mevzuat çerçevesinde yürütmek,\nc) Genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek,\nç) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1485,
+          "text": "MADDE 116 – (1) Destek Hizmetleri Dairesi Başkanlığının görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1485]"
+        },
+        {
+          "htmlParagraphIndex": 1486,
+          "text": "a) 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu hükümleri çerçevesinde, kiralama ve satın alma işlerini yürütmek, temizlik, güvenlik, aydınlatma, ısıtma, onarım, taşıma ve benzeri hizmetleri yapmak veya yaptırmak,",
+          "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1486]"
+        },
+        {
+          "htmlParagraphIndex": 1487,
+          "text": "b) Bakanlığın taşınır ve taşınmazlarına ilişkin işlemleri ilgili mevzuat çerçevesinde yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1487]"
+        },
+        {
+          "htmlParagraphIndex": 1488,
+          "text": "c) Genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1488]"
+        },
+        {
+          "htmlParagraphIndex": 1489,
+          "text": "ç) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1489]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-117",
+      "articleNumber": 117,
+      "articleLabel": "117",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 117- (Mülga:RG-10/1/2019-30651-CK-27/30 md.) (Başlığı ile Birlikte Yeniden düzenleme:RG-16/10/2025-33049-CK-189/8 md.)\n(1) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığının görev ve yetkileri şunlardır:\na) Afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâline ilişkin mevzuat kapsamındaki iş ve işlemleri diğer hizmet birimleri ile koordineli olarak yerine getirmek,\nb) Bakanlığın bağlı, ilgili ve ilişkili kurum ve kuruluşlarının afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâli hazırlıklarına ilişkin iş ve işlemlerinin yürütülmesini takip ve koordine etmek,\nc) Afet ve acil durumlara ilişkin olarak Bakanlığı Afet ve Acil Durum Yönetimi Başkanlığı Afet ve Acil Durum Yönetim Merkezinde temsil etmek,\nç) Afet ve acil durumlarda, ilgili mevzuat çerçevesinde Afet ve Acil Durum Yönetimi Başkanlığınca talep edilen imkân ve kabiliyetlerin yönlendirilmesi ile Bakanlığın sorumluluğundaki iş ve işlemlerin yerine getirilmesini sağlamak,\nd) Cumhurbaşkanlığı ile afet ve acil durum yönetim merkezlerine gerekli bilgi akışını sağlamak,\ne) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1492,
+          "text": "MADDE 117- (Mülga:RG-10/1/2019-30651-CK-27/30 md.) (Başlığı ile Birlikte Yeniden düzenleme:RG-16/10/2025-33049-CK-189/8 md.)",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1492]"
+        },
+        {
+          "htmlParagraphIndex": 1493,
+          "text": "(1) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığının görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1493]"
+        },
+        {
+          "htmlParagraphIndex": 1494,
+          "text": "a) Afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâline ilişkin mevzuat kapsamındaki iş ve işlemleri diğer hizmet birimleri ile koordineli olarak yerine getirmek,",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1494]"
+        },
+        {
+          "htmlParagraphIndex": 1495,
+          "text": "b) Bakanlığın bağlı, ilgili ve ilişkili kurum ve kuruluşlarının afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâli hazırlıklarına ilişkin iş ve işlemlerinin yürütülmesini takip ve koordine etmek,",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1495]"
+        },
+        {
+          "htmlParagraphIndex": 1496,
+          "text": "c) Afet ve acil durumlara ilişkin olarak Bakanlığı Afet ve Acil Durum Yönetimi Başkanlığı Afet ve Acil Durum Yönetim Merkezinde temsil etmek,",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1496]"
+        },
+        {
+          "htmlParagraphIndex": 1497,
+          "text": "ç) Afet ve acil durumlarda, ilgili mevzuat çerçevesinde Afet ve Acil Durum Yönetimi Başkanlığınca talep edilen imkân ve kabiliyetlerin yönlendirilmesi ile Bakanlığın sorumluluğundaki iş ve işlemlerin yerine getirilmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1497]"
+        },
+        {
+          "htmlParagraphIndex": 1498,
+          "text": "d) Cumhurbaşkanlığı ile afet ve acil durum yönetim merkezlerine gerekli bilgi akışını sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1498]"
+        },
+        {
+          "htmlParagraphIndex": 1499,
+          "text": "e) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1499]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-118",
+      "articleNumber": 118,
+      "articleLabel": "118",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 118 – (1) Basın ve Halkla İlişkiler Müşavirliğinin görev ve yetkileri şunlardır:\na) Bakanlığın basın ve halkla ilişkilerle ilgili faaliyetlerini planlamak ve bu faaliyetlerin belirlenecek usul ve ilkelere göre yürütülmesini sağlamak,\nb) 4982 sayılı Bilgi Edinme Hakkı Kanununa göre yapılacak bilgi edinme başvurularını etkin, süratli ve doğru bir şekilde sonuçlandırmak üzere gerekli tedbirleri almak,\nc) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1502,
+          "text": "MADDE 118 – (1) Basın ve Halkla İlişkiler Müşavirliğinin görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.118; resmî UYAP belge114832; tam HTML p[1502]"
+        },
+        {
+          "htmlParagraphIndex": 1503,
+          "text": "a) Bakanlığın basın ve halkla ilişkilerle ilgili faaliyetlerini planlamak ve bu faaliyetlerin belirlenecek usul ve ilkelere göre yürütülmesini sağlamak,",
+          "sourceLocator": "1 sayılı CBK m.118; resmî UYAP belge114832; tam HTML p[1503]"
+        },
+        {
+          "htmlParagraphIndex": 1504,
+          "text": "b) 4982 sayılı Bilgi Edinme Hakkı Kanununa göre yapılacak bilgi edinme başvurularını etkin, süratli ve doğru bir şekilde sonuçlandırmak üzere gerekli tedbirleri almak,",
+          "sourceLocator": "1 sayılı CBK m.118; resmî UYAP belge114832; tam HTML p[1504]"
+        },
+        {
+          "htmlParagraphIndex": 1505,
+          "text": "c) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.118; resmî UYAP belge114832; tam HTML p[1505]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-119",
+      "articleNumber": 119,
+      "articleLabel": "119",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 119 – (1) Özel Kalem Müdürlüğünün görev ve yetkileri şunlardır:\na) Bakanın resmi ve özel yazışmalarını yürütmek,\nb) Bakanın her türlü protokol ve tören işlerini düzenlemek ve yürütmek,\nc) Bakanın ziyaret, davet, karşılama ve uğurlama, ağırlama, milli ve dini bayramlarla ilgili hizmetlerini düzenlemek, yürütmek ve diğer kuruluşlarla koordine etmek,\nç) Bakan tarafından verilen diğer görevleri yapmak.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1508,
+          "text": "MADDE 119 – (1) Özel Kalem Müdürlüğünün görev ve yetkileri şunlardır:",
+          "sourceLocator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1508]"
+        },
+        {
+          "htmlParagraphIndex": 1509,
+          "text": "a) Bakanın resmi ve özel yazışmalarını yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1509]"
+        },
+        {
+          "htmlParagraphIndex": 1510,
+          "text": "b) Bakanın her türlü protokol ve tören işlerini düzenlemek ve yürütmek,",
+          "sourceLocator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1510]"
+        },
+        {
+          "htmlParagraphIndex": 1511,
+          "text": "c) Bakanın ziyaret, davet, karşılama ve uğurlama, ağırlama, milli ve dini bayramlarla ilgili hizmetlerini düzenlemek, yürütmek ve diğer kuruluşlarla koordine etmek,",
+          "sourceLocator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1511]"
+        },
+        {
+          "htmlParagraphIndex": 1512,
+          "text": "ç) Bakan tarafından verilen diğer görevleri yapmak.",
+          "sourceLocator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1512]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-120",
+      "articleNumber": 120,
+      "articleLabel": "120",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 120 – (1) Bakanlık taşra teşkilatı kurmaya yetkilidir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1514,
+          "text": "MADDE 120 – (1) Bakanlık taşra teşkilatı kurmaya yetkilidir.",
+          "sourceLocator": "1 sayılı CBK m.120; resmî UYAP belge114832; tam HTML p[1514]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-120A",
+      "articleNumber": 120,
+      "articleLabel": "120/A",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 120/A- (Ek:RG-10/1/2019-30651-CK-27/31 md.)\n(1) Bakanlık yurtdışı teşkilatı kurmaya yetkilidir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1517,
+          "text": "MADDE 120/A- (Ek:RG-10/1/2019-30651-CK-27/31 md.)",
+          "sourceLocator": "1 sayılı CBK m.120/A; resmî UYAP belge114832; tam HTML p[1517]"
+        },
+        {
+          "htmlParagraphIndex": 1518,
+          "text": "(1) Bakanlık yurtdışı teşkilatı kurmaya yetkilidir.",
+          "sourceLocator": "1 sayılı CBK m.120/A; resmî UYAP belge114832; tam HTML p[1518]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-121",
+      "articleNumber": 121,
+      "articleLabel": "121",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 121 – (1) Bakanlık, görev alanına giren konularla ilgili olarak çalışmalarda bulunmak üzere diğer bakanlıklar, kamu kurum ve kuruluşları, meslek odaları, sivil toplum kuruluşları, özel sektör temsilcileri ve konu ile ilgili uzmanların katılımı ile çalışma grupları oluşturabilir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1521,
+          "text": "MADDE 121 – (1) Bakanlık, görev alanına giren konularla ilgili olarak çalışmalarda bulunmak üzere diğer bakanlıklar, kamu kurum ve kuruluşları, meslek odaları, sivil toplum kuruluşları, özel sektör temsilcileri ve konu ile ilgili uzmanların katılımı ile çalışma grupları oluşturabilir.",
+          "sourceLocator": "1 sayılı CBK m.121; resmî UYAP belge114832; tam HTML p[1521]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-122",
+      "articleNumber": 122,
+      "articleLabel": "122",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 122 – (1) Bakanlık döner sermaye kurmaya yetkilidir. Döner sermaye miktarı, Cumhurbaşkanlığınca belirlenir.\n(2) İşletmelerin görevleri, gelirleri, işleyişi ve denetimi ile diğer hususlar yönetmelikle düzenlenir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1524,
+          "text": "MADDE 122 – (1) Bakanlık döner sermaye kurmaya yetkilidir. Döner sermaye miktarı, Cumhurbaşkanlığınca belirlenir.",
+          "sourceLocator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1524]"
+        },
+        {
+          "htmlParagraphIndex": 1525,
+          "text": "(2) İşletmelerin görevleri, gelirleri, işleyişi ve denetimi ile diğer hususlar yönetmelikle düzenlenir.",
+          "sourceLocator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1525]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-123",
+      "articleNumber": 123,
+      "articleLabel": "123",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1528,
+          "text": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+          "sourceLocator": "1 sayılı CBK m.123; resmî UYAP belge114832; tam HTML p[1528]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-124",
+      "articleNumber": 124,
+      "articleLabel": "124",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 124 - (1) Kadroların tespiti, ihdası, kullanımı ve iptali ile kadrolara ilişkin diğer hususlar, Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümlerine göre düzenlenir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1531,
+          "text": "MADDE 124 - (1) Kadroların tespiti, ihdası, kullanımı ve iptali ile kadrolara ilişkin diğer hususlar, Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümlerine göre düzenlenir.",
+          "sourceLocator": "1 sayılı CBK m.124; resmî UYAP belge114832; tam HTML p[1531]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-125",
+      "articleNumber": 125,
+      "articleLabel": "125",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 125 – (1) Bakanlık, görev alanına giren konularda çalıştırılmak üzere 657 sayılı Kanunun ek 41 inci maddesine göre Çevre ve Şehircilik Uzmanı ile Çevre ve Şehircilik Uzman Yardımcısı, 657 sayılı Kanunun ek 44 üncü maddesine göre Milli Emlak Uzmanı ve Milli Emlak Uzman Yardımcısı istihdam edebilir.\n(2) (Değişik:RG-10/6/2020-31151-CK-64/6 md.) Bakanlık taşra teşkilatında milli emlak iş ve işlemleri ile ilgili olarak teftiş, denetim, inceleme ve soruşturma yapmakla görevlendirilmek üzere 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Milli Emlak Denetmeni ve Milli Emlak Denetmen Yardımcısı istihdam edilebilir.\n(3) (Ek:RG-10/6/2020-31151-CK-64/6 md.) (Mülga:RG-4/10/2024-32682-C.K.-164/2 md.)",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1534,
+          "text": "MADDE 125 – (1) Bakanlık, görev alanına giren konularda çalıştırılmak üzere 657 sayılı Kanunun ek 41 inci maddesine göre Çevre ve Şehircilik Uzmanı ile Çevre ve Şehircilik Uzman Yardımcısı, 657 sayılı Kanunun ek 44 üncü maddesine göre Milli Emlak Uzmanı ve Milli Emlak Uzman Yardımcısı istihdam edebilir.",
+          "sourceLocator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1534]"
+        },
+        {
+          "htmlParagraphIndex": 1535,
+          "text": "(2) (Değişik:RG-10/6/2020-31151-CK-64/6 md.) Bakanlık taşra teşkilatında milli emlak iş ve işlemleri ile ilgili olarak teftiş, denetim, inceleme ve soruşturma yapmakla görevlendirilmek üzere 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Milli Emlak Denetmeni ve Milli Emlak Denetmen Yardımcısı istihdam edilebilir.",
+          "sourceLocator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1535]"
+        },
+        {
+          "htmlParagraphIndex": 1536,
+          "text": "(3) (Ek:RG-10/6/2020-31151-CK-64/6 md.) (Mülga:RG-4/10/2024-32682-C.K.-164/2 md.)",
+          "sourceLocator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1536]"
+        }
+      ]
+    },
+    {
+      "legalProvisionId": "LP-CBK1-126",
+      "articleNumber": 126,
+      "articleLabel": "126",
+      "examScope": true,
+      "status": "CurrentObserved",
+      "text": "MADDE 126 - (1) Bakanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 26 ncı maddesi uyarınca yerli veya yabancı personel istihdam edilebilir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1539,
+          "text": "MADDE 126 - (1) Bakanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 26 ncı maddesi uyarınca yerli veya yabancı personel istihdam edilebilir.",
+          "sourceLocator": "1 sayılı CBK m.126; resmî UYAP belge114832; tam HTML p[1539]"
+        }
+      ]
+    }
+  ]
+}

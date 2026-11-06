@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-06T14:21:36.730145+00:00",
+  "checks": 1834,
+  "errors": [],
+  "result": "Pass",
+  "scope": "Deterministic artifact, quotation, schema and exact/ID uniqueness checks only; not independent legal/semantic approval.",
+  "sourceArticles": 117,
+  "candidateQuestions": 82,
+  "approvedByThisCheck": 0,
+  "extensionQuestionStatus": "ValidationPending",
+  "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "candidateFileSHA256": "38ec0a34fe8f05f15e43ee4d2e5abbf4cd0294dec5eaa870f2923862f5209603",
+  "candidateRulesSHA256": "687fc2a39c135f71bb4253a97d2c44b055cdd6a2d881fa8760a11bd3dd01ebe2",
+  "extensionDifficulty": {
+    "basic": 20,
+    "medium": 30,
+    "application": 17,
+    "hard": 15
+  },
+  "combinedDifficulty": {
+    "basic": 25,
+    "medium": 36,
+    "application": 20,
+    "hard": 19
+  },
+  "combinedScenarioCount": 22
+}

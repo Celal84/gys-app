@@ -1,0 +1,2003 @@
+{
+  "schemaVersion": 1,
+  "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "publicProvisionFile": "data/public-legal-sources/657-extension-provisions.json",
+  "publicProvisionFileSHA256": "6525ffa5bf9d6ae9e90bde1de79e292fe9027a75b2bca0af458167551214f15d",
+  "retrievedAt": "2026-11-06T14:04:59.185627+00:00",
+  "authentication": "Public official endpoint; no credentials",
+  "fullDocumentContentVersion": 503,
+  "fullDocumentRawResponseSHA256": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+  "artifacts": [
+    {
+      "articleNumber": 4,
+      "legalProvisionId": "LP-657-4",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/4-90d34c048de7059d3c76ff1da2de27a95b93edd2d633bf572a5e45d3fa02ad88.html",
+      "sha256": "90d34c048de7059d3c76ff1da2de27a95b93edd2d633bf572a5e45d3fa02ad88",
+      "byteLength": 21532,
+      "rawResponseSHA256": "2d1768904adab293ad026a888c16ad8bad8da57b82029ef2d6bba89c662df7a6",
+      "retrievedAt": "2026-11-06T14:04:49.325367+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653313"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 6,
+      "legalProvisionId": "LP-657-6",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/6-ed6ea7d1b5048af736c6bf857787a5dea61848951c909a1fc843ced82ed91f0f.html",
+      "sha256": "ed6ea7d1b5048af736c6bf857787a5dea61848951c909a1fc843ced82ed91f0f",
+      "byteLength": 2037,
+      "rawResponseSHA256": "553335f509bdbd681ebe4c06ec1ac5e4b26718b08076037a82c209a207dc4e54",
+      "retrievedAt": "2026-11-06T14:04:49.326410+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653321"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 7,
+      "legalProvisionId": "LP-657-7",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/7-f971b06eccd6ba2a3e812416c873a0c45f960143f1a55d65205391bab44f1b76.html",
+      "sha256": "f971b06eccd6ba2a3e812416c873a0c45f960143f1a55d65205391bab44f1b76",
+      "byteLength": 1669,
+      "rawResponseSHA256": "03196abc16ed84a2d71b2a2d1f3401f99316fd6a97eb2fcd0701324d78652409",
+      "retrievedAt": "2026-11-06T14:04:49.327034+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653324"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 8,
+      "legalProvisionId": "LP-657-8",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/8-4ff2c29a637b24b73057b6861b2fa3f74446b23ae771b4f351cc3284eae0b9fc.html",
+      "sha256": "4ff2c29a637b24b73057b6861b2fa3f74446b23ae771b4f351cc3284eae0b9fc",
+      "byteLength": 948,
+      "rawResponseSHA256": "a4b2f042c3152ba9f7dbc7f1aeb3572df2fed5f6b24dd9495132ccc0200f797a",
+      "retrievedAt": "2026-11-06T14:04:49.327938+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653327"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 9,
+      "legalProvisionId": "LP-657-9",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/9-1f42814e624c1bba97d909edb09e911a5950334e07cff8875cd9fedd3df500b0.html",
+      "sha256": "1f42814e624c1bba97d909edb09e911a5950334e07cff8875cd9fedd3df500b0",
+      "byteLength": 769,
+      "rawResponseSHA256": "c63c0219c3531cb61f6cd94184bfd81eb97db27cb063a3a46a5b704c077efa07",
+      "retrievedAt": "2026-11-06T14:04:49.328463+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653330"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 10,
+      "legalProvisionId": "LP-657-10",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/10-3f950357793249306e70e2efff630da0f240eb3ac93fe507466df39c0a5fd1eb.html",
+      "sha256": "3f950357793249306e70e2efff630da0f240eb3ac93fe507466df39c0a5fd1eb",
+      "byteLength": 3446,
+      "rawResponseSHA256": "e39088d49bd220f7d23db02c3b0b9db3eca3934c0c74d14a64caa6066481b67a",
+      "retrievedAt": "2026-11-06T14:04:49.329375+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653333"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 11,
+      "legalProvisionId": "LP-657-11",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/11-61ceb947d28ba909b1e8fbe1bb0537d70310a048f603e8ed7cf19dd4b5b254ae.html",
+      "sha256": "61ceb947d28ba909b1e8fbe1bb0537d70310a048f603e8ed7cf19dd4b5b254ae",
+      "byteLength": 3368,
+      "rawResponseSHA256": "5ec38c1e3d41abb1cd7c3396f7eb322a7f25a3ecd59c13771976fcfe01833db5",
+      "retrievedAt": "2026-11-06T14:04:49.330991+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653335"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 12,
+      "legalProvisionId": "LP-657-12",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/12-bc0684e1ad6a6e880a70d9d801ef1d06e4273b8f27f181a04eb8aba99c1ff0d6.html",
+      "sha256": "bc0684e1ad6a6e880a70d9d801ef1d06e4273b8f27f181a04eb8aba99c1ff0d6",
+      "byteLength": 1683,
+      "rawResponseSHA256": "2e93a6aa2f2dfa122b737c22f8d1acff6d176a66e52c13ad7d5a0e522e8a80e0",
+      "retrievedAt": "2026-11-06T14:04:50.377299+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653338"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 13,
+      "legalProvisionId": "LP-657-13",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/13-12422524fe84629660d3c3008fbc191360be6ab9a2d60fd649be8500af388776.html",
+      "sha256": "12422524fe84629660d3c3008fbc191360be6ab9a2d60fd649be8500af388776",
+      "byteLength": 2608,
+      "rawResponseSHA256": "53a4cdcad30ab85b265264ef6671657f2e03a3a1d813e3a77f2c484c91694edc",
+      "retrievedAt": "2026-11-06T14:04:50.461018+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653341"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 14,
+      "legalProvisionId": "LP-657-14",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/14-b2756bed89d3bd387058c59030494506d36904a9f65e1b8bbb2d33e2d34c7a1d.html",
+      "sha256": "b2756bed89d3bd387058c59030494506d36904a9f65e1b8bbb2d33e2d34c7a1d",
+      "byteLength": 756,
+      "rawResponseSHA256": "2b8240ed2b502d6d78cb627ef28a5f4977c523ad08fad030ecce07807932a3ff",
+      "retrievedAt": "2026-11-06T14:04:50.845402+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653344"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 15,
+      "legalProvisionId": "LP-657-15",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/15-dec3178850496cc1361723648840a35b360cdd96df9f5ae319317fc439fad318.html",
+      "sha256": "dec3178850496cc1361723648840a35b360cdd96df9f5ae319317fc439fad318",
+      "byteLength": 2233,
+      "rawResponseSHA256": "995a987d797f6adc0e1deb4c650a086c3462ee00ca7a3449a1f17a8f8b20dae1",
+      "retrievedAt": "2026-11-06T14:04:50.847619+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653347"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 16,
+      "legalProvisionId": "LP-657-16",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/16-5f218cfa616ea3bd8ba9615abd006e33abf226d595283fee014c352864d7c071.html",
+      "sha256": "5f218cfa616ea3bd8ba9615abd006e33abf226d595283fee014c352864d7c071",
+      "byteLength": 1299,
+      "rawResponseSHA256": "31cbad31c9959ecbee0618f24e41d79645d76ed54afc40864bc9b7fc0fdfc483",
+      "retrievedAt": "2026-11-06T14:04:51.120573+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653350"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 18,
+      "legalProvisionId": "LP-657-18",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/18-6c7e960ffa73a4251d54213684de1f6bbd6edcbf28295d5006f9fb65c4749a66.html",
+      "sha256": "6c7e960ffa73a4251d54213684de1f6bbd6edcbf28295d5006f9fb65c4749a66",
+      "byteLength": 658,
+      "rawResponseSHA256": "1d59a8180ac9f713bdc6357f564f89b817385e89a1d3e5a3e847b420e3a31a21",
+      "retrievedAt": "2026-11-06T14:04:51.132983+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653359"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 19,
+      "legalProvisionId": "LP-657-19",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/19-f94985418e0d6780f2ced414698c247cd2c4d5cea6b1c631ed8ba021dd10dc68.html",
+      "sha256": "f94985418e0d6780f2ced414698c247cd2c4d5cea6b1c631ed8ba021dd10dc68",
+      "byteLength": 633,
+      "rawResponseSHA256": "05053aeacc608899b6e4f6590c03105641093bff82060ed8eecf3bd7dfffb573",
+      "retrievedAt": "2026-11-06T14:04:51.232351+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653362"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 20,
+      "legalProvisionId": "LP-657-20",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/20-647f08a5f1c17d5e7c0c434572b705a3e90609a8e749a57fc39358c7df59f683.html",
+      "sha256": "647f08a5f1c17d5e7c0c434572b705a3e90609a8e749a57fc39358c7df59f683",
+      "byteLength": 615,
+      "rawResponseSHA256": "ae9f7d553ebdbc1244a6fb116758ecdae55e947b4c24e70737295b6f7f04c58b",
+      "retrievedAt": "2026-11-06T14:04:51.397296+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653365"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 21,
+      "legalProvisionId": "LP-657-21",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/21-d125128e71688ab81b6da2f17c2ef59ed028994336240a2626e6ce1b13ec804f.html",
+      "sha256": "d125128e71688ab81b6da2f17c2ef59ed028994336240a2626e6ce1b13ec804f",
+      "byteLength": 1981,
+      "rawResponseSHA256": "e09132ad1688b117205799492b2b82f9c92eb44cf9edf77610301ef1583f312e",
+      "retrievedAt": "2026-11-06T14:04:51.491276+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653368"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 22,
+      "legalProvisionId": "LP-657-22",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/22-d2d3d552d7415a12c21621dc90f37ca3ec9c2d0fc3423a1491199b213d9624d1.html",
+      "sha256": "d2d3d552d7415a12c21621dc90f37ca3ec9c2d0fc3423a1491199b213d9624d1",
+      "byteLength": 824,
+      "rawResponseSHA256": "c66e7485f35f781c23e56fc9615cbc744bef5c37640e129914ba90127bc8cef6",
+      "retrievedAt": "2026-11-06T14:04:51.534425+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653373"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 23,
+      "legalProvisionId": "LP-657-23",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/23-6bd943f03d9a8045289c39f19c4c8852b5d6642dc3d6af8d26eabad5a21a6fd8.html",
+      "sha256": "6bd943f03d9a8045289c39f19c4c8852b5d6642dc3d6af8d26eabad5a21a6fd8",
+      "byteLength": 615,
+      "rawResponseSHA256": "3f7bcbbdf23a385556b4aecc1e2e7ebcb34a23b5961a63d21b3c8ac2cef953e7",
+      "retrievedAt": "2026-11-06T14:04:51.754242+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653376"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 24,
+      "legalProvisionId": "LP-657-24",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/24-5045312eef15bb6d869961f757a5770f1f8ab6d27f69062f677e5f3a0093d2c7.html",
+      "sha256": "5045312eef15bb6d869961f757a5770f1f8ab6d27f69062f677e5f3a0093d2c7",
+      "byteLength": 749,
+      "rawResponseSHA256": "191fcc2e921d354a8a38eae4a16181c003215601f4abb64fe312f3b7eed68c65",
+      "retrievedAt": "2026-11-06T14:04:51.766439+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653378"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 25,
+      "legalProvisionId": "LP-657-25",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/25-95131c12fe3c9ee0786c1695bbc3fdafd41f60610b39ac79fd087e12071d8633.html",
+      "sha256": "95131c12fe3c9ee0786c1695bbc3fdafd41f60610b39ac79fd087e12071d8633",
+      "byteLength": 954,
+      "rawResponseSHA256": "906b98d167ac29e19e361c042c4b2124db37244d34d8ee049b7fb22a56f1275c",
+      "retrievedAt": "2026-11-06T14:04:52.041759+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653381"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 26,
+      "legalProvisionId": "LP-657-26",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/26-070a3cff48379cd478b94d528f79a5733a98c8ce493df91b525145bf7ce91e41.html",
+      "sha256": "070a3cff48379cd478b94d528f79a5733a98c8ce493df91b525145bf7ce91e41",
+      "byteLength": 1239,
+      "rawResponseSHA256": "29d341606ec5bcaea0943b6bb28ab0ab180e3dbbf06f2d96a8200392ce82f4ea",
+      "retrievedAt": "2026-11-06T14:04:52.222189+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653387"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 27,
+      "legalProvisionId": "LP-657-27",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/27-dd1d97f2be8f4231ae1cb20360f7fd5fefdd9620d6b0ec82d3edba15ef707e82.html",
+      "sha256": "dd1d97f2be8f4231ae1cb20360f7fd5fefdd9620d6b0ec82d3edba15ef707e82",
+      "byteLength": 941,
+      "rawResponseSHA256": "89acfbd4c8968fe91b01d8f2d00381a3db2c64cb55a1a1d014a659efdf5aa52c",
+      "retrievedAt": "2026-11-06T14:04:52.434989+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653390"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 28,
+      "legalProvisionId": "LP-657-28",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/28-30b134e9bb49b1cc3a84406f30655dcd5dd28c70abd390b468d4acc3a2b2d6ff.html",
+      "sha256": "30b134e9bb49b1cc3a84406f30655dcd5dd28c70abd390b468d4acc3a2b2d6ff",
+      "byteLength": 3351,
+      "rawResponseSHA256": "a5a025131ed3cde2472f0d43b66085d0350950e3e7e7ffeeb7e11998ed96416a",
+      "retrievedAt": "2026-11-06T14:04:52.592758+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653393"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 29,
+      "legalProvisionId": "LP-657-29",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/29-8e09999a0dd59169709e7360ebea1a3a5a8bad947fc094d11d64b3be9be01ca9.html",
+      "sha256": "8e09999a0dd59169709e7360ebea1a3a5a8bad947fc094d11d64b3be9be01ca9",
+      "byteLength": 1207,
+      "rawResponseSHA256": "7527b37b01176cd650b58d55c5c39c1ff62092da34a372118895b8a8061cd535",
+      "retrievedAt": "2026-11-06T14:04:52.610812+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653396"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 30,
+      "legalProvisionId": "LP-657-30",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/30-eb29674caec1bd13b8247a6f1478fd84a2a0a339eb629cbf2bed5a58061f2b41.html",
+      "sha256": "eb29674caec1bd13b8247a6f1478fd84a2a0a339eb629cbf2bed5a58061f2b41",
+      "byteLength": 804,
+      "rawResponseSHA256": "f63925bbd43d15d2f1218d0f9da9233713412ec944e6d02ec3fca3038fd088c7",
+      "retrievedAt": "2026-11-06T14:04:52.712425+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653399"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 31,
+      "legalProvisionId": "LP-657-31",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/31-c74e913b0b40c788d4bd9223465d68011383d7bf928b3fc999c471d458ad9b5b.html",
+      "sha256": "c74e913b0b40c788d4bd9223465d68011383d7bf928b3fc999c471d458ad9b5b",
+      "byteLength": 831,
+      "rawResponseSHA256": "63e0dfab60bb2f55738682cc368ad32006a5e54a548219e10ac0730439ac642f",
+      "retrievedAt": "2026-11-06T14:04:52.790508+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653402"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 36,
+      "legalProvisionId": "LP-657-36",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/36-2e7209543d543c1737424f9e2564743fb04bb54f4b3190f255b52adc3d6ad4e7.html",
+      "sha256": "2e7209543d543c1737424f9e2564743fb04bb54f4b3190f255b52adc3d6ad4e7",
+      "byteLength": 127071,
+      "rawResponseSHA256": "0d4dec8cbba63e9e00a50c6eb9716ccd3eeca80cf3a6f6d0253fa1fd4c26a377",
+      "retrievedAt": "2026-11-06T14:04:52.982638+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653419"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 48,
+      "legalProvisionId": "LP-657-48",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/48-7980f13d513c2c7d904fd248447f4add507f67cdfb5132b2cc3d2eb832a8c783.html",
+      "sha256": "7980f13d513c2c7d904fd248447f4add507f67cdfb5132b2cc3d2eb832a8c783",
+      "byteLength": 6602,
+      "rawResponseSHA256": "0c7a439c39cfdb03bb1e7d52df630e2f4fbede9ad6eb604b454e68b33fdd9f81",
+      "retrievedAt": "2026-11-06T14:04:53.047946+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653464"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 50,
+      "legalProvisionId": "LP-657-50",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/50-b646f2c8a147a476d0bef0b7e0667b75f93c500d71099c4133478a635ac2b905.html",
+      "sha256": "b646f2c8a147a476d0bef0b7e0667b75f93c500d71099c4133478a635ac2b905",
+      "byteLength": 1282,
+      "rawResponseSHA256": "6f9dfb81fa4ecf917a11f8fd1872640c439d312a40f4b8b772e1b844695a6a8d",
+      "retrievedAt": "2026-11-06T14:04:53.089076+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653471"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 55,
+      "legalProvisionId": "LP-657-55",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/55-68046921d8c033e1cd88b771b2b201324fab0bbe402a96e8848c35a2a4ee96ec.html",
+      "sha256": "68046921d8c033e1cd88b771b2b201324fab0bbe402a96e8848c35a2a4ee96ec",
+      "byteLength": 1998,
+      "rawResponseSHA256": "2503974010a81d60295c424b7980a4cada1f7b477e8406b4f21ee48432b930ba",
+      "retrievedAt": "2026-11-06T14:04:53.136055+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653487"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 56,
+      "legalProvisionId": "LP-657-56",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/56-0503fc1eea376aadfd95975bb8439109fffc01ca8e71cb93e2fb4842eba6f7ae.html",
+      "sha256": "0503fc1eea376aadfd95975bb8439109fffc01ca8e71cb93e2fb4842eba6f7ae",
+      "byteLength": 1488,
+      "rawResponseSHA256": "1acecff354f25113f062dc8a1d0a3392a40bccab52fc5b3a9cedbc5191d29211",
+      "retrievedAt": "2026-11-06T14:04:53.141164+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653489"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 57,
+      "legalProvisionId": "LP-657-57",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/57-9b7b1f7962ae33387907bd0dc57853492e1a9a78b3d0007bcc95d5da5638b88c.html",
+      "sha256": "9b7b1f7962ae33387907bd0dc57853492e1a9a78b3d0007bcc95d5da5638b88c",
+      "byteLength": 495,
+      "rawResponseSHA256": "986826f755b9b7ba8af9c4062d695bda36308aee8a4381453f693abc3c5d6089",
+      "retrievedAt": "2026-11-06T14:04:53.270867+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653492"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 58,
+      "legalProvisionId": "LP-657-58",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/58-ea2627877470d62ace7de5ba2dbe1280473231bfbd07508c150e9684a6b372d1.html",
+      "sha256": "ea2627877470d62ace7de5ba2dbe1280473231bfbd07508c150e9684a6b372d1",
+      "byteLength": 1819,
+      "rawResponseSHA256": "e9cd9ea68dde3fb93316076f4b245f453983a515110faf3ad65125b63f96fb26",
+      "retrievedAt": "2026-11-06T14:04:53.506210+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653500"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 59,
+      "legalProvisionId": "LP-657-59",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/59-1b40b1e9ae01de0c3dc35a26f13870b576987481b4447137e5110439899d219d.html",
+      "sha256": "1b40b1e9ae01de0c3dc35a26f13870b576987481b4447137e5110439899d219d",
+      "byteLength": 12802,
+      "rawResponseSHA256": "61657c82be8b6aab2d9bb9811f976096b31587b5dd562f459c27d2c7c9d75940",
+      "retrievedAt": "2026-11-06T14:04:53.511715+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653503"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 62,
+      "legalProvisionId": "LP-657-62",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/62-5ef5b2c79072d5b92f9eb57be38d8879ff6ffdbf22a5f0ad63b7ea56978000f4.html",
+      "sha256": "5ef5b2c79072d5b92f9eb57be38d8879ff6ffdbf22a5f0ad63b7ea56978000f4",
+      "byteLength": 4128,
+      "rawResponseSHA256": "b83438db2454eaaa7fa5223d4e132cf3c6cfe89e965c813fd310ebbd331cd231",
+      "retrievedAt": "2026-11-06T14:04:53.521673+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653512"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 63,
+      "legalProvisionId": "LP-657-63",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/63-aa90e0fe670bcc8d5bb38ca3b955d2cf3dd1d506c90b2cc1b38fc04d02830f71.html",
+      "sha256": "aa90e0fe670bcc8d5bb38ca3b955d2cf3dd1d506c90b2cc1b38fc04d02830f71",
+      "byteLength": 1807,
+      "rawResponseSHA256": "bba530dc4e6b771554911f3e1c7b414d29638761f158050cea1bb561065e1a67",
+      "retrievedAt": "2026-11-06T14:04:53.553217+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653515"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 64,
+      "legalProvisionId": "LP-657-64",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/64-efb413f892002b1928f9b39bd7fecab71bd5c9319366ec22927d98799774e814.html",
+      "sha256": "efb413f892002b1928f9b39bd7fecab71bd5c9319366ec22927d98799774e814",
+      "byteLength": 3787,
+      "rawResponseSHA256": "b79720e66848057c253fbe6866194abf672d3f5265ccb83367c074a4c69a06d2",
+      "retrievedAt": "2026-11-06T14:04:53.566778+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653519"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 65,
+      "legalProvisionId": "LP-657-65",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/65-4985c2ae58bd5af5e5bd9d60d1b2c47b4423e1df5af359a65b0dc5834eae97d7.html",
+      "sha256": "4985c2ae58bd5af5e5bd9d60d1b2c47b4423e1df5af359a65b0dc5834eae97d7",
+      "byteLength": 501,
+      "rawResponseSHA256": "ffdc8ab58f38529f7edc4109f89778ec1b5605a22f9949b6aa5ae0093086d662",
+      "retrievedAt": "2026-11-06T14:04:53.683527+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653522"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 67,
+      "legalProvisionId": "LP-657-67",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/67-c94d4e46a0ceb2ebec1afd687eb7d81d78fe0c97914909379bba9f6d4f7d9905.html",
+      "sha256": "c94d4e46a0ceb2ebec1afd687eb7d81d78fe0c97914909379bba9f6d4f7d9905",
+      "byteLength": 2173,
+      "rawResponseSHA256": "2175ac361f95390fb0e84128501fe8e3761152fa5cae2c6669d4c25672b21734",
+      "retrievedAt": "2026-11-06T14:04:53.960161+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653528"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 68,
+      "legalProvisionId": "LP-657-68",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/68-9ba1ba54285a3d7f7241ca600537b3fe581f20449578a7bae18a94b4cb63041c.html",
+      "sha256": "9ba1ba54285a3d7f7241ca600537b3fe581f20449578a7bae18a94b4cb63041c",
+      "byteLength": 7747,
+      "rawResponseSHA256": "bafece86ee4ff9c12b42a18b8145e23c3aaba741198b8cb3bc8d0166bc840b4f",
+      "retrievedAt": "2026-11-06T14:04:53.963192+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653530"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 72,
+      "legalProvisionId": "LP-657-72",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/72-2a3bbc568a55159bf3d427556b304d4e898771e103bb342dc278ac41a53c9777.html",
+      "sha256": "2a3bbc568a55159bf3d427556b304d4e898771e103bb342dc278ac41a53c9777",
+      "byteLength": 6291,
+      "rawResponseSHA256": "e5632ea5a07a15d5dfa4665fc78c6761223078f6667fc3d5e1b488e4e0f2b1ef",
+      "retrievedAt": "2026-11-06T14:04:54.019595+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653545"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 74,
+      "legalProvisionId": "LP-657-74",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/74-f1a3eb988beae4a2eaf53bb873fb9fa60db53ee4c70d7b00bc4427971873739a.html",
+      "sha256": "f1a3eb988beae4a2eaf53bb873fb9fa60db53ee4c70d7b00bc4427971873739a",
+      "byteLength": 3771,
+      "rawResponseSHA256": "0ee9c6fb2b8a5c9b9cbe095bbed258ddde427cf91dd4b2093cbe9bf1cf1bdece",
+      "retrievedAt": "2026-11-06T14:04:54.075230+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653551"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 76,
+      "legalProvisionId": "LP-657-76",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/76-fb3e1c25c70b043b01179b02343d2c84a763652e33993cd2e8e61e5719c38ba3.html",
+      "sha256": "fb3e1c25c70b043b01179b02343d2c84a763652e33993cd2e8e61e5719c38ba3",
+      "byteLength": 2108,
+      "rawResponseSHA256": "2c78540945804933a2d52cbd32c13ddd0e52455d4554e8f13319e971ddb1f890",
+      "retrievedAt": "2026-11-06T14:04:54.097243+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653557"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 78,
+      "legalProvisionId": "LP-657-78",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/78-30d53c3564924593ca47ef61fcc0152f9d6a7db3070129d01a17692aa673bb44.html",
+      "sha256": "30d53c3564924593ca47ef61fcc0152f9d6a7db3070129d01a17692aa673bb44",
+      "byteLength": 1708,
+      "rawResponseSHA256": "c618f5da452e5255376877232def24dd6bb59a1f16dfa34ed9f2fe437de64a06",
+      "retrievedAt": "2026-11-06T14:04:54.104676+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653563"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 83,
+      "legalProvisionId": "LP-657-83",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/83-c7283dd6e0fd1faf4c978bdb950098731562f049c6bc8890807a39b32ffc43ee.html",
+      "sha256": "c7283dd6e0fd1faf4c978bdb950098731562f049c6bc8890807a39b32ffc43ee",
+      "byteLength": 1717,
+      "rawResponseSHA256": "1f3959b1362bd6060266802d230561d3897f218c74150bb1a45707c3c689012a",
+      "retrievedAt": "2026-11-06T14:04:54.116411+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653578"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 84,
+      "legalProvisionId": "LP-657-84",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/84-b1361c3132c5f1000701a222ca8ad3e9d1b5be0800941878cb09a3f2e18ab3ca.html",
+      "sha256": "b1361c3132c5f1000701a222ca8ad3e9d1b5be0800941878cb09a3f2e18ab3ca",
+      "byteLength": 1012,
+      "rawResponseSHA256": "4e780bd32a7991aae5b4b248ff1674e00689113700fbeed3fe4b18dc67ddf3a6",
+      "retrievedAt": "2026-11-06T14:04:54.341116+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653581"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 86,
+      "legalProvisionId": "LP-657-86",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/86-e4723f2696d287e13a7b0a79c13f34f7ff4a9c585226432acd4a3ddd4c93d258.html",
+      "sha256": "e4723f2696d287e13a7b0a79c13f34f7ff4a9c585226432acd4a3ddd4c93d258",
+      "byteLength": 6854,
+      "rawResponseSHA256": "88c610f9a2b34f6d19284d259d8fea02a760b441f24ed38478606f89d112e189",
+      "retrievedAt": "2026-11-06T14:04:54.413457+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653586"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 88,
+      "legalProvisionId": "LP-657-88",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/88-df88ee2920a94062c137cf33f146d244c6dc44fdcdc4d4524556ff196d02069a.html",
+      "sha256": "df88ee2920a94062c137cf33f146d244c6dc44fdcdc4d4524556ff196d02069a",
+      "byteLength": 4637,
+      "rawResponseSHA256": "3eccc227930c6a063472476f8ff5d42a9be9f5f6608b2d84a1444bee9a6eae7d",
+      "retrievedAt": "2026-11-06T14:04:54.427198+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653591"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 89,
+      "legalProvisionId": "LP-657-89",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/89-3af302b01b603d66a2f415b9ca15dbf5cfb27a2185be578428b7b3685146dee9.html",
+      "sha256": "3af302b01b603d66a2f415b9ca15dbf5cfb27a2185be578428b7b3685146dee9",
+      "byteLength": 1572,
+      "rawResponseSHA256": "e71c1827047f3229d08a9818f1f84bf2bcd277674f72eb62fda6b32b59d8280e",
+      "retrievedAt": "2026-11-06T14:04:54.500428+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653594"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 91,
+      "legalProvisionId": "LP-657-91",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/91-9ac0eb328513219819c2b00f1c43ed5d4270f9a97bc660a412732b57ffe19b95.html",
+      "sha256": "9ac0eb328513219819c2b00f1c43ed5d4270f9a97bc660a412732b57ffe19b95",
+      "byteLength": 3262,
+      "rawResponseSHA256": "d7dde09d9de1855d0c65a2714ce2a46abf5b45e385bba6072058345e74176c52",
+      "retrievedAt": "2026-11-06T14:04:54.536715+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653600"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 92,
+      "legalProvisionId": "LP-657-92",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/92-8d33a7e6f73e3e4e5a302b957397e89b0ab318e569328c618b82c3a7b1160b6e.html",
+      "sha256": "8d33a7e6f73e3e4e5a302b957397e89b0ab318e569328c618b82c3a7b1160b6e",
+      "byteLength": 4161,
+      "rawResponseSHA256": "9254fec4703f05c66b299d3d7812cda74bb23975a5dcf3475146fad730b91505",
+      "retrievedAt": "2026-11-06T14:04:54.539574+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653603"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 93,
+      "legalProvisionId": "LP-657-93",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/93-64911cc6b6ab4d3e7ccf518f5a2d66c2628e5f1216437f7d4fe23cb8c04a99c6.html",
+      "sha256": "64911cc6b6ab4d3e7ccf518f5a2d66c2628e5f1216437f7d4fe23cb8c04a99c6",
+      "byteLength": 1320,
+      "rawResponseSHA256": "cd778d1c4657ce5b4521748569ba8214558a5ba51a1d6ba7dd24ebe5eb6e91e5",
+      "retrievedAt": "2026-11-06T14:04:54.634640+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653607"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 97,
+      "legalProvisionId": "LP-657-97",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/97-f77bac7fd6d52fd466113d6581ee20c862ec9b0786ac7e54cd1856fad225f3ce.html",
+      "sha256": "f77bac7fd6d52fd466113d6581ee20c862ec9b0786ac7e54cd1856fad225f3ce",
+      "byteLength": 1983,
+      "rawResponseSHA256": "a5e3a7e506b0e02561fb4f76f3796cd29d18b9faf7d86a2cce704132a5085164",
+      "retrievedAt": "2026-11-06T14:04:54.843674+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653621"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 98,
+      "legalProvisionId": "LP-657-98",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/98-b68892301b7ba47f65a08580fe54433eda73b775fd9c1c9cfba4e49f4e9b1967.html",
+      "sha256": "b68892301b7ba47f65a08580fe54433eda73b775fd9c1c9cfba4e49f4e9b1967",
+      "byteLength": 2609,
+      "rawResponseSHA256": "c442854daf3d85ed980635b54c4deded342b580d0b89e5488e4e45542a0e88aa",
+      "retrievedAt": "2026-11-06T14:04:54.937336+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653625"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 99,
+      "legalProvisionId": "LP-657-99",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/99-e935f22d4c25f39d91092cf023215db3589794208752c5984e04907149b821f6.html",
+      "sha256": "e935f22d4c25f39d91092cf023215db3589794208752c5984e04907149b821f6",
+      "byteLength": 2419,
+      "rawResponseSHA256": "018db000a527bbbf4b2696bf868383c9de0b9c865ee989b6a7e6f1f4a46db72a",
+      "retrievedAt": "2026-11-06T14:04:54.943559+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653632"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 100,
+      "legalProvisionId": "LP-657-100",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/100-daf5804c14e867f23c98709edcfc378230e6c5181b7a0e5b6d483f8c1622d36d.html",
+      "sha256": "daf5804c14e867f23c98709edcfc378230e6c5181b7a0e5b6d483f8c1622d36d",
+      "byteLength": 2977,
+      "rawResponseSHA256": "571355aa6613558f0a47576b95b0eff5685b9a8c8049ecc447a61c9a8bc481bf",
+      "retrievedAt": "2026-11-06T14:04:54.982329+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653635"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 101,
+      "legalProvisionId": "LP-657-101",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/101-fa16949f622aaf55b92e1ba88e1004c99f58cdb3614a9f5909d4db3661ae1703.html",
+      "sha256": "fa16949f622aaf55b92e1ba88e1004c99f58cdb3614a9f5909d4db3661ae1703",
+      "byteLength": 2703,
+      "rawResponseSHA256": "d66eaf4567acaaad96a059be79f191f3427d9d7178dd3d8ef4d575b77a94d581",
+      "retrievedAt": "2026-11-06T14:04:55.025091+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653638"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 103,
+      "legalProvisionId": "LP-657-103",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/103-4fd52a358a33facae523b3e1fcc097e9812334d63dd79ffe7f9441fe9f716ed1.html",
+      "sha256": "4fd52a358a33facae523b3e1fcc097e9812334d63dd79ffe7f9441fe9f716ed1",
+      "byteLength": 1512,
+      "rawResponseSHA256": "8a8ed1b81d2a489f77deb0056b78cd027ff879f75175cdd9d4a5db07972c5585",
+      "retrievedAt": "2026-11-06T14:04:55.045016+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653643"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 104,
+      "legalProvisionId": "LP-657-104",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/104-0367a89b8ffdf3e5c7bbcd35e71c5e165aa5e82c692493ef1e63a1b6e261f361.html",
+      "sha256": "0367a89b8ffdf3e5c7bbcd35e71c5e165aa5e82c692493ef1e63a1b6e261f361",
+      "byteLength": 9331,
+      "rawResponseSHA256": "418a19298a74d82ca9e3535c8e6a087b223536039f5bb6d4917575272ce1be25",
+      "retrievedAt": "2026-11-06T14:04:55.358195+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653646"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 105,
+      "legalProvisionId": "LP-657-105",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/105-06e7e331827026431d3cd20de9d32ceac6189f76debd8068da2beab0c6cd5c72.html",
+      "sha256": "06e7e331827026431d3cd20de9d32ceac6189f76debd8068da2beab0c6cd5c72",
+      "byteLength": 4216,
+      "rawResponseSHA256": "86e3a700d82642896e481318bbbc54168c08d7d3a28753af2e8b7a07e0f8075f",
+      "retrievedAt": "2026-11-06T14:04:55.411302+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653649"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 108,
+      "legalProvisionId": "LP-657-108",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/108-1bb3e6778ae91a5bc76ce821bb83c03431f74e2dfe2cdf6daca2a6bf5c619072.html",
+      "sha256": "1bb3e6778ae91a5bc76ce821bb83c03431f74e2dfe2cdf6daca2a6bf5c619072",
+      "byteLength": 6624,
+      "rawResponseSHA256": "e56df8369442798c59668dfe2581599037d478947720eb929926c7dffb630226",
+      "retrievedAt": "2026-11-06T14:04:55.422353+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653657"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 110,
+      "legalProvisionId": "LP-657-110",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/110-2bc5f68c1a3c7a3095f8f5cfe500f4696f1b6a1540b347ff063792c357a12ea9.html",
+      "sha256": "2bc5f68c1a3c7a3095f8f5cfe500f4696f1b6a1540b347ff063792c357a12ea9",
+      "byteLength": 281,
+      "rawResponseSHA256": "a3d0737b21ba68277da11b240fba2bd918b1cb3c3cdf4dbe501a7a741a7c4531",
+      "retrievedAt": "2026-11-06T14:04:55.432533+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560590"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 111,
+      "legalProvisionId": "LP-657-111",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/111-57b977c2e6ab5357375174ff71d67bc629616f6857cf9be7892428b513fba8f6.html",
+      "sha256": "57b977c2e6ab5357375174ff71d67bc629616f6857cf9be7892428b513fba8f6",
+      "byteLength": 303,
+      "rawResponseSHA256": "61bcf4b9f9468bb0a14cfb043d6d882b0c00bcc7a4e050fdb149834df1c9b0d3",
+      "retrievedAt": "2026-11-06T14:04:55.522908+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560591"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 112,
+      "legalProvisionId": "LP-657-112",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/112-940ca60c37db087fcd2782acbc6d77b8004b6363040e93083a86a71eccd939fc.html",
+      "sha256": "940ca60c37db087fcd2782acbc6d77b8004b6363040e93083a86a71eccd939fc",
+      "byteLength": 281,
+      "rawResponseSHA256": "372fc8949f616bb60a78f7a736b917bceb0f292c6183131c8f757d577e2fec23",
+      "retrievedAt": "2026-11-06T14:04:55.733580+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560592"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 113,
+      "legalProvisionId": "LP-657-113",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/113-c494ed4fa6c959f0e9b730ca37efc8b4fa25decfc4d64235b75b7045d8dfd7c4.html",
+      "sha256": "c494ed4fa6c959f0e9b730ca37efc8b4fa25decfc4d64235b75b7045d8dfd7c4",
+      "byteLength": 308,
+      "rawResponseSHA256": "e81c2495fd7a90650424e1c2583f9ef9edd74089b618ad52655fb237683c50d6",
+      "retrievedAt": "2026-11-06T14:04:55.746717+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560593"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 114,
+      "legalProvisionId": "LP-657-114",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/114-182835e62dba1e241491e91eb662c1205974e38e48fb196da122b6ca918d1129.html",
+      "sha256": "182835e62dba1e241491e91eb662c1205974e38e48fb196da122b6ca918d1129",
+      "byteLength": 160,
+      "rawResponseSHA256": "ec39775ed62789586e0cc2b2a224ab69fd7a424eb5974fac053f8b01210264c2",
+      "retrievedAt": "2026-11-06T14:04:55.818148+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560594"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 115,
+      "legalProvisionId": "LP-657-115",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/115-b62330abb926cbeb69cd71751dd752a4d01c89792496e692ded40b78ae478aa1.html",
+      "sha256": "b62330abb926cbeb69cd71751dd752a4d01c89792496e692ded40b78ae478aa1",
+      "byteLength": 301,
+      "rawResponseSHA256": "bead7792e37ca9720fa84a7a9c382482a047c3cd928dac9937b9c5b5be2b5fe7",
+      "retrievedAt": "2026-11-06T14:04:55.829524+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560595"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 117,
+      "legalProvisionId": "LP-657-117",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/117-685e689e9848b2ddf7eb70c3754b75f327f712b68179f0243125f478643520c8.html",
+      "sha256": "685e689e9848b2ddf7eb70c3754b75f327f712b68179f0243125f478643520c8",
+      "byteLength": 293,
+      "rawResponseSHA256": "a004d183b4220f48ef075e017011cc98875f84016e14e8b2d68acc9c3a25ad2d",
+      "retrievedAt": "2026-11-06T14:04:55.934874+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560597"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 118,
+      "legalProvisionId": "LP-657-118",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/118-77adbd2b889625c40b23ea328d2d1c02a050ef3a734b3570c7e9baa92de4429d.html",
+      "sha256": "77adbd2b889625c40b23ea328d2d1c02a050ef3a734b3570c7e9baa92de4429d",
+      "byteLength": 281,
+      "rawResponseSHA256": "96d2786d672245a81f931ee418d5f036bbcf33747d263ef6a02dd75720fb5704",
+      "retrievedAt": "2026-11-06T14:04:56.055388+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560598"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 119,
+      "legalProvisionId": "LP-657-119",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/119-e86d0fd4dcabc59aa40579d57b9433bd2446ab40252e6ff521f4337908814291.html",
+      "sha256": "e86d0fd4dcabc59aa40579d57b9433bd2446ab40252e6ff521f4337908814291",
+      "byteLength": 297,
+      "rawResponseSHA256": "c593599fc38b5b3fa46eefbabecd2daf89e94feeb2cb21b7d53688d39362a3cb",
+      "retrievedAt": "2026-11-06T14:04:56.060601+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560599"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 120,
+      "legalProvisionId": "LP-657-120",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/120-e952e530aa8b84bec14bd413e448388032d1e7d7fd8da8d33db9fa4869168a2f.html",
+      "sha256": "e952e530aa8b84bec14bd413e448388032d1e7d7fd8da8d33db9fa4869168a2f",
+      "byteLength": 280,
+      "rawResponseSHA256": "c6d54186738ef639a57a0f8f00a95479a38314cbf0cb489b01af23b67b2eee01",
+      "retrievedAt": "2026-11-06T14:04:56.148572+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "2560600"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 124,
+      "legalProvisionId": "LP-657-124",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/124-c716edcbbc27ca0063457464660e6d486fa8de570312f43ebef32f1adcb7c257.html",
+      "sha256": "c716edcbbc27ca0063457464660e6d486fa8de570312f43ebef32f1adcb7c257",
+      "byteLength": 2278,
+      "rawResponseSHA256": "fad8dc1a70d9038eeee80d9c025b30886112ebef74d5daad321d64f3fe89c97f",
+      "retrievedAt": "2026-11-06T14:04:56.199194+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653708"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 126,
+      "legalProvisionId": "LP-657-126",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/126-086a16de9420b0d7120f52b38ef99c18f7012105fbd654b6008793f57c491a05.html",
+      "sha256": "086a16de9420b0d7120f52b38ef99c18f7012105fbd654b6008793f57c491a05",
+      "byteLength": 2310,
+      "rawResponseSHA256": "f8eb031de210fdc50a7e6b9fbf5bc5be774a6412c13a9bcf2bdcf4479824d55c",
+      "retrievedAt": "2026-11-06T14:04:56.335026+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653713"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 127,
+      "legalProvisionId": "LP-657-127",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/127-1621b61d3aaf79eba2c137f437f17e07cb16e36e36c6186eacfad7a87e5a4e80.html",
+      "sha256": "1621b61d3aaf79eba2c137f437f17e07cb16e36e36c6186eacfad7a87e5a4e80",
+      "byteLength": 2422,
+      "rawResponseSHA256": "5ee26b80d043891f608826b45168b9af337f1b3d00dc4483202ac1412a0811ff",
+      "retrievedAt": "2026-11-06T14:04:56.338178+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653716"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 128,
+      "legalProvisionId": "LP-657-128",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/128-9247832ab905e55f584f221ee92dcfe0e66bba0e8386de13cc3ad4faa608a2b8.html",
+      "sha256": "9247832ab905e55f584f221ee92dcfe0e66bba0e8386de13cc3ad4faa608a2b8",
+      "byteLength": 1646,
+      "rawResponseSHA256": "ed71ec4123282117c7b2d4311bab7483c56ab0045f86c78fafc126512bce9dbf",
+      "retrievedAt": "2026-11-06T14:04:56.439189+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653718"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 131,
+      "legalProvisionId": "LP-657-131",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/131-73c48390ceda3f96edcf2353d31c719fd3686bf97cee0600fedc82c5192ca470.html",
+      "sha256": "73c48390ceda3f96edcf2353d31c719fd3686bf97cee0600fedc82c5192ca470",
+      "byteLength": 3472,
+      "rawResponseSHA256": "4ea41a4dce8aa5a039595364f3254972ff751bc37f78b7c83382fd1360f410f6",
+      "retrievedAt": "2026-11-06T14:04:56.454937+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653727"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 132,
+      "legalProvisionId": "LP-657-132",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/132-8e5fa7ad051050d897da8b67d50a877e5208d5e1892e85d4f0d71fad9e31717b.html",
+      "sha256": "8e5fa7ad051050d897da8b67d50a877e5208d5e1892e85d4f0d71fad9e31717b",
+      "byteLength": 2452,
+      "rawResponseSHA256": "4e129ad98b60126ebfab6fa404523d858990521e7f3355f158fee2e6da95890a",
+      "retrievedAt": "2026-11-06T14:04:56.466542+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653729"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 133,
+      "legalProvisionId": "LP-657-133",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/133-e89cadd0acec254b4bb3127132409d38d2f792ef2218ba61d88a9473a61173f7.html",
+      "sha256": "e89cadd0acec254b4bb3127132409d38d2f792ef2218ba61d88a9473a61173f7",
+      "byteLength": 2860,
+      "rawResponseSHA256": "31db45c26f3d8e5882f8819dd20ddcee92817eb7ce2541edc42de823dfdcc05c",
+      "retrievedAt": "2026-11-06T14:04:56.545696+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653732"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 137,
+      "legalProvisionId": "LP-657-137",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/137-333296a3ac563d767b04c38dc29b405f2bbd215a121560d39bddf85ea84c8527.html",
+      "sha256": "333296a3ac563d767b04c38dc29b405f2bbd215a121560d39bddf85ea84c8527",
+      "byteLength": 990,
+      "rawResponseSHA256": "fce81b9693d8a5a5042ff76c6a2465c4e2c3c28c869308a7aba4795e444fc70e",
+      "retrievedAt": "2026-11-06T14:04:56.552184+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653746"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 138,
+      "legalProvisionId": "LP-657-138",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/138-4a4128c0c22d6816d2d331e76e4f0fd7d62c342bad631c247715877763af750f.html",
+      "sha256": "4a4128c0c22d6816d2d331e76e4f0fd7d62c342bad631c247715877763af750f",
+      "byteLength": 1718,
+      "rawResponseSHA256": "9b18583f847c64a1623efed17bd7f202ca15af24ae0bf222e950cea4372d5f86",
+      "retrievedAt": "2026-11-06T14:04:56.738683+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653749"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 139,
+      "legalProvisionId": "LP-657-139",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/139-a2f3b8400b70d14e57a620c07d531e7de921954c6f392ee945e660d2a51608a6.html",
+      "sha256": "a2f3b8400b70d14e57a620c07d531e7de921954c6f392ee945e660d2a51608a6",
+      "byteLength": 1253,
+      "rawResponseSHA256": "8bcbeceeed4cc0661a2463f3367044a908f922d8ed80d2e3f5378343c9ffbf90",
+      "retrievedAt": "2026-11-06T14:04:56.748055+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653751"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 140,
+      "legalProvisionId": "LP-657-140",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/140-a6683cab0fdac32246aeeadfcefe98eff0fcd64cb9ceacdcad59dd542c606c00.html",
+      "sha256": "a6683cab0fdac32246aeeadfcefe98eff0fcd64cb9ceacdcad59dd542c606c00",
+      "byteLength": 730,
+      "rawResponseSHA256": "95c2fb7c736290abd729c6f6526d5b344790b4bd4a8fb7cab96f011588902e93",
+      "retrievedAt": "2026-11-06T14:04:56.763551+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653753"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 141,
+      "legalProvisionId": "LP-657-141",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/141-0c96be7bfc8237bd611e044b7ca0dfdcd3026ca492bb31962fb22f669fba0f6f.html",
+      "sha256": "0c96be7bfc8237bd611e044b7ca0dfdcd3026ca492bb31962fb22f669fba0f6f",
+      "byteLength": 1609,
+      "rawResponseSHA256": "6a7543c34817176b7f7abd0102b03f6079a9a46a95b94c4d78b66f21da8e0c90",
+      "retrievedAt": "2026-11-06T14:04:56.863950+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653756"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 142,
+      "legalProvisionId": "LP-657-142",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/142-cbece78bb444052a0a258b1d696832749eab2d64b6ee8157a0da844c33927be7.html",
+      "sha256": "cbece78bb444052a0a258b1d696832749eab2d64b6ee8157a0da844c33927be7",
+      "byteLength": 1153,
+      "rawResponseSHA256": "e127c9bd9718229f8eb90d34f759103512b609d7d42ce6cd9b3e7eb042b14b14",
+      "retrievedAt": "2026-11-06T14:04:56.867941+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653759"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 143,
+      "legalProvisionId": "LP-657-143",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/143-f72238767683253560d837becb646db2d584d264798b23a2f2f58fbf148e8f83.html",
+      "sha256": "f72238767683253560d837becb646db2d584d264798b23a2f2f58fbf148e8f83",
+      "byteLength": 1916,
+      "rawResponseSHA256": "2f1e3e895e337023a17c817f64fc3401cfec42f6b477756841e9777a824f8f60",
+      "retrievedAt": "2026-11-06T14:04:56.906043+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653762"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 144,
+      "legalProvisionId": "LP-657-144",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/144-15e9bf127e0d699ad7b3d2f4484a9873dd9d6726134fc979d47f14f5dac6b538.html",
+      "sha256": "15e9bf127e0d699ad7b3d2f4484a9873dd9d6726134fc979d47f14f5dac6b538",
+      "byteLength": 860,
+      "rawResponseSHA256": "023d046743d31bb3dc907172eea24d4a18e9a4f819f50febd6537cea3612bee2",
+      "retrievedAt": "2026-11-06T14:04:56.991738+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653765"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 145,
+      "legalProvisionId": "LP-657-145",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/145-d7aaa709250fe648b229d2048f4d904c2f19fb94d2fe5606f9636705aff1ae6b.html",
+      "sha256": "d7aaa709250fe648b229d2048f4d904c2f19fb94d2fe5606f9636705aff1ae6b",
+      "byteLength": 1221,
+      "rawResponseSHA256": "d9b3e19d6fff4d2949261b99a28e893b9a0016558b2dc17e63e6ee4fa354c0fd",
+      "retrievedAt": "2026-11-06T14:04:57.063499+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653768"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 146,
+      "legalProvisionId": "LP-657-146",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/146-cc32ebb7c526cc1d491e8ee72065275d01a49676bda7560a33f6ca19821f8845.html",
+      "sha256": "cc32ebb7c526cc1d491e8ee72065275d01a49676bda7560a33f6ca19821f8845",
+      "byteLength": 5051,
+      "rawResponseSHA256": "b33e0d3133bd45f4563cb64a7386a10e29a438f4e95b423c1e8932016af4f2c9",
+      "retrievedAt": "2026-11-06T14:04:57.161618+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653774"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 147,
+      "legalProvisionId": "LP-657-147",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/147-a2ac8514f18746b2ad6c733a47f220d8cee8f5bf2b52656a3d2312d8659a54b3.html",
+      "sha256": "a2ac8514f18746b2ad6c733a47f220d8cee8f5bf2b52656a3d2312d8659a54b3",
+      "byteLength": 4577,
+      "rawResponseSHA256": "5d938d1902cc438491aa5bcf3c058a23bb49104fb043382d81465741c69663d2",
+      "retrievedAt": "2026-11-06T14:04:57.165630+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653775"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 152,
+      "legalProvisionId": "LP-657-152",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/152-98768bf72f1e92468a14fd1cc2131a9c7ede19e850b3c09c0875f07cab40adaa.html",
+      "sha256": "98768bf72f1e92468a14fd1cc2131a9c7ede19e850b3c09c0875f07cab40adaa",
+      "byteLength": 97473,
+      "rawResponseSHA256": "ea7e606661c45844c908e218a66da6e640982503092c1915d10332e924ca1786",
+      "retrievedAt": "2026-11-06T14:04:57.186946+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653790"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 164,
+      "legalProvisionId": "LP-657-164",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/164-78d601b379d7e21afc663ee67fdd5c5c10e86b77d5f07ab1fab702095e736859.html",
+      "sha256": "78d601b379d7e21afc663ee67fdd5c5c10e86b77d5f07ab1fab702095e736859",
+      "byteLength": 3903,
+      "rawResponseSHA256": "0a65419ba5234dfc82cd615900588a552e4dd0026515800381f526a7b11e12e6",
+      "retrievedAt": "2026-11-06T14:04:57.262468+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653822"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 165,
+      "legalProvisionId": "LP-657-165",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/165-371e07451220616310c1e800b3826c4b79f58b0558363b48f0d56b5705df0ff4.html",
+      "sha256": "371e07451220616310c1e800b3826c4b79f58b0558363b48f0d56b5705df0ff4",
+      "byteLength": 1033,
+      "rawResponseSHA256": "274f82f32291e690cc07f25bde2a8034f7800a13fbd7e0fe782b5d48337109b9",
+      "retrievedAt": "2026-11-06T14:04:57.275631+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653825"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 166,
+      "legalProvisionId": "LP-657-166",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/166-9f758410ee37b6e052f147d5a8c433084ac3bef30c9a32ce5d09fc007ce72255.html",
+      "sha256": "9f758410ee37b6e052f147d5a8c433084ac3bef30c9a32ce5d09fc007ce72255",
+      "byteLength": 835,
+      "rawResponseSHA256": "0f85bae50271d61a5f5e7efcd0db5f15658f2bb2120bc643d65140cd3d23b866",
+      "retrievedAt": "2026-11-06T14:04:57.304741+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653828"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 167,
+      "legalProvisionId": "LP-657-167",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/167-6a27eff1c5265b67ffe314ee19bc1456f70248d0c9a44a874881996b5e6cb2ab.html",
+      "sha256": "6a27eff1c5265b67ffe314ee19bc1456f70248d0c9a44a874881996b5e6cb2ab",
+      "byteLength": 1470,
+      "rawResponseSHA256": "670a30b10f78c854a270a0c3c14029bb528d51ceb05da6146675a5801b029859",
+      "retrievedAt": "2026-11-06T14:04:57.586190+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653831"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 168,
+      "legalProvisionId": "LP-657-168",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/168-373f690d0462958e3cf23f2f5a52683e63113a8b85e40c456fea5411a48c7e01.html",
+      "sha256": "373f690d0462958e3cf23f2f5a52683e63113a8b85e40c456fea5411a48c7e01",
+      "byteLength": 506,
+      "rawResponseSHA256": "960ed7d3dd75eaed10d81e325c3f5e338d9c3dd15fa454e6ad8ab0e18a34b77e",
+      "retrievedAt": "2026-11-06T14:04:57.588402+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653833"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 169,
+      "legalProvisionId": "LP-657-169",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/169-8d0cde4eae08dcdd0f71597d1b74d08b39b13d036cdbb75e20f8a1fee25ba7ce.html",
+      "sha256": "8d0cde4eae08dcdd0f71597d1b74d08b39b13d036cdbb75e20f8a1fee25ba7ce",
+      "byteLength": 1090,
+      "rawResponseSHA256": "066d0a1d723155f5ff37304565db9e368b5a84c55c13ca1f1bbd403849ce7f1c",
+      "retrievedAt": "2026-11-06T14:04:57.616148+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653837"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 170,
+      "legalProvisionId": "LP-657-170",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/170-2d1da3d127e20a1f5d0f6b331683f94ba7ea9f18c108b1820a39bca395dfddeb.html",
+      "sha256": "2d1da3d127e20a1f5d0f6b331683f94ba7ea9f18c108b1820a39bca395dfddeb",
+      "byteLength": 940,
+      "rawResponseSHA256": "a5fdc11555d2f264d6d65a048abbc01405624b6bd94a48be1733736ffb3be902",
+      "retrievedAt": "2026-11-06T14:04:57.635354+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653840"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 171,
+      "legalProvisionId": "LP-657-171",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/171-1472ce218357310f77b1cf830f068eda01eec29e44fdf4e6f0e05b23e6b9fd00.html",
+      "sha256": "1472ce218357310f77b1cf830f068eda01eec29e44fdf4e6f0e05b23e6b9fd00",
+      "byteLength": 1022,
+      "rawResponseSHA256": "30f9b7da463cc7c32d8bc497adde6614bf83ad3ba8c7e0445a608c069e7a870b",
+      "retrievedAt": "2026-11-06T14:04:57.686609+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653843"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 172,
+      "legalProvisionId": "LP-657-172",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/172-1dc5eb21eeb90537976c00ec21641033122cbaa940a07e8ef18611c2cc5467f7.html",
+      "sha256": "1dc5eb21eeb90537976c00ec21641033122cbaa940a07e8ef18611c2cc5467f7",
+      "byteLength": 897,
+      "rawResponseSHA256": "a485dff6728a02fb72a54f02e852855adfc5723fe1c2cf19acb1cedaa3367759",
+      "retrievedAt": "2026-11-06T14:04:57.782411+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653846"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 173,
+      "legalProvisionId": "LP-657-173",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/173-a8b7759774cd0ab1c147c584fadb6097a23aeb216a18f098ca74eafe87c74b11.html",
+      "sha256": "a8b7759774cd0ab1c147c584fadb6097a23aeb216a18f098ca74eafe87c74b11",
+      "byteLength": 488,
+      "rawResponseSHA256": "36c55d4f248a21ada9eaac76d12f4cfa5063b11ddc5de311cbdf733783d34492",
+      "retrievedAt": "2026-11-06T14:04:57.903650+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653849"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 176,
+      "legalProvisionId": "LP-657-176",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/176-ed8893cacd057e735e88ac5c3089c7e00b28b52721693919ad47f061d363a489.html",
+      "sha256": "ed8893cacd057e735e88ac5c3089c7e00b28b52721693919ad47f061d363a489",
+      "byteLength": 3038,
+      "rawResponseSHA256": "40dd3f6b8932b911ad63d6fea6e6ebe354f2660095379a57b9667dc973295a36",
+      "retrievedAt": "2026-11-06T14:04:57.920794+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653856"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 177,
+      "legalProvisionId": "LP-657-177",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/177-b7a536bec61e7895fa37c2feda78399524bf865276c40f4789d9f2fd51b91d80.html",
+      "sha256": "b7a536bec61e7895fa37c2feda78399524bf865276c40f4789d9f2fd51b91d80",
+      "byteLength": 1074,
+      "rawResponseSHA256": "e760644202eaaf75fa980fcf8e8b1f1b285f34903a7e498411e77a51b4073ac9",
+      "retrievedAt": "2026-11-06T14:04:57.994786+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653858"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 178,
+      "legalProvisionId": "LP-657-178",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/178-28ce34260dd07b3fb1c82552ff29edf1a1686ccca485b000cbbd0cdca04f6696.html",
+      "sha256": "28ce34260dd07b3fb1c82552ff29edf1a1686ccca485b000cbbd0cdca04f6696",
+      "byteLength": 5002,
+      "rawResponseSHA256": "4b4253bb8166f2d9dc73f221787b028ffbd8c106742a45f5546bde11831682f4",
+      "retrievedAt": "2026-11-06T14:04:58.000322+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653860"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 190,
+      "legalProvisionId": "LP-657-190",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/190-5e988f3ebf34d07bbd8d89c192c780792035d6c2cfad6f683554d344e3ea04dc.html",
+      "sha256": "5e988f3ebf34d07bbd8d89c192c780792035d6c2cfad6f683554d344e3ea04dc",
+      "byteLength": 486,
+      "rawResponseSHA256": "6ae2ce42ce502bbf7926a6107d422167725c53fcc73d844e8ffa3857902f099d",
+      "retrievedAt": "2026-11-06T14:04:58.004275+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653893"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 191,
+      "legalProvisionId": "LP-657-191",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/191-9821c482a4e131d8a7d1afbd412b6b987eab049d633240568cea279fb8ee292b.html",
+      "sha256": "9821c482a4e131d8a7d1afbd412b6b987eab049d633240568cea279fb8ee292b",
+      "byteLength": 1122,
+      "rawResponseSHA256": "339cea1736e2930072d786aa45442e1c29f910ae22395109065fb4d97574ec1c",
+      "retrievedAt": "2026-11-06T14:04:58.154079+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653894"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 192,
+      "legalProvisionId": "LP-657-192",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/192-c642cb5a79b662338392495de4e44c2df9626ac61300fe415dd27e3c15ea23a3.html",
+      "sha256": "c642cb5a79b662338392495de4e44c2df9626ac61300fe415dd27e3c15ea23a3",
+      "byteLength": 1267,
+      "rawResponseSHA256": "031e0203bb39af705761efef8c354824b27ce0ddc5fec613c20ffea4d7f12315",
+      "retrievedAt": "2026-11-06T14:04:58.183414+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653897"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 202,
+      "legalProvisionId": "LP-657-202",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/202-9fab9fa42d6dc0f3ff3f868ce4b4138ed5c1886a96c27d75a51086240e6c2236.html",
+      "sha256": "9fab9fa42d6dc0f3ff3f868ce4b4138ed5c1886a96c27d75a51086240e6c2236",
+      "byteLength": 5913,
+      "rawResponseSHA256": "0baebee4c27ce109e4e3fce3d110f9519338491c90692cf6ee6dfe4c4679348c",
+      "retrievedAt": "2026-11-06T14:04:58.217451+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653922"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 203,
+      "legalProvisionId": "LP-657-203",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/203-47a0788fb140888b6f1f44f5f39d2575ab1fdf3a1949a729203c0e4f14a42bbe.html",
+      "sha256": "47a0788fb140888b6f1f44f5f39d2575ab1fdf3a1949a729203c0e4f14a42bbe",
+      "byteLength": 1106,
+      "rawResponseSHA256": "0a1ee251ed4b39c4de250976df29e562b610ceaaf475b864f8c1667abd5e8597",
+      "retrievedAt": "2026-11-06T14:04:58.315108+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653925"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 204,
+      "legalProvisionId": "LP-657-204",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/204-1923c32892ff94d18ce0d1533955d76db0e972ef30f0675e2c06406908d3925b.html",
+      "sha256": "1923c32892ff94d18ce0d1533955d76db0e972ef30f0675e2c06406908d3925b",
+      "byteLength": 735,
+      "rawResponseSHA256": "722315513aa8c2abfa636c93d64e530205aefd5caf35220b74b9fff050926f78",
+      "retrievedAt": "2026-11-06T14:04:58.320419+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653928"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 205,
+      "legalProvisionId": "LP-657-205",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/205-66f055c74a7d4874823f4a83ceaf95c413a03cdce172c9735b1c504221798afa.html",
+      "sha256": "66f055c74a7d4874823f4a83ceaf95c413a03cdce172c9735b1c504221798afa",
+      "byteLength": 823,
+      "rawResponseSHA256": "8e52993e568b3de31c5f9b0ba30cb43f5921baa8339c2f9dc9854fe4823a4b32",
+      "retrievedAt": "2026-11-06T14:04:58.425347+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653931"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 206,
+      "legalProvisionId": "LP-657-206",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/206-dac7f1b7412bd5736a0984c14990905db6854f4a9fad78e0affc5cdb6f2a66a7.html",
+      "sha256": "dac7f1b7412bd5736a0984c14990905db6854f4a9fad78e0affc5cdb6f2a66a7",
+      "byteLength": 1893,
+      "rawResponseSHA256": "96a595d79d1a0ba614aed3066af71ac602a975476601e153151685301b79b754",
+      "retrievedAt": "2026-11-06T14:04:58.507641+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653934"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 207,
+      "legalProvisionId": "LP-657-207",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/207-6b4dd500979e1dc9614c43d37e7ee24a6222a6b5a5c7c576d66bc46e8f76055f.html",
+      "sha256": "6b4dd500979e1dc9614c43d37e7ee24a6222a6b5a5c7c576d66bc46e8f76055f",
+      "byteLength": 481,
+      "rawResponseSHA256": "25ab54289bccffa457ef521b18ca218488f2635911cb0e83e1ebbf2329351b43",
+      "retrievedAt": "2026-11-06T14:04:58.555066+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653936"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 208,
+      "legalProvisionId": "LP-657-208",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/208-1bf4d39bbec8a2a12a8d0b2d7bf44d626739baeb934689ccf19105ae916a8c59.html",
+      "sha256": "1bf4d39bbec8a2a12a8d0b2d7bf44d626739baeb934689ccf19105ae916a8c59",
+      "byteLength": 2501,
+      "rawResponseSHA256": "840bc772d0ffe5610be4ebc1cf103018cb8e2963ba8ea960524c2017f4d22a9d",
+      "retrievedAt": "2026-11-06T14:04:58.602176+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653939"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 209,
+      "legalProvisionId": "LP-657-209",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/209-5cf9035cf9f9436b761e7ab1efa4209a36cd1985c908a8a35d914e94dec3549a.html",
+      "sha256": "5cf9035cf9f9436b761e7ab1efa4209a36cd1985c908a8a35d914e94dec3549a",
+      "byteLength": 469,
+      "rawResponseSHA256": "316e3cf34282c8cabbb36dfee33e857384fb12a6310b73336812eae15363d0a8",
+      "retrievedAt": "2026-11-06T14:04:58.627581+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653941"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 210,
+      "legalProvisionId": "LP-657-210",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/210-edf127c9e7ecf002e26a9686b9199f624dabd58a605f3075c3b8a40c33775868.html",
+      "sha256": "edf127c9e7ecf002e26a9686b9199f624dabd58a605f3075c3b8a40c33775868",
+      "byteLength": 2049,
+      "rawResponseSHA256": "70efeb1c94f24c56e1d65ba5db7de6e44a95ce36c579b71140e803751bf7ae24",
+      "retrievedAt": "2026-11-06T14:04:58.632317+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653944"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 211,
+      "legalProvisionId": "LP-657-211",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/211-f21cca6f82f83d60b688cab13e40cdad1a029cb71b69c1f77f7113eda432624c.html",
+      "sha256": "f21cca6f82f83d60b688cab13e40cdad1a029cb71b69c1f77f7113eda432624c",
+      "byteLength": 764,
+      "rawResponseSHA256": "bde30ceb368654084d6d016dc4169984884886f4a10aafdb40141b4ee49a1db0",
+      "retrievedAt": "2026-11-06T14:04:58.722450+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653947"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    },
+    {
+      "articleNumber": 212,
+      "legalProvisionId": "LP-657-212",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/212-03475e0f52e1b723e91a520acf22fdd4ba37d183f182dff25826536499acc51b.html",
+      "sha256": "03475e0f52e1b723e91a520acf22fdd4ba37d183f182dff25826536499acc51b",
+      "byteLength": 815,
+      "rawResponseSHA256": "6e2043c4534f042fc749725314403c3f2478e5fb531e6f8d51d9cb8505135beb",
+      "retrievedAt": "2026-11-06T14:04:58.740659+00:00",
+      "request": {
+        "data": {
+          "documentType": "MADDE",
+          "id": "1653950"
+        },
+        "applicationName": "UyapMevzuat"
+      }
+    }
+  ],
+  "artifactBytes": 484735,
+  "paragraphsNotInFullDocument": []
+}

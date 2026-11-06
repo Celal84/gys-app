@@ -1,0 +1,73 @@
+{
+  "sourceUrl": "https://kariyerkapisi.gov.tr/IlanDetay?i=232d3886-9af8-4b69-a802-b393f13a600d",
+  "publicApiUrl": "https://api.kariyerkapisi.gov.tr/api/ilan/GetIlanPreviewPublic",
+  "announcementId": "ILN00002918",
+  "exam": "Şube Müdürü (Teknik)",
+  "verifiedAt": "2026-11-06T09:37:10.915732+00:00",
+  "sourceSnapshotSha256": "4ce5a8b40d0918b505b595756d1e245d06254b1cee1c78203f3f28a953889a24",
+  "rules": {
+    "examDate": "2027-02-27",
+    "examLocalStart": "10:15",
+    "timezone": "Europe/Istanbul",
+    "questions": 100,
+    "commonQuestions": 70,
+    "technicalQuestions": 30,
+    "durationMinutes": 150,
+    "optionsPerQuestion": 5,
+    "correctOptionsPerQuestion": 1,
+    "equalWeights": true,
+    "negativeMarking": false,
+    "writtenPassScore": 60,
+    "legalCutoffDate": "2027-01-01"
+  },
+  "locators": {
+    "formatAndScoring": "6. SINAV ŞEKLİ VE DEĞERLENDİRME / Yazılı Sınav",
+    "examDateTime": "7. YAZILI SINAV TARİHİ, YERİ VE SAATİ",
+    "legalCutoff": "12. SINAV KONULARI / son madde"
+  },
+  "curriculum": {
+    "sourceUrl": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+    "snapshotSha256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+    "pages": 2,
+    "commonTopicCount": 16,
+    "technicalTopicCount": 8,
+    "commonWeights": [
+      8,
+      8,
+      4,
+      4,
+      2,
+      3,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      5,
+      4,
+      4
+    ],
+    "technicalWeights": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      3,
+      4
+    ],
+    "articleLimits": {
+      "O01": "97–126",
+      "O02": "1–212"
+    },
+    "scopeNote": "Diğer başlıkların bütün maddeleri otomatik kapsam kabul edilmemelidir; Anayasa kapsamı başlıklarla sınırlıdır. Diğer 21 konu için alt kapsam resmî metin ve ders kaynakları ile Faz 2’de haritalanacak."
+  },
+  "limitations": [
+    "Duyurunun gerçek yayın tarihi ayrı alan olarak API yanıtında verilmedi; başvuru başlangıç tarihi yayın tarihi kabul edilmedi.",
+    "2027-01-01 kesim tarihi henüz gelmedi; nihai mevzuat sürümü kesinleştirilmedi.",
+    "85 hedefi kullanıcı tercihi; resmî sınav parametresi değildir."
+  ]
+}

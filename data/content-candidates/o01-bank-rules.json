@@ -1,0 +1,2719 @@
+{
+  "schemaVersion": 1,
+  "batchId": "BATCH-O01-BANK-20261106-01",
+  "status": "ValidationPending",
+  "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+  "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+  "description": "Quotation/hash/identity checks only; separate legal/semantic review required.",
+  "rules": [
+    {
+      "questionId": "Q-O01-B-0001",
+      "learningObjectiveId": "LO-O01-OFFICIAL-98-organization-three-levels",
+      "articleNumber": 98,
+      "ruleId": "RULE-Q-O01-B-0001",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığı; merkez, taşra ve yurtdışı teşkilatından oluşur.[61]",
+      "sourceQuoteSHA256": "38824171d0dfc6a22582cbde02f6d3142bfa480d835656acdd26de745a991eea",
+      "sourceLocator": "1 sayılı CBK m.98; resmî UYAP belge114832; tam HTML p[1217]",
+      "requiredSourceFragments": [
+        "(1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığı; merkez, taşra ve yurtdışı teşkilatından oluşur.[61]"
+      ],
+      "correctOptionId": "Q-O01-B-0001-opt-01",
+      "normalizedCorrectText": "merkez, taşra ve yurtdışı teşkilatı",
+      "distractorOptionIds": [
+        "Q-O01-B-0001-opt-02",
+        "Q-O01-B-0001-opt-03",
+        "Q-O01-B-0001-opt-04",
+        "Q-O01-B-0001-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0002",
+      "learningObjectiveId": "LO-O01-OFFICIAL-99-current-service-unit-2025",
+      "articleNumber": 99,
+      "ruleId": "RULE-Q-O01-B-0002",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "s) (Mülga:RG-10/1/2019-30651-CK-27/28 md.) (Yeniden Düzenleme:RG-16/10/2025-33049-CK-189/7 md.) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığı,",
+      "sourceQuoteSHA256": "da323c10247aa077655a0ed5cf22a2679b5d964fb12d095a2c613ecbf5b193fb",
+      "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1242]",
+      "requiredSourceFragments": [
+        "s) (Mülga:RG-10/1/2019-30651-CK-27/28 md.) (Yeniden Düzenleme:RG-16/10/2025-33049-CK-189/7 md.) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığı,"
+      ],
+      "correctOptionId": "Q-O01-B-0002-opt-01",
+      "normalizedCorrectText": "acil durumlar ve savunma planlaması dairesi başkanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0002-opt-02",
+        "Q-O01-B-0002-opt-03",
+        "Q-O01-B-0002-opt-04",
+        "Q-O01-B-0002-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0003",
+      "learningObjectiveId": "LO-O01-OFFICIAL-100-local-staff-inservice",
+      "articleNumber": 100,
+      "ruleId": "RULE-Q-O01-B-0003",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Mahalli idareler personelinin hizmet içi eğitimini planlamak ve uygulanmasını takip etmek,",
+      "sourceQuoteSHA256": "bf70f139872e6433c3510bf19bc3b053b51132bc58fa1f38023f59b33bf1eb33",
+      "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1251]",
+      "requiredSourceFragments": [
+        "ç) Mahalli idareler personelinin hizmet içi eğitimini planlamak ve uygulanmasını takip etmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0003-opt-01",
+      "normalizedCorrectText": "yerel yönetimler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0003-opt-02",
+        "Q-O01-B-0003-opt-03",
+        "Q-O01-B-0003-opt-04",
+        "Q-O01-B-0003-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0004",
+      "learningObjectiveId": "LO-O01-OFFICIAL-101-treasury-property-transactions",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O01-B-0004",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Hazinenin özel mülkiyetindeki taşınmazların satışı, kiralanması, trampası ve üzerinde sınırlı aynî hak tesisi, Devletin hüküm ve tasarrufu altındaki yerlerin kiralanması ve bu yerler için gerekli görülen hallerde kullanma izni verilmesi işlemlerini yapmak,",
+      "sourceQuoteSHA256": "090a120f83ef42e96ce6ca90d754caa40de5684cd0fd2e845bbd3b870a9800ae",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1262]",
+      "requiredSourceFragments": [
+        "b) Hazinenin özel mülkiyetindeki taşınmazların satışı, kiralanması, trampası ve üzerinde sınırlı aynî hak tesisi, Devletin hüküm ve tasarrufu altındaki yerlerin kiralanması ve bu yerler için gerekli görülen hallerde kullanma izni verilmesi işlemlerini yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0004-opt-01",
+      "normalizedCorrectText": "hazinenin özel mülkiyetindeki taşınmazlar",
+      "distractorOptionIds": [
+        "Q-O01-B-0004-opt-02",
+        "Q-O01-B-0004-opt-03",
+        "Q-O01-B-0004-opt-04",
+        "Q-O01-B-0004-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0005",
+      "learningObjectiveId": "LO-O01-OFFICIAL-102-regional-environmental-plan-unit",
+      "articleNumber": 102,
+      "ruleId": "RULE-Q-O01-B-0005",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "c) Havza ve bölge bazındaki çevre düzeni planları da dâhil her tür ve ölçekteki çevre düzeni planlarının ve imar planlarının yapılmasına ilişkin usul ve esasları belirlemek, havza veya bölge bazında çevre düzeni planlarını yapmak, yaptırmak, onaylamak ve bu planların uygulanmasını ve denetlenmesini sağlamak,",
+      "sourceQuoteSHA256": "d279da335870db12e4dd87fc33c5586a1da674d6497110b87760dd3b6cfe2875",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1283]",
+      "requiredSourceFragments": [
+        "c) Havza ve bölge bazındaki çevre düzeni planları da dâhil her tür ve ölçekteki çevre düzeni planlarının ve imar planlarının yapılmasına ilişkin usul ve esasları belirlemek, havza veya bölge bazında çevre düzeni planlarını yapmak, yaptırmak, onaylamak ve bu planların uygulanmasını ve denetlenmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0005-opt-01",
+      "normalizedCorrectText": "mekânsal planlama genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0005-opt-02",
+        "Q-O01-B-0005-opt-03",
+        "Q-O01-B-0005-opt-04",
+        "Q-O01-B-0005-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0006",
+      "learningObjectiveId": "LO-O01-OFFICIAL-103-exhaust-standard-setting",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O01-B-0006",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "g) Motorlu kara taşıtlarının egzoz emisyonlarının kontrolü için idari, mali ve teknik usul ve esaslar ile standartları belirlemek,",
+      "sourceQuoteSHA256": "3f719e6fdb2a18f2df54a1efef7dd8aa8ced7f2a0f849fead816a64245ca0200",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1308]",
+      "requiredSourceFragments": [
+        "g) Motorlu kara taşıtlarının egzoz emisyonlarının kontrolü için idari, mali ve teknik usul ve esaslar ile standartları belirlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0006-opt-01",
+      "normalizedCorrectText": "çevre yönetimi genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0006-opt-02",
+        "Q-O01-B-0006-opt-03",
+        "Q-O01-B-0006-opt-04",
+        "Q-O01-B-0006-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0007",
+      "learningObjectiveId": "LO-O01-OFFICIAL-104-exhaust-compliance-certification",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O01-B-0007",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "e) Motorlu kara taşıtları egzoz emisyonlarının belirlenen standartlara uygunluğunu belgelemek, izlemek ve denetlemek,",
+      "sourceQuoteSHA256": "a5289c026d0a18c9d22ac14803962314f0413c237426e84c9ec01f445e08176a",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1330]",
+      "requiredSourceFragments": [
+        "e) Motorlu kara taşıtları egzoz emisyonlarının belirlenen standartlara uygunluğunu belgelemek, izlemek ve denetlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0007-opt-01",
+      "normalizedCorrectText": "çevresel etki değerlendirmesi, izin ve denetim genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0007-opt-02",
+        "Q-O01-B-0007-opt-03",
+        "Q-O01-B-0007-opt-04",
+        "Q-O01-B-0007-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0008",
+      "learningObjectiveId": "LO-O01-OFFICIAL-105-settlement-law-implementation",
+      "articleNumber": 105,
+      "ruleId": "RULE-Q-O01-B-0008",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) 5543 sayılı İskan Kanunu ile Bakanlığa verilen görevleri yapmak,",
+      "sourceQuoteSHA256": "bd9e21bac7aecc7a2a0e9ef0ac58de169626dde75c95d00b28ed69284608d693",
+      "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1343]",
+      "requiredSourceFragments": [
+        "ç) 5543 sayılı İskan Kanunu ile Bakanlığa verilen görevleri yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0008-opt-01",
+      "normalizedCorrectText": "yapı işleri genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0008-opt-02",
+        "Q-O01-B-0008-opt-03",
+        "Q-O01-B-0008-opt-04",
+        "Q-O01-B-0008-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0009",
+      "learningObjectiveId": "LO-O01-OFFICIAL-107-private-building-principles",
+      "articleNumber": 107,
+      "ruleId": "RULE-Q-O01-B-0009",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapılar ile ilgili genel ilke, strateji ve standartların belirlemesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,",
+      "sourceQuoteSHA256": "cca1987f9e3e792276bf4e42b8134564e7b6a82266ade17cd91163f988ee8fdd",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1354]",
+      "requiredSourceFragments": [
+        "b) Gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapılar ile ilgili genel ilke, strateji ve standartların belirlemesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0009-opt-01",
+      "normalizedCorrectText": "mesleki hizmetler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0009-opt-02",
+        "Q-O01-B-0009-opt-03",
+        "Q-O01-B-0009-opt-04",
+        "Q-O01-B-0009-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0010",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108-ministry-it-current-unit",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0010",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "i) Bakanlığın bilgi işlem hizmetlerini yürütmek,",
+      "sourceQuoteSHA256": "cf164bb54393e84be7b61add0ba118c54a43ada095d434338d6c01b1ad416e39",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1384]",
+      "requiredSourceFragments": [
+        "i) Bakanlığın bilgi işlem hizmetlerini yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0010-opt-01",
+      "normalizedCorrectText": "coğrafi bilgi sistemleri genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0010-opt-02",
+        "Q-O01-B-0010-opt-03",
+        "Q-O01-B-0010-opt-04",
+        "Q-O01-B-0010-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0011",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108A-basin-integrity-soil-unit",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0011",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "a) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; havza bütünlüğü esas alınarak çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projelerin gerektirdiği etüt ve proje işlerini yürütmek, projeleri uygulamak, uygulanmasını izlemek, kurumlara proje desteği sağlamak, bu iş ve işlemlerle ilgili politika ve stratejilerin belirlenmesi amacıyla ilgili kurum ve kuruluşlar arasında işbirliği ve koordinasyon sağlamak,",
+      "sourceQuoteSHA256": "17e2d7b7fe37f21bdb9d1962c076edb6d6c85703ea012c7fd14f6f4b3cdba5ad",
+      "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1390]",
+      "requiredSourceFragments": [
+        "a) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; havza bütünlüğü esas alınarak çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projelerin gerektirdiği etüt ve proje işlerini yürütmek, projeleri uygulamak, uygulanmasını izlemek, kurumlara proje desteği sağlamak, bu iş ve işlemlerle ilgili politika ve stratejilerin belirlenmesi amacıyla ilgili kurum ve kuruluşlar arasında işbirliği ve koordinasyon sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0011-opt-01",
+      "normalizedCorrectText": "çölleşme ve erozyonla mücadele genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0011-opt-02",
+        "Q-O01-B-0011-opt-03",
+        "Q-O01-B-0011-opt-04",
+        "Q-O01-B-0011-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0012",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109-natural-site-registration-unit",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0012",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerinin tespit, tescil, onay, değişiklik ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tespit ve tescil etmek, yönetmek ve yönetilmesini sağlamak,",
+      "sourceQuoteSHA256": "c036ce964a04f7160e5d782dfb926e2aa3aee7f939477be54c178bde0d5ffc9a",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1402]",
+      "requiredSourceFragments": [
+        "b) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerinin tespit, tescil, onay, değişiklik ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tespit ve tescil etmek, yönetmek ve yönetilmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0012-opt-01",
+      "normalizedCorrectText": "tabiat varlıklarını koruma genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0012-opt-02",
+        "Q-O01-B-0012-opt-03",
+        "Q-O01-B-0012-opt-04",
+        "Q-O01-B-0012-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0013",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109A-eu-operational-funds-unit",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0013",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Avrupa Birliği ile mali ilişkiler çerçevesindeki operasyonel programları yürütmek ve fonların uygulanmasını koordine etmek,",
+      "sourceQuoteSHA256": "e30f4fd716c8bcbb859272a92abee9648b30141521d835f6c8ff31242d6738bd",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1414]",
+      "requiredSourceFragments": [
+        "b) Avrupa Birliği ile mali ilişkiler çerçevesindeki operasyonel programları yürütmek ve fonların uygulanmasını koordine etmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0013-opt-01",
+      "normalizedCorrectText": "avrupa birliği ve dış ilişkiler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0013-opt-02",
+        "Q-O01-B-0013-opt-03",
+        "Q-O01-B-0013-opt-04",
+        "Q-O01-B-0013-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0014",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109B-ministry-staff-personnel-processes",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0014",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Bakanlık personelinin atama, nakil, terfi, emeklilik ve benzeri özlük işlemlerini yürütmek,",
+      "sourceQuoteSHA256": "a9b039b80faeaa3c1d2a650c9b0ef968ee2d0a808c7c768dfabad14d2176ad55",
+      "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1428]",
+      "requiredSourceFragments": [
+        "b) Bakanlık personelinin atama, nakil, terfi, emeklilik ve benzeri özlük işlemlerini yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0014-opt-01",
+      "normalizedCorrectText": "personel genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0014-opt-02",
+        "Q-O01-B-0014-opt-03",
+        "Q-O01-B-0014-opt-04",
+        "Q-O01-B-0014-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0015",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109C-legal-services-659-reference",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0015",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "a) 26/9/2011 tarihli ve 659 sayılı Kanun Hükmünde Kararname hükümlerine göre hukuk birimlerine verilen görevleri yapmak,",
+      "sourceQuoteSHA256": "dc6c9c492630947ca40aa08f0f6be212f3d68706204f7f688de9e83de5218b66",
+      "sourceLocator": "1 sayılı CBK m.109/C; resmî UYAP belge114832; tam HTML p[1435]",
+      "requiredSourceFragments": [
+        "a) 26/9/2011 tarihli ve 659 sayılı Kanun Hükmünde Kararname hükümlerine göre hukuk birimlerine verilen görevleri yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0015-opt-01",
+      "normalizedCorrectText": "hukuk hizmetleri genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0015-opt-02",
+        "Q-O01-B-0015-opt-03",
+        "Q-O01-B-0015-opt-04",
+        "Q-O01-B-0015-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0016",
+      "learningObjectiveId": "LO-O01-OFFICIAL-110-ministry-inspection-unit",
+      "articleNumber": 110,
+      "ruleId": "RULE-Q-O01-B-0016",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "a) Bakanlık teşkilatının her türlü faaliyet ve işlemleriyle ilgili olarak teftiş, inceleme ve soruşturmalar yapmak,",
+      "sourceQuoteSHA256": "d2f00878ef7b865dbe90df535042d1efd3913c9c3e9ac964896f5a450922e474",
+      "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1440]",
+      "requiredSourceFragments": [
+        "a) Bakanlık teşkilatının her türlü faaliyet ve işlemleriyle ilgili olarak teftiş, inceleme ve soruşturmalar yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0016-opt-01",
+      "normalizedCorrectText": "rehberlik ve teftiş başkanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0016-opt-02",
+        "Q-O01-B-0016-opt-03",
+        "Q-O01-B-0016-opt-04",
+        "Q-O01-B-0016-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0017",
+      "learningObjectiveId": "LO-O01-OFFICIAL-111-strategy-financial-reference",
+      "articleNumber": 111,
+      "ruleId": "RULE-Q-O01-B-0017",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "a) 10/12/2003 tarihli ve 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu, 22/12/2005 tarihli ve 5436 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılması Hakkında Kanunun 15 inci maddesi, Cumhurbaşkanlığı kararnameleri ve diğer mevzuatla strateji geliştirme ve malî hizmetler birimlerine verilen görevleri yapmak,",
+      "sourceQuoteSHA256": "94a06d4e71b0c72b0fda5d4057c61388816c6d292bd29b35cae4738d226c1de7",
+      "sourceLocator": "1 sayılı CBK m.111; resmî UYAP belge114832; tam HTML p[1447]",
+      "requiredSourceFragments": [
+        "a) 10/12/2003 tarihli ve 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu, 22/12/2005 tarihli ve 5436 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılması Hakkında Kanunun 15 inci maddesi, Cumhurbaşkanlığı kararnameleri ve diğer mevzuatla strateji geliştirme ve malî hizmetler birimlerine verilen görevleri yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0017-opt-01",
+      "normalizedCorrectText": "5018 ve 5436 sayılı kanunlar",
+      "distractorOptionIds": [
+        "Q-O01-B-0017-opt-02",
+        "Q-O01-B-0017-opt-03",
+        "Q-O01-B-0017-opt-04",
+        "Q-O01-B-0017-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0018",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-composition-count",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0018",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+      "sourceQuoteSHA256": "1dd07f7125a0f983b240a07c23d61a6d2e6fa604ac5d54cbe88fc0b2fe928e51",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]",
+      "requiredSourceFragments": [
+        "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir."
+      ],
+      "correctOptionId": "Q-O01-B-0018-opt-01",
+      "normalizedCorrectText": "bir başkan ve biri hukukçu olmak üzere on yedi üye",
+      "distractorOptionIds": [
+        "Q-O01-B-0018-opt-02",
+        "Q-O01-B-0018-opt-03",
+        "Q-O01-B-0018-opt-04",
+        "Q-O01-B-0018-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0019",
+      "learningObjectiveId": "LO-O01-OFFICIAL-115-educational-documentation-library",
+      "articleNumber": 115,
+      "ruleId": "RULE-Q-O01-B-0019",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "c) Eğitim amacıyla Bakanlığın görev alanıyla ilgili her türlü bilgi ve belgeyi toplamak, değerlendirmek, yayımlamak, film, slayt, fotoğraf ve benzeri belgeleri hazırlamak, hazırlatmak, arşiv, dokümantasyon ve kütüphane hizmetlerini yürütmek,",
+      "sourceQuoteSHA256": "50efa07c07abd1238deb76ded18415d37adc57b797547a053166a1c89b68451d",
+      "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1478]",
+      "requiredSourceFragments": [
+        "c) Eğitim amacıyla Bakanlığın görev alanıyla ilgili her türlü bilgi ve belgeyi toplamak, değerlendirmek, yayımlamak, film, slayt, fotoğraf ve benzeri belgeleri hazırlamak, hazırlatmak, arşiv, dokümantasyon ve kütüphane hizmetlerini yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0019-opt-01",
+      "normalizedCorrectText": "eğitim ve yayın dairesi başkanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0019-opt-02",
+        "Q-O01-B-0019-opt-03",
+        "Q-O01-B-0019-opt-04",
+        "Q-O01-B-0019-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0020",
+      "learningObjectiveId": "LO-O01-OFFICIAL-116-general-records-archive",
+      "articleNumber": 116,
+      "ruleId": "RULE-Q-O01-B-0020",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "c) Genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek,",
+      "sourceQuoteSHA256": "ca19167996d5c2e2ddf5a4901639cb7d05bc30d6826944795a3c9bb56a0a6dbc",
+      "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1488]",
+      "requiredSourceFragments": [
+        "c) Genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0020-opt-01",
+      "normalizedCorrectText": "destek hizmetleri dairesi başkanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0020-opt-02",
+        "Q-O01-B-0020-opt-03",
+        "Q-O01-B-0020-opt-04",
+        "Q-O01-B-0020-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0021",
+      "learningObjectiveId": "LO-O01-OFFICIAL-117-disaster-civil-defense-coordinate",
+      "articleNumber": 117,
+      "ruleId": "RULE-Q-O01-B-0021",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "a) Afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâline ilişkin mevzuat kapsamındaki iş ve işlemleri diğer hizmet birimleri ile koordineli olarak yerine getirmek,",
+      "sourceQuoteSHA256": "1e9c53c1c35eb953f2031cc8cfcb8a7b29ef88faba9779ca9b8c7fdb50252d14",
+      "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1494]",
+      "requiredSourceFragments": [
+        "a) Afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâline ilişkin mevzuat kapsamındaki iş ve işlemleri diğer hizmet birimleri ile koordineli olarak yerine getirmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0021-opt-01",
+      "normalizedCorrectText": "acil durumlar ve savunma planlaması dairesi başkanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0021-opt-02",
+        "Q-O01-B-0021-opt-03",
+        "Q-O01-B-0021-opt-04",
+        "Q-O01-B-0021-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0022",
+      "learningObjectiveId": "LO-O01-OFFICIAL-118-access-to-information-applications",
+      "articleNumber": 118,
+      "ruleId": "RULE-Q-O01-B-0022",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) 4982 sayılı Bilgi Edinme Hakkı Kanununa göre yapılacak bilgi edinme başvurularını etkin, süratli ve doğru bir şekilde sonuçlandırmak üzere gerekli tedbirleri almak,",
+      "sourceQuoteSHA256": "efc868230eed11fdc9037f79a844b3a89772cf2eeda2f3cf1a726ccd4c6013d7",
+      "sourceLocator": "1 sayılı CBK m.118; resmî UYAP belge114832; tam HTML p[1504]",
+      "requiredSourceFragments": [
+        "b) 4982 sayılı Bilgi Edinme Hakkı Kanununa göre yapılacak bilgi edinme başvurularını etkin, süratli ve doğru bir şekilde sonuçlandırmak üzere gerekli tedbirleri almak,"
+      ],
+      "correctOptionId": "Q-O01-B-0022-opt-01",
+      "normalizedCorrectText": "basın ve halkla ilişkiler müşavirliği",
+      "distractorOptionIds": [
+        "Q-O01-B-0022-opt-02",
+        "Q-O01-B-0022-opt-03",
+        "Q-O01-B-0022-opt-04",
+        "Q-O01-B-0022-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0023",
+      "learningObjectiveId": "LO-O01-OFFICIAL-119-minister-protocol-ceremonies",
+      "articleNumber": 119,
+      "ruleId": "RULE-Q-O01-B-0023",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Bakanın her türlü protokol ve tören işlerini düzenlemek ve yürütmek,",
+      "sourceQuoteSHA256": "ed60ff8633d93a87c9ff6a9b68a9bd6d1d1724e8c7b7d9ed1d9dfbc0ee47c8fe",
+      "sourceLocator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1510]",
+      "requiredSourceFragments": [
+        "b) Bakanın her türlü protokol ve tören işlerini düzenlemek ve yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0023-opt-01",
+      "normalizedCorrectText": "özel kalem müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0023-opt-02",
+        "Q-O01-B-0023-opt-03",
+        "Q-O01-B-0023-opt-04",
+        "Q-O01-B-0023-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0024",
+      "learningObjectiveId": "LO-O01-OFFICIAL-122-revolving-fund-capital-authority",
+      "articleNumber": 122,
+      "ruleId": "RULE-Q-O01-B-0024",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "MADDE 122 – (1) Bakanlık döner sermaye kurmaya yetkilidir. Döner sermaye miktarı, Cumhurbaşkanlığınca belirlenir.",
+      "sourceQuoteSHA256": "fa71530f772c9bff28f7c6841ab040963d76246b3473890eff8b54c4c6a3ef50",
+      "sourceLocator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1524]",
+      "requiredSourceFragments": [
+        "MADDE 122 – (1) Bakanlık döner sermaye kurmaya yetkilidir. Döner sermaye miktarı, Cumhurbaşkanlığınca belirlenir."
+      ],
+      "correctOptionId": "Q-O01-B-0024-opt-01",
+      "normalizedCorrectText": "cumhurbaşkanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0024-opt-02",
+        "Q-O01-B-0024-opt-03",
+        "Q-O01-B-0024-opt-04",
+        "Q-O01-B-0024-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0025",
+      "learningObjectiveId": "LO-O01-OFFICIAL-126-domestic-foreign-personnel-reference",
+      "articleNumber": 126,
+      "ruleId": "RULE-Q-O01-B-0025",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "MADDE 126 - (1) Bakanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 26 ncı maddesi uyarınca yerli veya yabancı personel istihdam edilebilir.",
+      "sourceQuoteSHA256": "01173a9c544c36c78dd3a3ed3556d1fc65e00c299dc5e235721d479f1636a88f",
+      "sourceLocator": "1 sayılı CBK m.126; resmî UYAP belge114832; tam HTML p[1539]",
+      "requiredSourceFragments": [
+        "MADDE 126 - (1) Bakanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 26 ncı maddesi uyarınca yerli veya yabancı personel istihdam edilebilir."
+      ],
+      "correctOptionId": "Q-O01-B-0025-opt-01",
+      "normalizedCorrectText": "375 sayılı khk’nin ek 26. maddesi",
+      "distractorOptionIds": [
+        "Q-O01-B-0025-opt-02",
+        "Q-O01-B-0025-opt-03",
+        "Q-O01-B-0025-opt-04",
+        "Q-O01-B-0025-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0026",
+      "learningObjectiveId": "LO-O01-OFFICIAL-97-public-building-demand-condition",
+      "articleNumber": 97,
+      "ruleId": "RULE-Q-O01-B-0026",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,",
+      "sourceQuoteSHA256": "f392aa99de612fe09340c36f4eb16f5410e2e78136a15d5d68e592b15d6e796c",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1195]",
+      "requiredSourceFragments": [
+        "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0026-opt-01",
+      "normalizedCorrectText": "ilgili kamu kurum veya kuruluşunun talepte bulunması",
+      "distractorOptionIds": [
+        "Q-O01-B-0026-opt-02",
+        "Q-O01-B-0026-opt-03",
+        "Q-O01-B-0026-opt-04",
+        "Q-O01-B-0026-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0027",
+      "learningObjectiveId": "LO-O01-OFFICIAL-97-municipal-gis-integration",
+      "articleNumber": 97,
+      "ruleId": "RULE-Q-O01-B-0027",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "i) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak, yaptırmak, mahalli idarelerin planlama, harita, altyapı ve üstyapıya ilişkin faaliyetleri ile ilgili kent bilgi sistemlerinin kurulması, kullanılması ve Ulusal Coğrafi Bilgi Sistemi ile entegre olmasını desteklemek,",
+      "sourceQuoteSHA256": "92f0a8043ba0ef8d589b14d03ef6d5f52bcb895cecff7bdaf33308814a118d25",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1201]",
+      "requiredSourceFragments": [
+        "i) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak, yaptırmak, mahalli idarelerin planlama, harita, altyapı ve üstyapıya ilişkin faaliyetleri ile ilgili kent bilgi sistemlerinin kurulması, kullanılması ve Ulusal Coğrafi Bilgi Sistemi ile entegre olmasını desteklemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0027-opt-01",
+      "normalizedCorrectText": "ulusal coğrafi bilgi sistemi",
+      "distractorOptionIds": [
+        "Q-O01-B-0027-opt-02",
+        "Q-O01-B-0027-opt-03",
+        "Q-O01-B-0027-opt-04",
+        "Q-O01-B-0027-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0028",
+      "learningObjectiveId": "LO-O01-OFFICIAL-100-local-organizational-vehicle-staff-standards",
+      "articleNumber": 100,
+      "ruleId": "RULE-Q-O01-B-0028",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) Mahalli idarelerin teşkilat, araç ve kadro standartlarını tespit etmek,",
+      "sourceQuoteSHA256": "5e8486ef8de7c8dddc3277003cd867a4c47b5f2d29483559c70686bcf81ddf1f",
+      "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1252]",
+      "requiredSourceFragments": [
+        "d) Mahalli idarelerin teşkilat, araç ve kadro standartlarını tespit etmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0028-opt-01",
+      "normalizedCorrectText": "yerel yönetimler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0028-opt-02",
+        "Q-O01-B-0028-opt-03",
+        "Q-O01-B-0028-opt-04",
+        "Q-O01-B-0028-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0029",
+      "learningObjectiveId": "LO-O01-OFFICIAL-101-allocation-withdrawal-grounds",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O01-B-0029",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerden kamu hizmeti için kullanılması gerekli olanları; kamu idarelerine tahsis etmek ve tahsis amacının ortadan kalkması veya amaç dışı kullanılması halinde tahsisi kaldırmak; tahsisi kaldırılan taşınmazlar üzerinde Hazine dışındaki kamu idarelerine ait yapı ve tesisleri tasfiye etmek, tasfiyeye ilişkin esas ve usulleri belirlemek,",
+      "sourceQuoteSHA256": "d50b4fbf04f6e1cd992be7140e7b66112c1d0185c57d705171bf0f675afaa220",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1264]",
+      "requiredSourceFragments": [
+        "ç) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerden kamu hizmeti için kullanılması gerekli olanları; kamu idarelerine tahsis etmek ve tahsis amacının ortadan kalkması veya amaç dışı kullanılması halinde tahsisi kaldırmak; tahsisi kaldırılan taşınmazlar üzerinde Hazine dışındaki kamu idarelerine ait yapı ve tesisleri tasfiye etmek, tasfiyeye ilişkin esas ve usulleri belirlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0029-opt-01",
+      "normalizedCorrectText": "tahsis amacının ortadan kalkması veya taşınmazın amaç dışı kullanılması",
+      "distractorOptionIds": [
+        "Q-O01-B-0029-opt-02",
+        "Q-O01-B-0029-opt-03",
+        "Q-O01-B-0029-opt-04",
+        "Q-O01-B-0029-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0030",
+      "learningObjectiveId": "LO-O01-OFFICIAL-101-expropriation-registration-owner",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O01-B-0030",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "f) Genel bütçe kapsamındaki kamu idarelerinin kamulaştırdığı yerlerin Hazine adına tescilini sağlamak,",
+      "sourceQuoteSHA256": "17d9977617448c201d2fc6252e39ed7f560b312d27bf5a0a7e5ca07db550afe9",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1267]",
+      "requiredSourceFragments": [
+        "f) Genel bütçe kapsamındaki kamu idarelerinin kamulaştırdığı yerlerin Hazine adına tescilini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0030-opt-01",
+      "normalizedCorrectText": "hazine adına",
+      "distractorOptionIds": [
+        "Q-O01-B-0030-opt-02",
+        "Q-O01-B-0030-opt-03",
+        "Q-O01-B-0030-opt-04",
+        "Q-O01-B-0030-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0031",
+      "learningObjectiveId": "LO-O01-OFFICIAL-101-public-housing-annual-costs",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O01-B-0031",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) Devlete ait konutları yönetmek ve kamu idarelerine ait konutların yönetimi konusundaki politikaların belirlenmesi amacıyla çalışmalar yapmak, her yıl yurt içi ve yurtdışındaki kamu konutlarının kira ve yakıt bedelleri ile işletme, bakım ve onarım esaslarını tespit etmek,",
+      "sourceQuoteSHA256": "8a684b87100bc4502f23014b71a045a085d5faae6dfdd1f59f11e0049119655a",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1265]",
+      "requiredSourceFragments": [
+        "d) Devlete ait konutları yönetmek ve kamu idarelerine ait konutların yönetimi konusundaki politikaların belirlenmesi amacıyla çalışmalar yapmak, her yıl yurt içi ve yurtdışındaki kamu konutlarının kira ve yakıt bedelleri ile işletme, bakım ve onarım esaslarını tespit etmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0031-opt-01",
+      "normalizedCorrectText": "yurt içi ve yurtdışı kamu konutlarının kira ve yakıt bedelleri ile işletme, bakım ve onarım esasları",
+      "distractorOptionIds": [
+        "Q-O01-B-0031-opt-02",
+        "Q-O01-B-0031-opt-03",
+        "Q-O01-B-0031-opt-04",
+        "Q-O01-B-0031-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0032",
+      "learningObjectiveId": "LO-O01-OFFICIAL-101-national-estate-inspection-staff",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O01-B-0032",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "l) Teşkilat ve görev alanına giren konularda denetmenleri aracılığıyla teftiş, denetim, inceleme ve soruşturma yapmak ve bu işlerin yürütülmesi amacıyla uygun görülen büyük il merkezlerinde bölge düzeyinde denetim yapmak üzere denetim grupları kurmak,[65]",
+      "sourceQuoteSHA256": "96d4237e43d05278c32804c24c9491a4375c211c367e1c5df2b808fdedb4cb51",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1275]",
+      "requiredSourceFragments": [
+        "l) Teşkilat ve görev alanına giren konularda denetmenleri aracılığıyla teftiş, denetim, inceleme ve soruşturma yapmak ve bu işlerin yürütülmesi amacıyla uygun görülen büyük il merkezlerinde bölge düzeyinde denetim yapmak üzere denetim grupları kurmak,[65]"
+      ],
+      "correctOptionId": "Q-O01-B-0032-opt-01",
+      "normalizedCorrectText": "denetmenleri aracılığıyla",
+      "distractorOptionIds": [
+        "Q-O01-B-0032-opt-02",
+        "Q-O01-B-0032-opt-03",
+        "Q-O01-B-0032-opt-04",
+        "Q-O01-B-0032-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0033",
+      "learningObjectiveId": "LO-O01-OFFICIAL-102-planning-geotechnical-approval",
+      "articleNumber": 102,
+      "ruleId": "RULE-Q-O01-B-0033",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) Risk yönetimi ve sakınım planlarının yapılmasına ve onaylanmasına ilişkin kuralları belirlemek ve izlemek, plana esas jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak,",
+      "sourceQuoteSHA256": "8f707f3984e8e02027eb50d53b9c4130f3b205dfddf7a7e5f52f761796f64967",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1285]",
+      "requiredSourceFragments": [
+        "d) Risk yönetimi ve sakınım planlarının yapılmasına ve onaylanmasına ilişkin kuralları belirlemek ve izlemek, plana esas jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0033-opt-01",
+      "normalizedCorrectText": "jeolojik ve jeoteknik etütler",
+      "distractorOptionIds": [
+        "Q-O01-B-0033-opt-02",
+        "Q-O01-B-0033-opt-03",
+        "Q-O01-B-0033-opt-04",
+        "Q-O01-B-0033-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0034",
+      "learningObjectiveId": "LO-O01-OFFICIAL-102-coastal-boundary-complete-process",
+      "articleNumber": 102,
+      "ruleId": "RULE-Q-O01-B-0034",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "i) Bütünleşik kıyı alanları yönetimi ve planlaması çalışmaları, kıyı alanlarının düzenlenmesine dair iş ve işlemler ile bu alanlara ilişkin jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak, kıyı kenar çizgisini tespit etmek, onaylamak ve tescilini sağlamak,",
+      "sourceQuoteSHA256": "33db2cfceea73caf41422610b70d12e358ac9bdcc01f2b63385ff332af39b297",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1292]",
+      "requiredSourceFragments": [
+        "i) Bütünleşik kıyı alanları yönetimi ve planlaması çalışmaları, kıyı alanlarının düzenlenmesine dair iş ve işlemler ile bu alanlara ilişkin jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak, kıyı kenar çizgisini tespit etmek, onaylamak ve tescilini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0034-opt-01",
+      "normalizedCorrectText": "tespit etmek, onaylamak ve tescilini sağlamak",
+      "distractorOptionIds": [
+        "Q-O01-B-0034-opt-02",
+        "Q-O01-B-0034-opt-03",
+        "Q-O01-B-0034-opt-04",
+        "Q-O01-B-0034-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0035",
+      "learningObjectiveId": "LO-O01-OFFICIAL-102-settlement-boundary-approval",
+      "articleNumber": 102,
+      "ruleId": "RULE-Q-O01-B-0035",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ğ) Belediyelerin mücavir alanları ile köylerin yerleşik alanlarının sınırlarının tespitine ilişkin usul ve esasları belirlemek ve tespit edilen sınırları onaylamak,",
+      "sourceQuoteSHA256": "dd0b3fcddfc5bb427e9e6cbbbb78b531147afb9b9f2c572499ed3b946a2c34ba",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1289]",
+      "requiredSourceFragments": [
+        "ğ) Belediyelerin mücavir alanları ile köylerin yerleşik alanlarının sınırlarının tespitine ilişkin usul ve esasları belirlemek ve tespit edilen sınırları onaylamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0035-opt-01",
+      "normalizedCorrectText": "tespit usul ve esaslarını belirlemek ve tespit edilen sınırları onaylamak",
+      "distractorOptionIds": [
+        "Q-O01-B-0035-opt-02",
+        "Q-O01-B-0035-opt-03",
+        "Q-O01-B-0035-opt-04",
+        "Q-O01-B-0035-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0036",
+      "learningObjectiveId": "LO-O01-OFFICIAL-103-wastewater-design-joint-ministry",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O01-B-0036",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ı) Atıksu arıtma tesislerinin tasarım esaslarını ve kriterlerini Tarım ve Orman Bakanlığı ile birlikte belirlemek, onay işlemlerini yürütmek,",
+      "sourceQuoteSHA256": "bbf0dea86203fac6092d642dcee4fd9e0ad95315c632dd0a72a36f2bebd6817b",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1311]",
+      "requiredSourceFragments": [
+        "ı) Atıksu arıtma tesislerinin tasarım esaslarını ve kriterlerini Tarım ve Orman Bakanlığı ile birlikte belirlemek, onay işlemlerini yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0036-opt-01",
+      "normalizedCorrectText": "tarım ve orman bakanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0036-opt-02",
+        "Q-O01-B-0036-opt-03",
+        "Q-O01-B-0036-opt-04",
+        "Q-O01-B-0036-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0037",
+      "learningObjectiveId": "LO-O01-OFFICIAL-103-nuclear-safety-cooperating-institution",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O01-B-0037",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "e) Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu ile nükleer güvenlik konusunda işbirliği yapmak,[66]",
+      "sourceQuoteSHA256": "8880d507884ed94f385e6852860411b01a4aa91af78911ecb5d3bcb9bc40dd13",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1306]",
+      "requiredSourceFragments": [
+        "e) Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu ile nükleer güvenlik konusunda işbirliği yapmak,[66]"
+      ],
+      "correctOptionId": "Q-O01-B-0037-opt-01",
+      "normalizedCorrectText": "türkiye enerji, nükleer ve maden araştırma kurumu",
+      "distractorOptionIds": [
+        "Q-O01-B-0037-opt-02",
+        "Q-O01-B-0037-opt-03",
+        "Q-O01-B-0037-opt-04",
+        "Q-O01-B-0037-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0038",
+      "learningObjectiveId": "LO-O01-OFFICIAL-103-local-environment-boards-followup",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O01-B-0038",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "n) Mahalli çevre kurullarının çalışmalarını takip etmek ve yönlendirmek,",
+      "sourceQuoteSHA256": "d9e1d759425a8b74aeb0a67d3cb33026e7997eb61e061413e1db65dbf4e3f345",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1317]",
+      "requiredSourceFragments": [
+        "n) Mahalli çevre kurullarının çalışmalarını takip etmek ve yönlendirmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0038-opt-01",
+      "normalizedCorrectText": "çevre yönetimi genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0038-opt-02",
+        "Q-O01-B-0038-opt-03",
+        "Q-O01-B-0038-opt-04",
+        "Q-O01-B-0038-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0039",
+      "learningObjectiveId": "LO-O01-OFFICIAL-104-clean-air-centres-establishment",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O01-B-0039",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) Temiz hava merkezlerinin kurulması ve yönetilmesiyle ilgili iş ve işlemleri yürütmek,",
+      "sourceQuoteSHA256": "ad438c4e82b59f28cac6fa85b3428631c35d5d2eecea83cef019886aaa495e30",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1329]",
+      "requiredSourceFragments": [
+        "d) Temiz hava merkezlerinin kurulması ve yönetilmesiyle ilgili iş ve işlemleri yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0039-opt-01",
+      "normalizedCorrectText": "çevresel etki değerlendirmesi, izin ve denetim genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0039-opt-02",
+        "Q-O01-B-0039-opt-03",
+        "Q-O01-B-0039-opt-04",
+        "Q-O01-B-0039-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0040",
+      "learningObjectiveId": "LO-O01-OFFICIAL-104-environment-laboratory-functions",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O01-B-0040",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "f) Alıcı ortamları izlemek, buna ilişkin altyapıyı oluşturmak, çevre kirliliği ile ilgili olarak ölçüm ve analiz ölçütlerini belirlemek, uygulamak ve uygulanmasını sağlamak; çevreyle ilgili her türlü ölçüm, izleme, analiz ve kontroller yapacak laboratuvarlar kurmak, kurdurmak, bunların akreditasyon işlemlerini yapmak, yaptırmak; alıcı ortamlar konusunda ölçüm yapacak kuruluşları belirlemek,",
+      "sourceQuoteSHA256": "9a907e7f591a153a8cf12693b1341c050f9b6a543eaf25f5fd564bd993f4bd3b",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1331]",
+      "requiredSourceFragments": [
+        "f) Alıcı ortamları izlemek, buna ilişkin altyapıyı oluşturmak, çevre kirliliği ile ilgili olarak ölçüm ve analiz ölçütlerini belirlemek, uygulamak ve uygulanmasını sağlamak; çevreyle ilgili her türlü ölçüm, izleme, analiz ve kontroller yapacak laboratuvarlar kurmak, kurdurmak, bunların akreditasyon işlemlerini yapmak, yaptırmak; alıcı ortamlar konusunda ölçüm yapacak kuruluşları belirlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0040-opt-01",
+      "normalizedCorrectText": "laboratuvar kurmak veya kurdurmak ve akreditasyon işlemlerini yapmak veya yaptırmak",
+      "distractorOptionIds": [
+        "Q-O01-B-0040-opt-02",
+        "Q-O01-B-0040-opt-03",
+        "Q-O01-B-0040-opt-04",
+        "Q-O01-B-0040-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0041",
+      "learningObjectiveId": "LO-O01-OFFICIAL-104-european-environment-agency-relations",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O01-B-0041",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "h) Çevre envanterini ve çevre durum raporlarını hazırlamak ve Avrupa Çevre Ajansı ile ilişkileri yürütmek,",
+      "sourceQuoteSHA256": "c7e032be2d792ed725bc39795fc81b3af71a471ab8fa9a265fcc33e9586e0dd1",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1334]",
+      "requiredSourceFragments": [
+        "h) Çevre envanterini ve çevre durum raporlarını hazırlamak ve Avrupa Çevre Ajansı ile ilişkileri yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0041-opt-01",
+      "normalizedCorrectText": "avrupa çevre ajansı",
+      "distractorOptionIds": [
+        "Q-O01-B-0041-opt-02",
+        "Q-O01-B-0041-opt-03",
+        "Q-O01-B-0041-opt-04",
+        "Q-O01-B-0041-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0042",
+      "learningObjectiveId": "LO-O01-OFFICIAL-105-permanent-settlement-construction-chain",
+      "articleNumber": 105,
+      "ruleId": "RULE-Q-O01-B-0042",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) 5543 sayılı Kanun uyarınca daimi iskân için kamu kurum ve kuruluşlarınca yaptırılacak her türlü yapılara ve konutlara ilişkin etüt ve planlama işlerini yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, daimi iskân için yaptırılacak her türlü yapıların inşaatlarını yapmak veya yaptırmak,",
+      "sourceQuoteSHA256": "5b7691247568d823755a6c02ccf9d1ba30345408c7b9e577be079fca33a6eb98",
+      "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1344]",
+      "requiredSourceFragments": [
+        "d) 5543 sayılı Kanun uyarınca daimi iskân için kamu kurum ve kuruluşlarınca yaptırılacak her türlü yapılara ve konutlara ilişkin etüt ve planlama işlerini yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, daimi iskân için yaptırılacak her türlü yapıların inşaatlarını yapmak veya yaptırmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0042-opt-01",
+      "normalizedCorrectText": "etüt ve planlama işleri ile yapıların inşaatını yapmak veya yaptırmak",
+      "distractorOptionIds": [
+        "Q-O01-B-0042-opt-02",
+        "Q-O01-B-0042-opt-03",
+        "Q-O01-B-0042-opt-04",
+        "Q-O01-B-0042-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0043",
+      "learningObjectiveId": "LO-O01-OFFICIAL-107-building-permits-address-database",
+      "articleNumber": 107,
+      "ruleId": "RULE-Q-O01-B-0043",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Planlı ve plansız alanlardaki projelendirme ve yapılaşmaya, yapı ruhsatı ve yapı kullanma izinlerinin ulusal adres veri tabanına dayalı olarak düzenlenmesine ilişkin usul, esas ve standartları belirlemek,",
+      "sourceQuoteSHA256": "f36c9fdc55b4902109b71cc516ca303c9800bd080b40d5db4a85f552908410df",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1356]",
+      "requiredSourceFragments": [
+        "ç) Planlı ve plansız alanlardaki projelendirme ve yapılaşmaya, yapı ruhsatı ve yapı kullanma izinlerinin ulusal adres veri tabanına dayalı olarak düzenlenmesine ilişkin usul, esas ve standartları belirlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0043-opt-01",
+      "normalizedCorrectText": "ulusal adres veri tabanı",
+      "distractorOptionIds": [
+        "Q-O01-B-0043-opt-02",
+        "Q-O01-B-0043-opt-03",
+        "Q-O01-B-0043-opt-04",
+        "Q-O01-B-0043-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0044",
+      "learningObjectiveId": "LO-O01-OFFICIAL-107-technical-expert-qualification-scope",
+      "articleNumber": 107,
+      "ruleId": "RULE-Q-O01-B-0044",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) Planlama, projelendirme, yapım ve kamulaştırma iş ve işlemlerinde görev alacak bilirkişilerin niteliklerine ve mesleki yeterliklerine ilişkin usul ve esasları belirlemek,",
+      "sourceQuoteSHA256": "ca4c561e493f962d9d48d4271b7a36ff49ced0a3e10b2982ca6358c83326a7e1",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1357]",
+      "requiredSourceFragments": [
+        "d) Planlama, projelendirme, yapım ve kamulaştırma iş ve işlemlerinde görev alacak bilirkişilerin niteliklerine ve mesleki yeterliklerine ilişkin usul ve esasları belirlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0044-opt-01",
+      "normalizedCorrectText": "planlama, projelendirme, yapım ve kamulaştırma işleri",
+      "distractorOptionIds": [
+        "Q-O01-B-0044-opt-02",
+        "Q-O01-B-0044-opt-03",
+        "Q-O01-B-0044-opt-04",
+        "Q-O01-B-0044-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0045",
+      "learningObjectiveId": "LO-O01-OFFICIAL-107-site-chief-supervision-channel",
+      "articleNumber": 107,
+      "ruleId": "RULE-Q-O01-B-0045",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "g) Yapım işlerinde görev alan şantiye şefleri, fen elemanları ve yetki belgeli ustaların faaliyetlerinin, durumlarına göre, ilgili idarelerce veya meslek kuruluşlarınca denetlenmesini sağlamak,",
+      "sourceQuoteSHA256": "190effbe8332218625ea8fe29b73e21d0ed67c1cbd81a8f50f49303ad99d17ba",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1360]",
+      "requiredSourceFragments": [
+        "g) Yapım işlerinde görev alan şantiye şefleri, fen elemanları ve yetki belgeli ustaların faaliyetlerinin, durumlarına göre, ilgili idarelerce veya meslek kuruluşlarınca denetlenmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0045-opt-01",
+      "normalizedCorrectText": "durumlarına göre ilgili idarelerce veya meslek kuruluşlarınca",
+      "distractorOptionIds": [
+        "Q-O01-B-0045-opt-02",
+        "Q-O01-B-0045-opt-03",
+        "Q-O01-B-0045-opt-04",
+        "Q-O01-B-0045-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0046",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108-national-spatial-data-portal",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0046",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "g) Ulusal Coğrafi Bilgi Sistemi kapsamında resmi ve özel kurum ve kuruluşlarca üretilen mekânsal verilerin sunulduğu portalı kurmak ve işletmek,",
+      "sourceQuoteSHA256": "0d65ef0f3bec61f0d696fdf0ec7edf0ef4f3d89b90edc5a02be19fec797b931f",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1380]",
+      "requiredSourceFragments": [
+        "g) Ulusal Coğrafi Bilgi Sistemi kapsamında resmi ve özel kurum ve kuruluşlarca üretilen mekânsal verilerin sunulduğu portalı kurmak ve işletmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0046-opt-01",
+      "normalizedCorrectText": "ulusal coğrafi bilgi sistemi kapsamındaki resmî ve özel kurumların mekânsal verilerini sunmak",
+      "distractorOptionIds": [
+        "Q-O01-B-0046-opt-02",
+        "Q-O01-B-0046-opt-03",
+        "Q-O01-B-0046-opt-04",
+        "Q-O01-B-0046-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0047",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108-gis-certification-accreditation",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0047",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "h) Coğrafi bilgi sistemleri ile ilgili sertifikasyon ve akreditasyon çalışmalarının yapılmasını sağlamak,",
+      "sourceQuoteSHA256": "80a37e41c6d8442574b7fc55af455e41f7336e66b77fb9d33039eb0a395c6ea9",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1382]",
+      "requiredSourceFragments": [
+        "h) Coğrafi bilgi sistemleri ile ilgili sertifikasyon ve akreditasyon çalışmalarının yapılmasını sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0047-opt-01",
+      "normalizedCorrectText": "coğrafi bilgi sistemleri genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0047-opt-02",
+        "Q-O01-B-0047-opt-03",
+        "Q-O01-B-0047-opt-04",
+        "Q-O01-B-0047-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0048",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108A-erosion-satellite-purpose",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0048",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "e) Çölleşme ve erozyonla mücadele ile iklim ve çevre amaçlı kullanıma uygun uydu gönderimi veya uydu verilerinin teminine ilişkin iş ve işlemleri yürütmek,",
+      "sourceQuoteSHA256": "df1e7bdc447222208bdfdfbcec39e9b2b435297dd31fd79ede41ad16c9e5df1f",
+      "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1395]",
+      "requiredSourceFragments": [
+        "e) Çölleşme ve erozyonla mücadele ile iklim ve çevre amaçlı kullanıma uygun uydu gönderimi veya uydu verilerinin teminine ilişkin iş ve işlemleri yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0048-opt-01",
+      "normalizedCorrectText": "çölleşme ve erozyonla mücadele ile iklim ve çevre amaçları",
+      "distractorOptionIds": [
+        "Q-O01-B-0048-opt-02",
+        "Q-O01-B-0048-opt-03",
+        "Q-O01-B-0048-opt-04",
+        "Q-O01-B-0048-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0049",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109-overlapping-protected-areas-consultation",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0049",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Tabiat varlıkları, doğal, tarihi, arkeolojik ve kentsel sitler ile koruma statüsü bulunan diğer alanların çakıştığı yerlerde koruma ve kullanma esaslarını ilgili bakanlıkların görüşünü alarak belirlemek ve bu alanların kısmen veya tamamen hangi idarelerce yönetileceğine karar vermek, her tür ve ölçekteki çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak ve onaylamak,",
+      "sourceQuoteSHA256": "42f93f6a44921dfbd21b066ac0bc2adb298e37680d6a9f907fb361165858ac95",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1404]",
+      "requiredSourceFragments": [
+        "ç) Tabiat varlıkları, doğal, tarihi, arkeolojik ve kentsel sitler ile koruma statüsü bulunan diğer alanların çakıştığı yerlerde koruma ve kullanma esaslarını ilgili bakanlıkların görüşünü alarak belirlemek ve bu alanların kısmen veya tamamen hangi idarelerce yönetileceğine karar vermek, her tür ve ölçekteki çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak ve onaylamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0049-opt-01",
+      "normalizedCorrectText": "ilgili bakanlıkların görüşünü almak",
+      "distractorOptionIds": [
+        "Q-O01-B-0049-opt-02",
+        "Q-O01-B-0049-opt-03",
+        "Q-O01-B-0049-opt-04",
+        "Q-O01-B-0049-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0050",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109A-eu-supported-project-payment-accounting",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0050",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "e) Desteklenecek proje ve faaliyetlere ilişkin olarak; projelerin seçimini yapmak, önceliklendirmek, ihale ve sözleşmelerini yapmak ve yürütülmesini sağlamak, ödemelerini gerçekleştirmek ve muhasebeleştirmek, buna ilişkin kontrol, izleme ve değerlendirmeleri yapmak,",
+      "sourceQuoteSHA256": "c4a6eb22a4f86acfa1035f80070f44ed35e5894efd329c51b5758415a4945cb3",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1418]",
+      "requiredSourceFragments": [
+        "e) Desteklenecek proje ve faaliyetlere ilişkin olarak; projelerin seçimini yapmak, önceliklendirmek, ihale ve sözleşmelerini yapmak ve yürütülmesini sağlamak, ödemelerini gerçekleştirmek ve muhasebeleştirmek, buna ilişkin kontrol, izleme ve değerlendirmeleri yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0050-opt-01",
+      "normalizedCorrectText": "ödemelerini gerçekleştirmek ve muhasebeleştirmek",
+      "distractorOptionIds": [
+        "Q-O01-B-0050-opt-02",
+        "Q-O01-B-0050-opt-03",
+        "Q-O01-B-0050-opt-04",
+        "Q-O01-B-0050-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0051",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109A-foreign-delegation-administration",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0051",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "g) Bakanlık faaliyetleri çerçevesinde yurtdışından gelen heyetler ve Bakanlıktan yurtdışına gönderileceklerle ilgili iş ve işlemleri yürütmek,",
+      "sourceQuoteSHA256": "aab69ed0e3445518b7f390a7d76c176dffa35ab93b367fa5136a2ddd714e9117",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1420]",
+      "requiredSourceFragments": [
+        "g) Bakanlık faaliyetleri çerçevesinde yurtdışından gelen heyetler ve Bakanlıktan yurtdışına gönderileceklerle ilgili iş ve işlemleri yürütmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0051-opt-01",
+      "normalizedCorrectText": "avrupa birliği ve dış ilişkiler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0051-opt-02",
+        "Q-O01-B-0051-opt-03",
+        "Q-O01-B-0051-opt-04",
+        "Q-O01-B-0051-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0052",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109B-ministry-training-plan",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0052",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "c) Bakanlığın eğitim planını hazırlamak, uygulamak ve değerlendirmek,",
+      "sourceQuoteSHA256": "edf85e776e579e00c82aeb102794e009d4e64180a193219ef0107147cb85de77",
+      "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1429]",
+      "requiredSourceFragments": [
+        "c) Bakanlığın eğitim planını hazırlamak, uygulamak ve değerlendirmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0052-opt-01",
+      "normalizedCorrectText": "personel genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0052-opt-02",
+        "Q-O01-B-0052-opt-03",
+        "Q-O01-B-0052-opt-04",
+        "Q-O01-B-0052-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0053",
+      "learningObjectiveId": "LO-O01-OFFICIAL-110-inspector-employment-reference",
+      "articleNumber": 110,
+      "ruleId": "RULE-Q-O01-B-0053",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) Başkanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Müfettiş ve Müfettiş Yardımcısı istihdam edilir.",
+      "sourceQuoteSHA256": "e66326e4f9879590c4b812ce6498485b6ceb2d690c62f7fbd5b4debe9c00fb7f",
+      "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1443]",
+      "requiredSourceFragments": [
+        "(2) Başkanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Müfettiş ve Müfettiş Yardımcısı istihdam edilir."
+      ],
+      "correctOptionId": "Q-O01-B-0053-opt-01",
+      "normalizedCorrectText": "375 sayılı khk’nin ek 24. maddesi",
+      "distractorOptionIds": [
+        "Q-O01-B-0053-opt-02",
+        "Q-O01-B-0053-opt-03",
+        "Q-O01-B-0053-opt-04",
+        "Q-O01-B-0053-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0054",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-education-qualification",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0054",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+      "sourceQuoteSHA256": "1dd07f7125a0f983b240a07c23d61a6d2e6fa604ac5d54cbe88fc0b2fe928e51",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]",
+      "requiredSourceFragments": [
+        "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir."
+      ],
+      "correctOptionId": "Q-O01-B-0054-opt-01",
+      "normalizedCorrectText": "en az dört yıllık hukuk, mimarlık veya mühendislik fakültesi ya da yetkili makamlarca denkliği kabul edilmiş yurtdışı karşılığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0054-opt-02",
+        "Q-O01-B-0054-opt-03",
+        "Q-O01-B-0054-opt-04",
+        "Q-O01-B-0054-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0055",
+      "learningObjectiveId": "LO-O01-OFFICIAL-115-public-education-meb-cooperation",
+      "articleNumber": 115,
+      "ruleId": "RULE-Q-O01-B-0055",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ve özel kuruluşlarla işbirliği yapmak, plan ve programların hazırlanmasında, uygulanmasında ve halkın eğitilmesinde Milli Eğitim Bakanlığı ile bilimsel ve gönüllü kuruluşlarla işbirliği yapmak,",
+      "sourceQuoteSHA256": "d120cda09b851352d1286450f9d15d2415ec0d2b2e75d82243c8f4379b3fc2c9",
+      "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1477]",
+      "requiredSourceFragments": [
+        "b) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ve özel kuruluşlarla işbirliği yapmak, plan ve programların hazırlanmasında, uygulanmasında ve halkın eğitilmesinde Milli Eğitim Bakanlığı ile bilimsel ve gönüllü kuruluşlarla işbirliği yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0055-opt-01",
+      "normalizedCorrectText": "millî eğitim bakanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0055-opt-02",
+        "Q-O01-B-0055-opt-03",
+        "Q-O01-B-0055-opt-04",
+        "Q-O01-B-0055-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0056",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-quorum-calculation",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0056",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceQuoteSHA256": "9c64f2452bc58759a68d931a3f2fe43aed7c23fe23a53db1135b6e25b62a25f2",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "requiredSourceFragments": [
+        "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler."
+      ],
+      "correctOptionId": "Q-O01-B-0056-opt-01",
+      "normalizedCorrectText": "12",
+      "distractorOptionIds": [
+        "Q-O01-B-0056-opt-02",
+        "Q-O01-B-0056-opt-03",
+        "Q-O01-B-0056-opt-04",
+        "Q-O01-B-0056-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [
+        "LP-CBK1-112"
+      ],
+      "contextSourceEvidence": [
+        {
+          "legalProvisionId": "LP-CBK1-112",
+          "sourceQuote": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+          "sourceQuoteSHA256": "1dd07f7125a0f983b240a07c23d61a6d2e6fa604ac5d54cbe88fc0b2fe928e51",
+          "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]"
+        }
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0057",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-equal-vote-chair",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0057",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceQuoteSHA256": "9c64f2452bc58759a68d931a3f2fe43aed7c23fe23a53db1135b6e25b62a25f2",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "requiredSourceFragments": [
+        "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler."
+      ],
+      "correctOptionId": "Q-O01-B-0057-opt-01",
+      "normalizedCorrectText": "başkanın taraf olduğu görüş çoğunlukta sayılır",
+      "distractorOptionIds": [
+        "Q-O01-B-0057-opt-02",
+        "Q-O01-B-0057-opt-03",
+        "Q-O01-B-0057-opt-04",
+        "Q-O01-B-0057-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0058",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-abstention-prohibition",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0058",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceQuoteSHA256": "9c64f2452bc58759a68d931a3f2fe43aed7c23fe23a53db1135b6e25b62a25f2",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "requiredSourceFragments": [
+        "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler."
+      ],
+      "correctOptionId": "Q-O01-B-0058-opt-01",
+      "normalizedCorrectText": "üyeler çekimser oy kullanamaz",
+      "distractorOptionIds": [
+        "Q-O01-B-0058-opt-02",
+        "Q-O01-B-0058-opt-03",
+        "Q-O01-B-0058-opt-04",
+        "Q-O01-B-0058-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0059",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-written-dissent",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0059",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceQuoteSHA256": "9c64f2452bc58759a68d931a3f2fe43aed7c23fe23a53db1135b6e25b62a25f2",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "requiredSourceFragments": [
+        "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler."
+      ],
+      "correctOptionId": "Q-O01-B-0059-opt-01",
+      "normalizedCorrectText": "görüşünü yazılı olarak karara eklemek",
+      "distractorOptionIds": [
+        "Q-O01-B-0059-opt-02",
+        "Q-O01-B-0059-opt-03",
+        "Q-O01-B-0059-opt-04",
+        "Q-O01-B-0059-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0060",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-blood-relative-conflict",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0060",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.",
+      "sourceQuoteSHA256": "5be56146ade22db2b5ea1fe83c4daddaf53dbb79d08179117e985b8c50141626",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1464]",
+      "requiredSourceFragments": [
+        "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz."
+      ],
+      "correctOptionId": "Q-O01-B-0060-opt-01",
+      "normalizedCorrectText": "üçüncü dereceye kadar",
+      "distractorOptionIds": [
+        "Q-O01-B-0060-opt-02",
+        "Q-O01-B-0060-opt-03",
+        "Q-O01-B-0060-opt-04",
+        "Q-O01-B-0060-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0061",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-affinity-relative-conflict",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0061",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.",
+      "sourceQuoteSHA256": "5be56146ade22db2b5ea1fe83c4daddaf53dbb79d08179117e985b8c50141626",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1464]",
+      "requiredSourceFragments": [
+        "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz."
+      ],
+      "correctOptionId": "Q-O01-B-0061-opt-01",
+      "normalizedCorrectText": "ikinci dereceye kadar",
+      "distractorOptionIds": [
+        "Q-O01-B-0061-opt-02",
+        "Q-O01-B-0061-opt-03",
+        "Q-O01-B-0061-opt-04",
+        "Q-O01-B-0061-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0062",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-technical-dispute-joint-request",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0062",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "c) Teknik veya fiziki yönden birbirini etkileyen plan ve yapım işleri ile ilgili olarak, kamu kurum ve kuruluşları arasında doğan anlaşmazlıkları, taraf olan idarelerin birlikte talep etmeleri halinde inceleyip karara bağlamak,",
+      "sourceQuoteSHA256": "a62f431f1c1f7e07d4b7bdebf574cd711f234a8bc3b942c7dd4b08d993b2d272",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1454]",
+      "requiredSourceFragments": [
+        "c) Teknik veya fiziki yönden birbirini etkileyen plan ve yapım işleri ile ilgili olarak, kamu kurum ve kuruluşları arasında doğan anlaşmazlıkları, taraf olan idarelerin birlikte talep etmeleri halinde inceleyip karara bağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0062-opt-01",
+      "normalizedCorrectText": "taraf olan idarelerin birlikte talep etmesi",
+      "distractorOptionIds": [
+        "Q-O01-B-0062-opt-02",
+        "Q-O01-B-0062-opt-03",
+        "Q-O01-B-0062-opt-04",
+        "Q-O01-B-0062-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0063",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-environmental-planning-dispute-request",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0063",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "b) Çevre ve imar mevzuatının yürütülmesinden doğan anlaşmazlıkları ilgili idarelerin talebine istinaden inceleyip karara bağlamak,",
+      "sourceQuoteSHA256": "dc14e3cac180c16d4e1ab697927bf717d9d45a13cb4bae1518eb8a03f2dfd9fd",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1453]",
+      "requiredSourceFragments": [
+        "b) Çevre ve imar mevzuatının yürütülmesinden doğan anlaşmazlıkları ilgili idarelerin talebine istinaden inceleyip karara bağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0063-opt-01",
+      "normalizedCorrectText": "ilgili idarelerin talebine",
+      "distractorOptionIds": [
+        "Q-O01-B-0063-opt-02",
+        "Q-O01-B-0063-opt-03",
+        "Q-O01-B-0063-opt-04",
+        "Q-O01-B-0063-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0064",
+      "learningObjectiveId": "LO-O01-OFFICIAL-112-board-public-contract-appendix-reference",
+      "articleNumber": 112,
+      "ruleId": "RULE-Q-O01-B-0064",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "a) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununun ek 1 inci maddesi ile verilen görev ve yetkileri yerine getirmek,",
+      "sourceQuoteSHA256": "8d79cdd217aef44ed3fa1be4b523ddb25ab51437f6debe009f9abd77f0355a17",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1452]",
+      "requiredSourceFragments": [
+        "a) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununun ek 1 inci maddesi ile verilen görev ve yetkileri yerine getirmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0064-opt-01",
+      "normalizedCorrectText": "4735 sayılı kanunun ek 1. maddesi",
+      "distractorOptionIds": [
+        "Q-O01-B-0064-opt-02",
+        "Q-O01-B-0064-opt-03",
+        "Q-O01-B-0064-opt-04",
+        "Q-O01-B-0064-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0065",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109-nonforest-no-build-registration-authority",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0065",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+      "sourceQuoteSHA256": "c88cd56e3964d7ce2899cb10c7998e374cbe40f980e2df9fe161d60b6a1ab684",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+      "requiredSourceFragments": [
+        "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir."
+      ],
+      "correctOptionId": "Q-O01-B-0065-opt-01",
+      "normalizedCorrectText": "cumhurbaşkanı",
+      "distractorOptionIds": [
+        "Q-O01-B-0065-opt-02",
+        "Q-O01-B-0065-opt-03",
+        "Q-O01-B-0065-opt-04",
+        "Q-O01-B-0065-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0066",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109-ordinary-protected-area-minister-approval",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0066",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+      "sourceQuoteSHA256": "c88cd56e3964d7ce2899cb10c7998e374cbe40f980e2df9fe161d60b6a1ab684",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+      "requiredSourceFragments": [
+        "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir."
+      ],
+      "correctOptionId": "Q-O01-B-0066-opt-01",
+      "normalizedCorrectText": "bakanın onayıyla",
+      "distractorOptionIds": [
+        "Q-O01-B-0066-opt-02",
+        "Q-O01-B-0066-opt-03",
+        "Q-O01-B-0066-opt-04",
+        "Q-O01-B-0066-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0067",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109-private-property-no-build-acquisition",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0067",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+      "sourceQuoteSHA256": "c88cd56e3964d7ce2899cb10c7998e374cbe40f980e2df9fe161d60b6a1ab684",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+      "requiredSourceFragments": [
+        "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir."
+      ],
+      "correctOptionId": "Q-O01-B-0067-opt-01",
+      "normalizedCorrectText": "alanların yönetim ve işletmesini üstlenen kuruluşlarca veya bakanlıkça",
+      "distractorOptionIds": [
+        "Q-O01-B-0067-opt-02",
+        "Q-O01-B-0067-opt-03",
+        "Q-O01-B-0067-opt-04",
+        "Q-O01-B-0067-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0068",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109-natural-asset-allocation-forest-exception",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0068",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) Orman alanları dışında yer alan korunması gerekli taşınmaz tabiat varlıkları, koruma alanları ve doğal sit alanlarının Bakanlıkça belirlenen ilke kararlarına, onaylanan planlara uygun olarak kullanılmak üzere tahsisini gerçekleştirmek, uygulamaların tahsis şartlarına uygun olarak gerçekleşmesini izlemek ve denetlemek,",
+      "sourceQuoteSHA256": "0720daf6583218ffffd65ad21e90e79e73bc34165627653bee0ce17e338f59a3",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1405]",
+      "requiredSourceFragments": [
+        "d) Orman alanları dışında yer alan korunması gerekli taşınmaz tabiat varlıkları, koruma alanları ve doğal sit alanlarının Bakanlıkça belirlenen ilke kararlarına, onaylanan planlara uygun olarak kullanılmak üzere tahsisini gerçekleştirmek, uygulamaların tahsis şartlarına uygun olarak gerçekleşmesini izlemek ve denetlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0068-opt-01",
+      "normalizedCorrectText": "orman alanları dışında yer alanlar",
+      "distractorOptionIds": [
+        "Q-O01-B-0068-opt-02",
+        "Q-O01-B-0068-opt-03",
+        "Q-O01-B-0068-opt-04",
+        "Q-O01-B-0068-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0069",
+      "learningObjectiveId": "LO-O01-OFFICIAL-122-revolving-enterprise-regulation",
+      "articleNumber": 122,
+      "ruleId": "RULE-Q-O01-B-0069",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) İşletmelerin görevleri, gelirleri, işleyişi ve denetimi ile diğer hususlar yönetmelikle düzenlenir.",
+      "sourceQuoteSHA256": "2823cfbe0515546a7d1e33c7469dce9f6d8969d9c9120091fd54e0ded089d8c4",
+      "sourceLocator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1525]",
+      "requiredSourceFragments": [
+        "(2) İşletmelerin görevleri, gelirleri, işleyişi ve denetimi ile diğer hususlar yönetmelikle düzenlenir."
+      ],
+      "correctOptionId": "Q-O01-B-0069-opt-01",
+      "normalizedCorrectText": "yönetmelikle",
+      "distractorOptionIds": [
+        "Q-O01-B-0069-opt-02",
+        "Q-O01-B-0069-opt-03",
+        "Q-O01-B-0069-opt-04",
+        "Q-O01-B-0069-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0070",
+      "learningObjectiveId": "LO-O01-OFFICIAL-123-public-obligation-procurement-exclusion",
+      "articleNumber": 123,
+      "ruleId": "RULE-Q-O01-B-0070",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+      "sourceQuoteSHA256": "b274a0ecda8f9483905c83818624e23e25bd9c31d451b13967d3ca2a2875d7e1",
+      "sourceLocator": "1 sayılı CBK m.123; resmî UYAP belge114832; tam HTML p[1528]",
+      "requiredSourceFragments": [
+        "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür."
+      ],
+      "correctOptionId": "Q-O01-B-0070-opt-01",
+      "normalizedCorrectText": "4734 ve 4735 sayılı kanunlara göre ihale edilen işler",
+      "distractorOptionIds": [
+        "Q-O01-B-0070-opt-02",
+        "Q-O01-B-0070-opt-03",
+        "Q-O01-B-0070-opt-04",
+        "Q-O01-B-0070-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0071",
+      "learningObjectiveId": "LO-O01-OFFICIAL-123-public-obligation-contrary-law-condition",
+      "articleNumber": 123,
+      "ruleId": "RULE-Q-O01-B-0071",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+      "sourceQuoteSHA256": "b274a0ecda8f9483905c83818624e23e25bd9c31d451b13967d3ca2a2875d7e1",
+      "sourceLocator": "1 sayılı CBK m.123; resmî UYAP belge114832; tam HTML p[1528]",
+      "requiredSourceFragments": [
+        "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür."
+      ],
+      "correctOptionId": "Q-O01-B-0071-opt-01",
+      "normalizedCorrectText": "ilgili kanunlarında aksine bir hüküm bulunmaması",
+      "distractorOptionIds": [
+        "Q-O01-B-0071-opt-02",
+        "Q-O01-B-0071-opt-03",
+        "Q-O01-B-0071-opt-04",
+        "Q-O01-B-0071-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0072",
+      "learningObjectiveId": "LO-O01-OFFICIAL-124-cadre-legislative-instrument",
+      "articleNumber": 124,
+      "ruleId": "RULE-Q-O01-B-0072",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "MADDE 124 - (1) Kadroların tespiti, ihdası, kullanımı ve iptali ile kadrolara ilişkin diğer hususlar, Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümlerine göre düzenlenir.",
+      "sourceQuoteSHA256": "f239a555139ff34f330a5d3ab876de60cc422e2a40a801ba3b3283e707517caf",
+      "sourceLocator": "1 sayılı CBK m.124; resmî UYAP belge114832; tam HTML p[1531]",
+      "requiredSourceFragments": [
+        "MADDE 124 - (1) Kadroların tespiti, ihdası, kullanımı ve iptali ile kadrolara ilişkin diğer hususlar, Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümlerine göre düzenlenir."
+      ],
+      "correctOptionId": "Q-O01-B-0072-opt-01",
+      "normalizedCorrectText": "genel kadro ve usulü hakkında cumhurbaşkanlığı kararnamesine",
+      "distractorOptionIds": [
+        "Q-O01-B-0072-opt-02",
+        "Q-O01-B-0072-opt-03",
+        "Q-O01-B-0072-opt-04",
+        "Q-O01-B-0072-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0073",
+      "learningObjectiveId": "LO-O01-OFFICIAL-125-expert-personnel-dual-legal-reference",
+      "articleNumber": 125,
+      "ruleId": "RULE-Q-O01-B-0073",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "MADDE 125 – (1) Bakanlık, görev alanına giren konularda çalıştırılmak üzere 657 sayılı Kanunun ek 41 inci maddesine göre Çevre ve Şehircilik Uzmanı ile Çevre ve Şehircilik Uzman Yardımcısı, 657 sayılı Kanunun ek 44 üncü maddesine göre Milli Emlak Uzmanı ve Milli Emlak Uzman Yardımcısı istihdam edebilir.",
+      "sourceQuoteSHA256": "c7d61c4269c817ce6a05142919735124213b0aa86ebeae1feb8ac6c2895ce31b",
+      "sourceLocator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1534]",
+      "requiredSourceFragments": [
+        "MADDE 125 – (1) Bakanlık, görev alanına giren konularda çalıştırılmak üzere 657 sayılı Kanunun ek 41 inci maddesine göre Çevre ve Şehircilik Uzmanı ile Çevre ve Şehircilik Uzman Yardımcısı, 657 sayılı Kanunun ek 44 üncü maddesine göre Milli Emlak Uzmanı ve Milli Emlak Uzman Yardımcısı istihdam edebilir."
+      ],
+      "correctOptionId": "Q-O01-B-0073-opt-01",
+      "normalizedCorrectText": "ek 41. madde ve ek 44. madde",
+      "distractorOptionIds": [
+        "Q-O01-B-0073-opt-02",
+        "Q-O01-B-0073-opt-03",
+        "Q-O01-B-0073-opt-04",
+        "Q-O01-B-0073-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0074",
+      "learningObjectiveId": "LO-O01-OFFICIAL-125-provincial-estate-inspector-scope",
+      "articleNumber": 125,
+      "ruleId": "RULE-Q-O01-B-0074",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) (Değişik:RG-10/6/2020-31151-CK-64/6 md.) Bakanlık taşra teşkilatında milli emlak iş ve işlemleri ile ilgili olarak teftiş, denetim, inceleme ve soruşturma yapmakla görevlendirilmek üzere 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Milli Emlak Denetmeni ve Milli Emlak Denetmen Yardımcısı istihdam edilebilir.",
+      "sourceQuoteSHA256": "0dbba7908d569d5c7d90499c7985e4d3b20d27c1adaee0aff1374a25b2b3a2f2",
+      "sourceLocator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1535]",
+      "requiredSourceFragments": [
+        "(2) (Değişik:RG-10/6/2020-31151-CK-64/6 md.) Bakanlık taşra teşkilatında milli emlak iş ve işlemleri ile ilgili olarak teftiş, denetim, inceleme ve soruşturma yapmakla görevlendirilmek üzere 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Milli Emlak Denetmeni ve Milli Emlak Denetmen Yardımcısı istihdam edilebilir."
+      ],
+      "correctOptionId": "Q-O01-B-0074-opt-01",
+      "normalizedCorrectText": "bakanlık taşra teşkilatında milli emlak işlerinde teftiş, denetim, inceleme ve soruşturma",
+      "distractorOptionIds": [
+        "Q-O01-B-0074-opt-02",
+        "Q-O01-B-0074-opt-03",
+        "Q-O01-B-0074-opt-04",
+        "Q-O01-B-0074-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0075",
+      "learningObjectiveId": "LO-O01-OFFICIAL-120A-foreign-organization-authority",
+      "articleNumber": 120,
+      "ruleId": "RULE-Q-O01-B-0075",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(1) Bakanlık yurtdışı teşkilatı kurmaya yetkilidir.",
+      "sourceQuoteSHA256": "9246b4498aeb3b875e4aedd63267709d199d258cf4b8f8bd771c2378a0c7f26b",
+      "sourceLocator": "1 sayılı CBK m.120/A; resmî UYAP belge114832; tam HTML p[1518]",
+      "requiredSourceFragments": [
+        "(1) Bakanlık yurtdışı teşkilatı kurmaya yetkilidir."
+      ],
+      "correctOptionId": "Q-O01-B-0075-opt-01",
+      "normalizedCorrectText": "bakanlık yurtdışı teşkilatı kurmaya yetkilidir",
+      "distractorOptionIds": [
+        "Q-O01-B-0075-opt-02",
+        "Q-O01-B-0075-opt-03",
+        "Q-O01-B-0075-opt-04",
+        "Q-O01-B-0075-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0076",
+      "learningObjectiveId": "LO-O01-OFFICIAL-121-working-group-plural-participation",
+      "articleNumber": 121,
+      "ruleId": "RULE-Q-O01-B-0076",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "MADDE 121 – (1) Bakanlık, görev alanına giren konularla ilgili olarak çalışmalarda bulunmak üzere diğer bakanlıklar, kamu kurum ve kuruluşları, meslek odaları, sivil toplum kuruluşları, özel sektör temsilcileri ve konu ile ilgili uzmanların katılımı ile çalışma grupları oluşturabilir.",
+      "sourceQuoteSHA256": "58a5fb68f8a38ff03087e51ab9cb5e32525a24609be59e53da7539615baac6cd",
+      "sourceLocator": "1 sayılı CBK m.121; resmî UYAP belge114832; tam HTML p[1521]",
+      "requiredSourceFragments": [
+        "MADDE 121 – (1) Bakanlık, görev alanına giren konularla ilgili olarak çalışmalarda bulunmak üzere diğer bakanlıklar, kamu kurum ve kuruluşları, meslek odaları, sivil toplum kuruluşları, özel sektör temsilcileri ve konu ile ilgili uzmanların katılımı ile çalışma grupları oluşturabilir."
+      ],
+      "correctOptionId": "Q-O01-B-0076-opt-01",
+      "normalizedCorrectText": "kamu kurumları yanında meslek odaları, sivil toplum, özel sektör temsilcileri ve konuyla ilgili uzmanlar",
+      "distractorOptionIds": [
+        "Q-O01-B-0076-opt-02",
+        "Q-O01-B-0076-opt-03",
+        "Q-O01-B-0076-opt-04",
+        "Q-O01-B-0076-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0077",
+      "learningObjectiveId": "LO-O01-OFFICIAL-97-afforestation-coordination-outside-forest",
+      "articleNumber": 97,
+      "ruleId": "RULE-Q-O01-B-0077",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "s) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,",
+      "sourceQuoteSHA256": "45145151183560dcdb75b741f9c9412c05ded2c2337eaf14f3b983c9264067ce",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1211]",
+      "requiredSourceFragments": [
+        "s) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0077-opt-01",
+      "normalizedCorrectText": "ilgili kurumlarla koordinasyon ve gerekli hâllerde orman sınırları dışında özel ağaçlandırma dahil çalışmalar",
+      "distractorOptionIds": [
+        "Q-O01-B-0077-opt-02",
+        "Q-O01-B-0077-opt-03",
+        "Q-O01-B-0077-opt-04",
+        "Q-O01-B-0077-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0078",
+      "learningObjectiveId": "LO-O01-OFFICIAL-103-hazardous-waste-transport-rulemaking",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O01-B-0078",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "j) İlgili kurum ve kuruluşlarla işbirliği içinde atıkların taşınması ile tehlikeli atıkların taşınma lisanslarına ilişkin esasları belirlemek, uygulanmasını sağlamak, izlemek, atık ve kimyasallarla kirlenmiş alanların mevcut kirlilik durumlarını tespit etmek, çevre ve insan sağlığına yönelik risklere ve kirlenmiş alanların iyileştirilmesine ilişkin çalışmaları yapmak ve yaptırmak,",
+      "sourceQuoteSHA256": "03bcab3c08f868c9e82eb6b8824810acc1ea53b452d464531d041e8bca126a2b",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1313]",
+      "requiredSourceFragments": [
+        "j) İlgili kurum ve kuruluşlarla işbirliği içinde atıkların taşınması ile tehlikeli atıkların taşınma lisanslarına ilişkin esasları belirlemek, uygulanmasını sağlamak, izlemek, atık ve kimyasallarla kirlenmiş alanların mevcut kirlilik durumlarını tespit etmek, çevre ve insan sağlığına yönelik risklere ve kirlenmiş alanların iyileştirilmesine ilişkin çalışmaları yapmak ve yaptırmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0078-opt-01",
+      "normalizedCorrectText": "ilgili kurumlarla işbirliği içinde taşıma lisanslarına ilişkin esasları belirlemek, uygulanmasını sağlamak ve izlemek",
+      "distractorOptionIds": [
+        "Q-O01-B-0078-opt-02",
+        "Q-O01-B-0078-opt-03",
+        "Q-O01-B-0078-opt-04",
+        "Q-O01-B-0078-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0079",
+      "learningObjectiveId": "LO-O01-OFFICIAL-107-construction-materials-supervision-stages",
+      "articleNumber": 107,
+      "ruleId": "RULE-Q-O01-B-0079",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "m) Yapı malzemelerinin üretim, satış, nakil ve kullanma safhalarında her türlü mekânda ve ortamda gözetim ve denetimini yapmak, yapı malzemesi numunelerinin test ve deneylerini ilgili standarda göre yapmak, yaptırmak ve laboratuvar altyapısını geliştirmek,",
+      "sourceQuoteSHA256": "2dbbb6eea2fb7560d77d2f75fb3616d0ddb3415585b882de56d9b65a2f07bbee",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1368]",
+      "requiredSourceFragments": [
+        "m) Yapı malzemelerinin üretim, satış, nakil ve kullanma safhalarında her türlü mekânda ve ortamda gözetim ve denetimini yapmak, yapı malzemesi numunelerinin test ve deneylerini ilgili standarda göre yapmak, yaptırmak ve laboratuvar altyapısını geliştirmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0079-opt-01",
+      "normalizedCorrectText": "üretim, satış, nakil ve kullanma",
+      "distractorOptionIds": [
+        "Q-O01-B-0079-opt-02",
+        "Q-O01-B-0079-opt-03",
+        "Q-O01-B-0079-opt-04",
+        "Q-O01-B-0079-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0080",
+      "learningObjectiveId": "LO-O01-OFFICIAL-117-afad-centre-ministry-representation",
+      "articleNumber": 117,
+      "ruleId": "RULE-Q-O01-B-0080",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "c) Afet ve acil durumlara ilişkin olarak Bakanlığı Afet ve Acil Durum Yönetimi Başkanlığı Afet ve Acil Durum Yönetim Merkezinde temsil etmek,",
+      "sourceQuoteSHA256": "f54d6ce8bb8da2a99f60429a403aecc988552e1c31465980bdcd65da31485aa6",
+      "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1496]",
+      "requiredSourceFragments": [
+        "c) Afet ve acil durumlara ilişkin olarak Bakanlığı Afet ve Acil Durum Yönetimi Başkanlığı Afet ve Acil Durum Yönetim Merkezinde temsil etmek,"
+      ],
+      "correctOptionId": "Q-O01-B-0080-opt-01",
+      "normalizedCorrectText": "acil durumlar ve savunma planlaması dairesi başkanlığı",
+      "distractorOptionIds": [
+        "Q-O01-B-0080-opt-02",
+        "Q-O01-B-0080-opt-03",
+        "Q-O01-B-0080-opt-04",
+        "Q-O01-B-0080-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0081",
+      "learningObjectiveId": "LO-O01-OFFICIAL-97-potential-polluting-facility-evaluation",
+      "articleNumber": 97,
+      "ruleId": "RULE-Q-O01-B-0081",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "c) Faaliyetleri sonucu alıcı ortamlara katı, sıvı ve gaz halde atık bırakarak kirlilik oluşturan veya oluşturması muhtemel her türlü tesis ve faaliyetin, çevresel etkilerini değerlendirmek; alıcı ortamlar ile ilgili ölçüm ve izleme çalışmalarını yapmak; bahse konu tesis ve faaliyetleri izlemek, izin vermek, denetlemek ve gürültünün kontrol edilmesini sağlamak,",
+      "sourceQuoteSHA256": "2c88556702c3d45637cb4be47ec05e1ac2e0a056bad77329ff23e7233e0bae3b",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1192]",
+      "requiredSourceFragments": [
+        "c) Faaliyetleri sonucu alıcı ortamlara katı, sıvı ve gaz halde atık bırakarak kirlilik oluşturan veya oluşturması muhtemel her türlü tesis ve faaliyetin, çevresel etkilerini değerlendirmek; alıcı ortamlar ile ilgili ölçüm ve izleme çalışmalarını yapmak; bahse konu tesis ve faaliyetleri izlemek, izin vermek, denetlemek ve gürültünün kontrol edilmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0081-opt-01",
+      "normalizedCorrectText": "muhtemel kirlilik oluşturan tesis de çevresel etki değerlendirme, izleme, izin ve denetim kapsamındaki görev alanına girebilir",
+      "distractorOptionIds": [
+        "Q-O01-B-0081-opt-02",
+        "Q-O01-B-0081-opt-03",
+        "Q-O01-B-0081-opt-04",
+        "Q-O01-B-0081-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0082",
+      "learningObjectiveId": "LO-O01-OFFICIAL-97-defence-nato-construction-exclusion",
+      "articleNumber": 97,
+      "ruleId": "RULE-Q-O01-B-0082",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,",
+      "sourceQuoteSHA256": "f392aa99de612fe09340c36f4eb16f5410e2e78136a15d5d68e592b15d6e796c",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1195]",
+      "requiredSourceFragments": [
+        "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0082-opt-01",
+      "normalizedCorrectText": "msb’nin inşaat millî ve nato altyapı hizmetlerinin bentteki istisna içinde olduğunu dikkate almak",
+      "distractorOptionIds": [
+        "Q-O01-B-0082-opt-02",
+        "Q-O01-B-0082-opt-03",
+        "Q-O01-B-0082-opt-04",
+        "Q-O01-B-0082-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0083",
+      "learningObjectiveId": "LO-O01-OFFICIAL-101-idle-movable-general-budget-limitation",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O01-B-0083",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ğ) Genel bütçe kapsamındaki kamu idarelerinin hizmet dışı kalan taşınırlarının satışını yapmak,",
+      "sourceQuoteSHA256": "928e8edb75238ac728a6ea4283f3c60c3587023df0f8c901446e6abe91f23e05",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1269]",
+      "requiredSourceFragments": [
+        "ğ) Genel bütçe kapsamındaki kamu idarelerinin hizmet dışı kalan taşınırlarının satışını yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0083-opt-01",
+      "normalizedCorrectText": "milli emlak genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0083-opt-02",
+        "Q-O01-B-0083-opt-03",
+        "Q-O01-B-0083-opt-04",
+        "Q-O01-B-0083-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0084",
+      "learningObjectiveId": "LO-O01-OFFICIAL-101-estate-receivables-before-collection",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O01-B-0084",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "k) Görev alanına giren konulardaki alacakların süresinde ve mevzuata uygun olarak takip edilerek tahsil aşamasına getirilmesi için gerekli tedbirleri almak,",
+      "sourceQuoteSHA256": "a57164501e4daf8c56eedcbf3361fd198acc5ca4eccf93e87e324119a6f337ef",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1274]",
+      "requiredSourceFragments": [
+        "k) Görev alanına giren konulardaki alacakların süresinde ve mevzuata uygun olarak takip edilerek tahsil aşamasına getirilmesi için gerekli tedbirleri almak,"
+      ],
+      "correctOptionId": "Q-O01-B-0084-opt-01",
+      "normalizedCorrectText": "alacağı süresinde ve mevzuata uygun takip ederek tahsil aşamasına getirecek tedbirleri almak",
+      "distractorOptionIds": [
+        "Q-O01-B-0084-opt-02",
+        "Q-O01-B-0084-opt-03",
+        "Q-O01-B-0084-opt-04",
+        "Q-O01-B-0084-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0085",
+      "learningObjectiveId": "LO-O01-OFFICIAL-102-sectoral-plan-spatial-compatibility",
+      "articleNumber": 102,
+      "ruleId": "RULE-Q-O01-B-0085",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Sektörel planların havza veya bölge düzeyindeki mekânsal strateji planlarına ve çevre düzeni planlarına uyumlu hazırlanmasını sağlamak,",
+      "sourceQuoteSHA256": "9a87c534426e90e0c618eb11e3a89b74ed745266160539338f7e5d2d4fa12eb4",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1284]",
+      "requiredSourceFragments": [
+        "ç) Sektörel planların havza veya bölge düzeyindeki mekânsal strateji planlarına ve çevre düzeni planlarına uyumlu hazırlanmasını sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0085-opt-01",
+      "normalizedCorrectText": "sektörel planın havza veya bölge düzeyindeki mekânsal strateji ve çevre düzeni planlarına uyumlu hazırlanmasını sağlamak",
+      "distractorOptionIds": [
+        "Q-O01-B-0085-opt-02",
+        "Q-O01-B-0085-opt-03",
+        "Q-O01-B-0085-opt-04",
+        "Q-O01-B-0085-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0086",
+      "learningObjectiveId": "LO-O01-OFFICIAL-102-interadministrative-planning-dispute-resolution",
+      "articleNumber": 102,
+      "ruleId": "RULE-Q-O01-B-0086",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "h) İdarelerin ihtilafı halinde, genel imar düzeni ve uyumunu sağlamak üzere, her türlü etüt, harita ve imar planı, plan değişikliği, plan revizyonu, parselasyon planı hazırlanması, onaylanması ve uygulanmasında koordinasyon sağlamak, ihtilafları gidermek, gerektiğinde ihtilaf konusu işi resen yapmak, yaptırmak ve onaylamak,",
+      "sourceQuoteSHA256": "90a45d9dd9cdf85c4d594367beb60b31395dde5ab513b18f6c94820475aff638",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1290]",
+      "requiredSourceFragments": [
+        "h) İdarelerin ihtilafı halinde, genel imar düzeni ve uyumunu sağlamak üzere, her türlü etüt, harita ve imar planı, plan değişikliği, plan revizyonu, parselasyon planı hazırlanması, onaylanması ve uygulanmasında koordinasyon sağlamak, ihtilafları gidermek, gerektiğinde ihtilaf konusu işi resen yapmak, yaptırmak ve onaylamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0086-opt-01",
+      "normalizedCorrectText": "koordinasyon sağlamak, ihtilafı gidermek ve gerektiğinde ihtilaf konusu işi resen yapmak, yaptırmak ve onaylamak",
+      "distractorOptionIds": [
+        "Q-O01-B-0086-opt-02",
+        "Q-O01-B-0086-opt-03",
+        "Q-O01-B-0086-opt-04",
+        "Q-O01-B-0086-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0087",
+      "learningObjectiveId": "LO-O01-OFFICIAL-102-plan-hierarchy-contradiction-correction",
+      "articleNumber": 102,
+      "ruleId": "RULE-Q-O01-B-0087",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "(2) Çevre düzeni planlarının Bakanlıkça belirlenen mekânsal strateji planlarına, imar planlarının ise mekânsal strateji planlarına veya çevre düzeni planlarına aykırılığının tespit edilmesi halinde ilgili idareler Bakanlıkça verilen süre içerisinde aykırılıkları giderir.",
+      "sourceQuoteSHA256": "e688dbac562b44feff82e6e11d70c532282dfa9464cae3c9112ab9418c2d5bc1",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1296]",
+      "requiredSourceFragments": [
+        "(2) Çevre düzeni planlarının Bakanlıkça belirlenen mekânsal strateji planlarına, imar planlarının ise mekânsal strateji planlarına veya çevre düzeni planlarına aykırılığının tespit edilmesi halinde ilgili idareler Bakanlıkça verilen süre içerisinde aykırılıkları giderir."
+      ],
+      "correctOptionId": "Q-O01-B-0087-opt-01",
+      "normalizedCorrectText": "bakanlıkça verilen süre içinde aykırılığı gidermek",
+      "distractorOptionIds": [
+        "Q-O01-B-0087-opt-02",
+        "Q-O01-B-0087-opt-03",
+        "Q-O01-B-0087-opt-04",
+        "Q-O01-B-0087-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0088",
+      "learningObjectiveId": "LO-O01-OFFICIAL-103-waste-source-reduction-policy",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O01-B-0088",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "i) Atıkların kaynağında en aza indirilmesi, sınıflara ayrılması, toplanması, taşınması, geçici depolanması, geri kazanılması, bertaraf edilmesi, yeniden kullanılması, arıtılması, enerjiye dönüştürülmesi ve nihai depolanması konularında politika ve stratejilerin belirlemesi amacıyla çalışmalar yapmak,",
+      "sourceQuoteSHA256": "9d75a20ee30589b260b305b0cbda01ea72f6c8b98ffad790fd07e9d3db82431b",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1312]",
+      "requiredSourceFragments": [
+        "i) Atıkların kaynağında en aza indirilmesi, sınıflara ayrılması, toplanması, taşınması, geçici depolanması, geri kazanılması, bertaraf edilmesi, yeniden kullanılması, arıtılması, enerjiye dönüştürülmesi ve nihai depolanması konularında politika ve stratejilerin belirlemesi amacıyla çalışmalar yapmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0088-opt-01",
+      "normalizedCorrectText": "çevre yönetimi genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0088-opt-02",
+        "Q-O01-B-0088-opt-03",
+        "Q-O01-B-0088-opt-04",
+        "Q-O01-B-0088-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0089",
+      "learningObjectiveId": "LO-O01-OFFICIAL-103-visual-pollution-in-settled-areas",
+      "articleNumber": 103,
+      "ruleId": "RULE-Q-O01-B-0089",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "o) Yerleşik alanlarda bina ve sair yapılarda görüntü kirliliğine yol açan uygulamaları önleyici tedbirler almak,",
+      "sourceQuoteSHA256": "aed41fb2a5e61fc04990dda644b034617a4666220916a8c858a15214b7d16552",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1318]",
+      "requiredSourceFragments": [
+        "o) Yerleşik alanlarda bina ve sair yapılarda görüntü kirliliğine yol açan uygulamaları önleyici tedbirler almak,"
+      ],
+      "correctOptionId": "Q-O01-B-0089-opt-01",
+      "normalizedCorrectText": "görüntü kirliliğine yol açan uygulamaları önleyici tedbirler almak",
+      "distractorOptionIds": [
+        "Q-O01-B-0089-opt-02",
+        "Q-O01-B-0089-opt-03",
+        "Q-O01-B-0089-opt-04",
+        "Q-O01-B-0089-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0090",
+      "learningObjectiveId": "LO-O01-OFFICIAL-104-dangerous-environmental-activity-stoppage",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O01-B-0090",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü, titreşim ve iyonlaştırıcı olmayan radyasyon ile ilgili faaliyetleri izlemek, yeraltı ve yerüstü sularına, denizlere ve toprağa olumsuz etkileri olan her türlü faaliyeti belirlemek, denetlemek, tehlikeli hallerde veya gerekli durumlarda faaliyetleri durdurmak,",
+      "sourceQuoteSHA256": "753b675834ffacd3e29988588ab840cbbaa10e0fcc91100867e7e378bbbcd258",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1328]",
+      "requiredSourceFragments": [
+        "ç) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü, titreşim ve iyonlaştırıcı olmayan radyasyon ile ilgili faaliyetleri izlemek, yeraltı ve yerüstü sularına, denizlere ve toprağa olumsuz etkileri olan her türlü faaliyeti belirlemek, denetlemek, tehlikeli hallerde veya gerekli durumlarda faaliyetleri durdurmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0090-opt-01",
+      "normalizedCorrectText": "faaliyeti durdurmak",
+      "distractorOptionIds": [
+        "Q-O01-B-0090-opt-02",
+        "Q-O01-B-0090-opt-03",
+        "Q-O01-B-0090-opt-04",
+        "Q-O01-B-0090-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0091",
+      "learningObjectiveId": "LO-O01-OFFICIAL-104-waste-disposal-plant-licensing",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O01-B-0091",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "g) Her türlü atık bertaraf tesisine lisans vermek, bunları izlemek ve denetlemek,",
+      "sourceQuoteSHA256": "cfbbaa121050c6dc8853f36e705398d40c618db42c825b9b8d020b6b157dd7a8",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1332]",
+      "requiredSourceFragments": [
+        "g) Her türlü atık bertaraf tesisine lisans vermek, bunları izlemek ve denetlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0091-opt-01",
+      "normalizedCorrectText": "çevresel etki değerlendirmesi, izin ve denetim genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0091-opt-02",
+        "Q-O01-B-0091-opt-03",
+        "Q-O01-B-0091-opt-04",
+        "Q-O01-B-0091-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0092",
+      "learningObjectiveId": "LO-O01-OFFICIAL-107-building-cooperative-register",
+      "articleNumber": 107,
+      "ruleId": "RULE-Q-O01-B-0092",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "k) Yapı kooperatiflerinin ve üst birliklerinin kurulması, işleyişi ve denetlenmesine ilişkin iş ve işlemleri yürütmek, kuruluş kayıtlarının ve sicillerinin tutulmasını sağlamak ve uygulamaları denetlemek,",
+      "sourceQuoteSHA256": "ba707432dd7bac070e71af714242659d16efa2113aff37e126c9ec0623407c0a",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1366]",
+      "requiredSourceFragments": [
+        "k) Yapı kooperatiflerinin ve üst birliklerinin kurulması, işleyişi ve denetlenmesine ilişkin iş ve işlemleri yürütmek, kuruluş kayıtlarının ve sicillerinin tutulmasını sağlamak ve uygulamaları denetlemek,"
+      ],
+      "correctOptionId": "Q-O01-B-0092-opt-01",
+      "normalizedCorrectText": "mesleki hizmetler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0092-opt-02",
+        "Q-O01-B-0092-opt-03",
+        "Q-O01-B-0092-opt-04",
+        "Q-O01-B-0092-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0093",
+      "learningObjectiveId": "LO-O01-OFFICIAL-107-environment-consultant-professional-training",
+      "articleNumber": 107,
+      "ruleId": "RULE-Q-O01-B-0093",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "i) Çevresel etki değerlendirmesi raporu hazırlanmasında, çevre laboratuvarları, çevre danışmanlık firmaları ile belediyelerin çevre koruma tesislerinin projelerinde ve işletilmesinde görev alacak elemanları eğitmek, proje ve tesis ölçütlerini geliştirmek ve mesleki yetkinliği artırmak,",
+      "sourceQuoteSHA256": "2c24fb21d885c514deb98a17ea5421e7f7b78453d7d0e9c79c4bf99dabdef63f",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1364]",
+      "requiredSourceFragments": [
+        "i) Çevresel etki değerlendirmesi raporu hazırlanmasında, çevre laboratuvarları, çevre danışmanlık firmaları ile belediyelerin çevre koruma tesislerinin projelerinde ve işletilmesinde görev alacak elemanları eğitmek, proje ve tesis ölçütlerini geliştirmek ve mesleki yetkinliği artırmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0093-opt-01",
+      "normalizedCorrectText": "mesleki hizmetler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0093-opt-02",
+        "Q-O01-B-0093-opt-03",
+        "Q-O01-B-0093-opt-04",
+        "Q-O01-B-0093-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0094",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108-external-geodata-ministry-use",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0094",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "d) Ulusal Coğrafi Bilgi Sistemi kapsamına giren tüm konularda, resmi ve özel kurum ve kuruluşlarca üretilen verilerin Bakanlık birimlerince kullanılmasını ve değerlendirilmesini sağlamak,",
+      "sourceQuoteSHA256": "7490d07fd0126072b7a9d38079b0cd4e7fc7a1489f9d710f4939ad1a10f6c208",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1377]",
+      "requiredSourceFragments": [
+        "d) Ulusal Coğrafi Bilgi Sistemi kapsamına giren tüm konularda, resmi ve özel kurum ve kuruluşlarca üretilen verilerin Bakanlık birimlerince kullanılmasını ve değerlendirilmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0094-opt-01",
+      "normalizedCorrectText": "resmî ve özel kuruluşların ürettiği verilerin bakanlık birimlerince kullanılması ve değerlendirilmesi sağlanır",
+      "distractorOptionIds": [
+        "Q-O01-B-0094-opt-02",
+        "Q-O01-B-0094-opt-03",
+        "Q-O01-B-0094-opt-04",
+        "Q-O01-B-0094-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0095",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108-international-data-sharing-network",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0095",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ğ) Uluslararası veri paylaşım ağlarına katılmak,",
+      "sourceQuoteSHA256": "fe561dd83b8fbd7fb85b68dc7c653c60f4b249448028820e1dfde0a848ade907",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1381]",
+      "requiredSourceFragments": [
+        "ğ) Uluslararası veri paylaşım ağlarına katılmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0095-opt-01",
+      "normalizedCorrectText": "uluslararası veri paylaşım ağlarına katılmak cbs genel müdürlüğünün görevleri arasındadır",
+      "distractorOptionIds": [
+        "Q-O01-B-0095-opt-02",
+        "Q-O01-B-0095-opt-03",
+        "Q-O01-B-0095-opt-04",
+        "Q-O01-B-0095-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0096",
+      "learningObjectiveId": "LO-O01-OFFICIAL-108A-erosion-university-research-cooperation",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O01-B-0096",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Üniversiteler ve Ar-Ge kuruluşlarıyla birlikte araştırma ve geliştirme faaliyetleri yürütmek, izleme ve değerlendirme sistemleri kurmak, eğitim, yayın ve tanıtım faaliyetlerinde bulunmak,",
+      "sourceQuoteSHA256": "d4b1f8f556452e983877d3f2c5d6abda51d70099a1e63231a5cab91d706bc39b",
+      "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1393]",
+      "requiredSourceFragments": [
+        "ç) Üniversiteler ve Ar-Ge kuruluşlarıyla birlikte araştırma ve geliştirme faaliyetleri yürütmek, izleme ve değerlendirme sistemleri kurmak, eğitim, yayın ve tanıtım faaliyetlerinde bulunmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0096-opt-01",
+      "normalizedCorrectText": "çölleşme ve erozyonla mücadele genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0096-opt-02",
+        "Q-O01-B-0096-opt-03",
+        "Q-O01-B-0096-opt-04",
+        "Q-O01-B-0096-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0097",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109-protected-area-public-investment-support",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0097",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "e) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerine ilişkin olarak; hâlihazır haritaları aldırmak, gerekli görülen projeleri yapmak, yaptırmak ve onaylamak, her türlü araştırma ve inceleme yapmak, yaptırmak, izlemek, eğitim ve bilinçlendirme çalışmaları yürütmek, kullanım yasağı getirilen alanların kamulaştırma veya benzer yollarla kamunun eline geçirilmesini sağlamak, kontrol ve denetim yapmak, gerekli görülen alanların korunması ve kirliliğin önlenmesi amacıyla yatırım yapmak veya ilgili idarelerin yatırım projelerini desteklemek, bu alan ve bölgelerde Devletin hüküm ve tasarrufu altındaki yerlere ilişkin her türlü tasarrufta bulunmak, işletmek, işlettirmek ve kullanım izinlerini vermek, korunan alanlara ilişkin insan ve finansman kaynağı sağlamak,",
+      "sourceQuoteSHA256": "40e39e123745f73c6398370b51b43987aa0c298d51be4b05833737c38ce20c58",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1406]",
+      "requiredSourceFragments": [
+        "e) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerine ilişkin olarak; hâlihazır haritaları aldırmak, gerekli görülen projeleri yapmak, yaptırmak ve onaylamak, her türlü araştırma ve inceleme yapmak, yaptırmak, izlemek, eğitim ve bilinçlendirme çalışmaları yürütmek, kullanım yasağı getirilen alanların kamulaştırma veya benzer yollarla kamunun eline geçirilmesini sağlamak, kontrol ve denetim yapmak, gerekli görülen alanların korunması ve kirliliğin önlenmesi amacıyla yatırım yapmak veya ilgili idarelerin yatırım projelerini desteklemek, bu alan ve bölgelerde Devletin hüküm ve tasarrufu altındaki yerlere ilişkin her türlü tasarrufta bulunmak, işletmek, işlettirmek ve kullanım izinlerini vermek, korunan alanlara ilişkin insan ve finansman kaynağı sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0097-opt-01",
+      "normalizedCorrectText": "gerekli görülen alanların korunması ve kirliliğin önlenmesi amacıyla ilgili idarelerin yatırım projeleri desteklenebilir",
+      "distractorOptionIds": [
+        "Q-O01-B-0097-opt-02",
+        "Q-O01-B-0097-opt-03",
+        "Q-O01-B-0097-opt-04",
+        "Q-O01-B-0097-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0098",
+      "learningObjectiveId": "LO-O01-OFFICIAL-109A-foreign-relations-protocol-routing",
+      "articleNumber": 109,
+      "ruleId": "RULE-Q-O01-B-0098",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ğ) Yurtdışı ilişkilerle ilgili protokol işlemlerinin yürütülmesini sağlamak,",
+      "sourceQuoteSHA256": "4cc8687547c244be74a7332151c14089cff4a1080f61c323cc2ebcdc5d2c6139",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1421]",
+      "requiredSourceFragments": [
+        "ğ) Yurtdışı ilişkilerle ilgili protokol işlemlerinin yürütülmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0098-opt-01",
+      "normalizedCorrectText": "avrupa birliği ve dış ilişkiler genel müdürlüğü",
+      "distractorOptionIds": [
+        "Q-O01-B-0098-opt-02",
+        "Q-O01-B-0098-opt-03",
+        "Q-O01-B-0098-opt-04",
+        "Q-O01-B-0098-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0099",
+      "learningObjectiveId": "LO-O01-OFFICIAL-117-afad-requested-capability-direction",
+      "articleNumber": 117,
+      "ruleId": "RULE-Q-O01-B-0099",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "ç) Afet ve acil durumlarda, ilgili mevzuat çerçevesinde Afet ve Acil Durum Yönetimi Başkanlığınca talep edilen imkân ve kabiliyetlerin yönlendirilmesi ile Bakanlığın sorumluluğundaki iş ve işlemlerin yerine getirilmesini sağlamak,",
+      "sourceQuoteSHA256": "d0b63b7f452f65ec15b743982fed0d9bf944aab7933a93a13e634e7e5e809d2b",
+      "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1497]",
+      "requiredSourceFragments": [
+        "ç) Afet ve acil durumlarda, ilgili mevzuat çerçevesinde Afet ve Acil Durum Yönetimi Başkanlığınca talep edilen imkân ve kabiliyetlerin yönlendirilmesi ile Bakanlığın sorumluluğundaki iş ve işlemlerin yerine getirilmesini sağlamak,"
+      ],
+      "correctOptionId": "Q-O01-B-0099-opt-01",
+      "normalizedCorrectText": "ilgili mevzuat çerçevesinde istenen imkân ve kabiliyetleri yönlendirerek bakanlığın sorumluluğundaki işleri yerine getirmesini sağlamak",
+      "distractorOptionIds": [
+        "Q-O01-B-0099-opt-02",
+        "Q-O01-B-0099-opt-03",
+        "Q-O01-B-0099-opt-04",
+        "Q-O01-B-0099-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O01-B-0100",
+      "learningObjectiveId": "LO-O01-OFFICIAL-116-ministry-facility-services-outsourcing",
+      "articleNumber": 116,
+      "ruleId": "RULE-Q-O01-B-0100",
+      "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+      "sourceContentHash": "237956af81c86a6347efe010ab51b6aee2f8b773a25977bdfe7d238b802ed094",
+      "sourceQuote": "a) 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu hükümleri çerçevesinde, kiralama ve satın alma işlerini yürütmek, temizlik, güvenlik, aydınlatma, ısıtma, onarım, taşıma ve benzeri hizmetleri yapmak veya yaptırmak,",
+      "sourceQuoteSHA256": "084a5daca05cefbe69f6bf48f8675327b7316998e4f4900036fd6f975d370874",
+      "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1486]",
+      "requiredSourceFragments": [
+        "a) 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu hükümleri çerçevesinde, kiralama ve satın alma işlerini yürütmek, temizlik, güvenlik, aydınlatma, ısıtma, onarım, taşıma ve benzeri hizmetleri yapmak veya yaptırmak,"
+      ],
+      "correctOptionId": "Q-O01-B-0100-opt-01",
+      "normalizedCorrectText": "destek hizmetleri dairesi başkanlığı bu hizmetleri yapmak veya yaptırmakla görevlidir",
+      "distractorOptionIds": [
+        "Q-O01-B-0100-opt-02",
+        "Q-O01-B-0100-opt-03",
+        "Q-O01-B-0100-opt-04",
+        "Q-O01-B-0100-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Requires independent review of single correct answer, exceptions, distractors and current observed official provision. Exact quote checks alone are not legal approval.",
+      "contextLegalProvisionIds": [],
+      "contextSourceEvidence": [],
+      "preparationOnly": true
+    }
+  ]
+}

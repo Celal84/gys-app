@@ -1,0 +1,1407 @@
+{
+  "schemaVersion": 1,
+  "snapshot": {
+    "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+    "sourceId": "SRC-OFFICIAL-657-UYAP",
+    "lawNumber": 657,
+    "lawTitle": "DEVLET MEMURLARI KANUNU",
+    "authority": "T.C. Adalet Bakanlığı UYAP Mevzuat ve İçtihat Programı",
+    "documentURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+    "canonicalLegislationURL": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "transportURL": "https://bedesten.adalet.gov.tr/mevzuat/getDocumentContent",
+    "requestMethod": "POST",
+    "requestBody": {
+      "data": {
+        "documentType": "MEVZUAT",
+        "id": "102924"
+      },
+      "applicationName": "UyapMevzuat"
+    },
+    "requestHeadersRequired": {
+      "Content-Type": "application/json; charset=utf-8",
+      "AdaletApplicationName": "UyapMevzuat"
+    },
+    "authentication": "Public endpoint used by official site; no token or credential supplied.",
+    "retrievedAt": "2026-11-06T12:26:39.739481+00:00",
+    "responseDateHeader": "Fri, 06 Nov 2026 12:26:36 GMT",
+    "responseStatus": 200,
+    "rawResponseSHA256": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+    "rawResponseByteLength": 2367404,
+    "decodedHTMLSHA256": "b4645c93cb71d5f50a14af49425ac1f226473e0e7d5fe40db921ae12f3cbb50e",
+    "decodedHTMLByteLength": 1775335,
+    "declaredMIMEType": "text/html",
+    "actualDecodedEncoding": "UTF-8",
+    "declaredHTMLCharset": "Windows-1254 (legacy header; response bytes are UTF-8)",
+    "officialContentVersion": 503,
+    "officialRecordDate": "2026-07-31T11:26:51.483",
+    "officialRecordUpdatedAt": null,
+    "observedArticleNodeUpdatedAt": "2026-07-31T11:56:35.000+00:00 .. 2026-07-31T11:56:36.000+00:00",
+    "legalVersionStage": "Preparation",
+    "examCutoffDate": "2027-01-01",
+    "examVersionFinalized": false,
+    "adoptionDate": "1965-07-14",
+    "originalPublicationDate": "1965-07-23",
+    "originalOfficialGazetteNumber": "12056",
+    "originalEffectiveDate": null,
+    "originalEffectiveDateStatus": "Kanunun farklı hükümlerinin tarihsel yürürlük başlangıcı bu alımdan kesinleştirilmedi; yayımlanma tarihi yürürlük tarihi sayılmadı. Mevcut metinde 238. madde mülgadır.",
+    "transitionalProvisionsStatus": "NotIndependentlyResolved",
+    "amendmentDatesArePublicationDates": false,
+    "legalCutoffAssessment": "01.01.2027 henüz gelmedi. Bu paket 06.11.2026 tarihinde resmî hizmetin sunduğu hazırlık metnidir; nihai sınav mevzuatı olduğu iddia edilmez. Sonradan yürürlüğe girecek veya geçiş hükmüne tabi değişiklikler için ayrı inceleme gerekir.",
+    "latestAmendmentsObservedInOfficialFullText": [
+      {
+        "law": "7573",
+        "adoptionDate": "2026-01-23",
+        "articles": [
+          56,
+          57,
+          127
+        ],
+        "effectiveDateAsListedInOfficialAmendmentTable": "2026-01-29"
+      },
+      {
+        "law": "7578",
+        "adoptionDate": "2026-04-22",
+        "articles": [
+          104
+        ],
+        "effectiveDateAsListedInOfficialAmendmentTable": "2026-05-01"
+      },
+      {
+        "law": "7590",
+        "adoptionDate": "2026-07-24",
+        "articles": [
+          68
+        ],
+        "effectiveDateAsListedInOfficialAmendmentTable": "2026-07-31"
+      }
+    ],
+    "rightsBasis": "5846 sayılı Fikir ve Sanat Eserleri Kanunu m.31 kapsamında resmen yayımlanan kanun metni; resmî mevzuat alıntısı, Drive notu değildir.",
+    "privateImmutableArchive": ".local-sources/official-law-657/snapshots/e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+    "extractionMethod": "Python html.parser.HTMLParser(convert_charrefs=True); preserve HTML paragraph order, headings, footnotes; normalize whitespace only. All excerpt paragraphs matched normalized full official HTML text.",
+    "sourceVerificationStatus": "OfficialSourceRetrieved",
+    "questionApprovalStatus": "NotAssessedHere",
+    "accessAttempts": [
+      {
+        "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.657.pdf",
+        "result": "Timeout; no content retrieved"
+      },
+      {
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.657.pdf",
+        "result": "Timeout; no content retrieved"
+      },
+      {
+        "url": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+        "result": "Official JS application; its public content service retrieved successfully"
+      }
+    ],
+    "offlinePublicArticleArchive": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8"
+  },
+  "provisions": [
+    {
+      "legalProvisionId": "LP-657-3",
+      "articleNumber": 3,
+      "title": "Temel ilkeler:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653311",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:35.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:53.743665+00:00",
+      "rawResponseSHA256": "9225b43084be0ef1a4badcfe4b8afc61f184fca2a567cf63ffe0e2392b3e573e",
+      "htmlSHA256": "ee89258b84824c401b193e7a3daae7e41d0cebef288f973adb5cc3d87d664dda",
+      "text": "Temel ilkeler:\nMadde 3 – Bu kanunun temel ilkeleri şunlardır:\nSınıflandırma:\nA) (Değişik: 31/7/1970 - 1327/2 md.) Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan Devlet memurlarını görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmaktır.\nKariyer:\nB) Devlet memurlarına, yaptıkları hizmetler için lüzumlu bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkanını sağlamaktır.\nLiyakat:\nC) Devlet kamu hizmetleri görevlerine girmeyi, sınıflar içinde ilerleme ve yükselmeyi, görevin sona erdirilmesini liyakat sistemine dayandırmak ve bu sistemin eşit imkanlarla uygulanmasında Devlet memurlarını güvenliğe sahip kılmaktır.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Temel ilkeler:",
+          "textSHA256": "5ad4b1298d837ab8249ba8412b73ace831a87074b424c68d024aa43b29d4533c",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "provision",
+          "text": "Madde 3 – Bu kanunun temel ilkeleri şunlardır:",
+          "textSHA256": "89d08617aa7a3f18cbe32fce3a960e7a4db63891626bdc75db192135194bc425",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Sınıflandırma:",
+          "textSHA256": "c445cd9be6476b2bb7bbddedf89ae60feceab109239eb5388196eb9edb9ecc80",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 4,
+          "kind": "provision",
+          "text": "A) (Değişik: 31/7/1970 - 1327/2 md.) Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan Devlet memurlarını görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmaktır.",
+          "textSHA256": "6cfdc93ae7ea3676384ae38970d42eabbc1fc809ce2d6d9b5f061c24cec76b83",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[4]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 5,
+          "kind": "provision",
+          "text": "Kariyer:",
+          "textSHA256": "4b216755bbe6a9f72b63d3fc6c647174353ea346449ed0af00690a8e8eb7a3a9",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[5]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 6,
+          "kind": "provision",
+          "text": "B) Devlet memurlarına, yaptıkları hizmetler için lüzumlu bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkanını sağlamaktır.",
+          "textSHA256": "2b0a02a9f4b994e09e9cee837646911a7ebeeb9bab94bf3b6b6e7f53f4d3a6d1",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[6]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 7,
+          "kind": "provision",
+          "text": "Liyakat:",
+          "textSHA256": "661d9624dc5e24331cea2be020ebe6e1525224c2d76e236e7af8ccca33d4dcf3",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[7]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 8,
+          "kind": "provision",
+          "text": "C) Devlet kamu hizmetleri görevlerine girmeyi, sınıflar içinde ilerleme ve yükselmeyi, görevin sona erdirilmesini liyakat sistemine dayandırmak ve bu sistemin eşit imkanlarla uygulanmasında Devlet memurlarını güvenliğe sahip kılmaktır.",
+          "textSHA256": "cc55a8cfe7d501757ccd2191182c56c023e585314e9db9561184ef95380710b2",
+          "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[8]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/3-ee89258b84824c401b193e7a3daae7e41d0cebef288f973adb5cc3d87d664dda.html",
+      "artifactByteLength": 2255
+    },
+    {
+      "legalProvisionId": "LP-657-54",
+      "articleNumber": 54,
+      "title": "Adaylığa kabul edilme:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653485",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:35.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:53.909648+00:00",
+      "rawResponseSHA256": "8aa0fb28219056a9f559b49a413715602c980e25c6d5eaa125779c5391fade4c",
+      "htmlSHA256": "c12fa3f5e549365879f976c84b34570ec0ec2167ac38769f3b7d376efc89e743",
+      "text": "Adaylığa kabul edilme:\nMadde 54 – (Değişik: 12/5/1982 - 2670/19 md.)\nSınavlarda başarılı olanlardan Devlet memurluğuna girmek isteyenler başarı listesindeki sıraya ve 47 nci maddeye göre ilan edilen kadro sayısı kadar, kurumlarınca memur adayı olarak atanırlar.\nAday olarak atanmış Devlet memurunun adaylık süresi bir yıldan az iki yıldan çok olamaz ve bu süre içinde aday memurun başka kurumlara nakli yapılamaz.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Adaylığa kabul edilme:",
+          "textSHA256": "dd4656f806338eef93f1fbf6f915d4c0fafa0a3965c53e7f6393bec37339b842",
+          "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "articleHeader",
+          "text": "Madde 54 – (Değişik: 12/5/1982 - 2670/19 md.)",
+          "textSHA256": "03fc6b355b4ab108c189ff1635fea5111aea85bffd3b20f61cb02baa6ae55d94",
+          "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Sınavlarda başarılı olanlardan Devlet memurluğuna girmek isteyenler başarı listesindeki sıraya ve 47 nci maddeye göre ilan edilen kadro sayısı kadar, kurumlarınca memur adayı olarak atanırlar.",
+          "textSHA256": "531ead73851bcffb651647da962085e98bd4eb6f81dce22a4a87ce9cb67f43f8",
+          "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 4,
+          "kind": "provision",
+          "text": "Aday olarak atanmış Devlet memurunun adaylık süresi bir yıldan az iki yıldan çok olamaz ve bu süre içinde aday memurun başka kurumlara nakli yapılamaz.",
+          "textSHA256": "de029a026a948a7aceeeebf77f6924c7b0acf4de1c37b6544ebd2f71c74f3db6",
+          "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[4]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/54-c12fa3f5e549365879f976c84b34570ec0ec2167ac38769f3b7d376efc89e743.html",
+      "artifactByteLength": 1177
+    },
+    {
+      "legalProvisionId": "LP-657-94",
+      "articleNumber": 94,
+      "title": "Çekilme:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653613",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:53.627536+00:00",
+      "rawResponseSHA256": "328ebc7f16ed967ff1b80095dcbd422652425c540f709127b445180d11a90f69",
+      "htmlSHA256": "1d3f501e949928ad03ca7aa3fc3fade47faea910fb44a61238966edd32f8bc93",
+      "text": "Çekilme:\nMadde 94 – Devlet memuru bağlı olduğu kuruma yazılı olarak müracaat etmek suretiyle memurluktan çekilme isteğinde bulunabilir. (Ek hüküm: 31/7/1970 - 1327/75 md.) Mezuniyetsiz veya kurumlarınca kabul edilen mazereti olmaksızın görevin terk edilmesi ve bu terkin kesintisiz 10 gün devam etmesi halinde, yazılı müracaat şartı aranmaksızın, çekilme isteğinde bulunulmuş sayılır.\nÇekilmek istiyen memur yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder. Yerine atanan kimse bir aya kadar gelmediği veya yerine bir vekil atanmadığı takdirde, üstüne haber vererek görevini bırakabilir.\nOlağanüstü mazeretle çekilenler, üstüne haber vermek şartiyle bir ay kaydına tabi değildirler.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Çekilme:",
+          "textSHA256": "e4467cd8b308479b5936fb760d40a7bf569adaf39db15abcffa3803c6c03871d",
+          "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "provision",
+          "text": "Madde 94 – Devlet memuru bağlı olduğu kuruma yazılı olarak müracaat etmek suretiyle memurluktan çekilme isteğinde bulunabilir. (Ek hüküm: 31/7/1970 - 1327/75 md.) Mezuniyetsiz veya kurumlarınca kabul edilen mazereti olmaksızın görevin terk edilmesi ve bu terkin kesintisiz 10 gün devam etmesi halinde, yazılı müracaat şartı aranmaksızın, çekilme isteğinde bulunulmuş sayılır.",
+          "textSHA256": "9cfead6923d46fd39589bb8f680e464b373fc0a0b8824a5a5200143fbad8553f",
+          "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Çekilmek istiyen memur yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder. Yerine atanan kimse bir aya kadar gelmediği veya yerine bir vekil atanmadığı takdirde, üstüne haber vererek görevini bırakabilir.",
+          "textSHA256": "f676f1c7f050ebef5624db7ccf5d6525a58670603622b8804ea7cef1a32a6e10",
+          "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 4,
+          "kind": "provision",
+          "text": "Olağanüstü mazeretle çekilenler, üstüne haber vermek şartiyle bir ay kaydına tabi değildirler.",
+          "textSHA256": "c8090e79e9dd3cc6792042d985ff1f206313d776d4b2ceb862a96510158fef2d",
+          "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[4]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/94-1d3f501e949928ad03ca7aa3fc3fade47faea910fb44a61238966edd32f8bc93.html",
+      "artifactByteLength": 1619
+    },
+    {
+      "legalProvisionId": "LP-657-95",
+      "articleNumber": 95,
+      "title": "Çekilmede devir ve teslim süresi:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.95; UYAP maddeId=1653616",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653616",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:54.064609+00:00",
+      "rawResponseSHA256": "b9c4e602fbc7b95f8ca01f1a4b3e674ed728321137199a444a591bf5326dee67",
+      "htmlSHA256": "b8a5f9b021f3bcf88c569dd5e6801c6cbc9bdd650b40b7363a6613a6ed5abc74",
+      "text": "Çekilmede devir ve teslim süresi:\nMadde 95 – Çekilen Devlet memurlarından devir ve teslim ile yükümlü olanlar, bu işlemlerin sonuna kadar görevlerini bırakamazlar. Hizmet icaplarına göre devir ve teslim işlemleri için gerekli süreler, yönetmelikte belirtilir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Çekilmede devir ve teslim süresi:",
+          "textSHA256": "8b6ba464b79e29323d53bae21071dfa88d20e477ae5910d52670bc4da015ebaf",
+          "sourceLocator": "657 sayılı Kanun m.95; UYAP maddeId=1653616; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "provision",
+          "text": "Madde 95 – Çekilen Devlet memurlarından devir ve teslim ile yükümlü olanlar, bu işlemlerin sonuna kadar görevlerini bırakamazlar. Hizmet icaplarına göre devir ve teslim işlemleri için gerekli süreler, yönetmelikte belirtilir.",
+          "textSHA256": "bef7396129492e825f8c484a7cb497e5a6650bafd0a9ce083bdfa9ef694dafb7",
+          "sourceLocator": "657 sayılı Kanun m.95; UYAP maddeId=1653616; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/95-b8a5f9b021f3bcf88c569dd5e6801c6cbc9bdd650b40b7363a6613a6ed5abc74.html",
+      "artifactByteLength": 785
+    },
+    {
+      "legalProvisionId": "LP-657-96",
+      "articleNumber": 96,
+      "title": "Olağanüstü yönetim hallerinde çekilme usulü:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.96; UYAP maddeId=1653619",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653619",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:54.195605+00:00",
+      "rawResponseSHA256": "fbfca3ec3ccbaea3aa955a4a8d6e9d8d80f1cc51b4ddfd7d21b96aa9e60ee572",
+      "htmlSHA256": "39363f960ca9c8c87e2b4db03939681aab4cfba8223276821b204f99d1a9d7e6",
+      "text": "Olağanüstü yönetim hallerinde çekilme usulü:\nMadde 96 – (Değişik: 15/8/2017 – KHK-694/27 md.; Aynen kabul: 1/2/2018-7078/27 md.)\nOlağanüstü hal, seferberlik ve savaş hallerinde veya genel hayata müessir afetlere uğrayan yerlerdeki Devlet memurları, çekilme istekleri kabul edilmedikçe veya yerine atanacaklar gelip işe başlamadıkça görevlerini bırakamazlar.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Olağanüstü yönetim hallerinde çekilme usulü:",
+          "textSHA256": "4e31c4320a9ecee4682dae1ba6849382c10f656e38dec09e8869194c500eb705",
+          "sourceLocator": "657 sayılı Kanun m.96; UYAP maddeId=1653619; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "articleHeader",
+          "text": "Madde 96 – (Değişik: 15/8/2017 – KHK-694/27 md.; Aynen kabul: 1/2/2018-7078/27 md.)",
+          "textSHA256": "c35102a6065926fcd5badfcb787406ed7c2d089a4ee9aba876ca4160421c9de3",
+          "sourceLocator": "657 sayılı Kanun m.96; UYAP maddeId=1653619; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Olağanüstü hal, seferberlik ve savaş hallerinde veya genel hayata müessir afetlere uğrayan yerlerdeki Devlet memurları, çekilme istekleri kabul edilmedikçe veya yerine atanacaklar gelip işe başlamadıkça görevlerini bırakamazlar.",
+          "textSHA256": "1219e7f31c7b3607713546186f4259e85c48cb07520ddfc4df7c7b44e33a4a48",
+          "sourceLocator": "657 sayılı Kanun m.96; UYAP maddeId=1653619; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/96-39363f960ca9c8c87e2b4db03939681aab4cfba8223276821b204f99d1a9d7e6.html",
+      "artifactByteLength": 1164
+    },
+    {
+      "legalProvisionId": "LP-657-102",
+      "articleNumber": 102,
+      "title": "Yıllık izin:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653641",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:54.344670+00:00",
+      "rawResponseSHA256": "78f3704cc8049e84f2e4972f8b7f80a75409d234ead87c0cfd4466ec4ab2aa18",
+      "htmlSHA256": "9f60fd848155aa47229c13ce983af1d8b4c3ef2229dfa10eeb03bb2fd857059e",
+      "text": "Yıllık izin:\nMadde 102 – (Değişik: 31/7/1970 - 1327/46 md.)\nDevlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Yıllık izin:",
+          "textSHA256": "71b9e38ae35c9abd7994b839f38918031073eaa1df2bd966fcd8d9d48bc87370",
+          "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "articleHeader",
+          "text": "Madde 102 – (Değişik: 31/7/1970 - 1327/46 md.)",
+          "textSHA256": "e9d9081d888f6db485a04cce4e78023eddce60fbb9b1620c759cdb49ea358c9a",
+          "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+          "textSHA256": "08a15c650ddca370ec4911851d007ec7fc233218751b7cf238ff43b48f610000",
+          "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/102-9f60fd848155aa47229c13ce983af1d8b4c3ef2229dfa10eeb03bb2fd857059e.html",
+      "artifactByteLength": 895
+    },
+    {
+      "legalProvisionId": "LP-657-125",
+      "articleNumber": 125,
+      "title": "Disiplin cezalarının çeşitleri ile ceza uygulanacak fiil ve haller:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653710",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 441,
+      "retrievedAt": "2026-11-06T12:27:54.496464+00:00",
+      "rawResponseSHA256": "7c0592f95c23350831d530c93b33d93d8eb3a3b83959ce8bb071119ed1218cb9",
+      "htmlSHA256": "29e0b5cdcfbdc57c2953b1bbb99a20ae05fc9a8bedcb07159d85048ba3443f04",
+      "text": "Disiplin cezalarının çeşitleri ile ceza uygulanacak fiil ve haller:\nMadde 125 – (Değişik: 12/5/1982 - 2670/31 md.)\nDevlet memurlarına verilecek disiplin cezaları ile her bir disiplin cezasını gerektiren fiil ve haller şunlardır:\nA - Uyarma : Memura, görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesidir.\nUyarma cezasını gerektiren fiil ve haller şunlardır:\na) Verilen emir ve görevlerin tam ve zamanında yapılmasında, görev mahallinde kurumlarca belirlenen usul ve esasların yerine getirilmesinde, görevle ilgili resmi belge, araç ve gereçlerin korunması, kullanılması ve bakımında kayıtsızlık göstermek veya düzensiz davranmak,\nb) Özürsüz veya izinsiz olarak göreve geç gelmek, erken ayrılmak, görev mahallini terketmek,\nc) Kurumca belirlenen tasarruf tedbirlerine riayet etmemek,\nd) Usulsüz müracaat veya şikayette bulunmak,\ne) Devlet memuru vakarına yakışmayan tutum ve davranışta bulunmak,\nf) Görevine veya iş sahiplerine karşı kayıtsızlık göstermek veya ilgisiz kalmak,\ng) Belirlenen kılık ve kıyafet hükümlerine aykırı davranmak,\nh) Görevin işbirliği içinde yapılması ilkesine aykırı davranışlarda bulunmak.\nB - Kınama : Memura, görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesidir.\nKınama cezasını gerektiren fiil ve haller şunlardır:\na) Verilen emir ve görevlerin tam ve zamanında yapılmasında, görev mahallinde kurumlarca belirlenen usul ve esasların yerine getirilmesinde, görevle ilgili resmi belge, araç ve gereçlerin korunması, kullanılması ve bakımında kusurlu davranmak,\nb) Eşlerinin, reşit olmayan veya mahcur olan çocuklarının kazanç getiren sürekli faaliyetlerini belirlenen sürede kurumuna bildirmemek,\nc) Görev sırasında amire hal ve hareketi ile saygısız davranmak,\nd) Hizmet dışında Devlet memurunun itibar ve güven duygusunu sarsacak nitelikte davranışlarda bulunmak,\ne) Devlete ait resmi araç, gereç ve benzeri eşyayı özel işlerinde kullanmak,\nf) Devlete ait resmî belge, araç, gereç ve benzeri eşyayı kaybetmek,\ng) İş arkadaşlarına, maiyetindeki personele ve iş sahiplerine kötü muamelede bulunmak,\nh) İş arkadaşlarına ve iş sahiplerine söz veya hareketle sataşmak,\nı) Görev mahallinde genel ahlak ve edep dışı davranışlarda bulunmak ve bu tür yazı yazmak, işaret, resim ve benzeri şekiller çizmek ve yapmak,\nj) Verilen emirlere itiraz etmek,\nk) Borçlarını kasten ödemeyerek hakkında yasal yollara başvurulmasına neden olmak,\nl) Kurumların huzur, sükûn ve çalışma düzenini bozmak.\nm) (Ek:17/9/2004 - 5234/1 md.)Yetkili olmadığı halde basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç vermek.\nC - Aylıktan kesme : Memurun, brüt aylığından 1/30 - 1/8 arasında kesinti yapılmasıdır.\nAylıktan kesme cezasını gerektiren fiil ve haller şunlardır:\na) Kasıtlı olarak; verilen emir ve görevleri tam ve zamanında yapmamak, görev mahallinde kurumlarca belirlenen usul ve esasları yerine getirmemek, görevle ilgili resmi belge, araç ve gereçleri korumamak, bakımını yapmamak, hor kullanmak,\nb) Özürsüz olarak bir veya iki gün göreve gelmemek,\nc) Devlete ait resmi belge, araç, gereç ve benzerlerini özel menfaat sağlamak için kullanmak,\nd) Görevle ilgili konularda yükümlü olduğu kişilere yalan ve yanlış beyanda bulunmak,\ne) Görev sırasında amirine sözle saygısızlık etmek,\nf) Görev yeri sınırları içerisinde her hangi bir yerin toplantı, tören ve benzeri amaçlarla izinsiz olarak kullanılmasına yardımcı olmak,\ng) (Mülga: 13/2/2011 - 6111/111 md.)\nh) (Mülga: 13/2/2011 - 6111/111 md.)\nı) Hizmet içinde Devlet memurunun itibar ve güven duygusunu sarsacak nitelikte davranışlarda bulunmak,\nj) (Mülga: 13/2/2011 - 6111/111 md.)\nD - Kademe ilerlemesinin durdurulması : Fiilin ağırlık derecesine göre memurun, bulunduğu kademede ilerlemesinin 1 - 3 yıl durdurulmasıdır.\nKademe ilerlemesinin durdurulması cezasını gerektiren fiil ve haller şunlardır:\na) Göreve sarhoş gelmek, görev yerinde alkollü içki içmek,\nb) Özürsüz ve kesintisiz 3 - 9 gün göreve gelmemek,\nc) Görevi ile ilgili olarak her ne şekilde olursa olsun çıkar sağlamak,\nd) Amirine veya maiyetindekilere karşı küçük düşürücü veya aşağılayıcı fiil ve hareketler yapmak,\ne) Görev yeri sınırları içinde herhangi bir yeri toplantı, tören ve benzeri amaçlarla izinsiz kullanmak veya kullandırmak,\nf) Gerçeğe aykırı rapor ve belge düzenlemek,\ng) (Mülga:17/9/2004 - 5234/33 md.)\nh) Ticaret yapmak veya Devlet memurlarına yasaklanan diğer kazanç getirici faaliyetlerde bulunmak,\nı) Görevin yerine getirilmesinde dil, ırk, cinsiyet, siyasi düşünce, felsefi inanç, din ve mezhep ayrımı yapmak, kişilerin yarar veya zararını hedef tutan davranışlarda bulunmak,\nj) Belirlenen durum ve sürelerde mal bildiriminde bulunmamak,\nk) Açıklanması yasaklanan bilgileri açıklamak,\nl) Amirine, maiyetindekilere, iş arkadaşları veya iş sahiplerine hakarette bulunmak veya bunları tehdit etmek,\nm) Diplomatik statüsünden yararlanmak suretiyle yurt dışında, haklı bir sebep göstermeksizin ödeme kabiliyetinin üstünde borçlanmak ve borçlarını ödemedeki tutum ve davranışlarıyla Devlet itibarını zedelemek veya zorunlu bir sebebe dayanmaksızın borcunu ödemeden yurda dönmek,\nn) Verilen görev ve emirleri kasten yapmamak,\no) Herhangi bir siyasi parti yararına veya zararına fiilen faaliyette bulunmak.\nE - Devlet memurluğundan çıkarma : Bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarmaktır.\nDevlet memurluğundan çıkarma cezasını gerektiren fiil ve haller şunlardır:\na) İdeolojik veya siyasi amaçlarla kurumların huzur, sükün ve çalışma düzenini bozmak, boykot, işgal, kamu hizmetlerinin yürütülmesini engelleme, işi yavaşlatma ve grev gibi eylemlere katılmak veya bu amaçlarla toplu olarak göreve gelmemek, bunları tahrik ve teşvik etmek veya yardımda bulunmak,[182]\nb) Yasaklanmış her türlü yayını veya siyasi veya ideolojik amaçlı bildiri, afiş, pankart, bant ve benzerlerini basmak, çoğaltmak, dağıtmak veya bunları kurumların herhangi bir yerine asmak veya teşhir etmek,\nc) Siyasi partiye girmek,\nd) Özürsüz olarak (...)[183] bir yılda toplam 20 gün göreve gelmemek,\ne) Savaş, olağanüstü hal veya genel afetlere ilişkin konularda amirlerin verdiği görev veya emirleri yapmamak,\nf) (Değişik: 13/2/2011 - 6111/111 md.) Amirlerine, maiyetindekilere ve iş sahiplerine fiili tecavüzde bulunmak,\ng) Memurluk sıfatı ile bağdaşmayacak nitelik ve derecede yüz kızartıcı ve utanç verici hareketlerde bulunmak,\nh) Yetki almadan gizli bilgileri açıklamak,\nı) Siyasi ve ideolojik eylemlerden arananları görev mahallinde gizlemek,\nj) Yurt dışında Devletin itibarını düşürecek veya görev haysiyetini zedeleyecek tutum ve davranışlarda bulunmak,\nk) 5816 sayılı Atatürk Aleyhine İşlenen Suçlar Hakkındaki Kanuna aykırı fiilleri işlemek.\nl) (Ek: 3/10/2016 – KHK-676/75 md.; Aynen kabul: 1/2/2018-7070/61 md.) Terör örgütleriyle eylem birliği içerisinde olmak, bu örgütlere yardım etmek, kamu imkân ve kaynaklarını bu örgütleri desteklemeye yönelik kullanmak ya da kullandırmak, bu örgütlerin propagandasını yapmak.\nDisiplin cezası verilmesine sebep olmuş bir fiil veya halin cezaların özlük dosyasından silinmesine ilişkin süre içinde tekerrüründe bir derece ağır ceza uygulanır. Aynı derecede cezayı gerektiren fakat ayrı fiil veya haller nedeniyle verilen disiplin cezalarının üçüncü uygulamasında bir derece ağır ceza verilir.[184]\nGeçmiş hizmetleri sırasındaki çalışmaları olumlu olan ve ödül veya başarı belgesi alan memurlar için verilecek cezalarda bir derece hafif olanı uygulanabilir.184\nYukarıda sayılan ve disiplin cezası verilmesini gerektiren fiil ve hallere nitelik ve ağırlıkları itibariyle benzer eylemlerde bulunanlara da aynı neviden disiplin cezaları verilir.\nÖğrenim durumları nedeniyle yükselebilecekleri kadroların son kademelerinde bulunan Devlet memurlarının, kademe ilerlemesinin durdurulması cezasının verilmesini gerektiren hallerde, brüt aylıklarının ¼’ü – ½’si kesilir ve tekerrüründe görevlerine son verilir.\nÖzel kanunların disiplin suçları ve cezalarına ilişkin hükümleri saklıdır.\nYukarıda yazılı disiplin kovuşturmasının yapılmış olması, fiilin genel hükümler kapsamına girmesi halinde, sanık hakkında ayrıca ceza kovuşturması açılmasına engel teşkil etmez.\n[182] 13/2/2011 tarihli ve 6111 sayılı Kanunun 111 inci maddesiyle, bu maddenin (E) bendinin (a) alt bendinde yer alan “engelleme” ibaresi “kamu hizmetlerinin yürütülmesini engelleme” olarak değiştirilmiştir.\n[183] 29/11/1984 tarihli ve 243 sayılı Kanun Hükmünde Kararnamenin 26 ncı maddesi ile bu alt bentte yer alan “kesintisiz 10 gün veya” ibaresi madde metninden çıkarılmıştır.\n[184] 13/2/2011 tarihli ve 6111 sayılı Kanunun 111 inci maddesiyle, bu maddenin ikinci fıkrasında yer alan “sicilden” ibaresi “özlük dosyasından” ve üçüncü fıkrasında yer alan “iyi veya çok iyi derecede sicil alan” ibaresi “ödül veya başarı belgesi alan” olarak değiştirilmiştir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Disiplin cezalarının çeşitleri ile ceza uygulanacak fiil ve haller:",
+          "textSHA256": "9700e510934d8e53ef40f53203057dd6010361daddaba16526b0f1bb29cdd358",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "articleHeader",
+          "text": "Madde 125 – (Değişik: 12/5/1982 - 2670/31 md.)",
+          "textSHA256": "87b2d4c67c9614e4461491bf55f0901ff839f358ef3c1058cd805b648dc836f1",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Devlet memurlarına verilecek disiplin cezaları ile her bir disiplin cezasını gerektiren fiil ve haller şunlardır:",
+          "textSHA256": "0038e42acc7bff9480e44fefc5044cccd5a0df404fb9921c2944ed70ee968425",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 4,
+          "kind": "provision",
+          "text": "A - Uyarma : Memura, görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesidir.",
+          "textSHA256": "c9b8eadf724262a28a2d13d406ad625c8137aa70be600e961b3d98eff0450064",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[4]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 5,
+          "kind": "provision",
+          "text": "Uyarma cezasını gerektiren fiil ve haller şunlardır:",
+          "textSHA256": "442bcc6e10857be650b1f5de40dd712d5beacfe9f264042488171df64224daae",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[5]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 6,
+          "kind": "provision",
+          "text": "a) Verilen emir ve görevlerin tam ve zamanında yapılmasında, görev mahallinde kurumlarca belirlenen usul ve esasların yerine getirilmesinde, görevle ilgili resmi belge, araç ve gereçlerin korunması, kullanılması ve bakımında kayıtsızlık göstermek veya düzensiz davranmak,",
+          "textSHA256": "fe80e4ddf3cbd38d94b3608c7eef884efed1e23bfd0eb4961713b206d2c15c9e",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[6]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 7,
+          "kind": "provision",
+          "text": "b) Özürsüz veya izinsiz olarak göreve geç gelmek, erken ayrılmak, görev mahallini terketmek,",
+          "textSHA256": "a9ffc64cba3bc225c321f60ffae0b1291c173cb0dd89f3081ba21ac42c58a551",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[7]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 8,
+          "kind": "provision",
+          "text": "c) Kurumca belirlenen tasarruf tedbirlerine riayet etmemek,",
+          "textSHA256": "b19323ce0c152696dae332721b0bac7612e2ff85fbd3574ee7549a3a972600ee",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[8]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 9,
+          "kind": "provision",
+          "text": "d) Usulsüz müracaat veya şikayette bulunmak,",
+          "textSHA256": "5ac65f722dd56032f6bda147af9b773fcc2f79e6aa60bca61f920b0b287dd14b",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[9]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 10,
+          "kind": "provision",
+          "text": "e) Devlet memuru vakarına yakışmayan tutum ve davranışta bulunmak,",
+          "textSHA256": "4b99b8952fe778fa0562ff1f53400adef27e31e796ae0c926c2fed6d7a7a87ad",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[10]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 11,
+          "kind": "provision",
+          "text": "f) Görevine veya iş sahiplerine karşı kayıtsızlık göstermek veya ilgisiz kalmak,",
+          "textSHA256": "5c223af9c72c001c878d2ddcbf877235d7e48beb43b761a6982163bf437646bb",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[11]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 12,
+          "kind": "provision",
+          "text": "g) Belirlenen kılık ve kıyafet hükümlerine aykırı davranmak,",
+          "textSHA256": "a2ec5006cecca23fde9eb0ff2aafe125cecdbe20c833294e7a3fd8c9a0bf6bc1",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[12]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 13,
+          "kind": "provision",
+          "text": "h) Görevin işbirliği içinde yapılması ilkesine aykırı davranışlarda bulunmak.",
+          "textSHA256": "5f20168c62b984cd1244bb84d33926e54a34b0dbf7ae256a4574326ed56ac0c7",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[13]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 14,
+          "kind": "provision",
+          "text": "B - Kınama : Memura, görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesidir.",
+          "textSHA256": "0120dd61d85425781ebfbedb68a3b8de7df3bdb879a659b8d6024a16bc1f0e1b",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[14]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 15,
+          "kind": "provision",
+          "text": "Kınama cezasını gerektiren fiil ve haller şunlardır:",
+          "textSHA256": "6372d5687723fa4b1319740c0bacc5a08664b944ddd36f7e0ad09924217d1d14",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[15]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 16,
+          "kind": "provision",
+          "text": "a) Verilen emir ve görevlerin tam ve zamanında yapılmasında, görev mahallinde kurumlarca belirlenen usul ve esasların yerine getirilmesinde, görevle ilgili resmi belge, araç ve gereçlerin korunması, kullanılması ve bakımında kusurlu davranmak,",
+          "textSHA256": "27e8153dd57e5d9938c5664b3efad876fd35254ada3cb02aa2ff2b230e9b5bf7",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[16]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 17,
+          "kind": "provision",
+          "text": "b) Eşlerinin, reşit olmayan veya mahcur olan çocuklarının kazanç getiren sürekli faaliyetlerini belirlenen sürede kurumuna bildirmemek,",
+          "textSHA256": "fefd21b634e07073d792b5ad637873b70fad36b8290d03450a67e980657b0b07",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[17]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 18,
+          "kind": "provision",
+          "text": "c) Görev sırasında amire hal ve hareketi ile saygısız davranmak,",
+          "textSHA256": "144555510d739fbce6e45b7082f31d834071d85be128fe22eeb8cbb1488f54f4",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[18]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 19,
+          "kind": "provision",
+          "text": "d) Hizmet dışında Devlet memurunun itibar ve güven duygusunu sarsacak nitelikte davranışlarda bulunmak,",
+          "textSHA256": "b745dc60ec79b67224cffeea7e37272e8c7cb534eba25d286dbd44258b1cb9b7",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[19]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 20,
+          "kind": "provision",
+          "text": "e) Devlete ait resmi araç, gereç ve benzeri eşyayı özel işlerinde kullanmak,",
+          "textSHA256": "43020bd4e8fa771dc5b4413ffea634bcc2b56ef30785b75fa1a35fed69ed4926",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[20]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 21,
+          "kind": "provision",
+          "text": "f) Devlete ait resmî belge, araç, gereç ve benzeri eşyayı kaybetmek,",
+          "textSHA256": "94581094f2eee7971b7da1d7222c910264a0c1fbdfcb95f7d4f2d1ba57a26c64",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[21]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 22,
+          "kind": "provision",
+          "text": "g) İş arkadaşlarına, maiyetindeki personele ve iş sahiplerine kötü muamelede bulunmak,",
+          "textSHA256": "1b2c4d6dc8874f8b1300c371380cbf9e70bb2334531c9af8313c2ca37f59bde1",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[22]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 23,
+          "kind": "provision",
+          "text": "h) İş arkadaşlarına ve iş sahiplerine söz veya hareketle sataşmak,",
+          "textSHA256": "6e74a0950572a2997c2594cf154e6a9276a4de1e81f8454cce2786d3d46440df",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[23]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 24,
+          "kind": "provision",
+          "text": "ı) Görev mahallinde genel ahlak ve edep dışı davranışlarda bulunmak ve bu tür yazı yazmak, işaret, resim ve benzeri şekiller çizmek ve yapmak,",
+          "textSHA256": "cd0aed94058d2b4232a004024cace5f0192069d899e94fce7d142e97d70476e1",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[24]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 25,
+          "kind": "provision",
+          "text": "j) Verilen emirlere itiraz etmek,",
+          "textSHA256": "979c492028cca11e1c4369aa8600f48fd8c77b0888d5fd50f0cc782b25a70e09",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[25]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 26,
+          "kind": "provision",
+          "text": "k) Borçlarını kasten ödemeyerek hakkında yasal yollara başvurulmasına neden olmak,",
+          "textSHA256": "e0619f394344776cb1d56782f0390531bcbafa2936dddfe706e344417ad62c2d",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[26]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 27,
+          "kind": "provision",
+          "text": "l) Kurumların huzur, sükûn ve çalışma düzenini bozmak.",
+          "textSHA256": "7d20668c3af63757ac44e90555fc2a2fa69c5c079e24afe3c34f1547adb639c9",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[27]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 28,
+          "kind": "provision",
+          "text": "m) (Ek:17/9/2004 - 5234/1 md.)Yetkili olmadığı halde basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç vermek.",
+          "textSHA256": "b1349cf98cc79f415a5dfd2712e552e216a9596f7214a2f8f8d49a6e40f2ad8e",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[28]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 29,
+          "kind": "provision",
+          "text": "C - Aylıktan kesme : Memurun, brüt aylığından 1/30 - 1/8 arasında kesinti yapılmasıdır.",
+          "textSHA256": "7b14c91333b6ab1a4a5555f980967e3cab9ea498d502bd14d2fba4bf149919ae",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[29]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 30,
+          "kind": "provision",
+          "text": "Aylıktan kesme cezasını gerektiren fiil ve haller şunlardır:",
+          "textSHA256": "168edf4618e1b514e0b11646ccd19b663757c60de23cb486805d76d6d2f5185e",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[30]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 31,
+          "kind": "provision",
+          "text": "a) Kasıtlı olarak; verilen emir ve görevleri tam ve zamanında yapmamak, görev mahallinde kurumlarca belirlenen usul ve esasları yerine getirmemek, görevle ilgili resmi belge, araç ve gereçleri korumamak, bakımını yapmamak, hor kullanmak,",
+          "textSHA256": "7fbf407918fe9c2423660df58d11631e6fe7180cbf74117476ca8697f62e4bbe",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[31]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 32,
+          "kind": "provision",
+          "text": "b) Özürsüz olarak bir veya iki gün göreve gelmemek,",
+          "textSHA256": "48f80cea08610555f2acc9396438531637d73f74c7d38ecafeadfe87464d9ed6",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[32]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 33,
+          "kind": "provision",
+          "text": "c) Devlete ait resmi belge, araç, gereç ve benzerlerini özel menfaat sağlamak için kullanmak,",
+          "textSHA256": "5b9c5c0243638adcff20b1d93dbe72384740c3cf6e26ed155d4dc564885abfd7",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[33]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 34,
+          "kind": "provision",
+          "text": "d) Görevle ilgili konularda yükümlü olduğu kişilere yalan ve yanlış beyanda bulunmak,",
+          "textSHA256": "2264ed2127d626e3a59b73ee93cd42947fd7acbef570f802c91d39827ed08846",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[34]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 35,
+          "kind": "provision",
+          "text": "e) Görev sırasında amirine sözle saygısızlık etmek,",
+          "textSHA256": "96062d278bd52d14e6c5c3752a61af83025f82dc324a6995cc516575c8e67106",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[35]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 36,
+          "kind": "provision",
+          "text": "f) Görev yeri sınırları içerisinde her hangi bir yerin toplantı, tören ve benzeri amaçlarla izinsiz olarak kullanılmasına yardımcı olmak,",
+          "textSHA256": "cb33589e6f87cc459de8efcd5eb26754a277c7ef537a011d9c29455110f21b0a",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[36]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 37,
+          "kind": "provision",
+          "text": "g) (Mülga: 13/2/2011 - 6111/111 md.)",
+          "textSHA256": "9d0b0f872a5be7b6881a88e7f01abb132ea6284e59397ac2420a8cdc6895e62c",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[37]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 38,
+          "kind": "provision",
+          "text": "h) (Mülga: 13/2/2011 - 6111/111 md.)",
+          "textSHA256": "cc99e9bb6a54d9fc2ce535390fa8cdbc516ceddc579d6b75f0dce0602c5bc3ba",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[38]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 39,
+          "kind": "provision",
+          "text": "ı) Hizmet içinde Devlet memurunun itibar ve güven duygusunu sarsacak nitelikte davranışlarda bulunmak,",
+          "textSHA256": "6da298298ccf86903412de3e10626ae13fd1c6480a67c4eddd8acaad5bbf701b",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[39]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 40,
+          "kind": "provision",
+          "text": "j) (Mülga: 13/2/2011 - 6111/111 md.)",
+          "textSHA256": "298dacfe4be0cf096b247427288b6270248510b9813767b4577498c0480d40a7",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[40]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 41,
+          "kind": "provision",
+          "text": "D - Kademe ilerlemesinin durdurulması : Fiilin ağırlık derecesine göre memurun, bulunduğu kademede ilerlemesinin 1 - 3 yıl durdurulmasıdır.",
+          "textSHA256": "f8e2df827600f96d0f37d7a7f4f7b75d8742ef80ea4c7e54db0a68404a88c47e",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[41]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 42,
+          "kind": "provision",
+          "text": "Kademe ilerlemesinin durdurulması cezasını gerektiren fiil ve haller şunlardır:",
+          "textSHA256": "ebc1fd2fa86ef555e34de581b957b4f16d45208ab6aadc91b1c1ed2bdca45c6d",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[42]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 43,
+          "kind": "provision",
+          "text": "a) Göreve sarhoş gelmek, görev yerinde alkollü içki içmek,",
+          "textSHA256": "7c175dd1ced79c51e6f071b91f976979d62e59bde90f149993514cd7fe016f38",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[43]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 44,
+          "kind": "provision",
+          "text": "b) Özürsüz ve kesintisiz 3 - 9 gün göreve gelmemek,",
+          "textSHA256": "3d2e465c6d58536eaef080aef4eb440a80bef6654a0abc13eaac2faf357bc9f0",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[44]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 45,
+          "kind": "provision",
+          "text": "c) Görevi ile ilgili olarak her ne şekilde olursa olsun çıkar sağlamak,",
+          "textSHA256": "08746622a91f87fa3e4025a5da15740e1e996be89d7a23bf676b356e35f39b79",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[45]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 46,
+          "kind": "provision",
+          "text": "d) Amirine veya maiyetindekilere karşı küçük düşürücü veya aşağılayıcı fiil ve hareketler yapmak,",
+          "textSHA256": "1a8960d2db8500ad7ab4a0426a35f74628703b48f6201836a0f675351b92a64a",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[46]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 47,
+          "kind": "provision",
+          "text": "e) Görev yeri sınırları içinde herhangi bir yeri toplantı, tören ve benzeri amaçlarla izinsiz kullanmak veya kullandırmak,",
+          "textSHA256": "b726cfa6c567ed050c45be35a580ab601d9deaaf2763cd73a70e027e68707985",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[47]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 48,
+          "kind": "provision",
+          "text": "f) Gerçeğe aykırı rapor ve belge düzenlemek,",
+          "textSHA256": "6803923892de4cab70c6c541c995e1b15a3a597a54166e67665bc342d4a66eb1",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[48]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 49,
+          "kind": "provision",
+          "text": "g) (Mülga:17/9/2004 - 5234/33 md.)",
+          "textSHA256": "e1082e0aaf775d89b78f72f09b7fef32164594c64c8627007cd3815f499d640a",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[49]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 50,
+          "kind": "provision",
+          "text": "h) Ticaret yapmak veya Devlet memurlarına yasaklanan diğer kazanç getirici faaliyetlerde bulunmak,",
+          "textSHA256": "d152b45f772ba7cbc366f21e9ea29fb6b09fde02d517b21e7de9f444ba1a4278",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[50]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 51,
+          "kind": "provision",
+          "text": "ı) Görevin yerine getirilmesinde dil, ırk, cinsiyet, siyasi düşünce, felsefi inanç, din ve mezhep ayrımı yapmak, kişilerin yarar veya zararını hedef tutan davranışlarda bulunmak,",
+          "textSHA256": "53a222df20079029394d79092fc3d3c68244d94c1837950e12fbbf2675e9a2a5",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[51]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 52,
+          "kind": "provision",
+          "text": "j) Belirlenen durum ve sürelerde mal bildiriminde bulunmamak,",
+          "textSHA256": "708c8486811c388b17c65890c41919e2e8734b5d19763a406300059bfc3ca60d",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[52]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 53,
+          "kind": "provision",
+          "text": "k) Açıklanması yasaklanan bilgileri açıklamak,",
+          "textSHA256": "530357cd2144559b4a3131d078a9f065ffa7f3adcebc893002c37167e214895b",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[53]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 54,
+          "kind": "provision",
+          "text": "l) Amirine, maiyetindekilere, iş arkadaşları veya iş sahiplerine hakarette bulunmak veya bunları tehdit etmek,",
+          "textSHA256": "cb5b33fddb2b993f7dcb396b1cb6e82cfd3401bb41931d74654b0f5d88ce0cc1",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[54]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 55,
+          "kind": "provision",
+          "text": "m) Diplomatik statüsünden yararlanmak suretiyle yurt dışında, haklı bir sebep göstermeksizin ödeme kabiliyetinin üstünde borçlanmak ve borçlarını ödemedeki tutum ve davranışlarıyla Devlet itibarını zedelemek veya zorunlu bir sebebe dayanmaksızın borcunu ödemeden yurda dönmek,",
+          "textSHA256": "a8caf69f5f63a10f3d8f3d894f24c81289387e251966720cee6a745c2b0541dc",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[55]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 56,
+          "kind": "provision",
+          "text": "n) Verilen görev ve emirleri kasten yapmamak,",
+          "textSHA256": "265f8635a995803f04dbbe507130ecbb4afb2ae0a65813f829442e24ab24e0e5",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[56]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 57,
+          "kind": "provision",
+          "text": "o) Herhangi bir siyasi parti yararına veya zararına fiilen faaliyette bulunmak.",
+          "textSHA256": "32ffae6873a80bcef34b0503bcfa31a01181b08cbc87dc41613b082d63955d51",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[57]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 58,
+          "kind": "provision",
+          "text": "E - Devlet memurluğundan çıkarma : Bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarmaktır.",
+          "textSHA256": "d5dc67e0074ee74557c172b346bd29bc477777f0f2156d935b10c1a1ccf79f19",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[58]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 59,
+          "kind": "provision",
+          "text": "Devlet memurluğundan çıkarma cezasını gerektiren fiil ve haller şunlardır:",
+          "textSHA256": "b7a8223d60c2462a2f8a6de5af0dfc399d5db0038e7d37d18b0800a4c8cae08e",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[59]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 60,
+          "kind": "provision",
+          "text": "a) İdeolojik veya siyasi amaçlarla kurumların huzur, sükün ve çalışma düzenini bozmak, boykot, işgal, kamu hizmetlerinin yürütülmesini engelleme, işi yavaşlatma ve grev gibi eylemlere katılmak veya bu amaçlarla toplu olarak göreve gelmemek, bunları tahrik ve teşvik etmek veya yardımda bulunmak,[182]",
+          "textSHA256": "4039322f1b0c944f9898333e23c045ecad82f9a5124ca307c9809f447bba6a12",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[60]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 61,
+          "kind": "provision",
+          "text": "b) Yasaklanmış her türlü yayını veya siyasi veya ideolojik amaçlı bildiri, afiş, pankart, bant ve benzerlerini basmak, çoğaltmak, dağıtmak veya bunları kurumların herhangi bir yerine asmak veya teşhir etmek,",
+          "textSHA256": "6bb126bfb7188b3d00db1d4c0d146417a22d4ee3ce87b5d55d530525311d10ba",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[61]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 62,
+          "kind": "provision",
+          "text": "c) Siyasi partiye girmek,",
+          "textSHA256": "ffee4433048dc370446f6466afa392c6f057a821219545d4a8220371022a4292",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[62]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 63,
+          "kind": "provision",
+          "text": "d) Özürsüz olarak (...)[183] bir yılda toplam 20 gün göreve gelmemek,",
+          "textSHA256": "fefa8fb39cca23f070db5e5afe3df153ce67418e7f60b9be935f834e98999966",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[63]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 64,
+          "kind": "provision",
+          "text": "e) Savaş, olağanüstü hal veya genel afetlere ilişkin konularda amirlerin verdiği görev veya emirleri yapmamak,",
+          "textSHA256": "475f832587d4f551844f884a2dfc103b6fb4cf6a87da3416df9d518ca1b9e4a3",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[64]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 65,
+          "kind": "provision",
+          "text": "f) (Değişik: 13/2/2011 - 6111/111 md.) Amirlerine, maiyetindekilere ve iş sahiplerine fiili tecavüzde bulunmak,",
+          "textSHA256": "46c1df17461d320c460fc6b66b44e0b04adfec1fd8477c55418f680c0cda3031",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[65]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 66,
+          "kind": "provision",
+          "text": "g) Memurluk sıfatı ile bağdaşmayacak nitelik ve derecede yüz kızartıcı ve utanç verici hareketlerde bulunmak,",
+          "textSHA256": "3df53af44b465890f516c305375ec963313ead4f0bf630424f3e4dd1ff2aed11",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[66]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 67,
+          "kind": "provision",
+          "text": "h) Yetki almadan gizli bilgileri açıklamak,",
+          "textSHA256": "a7e5cf1b6faa82e52029a9eae10971ee85d37b80f1f35451d27b2f8b35907769",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[67]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 68,
+          "kind": "provision",
+          "text": "ı) Siyasi ve ideolojik eylemlerden arananları görev mahallinde gizlemek,",
+          "textSHA256": "be54af104bfe84944bdd6bc0dd6796cb382989dcafc39798c36a448de5966f57",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[68]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 69,
+          "kind": "provision",
+          "text": "j) Yurt dışında Devletin itibarını düşürecek veya görev haysiyetini zedeleyecek tutum ve davranışlarda bulunmak,",
+          "textSHA256": "4830ba37a9ca6f11bf7fc34e6a48fd2c68b1ea31d9e52533091b07e1a1ad5f8f",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[69]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 70,
+          "kind": "provision",
+          "text": "k) 5816 sayılı Atatürk Aleyhine İşlenen Suçlar Hakkındaki Kanuna aykırı fiilleri işlemek.",
+          "textSHA256": "d4784cfee8f52adee85445f1e5f9606d2a81bef3bfccb43b34953d199a43c882",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[70]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 71,
+          "kind": "provision",
+          "text": "l) (Ek: 3/10/2016 – KHK-676/75 md.; Aynen kabul: 1/2/2018-7070/61 md.) Terör örgütleriyle eylem birliği içerisinde olmak, bu örgütlere yardım etmek, kamu imkân ve kaynaklarını bu örgütleri desteklemeye yönelik kullanmak ya da kullandırmak, bu örgütlerin propagandasını yapmak.",
+          "textSHA256": "ce4e8f430ade0d536d43d64ffe057ff8263c4e51dd34d5c9b6cce8c9052876f2",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[71]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 72,
+          "kind": "provision",
+          "text": "Disiplin cezası verilmesine sebep olmuş bir fiil veya halin cezaların özlük dosyasından silinmesine ilişkin süre içinde tekerrüründe bir derece ağır ceza uygulanır. Aynı derecede cezayı gerektiren fakat ayrı fiil veya haller nedeniyle verilen disiplin cezalarının üçüncü uygulamasında bir derece ağır ceza verilir.[184]",
+          "textSHA256": "9bd1f5c72d82d30bccb4df3e98e8ee24c79bec89f81d46224fc50c62a7d7b4fd",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[72]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 73,
+          "kind": "provision",
+          "text": "Geçmiş hizmetleri sırasındaki çalışmaları olumlu olan ve ödül veya başarı belgesi alan memurlar için verilecek cezalarda bir derece hafif olanı uygulanabilir.184",
+          "textSHA256": "492525d155a2803775727f43cf0c7d3b81da82c9c6fc38698c82aa32acf42630",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[73]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 74,
+          "kind": "provision",
+          "text": "Yukarıda sayılan ve disiplin cezası verilmesini gerektiren fiil ve hallere nitelik ve ağırlıkları itibariyle benzer eylemlerde bulunanlara da aynı neviden disiplin cezaları verilir.",
+          "textSHA256": "f61dd084be76dc4c32b9b439d3aabf9baa725bf61a0e0253ac4d118f858f1004",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[74]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 75,
+          "kind": "provision",
+          "text": "Öğrenim durumları nedeniyle yükselebilecekleri kadroların son kademelerinde bulunan Devlet memurlarının, kademe ilerlemesinin durdurulması cezasının verilmesini gerektiren hallerde, brüt aylıklarının ¼’ü – ½’si kesilir ve tekerrüründe görevlerine son verilir.",
+          "textSHA256": "9eec3b3fb670a761ec1de50fd4abc7a62b56241e5e7e3cd8586113d2e527b502",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[75]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 76,
+          "kind": "provision",
+          "text": "Özel kanunların disiplin suçları ve cezalarına ilişkin hükümleri saklıdır.",
+          "textSHA256": "8ad34c4a3f09c0435f4d1e5f505d95c86d1b6649366677707386d398b5d03621",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[76]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 77,
+          "kind": "provision",
+          "text": "Yukarıda yazılı disiplin kovuşturmasının yapılmış olması, fiilin genel hükümler kapsamına girmesi halinde, sanık hakkında ayrıca ceza kovuşturması açılmasına engel teşkil etmez.",
+          "textSHA256": "77d4f044fc84760a50dbe98a9a7a319e71a4aa4cdcf838d3494630f67fc3be8a",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[77]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 78,
+          "kind": "footnote",
+          "text": "[182] 13/2/2011 tarihli ve 6111 sayılı Kanunun 111 inci maddesiyle, bu maddenin (E) bendinin (a) alt bendinde yer alan “engelleme” ibaresi “kamu hizmetlerinin yürütülmesini engelleme” olarak değiştirilmiştir.",
+          "textSHA256": "9f8e4ec5ede9544963e76504f4b6952964a001e24b6082cc57572d028b6c0823",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[78]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 79,
+          "kind": "footnote",
+          "text": "[183] 29/11/1984 tarihli ve 243 sayılı Kanun Hükmünde Kararnamenin 26 ncı maddesi ile bu alt bentte yer alan “kesintisiz 10 gün veya” ibaresi madde metninden çıkarılmıştır.",
+          "textSHA256": "0f1747a710a3549ed1b7044096ebfbe1e35a528884961429c4e862f7990501ec",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[79]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 80,
+          "kind": "footnote",
+          "text": "[184] 13/2/2011 tarihli ve 6111 sayılı Kanunun 111 inci maddesiyle, bu maddenin ikinci fıkrasında yer alan “sicilden” ibaresi “özlük dosyasından” ve üçüncü fıkrasında yer alan “iyi veya çok iyi derecede sicil alan” ibaresi “ödül veya başarı belgesi alan” olarak değiştirilmiştir.",
+          "textSHA256": "557d616b4b7ed61854c5a1654b790d66f943e82b2aad274c0ff5610ae988ba9f",
+          "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[80]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/125-29e0b5cdcfbdc57c2953b1bbb99a20ae05fc9a8bedcb07159d85048ba3443f04.html",
+      "artifactByteLength": 21896
+    },
+    {
+      "legalProvisionId": "LP-657-129",
+      "articleNumber": 129,
+      "title": "Yüksek disiplin kurullarının karar usulü, memurun hakkı:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653721",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 442,
+      "retrievedAt": "2026-11-06T12:27:54.752214+00:00",
+      "rawResponseSHA256": "ef1a647bc625ca2d5e347d928aaec9ad18e9525deec02d5f89b804dc540385f3",
+      "htmlSHA256": "150dcef92e0315e8ad7255e348fa825b2c5e8e91e76b047d1baeb41c2eb9da7f",
+      "text": "Yüksek disiplin kurullarının karar usulü, memurun hakkı:\nMadde 129 – (Değişik: 12/5/1982 - 2670/35 md.)\nYüksek disiplin kurulları kendilerine intikal eden dosyaların incelenmesinde, gerekli gördükleri takdirde, ilgilinin özlük dosyasını ve her nevi evrakı incelemeye, ilgili kurumlardan bilgi almaya, yeminli tanık ve bilirkişi dinlemeye veya niyabeten dinletmeye, mahallen keşif yapmaya veya yaptırmaya yetkilidirler.[186]\nHakkında memurluktan çıkarma cezası istenen memur, (…)[187] soruşturma evrakını incelemeye, tanık dinletmeye, disiplin kurulunda sözlü veya yazılı olarak kendisi veya vekili vasıtasıyla savunma yapma hakkına sahiptir.\n[186] 13/2/2011 tarihli ve 6111 sayılı Kanunun 117 nci maddesiyle, bu maddenin birinci fıkrasında yer alan “sicil dosyasını” ibaresi “özlük dosyasını” olarak değiştirilmiştir.\n[187] 13/2/2011 tarihli ve 6111 sayılı Kanunun 117 nci maddesiyle, bu fıkrada yer alan “sicil dosyası hariç,” ibaresi yürürlükten kaldırılmıştır.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Yüksek disiplin kurullarının karar usulü, memurun hakkı:",
+          "textSHA256": "371c16c730ec65a33dd61fad92492d65ab7ad171aad6e6ffbc517b005d4e22e8",
+          "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "articleHeader",
+          "text": "Madde 129 – (Değişik: 12/5/1982 - 2670/35 md.)",
+          "textSHA256": "496a9584896db5cdfb838bb1c83e86b708dc4981b10022a5bc955e7a95f5425e",
+          "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Yüksek disiplin kurulları kendilerine intikal eden dosyaların incelenmesinde, gerekli gördükleri takdirde, ilgilinin özlük dosyasını ve her nevi evrakı incelemeye, ilgili kurumlardan bilgi almaya, yeminli tanık ve bilirkişi dinlemeye veya niyabeten dinletmeye, mahallen keşif yapmaya veya yaptırmaya yetkilidirler.[186]",
+          "textSHA256": "d179d49132adcc9f1f0795b910e906139256e7e8805d3993ac01d2b10300cf16",
+          "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 4,
+          "kind": "provision",
+          "text": "Hakkında memurluktan çıkarma cezası istenen memur, (…)[187] soruşturma evrakını incelemeye, tanık dinletmeye, disiplin kurulunda sözlü veya yazılı olarak kendisi veya vekili vasıtasıyla savunma yapma hakkına sahiptir.",
+          "textSHA256": "117bc622f138d856e6b119b2f2481d4e916cb8d70169ebcbbc9c1c69c04ed50b",
+          "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[4]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 5,
+          "kind": "footnote",
+          "text": "[186] 13/2/2011 tarihli ve 6111 sayılı Kanunun 117 nci maddesiyle, bu maddenin birinci fıkrasında yer alan “sicil dosyasını” ibaresi “özlük dosyasını” olarak değiştirilmiştir.",
+          "textSHA256": "5e038d9384a31580122df3d86b4ffe66d7eb090b358f65daab050a0aa8715ae8",
+          "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[5]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 6,
+          "kind": "footnote",
+          "text": "[187] 13/2/2011 tarihli ve 6111 sayılı Kanunun 117 nci maddesiyle, bu fıkrada yer alan “sicil dosyası hariç,” ibaresi yürürlükten kaldırılmıştır.",
+          "textSHA256": "09a6a8b5d7b2330d82af976bb4759ba348bdccb6e905530f82f2dda7fdca3c9e",
+          "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[6]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/129-150dcef92e0315e8ad7255e348fa825b2c5e8e91e76b047d1baeb41c2eb9da7f.html",
+      "artifactByteLength": 2802
+    },
+    {
+      "legalProvisionId": "LP-657-130",
+      "articleNumber": 130,
+      "title": "Savunma hakkı:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653724",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:54.643108+00:00",
+      "rawResponseSHA256": "f259cd55ec30c283123fcb45e8b0c3b8df547eccdc3574929a731264e27482c0",
+      "htmlSHA256": "97a88f13abe9ade7a7a5c5c729d3d0778f59f4eb109caba3f23c2b7ac32d620c",
+      "text": "Savunma hakkı:\nMadde 130 – Devlet memuru hakkında savunması alınmadan disiplin cezası verilemez.\nSoruşturmayı yapanın veya yetkili disiplin kurulunun 7 günden az olmamak üzere verdiği süre içinde veya belirtilen bir tarihte savunmasını yapmıyan memur, savunma hakkından vazgeçmiş sayılır.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Savunma hakkı:",
+          "textSHA256": "04bf97bb1d16dc2c1aa8a56393c6bdd55954c7674229338fbccfc32835398162",
+          "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "provision",
+          "text": "Madde 130 – Devlet memuru hakkında savunması alınmadan disiplin cezası verilemez.",
+          "textSHA256": "c318450c39f0017167862507476ea8b3a95320e09ef1cb6072b471358392c654",
+          "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Soruşturmayı yapanın veya yetkili disiplin kurulunun 7 günden az olmamak üzere verdiği süre içinde veya belirtilen bir tarihte savunmasını yapmıyan memur, savunma hakkından vazgeçmiş sayılır.",
+          "textSHA256": "a7672c849cafe03f3a40666639a82aca00abca9878f1283695a2b1bf7dafdeef",
+          "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/130-97a88f13abe9ade7a7a5c5c729d3d0778f59f4eb109caba3f23c2b7ac32d620c.html",
+      "artifactByteLength": 983
+    },
+    {
+      "legalProvisionId": "LP-657-135",
+      "articleNumber": 135,
+      "title": "İtiraz:",
+      "topicId": "O02",
+      "examScope": true,
+      "scopeUse": "QuestionEvidence",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1653738",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 3,
+      "retrievedAt": "2026-11-06T12:27:54.806210+00:00",
+      "rawResponseSHA256": "55dbfa82a5586d10cd88eb6eb24e47e63f5d05332e66e824be64aa11dd5cd329",
+      "htmlSHA256": "68b31a90ec5e2c85690bcc448e526d9a7de955fc3bd4b127e7624e20381e1281",
+      "text": "İtiraz:\nMadde 135 – (Değişik: 13/2/2011 - 6111/113 md.)\nDisiplin amirleri tarafından verilen uyarma, kınama ve aylıktan kesme cezalarına karşı disiplin kuruluna, kademe ilerlemesinin durdurulması cezasına karşı yüksek disiplin kuruluna itiraz edilebilir.\nİtirazda süre, kararın ilgiliye tebliği tarihinden itibaren yedi gündür. Süresi içinde itiraz edilmeyen disiplin cezaları kesinleşir.\nİtiraz mercileri, itiraz dilekçesi ile karar ve eklerinin kendilerine intikalinden itibaren otuz gün içinde kararlarını vermek zorundadır.\nİtirazın kabulü hâlinde, disiplin amirleri kararı gözden geçirerek verilen cezayı hafifletebilir veya tamamen kaldırabilirler.\nDisiplin cezalarına karşı idari yargı yoluna başvurulabilir.",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "İtiraz:",
+          "textSHA256": "31c9b189343b360e45fd97f42015bb2aa68d14ae7a3b5997fb2524152809aeac",
+          "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "articleHeader",
+          "text": "Madde 135 – (Değişik: 13/2/2011 - 6111/113 md.)",
+          "textSHA256": "14e050de80c86bd1e535604a0adc501554a0547015e4633a3e9d349395b3e37f",
+          "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 3,
+          "kind": "provision",
+          "text": "Disiplin amirleri tarafından verilen uyarma, kınama ve aylıktan kesme cezalarına karşı disiplin kuruluna, kademe ilerlemesinin durdurulması cezasına karşı yüksek disiplin kuruluna itiraz edilebilir.",
+          "textSHA256": "54cf5c78ae53f0a492824ee5309859d46b84a137c0a2f2668637bad7d7efd65d",
+          "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[3]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 4,
+          "kind": "provision",
+          "text": "İtirazda süre, kararın ilgiliye tebliği tarihinden itibaren yedi gündür. Süresi içinde itiraz edilmeyen disiplin cezaları kesinleşir.",
+          "textSHA256": "1f4766c6edc1ab96a4f010dc125e468de2cce0d1f69b0c95c3fc43207bdc4d2c",
+          "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[4]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 5,
+          "kind": "provision",
+          "text": "İtiraz mercileri, itiraz dilekçesi ile karar ve eklerinin kendilerine intikalinden itibaren otuz gün içinde kararlarını vermek zorundadır.",
+          "textSHA256": "318271f9e0c7aa8b2a3680421ceb8715194979053a3156c704e4d530b0efdc34",
+          "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[5]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 6,
+          "kind": "provision",
+          "text": "İtirazın kabulü hâlinde, disiplin amirleri kararı gözden geçirerek verilen cezayı hafifletebilir veya tamamen kaldırabilirler.",
+          "textSHA256": "04a3e96011c102e2c3f7cbe4edf311ea43dfdb339689c9245abfc042b5266d28",
+          "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[6]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 7,
+          "kind": "provision",
+          "text": "Disiplin cezalarına karşı idari yargı yoluna başvurulabilir.",
+          "textSHA256": "7022b9aff8178ea395863e39b7beb6032885baeff7bc70d355a405365521942e",
+          "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[7]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/135-68b31a90ec5e2c85690bcc448e526d9a7de955fc3bd4b127e7624e20381e1281.html",
+      "artifactByteLength": 1839
+    },
+    {
+      "legalProvisionId": "LP-657-238",
+      "articleNumber": 238,
+      "title": "Kanunun yürürlüğe girmesi:",
+      "topicId": null,
+      "examScope": false,
+      "scopeUse": "MetadataOnlyNotQuestionScope",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "sourceLocator": "657 sayılı Kanun m.238; UYAP maddeId=1654032",
+      "sourcePage": null,
+      "pageNotApplicableReason": "Resmî HTML madde hizmeti; sayfa yerine madde kimliği ve HTML paragrafı kullanılır.",
+      "officialArticleId": "1654032",
+      "articleNodeUpdatedAt": "2026-07-31T11:56:36.000+00:00",
+      "officialContentVersion": 2,
+      "retrievedAt": "2026-11-06T12:27:55.127994+00:00",
+      "rawResponseSHA256": "798311a8b551c999c038a3d04a2518d5af364c325fb5f36e367a77f49441c409",
+      "htmlSHA256": "92c194f2232084418b7ff1a02fcd079e41b8d3f0958b41a7f0d20c9e8b60be97",
+      "text": "Kanunun yürürlüğe girmesi:\nMadde 238 – (Mülga : 23/12/1972 – KHK-2/5)",
+      "paragraphs": [
+        {
+          "htmlParagraphIndex": 1,
+          "kind": "title",
+          "text": "Kanunun yürürlüğe girmesi:",
+          "textSHA256": "1de5c3faec5cde626cd25c85549ee4f987e72793c80eaed3566eac71547e2d6f",
+          "sourceLocator": "657 sayılı Kanun m.238; UYAP maddeId=1654032; HTML p[1]",
+          "presentInFullOfficialDocument": true
+        },
+        {
+          "htmlParagraphIndex": 2,
+          "kind": "articleHeader",
+          "text": "Madde 238 – (Mülga : 23/12/1972 – KHK-2/5)",
+          "textSHA256": "74d97cd204fe78239f0c02c09c11793d720234a1d75ff6c656b9300fad8a0fe3",
+          "sourceLocator": "657 sayılı Kanun m.238; UYAP maddeId=1654032; HTML p[2]",
+          "presentInFullOfficialDocument": true
+        }
+      ],
+      "publicationDate": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "dateStatus": "Madde değişiklik başlıkları metinde korunmuştur; değişiklik tarihleri yayımlanma veya yürürlük tarihi olarak türetilmemiştir.",
+      "transitionReviewStatus": "NotIndependentlyResolved",
+      "verificationStatus": "OfficialTextRetrievedAndCrossCheckedAgainstFullDocument",
+      "artifactPath": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/238-92c194f2232084418b7ff1a02fcd079e41b8d3f0958b41a7f0d20c9e8b60be97.html",
+      "artifactByteLength": 483
+    }
+  ]
+}

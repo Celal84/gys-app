@@ -1,0 +1,1258 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "extension-independent-review",
+  "reviewType": "SeparateProcessModelAssistedOfficialProvisionReview",
+  "humanReview": false,
+  "candidateFileSHA256": "38ec0a34fe8f05f15e43ee4d2e5abbf4cd0294dec5eaa870f2923862f5209603",
+  "rulesFileSHA256": "687fc2a39c135f71bb4253a97d2c44b055cdd6a2d881fa8760a11bd3dd01ebe2",
+  "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "sourceArchiveHashChecks": 237,
+  "sourceIntegrityChecks": {
+    "independentParser": "lxml.html",
+    "articleArtifacts": 117,
+    "rawArticleResponses": 117,
+    "fullRawResponse": true,
+    "fullDecodedHTML": true,
+    "provisionJSON": true,
+    "paragraphsCompared": 975,
+    "integrityDisagreements": 0
+  },
+  "legalEdition": "preparation",
+  "examCutoffFinalized": false,
+  "reviewDecisionScope": "Pass supports controlled preparation-package publication only when separate reproducible source/rule checks pass; it is not human approval or final 2027 legal-edition acceptance.",
+  "correctedCandidates": [
+    "Q-O02-B-0052",
+    "Q-O02-B-0067"
+  ],
+  "difficultyCalibrationCandidates": [
+    "Q-O02-B-0030",
+    "Q-O02-B-0031",
+    "Q-O02-B-0036",
+    "Q-O02-B-0045",
+    "Q-O02-B-0053",
+    "Q-O02-B-0057",
+    "Q-O02-B-0098"
+  ],
+  "sourceQuoteContextExpandedCandidates": [
+    "Q-O02-B-0025",
+    "Q-O02-B-0052",
+    "Q-O02-B-0053",
+    "Q-O02-B-0058",
+    "Q-O02-B-0065",
+    "Q-O02-B-0069",
+    "Q-O02-B-0070",
+    "Q-O02-B-0075",
+    "Q-O02-B-0087"
+  ],
+  "originalityReview": {
+    "comparedQuestionCount": 100,
+    "baselineQuestions": 18,
+    "extensionQuestions": 82,
+    "distinctExtensionObjectives": 82,
+    "distinctExtensionArticles": 74,
+    "normalizedTextDuplicatesObserved": 0,
+    "semanticDuplicatesObserved": 0,
+    "learningObjectiveDuplicatesObserved": 0,
+    "method": "Normalized text comparison plus separate model-assisted manual review of measured rule, legal condition, outcome and cognitive operation. No embedding model or statistical proof of semantic uniqueness is claimed.",
+    "sameArticleExtensionGroups": [
+      [
+        25,
+        26
+      ],
+      [
+        39,
+        40
+      ],
+      [
+        48,
+        49
+      ],
+      [
+        52,
+        53
+      ],
+      [
+        55,
+        56
+      ],
+      [
+        75,
+        76
+      ],
+      [
+        78,
+        79
+      ],
+      [
+        92,
+        93
+      ]
+    ],
+    "highestLexicalSimilarity": {
+      "questionIds": [
+        "Q-O02-B-0067",
+        "Q-O02-B-0074"
+      ],
+      "wordJaccard": 0.45454545454545453,
+      "decision": "Different rules: abolished-position appointment and carry-over annual leave; boilerplate overlap is not duplication."
+    }
+  },
+  "summary": {
+    "reviewed": 82,
+    "pass": 82,
+    "needsReview": 0,
+    "rejected": 0,
+    "publicationApprovalPerformedByReviewer": false,
+    "baselinePlusExtensionCount": 100
+  },
+  "reviews": [
+    {
+      "questionId": "Q-O02-B-0019",
+      "candidateSha256": "e4f101be9d0d093c095edbf7101c5be4fb2506c11c687e9ba235d55e08f233d7",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Mevcut kuruluş biçimine bakılmaksızın, Devlet ve diğer kamu tüzel kişiliklerince genel idare esaslarına göre yürütülen asli ve sürekli kamu hizmetlerini ifa ile görevlendirilenler, bu Kanunun uygulanmasında memur sayılır.",
+      "sourceLocator": "657 sayılı Kanun m.4; UYAP maddeId=1653313; HTML p[5]",
+      "notes": [
+        "Madde 4/A temel tanım ve ek memur kapsamı, 4/B sözleşmeli ve 4/D işçi ayrımı birlikte okundu; temel tanımı soran kökte yalnız doğru seçenek genel idare + asli/sürekli görev koşullarını taşır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0020",
+      "candidateSha256": "e508bdb3599c22bafdac7bedf762c86425187ce0425dd6cc15af9141afc3d21d",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurları, Türkiye Cumhuriyeti Anayasasına ve kanunlarına sadakatla bağlı kalmak ve milletin hizmetinde Türkiye Cumhuriyeti kanunlarını sadakatla uygulamak zorundadırlar.Devlet memurları bu hususu \"Asli Devlet Memurluğuna\" atandıktan sonra en geç bir ay içinde kurumlarınca düzenlenecek merasimle yetkili amirlerin huzurunda yapacakları yeminle belirtirler ve özlük dosyalarına konulacak aşağıdaki \"Yemin Belgesi\" ni imzalayarak göreve başlarlar.",
+      "sourceLocator": "657 sayılı Kanun m.6; UYAP maddeId=1653321; HTML p[3]",
+      "notes": [
+        "Madde 6 tam bağlamında asli atamadan en geç bir ay ve imzalı belgenin özlük dosyası birlikte doğrulandı; adaylık/başvuru tarihleri süre başlangıcı değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0021",
+      "candidateSha256": "1052c96d3cfd4089ea30f3366e4672980d6b9be8b27514d0eb21c5620ba3ded2",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurları siyasi partiye üye olamazlar, herhangi bir siyasi parti, kişi veya zümrenin yararını veya zararını hedef tutan bir davranışta bulunamazlar; görevlerini yerine getirirlerken dil, ırk, cinsiyet, siyasi düşünce, felsefi inanç, din ve mezhep gibi ayırım yapamazlar; hiçbir şekilde siyasi ve ideolojik amaçlı beyanda ve eylemde bulunamazlar ve bu eylemlere katılamazlar.",
+      "sourceLocator": "657 sayılı Kanun m.7; UYAP maddeId=1653324; HTML p[3]",
+      "notes": [
+        "Madde 7 tam siyasi üyelik / yarar hedefleme / ayrım yasağı okundu. Olguda siyasi yakınlık tek tercih nedeni; kıdem veya üyeliğin yokluğu istisna oluşturmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0022",
+      "candidateSha256": "9882bf20bb2dfeb17cfb17c054d68a4477b760f6455df2579b707b0979012f12",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 8 – Devlet memurları, resmi sıfatlarının gerektirdiği itibar ve güvene layık olduklarını hizmet içindeki ve dışındaki davranışlariyle göstermek zorundadırlar.",
+      "sourceLocator": "657 sayılı Kanun m.8; UYAP maddeId=1653327; HTML p[2]",
+      "notes": [
+        "Madde 8 hizmet içi ve dışı davranış yükümlülüğü açık; işbirliği paragrafı kapsamı daraltmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0023",
+      "candidateSha256": "e12f8539fa2f369a99d00e0737cca7049c9032837606cb53fc3ef9b40cdae6b1",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 9 – Devlet memurlarından sürekli veya geçici görevle veya yetişme, inceleme ve araştırma için yabancı memleketlerde bulunanlar Devlet itibarını veya görev haysiyetini zedeleyici fiil ve davranışlarda bulunamazlar.",
+      "sourceLocator": "657 sayılı Kanun m.9; UYAP maddeId=1653330; HTML p[2]",
+      "notes": [
+        "Madde 9 tüm metinde sürekli/geçici görev ile yetişme/inceleme/araştırma amaçlarını birlikte sayar. Turizm, asgari biryıl veya diplomatik kadro koşulu yoktur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0024",
+      "candidateSha256": "e884924d45159dbda5297394a7384a95cf29dfa126eaa85e525b76f8b8ea2050",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Amir, maiyetindeki memurlara kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı emir veremez ve maiyetindeki memurdan hususi bir menfaat temin edecek bir talepte bulunamaz, hediyesini kabul edemez ve borç alamaz.",
+      "sourceLocator": "657 sayılı Kanun m.10; UYAP maddeId=1653333; HTML p[5]",
+      "notes": [
+        "Madde 10 bütün görev, eşitlik ve menfaat yasağı okundu. Amir-maiyet borç yasağında rıza/vade/faiz/yazılılık istisnası yoktur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0025",
+      "candidateSha256": "c7864b2eb573f0911f0beea4e2d97dea11c6ba578d1db8870856c219be2af342",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memuru amirinden aldığı emri, Anayasa, kanun, Cumhurbaşkanlığı kararnamesi ve yönetmelik hükümlerine aykırı görürse, yerine getirmez ve bu aykırılığı o emri verene bildirir. Amir emrinde israr eder ve bu emrini yazı ile yenilerse, memur bu emri yapmağa mecburdur. Ancak emrin yerine getirilmesinden doğacak sorumluluk emri verene aittir.[18]\nKonusu suç teşkil eden emir, hiçbir suretle yerine getirilmez; yerine getiren kimse sorumluluktan kurtulamaz.\nAcele hallerde kamu düzeninin ve kamu güvenliğinin korunması için kanunla gösterilen istisnalar saklıdır.",
+      "sourceLocator": "657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[4]; 657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[5]; 657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[6]",
+      "notes": [
+        "Madde 11 bütün paragrafları, suç emri ayrımı ve acele hâl kanuni istisnası birlikte okundu. Kökte suç oluşturmama ve istisna dışılık belirtilmiş; yazılı ısrar sonrası sorumluluk emri verendedir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0026",
+      "candidateSha256": "05bc2b27e2d0037fa1f9c81a82e33c94e92d7878b630499c0a20d71c2daf3a4b",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Konusu suç teşkil eden emir, hiçbir suretle yerine getirilmez; yerine getiren kimse sorumluluktan kurtulamaz.",
+      "sourceLocator": "657 sayılı Kanun m.11; UYAP maddeId=1653335; HTML p[5]",
+      "notes": [
+        "Madde 11 suç teşkil eden emir hiçbir suretle uygulanmaz; yazılılık sorumluluğu kaldırmaz. Q25 farklı koşul ve sonuç sorar; aynı hükmün kelimeçevirisi değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0027",
+      "candidateSha256": "09e29288a789bd2e46c602b61413158b76bab2db40e00acf55275a91da6fe3b7",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurunun kasıt, kusur, ihmal veya tedbirsizliği sonucu idare zarara uğratılmışsa, bu zararın ilgili memur tarafından rayiç bedeli üzerinden ödenmesi esastır.",
+      "sourceLocator": "657 sayılı Kanun m.12; UYAP maddeId=1653338; HTML p[4]",
+      "notes": [
+        "Madde 12 tam bağlamındaki rayiç bedel ve küçük zararda kabul/disiplinusulü ayrıldı. Kökte yalnız değerleme ölçüsü sorulur, usul istisnası doğru cevabı değiştirmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0028",
+      "candidateSha256": "0276621b6dfd15ac0ada16eba72bc69ae7af442e1f069909ca49df95365b69f3",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "(Değişik birinci fıkra: 6/6/1990 - 3657/1 md.) Kişiler kamu hukukuna tabi görevlerle ilgili olarak uğradıkları zararlardan dolayı bu görevleri yerine getiren personel aleyhine değil, ilgili kurum aleyhine dava açarlar. Ancak, Devlet dairelerine tevdi veya bu dairelerce tahsil veya muhafaza edilen para ve para hükmündeki değerli kağıtların ilgili personel tarafından zimmete geçirilmesi halinde, zimmete geçirilen miktar, cezai takibat sonucu beklenmeden Hazine tarafından hak sahibine ödenir. Kurumun, genel hükümlere göre sorumlu personele rücu hakkı saklıdır.",
+      "sourceLocator": "657 sayılı Kanun m.13; UYAP maddeId=1653341; HTML p[3]",
+      "notes": [
+        "Madde 13 kurum aleyhine dava ve rücu hakkı, zimmette Hazine ödemesi ve AİHM rücu paragrafıyla birlikte okundu. Kökte zimmet çıkarılmış; dava/rücu seçenekleri tekdoğruda birleşir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0029",
+      "candidateSha256": "a96eb227b81fc0db6d947033c45d5a371f8ab743544fdd898bc6df8b751f5932",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 14 – Devlet memurları, kendileriyle, eşlerine ve velayetleri altındaki çocuklarına ait taşınır ve taşınmaz malları, alacak ve borçları hakkında, özel kanunda yazılı hükümler uyarınca, mal bildirimi verirler.",
+      "sourceLocator": "657 sayılı Kanun m.14; UYAP maddeId=1653344; HTML p[2]",
+      "notes": [
+        "Madde 14 tek paragrafı kişi, eş, velayet altı çocuk; taşınır/taşınmaz, alacak/borç boyutlarıyla doğrulandı. Bildirimin özel kanun usulü açıklamada korunur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0030",
+      "candidateSha256": "6f900d9cb4edf51dbd04e47c847faf3f80850d7e621bcbb84d4193cdbda40203",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet Memurları, kamu görevleri hakkında basına, haber ajanslarına veya radyo ve televizyon kurumlarına bilgi veya demeç veremezler. Bu konuda gerekli bilgi ancak bakanın yetkili kılacağı görevli illerde valiler veya yetkili kılacağı görevli tarafından verilebilir.",
+      "sourceLocator": "657 sayılı Kanun m.15; UYAP maddeId=1653347; HTML p[3]",
+      "notes": [
+        "Madde 15 kamu görevi basın yetkisi ve askerî hizmet özelhükmü birlikte okundu; bakanın yetkilisi ile ildevali/yetkilisi doğru eşleştirmedir. Zorluk etiketinin orta düzeye kalibrasyonu önerildi.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0031",
+      "candidateSha256": "c25de3cd19451eee5529a773dee331f3ff4af7ce6b367b94f7425653d43adfa5",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurları görevleri icabı kendilerine teslim edilen resmi belge, araç ve gereçleri görevleri sona erdiği zaman iade etmek zorundadırlar. Bu zorunluluk memurun mirasçılarına da şamildir.",
+      "sourceLocator": "657 sayılı Kanun m.16; UYAP maddeId=1653350; HTML p[4]",
+      "notes": [
+        "Madde 16 bütün belge/araç/gereç kullanım ve iade hükümleri okundu. Mirasçıya şamil olma açık; memurluk veya bekleme süresi şartı yok. Doğrudan hatırlama sorusu için zor etiketi yerine temel/orta önerildi.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0032",
+      "candidateSha256": "e5282c84ead1ed8e3b6661b33c37b7f912500ad873e7e03730ef563354b23aa8",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 18 – Kanunlarda yazılı haller dışında Devlet memurunun memurluğuna son verilmez, aylık ve başka hakları elinden alınamaz.",
+      "sourceLocator": "657 sayılı Kanun m.18; UYAP maddeId=1653359; HTML p[2]",
+      "notes": [
+        "Madde 18 kanuni istisnaya bağlı statü ve mali/sairhak güvenliğini birlikte tanır; mutlak görevden çıkarılamama doğru değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0033",
+      "candidateSha256": "8cb29d1171c8e281c21db84bd5a47a70abc3145681a5a655ed796ca7b49cfa34",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Müracaat ve şikayetler söz veya yazı ile en yakın amirden başlayarak silsile yolu ile şikayet edilen amirler atlanarak yapılır.",
+      "sourceLocator": "657 sayılı Kanun m.21; UYAP maddeId=1653368; HTML p[4]",
+      "notes": [
+        "Madde 21 bütün başvuru/dava ve inceleme paragrafları okundu; söz/yazı ve şikâyet edilen amiriatlama birlikte korunur. Şikâyet hakkını kaldıran veya gereksiz noter şartı ekleyen çeldiriciler yanlış.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0034",
+      "candidateSha256": "6cf91500186e3e823cfe41df544548d06201b1340c4df3050584f314461c7bc5",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurları, Anayasada ve özel kanununda belirtilen hükümler uyarınca sendikalar ve üst kuruluşlar kurabilir ve bunlara üye olabilirler.",
+      "sourceLocator": "657 sayılı Kanun m.22; UYAP maddeId=1653373; HTML p[3]",
+      "notes": [
+        "Madde 22 yürürlükteki yeniden düzenleme sendika/üst kuruluş kurmayı ve üyeliği Anayasa/özel kanun şartlarıyla tanır; siyasi parti veya zorunlu dernek üyeliğine dönüşmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0035",
+      "candidateSha256": "80b28c6b29888ac3c504e9641da997b13135351b252ce559b8d79de9cb04c8a9",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 24 – Devlet memurlarının görevleri ile ilgili veya görevleri sırasında işledikleri suçlardan dolayı soruşturma ve kovuşturma yapılması ve haklarında dava açılması özel hükümlere tabidir.",
+      "sourceLocator": "657 sayılı Kanun m.24; UYAP maddeId=1653378; HTML p[2]",
+      "notes": [
+        "Madde 24 tam metnindeki soruşturma/kovuşturma/dava özelhükümlere tabidir. Özel usul dokunulmazlık veya tek bir hayali izin makamı değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0036",
+      "candidateSha256": "fea743e70fa2269f8c82fcddee21d3dea3859ca8e0d839360810f3a1b34df976",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 25 – Devlet memurları hakkındaki ihbar ve şikayetler, garaz veya mücerret hakaret için, uydurma bir suç isnadı suretiyle yapıldığı ve soruşturma veya yargılamanın tabi olduğu kanuni işlem sonucunda bu isnat sabit olmadığı takdirde, merkezde bu memurun en büyük amiri, illerde valiler, isnatta bulunanlar hakkında kamu davası açılmasını Cumhuriyet Savcılığından isterler.",
+      "sourceLocator": "657 sayılı Kanun m.25; UYAP maddeId=1653381; HTML p[2]",
+      "notes": [
+        "Madde 25 garaz/mücerret hakaret + uydurma suç + kanuni işlem sonunda sabit olmama şartları kökte birlikte mevcut. Merkez en büyük amir / iller vali ayrımı ve savcılıktan isteme korunur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0037",
+      "candidateSha256": "a2d715c31adafc5d38dd4d90843dc79d89ba32154da1e8e0c6d6f85c671579f9",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurlarının kamu hizmetlerini aksatacak şekilde memurluktan kasıtlı olarak birlikte çekilmeleri veya görevlerine gelmemeleri veya görevlerine gelipte Devlet hizmetlerinin ve işlerinin yavaşlatılması veya aksatılması sonucunu doğuracak eylem ve hareketlerde bulunmaları yasaktır.",
+      "sourceLocator": "657 sayılı Kanun m.26; UYAP maddeId=1653387; HTML p[4]",
+      "notes": [
+        "Madde 26 mülga birincifıkra uygulanmadı; yürürlükteki toplu ve kasıtlı göreve gelmeme ile kamu hizmetini aksatma şartları olayda açık. Birim veya gün saati istisnası yok.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0038",
+      "candidateSha256": "04b5cec69ad3a8b8d5975ddc7eac2f1656a1676f86909b8c23e713b3edf37612",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 27 – Devlet memurlarının greve karar vermeleri, grev tertiplemeleri, ilan etmeleri, bu yolda propaganda yapmaları yasaktır.\nDevlet memurları, harhangi bir greve veya grev teşebbüsüne katılamaz, grevi destekliyemez veya teşvik edemezler.",
+      "sourceLocator": "657 sayılı Kanun m.27; UYAP maddeId=1653390; HTML p[2]; 657 sayılı Kanun m.27; UYAP maddeId=1653390; HTML p[3]",
+      "notes": [
+        "Madde 27 iki fıkrası birlikte okundu; karar/tertipleme/ilan/propaganda ile katılım/destek/teşvik yasakları ayrıdır. Grev teşebbüsü de kapsamda.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0039",
+      "candidateSha256": "722498d36b8f284499a02ad3d0160b0291e229e22adbe78bd80abd7f8379c988",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Eşleri, reşit olmayan veya mahcur olan çocukları, yasaklanan faaliyetlerde bulunan memurlar bu durumu 15 gün içinde bağlı oldukları kuruma bildirmekle yükümlüdürler,",
+      "sourceLocator": "657 sayılı Kanun m.28; UYAP maddeId=1653393; HTML p[5]",
+      "notes": [
+        "Madde 28 tam ticaret/meslek faaliyeti yasakları, kurul istisnaları ve aile bildirimi birlikte okundu. Soru eşin faaliyetine bağlı15 günlük bildirim süresini ölçer; Q40 farklı istisna boyutudur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0040",
+      "candidateSha256": "69c589049e8fe581d4b4a08bc2c53604360e579e57a7e71c4b3ea8ebf3fb63a5",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "(Değişik ikinci fıkra: 8/8/2011 - KHK-650/38 md.; İptal ikinci fıkra: Anayasa Mahkemesinin 18/7/2012 tarihli ve E.: 2011/113 K.: 2012/108 sayılı Kararı ile ; Yeniden düzenleme: 2/1/2014 - 6514/9 md.) Memurların üyesi oldukları yapı, kalkınma ve tüketim kooperatifleri, kamu kurumu niteliğindeki meslek kuruluşları ve kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulmuş yardım sandıklarının yönetim, denetim ve disiplin kurulları üyelikleri ile özel kanunlarda belirtilen görevler bu yasaklamanın dışındadır.[23]",
+      "sourceLocator": "657 sayılı Kanun m.28; UYAP maddeId=1653393; HTML p[4]",
+      "notes": [
+        "Madde 28 memurun üyesi olduğu yapı kooperatifi yönetimkurulu açık istisnadır. Kolektif/komandite ortaklık, ticari mümessillik ve özelbüro diğer seçeneklerde yasakalanındadır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0041",
+      "candidateSha256": "8625dcf3b79e553df34f01415c8eb92534339b01d215255fc3577cfb1aef091e",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 29 – Devlet memurlarının doğrudan doğruya veya aracı eliyle hediye istemeleri ve görevleri sırasında olmasa dahi menfaat sağlama amacı ile hediye kabul etmeleri veya iş sahiplerinden borç para istemeleri ve almaları yasaktır.",
+      "sourceLocator": "657 sayılı Kanun m.29; UYAP maddeId=1653396; HTML p[2]",
+      "notes": [
+        "Madde 29 doğrudan/aracılı hediye isteme ve mesai dışında dahi menfaat amaçlı kabul yasağı birlikte okundu. Etik Kurulu kapsam yetkisi olayda iş sahibinin lehineişlem menfaatini serbestleştirmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0042",
+      "candidateSha256": "c9b82e51a70cd4d57dd42cba2e1ac2775605da722b3ba93a74a0062005d8d6b2",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 30 – Devlet memurunun, denetimi altında bulunan veya kendi görevi veya mensup olduğu kurum ile ilgisi olan bir teşebbüsten, doğrudan doğruya veya aracı eliyle her ne ad altında olursa olsun bir menfaat sağlaması yasaktır.",
+      "sourceLocator": "657 sayılı Kanun m.30; UYAP maddeId=1653399; HTML p[2]",
+      "notes": [
+        "Madde 30 denetim veya görev/kurum ilgisi olan teşebbüsten doğrudan/aracılı ve herad altında menfaat yasağı bütünüyle okundu; olay dolaylı ödemeyi ölçer.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0043",
+      "candidateSha256": "f55373813cd11d4f18c6937e8ce6b6e8614c47fa523ea85546fbb16c1c9043ee",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurlarının kamu hizmetleri ile ilgili gizli bilgileri görevlerinden ayrılmış bile olsalar, yetkili bakanın yazılı izni olmadıkça açıklamaları yasaktır.",
+      "sourceLocator": "657 sayılı Kanun m.31; UYAP maddeId=1653402; HTML p[3]",
+      "notes": [
+        "Madde 31 görevdenayrılma sonrası da gizlibilgi yasağını sürdürür, yetkilibakanın yazılıizni aranır. Süre/ortam/meslektaş sözlüizin istisnası yoktur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0044",
+      "candidateSha256": "617957e7e944c8e45a2136c34d94650ba26f5f25349de7e72cc67e9f30ddcefe",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "II - TEKNİK HİZMETLER SINIFI:\nBu Kanunun kapsamına giren kurumlarda meslekleriyle ilgili görevleri fiilen ifa eden ve meri hükümlere göre yüksek mühendis, mühendis, yüksek mimar, mimar, jeolog, hidrojeolog, hidrolog, jeofizikçi, fizikçi, kimyager, matematikçi, istatistikçi, yöneylemci (Hareket araştırmacısı), matematiksel iktisatcı, ekonomici ve benzeri ile teknik öğretmen okullarından mezun olup da, öğretmenlik mesleği dışında teknik hizmetlerde çalışanlar, 3437 ve 9/5/1969 tarih 1177 sayılı Kanunlara göre tütün eksperi yetiştirilenler ile müskirat ve çay eksperleri, fen memuru, yüksek tekniker, tekniker teknisyen ve emsali teknik unvanlara sahip olup, en az orta derecede mesleki tahsil görmüş bulunanlar, Teknik Hizmetler sınıfını teşkil eder. [26][27][28]",
+      "sourceLocator": "657 sayılı Kanun m.36; UYAP maddeId=1653419; HTML p[6]; 657 sayılı Kanun m.36; UYAP maddeId=1653419; HTML p[7]",
+      "notes": [
+        "Madde 36/I genel idare artık kapsamı, II mühendis + fiilen görev şartı ve komşu hizmet sınıfları okundu. Olay mühendis unvanı ile fiilî meslek görevini birlikte verir; diploma tek başına yeterli gösterilmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0045",
+      "candidateSha256": "825ec16811147ef1036b52647a401a4bec2dbb8622390f7561a1a4459a73fd2f",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "5. (Değişik: 23/1/2008 - 5728/317 md.) Türk Ceza Kanununun 53 üncü maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla süreyle hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, (…)[113] zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+      "sourceLocator": "657 sayılı Kanun m.48; UYAP maddeId=1653464; HTML p[9]",
+      "notes": [
+        "Madde 48/A-5 bütün suç listesi ve iptalnotu okundu; rüşvet affa rağmen sayılan suçtur. Kökte kanun lafzı sınırı ve açıklamada hakların iadesi kararını ayrıca değerlendirmeme korunmuş; kabahat/borç/sözleşmegecikmesi listeye sokulmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0046",
+      "candidateSha256": "08c280203ec4033b6b2c697411c05da3a22cb2b907028f61748008aabf6cc09a",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet kamu hizmet ve görevlerine Devlet memuru olarak atanacakların açılacak Devlet memurluğu sınavlarına girmeleri ve sınavı kazanmaları şarttır.\nSınavların yapılmasına dair usul ve esaslar ile sınava tabi tutulmadan girilebilecek hizmet ve görevler ve bunların tabi olacağı esaslar Devlet Personel Başkanlığınca hazırlanacak bir genel yönetmelikle düzenlenir.",
+      "sourceLocator": "657 sayılı Kanun m.50; UYAP maddeId=1653471; HTML p[3]; 657 sayılı Kanun m.50; UYAP maddeId=1653471; HTML p[4]",
+      "notes": [
+        "Madde 50 sınava giriş+başarı genel kuralı, sınavsız hizmetlerin yönetmelikle belirlenmesi istisnasıyla birlikte okundu. Kökte genel kural, açıklamada istisnalar açık.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0047",
+      "candidateSha256": "9af81311b07097f0feb0431529ffb514662877458d097cd8256a98094ceb5a6e",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Aday olarak atanan memurların önce bütün memurların ortak vasıfları ile ilgili temel eğitime, bilahara sınıfları ile ilgili hazırlayıcı eğitime ve staja tabi tutulmaları ve Devlet memuru olarak atanabilmeleri için başarılı olmaları şarttır.\nTemel eğitim ile hazırlayıcı eğitim aynı kurumda yapılır.",
+      "sourceLocator": "657 sayılı Kanun m.55; UYAP maddeId=1653487; HTML p[3]; 657 sayılı Kanun m.55; UYAP maddeId=1653487; HTML p[4]",
+      "notes": [
+        "Madde 55 ortak temel eğitim, sınıfa hazırlayıcı eğitim ve staj ile başarı şartı okundu; eğitimlerin aynı kurumda yapılması açıklamada korunur. Q0004 adaylık süresinden farklı hedef.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0048",
+      "candidateSha256": "f9dd1f3c515eb095f6e112bd304649c71f975cf737c5ec08504aad9426342693",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 56 – (Değişik: 23/1/2026 - 7573/1 md.)\nAdaylık süresi içinde; temel ve hazırlayıcı eğitim ve staj devrelerinin herhangi birinde başarısız olanlar, birden fazla uyarma ve/veya kınama cezası almış olanlar ile aylıktan kesme ya da kademe ilerlemesinin durdurulması cezası almış olanların disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile ilişikleri kesilir. İlişikleri kesilenler ilgili kurumlarca derhal Kamu Personel Bilgi Sisteminin bulunduğu kuruma bildirilir.",
+      "sourceLocator": "657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[2]; 657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[3]",
+      "notes": [
+        "Madde 56 7573/1 değişik resmî hazırlık metninde birden fazla uyarma ve/veya kınama eşiği ile disiplin amiri teklifi+atamaya yetkili amir onayı birlikte doğrulandı. Diğer ilişik kesme nedenleri açıklamada ayrıca korunur; nihai 2027 sürümü iddiası yok.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0049",
+      "candidateSha256": "000b4e6113b8cea039f7053219e09e28e39273e358a2d91e9dda7392d13bb4af",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Bu madde hükümlerine göre ilişikleri kesilenler (sağlık nedenleri hariç) üç yıl süre ile Devlet memurluğuna alınmazlar.",
+      "sourceLocator": "657 sayılı Kanun m.56; UYAP maddeId=1653489; HTML p[4]",
+      "notes": [
+        "Madde 56 son fıkra sağlık nedeni istisnası + üç yıl yeniden alınmama kuralını açıkça içerir. Q48 disiplin eşiği farklı; Q49 süre ve istisnayı ölçer.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0050",
+      "candidateSha256": "3b694cbba20f84c1517f8c32adad9b988c2d844953b7fe310a848edc8ff047b9",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Adaylık devresi içinde eğitimde başarılı olan adaylar disiplin amirlerinin teklifi ve atamaya yetkili amirin onayı ile onay tarihinden geçerli olmak üzere asli memurluğa atanırlar.[118]\nAsli memurluğa geçme tarihi adaylık süresinin sonunu geçemez.",
+      "sourceLocator": "657 sayılı Kanun m.58; UYAP maddeId=1653500; HTML p[3]; 657 sayılı Kanun m.58; UYAP maddeId=1653500; HTML p[4]",
+      "notes": [
+        "Madde 58 onay tarihinden geçerli asli memurluk ile adaylık süresinin sonunu geçememe birlikte okundu. İlk aday atama, yemin belgesi basımı ve takvimyılı farklı tarihlerdir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0051",
+      "candidateSha256": "3ce1eb77e4a118cb19c6bbfc9c0b7c41c86316a7e8855b33f3f481a1aa831e1d",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Birinci fıkrada sayılan memurların bulundukları bu kadrolar emeklilik aylığının hesabında ve diğer memurluklara naklen atanmalarında herhangi bir sınıf için kazanılmış hak sayılmaz. Bu görevlerde bulunan memurların emeklilik kıdemleri yürümekte devam eder.",
+      "sourceLocator": "657 sayılı Kanun m.59; UYAP maddeId=1653503; HTML p[4]",
+      "notes": [
+        "Madde 59 sayılan istisnai kadrolar, kadronun sınıf için kazanılmış hak sayılmaması ve emeklilik kıdeminin devamı birlikte okundu. Kıdem devamı kadro/kazanılmış hak ayrımını kaldırmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0052",
+      "candidateSha256": "0b600c522ca5e24eca239eb71cfcd0de6fe35b01ec9dd21354f69892b1e162a3",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "İlk defa veya yeniden veyahut yer değiştirme suretiyle;\na) Aynı yerdeki görevlere atananlar atama emirlerinin kendilerine tebliğ gününü,\nb) Başka yerdeki görevlere atananlar, atama emirlerinin kendilerine tebliğ tarihinden itibaren 15 gün içerisinde o yere hareket ederek belli yol süresini,\nizleyen iş günü içinde işe başlamak zorundadırlar. Savaş ve olağanüstü hallerde bu süre Cumhurbaşkanı Kararı ile kısaltılabilir.[140]",
+      "sourceLocator": "657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[3]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[4]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[5]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[6]",
+      "notes": [
+        "İlk sürümde eksik olan hesap devri ve eski göreve yazılı devam istisnaları inceleme üzerine köke eklendi. Son metin m.62 özel süre başlangıçlarının tamamını ve olağanüstü süre kısaltmasını dışlıyor; pazartesi tebliğini izleyen iş günü salıdır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0053",
+      "candidateSha256": "961a2dc20b91594f4e30887b824ebd80a0a78bea07cee5503b3c2e28888672f2",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Yukarıdaki süreler;\n1 - Kanuni izinlerin kullanılması veya geçici bir görevin yapılması sırasında başka bir göreve atanan memurlar için iznin veya geçici görevin bitimi,\n2 - Hesaplarını, yerlerine gelenlere devir zorunda bulunan sayman ve sayman mutemetleri için devrin sona ermesi,\n3 - Eski görevlerine devamları kurumlarınca yazılı olarak tebliğ edilenler için yerlerine atanan memurların gelmesi veya yeni görev yerlerine hareketlerinin kurumlarınca tebliği,\ntarihinde başlar.",
+      "sourceLocator": "657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[7]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[8]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[9]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[10]; 657 sayılı Kanun m.62; UYAP maddeId=1653512; HTML p[11]",
+      "notes": [
+        "Madde 62 izin/geçici görev bitiminden başlayan özelhüküm, diğer süre başlangıçlarıyla birlikte okundu. Kök yalnız bu kanuni kuralı sorar; Q52 ertesi işgünü hesabından farklı.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0054",
+      "candidateSha256": "3ebd58f6cc58b1cdeb976fc24544b69c2360984c153cc31869ae3d123acbbae3",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "(Değişik: 12/5/1982 - 2670/24 md.) Bir göreve ilk defa veya yeniden atananlardan belge ile isbatı mümkün zorlayıcı sebepler olmaksızın 62 nci maddedeki süre içinde işe başlamayanların atanmaları iptal edilir ve bunlar 1 yıl süreyle Devlet memuru olarak istihdam edilemezler. Bunların belge ile isbatı mümkün zorlayıcı sebepler nedeniyle göreve başlamama hali iki ayı aştığı takdirde atama işlemi atamaya yetkili makamlarca iptal edilir.",
+      "sourceLocator": "657 sayılı Kanun m.63; UYAP maddeId=1653515; HTML p[3]",
+      "notes": [
+        "Madde 63 ilk/yeniden atamada belgeli zorlayıcı sebep bulunmaması koşulu ve iptal + 1 yıl istihdam engeli doğrulandı. Naklen atamada 10 gün ek süre ve zorlayıcı sebepte 2 ay ayrı konulardır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0055",
+      "candidateSha256": "9b4545cdedfc411531b38b448989b192fa5c44eb6e0fcf4eee981f474dd383d3",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Kademe; derece içinde, görevin önemi veya sorumluluğu artmadan, memurun aylığındaki ilerlemedir.",
+      "sourceLocator": "657 sayılı Kanun m.64; UYAP maddeId=1653519; HTML p[3]",
+      "notes": [
+        "Madde 64 bütün ilerleme şartlarıyla birlikte kademe tanımı doğrulandı; derece içi aylık ilerlemesi görev önemi/sorumluluğu artışı gerektirmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0056",
+      "candidateSha256": "7dc07cf40109e59329c2d58cb4b77e464f7347e868b299ec215339193fe1db89",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Son sekiz yıl içinde herhangi bir disiplin cezası almayan memurlara, aylık derecelerinin yükseltilmesinde dikkate alınmak üzere bir kademe ilerlemesi uygulanır.",
+      "sourceLocator": "657 sayılı Kanun m.64; UYAP maddeId=1653519; HTML p[6]",
+      "notes": [
+        "Madde 64 son 8 yıl herhangi bir disiplin cezası almama nedeniyle ilave kademe kuralı, normal 1 yıl ve öncelikli yöre 2 yıl hükümlerinden ayrıldı. Q55 tanımı tekrar etmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0057",
+      "candidateSha256": "3780ec1239d4e4a3a0950d66d95732b8c805592d44e1d5b105cfdd47dc6d9428",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Diğer şartları taşımakla birlikte üst derecelerde (...)142 kadro olmadığı için derece yükselmesi yapamayan memurların kazanılmış hak aylıkları, öğrenim durumları itibariyle yükselebilecekleri dereceyi aşmamak şartıyla işgal etmekte oldukları kadroların üst derecelerine yükseltilir.[142]",
+      "sourceLocator": "657 sayılı Kanun m.67; UYAP maddeId=1653528; HTML p[3]",
+      "notes": [
+        "Madde 67 kadrosuzlukta kazanılmış hak aylığı yükselmesinin öğrenim tavanı açık; yeni kadroya atanma ile aylık derecesi farklıdır. Doğrudan hatırlama için orta düzey kalibrasyonu önerildi.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0058",
+      "candidateSha256": "7800e13412c4a7b59d9314e616fe634fb0038d3ebeaf59236fd463791ab92579",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "B) (Değişik: 4/5/1984 – KHK-199/1 md.) Eğitim ve Öğretim Hizmetleri Sınıfı ile Sağlık Hizmetleri ve Yardımcı Sağlık Hizmetleri Sınıfı hariç, sınıfların 1, 2, 3 ve 4 üncü derecelerindeki kadrolarına, derece yükselmesindeki süre kaydı aranmaksızın, atanmasındaki usule göre daha aşağıdaki derecelerden atama yapılabilir.[143]\n(Değişik ikinci paragraf: 13/2/2011 - 6111/101 md.) Ancak, bu şekilde bir atamanın yapılabilmesi için ilgilinin;\na) 1 inci dereceli kadrolardan ek göstergesi 5300 ve daha yukarıda olanlar için en az 12 yıl,\nb) 1 inci ve 2 nci dereceli kadrolardan ek göstergesi 5300’den az olanlar için en az 10 yıl,\nc) 3 üncü ve 4 üncü dereceli kadrolar için en az 8 yıl,\nhizmetinin bulunması ve yükseköğrenim görmüş olması şarttır. Dört yıldan az süreli yükseköğrenim görenler için bu sürelere iki yıl ilave edilir. Bu sürelerin hesabında; 8/6/1984 tarihli ve 217 sayılı Kanun Hükmünde Kararnamenin 2 nci maddesi kapsamına dâhil kurumlarda fiilen çalışılan süreler ile Yasama Organı Üyeliğinde, belediye başkanlığında, belediye ve il genel meclisi üyeliğinde, kanunlarla kurulan fonlarda, muvazzaf askerlikte, okul devresi dâhil yedek astsubaylık ve yedek subaylıkta ve uluslararası kuruluşlarda geçen sürelerin tamamı ile yükseköğrenim gördükten sonra özel kurumlarda veya serbest olarak çalıştıkları sürenin; Başbakanlık ve bakanlıkların bağlı ve ilgili kuruluşlarının müsteşar ve müsteşar yardımcıları ile en üst yönetici konumundaki genel müdür ve başkan kadrolarına atanacaklar için tamamı, diğer kadrolara atanacaklar için altı yılı geçmemek üzere dörtte üçü dikkate alınır.[144]",
+      "sourceLocator": "657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[9]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[10]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[11]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[12]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[13]; 657 sayılı Kanun m.68; UYAP maddeId=1653530; HTML p[14]",
+      "notes": [
+        "Madde 68/B bütünü ve2026 mülga sonparagraf okundu. Teknik sınıf istisnalar arasında değil;3. derece 8 yıl ve4 yıldan az öğrenim + 2 yıl birlikte 10 yıl verir. Diğer koşullar kökte sağlanmış.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0059",
+      "candidateSha256": "9da315077547b5b282c5765890a5609c41c4382f1eae1a7f6c2cc937d8c81fa3",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Memurların bu Kanuna tabi kurumlar arasında, kurumların muvafakatı ile kazanılmış hak dereceleri üzerinden veya 68 inci maddedeki esaslar çerçevesinde derece yükselmesi suretiyle, bulundukları sınıftan veya öğrenim durumları itibariyle girebilecekleri sınıftan, bir kadroya nakilleri mümkündür. Kazanılmış hak derecelerinin altındaki derecelere atanabilmeleri için ise atanacakları kadro derecesi ile kazanılmış hak dereceleri arasındaki farkın 3 dereceden çok olmaması ve memurların isteği de şarttır.",
+      "sourceLocator": "657 sayılı Kanun m.74; UYAP maddeId=1653551; HTML p[3]",
+      "notes": [
+        "Madde 74 kurumlar arası nakil genel rızası, derece/sınıf ve alt derece isteği koşullarıyla birlikte okundu. Kök yalnız kurumsal koşulu sorar, açıklama diğer kanuni şartları saklı tutar.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0060",
+      "candidateSha256": "91fd4002337db567f36dbd1e0c9dfa5aa86795e9379378f3c876df5fd20d5776",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Memurlar istekleri ile, kurumlarında kazanılmış hak derecelerinin en çok üç derece altında aynı veya başka yerlerdeki kadrolara atanabilirler.",
+      "sourceLocator": "657 sayılı Kanun m.76; UYAP maddeId=1653557; HTML p[4]",
+      "notes": [
+        "Madde 76 kurumun atamayetkisi ile memurun isteğine bağlı alt derece ataması ve emeklilikdeğerlendirmesi birlikte okundu. Soru isteğe bağlıençok3derece sınırını ölçer.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0061",
+      "candidateSha256": "4e0160dbb0082d8bcddf94f8f029922f11db697a19ba8f119cc38fd1541a3647",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 78 – Mesleklerine ait öğrenimini bitirerek Devlet memurluğuna alınmış ve asli memur olarak atanmış olanlardan mesleklerine ait hizmetlerde yetiştirilmek, eğitilmek, bilgilerini artırmak veya staj yapmak üzere dış memleketlere:\na) Kurumlarınca açılacak seçme veya yarışma sınavlarında başarı gösterenlere,\nb) Dış burslara dayanılarak gönderilenlere,\nİki yıla kadar ayrılma müsaadesi verilebilir.\nGerekirse bu süre en çok bir kat uzatılabilir.",
+      "sourceLocator": "657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[2]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[3]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[4]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[5]; 657 sayılı Kanun m.78; UYAP maddeId=1653563; HTML p[6]",
+      "notes": [
+        "Madde 78 asli atanma, meslekî amaç ve seçme/yarışma veya dış burs koşullarıyla2 yıl + en çok bir kat uzatma doğrulandı. Soru şartların sağlandığını açıkça belirtir; kişiselkoşulsuz seyahat hakkı değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0062",
+      "candidateSha256": "b8a605b8b5be817e86b2864413b772ae37ccdd6ffb9fc335744f85708c7aa391",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memuru iken muvazzaf askerlik hizmetini yapmak üzere silah altına alınanlardan askerlik görevini tamamlayıp memuriyete dönmek isteyenler, terhis tarihinden itibaren 30 gün içinde kurumlarına başvurmak ve kurumları da başvurma tarihinden itibaren azami 30 gün içinde ilgilileri göreve başlatmak zorundadırlar.",
+      "sourceLocator": "657 sayılı Kanun m.83; UYAP maddeId=1653578; HTML p[3]",
+      "notes": [
+        "Madde 83 dönüş isteyen memurda terhis→30 gün kurum başvurusu→azami 30 gün göreve başlatma sıralaması ve başlangıçları doğrulandı; askerlik süresi intibakı ayrıfıkradır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0063",
+      "candidateSha256": "cb1c924f1107eae9d88253b3d2270bbdb1d90a7391be7ae0d4c10ed3db69d7df",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Muvazzaf askerlik görevini yaptıktan sonra Devlet memurluğuna atananlar adaylık esaslarına tabi olurlar ve muvazzaf askerlikte geçen süreleri asaletlerinin tasdikinden sonra kademe ilerlemesi yapılmak ve sınav veya seçmeye tabi tutulmak suretiyle derece yükseltilmesinde de değerlendirilir.",
+      "sourceLocator": "657 sayılı Kanun m.84; UYAP maddeId=1653581; HTML p[3]",
+      "notes": [
+        "Madde 84 adaylıktanmuafiyet vermediği ve askerlik süresinin asalet tasdikinden sonra kademe/derecede şartlıdeğerlendirilmesi tammetinde doğrulandı. Q62 başvuru sürelerinden farklı.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0064",
+      "candidateSha256": "94447900fbe2d94e774efc790aa5ad7e600cecacc364dc52f1dcacf0414d4100",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Bir görevin memurlar eliyle vekaleten yürütülmesi halinde aylıksız vekalet asıldır.",
+      "sourceLocator": "657 sayılı Kanun m.86; UYAP maddeId=1653586; HTML p[4]",
+      "notes": [
+        "Madde 86 bütün vekâlet ve ödemefıkraları okundu. Kökte memur eliyle vekâlet genel kuralı ve özel ödemeler saklıtutulmuş; aylıksız vekâlet esas cevabı istisnaları yok saymaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0065",
+      "candidateSha256": "171c4c2dd3e99baf51c18e5076a5ba411fbd3a70e2f4d11bb6ea766052a2e422",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Bu Kanuna tabi kurumlarda çalışan Devlet memurlarına esas görevlerinin yanında;\nA) Özel kanunlarla, Cumhurbaşkanlığı kararnameleriyle veya bunların verdiği yetkiye dayanılarak memurlara gördürülmesi öngörülen sürekli hizmetler,[158]\nB) Mesleki bilgisi ile ilgili olarak, hizmet olanakları elverişli bulunmak ve atamaya yetkili amir tarafından uygun görülmek şartiyle;\n1) (Değişik: 29/11/1984 – KHK-243/15 md.) 87 nci maddede yazılı kurumların tabiplikleri, diş tabiplikleri, eczacılıkları, kimyagerlikleri, veterinerlikleri, avukatlıkları ile Adli Tıp Kurumu Uzmanlıkları,\n2) Asıl görevlerinin bulunduğu bucak, ilçe ve zorunlu hallerde iller belediyelerinin yüksek mühendis, mühendis, yüksek mimar ve mimarlarca yürütülmesi gereken teknik hizmetleri,\nİkinci görev olarak verilebilir.",
+      "sourceLocator": "657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[3]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[4]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[5]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[6]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[7]; 657 sayılı Kanun m.88; UYAP maddeId=1653591; HTML p[8]",
+      "notes": [
+        "Madde 88/B koşulgrubu ve2numaralı belediye teknik hizmeti birlikte okundu: meslekî bilgi, hizmet olanağı ve yetkili amir uygunluğu. İlçe asıl görev yeri açık; illerdeki zorunluluk koşulu ilçeye taşınmamış.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0066",
+      "candidateSha256": "75f02a279eba905d418b60078505ef486df9083b6b556a587da9300f011136ff",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Her derecedeki eğitim ve öğretim kurumları ile Üniversite ve Akademi (Askeri Akademiler dahil), okul, kurs veya yaygın eğitim yapan kurumlarda ve benzeri kuruluşlarda öğretmen veya öğretim üyesi bulunmaması halinde öğretmenlere, öğretim üyelerine veya diğer memurlara veyahut açıktan atanacaklara ücret ile ek ders görevi verilebilir.",
+      "sourceLocator": "657 sayılı Kanun m.89; UYAP maddeId=1653594; HTML p[3]",
+      "notes": [
+        "Madde 89 öğretmen/öğretimüyesi yokluğunda ücretli ek ders ve Cumhurbaşkanınca belirlenen nitelik/saat ayrımı doğrulandı. Otomatik unvan veya koşulsuz gelir sonucu yok.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0067",
+      "candidateSha256": "62486e1f4395ac4b30b86c57b6237569950170829d0a2c69cb742b21e7ad18d2",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Kadrosu kaldırılan memurlar, en geç altı ay içinde kendi kurumlarında niteliklerine uygun bir kadroya atanırlar. Bu memurlar, kurumlarında atama imkânı bulunmaması hâlinde aynı süre içinde başka bir kurumdaki kadrolara atanmak üzere Devlet Personel Başkanlığına bildirilir. Bunlar, atama işlemi yapılıncaya kadar kurumlarında niteliklerine uygun işlerde çalıştırılır ve yeni bir kadroya atanıncaya kadar eski kadrolarına ait malî haklardan ve sosyal yardımlardan yararlanmaya devam ederler.",
+      "sourceLocator": "657 sayılı Kanun m.91; UYAP maddeId=1653600; HTML p[3]",
+      "notes": [
+        "İlk seçenekte örtük kalan kurumda atama imkânsızlığı istisnası inceleme üzerine doğru seçeneğe eklendi. Son seçenek altı ay içinde kurum içi uygun atama veya yoksa başka kuruma bildirim ve yeni kadroya kadar mali/sosyal hak devamını birlikte korur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0068",
+      "candidateSha256": "b8936cd5c2073e351e6bcdfa57e17ca8fcb7a75eb11a76a72bcc09a2a7686d76",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "İki defadan fazla olmamak üzere memurluktan kendi istekleriyle çekilenlerden veya bu Kanun hükümlerine göre çekilmiş sayılanlardan tekrar memurluğa dönmek isteyenler, ayrıldıkları sınıfta boş kadro bulunmak ve bu sınıfın niteliklerini taşımak şartıyla ayrıldıkları tarihte almakta oldukları aylık derecesine eşit bir derecenin aynı kademesine veya 71 inci madde hükümlerine uyulmak suretiyle diğer bir sınıfta eşit derecedeki kadrolara atanabilirler.",
+      "sourceLocator": "657 sayılı Kanun m.92; UYAP maddeId=1653603; HTML p[3]",
+      "notes": [
+        "Madde 92 ilk fıkra ikidefa sınırı boş kadro / sınıf niteliği ile birlikte okundu. Kökte ilk fıkragenelkuralı açık;2024 ek fıkra yönetici dönüşyolu konu dışı tutuldu ve açıklamada belirtilmiş.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0069",
+      "candidateSha256": "5b9ca7a61528d4f7011d4760c948aaae04cb0888d9fea0c95ed70c47cd523d52",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Memurlardan mali ve cezai sorumlulukları saklı kalmak üzere;\nA) 94 üncü maddenin 2 nci ve 3 üncü fıkrasına uygun olarak memuriyetten çekilenler altı ay geçmeden,\nB) Bu Kanuna göre çekilmiş sayılanlar ile 94 üncü maddenin 2 nci fıkrasına uymadan görevlerinden ayrılanlar bir yıl geçmeden,\nC) 95 inci maddede yazılı zorunluluklara uymayanlar 3 yıl geçmeden,\nD) 96 ncı maddeye aykırı hareket edenler hiçbir surette,\nDevlet memurluğuna alınamazlar.",
+      "sourceLocator": "657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[3]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[4]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[5]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[6]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[7]; 657 sayılı Kanun m.97; UYAP maddeId=1653621; HTML p[8]",
+      "notes": [
+        "Madde 97 bütün A–D bentleri ve mali/cezai sorumluluk saklılığı okundu. 94/2–3 uygun çekilmede 6 ay; diğer çekilmiş sayılma / devir / olağanüstü ihlal süreleri karıştırılmaz. Süre dolumu otomatik atanma değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0070",
+      "candidateSha256": "558b3de25ad01d3d2a97dd9decbfbbf993d4ff82fb60009948400a20660fa932",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 98 – Devlet memurlarının\na) Bu kanun hükümlerine göre memurluktan çıkarılması;\nb) Memurluğa alınma şartlarından her hangi birini taşımadığının sonradan anlaşılması veya memurlukları sırasında bu şartlardan her hangi birini kaybetmesi;\nc) Memurluktan çekilmesi;\nç) İstek, yaş haddi, malûllük (…)[160] sebeplerinden biri ile emekliye ayrılması;\nd) Ölümü;\nhallerinde memurluğu sona erer.",
+      "sourceLocator": "657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[2]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[3]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[4]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[5]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[6]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[7]; 657 sayılı Kanun m.98; UYAP maddeId=1653625; HTML p[8]",
+      "notes": [
+        "Madde 98 tüm sona erme hâlleri okundu. Olguda şart kaybının hukuken tespit edildiği varsayımıyla 98/b statü sonucu sorulur; tespit usulü veya sağlıkşartı türü uydurulmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0071",
+      "candidateSha256": "45483b2564679145cb3aa5cbe399f1e45090f41b00567ec113305922645f2f5a",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Memurların haftalık çalışma süresi genel olarak 40 saattir.\nBu süre Cumartesi ve Pazar günleri tatil olmak üzere düzenlenir.\nAncak bu kanuna, özel kanunlara, Cumhurbaşkanlığı kararnamelerine veya bunlara dayanılarak çıkarılacak yönetmeliklerle, kurumların ve hizmetlerin özellikleri dikkate alınmak suretiyle farklı çalışma süreleri tespit olunabilir.",
+      "sourceLocator": "657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[3]; 657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[4]; 657 sayılı Kanun m.99; UYAP maddeId=1653632; HTML p[5]",
+      "notes": [
+        "Madde 99 genel 40 saat, hafta tatili ve hizmet/kurum özellikleriyle farklı süre yetkileri birlikte okundu. Kökte farklı süreler saklı; işçi rejiminin 45 saati aktarılmamış.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0072",
+      "candidateSha256": "8339258297b360dfe4ac0c5437b3e258d438e3595ea8fdfef19f025de4cef200",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 100 – Günlük çalışmanın başlama ve bitme saatleri ile öğle dinlenme süresi, bölgelerin ve hizmetin özelliklerine göre merkezde Cumhurbaşkanınca, illerde valiler tarafından tesbit olunur.",
+      "sourceLocator": "657 sayılı Kanun m.100; UYAP maddeId=1653635; HTML p[2]",
+      "notes": [
+        "Madde 100 ilk fıkra merkezde Cumhurbaşkanı / ilde vali yetkisi, engellide farklı üst yönetici / mülki amir usulüyle birlikte okundu. Kökte ilk fıkra açık, istisna ihmal edilmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0073",
+      "candidateSha256": "fcd1c01aa60950f04f61d77528240903fa371a1c6b7607f959fed6ab3360d07f",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Ancak, kadın memurlara; tabip raporunda belirtilmesi hâlinde hamileliğin yirmidördüncü haftasından önce ve her hâlde hamileliğin yirmidördüncü haftasından itibaren ve doğumdan sonraki iki yıl süreyle gece nöbeti ve gece vardiyası görevi verilemez. Engelli memurlara da isteği dışında gece nöbeti ve gece vardiyası görevi verilemez.[164][165]",
+      "sourceLocator": "657 sayılı Kanun m.101; UYAP maddeId=1653638; HTML p[4]",
+      "notes": [
+        "Madde 101 raporla24 hafta öncesi ve herhâlde24 haftadan itibaren + doğum sonrası 2 yıl koruması bütüncül doğrulandı. Engellide isteği dışılık ayrı; analık izniyle süreleri karıştırılmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0074",
+      "candidateSha256": "e12ce995e62edc86b15e97c718ee594c8ff0dd16e1bf39d178c8037fefa2a7ed",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 103 – Yıllık izinler, amirin uygun bulacağı zamanlarda, toptan veya ihtiyaca göre kısım kısım kullanılabilir. Birbirini izliyen iki yılın izni bir arada verilebilir. (Değişik cümle: 6/7/1995 – KHK-562/2 md.) Cari yıl ile bir önceki yıl hariç, önceki yıllara ait kullanılmayan izin hakları düşer.",
+      "sourceLocator": "657 sayılı Kanun m.103; UYAP maddeId=1653643; HTML p[2]",
+      "notes": [
+        "Madde 103 izin bölme / iki ardışık yıl birleştirme, öğretmen ve radyasyon sağlık izni fıkraları okundu. Soru devredilen eski izin haklarının düşme sınırını ölçer; önceki yıl korunur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0075",
+      "candidateSha256": "76774984fe1f42e828634fe2cbe91104fe4853eec801bc4f0d2f812b5ac19ba7",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "A) Kadın memura; doğumdan önce sekiz, doğumdan sonra onaltı hafta olmak üzere toplam yirmidört hafta süreyle analık izni verilir. Çoğul gebelik durumunda, doğum öncesi sekiz haftalık analık izni süresine iki hafta eklenir. Ancak beklenen doğum tarihinden sekiz hafta öncesine kadar sağlık durumunun çalışmaya uygun olduğunu tabip raporuyla belgeleyen kadın memur, isteği hâlinde doğumdan önceki iki haftaya kadar kurumunda çalışabilir. Bu durumda, doğum öncesinde bu rapora dayanarak fiilen çalıştığı süreler doğum sonrası analık izni süresine eklenir. Doğumun erken gerçekleşmesi sebebiyle, doğum öncesi analık izninin kullanılamayan bölümü de doğum sonrası analık izni süresine ilave edilir. (Ek cümle: 29/1/2016 - 6663/6 md.) Doğum öncesi analık izninin başlaması gereken tarihten önce gerçekleşen doğumlarda ise doğum tarihi ile analık izninin başlaması gereken tarih arasındaki süre doğum sonrası analık iznine ilave edilir. Doğumda veya doğum sonrasında analık izni kullanılırken annenin ölümü hâlinde, isteği üzerine memur olan babaya anne için öngörülen süre kadar izin verilir. (Ek cümleler: 29/1/2016 - 6663/6 md.) Üç yaşını doldurmamış bir çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar ile memur olmayan eşin münferit olarak evlat edinmesi hâlinde memur olan eşlerine, çocuğun teslim edildiği tarihten itibaren sekiz hafta süre ile izin verilir. Bu izin evlatlık kararı verilmeden önce çocuğun fiilen teslim edildiği durumlarda da uygulanır. (Ek cümle:22/4/2026-7578/2 md.) Bir veya daha fazla çocuğa eşiyle birlikte veya münferit olarak koruyucu aile olan memura çocuğun koruyucu aile yanına teslim edildiği tarihten sonra isteği üzerine on gün izin verilir.[169]\nB) Memura, eşinin doğum yapması hâlinde, isteği üzerine on gün babalık izni; kendisinin veya çocuğunun evlenmesi ya da eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde isteği üzerine yedi gün izin verilir.\nC) (A) ve (B) fıkralarında belirtilen hâller dışında, merkezde atamaya yetkili amir, ilde vali, ilçede kaymakam ve yurt dışında diplomatik misyon şefi tarafından, birim amirinin muvafakati ile bir yıl içinde toptan veya bölümler hâlinde, mazeretleri sebebiyle memurlara on gün izin verilebilir. Zaruret hâlinde öğretmenler hariç olmak üzere, aynı usûlle on gün daha mazeret izni verilebilir. Bu takdirde, ikinci kez verilen bu izin, yıllık izinden düşülür.\nD) Kadın memura, çocuğunu emzirmesi için doğum sonrası analık izni süresinin bitim tarihinden itibaren ilk altı ayda günde üç saat, ikinci altı ayda günde birbuçuk saat süt izni verilir. Süt izninin hangi saatler arasında ve günde kaç kez kullanılacağı hususunda, kadın memurun tercihi esastır.\nE) (Ek: 20/2/2014 - 6525/7 md.) Memurlara; en az yüzde 70 oranında engelli ya da süreğen hastalığı olan çocuğunun (çocuğun evli olması durumunda eşinin de en az yüzde 70 oranında engelli olması kaydıyla) hastalanması hâlinde hastalık raporuna dayalı olarak ana veya babadan sadece biri tarafından kullanılması kaydıyla bir yıl içinde toptan veya bölümler hâlinde on güne kadar mazeret izni verilir.\nF) (Ek: 29/1/2016 - 6663/6 md.) Doğum sonrası analık izni süresi sonunda kadın memur, isteği hâlinde çocuğun hayatta olması kaydıyla analık izni bitiminde başlamak üzere ayrıca süt izni verilmeksizin birinci doğumda iki ay, ikinci doğumda dört ay, sonraki doğumlarda ise altı ay süreyle günlük çalışma süresinin yarısı kadar çalışabilir. Çoğul doğumlarda bu sürelere birer ay ilave edilir. Çocuğun engelli doğması veya doğumdan sonraki on iki ay içinde çocuğun engellilik durumunun tespiti hâllerinde bu süreler on iki ay olarak uygulanır. Üç yaşını doldurmamış bir çocuğu eşiyle birlikte veya münferit olarak evlat edinen memurlar ile memur olmayan eşin münferit olarak evlat edinmesi hâlinde memur olan eşleri de, istekleri üzerine (A) fıkrası uyarınca verilen sekiz haftalık iznin bitiminden itibaren bu haktan aynı esaslar çerçevesinde yararlanır. Memurun çalışacağı süreler ilgili kurum tarafından belirlenir.[170]\nG) Yıllık izin ve mazeret izinleri sırasında fiili çalışmaya bağlı her türlü ödemeler hariç malî haklar ile sosyal yardımlara dokunulmaz.[171]\n[169] 22/4/2026 tarihli ve 7578 sayılı Kanunun 2 nci maddesiyle bu fıkranın birinci cümlesinde yer alan “doğumdan sonra sekiz” ibaresi “doğumdan sonra onaltı” şeklinde, “toplam onaltı” ibaresi “toplam yirmidört” şeklinde, üçüncü cümlesinde yer alan “üç” ibaresi “iki” şeklinde değiştirilmiştir.",
+      "sourceLocator": "657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[3]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[4]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[5]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[6]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[7]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[8]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[9]; 657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[10]",
+      "notes": [
+        "Madde 104/A tamamı ve2026 değişiklik dipnotu 169 okundu; tekil normal 8 önce + 16 sonra = 24 hafta. Çoğul +2 ve rapor/erken aktarım kökte dışlanmış; eski 8+8 çeldirici hukuken eski olarak açıklanır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0076",
+      "candidateSha256": "e883f947897ad89c3dd7b4237496953be72248348101ccb97530b008d09dbf43",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "B) Memura, eşinin doğum yapması hâlinde, isteği üzerine on gün babalık izni; kendisinin veya çocuğunun evlenmesi ya da eşinin, çocuğunun, kendisinin veya eşinin ana, baba ve kardeşinin ölümü hâllerinde isteği üzerine yedi gün izin verilir.",
+      "sourceLocator": "657 sayılı Kanun m.104; UYAP maddeId=1653646; HTML p[4]",
+      "notes": [
+        "Madde 104/B doğumda isteğe bağlı 10 gün, aynıfıkradaki evlenme/ölüm 7 gün ayrımıyla doğrulandı. Q75 normal analık hesabından farklı hedef.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0077",
+      "candidateSha256": "1789366fb9084358ecdbba99cfdd36f7aa196a7503c56c8b91b4acbadf0ef933",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Memura, aylık ve özlük hakları korunarak, verilecek raporda gösterilecek lüzum üzerine, kanser, verem ve akıl hastalığı gibi uzun süreli bir tedaviye ihtiyaç gösteren hastalığı hâlinde onsekiz aya kadar, diğer hastalık hâllerinde ise oniki aya kadar izin verilir.",
+      "sourceLocator": "657 sayılı Kanun m.105; UYAP maddeId=1653649; HTML p[3]",
+      "notes": [
+        "Madde 105 ilk fıkra18 ay / 12 ay üst sınırları, uzatılma, meslek kazasında iyileşinceye kadar izin ve refakat istisnalarıyla birlikte okundu. Kök ilk fıkraya açık sınır koyuyor; mutlak tüm hastalıklar için sonüst sınır iddiası yok.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0078",
+      "candidateSha256": "19e5ed1f1b5b656067a8a1388b60a9ec833c4de36270caeffa3137b1571ba6f2",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "E) Memura, yıllık izinde esas alınan süreler itibarıyla beş hizmet yılını tamamlamış olması ve isteği hâlinde memuriyeti boyunca ve en fazla iki defada kullanılmak üzere, toplam bir yıla kadar aylıksız izin verilebilir. Ancak, (…)[175] olağanüstü hâl veya genel hayata müessir afet hâli ilan edilen bölgelere 72 nci madde gereğince belli bir süre görev yapmak üzere zorunlu olarak sürekli görevle atananlar hakkında bu bölgelerdeki görev süreleri içinde bu fıkra hükmü uygulanmaz.",
+      "sourceLocator": "657 sayılı Kanun m.108; UYAP maddeId=1653657; HTML p[7]",
+      "notes": [
+        "Madde 108 bütün özelaylıksızizinler, Egenel izin ve olağanüstü/afetbölgesi istisnasıyla okundu. Kökteistisna dışı ve kişisel istek;5 hizmet yılı + en çok 2 defa + toplam 1 yıl verilebilirlik birlikte korunur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0079",
+      "candidateSha256": "67c15b56ee5bbf9aa25b1ba28c2273d07976e472424877bf5ba4ca52eb068f30",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "F) Aylıksız izin süresinin bitiminden önce mazereti gerektiren sebebin ortadan kalkması hâlinde, on gün içinde göreve dönülmesi zorunludur. Aylıksız izin süresinin bitiminde veya mazeret sebebinin kalkmasını izleyen on gün içinde görevine dönmeyenler, memuriyetten çekilmiş sayılır.",
+      "sourceLocator": "657 sayılı Kanun m.108; UYAP maddeId=1653657; HTML p[8]",
+      "notes": [
+        "Madde 108/F mazeretin kalkmasından itibaren10 günde dönüş ve çekilmiş sayılma sonucu okundu. İzin belgesinin sonunu beklemek bu erken dönüş yükümlülüğünü kaldırmaz; Q78 farklı izin koşuludur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0080",
+      "candidateSha256": "b6092f0defe581d2e4c39620e16d93ce5cd503c16ca8a77850ed625ce04d3094",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Disiplin kurulu ve yüksek disiplin kurulunun ayrı bir ceza tayinine yetkisi yoktur, cezayı kabul veya reddeder. Ret halinde atamaya yetkili amirler 15 gün içinde başka bir disiplin cezası vermekte serbesttirler.\nÖzel kanunların disiplin cezası vermeye yetkili amir ve kurullarla ilgili hükümleri saklıdır.",
+      "sourceLocator": "657 sayılı Kanun m.126; UYAP maddeId=1653713; HTML p[5]; 657 sayılı Kanun m.126; UYAP maddeId=1653713; HTML p[6]",
+      "notes": [
+        "Madde 126 amir/kurul yetkileri, kurulun ayrı ceza tayin edememesi ve ret sonrası 15 gün amir yetkisi özel kanun saklılığıyla birlikte doğrulandı. Kurul reddi ile tüm cezalardan bağışıklık ayrılır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0081",
+      "candidateSha256": "b8e6bf0880982c71b2f10bed1e96a08e914876903197199eb123b57cc4cd85ca",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "(Değişik fıkra: 23/1/2026 - 7573/3 md.) Disiplin cezasını gerektiren fiil ve hallerin işlendiği tarihten itibaren nihayet iki yıl içinde disiplin cezası verilmediği takdirde ceza verme yetkisi zamanaşımına uğrar. Disiplin cezasının yargı kararıyla iptal edilmesi hâlinde, kararın idareye ulaştığı tarihten itibaren kalan disiplin ceza zamanaşımı süresi içinde; zamanaşımı süresinin dolması veya altı aydan daha az süre kalması hâlinde en geç altı ay içinde karar gerekçesi dikkate alınarak yeniden disiplin cezası tesis edilebilir.",
+      "sourceLocator": "657 sayılı Kanun m.127; UYAP maddeId=1653716; HTML p[7]",
+      "notes": [
+        "Madde 127 2026 değişik son fıkra bütün başlangıç ve sona erme zamanaşımlarıyla okundu. Yargı iptalinin idareye ulaşması + 6 aydan az kalan süre tetikleyicisi olayda 2 ayla sağlanmış;6 ayda yeniden tesis gerekçe gözetilerek uygulanır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0082",
+      "candidateSha256": "e569a6a2589593cf0b57818d9701ad8b6d4bff23490de838d83a22e2ef5d07fc",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Disiplin amirleri uyarma, kınama ve aylıktan kesme cezalarını soruşturmanın tamamlandığı günden itibaren 15 gün içinde vermek zorundadırlar.",
+      "sourceLocator": "657 sayılı Kanun m.128; UYAP maddeId=1653718; HTML p[3]",
+      "notes": [
+        "Madde 128 üç fıkra birlikte okundu. Uyarma/kınama/aylıktan kesmede 15 gün başlangıcı soruşturmanın tamamlanmasıdır; disiplin kurulu 30 gün ve yüksek kurul 6 ayla karıştırılmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0083",
+      "candidateSha256": "0f5ea76e60e913efd52a81176f2151bed2da955368f50d198f8b9f6f0077c424",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 131 – Aynı olaydan dolayı memur hakkında ceza mahkemesinde kovuşturmaya başlanmış olması, disiplin kovuşturmasını geciktiremez.\nMemurun ceza kanununa göre mahkûm olması veya olmaması halleri, ayrıca disiplin cezasının uygulanmasına engel olamaz.",
+      "sourceLocator": "657 sayılı Kanun m.131; UYAP maddeId=1653727; HTML p[2]; 657 sayılı Kanun m.131; UYAP maddeId=1653727; HTML p[3]",
+      "notes": [
+        "Madde 131 bütün fıkralarıyla okundu. Ceza kovuşturmasının disiplin sürecini geciktiremeyeceği ve mahkûmiyetin bulunup bulunmamasının tek başına engel olmaması doğrulandı; açıklama otomatik disiplin cezası veya yargı denetimsizliği sonucu çıkarmıyor.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0084",
+      "candidateSha256": "b75500e057e9350a84329059f5a9306f3e3d0931dd14dfa9b4145fbceff37d9f",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Aylıktan kesme cezası, cezanın veriliş tarihini takip eden aybaşında uygulanır.",
+      "sourceLocator": "657 sayılı Kanun m.132; UYAP maddeId=1653729; HTML p[4]",
+      "notes": [
+        "Madde 132 genel derhal uygulama ve aylıktan kesmeye özel takip eden aybaşı kuralı birlikte okundu. Soru özel uygulama tarihini sorar; fiil tarihi, emeklilik ve kişinin tercihi başlangıç değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0085",
+      "candidateSha256": "b8c99ea149a102967264a15308cda5ed1f7647ad985214a585e36118a21bef27",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Disiplin cezaları memurun özlük dosyasına işlenir. Devlet memurluğundan çıkarma cezasından başka bir disiplin cezasına çarptırılmış olan memur uyarma ve kınama cezalarının uygulanmasından 5 sene, diğer cezaların uygulanmasından 10 sene sonra atamaya yetkili amire başvurarak, verilmiş olan cezalarının özlük dosyasından silinmesini isteyebilir.\nMemurun, yukarıda yazılan süreler içerisindeki davranışları, bu isteğini haklı kılacak nitelikte görülürse, isteğinin yerine getirilmesine karar verilerek bu karar özlük dosyasına işlenir.",
+      "sourceLocator": "657 sayılı Kanun m.133; UYAP maddeId=1653732; HTML p[3]; 657 sayılı Kanun m.133; UYAP maddeId=1653732; HTML p[4]",
+      "notes": [
+        "Madde 133 bütün metninde uygulamadan itibaren 5/10 yıl, atamaya yetkili amire talep, davranış değerlendirmesi ve çıkarma istisnası doğrulandı. Süre dolması otomatik silinme değildir; kademe durdurmada kurul mütalaası ayrıca korunur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0086",
+      "candidateSha256": "de825f061b3b4f3209ca0d5ebc5f9873d11506be82558274e7b4292b76a54317",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 137 – Görevden uzaklaştırma, Devlet kamu hizmetlerinin gerektirdiği hallerde, görevi başında kalmasında sakınca görülecek Devlet memurları hakkında alınan ihtiyati bir tedbirdir.\nGörevden uzaklaştırma tedbiri, soruşturmanın herhangi bir safhasında da alınabilir.",
+      "sourceLocator": "657 sayılı Kanun m.137; UYAP maddeId=1653746; HTML p[2]; 657 sayılı Kanun m.137; UYAP maddeId=1653746; HTML p[3]",
+      "notes": [
+        "Madde 137 ihtiyati tedbir tanımı ve soruşturmanın herhangi bir safhası hükmü okundu. Tedbir, disiplin çıkarma cezası veya kesinleşmiş suçluluk hükmü değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0087",
+      "candidateSha256": "398a0b359c19db1e56a65eb71e86f8d79fe14e563fcc11608735dddd080f172b",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 138 – Görevden uzaklaştırmaya yetkililer şunlardır.\na) Atamaya yetkili amirler;\nb) Bakanlık ve genel müdürlük müfettişleri;\nc) İllerde valiler;\nç) İlçelerde kaymakamlar (İlçe idare şube başkanları hakkında valinin muvafakati şarttır.)",
+      "sourceLocator": "657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[2]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[3]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[4]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[5]; 657 sayılı Kanun m.138; UYAP maddeId=1653749; HTML p[6]",
+      "notes": [
+        "Madde 138 tüm yetkililer ve kuruma bildirimle birlikte okundu. Kaymakamın ilçe idare şube başkanı hakkında tedbirinde valinin muvafakati özel şarttır; ilgilinin rızası veya belediye/sendika onayı bunun yerine geçmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0088",
+      "candidateSha256": "1ffbee4ce92e1f663bcb59290bd69b8e2af813364fb13e77c406fd60ca5a9b01",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Görevinden uzaklaştırılan Devlet memurları hakkında görevden uzaklaştırmayı izleyen 10 iş günü içinde soruşturmaya başlanması şarttır.",
+      "sourceLocator": "657 sayılı Kanun m.139; UYAP maddeId=1653751; HTML p[3]",
+      "notes": [
+        "Madde 139 iki paragrafıyla okundu. Başlangıç görevden uzaklaştırmayı izleyen gündür ve birim 10 iş günüdür; takvim günü, soruşturma zamanaşımı ve tedbirin üç aylık sınırı ayrıdır.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0089",
+      "candidateSha256": "e300c43f47a4d673f519730149d769faf3f2dbaa442c084c4c148a032996a9d3",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Görevden uzaklaştırılan ve görevi ile ilgili olsun veya olmasın herhangi bir suçtan tutuklanan veya gözaltına alınan memurlara bu süre içinde aylıklarının üçte ikisi ödenir. Bu gibiler bu Kanunun öngördüğü sosyal hak ve yardımlardan faydalanmaya devam ederler.",
+      "sourceLocator": "657 sayılı Kanun m.141; UYAP maddeId=1653756; HTML p[3]",
+      "notes": [
+        "Madde 141 iki fıkrası, m.143 koşullarıyla kesilen üçte birin sonradan ödenmesi ve intibakıyla birlikte okundu. Sorulan dönemde üçte iki aylık ve sosyal hak/yardım devamı geçerlidir; sonradan tamamlama ayrı koşulludur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0090",
+      "candidateSha256": "614eb991e2aded6bda4ed88030964eda013c11fa221cd7cf50412c4cf2b152a0",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 142 – Soruşturma sonunda disiplin yüzünden memurluktan çıkarma veya cezai bir işlem uygulanmasına lüzum kalmıyan Devlet memurları için alınmış olan görevden uzaklaştırma tedbiri, 138 inci maddedeki yetkililerce (Müfettişler tarafından görevden uzaklaştırılanlar hakkında atamaya yetkili amirlerce) derhal kaldırılır.",
+      "sourceLocator": "657 sayılı Kanun m.142; UYAP maddeId=1653759; HTML p[2]",
+      "notes": [
+        "Madde 142 ve gönderme yaptığı m.138 yetkileri birlikte okundu. Müfettişin aldığı tedbirin bu şartlarda kaldırılmasında atamaya yetkili amir özel olarak gösterilir; tedbiri alan ve kaldıran makam özdeş varsayılmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0091",
+      "candidateSha256": "0f9a2a0785d643905a1b729f1a06a0a27272c948e861c4d8359c4f33c706809e",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 143 – Soruşturma veya yargılama sonunda yetkili mercilerce:\na) Haklarında memurluktan çıkarmadan başka bir disiplin cezası verilenler;\nb) Yargılamanın men'ine veya beraatine karar verilenler;\nc) Hükümden evvel haklarındaki kovuşturma genel af ile kaldırılanlar;\nç) Görevlerine ve memurluklarına ilişkin olsun veya olmasın memurluğa engel olmıyacak bir ceza ile hükümlü olup cezası ertelenenler;\nBu kararların kesinleşmesi üzerine haklarındaki görevden uzaklaştırma tedbiri kaldırılır.",
+      "sourceLocator": "657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[2]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[3]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[4]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[5]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[6]; 657 sayılı Kanun m.143; UYAP maddeId=1653762; HTML p[7]",
+      "notes": [
+        "Madde 143 bütün bentleri ve m.144 takdiren erken kaldırma imkânı birlikte okundu. Kökte m.143 zorunlu kaldırma aşaması sorulur; sayılan kararların kesinleşmesi gerekir, bu erken takdir imkânını inkâr etmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0092",
+      "candidateSha256": "82debdabf41157b32ed595d8cde9038b1a862f66f4e163e1862c1aee76e11c5c",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 145 – Görevden uzaklaştırma; bir disiplin kovuşturması icabından olduğu takdirde en çok 3 ay devam edebilir. Bu süre sonunda hakkında bir karar verilmediği takdirde memur görevine başlatılır.",
+      "sourceLocator": "657 sayılı Kanun m.145; UYAP maddeId=1653768; HTML p[2]",
+      "notes": [
+        "Madde 145 iki fıkrası birlikte okundu. Disiplin kovuşturmasında en çok üç ay ve karar yoksa göreve başlatma, ceza kovuşturmasındaki inceleme aralığından ayrıldı; otomatik memurluk sona ermesi yoktur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0093",
+      "candidateSha256": "4653acde2f48cd555f0e4240eebafaf5f3a4494b8494df3cf626d6bd3aa68de1",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Bir ceza kovuşturması icabından olduğu takdirde görevinden uzaklaştırmaya yetkili amir (Müfettişlerin görevinden uzaklaştırdıkları memurlar hakkında atamaya yetkili amir) ilgilinin durumunu her iki ayda bir inceliyerek görevine dönüp dönmemesi hakkında bir karar verir ve ilgiliye de yazı ile tebliğ eder.",
+      "sourceLocator": "657 sayılı Kanun m.145; UYAP maddeId=1653768; HTML p[3]",
+      "notes": [
+        "Madde 145 ceza kovuşturmasında iki ayda bir durum incelemesi ve ilgiliye yazılı tebliği birlikte düzenler. Bu, iki ay sonunda otomatik kaldırma veya çıkarma değildir; Q92 farklı tedbir sebebinin üst sınırını sorar.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0094",
+      "candidateSha256": "486f2541d5aeddc7cf9aa88436e4db9353002b0cc54ac7604a1f73979691cec1",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Memurlara aylıkları her ayın başında peşin ödenir. Emekliye ayrılma ve ölüm hallerinde o aya ait peşin ödenen aylık, geri alınmaz.",
+      "sourceLocator": "657 sayılı Kanun m.164; UYAP maddeId=1653822; HTML p[3]",
+      "notes": [
+        "Madde 164 bütün fıkraları ve m.165 ilk aylık özel hükmü birlikte okundu. Sorulan m.164 genel aylıkta ay başı peşin ödeme ile emeklilik/ölümde o aya ait peşin ödemenin geri alınmaması doğrulandı; sözleşmeli ve ilk aylık usulü genelleştirilmedi.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0095",
+      "candidateSha256": "6216d76e5c1d3d53ff90a272a5181543f64ed93c34817ddd100f8f10e276d735",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Bir göreve açıktan aday veya asıl memur olarak atananlar, göreve başladıkları günden itibaren aylığa hak kazanırlar.\nBu suretle göreve başlamada ilk aylık, gün hesabiyle ay sonunda ödenir.",
+      "sourceLocator": "657 sayılı Kanun m.165; UYAP maddeId=1653825; HTML p[3]; 657 sayılı Kanun m.165; UYAP maddeId=1653825; HTML p[4]",
+      "notes": [
+        "Madde 165 tamamı ve m.164 genel ödeme kuralı karşılaştırıldı. Açıktan aday/asıl atananda göreve başlama günü hak kazanma ve gün hesabıyla ay sonunda ilk aylık özel usulü vardır; onay tek başına yeterli değildir.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0096",
+      "candidateSha256": "65e3c9cfa3b4d99d2d91bbe839b6b2f204457c124cac89ef28e540ace38e1d37",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "B) (İptal: Anayasa Mahkemesinin 14/2/1997 tarihli ve E: 1997/20, K: 1997/32 sayılı Kararı ile; Yeniden düzenleme: 3/4/1998 - 4359/4) Kurumlar gerektiği takdirde personelini günlük çalışma saatleri dışında fazla çalışma ücreti vermeksizin çalıştırabilirler. Bu durumda personele yaptırılacak fazla çalışmanın her sekiz saati için bir gün hesabı ile izin verilir. Ancak, bu suretle verilecek iznin en çok on günlük kısmı yıllık izinle birleştirilerek yılı içinde kullandırılabilir.",
+      "sourceLocator": "657 sayılı Kanun m.178; UYAP maddeId=1653860; HTML p[8]",
+      "notes": [
+        "Madde 178 bütün A/B bağlamı okundu. B bendindeki ücretsiz fazla çalışmada sekiz saat/bir gün dönüşümü, yıllık izinle birleşen en çok on günlük kısım ve yılı içinde kullanım birlikte korunur; bütün telafi iznini on günle sınırlama yapılmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0097",
+      "candidateSha256": "3b3516a7c73b44630a68002bba1f2d8559a50f32e3089d723f8b7a2b53b1dcc3",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Devlet memurunun, geçimini sağladığı üvey çocukları için de bu ödenek verilir.",
+      "sourceLocator": "657 sayılı Kanun m.202; UYAP maddeId=1653922; HTML p[6]",
+      "notes": [
+        "Madde 202 bütün aile yardımı ve dipnotları okundu; geçimi sağlanan üvey çocuklar açık kapsamda. Kökte diğer yardım koşulları saklı, gösterge veya tüm çocuklar için koşulsuz hak iddiası yoktur.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0098",
+      "candidateSha256": "1606192a88b3a932983c46c1418cb29c6ec24ca873e66722316262dac9549de6",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Aile yardımı ödenekleri hiç bir vergi ve kesintiye tabi tutulmaksızın ödenir ve borç için haczedilemez.",
+      "sourceLocator": "657 sayılı Kanun m.203; UYAP maddeId=1653925; HTML p[4]",
+      "notes": [
+        "Madde 203 tam metninde aile yardımına özgü hiçbir vergi/kesinti olmama ve borç için haczedilememe birlikte doğrulandı. Koruma bütün aylık veya özel malvarlığına genişletilmez.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0099",
+      "candidateSha256": "720c2d6497c0473e7ccaea39e4dc34a25da3bdbef51b738c1289f670af083948",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 204 – Memur, eş için ödenen aile yardımı ödeneğine evlendiği; çocuk için ödenen yardıma da çocuğunun doğduğu tarihi takip eden ay başından itibaren hak kazanır.",
+      "sourceLocator": "657 sayılı Kanun m.204; UYAP maddeId=1653928; HTML p[2]",
+      "notes": [
+        "Madde 204 tamamı ve m.202 diğer yardım koşulları birlikte okundu. Evlilik ve doğum aynı ayda olduğundan ikisi için ortak izleyen aybaşı başlangıcı doğrudur; hak koşulları kökte sağlanmış.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0100",
+      "candidateSha256": "91f579e4eccdc7ff19e44b966e7410550eb674a48b2363e4e2c85b9c3785e293",
+      "decision": "Pass",
+      "checkedBy": "extension-independent-review",
+      "checkedAt": "2026-11-06T14:24:50.718Z",
+      "sourceQuote": "Madde 208 – (Değişik birinci fıkra: 6/7/1995 – KHK-562/4 md.) Devlet memurlarından: memur olmayan eşi ile (…)[280] aile yardımı ödeneğine müstehak çocuğu ölenlere en yüksek Devlet memuru aylığı (ek gösterge dahil) tutarında, memurun ölümü halinde sağlığında bildiri ile gösterdiği kimseye, eğer bildiri vermemiş ise eşine ve çocuklarına, bunlar yoksa ana ve babasına, bunlar da yoksa kardeşlerine en yüksek Devlet memuru aylığının (ek gösterge dahil) iki katı tutarında, ölüm yardımı ödeneği verilir.",
+      "sourceLocator": "657 sayılı Kanun m.208; UYAP maddeId=1653939; HTML p[2]",
+      "notes": [
+        "Madde 208 tamamı, bildiriyle gösterilen kişi önceliği ve bildiri yokluğunda eş/çocuk→ana/baba→kardeş sırasıyla okundu. Kökte bildiri yokluğu açık; özel yardım hak sahipliği genel miras paylaşımı sayılmaz.",
+        "Beş ayrı kalıcı seçenek kimliği, tek doğru cevap, dört çeldiricinin kavram ve açıklaması; O02 konu kimliği, 1–212 madde sınırı ve 06.11.2026 hazırlık snapshot ilişkisi son aday üzerinde kontrol edildi.",
+        "Mevcut 18 başlangıç sorusu ve diğer 81 yeni adayla sorgulanan hukuki bilgi, koşul/sonuç ve bilişsel işlem yönünden karşılaştırıldı. Bu karar insan incelemesi veya kesin 2027 mevzuat onayı değildir."
+      ]
+    }
+  ]
+}

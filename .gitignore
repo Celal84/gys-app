@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.local-sources/
+.local-reports/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+public/questions.json
+__pycache__/
+*.pyc

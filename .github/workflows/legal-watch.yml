@@ -1,0 +1,34 @@
+name: Read-only official legislation check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: public-legal-watch
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify watcher rules
+        run: python -m unittest discover -s tests -p test_legal_watch.py -v
+      - name: Fetch registered public official sources
+        run: python scripts/check-official-sources.py --timeout 20 --workers 3
+      - name: Retain public metadata and failures for explicit review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-legal-observations
+          path: |
+            .local-reports/legal-watch.json
+            .local-reports/legal-watch-observations/*.json
+          if-no-files-found: warn
+          retention-days: 90
+      # No bot commit, auto approval, deployment, Drive access or outbound message.

@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-06T12:27:55.893539+00:00",
+  "sourceCount": 24,
+  "originalHashesVerified": 24,
+  "wordStructurePackages": 19,
+  "htmlStructurePackages": 3,
+  "pdfBboxPackages": 2,
+  "extractorDiscrepancies": 1,
+  "fullVisualAudits": 0,
+  "legalApprovals": 0,
+  "excludedBranchOpened": false,
+  "topics": [
+    {
+      "topicId": "O01",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 12,
+      "footnoteDefinitions": 261,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O02",
+      "format": "Word",
+      "status": "ExtractorDiscrepancyNeedsReview",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 13,
+      "footnoteDefinitions": 364,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": [
+        "table-count",
+        "footnote-count"
+      ]
+    },
+    {
+      "topicId": "O03",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 2,
+      "footnoteDefinitions": 121,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O04",
+      "format": "PDF",
+      "status": "MachineOcrRecoveredWithLayoutGaps",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": null,
+      "footnoteDefinitions": null,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O05",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 3,
+      "footnoteDefinitions": 88,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O06",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 10,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O07",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 3,
+      "footnoteDefinitions": 53,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O08",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 55,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O09",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 126,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O10",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 0,
+      "footnoteDefinitions": 1,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O11",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 5,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O12",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 2,
+      "footnoteDefinitions": 8,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O13",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 19,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O14",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 52,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O15",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 8,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "O16",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 57,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T01",
+      "format": "PDF",
+      "status": "PdfLayoutExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": null,
+      "footnoteDefinitions": null,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T02",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 10,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T03",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 9,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T04",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 24,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T05",
+      "format": "HTML",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": null,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T06",
+      "format": "Word",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 1,
+      "footnoteDefinitions": 36,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T07",
+      "format": "HTML",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 3,
+      "footnoteDefinitions": null,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    },
+    {
+      "topicId": "T08",
+      "format": "HTML",
+      "status": "StructureExtractedUnreviewed",
+      "fullVisualAudit": false,
+      "legalApproval": false,
+      "tables": 3,
+      "footnoteDefinitions": null,
+      "unresolvedFootnotes": 0,
+      "extractorDisagreements": []
+    }
+  ],
+  "ocrRecovery": {
+    "totalPages": 75,
+    "completedPages": 75,
+    "totalWords": 12385,
+    "meanPageWordConfidence": 90.47,
+    "confidenceIsAccuracy": false,
+    "visualSamplePages": [
+      1,
+      2,
+      17
+    ],
+    "status": "MachineOcrRecoveredWithLayoutGaps",
+    "legalApproval": false,
+    "fullVisualAudit": false,
+    "fullTextCompletenessApproved": false,
+    "page2SamplePhraseMatches": {
+      "old": 3,
+      "new": 9,
+      "total": 9
+    },
+    "page17LayoutSample": {
+      "defaultHeadings": 0,
+      "thresholdHeadings": 7,
+      "totalHeadings": 7
+    }
+  }
+}

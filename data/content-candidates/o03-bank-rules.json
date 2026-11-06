@@ -1,0 +1,2634 @@
+{
+  "schemaVersion": 1,
+  "batchId": "BATCH-O03-B-20261106-01",
+  "status": "ValidationPending",
+  "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+  "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+  "description": "Reproducible exact quotation and identity evidence; not legal approval.",
+  "rules": [
+    {
+      "questionId": "Q-O03-B-0001",
+      "learningObjectiveId": "LO-O03-001-B-0001",
+      "articleNumber": 1,
+      "ruleId": "RULE-Q-O03-B-0001",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 1 – Türkiye Devleti bir Cumhuriyettir.",
+      "sourceQuoteSHA256": "3171e2318961cd837a3dff96b0b3866a46398c368d2fa44e93fd9f7fe04260f5",
+      "sourceLocator": "2709 sayılı Anayasa m.1; UYAP maddeId=1281411; full HTML p[26]",
+      "requiredSourceFragments": [
+        "Madde 1 – Türkiye Devleti bir Cumhuriyettir."
+      ],
+      "correctOptionId": "Q-O03-B-0001-opt-04",
+      "normalizedCorrectText": "cumhuriyet",
+      "distractorOptionIds": [
+        "Q-O03-B-0001-opt-01",
+        "Q-O03-B-0001-opt-02",
+        "Q-O03-B-0001-opt-03",
+        "Q-O03-B-0001-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0002",
+      "learningObjectiveId": "LO-O03-002-B-0002",
+      "articleNumber": 2,
+      "ruleId": "RULE-Q-O03-B-0002",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 2 – Türkiye Cumhuriyeti, toplumun huzuru, milli dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk Devletidir.",
+      "sourceQuoteSHA256": "32a0dc2ab1633b6be6597bbf95ff4c2716b6c8469cb6391d65970447937effd2",
+      "sourceLocator": "2709 sayılı Anayasa m.2; UYAP maddeId=1281420; full HTML p[29]",
+      "requiredSourceFragments": [
+        "Madde 2 – Türkiye Cumhuriyeti, toplumun huzuru, milli dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk Devletidir."
+      ],
+      "correctOptionId": "Q-O03-B-0002-opt-02",
+      "normalizedCorrectText": "demokratik, laik ve sosyal bir hukuk devleti",
+      "distractorOptionIds": [
+        "Q-O03-B-0002-opt-01",
+        "Q-O03-B-0002-opt-03",
+        "Q-O03-B-0002-opt-04",
+        "Q-O03-B-0002-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0003",
+      "learningObjectiveId": "LO-O03-003-B-0003",
+      "articleNumber": 3,
+      "ruleId": "RULE-Q-O03-B-0003",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Başkenti Ankara'dır.",
+      "sourceQuoteSHA256": "a15def24b22becbffb66df8e6ab7c7369cc8e89305ad1c927fa30d0797e80c90",
+      "sourceLocator": "2709 sayılı Anayasa m.3; UYAP maddeId=1281428; full HTML p[35]",
+      "requiredSourceFragments": [
+        "Başkenti Ankara'dır."
+      ],
+      "correctOptionId": "Q-O03-B-0003-opt-05",
+      "normalizedCorrectText": "ankara",
+      "distractorOptionIds": [
+        "Q-O03-B-0003-opt-01",
+        "Q-O03-B-0003-opt-02",
+        "Q-O03-B-0003-opt-03",
+        "Q-O03-B-0003-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0004",
+      "learningObjectiveId": "LO-O03-004-B-0004",
+      "articleNumber": 4,
+      "ruleId": "RULE-Q-O03-B-0004",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 4 – Anayasanın 1 inci maddesindeki Devletin şeklinin Cumhuriyet olduğu hakkındaki hüküm ile, 2 nci maddesindeki Cumhuriyetin nitelikleri ve 3 üncü maddesi hükümleri değiştirilemez ve değiştirilmesi teklif edilemez.",
+      "sourceQuoteSHA256": "385a64c22bc574e98ecb6b038e1479fe98f8cddff5d91e1ae6aa2cb182b0f916",
+      "sourceLocator": "2709 sayılı Anayasa m.4; UYAP maddeId=1281434; full HTML p[38]",
+      "requiredSourceFragments": [
+        "Madde 4 – Anayasanın 1 inci maddesindeki Devletin şeklinin Cumhuriyet olduğu hakkındaki hüküm ile, 2 nci maddesindeki Cumhuriyetin nitelikleri ve 3 üncü maddesi hükümleri değiştirilemez ve değiştirilmesi teklif edilemez."
+      ],
+      "correctOptionId": "Q-O03-B-0004-opt-03",
+      "normalizedCorrectText": "1, 2 ve 3",
+      "distractorOptionIds": [
+        "Q-O03-B-0004-opt-01",
+        "Q-O03-B-0004-opt-02",
+        "Q-O03-B-0004-opt-04",
+        "Q-O03-B-0004-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0005",
+      "learningObjectiveId": "LO-O03-006-B-0005",
+      "articleNumber": 6,
+      "ruleId": "RULE-Q-O03-B-0005",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 6 – Egemenlik, kayıtsız şartsız Milletindir.",
+      "sourceQuoteSHA256": "53312790864d09c73f76231aa4a0fdfc0a8105cb18cdf70480bb0402d7b4ae67",
+      "sourceLocator": "2709 sayılı Anayasa m.6; UYAP maddeId=1281458; full HTML p[44]",
+      "requiredSourceFragments": [
+        "Madde 6 – Egemenlik, kayıtsız şartsız Milletindir."
+      ],
+      "correctOptionId": "Q-O03-B-0005-opt-01",
+      "normalizedCorrectText": "millete",
+      "distractorOptionIds": [
+        "Q-O03-B-0005-opt-02",
+        "Q-O03-B-0005-opt-03",
+        "Q-O03-B-0005-opt-04",
+        "Q-O03-B-0005-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0006",
+      "learningObjectiveId": "LO-O03-007-B-0006",
+      "articleNumber": 7,
+      "ruleId": "RULE-Q-O03-B-0006",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 7 – Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir. Bu yetki devredilemez.",
+      "sourceQuoteSHA256": "0449f3be11236fb56aca5dd4d7dde2ad5eee2c1e693c843120a731573eebb5ca",
+      "sourceLocator": "2709 sayılı Anayasa m.7; UYAP maddeId=1281467; full HTML p[49]",
+      "requiredSourceFragments": [
+        "Madde 7 – Yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisinindir. Bu yetki devredilemez."
+      ],
+      "correctOptionId": "Q-O03-B-0006-opt-04",
+      "normalizedCorrectText": "türkiye büyük millet meclisine",
+      "distractorOptionIds": [
+        "Q-O03-B-0006-opt-01",
+        "Q-O03-B-0006-opt-02",
+        "Q-O03-B-0006-opt-03",
+        "Q-O03-B-0006-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0007",
+      "learningObjectiveId": "LO-O03-008-B-0007",
+      "articleNumber": 8,
+      "ruleId": "RULE-Q-O03-B-0007",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 8 – Yürütme yetkisi ve görevi, Cumhurbaşkanı (…)[7] tarafından, Anayasaya ve kanunlara uygun olarak kullanılır ve yerine getirilir.",
+      "sourceQuoteSHA256": "7aebf7ed63be56896626586e42291cfd1fd76859dc39f2ba3f28aaf93892252a",
+      "sourceLocator": "2709 sayılı Anayasa m.8; UYAP maddeId=1281476; full HTML p[52]",
+      "requiredSourceFragments": [
+        "Madde 8 – Yürütme yetkisi ve görevi, Cumhurbaşkanı (…)[7] tarafından, Anayasaya ve kanunlara uygun olarak kullanılır ve yerine getirilir."
+      ],
+      "correctOptionId": "Q-O03-B-0007-opt-02",
+      "normalizedCorrectText": "cumhurbaşkanı",
+      "distractorOptionIds": [
+        "Q-O03-B-0007-opt-01",
+        "Q-O03-B-0007-opt-03",
+        "Q-O03-B-0007-opt-04",
+        "Q-O03-B-0007-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0008",
+      "learningObjectiveId": "LO-O03-009-B-0008",
+      "articleNumber": 9,
+      "ruleId": "RULE-Q-O03-B-0008",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 9 – Yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır. [8]",
+      "sourceQuoteSHA256": "5be10fa5d1362f67573a11617ed0cee17ffcdf809ff9e679f704d1782bd61cde",
+      "sourceLocator": "2709 sayılı Anayasa m.9; UYAP maddeId=1281489; full HTML p[55]",
+      "requiredSourceFragments": [
+        "Madde 9 – Yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır. [8]"
+      ],
+      "correctOptionId": "Q-O03-B-0008-opt-05",
+      "normalizedCorrectText": "bağımsız ve tarafsız mahkemeler",
+      "distractorOptionIds": [
+        "Q-O03-B-0008-opt-01",
+        "Q-O03-B-0008-opt-02",
+        "Q-O03-B-0008-opt-03",
+        "Q-O03-B-0008-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0009",
+      "learningObjectiveId": "LO-O03-011-B-0009",
+      "articleNumber": 11,
+      "ruleId": "RULE-Q-O03-B-0009",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 11 – Anayasa hükümleri, yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır.",
+      "sourceQuoteSHA256": "46bb035591551ab8eb23923b5e59017fcc88d5ac72e499f67c47a77c7fb7e99b",
+      "sourceLocator": "2709 sayılı Anayasa m.11; UYAP maddeId=1281512; full HTML p[65]",
+      "requiredSourceFragments": [
+        "Madde 11 – Anayasa hükümleri, yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlayan temel hukuk kurallarıdır."
+      ],
+      "correctOptionId": "Q-O03-B-0009-opt-03",
+      "normalizedCorrectText": "yasama, yürütme, yargı, idare ve diğer kuruluş ve kişileri bağlar",
+      "distractorOptionIds": [
+        "Q-O03-B-0009-opt-01",
+        "Q-O03-B-0009-opt-02",
+        "Q-O03-B-0009-opt-04",
+        "Q-O03-B-0009-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0010",
+      "learningObjectiveId": "LO-O03-012-B-0010",
+      "articleNumber": 12,
+      "ruleId": "RULE-Q-O03-B-0010",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 12 – Herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir.",
+      "sourceQuoteSHA256": "85dc67e173a031db73a3eb5de612159ad9fe15510bbffaa0742251827a5c2b16",
+      "sourceLocator": "2709 sayılı Anayasa m.12; UYAP maddeId=1281543; full HTML p[75]",
+      "requiredSourceFragments": [
+        "Madde 12 – Herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez temel hak ve hürriyetlere sahiptir."
+      ],
+      "correctOptionId": "Q-O03-B-0010-opt-01",
+      "normalizedCorrectText": "kişiliğe bağlı, dokunulmaz, devredilmez ve vazgeçilmezdir",
+      "distractorOptionIds": [
+        "Q-O03-B-0010-opt-02",
+        "Q-O03-B-0010-opt-03",
+        "Q-O03-B-0010-opt-04",
+        "Q-O03-B-0010-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0011",
+      "learningObjectiveId": "LO-O03-013-B-0011",
+      "articleNumber": 13,
+      "ruleId": "RULE-Q-O03-B-0011",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Temel hak ve hürriyetler, özlerine dokunulmaksızın yalnızca Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir. Bu sınırlamalar, Anayasanın sözüne ve ruhuna, demokratik toplum düzeninin ve lâik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz.",
+      "sourceQuoteSHA256": "7a8b05e4c4e8ba3ad01ce27a1c74d847ee11f9cda63b94ebe5e5667ed2e176ea",
+      "sourceLocator": "2709 sayılı Anayasa m.13; UYAP maddeId=1281554; full HTML p[80]",
+      "requiredSourceFragments": [
+        "Temel hak ve hürriyetler, özlerine dokunulmaksızın yalnızca Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir. Bu sınırlamalar, Anayasanın sözüne ve ruhuna, demokratik toplum düzeninin ve lâik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0011-opt-04",
+      "normalizedCorrectText": "kanunla",
+      "distractorOptionIds": [
+        "Q-O03-B-0011-opt-01",
+        "Q-O03-B-0011-opt-02",
+        "Q-O03-B-0011-opt-03",
+        "Q-O03-B-0011-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0012",
+      "learningObjectiveId": "LO-O03-016-B-0012",
+      "articleNumber": 16,
+      "ruleId": "RULE-Q-O03-B-0012",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 16 – Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak kanunla sınırlanabilir.",
+      "sourceQuoteSHA256": "f627b4a15b0266c00a8541c58e6a0108ddfe859a1d54970016f0c9584a021b9d",
+      "sourceLocator": "2709 sayılı Anayasa m.16; UYAP maddeId=1281584; full HTML p[93]",
+      "requiredSourceFragments": [
+        "Madde 16 – Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak kanunla sınırlanabilir."
+      ],
+      "correctOptionId": "Q-O03-B-0012-opt-02",
+      "normalizedCorrectText": "milletlerarası hukuka uygun olarak kanunla sınırlama",
+      "distractorOptionIds": [
+        "Q-O03-B-0012-opt-01",
+        "Q-O03-B-0012-opt-03",
+        "Q-O03-B-0012-opt-04",
+        "Q-O03-B-0012-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0013",
+      "learningObjectiveId": "LO-O03-018-B-0013",
+      "articleNumber": 18,
+      "ruleId": "RULE-Q-O03-B-0013",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 18 – Hiç kimse zorla çalıştırılamaz. Angarya yasaktır.",
+      "sourceQuoteSHA256": "94427fe6091250e4e824ba5920f36c38140a53c4ca792f1016cc06d712f52267",
+      "sourceLocator": "2709 sayılı Anayasa m.18; UYAP maddeId=1281611; full HTML p[105]",
+      "requiredSourceFragments": [
+        "Madde 18 – Hiç kimse zorla çalıştırılamaz. Angarya yasaktır."
+      ],
+      "correctOptionId": "Q-O03-B-0013-opt-05",
+      "normalizedCorrectText": "angarya",
+      "distractorOptionIds": [
+        "Q-O03-B-0013-opt-01",
+        "Q-O03-B-0013-opt-02",
+        "Q-O03-B-0013-opt-03",
+        "Q-O03-B-0013-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0014",
+      "learningObjectiveId": "LO-O03-025-B-0014",
+      "articleNumber": 25,
+      "ruleId": "RULE-Q-O03-B-0014",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Her ne sebep ve amaçla olursa olsun kimse, düşünce ve kanaatlerini açıklamaya zorlanamaz; düşünce kanaatleri sebebiyle kınanamaz ve suçlanamaz.",
+      "sourceQuoteSHA256": "7f84148f3dee526cc6a3bd3122708fb2ba97c1d726d344eda2b1d91a0ffbe41e",
+      "sourceLocator": "2709 sayılı Anayasa m.25; UYAP maddeId=1281678; full HTML p[154]",
+      "requiredSourceFragments": [
+        "Her ne sebep ve amaçla olursa olsun kimse, düşünce ve kanaatlerini açıklamaya zorlanamaz; düşünce kanaatleri sebebiyle kınanamaz ve suçlanamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0014-opt-03",
+      "normalizedCorrectText": "hiç kimse düşünce ve kanaatlerini açıklamaya zorlanamaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0014-opt-01",
+        "Q-O03-B-0014-opt-02",
+        "Q-O03-B-0014-opt-04",
+        "Q-O03-B-0014-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0015",
+      "learningObjectiveId": "LO-O03-027-B-0015",
+      "articleNumber": 27,
+      "ruleId": "RULE-Q-O03-B-0015",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 27 – Herkes, bilim ve sanatı serbestçe öğrenme ve öğretme, açıklama, yayma ve bu alanlarda her türlü araştırma hakkına sahiptir.",
+      "sourceQuoteSHA256": "dbbfe61bfe6b9f96f8e0cc835d454fed482b82a3ed9d62cfddae1294b79bc481",
+      "sourceLocator": "2709 sayılı Anayasa m.27; UYAP maddeId=1281699; full HTML p[164]",
+      "requiredSourceFragments": [
+        "Madde 27 – Herkes, bilim ve sanatı serbestçe öğrenme ve öğretme, açıklama, yayma ve bu alanlarda her türlü araştırma hakkına sahiptir."
+      ],
+      "correctOptionId": "Q-O03-B-0015-opt-01",
+      "normalizedCorrectText": "serbestçe öğrenme, öğretme, açıklama, yayma ve araştırma",
+      "distractorOptionIds": [
+        "Q-O03-B-0015-opt-02",
+        "Q-O03-B-0015-opt-03",
+        "Q-O03-B-0015-opt-04",
+        "Q-O03-B-0015-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0016",
+      "learningObjectiveId": "LO-O03-028-B-0016",
+      "articleNumber": 28,
+      "ruleId": "RULE-Q-O03-B-0016",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 28 – Basın hürdür, sansür edilemez. Basımevi kurmak izin alma ve mali teminat yatırma şartına bağlanamaz.",
+      "sourceQuoteSHA256": "f645eaf1d287a700c7078383ddb36c9f9607450893d4f65a14bf36df1eea6023",
+      "sourceLocator": "2709 sayılı Anayasa m.28; UYAP maddeId=1281707; full HTML p[171]",
+      "requiredSourceFragments": [
+        "Madde 28 – Basın hürdür, sansür edilemez. Basımevi kurmak izin alma ve mali teminat yatırma şartına bağlanamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0016-opt-04",
+      "normalizedCorrectText": "basın hürdür, sansür edilemez",
+      "distractorOptionIds": [
+        "Q-O03-B-0016-opt-01",
+        "Q-O03-B-0016-opt-02",
+        "Q-O03-B-0016-opt-03",
+        "Q-O03-B-0016-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0017",
+      "learningObjectiveId": "LO-O03-035-B-0017",
+      "articleNumber": 35,
+      "ruleId": "RULE-Q-O03-B-0017",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 35 – Herkes, mülkiyet ve miras haklarına sahiptir.",
+      "sourceQuoteSHA256": "0d8da57c78ba4f5cfd4626b74e200754f8fceb5407e4210dedfd95384dcd21b8",
+      "sourceLocator": "2709 sayılı Anayasa m.35; UYAP maddeId=1281772; full HTML p[218]",
+      "requiredSourceFragments": [
+        "Madde 35 – Herkes, mülkiyet ve miras haklarına sahiptir."
+      ],
+      "correctOptionId": "Q-O03-B-0017-opt-02",
+      "normalizedCorrectText": "mülkiyet ve miras",
+      "distractorOptionIds": [
+        "Q-O03-B-0017-opt-01",
+        "Q-O03-B-0017-opt-03",
+        "Q-O03-B-0017-opt-04",
+        "Q-O03-B-0017-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0018",
+      "learningObjectiveId": "LO-O03-036-B-0018",
+      "articleNumber": 36,
+      "ruleId": "RULE-Q-O03-B-0018",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 36 – Herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma ile adil yargılanma hakkına sahiptir.[16]",
+      "sourceQuoteSHA256": "40ba1b80c1fc38633fc7e7b150422b08b4316e003840eeee285f1e6001f96923",
+      "sourceLocator": "2709 sayılı Anayasa m.36; UYAP maddeId=1281783; full HTML p[225]",
+      "requiredSourceFragments": [
+        "Madde 36 – Herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma ile adil yargılanma hakkına sahiptir.[16]"
+      ],
+      "correctOptionId": "Q-O03-B-0018-opt-05",
+      "normalizedCorrectText": "iddia, savunma ve adil yargılanma",
+      "distractorOptionIds": [
+        "Q-O03-B-0018-opt-01",
+        "Q-O03-B-0018-opt-02",
+        "Q-O03-B-0018-opt-03",
+        "Q-O03-B-0018-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0019",
+      "learningObjectiveId": "LO-O03-037-B-0019",
+      "articleNumber": 37,
+      "ruleId": "RULE-Q-O03-B-0019",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 37 – Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz.",
+      "sourceQuoteSHA256": "4d1375941c7b02093edf15e585250e90002c1bcf31eaa5ea70d5fd0c42659842",
+      "sourceLocator": "2709 sayılı Anayasa m.37; UYAP maddeId=1281793; full HTML p[229]",
+      "requiredSourceFragments": [
+        "Madde 37 – Hiç kimse kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0019-opt-03",
+      "normalizedCorrectText": "kimsenin kanunen tabi olduğu mahkemeden başka bir merci önüne çıkarılamaması",
+      "distractorOptionIds": [
+        "Q-O03-B-0019-opt-01",
+        "Q-O03-B-0019-opt-02",
+        "Q-O03-B-0019-opt-04",
+        "Q-O03-B-0019-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0020",
+      "learningObjectiveId": "LO-O03-041-B-0020",
+      "articleNumber": 41,
+      "ruleId": "RULE-Q-O03-B-0020",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 41 – Aile, Türk toplumunun temelidir ve eşler arasında eşitliğe dayanır. [18]",
+      "sourceQuoteSHA256": "5b8a19515b7d614ae369782d65c830a66b51e141a9f07e0328c7b00ff9df5d54",
+      "sourceLocator": "2709 sayılı Anayasa m.41; UYAP maddeId=1281846; full HTML p[258]",
+      "requiredSourceFragments": [
+        "Madde 41 – Aile, Türk toplumunun temelidir ve eşler arasında eşitliğe dayanır. [18]"
+      ],
+      "correctOptionId": "Q-O03-B-0020-opt-01",
+      "normalizedCorrectText": "eşler arasında eşitliğe",
+      "distractorOptionIds": [
+        "Q-O03-B-0020-opt-02",
+        "Q-O03-B-0020-opt-03",
+        "Q-O03-B-0020-opt-04",
+        "Q-O03-B-0020-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0021",
+      "learningObjectiveId": "LO-O03-042-B-0021",
+      "articleNumber": 42,
+      "ruleId": "RULE-Q-O03-B-0021",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "İlköğretim kız ve erkek bütün vatandaşlar için zorunludur ve Devlet okullarında parasızdır.",
+      "sourceQuoteSHA256": "8c05203059ba412584d1378d31fa0ffc938b52fd42f854e0c13d04284dc5b0b3",
+      "sourceLocator": "2709 sayılı Anayasa m.42; UYAP maddeId=1281854; full HTML p[268]",
+      "requiredSourceFragments": [
+        "İlköğretim kız ve erkek bütün vatandaşlar için zorunludur ve Devlet okullarında parasızdır."
+      ],
+      "correctOptionId": "Q-O03-B-0021-opt-04",
+      "normalizedCorrectText": "kız ve erkek bütün vatandaşlar için zorunlu, devlet okullarında parasızdır",
+      "distractorOptionIds": [
+        "Q-O03-B-0021-opt-01",
+        "Q-O03-B-0021-opt-02",
+        "Q-O03-B-0021-opt-03",
+        "Q-O03-B-0021-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0022",
+      "learningObjectiveId": "LO-O03-043-B-0022",
+      "articleNumber": 43,
+      "ruleId": "RULE-Q-O03-B-0022",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 43 – Kıyılar, Devletin hüküm ve tasarrufu altındadır.",
+      "sourceQuoteSHA256": "1051eb55cf4dbd92a555b09f01143f93d4c0cf8c03486a456b27ffdd038bab5a",
+      "sourceLocator": "2709 sayılı Anayasa m.43; UYAP maddeId=1281866; full HTML p[278]",
+      "requiredSourceFragments": [
+        "Madde 43 – Kıyılar, Devletin hüküm ve tasarrufu altındadır."
+      ],
+      "correctOptionId": "Q-O03-B-0022-opt-02",
+      "normalizedCorrectText": "devletin hüküm ve tasarrufu altındadır",
+      "distractorOptionIds": [
+        "Q-O03-B-0022-opt-01",
+        "Q-O03-B-0022-opt-03",
+        "Q-O03-B-0022-opt-04",
+        "Q-O03-B-0022-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0023",
+      "learningObjectiveId": "LO-O03-049-B-0023",
+      "articleNumber": 49,
+      "ruleId": "RULE-Q-O03-B-0023",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 49 – Çalışma, herkesin hakkı ve ödevidir.",
+      "sourceQuoteSHA256": "e244aeb7969cc2aced785df5af056468c2290df0e4a8c32ebda9cdedf6832760",
+      "sourceLocator": "2709 sayılı Anayasa m.49; UYAP maddeId=1281933; full HTML p[310]",
+      "requiredSourceFragments": [
+        "Madde 49 – Çalışma, herkesin hakkı ve ödevidir."
+      ],
+      "correctOptionId": "Q-O03-B-0023-opt-05",
+      "normalizedCorrectText": "herkesin hakkı ve ödevi",
+      "distractorOptionIds": [
+        "Q-O03-B-0023-opt-01",
+        "Q-O03-B-0023-opt-02",
+        "Q-O03-B-0023-opt-03",
+        "Q-O03-B-0023-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0024",
+      "learningObjectiveId": "LO-O03-056-B-0024",
+      "articleNumber": 56,
+      "ruleId": "RULE-Q-O03-B-0024",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Çevreyi geliştirmek, çevre sağlığını korumak ve çevre kirlenmesini önlemek Devletin ve vatandaşların ödevidir.",
+      "sourceQuoteSHA256": "1c24968c3c90187aa617d5cac2c74da9238fddd6785e473822b4238c321452ef",
+      "sourceLocator": "2709 sayılı Anayasa m.56; UYAP maddeId=1282011; full HTML p[362]",
+      "requiredSourceFragments": [
+        "Çevreyi geliştirmek, çevre sağlığını korumak ve çevre kirlenmesini önlemek Devletin ve vatandaşların ödevidir."
+      ],
+      "correctOptionId": "Q-O03-B-0024-opt-03",
+      "normalizedCorrectText": "devletin ve vatandaşların",
+      "distractorOptionIds": [
+        "Q-O03-B-0024-opt-01",
+        "Q-O03-B-0024-opt-02",
+        "Q-O03-B-0024-opt-04",
+        "Q-O03-B-0024-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0025",
+      "learningObjectiveId": "LO-O03-075-B-0025",
+      "articleNumber": 75,
+      "ruleId": "RULE-Q-O03-B-0025",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi genel oyla seçilen altıyüz milletvekilinden oluşur.[29]",
+      "sourceQuoteSHA256": "91293e026a043f85d0e96315819ba593c0445f471448cbf2c02fc6cc24f9ce51",
+      "sourceLocator": "2709 sayılı Anayasa m.75; UYAP maddeId=1282213; full HTML p[490]",
+      "requiredSourceFragments": [
+        "Türkiye Büyük Millet Meclisi genel oyla seçilen altıyüz milletvekilinden oluşur.[29]"
+      ],
+      "correctOptionId": "Q-O03-B-0025-opt-01",
+      "normalizedCorrectText": "600",
+      "distractorOptionIds": [
+        "Q-O03-B-0025-opt-02",
+        "Q-O03-B-0025-opt-03",
+        "Q-O03-B-0025-opt-04",
+        "Q-O03-B-0025-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0026",
+      "learningObjectiveId": "LO-O03-031-B-0026",
+      "articleNumber": 31,
+      "ruleId": "RULE-Q-O03-B-0026",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 31 – Kişiler ve siyasi partiler, kamu tüzel kişilerinin elindeki basın dışı kitle haberleşme ve yayım araçlarından yararlanma hakkına sahiptir. Bu yararlanmanın şartları ve usulleri kanunla düzenlenir.",
+      "sourceQuoteSHA256": "d27d912d773ef4892358029490334bdb00380d4a24e71cb615031ec2cdefbf84",
+      "sourceLocator": "2709 sayılı Anayasa m.31; UYAP maddeId=1281732; full HTML p[192]",
+      "requiredSourceFragments": [
+        "Madde 31 – Kişiler ve siyasi partiler, kamu tüzel kişilerinin elindeki basın dışı kitle haberleşme ve yayım araçlarından yararlanma hakkına sahiptir. Bu yararlanmanın şartları ve usulleri kanunla düzenlenir."
+      ],
+      "correctOptionId": "Q-O03-B-0026-opt-04",
+      "normalizedCorrectText": "kişiler ve siyasi partiler",
+      "distractorOptionIds": [
+        "Q-O03-B-0026-opt-01",
+        "Q-O03-B-0026-opt-02",
+        "Q-O03-B-0026-opt-03",
+        "Q-O03-B-0026-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0027",
+      "learningObjectiveId": "LO-O03-032-B-0027",
+      "articleNumber": 32,
+      "ruleId": "RULE-Q-O03-B-0027",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 32 – Düzeltme ve cevap hakkı, ancak kişilerin haysiyet ve şereflerine dokunulması veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması hallerinde tanınır ve kanunla düzenlenir.",
+      "sourceQuoteSHA256": "5042cd0725c58ed4948ba8204c6b9b0d0791116cfc08dcd2efbd101c2cdd39e3",
+      "sourceLocator": "2709 sayılı Anayasa m.32; UYAP maddeId=1281741; full HTML p[196]",
+      "requiredSourceFragments": [
+        "Madde 32 – Düzeltme ve cevap hakkı, ancak kişilerin haysiyet ve şereflerine dokunulması veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması hallerinde tanınır ve kanunla düzenlenir."
+      ],
+      "correctOptionId": "Q-O03-B-0027-opt-02",
+      "normalizedCorrectText": "haysiyet ve şerefe dokunulması veya kişi hakkında gerçeğe aykırı yayın",
+      "distractorOptionIds": [
+        "Q-O03-B-0027-opt-01",
+        "Q-O03-B-0027-opt-03",
+        "Q-O03-B-0027-opt-04",
+        "Q-O03-B-0027-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0028",
+      "learningObjectiveId": "LO-O03-033-B-0028",
+      "articleNumber": 33,
+      "ruleId": "RULE-Q-O03-B-0028",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Hiç kimse bir derneğe üye olmaya ve dernekte üye kalmaya zorlanamaz.",
+      "sourceQuoteSHA256": "751a90d6377fd11445bfa826dce9dc466a9514179e5e9ce25cd5b6980f0aa172",
+      "sourceLocator": "2709 sayılı Anayasa m.33; UYAP maddeId=1281752; full HTML p[204]",
+      "requiredSourceFragments": [
+        "Hiç kimse bir derneğe üye olmaya ve dernekte üye kalmaya zorlanamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0028-opt-05",
+      "normalizedCorrectText": "bir kişiyi üyeliğe veya üye kalmaya zorlamak",
+      "distractorOptionIds": [
+        "Q-O03-B-0028-opt-01",
+        "Q-O03-B-0028-opt-02",
+        "Q-O03-B-0028-opt-03",
+        "Q-O03-B-0028-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0029",
+      "learningObjectiveId": "LO-O03-034-B-0029",
+      "articleNumber": 34,
+      "ruleId": "RULE-Q-O03-B-0029",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Herkes, önceden izin almadan, silahsız ve saldırısız toplantı ve gösteri yürüyüşü düzenleme hakkına sahiptir.",
+      "sourceQuoteSHA256": "8b60b8d112f6fac4899116b69b8a55ec373d650f47e8cd69f218d9447a791770",
+      "sourceLocator": "2709 sayılı Anayasa m.34; UYAP maddeId=1281765; full HTML p[213]",
+      "requiredSourceFragments": [
+        "Herkes, önceden izin almadan, silahsız ve saldırısız toplantı ve gösteri yürüyüşü düzenleme hakkına sahiptir."
+      ],
+      "correctOptionId": "Q-O03-B-0029-opt-03",
+      "normalizedCorrectText": "önceden izin almadan, silahsız ve saldırısız düzenlenebilir",
+      "distractorOptionIds": [
+        "Q-O03-B-0029-opt-01",
+        "Q-O03-B-0029-opt-02",
+        "Q-O03-B-0029-opt-04",
+        "Q-O03-B-0029-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0030",
+      "learningObjectiveId": "LO-O03-035-B-0030",
+      "articleNumber": 35,
+      "ruleId": "RULE-Q-O03-B-0030",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Bu haklar, ancak kamu yararı amacıyla, kanunla sınırlanabilir.",
+      "sourceQuoteSHA256": "d4fd1972588431f7f1a3c5fadcc3ada80b4ce96d14211070ef332e258e455a0a",
+      "sourceLocator": "2709 sayılı Anayasa m.35; UYAP maddeId=1281772; full HTML p[219]",
+      "requiredSourceFragments": [
+        "Bu haklar, ancak kamu yararı amacıyla, kanunla sınırlanabilir."
+      ],
+      "correctOptionId": "Q-O03-B-0030-opt-01",
+      "normalizedCorrectText": "kamu yararı amacıyla ve kanunla",
+      "distractorOptionIds": [
+        "Q-O03-B-0030-opt-02",
+        "Q-O03-B-0030-opt-03",
+        "Q-O03-B-0030-opt-04",
+        "Q-O03-B-0030-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0031",
+      "learningObjectiveId": "LO-O03-038-B-0031",
+      "articleNumber": 38,
+      "ruleId": "RULE-Q-O03-B-0031",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/15 md.) Kanuna aykırı olarak elde edilmiş bulgular, delil olarak kabul edilemez.",
+      "sourceQuoteSHA256": "22a5a195604efac5108f830a4ea10d73734f8c79ae5dadde3c67f0f6c7568446",
+      "sourceLocator": "2709 sayılı Anayasa m.38; UYAP maddeId=1281803; full HTML p[238]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 3/10/2001-4709/15 md.) Kanuna aykırı olarak elde edilmiş bulgular, delil olarak kabul edilemez."
+      ],
+      "correctOptionId": "Q-O03-B-0031-opt-04",
+      "normalizedCorrectText": "delil olarak kabul edilemez",
+      "distractorOptionIds": [
+        "Q-O03-B-0031-opt-01",
+        "Q-O03-B-0031-opt-02",
+        "Q-O03-B-0031-opt-03",
+        "Q-O03-B-0031-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0032",
+      "learningObjectiveId": "LO-O03-039-B-0032",
+      "articleNumber": 39,
+      "ruleId": "RULE-Q-O03-B-0032",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 39 – Kamu görev ve hizmetinde bulunanlara karşı, bu görev ve hizmetin yerine getirilmesiyle ilgili olarak yapılan isnatlardan dolayı açılan hakaret davalarında, sanık, isnadın doğruluğunu ispat hakkına sahiptir. Bunun dışındaki hallerde ispat isteminin kabulü, ancak isnat olunan fiilin doğru olup olmadığının anlaşılmasında kamu yararı bulunmasına veya şikayetçinin ispata razı olmasına bağlıdır.",
+      "sourceQuoteSHA256": "264e1b2e1a761a007dc26bc31d84d92d8760ab6c940361c1cefab4949c11dd88",
+      "sourceLocator": "2709 sayılı Anayasa m.39; UYAP maddeId=1281814; full HTML p[247]",
+      "requiredSourceFragments": [
+        "Madde 39 – Kamu görev ve hizmetinde bulunanlara karşı, bu görev ve hizmetin yerine getirilmesiyle ilgili olarak yapılan isnatlardan dolayı açılan hakaret davalarında, sanık, isnadın doğruluğunu ispat hakkına sahiptir. Bunun dışındaki hallerde ispat isteminin kabulü, ancak isnat olunan fiilin doğru olup olmadığının anlaşılmasında kamu yararı bulunmasına veya şikayetçinin ispata razı olmasına bağlıdır."
+      ],
+      "correctOptionId": "Q-O03-B-0032-opt-02",
+      "normalizedCorrectText": "isnadın doğruluğunu ispat",
+      "distractorOptionIds": [
+        "Q-O03-B-0032-opt-01",
+        "Q-O03-B-0032-opt-03",
+        "Q-O03-B-0032-opt-04",
+        "Q-O03-B-0032-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0033",
+      "learningObjectiveId": "LO-O03-040-B-0033",
+      "articleNumber": 40,
+      "ruleId": "RULE-Q-O03-B-0033",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/16 md.) Devlet, işlemlerinde, ilgili kişilerin hangi kanun yolları ve mercilere başvuracağını ve sürelerini belirtmek zorundadır.",
+      "sourceQuoteSHA256": "54266d6595158f796badb45d77bb9401acd9fec1a218c15a29d9e4a83f2bc245",
+      "sourceLocator": "2709 sayılı Anayasa m.40; UYAP maddeId=1281823; full HTML p[251]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 3/10/2001-4709/16 md.) Devlet, işlemlerinde, ilgili kişilerin hangi kanun yolları ve mercilere başvuracağını ve sürelerini belirtmek zorundadır."
+      ],
+      "correctOptionId": "Q-O03-B-0033-opt-05",
+      "normalizedCorrectText": "başvurulacak kanun yolları, merciler ve süreler",
+      "distractorOptionIds": [
+        "Q-O03-B-0033-opt-01",
+        "Q-O03-B-0033-opt-02",
+        "Q-O03-B-0033-opt-03",
+        "Q-O03-B-0033-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0034",
+      "learningObjectiveId": "LO-O03-044-B-0034",
+      "articleNumber": 44,
+      "ruleId": "RULE-Q-O03-B-0034",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Bu amaçla dağıtılan topraklar bölünemez, miras hükümleri dışında başkalarına devredilemez ve ancak dağıtılan çiftçilerle mirasçıları tarafından işletilebilir. Bu şartların kaybı halinde, dağıtılan toprağın Devletçe geri alınmasına ilişkin esaslar kanunla düzenlenir.",
+      "sourceQuoteSHA256": "0fe67f5bdbec0095d91673357d9ddef0f842f72b0c292da0d873dfc0ba8f725b",
+      "sourceLocator": "2709 sayılı Anayasa m.44; UYAP maddeId=1281878; full HTML p[284]",
+      "requiredSourceFragments": [
+        "Bu amaçla dağıtılan topraklar bölünemez, miras hükümleri dışında başkalarına devredilemez ve ancak dağıtılan çiftçilerle mirasçıları tarafından işletilebilir. Bu şartların kaybı halinde, dağıtılan toprağın Devletçe geri alınmasına ilişkin esaslar kanunla düzenlenir."
+      ],
+      "correctOptionId": "Q-O03-B-0034-opt-03",
+      "normalizedCorrectText": "miras hükümleri dışında başkalarına devredilemez",
+      "distractorOptionIds": [
+        "Q-O03-B-0034-opt-01",
+        "Q-O03-B-0034-opt-02",
+        "Q-O03-B-0034-opt-04",
+        "Q-O03-B-0034-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0035",
+      "learningObjectiveId": "LO-O03-046-B-0035",
+      "articleNumber": 46,
+      "ruleId": "RULE-Q-O03-B-0035",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Kamulaştırılan topraktan, o toprağı doğrudan doğruya işleten küçük çiftçiye ait olanlarının bedeli, her halde peşin ödenir.",
+      "sourceQuoteSHA256": "070f45e82fd8c9b1d66f961a67efb3c9a78090e4c2408ce89d9b9d8ccc884df8",
+      "sourceLocator": "2709 sayılı Anayasa m.46; UYAP maddeId=1281903; full HTML p[294]",
+      "requiredSourceFragments": [
+        "Kamulaştırılan topraktan, o toprağı doğrudan doğruya işleten küçük çiftçiye ait olanlarının bedeli, her halde peşin ödenir."
+      ],
+      "correctOptionId": "Q-O03-B-0035-opt-01",
+      "normalizedCorrectText": "her halde peşin ödenir",
+      "distractorOptionIds": [
+        "Q-O03-B-0035-opt-02",
+        "Q-O03-B-0035-opt-03",
+        "Q-O03-B-0035-opt-04",
+        "Q-O03-B-0035-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0036",
+      "learningObjectiveId": "LO-O03-047-B-0036",
+      "articleNumber": 47,
+      "ruleId": "RULE-Q-O03-B-0036",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Devletleştirme gerçek karşılığı üzerinden yapılır. Gerçek karşılığın hesaplanma tarzı ve usulleri kanunla düzenlenir.",
+      "sourceQuoteSHA256": "e283792da2e45de32ad7e2522f52650c3c5cc893258655d7102485262717779e",
+      "sourceLocator": "2709 sayılı Anayasa m.47; UYAP maddeId=1281913; full HTML p[299]",
+      "requiredSourceFragments": [
+        "Devletleştirme gerçek karşılığı üzerinden yapılır. Gerçek karşılığın hesaplanma tarzı ve usulleri kanunla düzenlenir."
+      ],
+      "correctOptionId": "Q-O03-B-0036-opt-04",
+      "normalizedCorrectText": "gerçek karşılığı",
+      "distractorOptionIds": [
+        "Q-O03-B-0036-opt-01",
+        "Q-O03-B-0036-opt-02",
+        "Q-O03-B-0036-opt-03",
+        "Q-O03-B-0036-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0037",
+      "learningObjectiveId": "LO-O03-051-B-0037",
+      "articleNumber": 51,
+      "ruleId": "RULE-Q-O03-B-0037",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Çalışanlar ve işverenler, üyelerinin çalışma ilişkilerinde, ekonomik ve sosyal hak ve menfaatlerini korumak ve geliştirmek için önceden izin almaksızın sendikalar ve üst kuruluşlar kurma, bunlara serbestçe üye olma ve üyelikten serbestçe çekilme haklarına sahiptir. Hiç kimse bir sendikaya üye olmaya ya da üyelikten ayrılmaya zorlanamaz.",
+      "sourceQuoteSHA256": "bc2f7f3713207db1b0f91685d69ba3128bba201f759cc9625c233cf7b6dfc555",
+      "sourceLocator": "2709 sayılı Anayasa m.51; UYAP maddeId=1281956; full HTML p[322]",
+      "requiredSourceFragments": [
+        "Çalışanlar ve işverenler, üyelerinin çalışma ilişkilerinde, ekonomik ve sosyal hak ve menfaatlerini korumak ve geliştirmek için önceden izin almaksızın sendikalar ve üst kuruluşlar kurma, bunlara serbestçe üye olma ve üyelikten serbestçe çekilme haklarına sahiptir. Hiç kimse bir sendikaya üye olmaya ya da üyelikten ayrılmaya zorlanamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0037-opt-02",
+      "normalizedCorrectText": "önceden izin alınması gerekmez",
+      "distractorOptionIds": [
+        "Q-O03-B-0037-opt-01",
+        "Q-O03-B-0037-opt-03",
+        "Q-O03-B-0037-opt-04",
+        "Q-O03-B-0037-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0038",
+      "learningObjectiveId": "LO-O03-053-B-0038",
+      "articleNumber": 53,
+      "ruleId": "RULE-Q-O03-B-0038",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 7/5/2010-5982/6 md.) Toplu sözleşme yapılması sırasında uyuşmazlık çıkması halinde taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir. Kamu Görevlileri Hakem Kurulu kararları kesindir ve toplu sözleşme hükmündedir.",
+      "sourceQuoteSHA256": "7ee93612510b3960e7eab22d568284c9f019035ac649c3e19fd791d7eb121940",
+      "sourceLocator": "2709 sayılı Anayasa m.53; UYAP maddeId=1281976; full HTML p[340]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 7/5/2010-5982/6 md.) Toplu sözleşme yapılması sırasında uyuşmazlık çıkması halinde taraflar Kamu Görevlileri Hakem Kuruluna başvurabilir. Kamu Görevlileri Hakem Kurulu kararları kesindir ve toplu sözleşme hükmündedir."
+      ],
+      "correctOptionId": "Q-O03-B-0038-opt-05",
+      "normalizedCorrectText": "kesin ve toplu sözleşme hükmündedir",
+      "distractorOptionIds": [
+        "Q-O03-B-0038-opt-01",
+        "Q-O03-B-0038-opt-02",
+        "Q-O03-B-0038-opt-03",
+        "Q-O03-B-0038-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0039",
+      "learningObjectiveId": "LO-O03-054-B-0039",
+      "articleNumber": 54,
+      "ruleId": "RULE-Q-O03-B-0039",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Greve katılmayanların işyerinde çalışmaları, greve katılanlar tarafından hiç bir şekilde engellenemez.",
+      "sourceQuoteSHA256": "02f993cf3ff681423b3f5b7ce1848e60cedbd28f4f1b39a8a9cdab48b860dc38",
+      "sourceLocator": "2709 sayılı Anayasa m.54; UYAP maddeId=1281986; full HTML p[351]",
+      "requiredSourceFragments": [
+        "Greve katılmayanların işyerinde çalışmaları, greve katılanlar tarafından hiç bir şekilde engellenemez."
+      ],
+      "correctOptionId": "Q-O03-B-0039-opt-03",
+      "normalizedCorrectText": "çalışmaları greve katılanlarca hiçbir şekilde engellenemez",
+      "distractorOptionIds": [
+        "Q-O03-B-0039-opt-01",
+        "Q-O03-B-0039-opt-02",
+        "Q-O03-B-0039-opt-04",
+        "Q-O03-B-0039-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0040",
+      "learningObjectiveId": "LO-O03-055-B-0040",
+      "articleNumber": 55,
+      "ruleId": "RULE-Q-O03-B-0040",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Değişik fıkra: 3/10/2001-4709/21 md.) Asgarî ücretin tespitinde çalışanların geçim şartları ile ülkenin ekonomik durumu da gözönünde bulundurulur.",
+      "sourceQuoteSHA256": "262f5c5ce641d3e8e73f3fbb542be2e2a283b5f4785400e38e44c0422b089f9f",
+      "sourceLocator": "2709 sayılı Anayasa m.55; UYAP maddeId=1281999; full HTML p[356]",
+      "requiredSourceFragments": [
+        "(Değişik fıkra: 3/10/2001-4709/21 md.) Asgarî ücretin tespitinde çalışanların geçim şartları ile ülkenin ekonomik durumu da gözönünde bulundurulur."
+      ],
+      "correctOptionId": "Q-O03-B-0040-opt-01",
+      "normalizedCorrectText": "çalışanların geçim şartları ve ülkenin ekonomik durumu",
+      "distractorOptionIds": [
+        "Q-O03-B-0040-opt-02",
+        "Q-O03-B-0040-opt-03",
+        "Q-O03-B-0040-opt-04",
+        "Q-O03-B-0040-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0041",
+      "learningObjectiveId": "LO-O03-057-B-0041",
+      "articleNumber": 57,
+      "ruleId": "RULE-Q-O03-B-0041",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 57 – Devlet, şehirlerin özelliklerini ve çevre şartlarını gözeten bir planlama çerçevesinde, konut ihtiyacını karşılayacak tedbirleri alır, ayrıca toplu konut teşebbüslerini destekler.",
+      "sourceQuoteSHA256": "085481c95f0cf1c90db805a423d84720a8a5a662d33ea27e33f0d0fa3a402baa",
+      "sourceLocator": "2709 sayılı Anayasa m.57; UYAP maddeId=1282021; full HTML p[368]",
+      "requiredSourceFragments": [
+        "Madde 57 – Devlet, şehirlerin özelliklerini ve çevre şartlarını gözeten bir planlama çerçevesinde, konut ihtiyacını karşılayacak tedbirleri alır, ayrıca toplu konut teşebbüslerini destekler."
+      ],
+      "correctOptionId": "Q-O03-B-0041-opt-04",
+      "normalizedCorrectText": "şehirlerin özellikleri ve çevre şartları",
+      "distractorOptionIds": [
+        "Q-O03-B-0041-opt-01",
+        "Q-O03-B-0041-opt-02",
+        "Q-O03-B-0041-opt-03",
+        "Q-O03-B-0041-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0042",
+      "learningObjectiveId": "LO-O03-059-B-0042",
+      "articleNumber": 59,
+      "ruleId": "RULE-Q-O03-B-0042",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 17/3/2011-6214/1 md.) Spor federasyonlarının spor faaliyetlerinin yönetimine ve disiplinine ilişkin kararlarına karşı ancak zorunlu tahkim yoluna başvurulabilir. Tahkim kurulu kararları kesin olup bu kararlara karşı hiçbir yargı merciine başvurulamaz.",
+      "sourceQuoteSHA256": "9830d11aae609de97fb9c1c8eb32f23b697c7a2926e91d1020bf930fa19b3754",
+      "sourceLocator": "2709 sayılı Anayasa m.59; UYAP maddeId=1282042; full HTML p[379]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 17/3/2011-6214/1 md.) Spor federasyonlarının spor faaliyetlerinin yönetimine ve disiplinine ilişkin kararlarına karşı ancak zorunlu tahkim yoluna başvurulabilir. Tahkim kurulu kararları kesin olup bu kararlara karşı hiçbir yargı merciine başvurulamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0042-opt-02",
+      "normalizedCorrectText": "zorunlu tahkim",
+      "distractorOptionIds": [
+        "Q-O03-B-0042-opt-01",
+        "Q-O03-B-0042-opt-03",
+        "Q-O03-B-0042-opt-04",
+        "Q-O03-B-0042-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0043",
+      "learningObjectiveId": "LO-O03-063-B-0043",
+      "articleNumber": 63,
+      "ruleId": "RULE-Q-O03-B-0043",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Bu varlıklar ve değerlerden özel mülkiyet konusu olanlara getirilecek sınırlamalar ve bu nedenle hak sahiplerine yapılacak yardımlar ve tanınacak muafiyetler kanunla düzenlenir.",
+      "sourceQuoteSHA256": "17ed08c2c9217acec0531fe4b79fc64c2ae9a7e1376859a07a027cfdc0107f18",
+      "sourceLocator": "2709 sayılı Anayasa m.63; UYAP maddeId=1282076; full HTML p[399]",
+      "requiredSourceFragments": [
+        "Bu varlıklar ve değerlerden özel mülkiyet konusu olanlara getirilecek sınırlamalar ve bu nedenle hak sahiplerine yapılacak yardımlar ve tanınacak muafiyetler kanunla düzenlenir."
+      ],
+      "correctOptionId": "Q-O03-B-0043-opt-05",
+      "normalizedCorrectText": "kanunla",
+      "distractorOptionIds": [
+        "Q-O03-B-0043-opt-01",
+        "Q-O03-B-0043-opt-02",
+        "Q-O03-B-0043-opt-03",
+        "Q-O03-B-0043-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0044",
+      "learningObjectiveId": "LO-O03-065-B-0044",
+      "articleNumber": 65,
+      "ruleId": "RULE-Q-O03-B-0044",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Devlet, sosyal ve ekonomik alanlarda Anayasa ile belirlenen görevlerini, bu görevlerin amaçlarına uygun öncelikleri gözeterek malî kaynaklarının yeterliliği ölçüsünde yerine getirir.",
+      "sourceQuoteSHA256": "8dbf9a3c924a694001f191b51e09fcc060fc23fac622e85e76bc87a982f8a52e",
+      "sourceLocator": "2709 sayılı Anayasa m.65; UYAP maddeId=1282094; full HTML p[406]",
+      "requiredSourceFragments": [
+        "Devlet, sosyal ve ekonomik alanlarda Anayasa ile belirlenen görevlerini, bu görevlerin amaçlarına uygun öncelikleri gözeterek malî kaynaklarının yeterliliği ölçüsünde yerine getirir."
+      ],
+      "correctOptionId": "Q-O03-B-0044-opt-03",
+      "normalizedCorrectText": "amaçlarına uygun öncelikler gözetilerek mali kaynakların yeterliliği",
+      "distractorOptionIds": [
+        "Q-O03-B-0044-opt-01",
+        "Q-O03-B-0044-opt-02",
+        "Q-O03-B-0044-opt-04",
+        "Q-O03-B-0044-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0045",
+      "learningObjectiveId": "LO-O03-066-B-0045",
+      "articleNumber": 66,
+      "ruleId": "RULE-Q-O03-B-0045",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türk babanın veya Türk ananın çocuğu Türktür. (Mülga ikinci cümle: 3/10/2001-4709/23 md.)",
+      "sourceQuoteSHA256": "4b67828fef8b86682d3651a7ba03f103a861639a053c023ba97316e87f24a704",
+      "sourceLocator": "2709 sayılı Anayasa m.66; UYAP maddeId=1282114; full HTML p[413]",
+      "requiredSourceFragments": [
+        "Türk babanın veya Türk ananın çocuğu Türktür. (Mülga ikinci cümle: 3/10/2001-4709/23 md.)"
+      ],
+      "correctOptionId": "Q-O03-B-0045-opt-01",
+      "normalizedCorrectText": "türktür",
+      "distractorOptionIds": [
+        "Q-O03-B-0045-opt-02",
+        "Q-O03-B-0045-opt-03",
+        "Q-O03-B-0045-opt-04",
+        "Q-O03-B-0045-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0046",
+      "learningObjectiveId": "LO-O03-067-B-0046",
+      "articleNumber": 67,
+      "ruleId": "RULE-Q-O03-B-0046",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/24 md.) Seçim kanunlarında yapılan değişiklikler, yürürlüğe girdiği tarihten itibaren bir yıl içinde yapılacak seçimlerde uygulanmaz.",
+      "sourceQuoteSHA256": "3fe698958ba6e2a83f873ade9e48562dedbe610953dfdaa95354fc9635ed404a",
+      "sourceLocator": "2709 sayılı Anayasa m.67; UYAP maddeId=1282121; full HTML p[425]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 3/10/2001-4709/24 md.) Seçim kanunlarında yapılan değişiklikler, yürürlüğe girdiği tarihten itibaren bir yıl içinde yapılacak seçimlerde uygulanmaz."
+      ],
+      "correctOptionId": "Q-O03-B-0046-opt-04",
+      "normalizedCorrectText": "bir yıl",
+      "distractorOptionIds": [
+        "Q-O03-B-0046-opt-01",
+        "Q-O03-B-0046-opt-02",
+        "Q-O03-B-0046-opt-03",
+        "Q-O03-B-0046-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0047",
+      "learningObjectiveId": "LO-O03-068-B-0047",
+      "articleNumber": 68,
+      "ruleId": "RULE-Q-O03-B-0047",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Hakimler ve savcılar, Sayıştay dahil yüksek yargı organları mensupları, kamu kurum ve kuruluşlarının memur statüsündeki görevlileri, yaptıkları hizmet bakımından işçi niteliği taşımayan diğer kamu görevlileri, Silahlı Kuvvetler mensupları ile yükseköğretim öncesi öğrencileri siyasi partilere üye olamazlar.",
+      "sourceQuoteSHA256": "bfa5d1914ea1c3c934ca2d7e541c6242bcbfb59a2e55f56c4df30b73e624335f",
+      "sourceLocator": "2709 sayılı Anayasa m.68; UYAP maddeId=1282127; full HTML p[435]",
+      "requiredSourceFragments": [
+        "Hakimler ve savcılar, Sayıştay dahil yüksek yargı organları mensupları, kamu kurum ve kuruluşlarının memur statüsündeki görevlileri, yaptıkları hizmet bakımından işçi niteliği taşımayan diğer kamu görevlileri, Silahlı Kuvvetler mensupları ile yükseköğretim öncesi öğrencileri siyasi partilere üye olamazlar."
+      ],
+      "correctOptionId": "Q-O03-B-0047-opt-02",
+      "normalizedCorrectText": "memur statüsündeki kamu görevlileri",
+      "distractorOptionIds": [
+        "Q-O03-B-0047-opt-01",
+        "Q-O03-B-0047-opt-03",
+        "Q-O03-B-0047-opt-04",
+        "Q-O03-B-0047-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0048",
+      "learningObjectiveId": "LO-O03-069-B-0048",
+      "articleNumber": 69,
+      "ruleId": "RULE-Q-O03-B-0048",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Siyasi partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır.",
+      "sourceQuoteSHA256": "d6bcf2de61f1e236e3a124e0fcbe95b6b1432540028ef0750af6fda197ba3158",
+      "sourceLocator": "2709 sayılı Anayasa m.69; UYAP maddeId=1282137; full HTML p[444]",
+      "requiredSourceFragments": [
+        "Siyasi partilerin kapatılması, Yargıtay Cumhuriyet Başsavcısının açacağı dava üzerine Anayasa Mahkemesince kesin olarak karara bağlanır."
+      ],
+      "correctOptionId": "Q-O03-B-0048-opt-05",
+      "normalizedCorrectText": "yargıtay cumhuriyet başsavcısı — anayasa mahkemesi",
+      "distractorOptionIds": [
+        "Q-O03-B-0048-opt-01",
+        "Q-O03-B-0048-opt-02",
+        "Q-O03-B-0048-opt-03",
+        "Q-O03-B-0048-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0049",
+      "learningObjectiveId": "LO-O03-070-B-0049",
+      "articleNumber": 70,
+      "ruleId": "RULE-Q-O03-B-0049",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Hizmete alınmada, görevin gerektirdiği niteliklerden başka hiçbir ayırım gözetilemez.",
+      "sourceQuoteSHA256": "a7507d1f8ca1eb07c9b45334cbdf9c6da872cc7d31118326be5df1a2100afdb2",
+      "sourceLocator": "2709 sayılı Anayasa m.70; UYAP maddeId=1282148; full HTML p[457]",
+      "requiredSourceFragments": [
+        "Hizmete alınmada, görevin gerektirdiği niteliklerden başka hiçbir ayırım gözetilemez."
+      ],
+      "correctOptionId": "Q-O03-B-0049-opt-03",
+      "normalizedCorrectText": "görevin gerektirdiği nitelikler",
+      "distractorOptionIds": [
+        "Q-O03-B-0049-opt-01",
+        "Q-O03-B-0049-opt-02",
+        "Q-O03-B-0049-opt-04",
+        "Q-O03-B-0049-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0050",
+      "learningObjectiveId": "LO-O03-071-B-0050",
+      "articleNumber": 71,
+      "ruleId": "RULE-Q-O03-B-0050",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 71– Kamu hizmetine girenlerin mal bildiriminde bulunmaları ve bu bildirimlerin tekrarlanma süreleri kanunla düzenlenir. Yasama ve yürütme organlarında görev alanlar, bundan istisna edilemez.",
+      "sourceQuoteSHA256": "3699ab090d32a051c42300196e0605dcb1cd29007246884af4727080a5783dd0",
+      "sourceLocator": "2709 sayılı Anayasa m.71; UYAP maddeId=1282158; full HTML p[460]",
+      "requiredSourceFragments": [
+        "Madde 71– Kamu hizmetine girenlerin mal bildiriminde bulunmaları ve bu bildirimlerin tekrarlanma süreleri kanunla düzenlenir. Yasama ve yürütme organlarında görev alanlar, bundan istisna edilemez."
+      ],
+      "correctOptionId": "Q-O03-B-0050-opt-01",
+      "normalizedCorrectText": "yasama ve yürütme organlarında görev alanlar",
+      "distractorOptionIds": [
+        "Q-O03-B-0050-opt-02",
+        "Q-O03-B-0050-opt-03",
+        "Q-O03-B-0050-opt-04",
+        "Q-O03-B-0050-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0051",
+      "learningObjectiveId": "LO-O03-073-B-0051",
+      "articleNumber": 73,
+      "ruleId": "RULE-Q-O03-B-0051",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Vergi, resim, harç ve benzeri mali yükümlülükler kanunla konulur, değiştirilir veya kaldırılır.",
+      "sourceQuoteSHA256": "8a37a3a3f2d235e78007f569de113e1ffca7881180f7b59802eee9c6e45bc89d",
+      "sourceLocator": "2709 sayılı Anayasa m.73; UYAP maddeId=1282174; full HTML p[468]",
+      "requiredSourceFragments": [
+        "Vergi, resim, harç ve benzeri mali yükümlülükler kanunla konulur, değiştirilir veya kaldırılır."
+      ],
+      "correctOptionId": "Q-O03-B-0051-opt-04",
+      "normalizedCorrectText": "kanunla",
+      "distractorOptionIds": [
+        "Q-O03-B-0051-opt-01",
+        "Q-O03-B-0051-opt-02",
+        "Q-O03-B-0051-opt-03",
+        "Q-O03-B-0051-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0052",
+      "learningObjectiveId": "LO-O03-074-B-0052",
+      "articleNumber": 74,
+      "ruleId": "RULE-Q-O03-B-0052",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 7/5/2010-5982/8 md.) Türkiye Büyük Millet Meclisi Başkanlığına bağlı olarak kurulan Kamu Denetçiliği Kurumu idarenin işleyişiyle ilgili şikâyetleri inceler.",
+      "sourceQuoteSHA256": "c47aac965f57f52073cd742b08cf7379e4a07653156e37599ded083bb95e7bc7",
+      "sourceLocator": "2709 sayılı Anayasa m.74; UYAP maddeId=1282181; full HTML p[476]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 7/5/2010-5982/8 md.) Türkiye Büyük Millet Meclisi Başkanlığına bağlı olarak kurulan Kamu Denetçiliği Kurumu idarenin işleyişiyle ilgili şikâyetleri inceler."
+      ],
+      "correctOptionId": "Q-O03-B-0052-opt-02",
+      "normalizedCorrectText": "türkiye büyük millet meclisi başkanlığına",
+      "distractorOptionIds": [
+        "Q-O03-B-0052-opt-01",
+        "Q-O03-B-0052-opt-03",
+        "Q-O03-B-0052-opt-04",
+        "Q-O03-B-0052-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0053",
+      "learningObjectiveId": "LO-O03-080-B-0053",
+      "articleNumber": 80,
+      "ruleId": "RULE-Q-O03-B-0053",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 80 – Türkiye Büyük Millet Meclisi üyeleri, seçildikleri bölgeyi veya kendilerini seçenleri değil, bütün Milleti temsil ederler.",
+      "sourceQuoteSHA256": "5bf6b0278dacdb52b49e2d7a36e7fe62b455f8a5c377c8022db133832a2504bc",
+      "sourceLocator": "2709 sayılı Anayasa m.80; UYAP maddeId=1282259; full HTML p[521]",
+      "requiredSourceFragments": [
+        "Madde 80 – Türkiye Büyük Millet Meclisi üyeleri, seçildikleri bölgeyi veya kendilerini seçenleri değil, bütün Milleti temsil ederler."
+      ],
+      "correctOptionId": "Q-O03-B-0053-opt-05",
+      "normalizedCorrectText": "bütün milleti",
+      "distractorOptionIds": [
+        "Q-O03-B-0053-opt-01",
+        "Q-O03-B-0053-opt-02",
+        "Q-O03-B-0053-opt-03",
+        "Q-O03-B-0053-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0054",
+      "learningObjectiveId": "LO-O03-088-B-0054",
+      "articleNumber": 88,
+      "ruleId": "RULE-Q-O03-B-0054",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 88 – Kanun teklif etmeye (…)[40] milletvekilleri yetkilidir.",
+      "sourceQuoteSHA256": "17ce20853245633b9301bde80b49dcd674513e896fa8a962ba5b131ae14b9094",
+      "sourceLocator": "2709 sayılı Anayasa m.88; UYAP maddeId=1282338; full HTML p[563]",
+      "requiredSourceFragments": [
+        "Madde 88 – Kanun teklif etmeye (…)[40] milletvekilleri yetkilidir."
+      ],
+      "correctOptionId": "Q-O03-B-0054-opt-03",
+      "normalizedCorrectText": "milletvekilleri",
+      "distractorOptionIds": [
+        "Q-O03-B-0054-opt-01",
+        "Q-O03-B-0054-opt-02",
+        "Q-O03-B-0054-opt-04",
+        "Q-O03-B-0054-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0055",
+      "learningObjectiveId": "LO-O03-101-B-0055",
+      "articleNumber": 101,
+      "ruleId": "RULE-Q-O03-B-0055",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Cumhurbaşkanı, kırk yaşını doldurmuş, yükseköğrenim yapmış, milletvekili seçilme yeterliliğine sahip Türk vatandaşları arasından, doğrudan halk tarafından seçilir.",
+      "sourceQuoteSHA256": "05d860bf7cc6090d61ca969cf7bc005cbe61468e8e0e02e301caec1e4f617712",
+      "sourceLocator": "2709 sayılı Anayasa m.101; UYAP maddeId=1282479; full HTML p[639]",
+      "requiredSourceFragments": [
+        "Cumhurbaşkanı, kırk yaşını doldurmuş, yükseköğrenim yapmış, milletvekili seçilme yeterliliğine sahip Türk vatandaşları arasından, doğrudan halk tarafından seçilir."
+      ],
+      "correctOptionId": "Q-O03-B-0055-opt-01",
+      "normalizedCorrectText": "40 yaşını doldurmuş, yükseköğrenimli ve milletvekili seçilme yeterliliğine sahip olmak",
+      "distractorOptionIds": [
+        "Q-O03-B-0055-opt-02",
+        "Q-O03-B-0055-opt-03",
+        "Q-O03-B-0055-opt-04",
+        "Q-O03-B-0055-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0056",
+      "learningObjectiveId": "LO-O03-019-B-0056",
+      "articleNumber": 19,
+      "ruleId": "RULE-Q-O03-B-0056",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Değişik birinci cümle: 3/10/2001-4709/4 md.) Yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırksekiz saat ve toplu olarak işlenen suçlarda en çok dört gün içinde hâkim önüne çıkarılır. Kimse, bu süreler geçtikten sonra hakim kararı olmaksızın hürriyetinden yoksun bırakılamaz. Bu süreler olağanüstü hal (…)[14] ve savaş hallerinde uzatılabilir.",
+      "sourceQuoteSHA256": "925c041ba12783e4f8de5e4249936985418c66ebaad92ab43d6189fafc5c619a",
+      "sourceLocator": "2709 sayılı Anayasa m.19; UYAP maddeId=1281622; full HTML p[114]",
+      "requiredSourceFragments": [
+        "(Değişik birinci cümle: 3/10/2001-4709/4 md.) Yakalanan veya tutuklanan kişi, tutulma yerine en yakın mahkemeye gönderilmesi için gerekli süre hariç en geç kırksekiz saat ve toplu olarak işlenen suçlarda en çok dört gün içinde hâkim önüne çıkarılır. Kimse, bu süreler geçtikten sonra hakim kararı olmaksızın hürriyetinden yoksun bırakılamaz. Bu süreler olağanüstü hal (…)[14] ve savaş hallerinde uzatılabilir."
+      ],
+      "correctOptionId": "Q-O03-B-0056-opt-04",
+      "normalizedCorrectText": "48 saat",
+      "distractorOptionIds": [
+        "Q-O03-B-0056-opt-01",
+        "Q-O03-B-0056-opt-02",
+        "Q-O03-B-0056-opt-03",
+        "Q-O03-B-0056-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0057",
+      "learningObjectiveId": "LO-O03-020-B-0057",
+      "articleNumber": 20,
+      "ruleId": "RULE-Q-O03-B-0057",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Değişik fıkra: 3/10/2001-4709/5 md.) Millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak, usulüne göre verilmiş hâkim kararı olmadıkça; yine bu sebeplere bağlı olarak gecikmesinde sakınca bulunan hallerde de kanunla yetkili kılınmış merciin yazılı emri bulunmadıkça; kimsenin üstü, özel kâğıtları ve eşyası aranamaz ve bunlara el konulamaz. Yetkili merciin kararı yirmidört saat içinde görevli hâkimin onayına sunulur. Hâkim, kararını el koymadan itibaren kırksekiz saat içinde açıklar; aksi halde, el koyma kendiliğinden kalkar.",
+      "sourceQuoteSHA256": "97683a42ea885d9801036bdfe327b3c12497d1fa03d6a2ae16f295a440e39a67",
+      "sourceLocator": "2709 sayılı Anayasa m.20; UYAP maddeId=1281632; full HTML p[124]",
+      "requiredSourceFragments": [
+        "(Değişik fıkra: 3/10/2001-4709/5 md.) Millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak, usulüne göre verilmiş hâkim kararı olmadıkça; yine bu sebeplere bağlı olarak gecikmesinde sakınca bulunan hallerde de kanunla yetkili kılınmış merciin yazılı emri bulunmadıkça; kimsenin üstü, özel kâğıtları ve eşyası aranamaz ve bunlara el konulamaz. Yetkili merciin kararı yirmidört saat içinde görevli hâkimin onayına sunulur. Hâkim, kararını el koymadan itibaren kırksekiz saat içinde açıklar; aksi halde, el koyma kendiliğinden kalkar."
+      ],
+      "correctOptionId": "Q-O03-B-0057-opt-02",
+      "normalizedCorrectText": "24 saat",
+      "distractorOptionIds": [
+        "Q-O03-B-0057-opt-01",
+        "Q-O03-B-0057-opt-03",
+        "Q-O03-B-0057-opt-04",
+        "Q-O03-B-0057-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0058",
+      "learningObjectiveId": "LO-O03-022-B-0058",
+      "articleNumber": 22,
+      "ruleId": "RULE-Q-O03-B-0058",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak usulüne göre verilmiş hâkim kararı olmadıkça; yine bu sebeplere bağlı olarak gecikmesinde sakınca bulunan hallerde de kanunla yetkili kılınmış merciin yazılı emri bulunmadıkça; haberleşme engellenemez ve gizliliğine dokunulamaz. Yetkili merciin kararı yirmidört saat içinde görevli hâkimin onayına sunulur. Hâkim, kararını kırksekiz saat içinde açıklar; aksi halde, karar kendiliğinden kalkar.",
+      "sourceQuoteSHA256": "d31de70379e2eecb810d7af90b5dca39f2a17b67f29ba617acb9993348dd9f75",
+      "sourceLocator": "2709 sayılı Anayasa m.22; UYAP maddeId=1281652; full HTML p[134]",
+      "requiredSourceFragments": [
+        "Millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık ve genel ahlâkın korunması veya başkalarının hak ve özgürlüklerinin korunması sebeplerinden biri veya birkaçına bağlı olarak usulüne göre verilmiş hâkim kararı olmadıkça; yine bu sebeplere bağlı olarak gecikmesinde sakınca bulunan hallerde de kanunla yetkili kılınmış merciin yazılı emri bulunmadıkça; haberleşme engellenemez ve gizliliğine dokunulamaz. Yetkili merciin kararı yirmidört saat içinde görevli hâkimin onayına sunulur. Hâkim, kararını kırksekiz saat içinde açıklar; aksi halde, karar kendiliğinden kalkar."
+      ],
+      "correctOptionId": "Q-O03-B-0058-opt-05",
+      "normalizedCorrectText": "48 saat",
+      "distractorOptionIds": [
+        "Q-O03-B-0058-opt-01",
+        "Q-O03-B-0058-opt-02",
+        "Q-O03-B-0058-opt-03",
+        "Q-O03-B-0058-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-32",
+        "LP-2709-98"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0059",
+      "learningObjectiveId": "LO-O03-078-B-0059",
+      "articleNumber": 78,
+      "ruleId": "RULE-Q-O03-B-0059",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi üyeliklerinde boşalma olması halinde, ara seçime gidilir. Ara seçim, her seçim döneminde bir defa yapılır ve genel seçimden otuz ay geçmedikçe ara seçime gidilemez. Ancak, boşalan üyeliklerin sayısı, üye tamsayısının yüzde beşini bulduğu hallerde, ara seçimlerinin üç ay içinde yapılmasına karar verilir.",
+      "sourceQuoteSHA256": "d2282946561483eb9f1251b98f76046d358354c60f91469f91b4b4b369efea4f",
+      "sourceLocator": "2709 sayılı Anayasa m.78; UYAP maddeId=1282242; full HTML p[506]",
+      "requiredSourceFragments": [
+        "Türkiye Büyük Millet Meclisi üyeliklerinde boşalma olması halinde, ara seçime gidilir. Ara seçim, her seçim döneminde bir defa yapılır ve genel seçimden otuz ay geçmedikçe ara seçime gidilemez. Ancak, boşalan üyeliklerin sayısı, üye tamsayısının yüzde beşini bulduğu hallerde, ara seçimlerinin üç ay içinde yapılmasına karar verilir."
+      ],
+      "correctOptionId": "Q-O03-B-0059-opt-03",
+      "normalizedCorrectText": "üç ay içinde yapılmasına karar verilir",
+      "distractorOptionIds": [
+        "Q-O03-B-0059-opt-01",
+        "Q-O03-B-0059-opt-02",
+        "Q-O03-B-0059-opt-04",
+        "Q-O03-B-0059-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0060",
+      "learningObjectiveId": "LO-O03-079-B-0060",
+      "articleNumber": 79,
+      "ruleId": "RULE-Q-O03-B-0060",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Yüksek Seçim Kurulu yedi asıl ve dört yedek üyeden oluşur. Üyelerin altısı Yargıtay, beşi Danıştay Genel Kurullarınca kendi üyeleri arasından üye tamsayılarının salt çoğunluğunun gizli oyu ile seçilir. Bu üyeler, salt çoğunluk ve gizli oyla aralarından bir başkan ve bir başkanvekili seçerler.",
+      "sourceQuoteSHA256": "0d5e4de389773a5f6da7c65ef79ebb3940787720ad9c14b1c91a40a11e13e650",
+      "sourceLocator": "2709 sayılı Anayasa m.79; UYAP maddeId=1282250; full HTML p[514]",
+      "requiredSourceFragments": [
+        "Yüksek Seçim Kurulu yedi asıl ve dört yedek üyeden oluşur. Üyelerin altısı Yargıtay, beşi Danıştay Genel Kurullarınca kendi üyeleri arasından üye tamsayılarının salt çoğunluğunun gizli oyu ile seçilir. Bu üyeler, salt çoğunluk ve gizli oyla aralarından bir başkan ve bir başkanvekili seçerler."
+      ],
+      "correctOptionId": "Q-O03-B-0060-opt-01",
+      "normalizedCorrectText": "yedi asıl ve dört yedek",
+      "distractorOptionIds": [
+        "Q-O03-B-0060-opt-02",
+        "Q-O03-B-0060-opt-03",
+        "Q-O03-B-0060-opt-04",
+        "Q-O03-B-0060-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0061",
+      "learningObjectiveId": "LO-O03-085-B-0061",
+      "articleNumber": 85,
+      "ruleId": "RULE-Q-O03-B-0061",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84 üncü maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmiş olması hallerinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak yedi gün içerisinde ilgili milletvekili veya bir diğer milletvekili, kararın, Anayasaya, kanuna veya İçtüzüğe aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir. Anayasa Mahkemesi, iptal istemini onbeş gün içerisinde kesin karara bağlar.",
+      "sourceQuoteSHA256": "f44836546868936d5c49772880285dbb33176a0c7a3389c87ff886e4007646ed",
+      "sourceLocator": "2709 sayılı Anayasa m.85; UYAP maddeId=1282310; full HTML p[549]",
+      "requiredSourceFragments": [
+        "Yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine 84 üncü maddenin birinci, üçüncü veya dördüncü fıkralarına göre karar verilmiş olması hallerinde, Meclis Genel Kurulu kararının alındığı tarihten başlayarak yedi gün içerisinde ilgili milletvekili veya bir diğer milletvekili, kararın, Anayasaya, kanuna veya İçtüzüğe aykırılığı iddiasıyla iptali için Anayasa Mahkemesine başvurabilir. Anayasa Mahkemesi, iptal istemini onbeş gün içerisinde kesin karara bağlar."
+      ],
+      "correctOptionId": "Q-O03-B-0061-opt-04",
+      "normalizedCorrectText": "genel kurul karar tarihinden başlayarak yedi gün",
+      "distractorOptionIds": [
+        "Q-O03-B-0061-opt-01",
+        "Q-O03-B-0061-opt-02",
+        "Q-O03-B-0061-opt-03",
+        "Q-O03-B-0061-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-151"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0062",
+      "learningObjectiveId": "LO-O03-086-B-0062",
+      "articleNumber": 86,
+      "ruleId": "RULE-Q-O03-B-0062",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Ödenek ve yollukların en çok üç aylığı önceden ödenebilir.",
+      "sourceQuoteSHA256": "ac0f69d39ebf2d625b884c2d1f6e93ffd3ca49d459b396b9047e0e07102dc403",
+      "sourceLocator": "2709 sayılı Anayasa m.86; UYAP maddeId=1282320; full HTML p[554]",
+      "requiredSourceFragments": [
+        "Ödenek ve yollukların en çok üç aylığı önceden ödenebilir."
+      ],
+      "correctOptionId": "Q-O03-B-0062-opt-02",
+      "normalizedCorrectText": "üç aylığı",
+      "distractorOptionIds": [
+        "Q-O03-B-0062-opt-01",
+        "Q-O03-B-0062-opt-03",
+        "Q-O03-B-0062-opt-04",
+        "Q-O03-B-0062-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0063",
+      "learningObjectiveId": "LO-O03-087-B-0063",
+      "articleNumber": 87,
+      "ruleId": "RULE-Q-O03-B-0063",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türkiye Büyük Millet Meclisinin görev ve yetkileri, kanun koymak, değiştirmek ve kaldırmak; bütçe ve kesinhesap kanun tekliflerini görüşmek ve kabul etmek; para basılmasına ve savaş ilânına karar vermek; milletlerarası andlaşmaların onaylanmasını uygun bulmak, Türkiye Büyük Millet Meclisi üye tamsayısının beşte üç çoğunluğunun kararı ile genel ve özel af ilânına karar vermek ve Anayasanın diğer maddelerinde öngörülen yetkileri kullanmak ve görevleri yerine getirmektir.",
+      "sourceQuoteSHA256": "8db9334426cec30a38caaeed0912e4341063ae546b91c21dda9d5b1ddae8732a",
+      "sourceLocator": "2709 sayılı Anayasa m.87; UYAP maddeId=1282328; full HTML p[560]",
+      "requiredSourceFragments": [
+        "Türkiye Büyük Millet Meclisinin görev ve yetkileri, kanun koymak, değiştirmek ve kaldırmak; bütçe ve kesinhesap kanun tekliflerini görüşmek ve kabul etmek; para basılmasına ve savaş ilânına karar vermek; milletlerarası andlaşmaların onaylanmasını uygun bulmak, Türkiye Büyük Millet Meclisi üye tamsayısının beşte üç çoğunluğunun kararı ile genel ve özel af ilânına karar vermek ve Anayasanın diğer maddelerinde öngörülen yetkileri kullanmak ve görevleri yerine getirmektir."
+      ],
+      "correctOptionId": "Q-O03-B-0063-opt-05",
+      "normalizedCorrectText": "üye tamsayısının beşte üçü",
+      "distractorOptionIds": [
+        "Q-O03-B-0063-opt-01",
+        "Q-O03-B-0063-opt-02",
+        "Q-O03-B-0063-opt-03",
+        "Q-O03-B-0063-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-96"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0064",
+      "learningObjectiveId": "LO-O03-089-B-0064",
+      "articleNumber": 89,
+      "ruleId": "RULE-Q-O03-B-0064",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi, geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla aynen kabul ederse, kanun Cumhurbaşkanınca yayımlanır; Meclis, geri gönderilen kanunda yeni bir değişiklik yaparsa, Cumhurbaşkanı değiştirilen kanunu tekrar Meclise geri gönderebilir. [43]",
+      "sourceQuoteSHA256": "a3d5a0348b783ff3ebd842048ebba84bf247352a56e7b2bcf571d4214b6ba4e2",
+      "sourceLocator": "2709 sayılı Anayasa m.89; UYAP maddeId=1282350; full HTML p[569]",
+      "requiredSourceFragments": [
+        "Türkiye Büyük Millet Meclisi, geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla aynen kabul ederse, kanun Cumhurbaşkanınca yayımlanır; Meclis, geri gönderilen kanunda yeni bir değişiklik yaparsa, Cumhurbaşkanı değiştirilen kanunu tekrar Meclise geri gönderebilir. [43]"
+      ],
+      "correctOptionId": "Q-O03-B-0064-opt-03",
+      "normalizedCorrectText": "üye tamsayısının salt çoğunluğu",
+      "distractorOptionIds": [
+        "Q-O03-B-0064-opt-01",
+        "Q-O03-B-0064-opt-02",
+        "Q-O03-B-0064-opt-04",
+        "Q-O03-B-0064-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0065",
+      "learningObjectiveId": "LO-O03-090-B-0065",
+      "articleNumber": 90,
+      "ruleId": "RULE-Q-O03-B-0065",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Usulüne göre yürürlüğe konulmuş Milletlerarası andlaşmalar kanun hükmündedir. Bunlar hakkında Anayasaya aykırılık iddiası ile Anayasa Mahkemesine başvurulamaz. (Ek cümle: 7/5/2004-5170/7 md.) Usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası andlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda milletlerarası andlaşma hükümleri esas alınır.",
+      "sourceQuoteSHA256": "d1b55bf55a8927ceb2f80e7b8e95b72c969f08445a1716deec1cc97193ef4606",
+      "sourceLocator": "2709 sayılı Anayasa m.90; UYAP maddeId=1282360; full HTML p[577]",
+      "requiredSourceFragments": [
+        "Usulüne göre yürürlüğe konulmuş Milletlerarası andlaşmalar kanun hükmündedir. Bunlar hakkında Anayasaya aykırılık iddiası ile Anayasa Mahkemesine başvurulamaz. (Ek cümle: 7/5/2004-5170/7 md.) Usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası andlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda milletlerarası andlaşma hükümleri esas alınır."
+      ],
+      "correctOptionId": "Q-O03-B-0065-opt-01",
+      "normalizedCorrectText": "milletlerarası andlaşma hükmü",
+      "distractorOptionIds": [
+        "Q-O03-B-0065-opt-02",
+        "Q-O03-B-0065-opt-03",
+        "Q-O03-B-0065-opt-04",
+        "Q-O03-B-0065-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0066",
+      "learningObjectiveId": "LO-O03-093-B-0066",
+      "articleNumber": 93,
+      "ruleId": "RULE-Q-O03-B-0066",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Meclis, bir yasama yılında en çok üç ay tatil yapabilir; ara verme veya tatil sırasında (…)[44] Cumhurbaşkanınca toplantıya çağrılır.",
+      "sourceQuoteSHA256": "2cd2bedaa968b7d08aa7e99fe633477d54aaa5f6a95d8bc12609ea36f2e9777a",
+      "sourceLocator": "2709 sayılı Anayasa m.93; UYAP maddeId=1282394; full HTML p[590]",
+      "requiredSourceFragments": [
+        "Meclis, bir yasama yılında en çok üç ay tatil yapabilir; ara verme veya tatil sırasında (…)[44] Cumhurbaşkanınca toplantıya çağrılır."
+      ],
+      "correctOptionId": "Q-O03-B-0066-opt-04",
+      "normalizedCorrectText": "üç ay",
+      "distractorOptionIds": [
+        "Q-O03-B-0066-opt-01",
+        "Q-O03-B-0066-opt-02",
+        "Q-O03-B-0066-opt-03",
+        "Q-O03-B-0066-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0067",
+      "learningObjectiveId": "LO-O03-094-B-0067",
+      "articleNumber": 94,
+      "ruleId": "RULE-Q-O03-B-0067",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi Başkan adayları, Meclis üyeleri içinden, Meclisin toplandığı günden itibaren beş gün içinde, Başkanlık Divanına bildirilir, Başkan seçimi gizli oyla yapılır. İlk iki oylamada üye tamsayısının üçte iki ve üçüncü oylamada üye tamsayısının salt çoğunluğu aranır. Üçüncü oylamada salt çoğunluk sağlanamazsa, bu oylamada en çok oy alan iki aday için dördüncü oylama yapılır; dördüncü oylamada en fazla oy alan üye, Başkan seçilmiş olur. Başkan seçimi, aday gösterme süresinin bitiminden itibaren, beş gün içinde tamamlanır. [45]",
+      "sourceQuoteSHA256": "74946ef5332b671948d066d2dc1c6617406a5afd20d67458cf7135467edf6a38",
+      "sourceLocator": "2709 sayılı Anayasa m.94; UYAP maddeId=1282405; full HTML p[598]",
+      "requiredSourceFragments": [
+        "Türkiye Büyük Millet Meclisi Başkan adayları, Meclis üyeleri içinden, Meclisin toplandığı günden itibaren beş gün içinde, Başkanlık Divanına bildirilir, Başkan seçimi gizli oyla yapılır. İlk iki oylamada üye tamsayısının üçte iki ve üçüncü oylamada üye tamsayısının salt çoğunluğu aranır. Üçüncü oylamada salt çoğunluk sağlanamazsa, bu oylamada en çok oy alan iki aday için dördüncü oylama yapılır; dördüncü oylamada en fazla oy alan üye, Başkan seçilmiş olur. Başkan seçimi, aday gösterme süresinin bitiminden itibaren, beş gün içinde tamamlanır. [45]"
+      ],
+      "correctOptionId": "Q-O03-B-0067-opt-02",
+      "normalizedCorrectText": "301",
+      "distractorOptionIds": [
+        "Q-O03-B-0067-opt-01",
+        "Q-O03-B-0067-opt-03",
+        "Q-O03-B-0067-opt-04",
+        "Q-O03-B-0067-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-96",
+        "LP-2709-87"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0068",
+      "learningObjectiveId": "LO-O03-095-B-0068",
+      "articleNumber": 95,
+      "ruleId": "RULE-Q-O03-B-0068",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "İçtüzük hükümleri, siyasi parti gruplarının, Meclisin bütün faaliyetlerine üye sayısı oranında katılmalarını sağlayacak yolda düzenlenir. Siyasi parti grupları, en az yirmi üyeden meydana gelir.",
+      "sourceQuoteSHA256": "f40625d3871f6dcdeef0afcee3574513ac34c306fdee7ef0b6f8ec3325d320c4",
+      "sourceLocator": "2709 sayılı Anayasa m.95; UYAP maddeId=1282415; full HTML p[604]",
+      "requiredSourceFragments": [
+        "İçtüzük hükümleri, siyasi parti gruplarının, Meclisin bütün faaliyetlerine üye sayısı oranında katılmalarını sağlayacak yolda düzenlenir. Siyasi parti grupları, en az yirmi üyeden meydana gelir."
+      ],
+      "correctOptionId": "Q-O03-B-0068-opt-05",
+      "normalizedCorrectText": "20",
+      "distractorOptionIds": [
+        "Q-O03-B-0068-opt-01",
+        "Q-O03-B-0068-opt-02",
+        "Q-O03-B-0068-opt-03",
+        "Q-O03-B-0068-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0069",
+      "learningObjectiveId": "LO-O03-096-B-0069",
+      "articleNumber": 96,
+      "ruleId": "RULE-Q-O03-B-0069",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 96 – (Değişik birinci fıkra: 31/5/2007-5678/3 md.) Türkiye Büyük Millet Meclisi, yapacağı seçimler dahil bütün işlerinde üye tamsayısının en az üçte biri ile toplanır. Türkiye Büyük Millet Meclisi, Anayasada başkaca bir hüküm yoksa toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından az olamaz.",
+      "sourceQuoteSHA256": "9f94f794bb1872b556214fc6d4d490f99b1f8f9b5dfa1721bcd50c30467d7399",
+      "sourceLocator": "2709 sayılı Anayasa m.96; UYAP maddeId=1282425; full HTML p[608]",
+      "requiredSourceFragments": [
+        "Madde 96 – (Değişik birinci fıkra: 31/5/2007-5678/3 md.) Türkiye Büyük Millet Meclisi, yapacağı seçimler dahil bütün işlerinde üye tamsayısının en az üçte biri ile toplanır. Türkiye Büyük Millet Meclisi, Anayasada başkaca bir hüküm yoksa toplantıya katılanların salt çoğunluğu ile karar verir; ancak karar yeter sayısı hiçbir şekilde üye tamsayısının dörtte birinin bir fazlasından az olamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0069-opt-03",
+      "normalizedCorrectText": "151",
+      "distractorOptionIds": [
+        "Q-O03-B-0069-opt-01",
+        "Q-O03-B-0069-opt-02",
+        "Q-O03-B-0069-opt-04",
+        "Q-O03-B-0069-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-96"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0070",
+      "learningObjectiveId": "LO-O03-098-B-0070",
+      "articleNumber": 98,
+      "ruleId": "RULE-Q-O03-B-0070",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Yazılı soru, yazılı olarak en geç onbeş gün içinde cevaplanmak üzere milletvekillerinin, Cumhurbaşkanı yardımcıları ve bakanlara yazılı olarak soru sormalarından ibarettir.",
+      "sourceQuoteSHA256": "cabe112b0a16b72b87aa8dd4f5bcbd9c84277bb03fbec55c30f9ead7a3fd50c1",
+      "sourceLocator": "2709 sayılı Anayasa m.98; UYAP maddeId=1282442; full HTML p[624]",
+      "requiredSourceFragments": [
+        "Yazılı soru, yazılı olarak en geç onbeş gün içinde cevaplanmak üzere milletvekillerinin, Cumhurbaşkanı yardımcıları ve bakanlara yazılı olarak soru sormalarından ibarettir."
+      ],
+      "correctOptionId": "Q-O03-B-0070-opt-01",
+      "normalizedCorrectText": "15 gün",
+      "distractorOptionIds": [
+        "Q-O03-B-0070-opt-02",
+        "Q-O03-B-0070-opt-03",
+        "Q-O03-B-0070-opt-04",
+        "Q-O03-B-0070-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0071",
+      "learningObjectiveId": "LO-O03-105-B-0071",
+      "articleNumber": 105,
+      "ruleId": "RULE-Q-O03-B-0071",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Rapor Başkanlığa verildiği tarihten itibaren on gün içinde dağıtılır, dağıtımından itibaren on gün içinde Genel Kurulda görüşülür. Türkiye Büyük Millet Meclisi, üye tamsayısının üçte ikisinin gizli oyuyla Yüce Divana sevk kararı alabilir. Yüce Divan yargılaması üç ay içinde tamamlanır, bu sürede tamamlanamazsa bir defaya mahsus olmak üzere üç aylık ek süre verilir, yargılama bu sürede kesin olarak tamamlanır.",
+      "sourceQuoteSHA256": "d949bcd2c66b9b9a8f228c0a323326f6f8bbc75041ace465f2851806fe329a6a",
+      "sourceLocator": "2709 sayılı Anayasa m.105; UYAP maddeId=1282517; full HTML p[682]",
+      "requiredSourceFragments": [
+        "Rapor Başkanlığa verildiği tarihten itibaren on gün içinde dağıtılır, dağıtımından itibaren on gün içinde Genel Kurulda görüşülür. Türkiye Büyük Millet Meclisi, üye tamsayısının üçte ikisinin gizli oyuyla Yüce Divana sevk kararı alabilir. Yüce Divan yargılaması üç ay içinde tamamlanır, bu sürede tamamlanamazsa bir defaya mahsus olmak üzere üç aylık ek süre verilir, yargılama bu sürede kesin olarak tamamlanır."
+      ],
+      "correctOptionId": "Q-O03-B-0071-opt-04",
+      "normalizedCorrectText": "üye tamsayısının üçte ikisinin gizli oyu",
+      "distractorOptionIds": [
+        "Q-O03-B-0071-opt-01",
+        "Q-O03-B-0071-opt-02",
+        "Q-O03-B-0071-opt-03",
+        "Q-O03-B-0071-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-96",
+        "LP-2709-150"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0072",
+      "learningObjectiveId": "LO-O03-106-B-0072",
+      "articleNumber": 106,
+      "ruleId": "RULE-Q-O03-B-0072",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Cumhurbaşkanlığı makamının herhangi bir nedenle boşalması halinde, kırkbeş gün içinde Cumhurbaşkanı seçimi yapılır. Yenisi seçilene kadar Cumhurbaşkanı yardımcısı Cumhurbaşkanlığına vekâlet eder ve Cumhurbaşkanına ait yetkileri kullanır. Genel seçime bir yıl veya daha az kalmışsa Türkiye Büyük Millet Meclisi seçimi de Cumhurbaşkanı seçimi ile birlikte yenilenir. Genel seçime bir yıldan fazla kalmışsa seçilen Cumhurbaşkanı Türkiye Büyük Millet Meclisi seçim tarihine kadar görevine devam eder. Kalan süreyi tamamlayan Cumhurbaşkanı açısından bu süre dönemden sayılmaz. Türkiye Büyük Millet Meclisi genel seçimlerinin yapılacağı tarihte her iki seçim birlikte yapılır.",
+      "sourceQuoteSHA256": "5f6936d1b6ed8939abb0992172238b674a19ab21cbea7815ef6a009c596e01e6",
+      "sourceLocator": "2709 sayılı Anayasa m.106; UYAP maddeId=1282528; full HTML p[690]",
+      "requiredSourceFragments": [
+        "Cumhurbaşkanlığı makamının herhangi bir nedenle boşalması halinde, kırkbeş gün içinde Cumhurbaşkanı seçimi yapılır. Yenisi seçilene kadar Cumhurbaşkanı yardımcısı Cumhurbaşkanlığına vekâlet eder ve Cumhurbaşkanına ait yetkileri kullanır. Genel seçime bir yıl veya daha az kalmışsa Türkiye Büyük Millet Meclisi seçimi de Cumhurbaşkanı seçimi ile birlikte yenilenir. Genel seçime bir yıldan fazla kalmışsa seçilen Cumhurbaşkanı Türkiye Büyük Millet Meclisi seçim tarihine kadar görevine devam eder. Kalan süreyi tamamlayan Cumhurbaşkanı açısından bu süre dönemden sayılmaz. Türkiye Büyük Millet Meclisi genel seçimlerinin yapılacağı tarihte her iki seçim birlikte yapılır."
+      ],
+      "correctOptionId": "Q-O03-B-0072-opt-02",
+      "normalizedCorrectText": "45 gün içinde",
+      "distractorOptionIds": [
+        "Q-O03-B-0072-opt-01",
+        "Q-O03-B-0072-opt-03",
+        "Q-O03-B-0072-opt-04",
+        "Q-O03-B-0072-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0073",
+      "learningObjectiveId": "LO-O03-116-B-0073",
+      "articleNumber": 116,
+      "ruleId": "RULE-Q-O03-B-0073",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türkiye Büyük Millet Meclisi, üye tamsayısının beşte üç çoğunluğuyla seçimlerin yenilenmesine karar verebilir. Bu halde Türkiye Büyük Millet Meclisi genel seçimi ile Cumhurbaşkanlığı seçimi birlikte yapılır.",
+      "sourceQuoteSHA256": "798da22988994e0515216fdd68337ef63a0104470bc6068f7497aa683289c4a7",
+      "sourceLocator": "2709 sayılı Anayasa m.116; UYAP maddeId=1282626; full HTML p[735]",
+      "requiredSourceFragments": [
+        "Türkiye Büyük Millet Meclisi, üye tamsayısının beşte üç çoğunluğuyla seçimlerin yenilenmesine karar verebilir. Bu halde Türkiye Büyük Millet Meclisi genel seçimi ile Cumhurbaşkanlığı seçimi birlikte yapılır."
+      ],
+      "correctOptionId": "Q-O03-B-0073-opt-05",
+      "normalizedCorrectText": "üye tamsayısının beşte üçü",
+      "distractorOptionIds": [
+        "Q-O03-B-0073-opt-01",
+        "Q-O03-B-0073-opt-02",
+        "Q-O03-B-0073-opt-03",
+        "Q-O03-B-0073-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0074",
+      "learningObjectiveId": "LO-O03-119-B-0074",
+      "articleNumber": 119,
+      "ruleId": "RULE-Q-O03-B-0074",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Cumhurbaşkanı; savaş, savaşı gerektirecek bir durumun başgöstermesi, seferberlik, ayaklanma, vatan veya Cumhuriyete karşı kuvvetli ve eylemli bir kalkışma, ülkenin ve milletin bölünmezliğini içten veya dıştan tehlikeye düşüren şiddet hareketlerinin yaygınlaşması, anayasal düzeni veya temel hak ve hürriyetleri ortadan kaldırmaya yönelik yaygın şiddet hareketlerinin ortaya çıkması, şiddet olayları nedeniyle kamu düzeninin ciddî şekilde bozulması, tabiî afet veya tehlikeli salgın hastalık ya da ağır ekonomik bunalımın ortaya çıkması hallerinde yurdun tamamında veya bir bölgesinde, süresi altı ayı geçmemek üzere olağanüstü hal ilan edebilir.",
+      "sourceQuoteSHA256": "986890a654b92fd3d67cf83bd9469401d1c91dda2bdce6942c0d7bda2da01907",
+      "sourceLocator": "2709 sayılı Anayasa m.119; UYAP maddeId=1282651; full HTML p[762]",
+      "requiredSourceFragments": [
+        "Cumhurbaşkanı; savaş, savaşı gerektirecek bir durumun başgöstermesi, seferberlik, ayaklanma, vatan veya Cumhuriyete karşı kuvvetli ve eylemli bir kalkışma, ülkenin ve milletin bölünmezliğini içten veya dıştan tehlikeye düşüren şiddet hareketlerinin yaygınlaşması, anayasal düzeni veya temel hak ve hürriyetleri ortadan kaldırmaya yönelik yaygın şiddet hareketlerinin ortaya çıkması, şiddet olayları nedeniyle kamu düzeninin ciddî şekilde bozulması, tabiî afet veya tehlikeli salgın hastalık ya da ağır ekonomik bunalımın ortaya çıkması hallerinde yurdun tamamında veya bir bölgesinde, süresi altı ayı geçmemek üzere olağanüstü hal ilan edebilir."
+      ],
+      "correctOptionId": "Q-O03-B-0074-opt-03",
+      "normalizedCorrectText": "altı ay",
+      "distractorOptionIds": [
+        "Q-O03-B-0074-opt-01",
+        "Q-O03-B-0074-opt-02",
+        "Q-O03-B-0074-opt-04",
+        "Q-O03-B-0074-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0075",
+      "learningObjectiveId": "LO-O03-123-B-0075",
+      "articleNumber": 123,
+      "ruleId": "RULE-Q-O03-B-0075",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Kamu tüzelkişiliği, kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulur. [66]",
+      "sourceQuoteSHA256": "376726638fdef2dcc99c3809bffe938e6850ad5cff025a0a13c01ffa97623f99",
+      "sourceLocator": "2709 sayılı Anayasa m.123; UYAP maddeId=1282689; full HTML p[785]",
+      "requiredSourceFragments": [
+        "Kamu tüzelkişiliği, kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulur. [66]"
+      ],
+      "correctOptionId": "Q-O03-B-0075-opt-01",
+      "normalizedCorrectText": "kanun veya cumhurbaşkanlığı kararnamesiyle",
+      "distractorOptionIds": [
+        "Q-O03-B-0075-opt-02",
+        "Q-O03-B-0075-opt-03",
+        "Q-O03-B-0075-opt-04",
+        "Q-O03-B-0075-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0076",
+      "learningObjectiveId": "LO-O03-125-B-0076",
+      "articleNumber": 125,
+      "ruleId": "RULE-Q-O03-B-0076",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "İdari işlemin uygulanması halinde telafisi güç veya imkansız zararların doğması ve idari işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda gerekçe gösterilerek yürütmenin durdurulmasına karar verilebilir.",
+      "sourceQuoteSHA256": "5fbc4aac17edb4a4017135531b07b803b343bcbb6af238bc61229986f2f221cf",
+      "sourceLocator": "2709 sayılı Anayasa m.125; UYAP maddeId=1282710; full HTML p[796]",
+      "requiredSourceFragments": [
+        "İdari işlemin uygulanması halinde telafisi güç veya imkansız zararların doğması ve idari işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda gerekçe gösterilerek yürütmenin durdurulmasına karar verilebilir."
+      ],
+      "correctOptionId": "Q-O03-B-0076-opt-04",
+      "normalizedCorrectText": "telafisi güç veya imkânsız zarar ve açık hukuka aykırılık",
+      "distractorOptionIds": [
+        "Q-O03-B-0076-opt-01",
+        "Q-O03-B-0076-opt-02",
+        "Q-O03-B-0076-opt-03",
+        "Q-O03-B-0076-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0077",
+      "learningObjectiveId": "LO-O03-127-B-0077",
+      "articleNumber": 127,
+      "ruleId": "RULE-Q-O03-B-0077",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Mahalli idarelerin seçilmiş organlarının, organlık sıfatını kazanmalarına ilişkin itirazların çözümü ve kaybetmeleri, konusundaki denetim yargı yolu ile olur. Ancak, görevleri ile ilgili bir suç sebebi ile hakkında soruşturma veya kovuşturma açılan mahalli idare organları veya bu organların üyelerini, İçişleri Bakanı, geçici bir tedbir olarak, kesin hükme kadar uzaklaştırabilir.",
+      "sourceQuoteSHA256": "35b7e700df92fb447ac6da7d849681c8b1e147f1be41f34aa2f0962878befff3",
+      "sourceLocator": "2709 sayılı Anayasa m.127; UYAP maddeId=1282728; full HTML p[810]",
+      "requiredSourceFragments": [
+        "Mahalli idarelerin seçilmiş organlarının, organlık sıfatını kazanmalarına ilişkin itirazların çözümü ve kaybetmeleri, konusundaki denetim yargı yolu ile olur. Ancak, görevleri ile ilgili bir suç sebebi ile hakkında soruşturma veya kovuşturma açılan mahalli idare organları veya bu organların üyelerini, İçişleri Bakanı, geçici bir tedbir olarak, kesin hükme kadar uzaklaştırabilir."
+      ],
+      "correctOptionId": "Q-O03-B-0077-opt-02",
+      "normalizedCorrectText": "içişleri bakanı",
+      "distractorOptionIds": [
+        "Q-O03-B-0077-opt-01",
+        "Q-O03-B-0077-opt-03",
+        "Q-O03-B-0077-opt-04",
+        "Q-O03-B-0077-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0078",
+      "learningObjectiveId": "LO-O03-147-B-0078",
+      "articleNumber": 147,
+      "ruleId": "RULE-Q-O03-B-0078",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 147 – (Değişik birinci fıkra: 7/5/2010-5982/17 md.) Anayasa Mahkemesi üyeleri oniki yıl için seçilirler. Bir kimse iki defa Anayasa Mahkemesi üyesi seçilemez. Anayasa Mahkemesi üyeleri altmışbeş yaşını doldurunca emekliye ayrılırlar. Zorunlu emeklilik yaşından önce görev süresi dolan üyelerin başka bir görevde çalışmaları ve özlük işleri kanunla düzenlenir.",
+      "sourceQuoteSHA256": "811d7697e10dafe99d325b0bb1e19356fdb928b9eb893e4970ddf3a6faef6d13",
+      "sourceLocator": "2709 sayılı Anayasa m.147; UYAP maddeId=1282915; full HTML p[937]",
+      "requiredSourceFragments": [
+        "Madde 147 – (Değişik birinci fıkra: 7/5/2010-5982/17 md.) Anayasa Mahkemesi üyeleri oniki yıl için seçilirler. Bir kimse iki defa Anayasa Mahkemesi üyesi seçilemez. Anayasa Mahkemesi üyeleri altmışbeş yaşını doldurunca emekliye ayrılırlar. Zorunlu emeklilik yaşından önce görev süresi dolan üyelerin başka bir görevde çalışmaları ve özlük işleri kanunla düzenlenir."
+      ],
+      "correctOptionId": "Q-O03-B-0078-opt-05",
+      "normalizedCorrectText": "on iki yıl; ikinci kez seçilemez",
+      "distractorOptionIds": [
+        "Q-O03-B-0078-opt-01",
+        "Q-O03-B-0078-opt-02",
+        "Q-O03-B-0078-opt-03",
+        "Q-O03-B-0078-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0079",
+      "learningObjectiveId": "LO-O03-151-B-0079",
+      "articleNumber": 151,
+      "ruleId": "RULE-Q-O03-B-0079",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 151 – Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya içtüzüğün Resmî Gazetede yayımlanmasından başlayarak altmış gün sonra düşer. [92]",
+      "sourceQuoteSHA256": "89d3eb8bdb113a354c5cbd6f4e315773d2e9cfe2d81e297b90880f7e1897ff50",
+      "sourceLocator": "2709 sayılı Anayasa m.151; UYAP maddeId=1282958; full HTML p[965]",
+      "requiredSourceFragments": [
+        "Madde 151 – Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, iptali istenen kanun, Cumhurbaşkanlığı kararnamesi veya içtüzüğün Resmî Gazetede yayımlanmasından başlayarak altmış gün sonra düşer. [92]"
+      ],
+      "correctOptionId": "Q-O03-B-0079-opt-03",
+      "normalizedCorrectText": "resmî gazete yayımından başlayarak 60 gün",
+      "distractorOptionIds": [
+        "Q-O03-B-0079-opt-01",
+        "Q-O03-B-0079-opt-02",
+        "Q-O03-B-0079-opt-04",
+        "Q-O03-B-0079-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-85",
+        "LP-2709-89",
+        "LP-2709-152",
+        "LP-2709-153"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0080",
+      "learningObjectiveId": "LO-O03-160-B-0080",
+      "articleNumber": 160,
+      "ruleId": "RULE-Q-O03-B-0080",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 160 – Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetlemek ve sorumluların hesap ve işlemlerini kesin hükme bağlamak ve kanunlarla verilen inceleme, denetleme ve hükme bağlama işlerini yapmakla görevlidir. Sayıştayın kesin hükümleri hakkında ilgililer yazılı bildirim tarihinden itibaren onbeş gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilirler. Bu kararlar dolayısıyla idari yargı yoluna başvurulamaz. [107]",
+      "sourceQuoteSHA256": "e48949bce8e1122c556ba92b69b583b73ace1e2023fb3a480a65d6771dec433f",
+      "sourceLocator": "2709 sayılı Anayasa m.160; UYAP maddeId=1283044; full HTML p[1022]",
+      "requiredSourceFragments": [
+        "Madde 160 – Sayıştay, merkezî yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetlemek ve sorumluların hesap ve işlemlerini kesin hükme bağlamak ve kanunlarla verilen inceleme, denetleme ve hükme bağlama işlerini yapmakla görevlidir. Sayıştayın kesin hükümleri hakkında ilgililer yazılı bildirim tarihinden itibaren onbeş gün içinde bir kereye mahsus olmak üzere karar düzeltilmesi isteminde bulunabilirler. Bu kararlar dolayısıyla idari yargı yoluna başvurulamaz. [107]"
+      ],
+      "correctOptionId": "Q-O03-B-0080-opt-01",
+      "normalizedCorrectText": "yazılı bildirimden itibaren 15 gün",
+      "distractorOptionIds": [
+        "Q-O03-B-0080-opt-02",
+        "Q-O03-B-0080-opt-03",
+        "Q-O03-B-0080-opt-04",
+        "Q-O03-B-0080-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [
+        "LP-2709-151",
+        "LP-2709-152",
+        "LP-2709-153"
+      ],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0081",
+      "learningObjectiveId": "LO-O03-010-B-0081",
+      "articleNumber": 10,
+      "ruleId": "RULE-Q-O03-B-0081",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 7/5/2004-5170/1 md.) Kadınlar ve erkekler eşit haklara sahiptir. Devlet, bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür. (Ek cümle: 7/5/2010-5982/1 md.) Bu maksatla alınacak tedbirler eşitlik ilkesine aykırı olarak yorumlanamaz.",
+      "sourceQuoteSHA256": "caf4cbe647c669c690e063e7f20ee3efc26a4e7834c67c99558de222c33b69bc",
+      "sourceLocator": "2709 sayılı Anayasa m.10; UYAP maddeId=1281499; full HTML p[59]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 7/5/2004-5170/1 md.) Kadınlar ve erkekler eşit haklara sahiptir. Devlet, bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür. (Ek cümle: 7/5/2010-5982/1 md.) Bu maksatla alınacak tedbirler eşitlik ilkesine aykırı olarak yorumlanamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0081-opt-04",
+      "normalizedCorrectText": "bu amaçla alınması nedeniyle eşitlik ilkesine aykırı yorumlanamaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0081-opt-01",
+        "Q-O03-B-0081-opt-02",
+        "Q-O03-B-0081-opt-03",
+        "Q-O03-B-0081-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0082",
+      "learningObjectiveId": "LO-O03-015-B-0082",
+      "articleNumber": 15,
+      "ruleId": "RULE-Q-O03-B-0082",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Birinci fıkrada belirlenen durumlarda da, savaş hukukuna uygun fiiller sonucu meydana gelen ölümler (…)[11] dışında, kişinin yaşama hakkına, maddi ve manevi varlığının bütünlüğüne dokunulamaz; kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz ve bunlardan dolayı suçlanamaz; suç ve cezalar geçmişe yürütülemez; suçluluğu mahkeme kararı ile saptanıncaya kadar kimse suçlu sayılamaz.",
+      "sourceQuoteSHA256": "349277853077778d1b96955cd3db94e4e691ebef762ef9a8d86af1ed25476d72",
+      "sourceLocator": "2709 sayılı Anayasa m.15; UYAP maddeId=1281574; full HTML p[90]",
+      "requiredSourceFragments": [
+        "Birinci fıkrada belirlenen durumlarda da, savaş hukukuna uygun fiiller sonucu meydana gelen ölümler (…)[11] dışında, kişinin yaşama hakkına, maddi ve manevi varlığının bütünlüğüne dokunulamaz; kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz ve bunlardan dolayı suçlanamaz; suç ve cezalar geçmişe yürütülemez; suçluluğu mahkeme kararı ile saptanıncaya kadar kimse suçlu sayılamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0082-opt-02",
+      "normalizedCorrectText": "suç ve cezaların geçmişe yürütülmesi yasağı olağanüstü halde de korunur",
+      "distractorOptionIds": [
+        "Q-O03-B-0082-opt-01",
+        "Q-O03-B-0082-opt-03",
+        "Q-O03-B-0082-opt-04",
+        "Q-O03-B-0082-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0083",
+      "learningObjectiveId": "LO-O03-017-B-0083",
+      "articleNumber": 17,
+      "ruleId": "RULE-Q-O03-B-0083",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Tıbbi zorunluluklar ve kanunda yazılı haller dışında, kişinin vücut bütünlüğüne dokunulamaz; rızası olmadan bilimsel ve tıbbi deneylere tabi tutulamaz.",
+      "sourceQuoteSHA256": "69cf3f255c4463f68c5f2cfe9344a97d15f3c521ebcac3c54c01e35084625b1b",
+      "sourceLocator": "2709 sayılı Anayasa m.17; UYAP maddeId=1281602; full HTML p[100]",
+      "requiredSourceFragments": [
+        "Tıbbi zorunluluklar ve kanunda yazılı haller dışında, kişinin vücut bütünlüğüne dokunulamaz; rızası olmadan bilimsel ve tıbbi deneylere tabi tutulamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0083-opt-05",
+      "normalizedCorrectText": "rıza olmadan bilimsel ve tıbbi deneye tabi tutulamaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0083-opt-01",
+        "Q-O03-B-0083-opt-02",
+        "Q-O03-B-0083-opt-03",
+        "Q-O03-B-0083-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0084",
+      "learningObjectiveId": "LO-O03-018-B-0084",
+      "articleNumber": 18,
+      "ruleId": "RULE-Q-O03-B-0084",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Şekil ve şartları kanunla düzenlenmek üzere hükümlülük veya tutukluluk süreleri içindeki çalıştırmalar; olağanüstü hallerde vatandaşlardan istenecek hizmetler; ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları, zorla çalıştırma sayılmaz.",
+      "sourceQuoteSHA256": "f6189aa22e774de28f8f649d210af977d5fb951e38cfebdf82d81d48198666c0",
+      "sourceLocator": "2709 sayılı Anayasa m.18; UYAP maddeId=1281611; full HTML p[106]",
+      "requiredSourceFragments": [
+        "Şekil ve şartları kanunla düzenlenmek üzere hükümlülük veya tutukluluk süreleri içindeki çalıştırmalar; olağanüstü hallerde vatandaşlardan istenecek hizmetler; ülke ihtiyaçlarının zorunlu kıldığı alanlarda öngörülen vatandaşlık ödevi niteliğindeki beden ve fikir çalışmaları, zorla çalıştırma sayılmaz."
+      ],
+      "correctOptionId": "Q-O03-B-0084-opt-03",
+      "normalizedCorrectText": "belirtilen anayasal koşullarda zorla çalıştırma sayılmaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0084-opt-01",
+        "Q-O03-B-0084-opt-02",
+        "Q-O03-B-0084-opt-04",
+        "Q-O03-B-0084-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0085",
+      "learningObjectiveId": "LO-O03-023-B-0085",
+      "articleNumber": 23,
+      "ruleId": "RULE-Q-O03-B-0085",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Değişik fıkra: 7/5/2010-5982/3 md.) Vatandaşın yurt dışına çıkma hürriyeti, ancak suç soruşturması veya kovuşturması sebebiyle hâkim kararına bağlı olarak sınırlanabilir.",
+      "sourceQuoteSHA256": "dc68c64a4a41ae52fc64f0e151782c67c63fb0b674664af9a2e4751002fab2ac",
+      "sourceLocator": "2709 sayılı Anayasa m.23; UYAP maddeId=1281662; full HTML p[142]",
+      "requiredSourceFragments": [
+        "(Değişik fıkra: 7/5/2010-5982/3 md.) Vatandaşın yurt dışına çıkma hürriyeti, ancak suç soruşturması veya kovuşturması sebebiyle hâkim kararına bağlı olarak sınırlanabilir."
+      ],
+      "correctOptionId": "Q-O03-B-0085-opt-01",
+      "normalizedCorrectText": "sınırlama ancak suç soruşturması veya kovuşturması sebebiyle hâkim kararına bağlı olabilir",
+      "distractorOptionIds": [
+        "Q-O03-B-0085-opt-02",
+        "Q-O03-B-0085-opt-03",
+        "Q-O03-B-0085-opt-04",
+        "Q-O03-B-0085-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0086",
+      "learningObjectiveId": "LO-O03-024-B-0086",
+      "articleNumber": 24,
+      "ruleId": "RULE-Q-O03-B-0086",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Din ve ahlak eğitim ve öğretimi Devletin gözetim ve denetimi altında yapılır. Din kültürü ve ahlak öğretimi ilk ve ortaöğretim kurumlarında okutulan zorunlu dersler arasında yer alır. Bunun dışındaki din eğitim ve öğretimi ancak, kişilerin kendi isteğine, küçüklerin de kanuni temsilcisinin talebine bağlıdır.",
+      "sourceQuoteSHA256": "0808798f585105c96fc001ff34b006bde5fabfb1271058592eb2019a0fbbd950",
+      "sourceLocator": "2709 sayılı Anayasa m.24; UYAP maddeId=1281670; full HTML p[149]",
+      "requiredSourceFragments": [
+        "Din ve ahlak eğitim ve öğretimi Devletin gözetim ve denetimi altında yapılır. Din kültürü ve ahlak öğretimi ilk ve ortaöğretim kurumlarında okutulan zorunlu dersler arasında yer alır. Bunun dışındaki din eğitim ve öğretimi ancak, kişilerin kendi isteğine, küçüklerin de kanuni temsilcisinin talebine bağlıdır."
+      ],
+      "correctOptionId": "Q-O03-B-0086-opt-04",
+      "normalizedCorrectText": "bu tür eğitim küçüklerde kanuni temsilcinin talebine bağlıdır",
+      "distractorOptionIds": [
+        "Q-O03-B-0086-opt-01",
+        "Q-O03-B-0086-opt-02",
+        "Q-O03-B-0086-opt-03",
+        "Q-O03-B-0086-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0087",
+      "learningObjectiveId": "LO-O03-028-B-0087",
+      "articleNumber": 28,
+      "ruleId": "RULE-Q-O03-B-0087",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 28 – Basın hürdür, sansür edilemez. Basımevi kurmak izin alma ve mali teminat yatırma şartına bağlanamaz.",
+      "sourceQuoteSHA256": "f645eaf1d287a700c7078383ddb36c9f9607450893d4f65a14bf36df1eea6023",
+      "sourceLocator": "2709 sayılı Anayasa m.28; UYAP maddeId=1281707; full HTML p[171]",
+      "requiredSourceFragments": [
+        "Madde 28 – Basın hürdür, sansür edilemez. Basımevi kurmak izin alma ve mali teminat yatırma şartına bağlanamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0087-opt-02",
+      "normalizedCorrectText": "basımevi kurmak bu iki şarta bağlanamaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0087-opt-01",
+        "Q-O03-B-0087-opt-03",
+        "Q-O03-B-0087-opt-04",
+        "Q-O03-B-0087-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0088",
+      "learningObjectiveId": "LO-O03-038-B-0088",
+      "articleNumber": 38,
+      "ruleId": "RULE-Q-O03-B-0088",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Ek fıkra: 3/10/2001-4709/15 md.) Hiç kimse, yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz.",
+      "sourceQuoteSHA256": "b2a38f1adf32cb02a9c223f4a6f9e5d5024ddedf3f4150a0e16ff19c23d61819",
+      "sourceLocator": "2709 sayılı Anayasa m.38; UYAP maddeId=1281803; full HTML p[240]",
+      "requiredSourceFragments": [
+        "(Ek fıkra: 3/10/2001-4709/15 md.) Hiç kimse, yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0088-opt-05",
+      "normalizedCorrectText": "sırf bu yerine getirememe nedeniyle özgürlüğünden alıkonulamaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0088-opt-01",
+        "Q-O03-B-0088-opt-02",
+        "Q-O03-B-0088-opt-03",
+        "Q-O03-B-0088-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0089",
+      "learningObjectiveId": "LO-O03-149-B-0089",
+      "articleNumber": 149,
+      "ruleId": "RULE-Q-O03-B-0089",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Anayasa Mahkemesi, iki bölüm ve Genel Kurul halinde çalışır. Bölümler, başkanvekili başkanlığında dört üyenin katılımıyla toplanır. Genel Kurul, Mahkeme Başkanının veya Başkanın belirleyeceği başkanvekilinin başkanlığında en az on üye ile toplanır. Bölümler ve Genel Kurul, kararlarını salt çoğunlukla alır. Bireysel başvuruların kabul edilebilirlik incelemesi için komisyonlar oluşturulabilir. [90]",
+      "sourceQuoteSHA256": "d390556fb315b964a185ae8718b491feaa7522371afc4b7b40cccb7fa800c8e7",
+      "sourceLocator": "2709 sayılı Anayasa m.149; UYAP maddeId=1282937; full HTML p[954]",
+      "requiredSourceFragments": [
+        "Anayasa Mahkemesi, iki bölüm ve Genel Kurul halinde çalışır. Bölümler, başkanvekili başkanlığında dört üyenin katılımıyla toplanır. Genel Kurul, Mahkeme Başkanının veya Başkanın belirleyeceği başkanvekilinin başkanlığında en az on üye ile toplanır. Bölümler ve Genel Kurul, kararlarını salt çoğunlukla alır. Bireysel başvuruların kabul edilebilirlik incelemesi için komisyonlar oluşturulabilir. [90]"
+      ],
+      "correctOptionId": "Q-O03-B-0089-opt-03",
+      "normalizedCorrectText": "mahkeme başkanı veya belirlediği başkanvekili başkanlığında en az on üye ile toplanma şartı sağlanmamıştır",
+      "distractorOptionIds": [
+        "Q-O03-B-0089-opt-01",
+        "Q-O03-B-0089-opt-02",
+        "Q-O03-B-0089-opt-04",
+        "Q-O03-B-0089-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0090",
+      "learningObjectiveId": "LO-O03-042-B-0090",
+      "articleNumber": 42,
+      "ruleId": "RULE-Q-O03-B-0090",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Türkçeden başka hiçbir dil, eğitim ve öğretim kurumlarında Türk vatandaşlarına ana dilleri olarak okutulamaz ve öğretilemez. Eğitim ve öğretim kurumlarında okutulacak yabancı diller ile yabancı dille eğitim ve öğretim yapan okulların tabi olacağı esaslar kanunla düzenlenir. Milletlerarası andlaşma hükümleri saklıdır.",
+      "sourceQuoteSHA256": "267b3699fcf26873f0baa09c1089d15149881032e6cc9243f6b8e0a4f4f2f90d",
+      "sourceLocator": "2709 sayılı Anayasa m.42; UYAP maddeId=1281854; full HTML p[273]",
+      "requiredSourceFragments": [
+        "Türkçeden başka hiçbir dil, eğitim ve öğretim kurumlarında Türk vatandaşlarına ana dilleri olarak okutulamaz ve öğretilemez. Eğitim ve öğretim kurumlarında okutulacak yabancı diller ile yabancı dille eğitim ve öğretim yapan okulların tabi olacağı esaslar kanunla düzenlenir. Milletlerarası andlaşma hükümleri saklıdır."
+      ],
+      "correctOptionId": "Q-O03-B-0090-opt-01",
+      "normalizedCorrectText": "türkçeden başka dil türk vatandaşlarına ana dili olarak okutulamaz ve öğretilemez",
+      "distractorOptionIds": [
+        "Q-O03-B-0090-opt-02",
+        "Q-O03-B-0090-opt-03",
+        "Q-O03-B-0090-opt-04",
+        "Q-O03-B-0090-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0091",
+      "learningObjectiveId": "LO-O03-046-B-0091",
+      "articleNumber": 46,
+      "ruleId": "RULE-Q-O03-B-0091",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli nakden ve peşin olarak ödenir. Ancak, tarım reformunun uygulanması, büyük enerji ve sulama projeleri ile iskân projelerinin gerçekleştirilmesi, yeni ormanların yetiştirilmesi, kıyıların korunması ve turizm amacıyla kamulaştırılan toprakların bedellerinin ödenme şekli kanunla gösterilir. Kanunun taksitle ödemeyi öngörebileceği bu hallerde, taksitlendirme süresi beş yılı aşamaz; bu takdirde taksitler eşit olarak ödenir.",
+      "sourceQuoteSHA256": "7ef4ae0d861e4cbd7c5890a27a8126df8eba559e36e2db765f4a7fe4247c287e",
+      "sourceLocator": "2709 sayılı Anayasa m.46; UYAP maddeId=1281903; full HTML p[293]",
+      "requiredSourceFragments": [
+        "Kamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli nakden ve peşin olarak ödenir. Ancak, tarım reformunun uygulanması, büyük enerji ve sulama projeleri ile iskân projelerinin gerçekleştirilmesi, yeni ormanların yetiştirilmesi, kıyıların korunması ve turizm amacıyla kamulaştırılan toprakların bedellerinin ödenme şekli kanunla gösterilir. Kanunun taksitle ödemeyi öngörebileceği bu hallerde, taksitlendirme süresi beş yılı aşamaz; bu takdirde taksitler eşit olarak ödenir."
+      ],
+      "correctOptionId": "Q-O03-B-0091-opt-04",
+      "normalizedCorrectText": "beş yıl",
+      "distractorOptionIds": [
+        "Q-O03-B-0091-opt-01",
+        "Q-O03-B-0091-opt-02",
+        "Q-O03-B-0091-opt-03",
+        "Q-O03-B-0091-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0092",
+      "learningObjectiveId": "LO-O03-067-B-0092",
+      "articleNumber": 67,
+      "ruleId": "RULE-Q-O03-B-0092",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(Değişik fıkra: 23/7/1995-4121/5 md.) Silah altında bulunan er ve erbaşlar ile askeri öğrenciler, taksirli suçlardan hüküm giyenler hariç ceza infaz kurumlarında bulunan hükümlüler oy kullanamazlar. Ceza infaz kurumları ve tutuk evlerinde oy kullanılması ve oyların sayım ve dökümünde seçim emniyeti açısından alınması gerekli tedbirler Yüksek Seçim Kurulu tarafından tespit edilir ve görevli hakimin yerinde yönetim ve denetimi altında yapılır. [23]",
+      "sourceQuoteSHA256": "86d6227d8198c27fab4194fc7f8054ac372c6a8c99e780084218e86a91e123ec",
+      "sourceLocator": "2709 sayılı Anayasa m.67; UYAP maddeId=1282121; full HTML p[423]",
+      "requiredSourceFragments": [
+        "(Değişik fıkra: 23/7/1995-4121/5 md.) Silah altında bulunan er ve erbaşlar ile askeri öğrenciler, taksirli suçlardan hüküm giyenler hariç ceza infaz kurumlarında bulunan hükümlüler oy kullanamazlar. Ceza infaz kurumları ve tutuk evlerinde oy kullanılması ve oyların sayım ve dökümünde seçim emniyeti açısından alınması gerekli tedbirler Yüksek Seçim Kurulu tarafından tespit edilir ve görevli hakimin yerinde yönetim ve denetimi altında yapılır. [23]"
+      ],
+      "correctOptionId": "Q-O03-B-0092-opt-02",
+      "normalizedCorrectText": "taksirli suçtan hüküm giyenler bu hükümlü yasağının istisnasıdır",
+      "distractorOptionIds": [
+        "Q-O03-B-0092-opt-01",
+        "Q-O03-B-0092-opt-03",
+        "Q-O03-B-0092-opt-04",
+        "Q-O03-B-0092-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0093",
+      "learningObjectiveId": "LO-O03-069-B-0093",
+      "articleNumber": 69,
+      "ruleId": "RULE-Q-O03-B-0093",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Temelli kapatılan bir parti bir başka ad altında kurulamaz.",
+      "sourceQuoteSHA256": "b0bf28a38097785299455dd98d6422856b70315a5febf9612d59475db98f48b3",
+      "sourceLocator": "2709 sayılı Anayasa m.69; UYAP maddeId=1282137; full HTML p[448]",
+      "requiredSourceFragments": [
+        "Temelli kapatılan bir parti bir başka ad altında kurulamaz."
+      ],
+      "correctOptionId": "Q-O03-B-0093-opt-05",
+      "normalizedCorrectText": "temelli kapatılan parti başka ad altında kurulamaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0093-opt-01",
+        "Q-O03-B-0093-opt-02",
+        "Q-O03-B-0093-opt-03",
+        "Q-O03-B-0093-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0094",
+      "learningObjectiveId": "LO-O03-090-B-0094",
+      "articleNumber": 90,
+      "ruleId": "RULE-Q-O03-B-0094",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Ekonomik, ticari veya teknik ilişkileri düzenleyen ve süresi bir yılı aşmayan andlaşmalar, Devlet Maliyesi bakımından bir yüklenme getirmemek, kişi hallerine ve Türklerin yabancı memleketlerdeki mülkiyet haklarına dokunmamak şartıyla, yayımlanma ile yürürlüğe konabilir. Bu takdirde bu andlaşmalar, yayımlarından başlayarak iki ay içinde Türkiye Büyük Millet Meclisinin bilgisine sunulur.",
+      "sourceQuoteSHA256": "9a826890729721f8637dee10b8fb08fab0ccdb9eb2255efc1ae022894337f501",
+      "sourceLocator": "2709 sayılı Anayasa m.90; UYAP maddeId=1282360; full HTML p[574]",
+      "requiredSourceFragments": [
+        "Ekonomik, ticari veya teknik ilişkileri düzenleyen ve süresi bir yılı aşmayan andlaşmalar, Devlet Maliyesi bakımından bir yüklenme getirmemek, kişi hallerine ve Türklerin yabancı memleketlerdeki mülkiyet haklarına dokunmamak şartıyla, yayımlanma ile yürürlüğe konabilir. Bu takdirde bu andlaşmalar, yayımlarından başlayarak iki ay içinde Türkiye Büyük Millet Meclisinin bilgisine sunulur."
+      ],
+      "correctOptionId": "Q-O03-B-0094-opt-03",
+      "normalizedCorrectText": "yayımından başlayarak iki ay",
+      "distractorOptionIds": [
+        "Q-O03-B-0094-opt-01",
+        "Q-O03-B-0094-opt-02",
+        "Q-O03-B-0094-opt-04",
+        "Q-O03-B-0094-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0095",
+      "learningObjectiveId": "LO-O03-104-B-0095",
+      "articleNumber": 104,
+      "ruleId": "RULE-Q-O03-B-0095",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir. Anayasanın ikinci kısmının birinci ve ikinci bölümlerinde yer alan temel haklar, kişi hakları ve ödevleriyle dördüncü bölümde yer alan siyasi haklar ve ödevler Cumhurbaşkanlığı kararnamesiyle düzenlenemez. Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz. Kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz. Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması halinde, kanun hükümleri uygulanır. Türkiye Büyük Millet Meclisinin aynı konuda kanun çıkarması durumunda, Cumhurbaşkanlığı kararnamesi hükümsüz hale gelir.",
+      "sourceQuoteSHA256": "77ebc8c472b6eddc0693621d9b3ec7be498d6af812a51c6557f98190c22bb473",
+      "sourceLocator": "2709 sayılı Anayasa m.104; UYAP maddeId=1282507; full HTML p[673]",
+      "requiredSourceFragments": [
+        "Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir. Anayasanın ikinci kısmının birinci ve ikinci bölümlerinde yer alan temel haklar, kişi hakları ve ödevleriyle dördüncü bölümde yer alan siyasi haklar ve ödevler Cumhurbaşkanlığı kararnamesiyle düzenlenemez. Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz. Kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz. Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması halinde, kanun hükümleri uygulanır. Türkiye Büyük Millet Meclisinin aynı konuda kanun çıkarması durumunda, Cumhurbaşkanlığı kararnamesi hükümsüz hale gelir."
+      ],
+      "correctOptionId": "Q-O03-B-0095-opt-01",
+      "normalizedCorrectText": "kanun hükmünü",
+      "distractorOptionIds": [
+        "Q-O03-B-0095-opt-02",
+        "Q-O03-B-0095-opt-03",
+        "Q-O03-B-0095-opt-04",
+        "Q-O03-B-0095-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0096",
+      "learningObjectiveId": "LO-O03-108-B-0096",
+      "articleNumber": 108,
+      "ruleId": "RULE-Q-O03-B-0096",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "(…) [51] yargı organları, Devlet Denetleme Kurulunun görev alanı dışındadır.",
+      "sourceQuoteSHA256": "32eff0d28c9c4190b88cfe79656a4f1955d8ef9740a73607ab9619bc5094f284",
+      "sourceLocator": "2709 sayılı Anayasa m.108; UYAP maddeId=1282546; full HTML p[706]",
+      "requiredSourceFragments": [
+        "(…) [51] yargı organları, Devlet Denetleme Kurulunun görev alanı dışındadır."
+      ],
+      "correctOptionId": "Q-O03-B-0096-opt-04",
+      "normalizedCorrectText": "yargı organları kurulun görev alanı dışındadır",
+      "distractorOptionIds": [
+        "Q-O03-B-0096-opt-01",
+        "Q-O03-B-0096-opt-02",
+        "Q-O03-B-0096-opt-03",
+        "Q-O03-B-0096-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0097",
+      "learningObjectiveId": "LO-O03-124-B-0097",
+      "articleNumber": 124,
+      "ruleId": "RULE-Q-O03-B-0097",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Madde 124 – Cumhurbaşkanı, bakanlıklar ve kamu tüzelkişileri, kendi görev alanlarını ilgilendiren kanunların ve Cumhurbaşkanlığı kararnamelerinin uygulanmasını sağlamak üzere ve bunlara aykırı olmamak şartıyla, yönetmelikler çıkarabilirler. [67]",
+      "sourceQuoteSHA256": "e9b5ba56dbf3e63e46aecb8c6deb19b04d2169a4341814864cd75cf4b5e115eb",
+      "sourceLocator": "2709 sayılı Anayasa m.124; UYAP maddeId=1282698; full HTML p[788]",
+      "requiredSourceFragments": [
+        "Madde 124 – Cumhurbaşkanı, bakanlıklar ve kamu tüzelkişileri, kendi görev alanlarını ilgilendiren kanunların ve Cumhurbaşkanlığı kararnamelerinin uygulanmasını sağlamak üzere ve bunlara aykırı olmamak şartıyla, yönetmelikler çıkarabilirler. [67]"
+      ],
+      "correctOptionId": "Q-O03-B-0097-opt-02",
+      "normalizedCorrectText": "yönetmelik ilgili kanun ve kararnamelere aykırı olamaz",
+      "distractorOptionIds": [
+        "Q-O03-B-0097-opt-01",
+        "Q-O03-B-0097-opt-03",
+        "Q-O03-B-0097-opt-04",
+        "Q-O03-B-0097-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0098",
+      "learningObjectiveId": "LO-O03-129-B-0098",
+      "articleNumber": 129,
+      "ruleId": "RULE-Q-O03-B-0098",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Memurlar ve diğer kamu görevlileri ile kamu kurumu niteliğindeki meslek kuruluşları ve bunların üst kuruluşları mensuplarına savunma hakkı tanınmadıkça disiplin cezası verilemez.",
+      "sourceQuoteSHA256": "43142a67b9a3de24448090fa976d242eabc87ea61fea23e73dd480721f073faf",
+      "sourceLocator": "2709 sayılı Anayasa m.129; UYAP maddeId=1282745; full HTML p[823]",
+      "requiredSourceFragments": [
+        "Memurlar ve diğer kamu görevlileri ile kamu kurumu niteliğindeki meslek kuruluşları ve bunların üst kuruluşları mensuplarına savunma hakkı tanınmadıkça disiplin cezası verilemez."
+      ],
+      "correctOptionId": "Q-O03-B-0098-opt-05",
+      "normalizedCorrectText": "savunma hakkı tanınmadıkça disiplin cezası verilemez",
+      "distractorOptionIds": [
+        "Q-O03-B-0098-opt-01",
+        "Q-O03-B-0098-opt-02",
+        "Q-O03-B-0098-opt-03",
+        "Q-O03-B-0098-opt-04"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0099",
+      "learningObjectiveId": "LO-O03-038-B-0099",
+      "articleNumber": 38,
+      "ruleId": "RULE-Q-O03-B-0099",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Ceza sorumluluğu şahsidir.",
+      "sourceQuoteSHA256": "134a58c17d180bc522a96520a14ccf6c7917d2ecdbcb252c789707d1d128d9c0",
+      "sourceLocator": "2709 sayılı Anayasa m.38; UYAP maddeId=1281803; full HTML p[239]",
+      "requiredSourceFragments": [
+        "Ceza sorumluluğu şahsidir."
+      ],
+      "correctOptionId": "Q-O03-B-0099-opt-03",
+      "normalizedCorrectText": "ceza sorumluluğunun şahsiliği",
+      "distractorOptionIds": [
+        "Q-O03-B-0099-opt-01",
+        "Q-O03-B-0099-opt-02",
+        "Q-O03-B-0099-opt-04",
+        "Q-O03-B-0099-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    },
+    {
+      "questionId": "Q-O03-B-0100",
+      "learningObjectiveId": "LO-O03-138-B-0100",
+      "articleNumber": 138,
+      "ruleId": "RULE-Q-O03-B-0100",
+      "sourceSnapshotId": "SRC-OFFICIAL-2709-UYAP-20261106-92878aae2372",
+      "sourceContentHash": "92878aae23720d0828f3fc21c3c16968208371f8a2fc1feb1f8505d90de4a9ad",
+      "sourceQuote": "Yasama ve yürütme organları ile idare, mahkeme kararlarına uymak zorundadır; bu organlar ve idare, mahkeme kararlarını hiçbir suretle değiştiremez ve bunların yerine getirilmesini geciktiremez.",
+      "sourceQuoteSHA256": "3a3271f8e599b92063335a0ba9048d332a506d1e1f0cde265080e86c27371b15",
+      "sourceLocator": "2709 sayılı Anayasa m.138; UYAP maddeId=1282832; full HTML p[888]",
+      "requiredSourceFragments": [
+        "Yasama ve yürütme organları ile idare, mahkeme kararlarına uymak zorundadır; bu organlar ve idare, mahkeme kararlarını hiçbir suretle değiştiremez ve bunların yerine getirilmesini geciktiremez."
+      ],
+      "correctOptionId": "Q-O03-B-0100-opt-01",
+      "normalizedCorrectText": "karara uymayı; değiştirmemeyi ve yerine getirmeyi geciktirmemeyi",
+      "distractorOptionIds": [
+        "Q-O03-B-0100-opt-02",
+        "Q-O03-B-0100-opt-03",
+        "Q-O03-B-0100-opt-04",
+        "Q-O03-B-0100-opt-05"
+      ],
+      "direction": "single-correct",
+      "explanationConstraint": "Whole official paragraph, scope, exceptions, each distractor and single-correct conclusion require separate independent legal review; exact quotation checks alone are not approval.",
+      "contextLegalProvisionIds": [],
+      "preparationOnly": true
+    }
+  ]
+}

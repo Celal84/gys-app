@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+  "checkedAt": "2026-11-06T14:31:08.288242+00:00",
+  "checkedBy": "learning_engine-content-source-extraction",
+  "scope": "Exact official artifact/paragraph/quotation integrity only; neither independent legal review nor question approval.",
+  "sourceDocumentURL": "https://mevzuat.adalet.gov.tr/mevzuat/103146",
+  "rawFullResponseSHA256": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+  "decodedFullHTMLSHA256": "ed3bacbc49a9cd59b476ac9ee5d111f6fd79086e6f67a7b0cf051af21eb8ed8b",
+  "fullSnapshotRetrievedAt": "2026-11-06T12:36:38.323061+00:00",
+  "legalVersionStage": "Preparation",
+  "examVersionFinalized": false,
+  "publicProvisionFile": "data/public-legal-sources/t01-provisions.json",
+  "publicProvisionFileSHA256": "962daba4f78c184776e4ee8d8eb9975916940f499561a6f9f2f0d9b2dba09abd",
+  "artifacts": [
+    {
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724/full.html",
+      "sha256": "ed3bacbc49a9cd59b476ac9ee5d111f6fd79086e6f67a7b0cf051af21eb8ed8b",
+      "byteLength": 518951,
+      "mediaType": "text/html",
+      "kind": "ExactDecodedOfficialFullHTML"
+    },
+    {
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724/full.json",
+      "sha256": "4e156e0567246824097dd9ecb67f892177a64a0776fd990adaa42037302c8ff0",
+      "byteLength": 692222,
+      "mediaType": "application/json",
+      "kind": "ExactOfficialAPIResponse"
+    }
+  ],
+  "checks": {
+    "candidateCount": 100,
+    "fiveUniqueOptions": true,
+    "fourDistractorExplanations": true,
+    "quotesAndSHA256Match": true,
+    "allQuotedParagraphsInExactHTML": true,
+    "textualDuplicateCount": 0,
+    "semanticUniqueness": "PendingIndependentReview",
+    "objectiveCognitionUniqueness": "DistinctAuthoredFactKeysAndCognitiveTargets; PendingIndependentReview",
+    "difficultyDistribution": {
+      "basic": 26,
+      "medium": 32,
+      "hard": 22,
+      "application": 20
+    },
+    "genuineScenarioCount": 20,
+    "approvedQuestions": 0,
+    "independentReviewCorrection": "Q88 tam alıntısının m12/1-a bağlamı için tam resmî HTML p74 seçilmiş paragraflara eklendi; ham resmî artifact byte’ları korunur."
+  },
+  "selectedArticles": [
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    27,
+    28,
+    29,
+    30,
+    34,
+    36,
+    39,
+    40,
+    41
+  ],
+  "allInstrumentArticlesAssumedInExamScope": false,
+  "issues": []
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-06T12:31:15.655115+00:00",
+  "checkedBy": "official-law-source-extraction",
+  "scope": "Source integrity and extraction, not question approval or independent human legal review",
+  "snapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "counts": {
+    "passed": 40,
+    "failed": 0,
+    "scopeArticles": 10,
+    "allExtractedArticles": 11,
+    "questionsApprovedByThisAudit": 0
+  },
+  "checks": [
+    {
+      "name": "official_authority_endpoint",
+      "passed": true,
+      "details": "https://bedesten.adalet.gov.tr/mevzuat/getDocumentContent"
+    },
+    {
+      "name": "full_raw_sha256",
+      "passed": true,
+      "details": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0"
+    },
+    {
+      "name": "full_decoded_html_sha256",
+      "passed": true,
+      "details": "b4645c93cb71d5f50a14af49425ac1f226473e0e7d5fe40db921ae12f3cbb50e"
+    },
+    {
+      "name": "exact_requested_exam_scope",
+      "passed": true,
+      "details": "10 selected articles in 1..212, not full O02 scope coverage"
+    },
+    {
+      "name": "238_metadata_scope_only",
+      "passed": true,
+      "details": "238 retained only to avoid falsely inferring original effective date"
+    },
+    {
+      "name": "article_3_response_sha256",
+      "passed": true,
+      "details": "9225b43084be0ef1a4badcfe4b8afc61f184fca2a567cf63ffe0e2392b3e573e"
+    },
+    {
+      "name": "article_3_html_sha256",
+      "passed": true,
+      "details": "ee89258b84824c401b193e7a3daae7e41d0cebef288f973adb5cc3d87d664dda"
+    },
+    {
+      "name": "article_3_paragraph_hashes",
+      "passed": true,
+      "details": "8 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_54_response_sha256",
+      "passed": true,
+      "details": "8aa0fb28219056a9f559b49a413715602c980e25c6d5eaa125779c5391fade4c"
+    },
+    {
+      "name": "article_54_html_sha256",
+      "passed": true,
+      "details": "c12fa3f5e549365879f976c84b34570ec0ec2167ac38769f3b7d376efc89e743"
+    },
+    {
+      "name": "article_54_paragraph_hashes",
+      "passed": true,
+      "details": "4 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_94_response_sha256",
+      "passed": true,
+      "details": "328ebc7f16ed967ff1b80095dcbd422652425c540f709127b445180d11a90f69"
+    },
+    {
+      "name": "article_94_html_sha256",
+      "passed": true,
+      "details": "1d3f501e949928ad03ca7aa3fc3fade47faea910fb44a61238966edd32f8bc93"
+    },
+    {
+      "name": "article_94_paragraph_hashes",
+      "passed": true,
+      "details": "4 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_95_response_sha256",
+      "passed": true,
+      "details": "b9c4e602fbc7b95f8ca01f1a4b3e674ed728321137199a444a591bf5326dee67"
+    },
+    {
+      "name": "article_95_html_sha256",
+      "passed": true,
+      "details": "b8a5f9b021f3bcf88c569dd5e6801c6cbc9bdd650b40b7363a6613a6ed5abc74"
+    },
+    {
+      "name": "article_95_paragraph_hashes",
+      "passed": true,
+      "details": "2 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_96_response_sha256",
+      "passed": true,
+      "details": "fbfca3ec3ccbaea3aa955a4a8d6e9d8d80f1cc51b4ddfd7d21b96aa9e60ee572"
+    },
+    {
+      "name": "article_96_html_sha256",
+      "passed": true,
+      "details": "39363f960ca9c8c87e2b4db03939681aab4cfba8223276821b204f99d1a9d7e6"
+    },
+    {
+      "name": "article_96_paragraph_hashes",
+      "passed": true,
+      "details": "3 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_102_response_sha256",
+      "passed": true,
+      "details": "78f3704cc8049e84f2e4972f8b7f80a75409d234ead87c0cfd4466ec4ab2aa18"
+    },
+    {
+      "name": "article_102_html_sha256",
+      "passed": true,
+      "details": "9f60fd848155aa47229c13ce983af1d8b4c3ef2229dfa10eeb03bb2fd857059e"
+    },
+    {
+      "name": "article_102_paragraph_hashes",
+      "passed": true,
+      "details": "3 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_125_response_sha256",
+      "passed": true,
+      "details": "7c0592f95c23350831d530c93b33d93d8eb3a3b83959ce8bb071119ed1218cb9"
+    },
+    {
+      "name": "article_125_html_sha256",
+      "passed": true,
+      "details": "29e0b5cdcfbdc57c2953b1bbb99a20ae05fc9a8bedcb07159d85048ba3443f04"
+    },
+    {
+      "name": "article_125_paragraph_hashes",
+      "passed": true,
+      "details": "80 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_129_response_sha256",
+      "passed": true,
+      "details": "ef1a647bc625ca2d5e347d928aaec9ad18e9525deec02d5f89b804dc540385f3"
+    },
+    {
+      "name": "article_129_html_sha256",
+      "passed": true,
+      "details": "150dcef92e0315e8ad7255e348fa825b2c5e8e91e76b047d1baeb41c2eb9da7f"
+    },
+    {
+      "name": "article_129_paragraph_hashes",
+      "passed": true,
+      "details": "6 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_130_response_sha256",
+      "passed": true,
+      "details": "f259cd55ec30c283123fcb45e8b0c3b8df547eccdc3574929a731264e27482c0"
+    },
+    {
+      "name": "article_130_html_sha256",
+      "passed": true,
+      "details": "97a88f13abe9ade7a7a5c5c729d3d0778f59f4eb109caba3f23c2b7ac32d620c"
+    },
+    {
+      "name": "article_130_paragraph_hashes",
+      "passed": true,
+      "details": "3 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_135_response_sha256",
+      "passed": true,
+      "details": "55dbfa82a5586d10cd88eb6eb24e47e63f5d05332e66e824be64aa11dd5cd329"
+    },
+    {
+      "name": "article_135_html_sha256",
+      "passed": true,
+      "details": "68b31a90ec5e2c85690bcc448e526d9a7de955fc3bd4b127e7624e20381e1281"
+    },
+    {
+      "name": "article_135_paragraph_hashes",
+      "passed": true,
+      "details": "7 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "article_238_response_sha256",
+      "passed": true,
+      "details": "798311a8b551c999c038a3d04a2518d5af364c325fb5f36e367a77f49441c409"
+    },
+    {
+      "name": "article_238_html_sha256",
+      "passed": true,
+      "details": "92c194f2232084418b7ff1a02fcd079e41b8d3f0958b41a7f0d20c9e8b60be97"
+    },
+    {
+      "name": "article_238_paragraph_hashes",
+      "passed": true,
+      "details": "2 preserved HTML paragraphs including titles and footnotes"
+    },
+    {
+      "name": "preparation_not_final_exam_version",
+      "passed": true,
+      "details": "Future cutoff 2027-01-01 is not finalized on retrieval 2026-11-06"
+    },
+    {
+      "name": "no_public_transport_secrets",
+      "passed": true,
+      "details": "Only request shape, public API header, date and content metadata exported"
+    }
+  ],
+  "limitations": [
+    "Current official service response is a preparation snapshot; future cutoff is not finalized.",
+    "Original commencement and all historical transition rules are not independently reconstructed.",
+    "This extraction audit does not establish question quality, uniqueness or legal approval."
+  ]
+}

@@ -1,0 +1,20 @@
+import { it, expect } from 'vitest';
+import { readFile } from 'node:fs/promises';
+import { publishContent } from '../scripts/publish-content';
+it('rechecking unchanged reviewed batches preserves question and manifest bytes',async()=>{
+ const beforeManifest=await readFile('data/content-manifest.json','utf8');
+ const beforeQuestions=await readFile('data/approved-content.json','utf8');
+ const topics=JSON.parse(beforeManifest).topics as {path:string}[];
+ const beforeChunks=await Promise.all(topics.map(t=>readFile('public/'+t.path,'utf8')));
+ await publishContent();
+ expect(await readFile('data/content-manifest.json','utf8')).toBe(beforeManifest);
+ expect(await readFile('data/approved-content.json','utf8')).toBe(beforeQuestions);
+ expect(await Promise.all(topics.map(t=>readFile('public/'+t.path,'utf8')))).toEqual(beforeChunks);
+ const inventory=JSON.parse(await readFile('docs/content-inventory.json','utf8'));
+ expect(inventory.remainingToApprove).toBe(5400-inventory.approved);
+ expect(inventory.records).toHaveLength(inventory.totalGenerated);
+ expect(inventory.records.filter((r:{published:boolean})=>r.published)).toHaveLength(inventory.approved);
+ expect(inventory.duplicateCandidateIds).toEqual([]);
+ expect(inventory.approvedMock).toBe(0);
+ expect(inventory.legacyUnverifiedExcludedFromOriginalTarget).toBe(true);
+},30000);

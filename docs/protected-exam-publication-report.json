@@ -1,0 +1,7401 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-06T15:10:25.603Z",
+  "sourceReviewLastAt": "2026-11-06T15:08:00.157887+00:00",
+  "plannedExamCount": 30,
+  "candidates": 248,
+  "stagedVerifiedQuestions": 246,
+  "pendingCandidates": 2,
+  "readyExamCount": 0,
+  "publishedApprovedMockQuestions": 0,
+  "sourceArtifactsChecked": 36,
+  "studyBankUnchanged": true,
+  "sourcePoolIsolation": "Pass",
+  "independentFullExamReviewRequired": true,
+  "definitions": [
+    {
+      "id": "EXAM-01",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "8a9702c0525525d3e9ab0861265711263cac22129be84ff03b1bf4aec59f47dc"
+    },
+    {
+      "id": "EXAM-02",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "bc81e44f0b3146d0e1c116608c78c9a630e7ee2faedb9b55e8868b6f4fb39737"
+    },
+    {
+      "id": "EXAM-03",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "03102774499683dce9f8f9dd8acd6c0069007c6b9c6391d4fa09eb2175947e36"
+    },
+    {
+      "id": "EXAM-04",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "1f1c0aeec7c1b741cda5d0a765e01e049f5924c79dc23ac4db420a03a5f897d0"
+    },
+    {
+      "id": "EXAM-05",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "20c8d167c08cb7574412dc5016df2a9cd213377b9d1ce0e543ad85473a668c5c"
+    },
+    {
+      "id": "EXAM-06",
+      "ready": false,
+      "questionCount": 11,
+      "commonCount": 11,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 7,
+          "deficit": 1,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "b73b2013f238de8553c217eccb782447ea7cf0e3cd66b8ed66b5cd1198e00255"
+    },
+    {
+      "id": "EXAM-07",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "3db71703bce957fae5baade24b41b620797ad1c50782a92e1e9280ef583b46dd"
+    },
+    {
+      "id": "EXAM-08",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "85fa5cfd3fc7453e57aece1f0874e1bf6d77e6b450ab5585852d6bc783bb69bc"
+    },
+    {
+      "id": "EXAM-09",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "061abc01fb56dca51c89bd35b806ac8844f673b32e2df9e1c44a1947c09a94f3"
+    },
+    {
+      "id": "EXAM-10",
+      "ready": false,
+      "questionCount": 11,
+      "commonCount": 11,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 7,
+          "deficit": 1,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "37001e745a5c8864b890906874126108eeca11fa5a7dea910c1cff54418e7315"
+    },
+    {
+      "id": "EXAM-11",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "04bd572569e8fd40e32e8b576e96dd652fc8f5503b1a5a8a7c670803f447ba8e"
+    },
+    {
+      "id": "EXAM-12",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "86c5c31ded2e0351852a1fadef7d7c917b6013507145822c79ea62e03a6669a8"
+    },
+    {
+      "id": "EXAM-13",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "c6d65394bf62e5b1c832adfa52caaaac86fcfe3827a8a57b4c66725b0fc3091a"
+    },
+    {
+      "id": "EXAM-14",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "c88aa30e28a3d36f45ebc8b958cf35be1b04a1c2b81d15ce8fed85c6706cb71b"
+    },
+    {
+      "id": "EXAM-15",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "af828bcd9ca4e5ae07dde8584c1626396d4b63db8710e06ebdc170f3ecaead57"
+    },
+    {
+      "id": "EXAM-16",
+      "ready": false,
+      "questionCount": 12,
+      "commonCount": 12,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 8,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "c05f73dd87c8227959b62c8779bf54f59681595325948ea216eeb2f5645ca865"
+    },
+    {
+      "id": "EXAM-17",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "6b4c8fa87350924d8d7b0fff869dc74a4a89d920eb69889e6ff568c16a4a2886"
+    },
+    {
+      "id": "EXAM-18",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "0ee44bade9b35fc89cb02ad18f1565d3c10b0591b47f36c6c4c73686d88de019"
+    },
+    {
+      "id": "EXAM-19",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "6e47088b8afb07ff066988008137185e535ba411d8e8d287440c125a68046008"
+    },
+    {
+      "id": "EXAM-20",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "2248bbb02abad308261cfc0d44e6cddb5d55eddfcd4b2d9c206f16230ea67040"
+    },
+    {
+      "id": "EXAM-21",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "0ae7f810492e5c5292674d65ec06839f6e77556b7f9dbd852532cb973f195416"
+    },
+    {
+      "id": "EXAM-22",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "ae1ba746a018ffaa504d7a0738d537cda8f1705c42b6d012d042282973866ec6"
+    },
+    {
+      "id": "EXAM-23",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "00da85dadb9e1915444b723c66901ad5eb624e17eb0599450a1033e1f8902d30"
+    },
+    {
+      "id": "EXAM-24",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "3f35061cd11b81fb5ef20f5f59d10db52bdd59a0a73e4b18eec07763ab4a9117"
+    },
+    {
+      "id": "EXAM-25",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "58faaab48b9b9304d04347a324aa9e32600f61437e78b2cc37017f27228c71f7"
+    },
+    {
+      "id": "EXAM-26",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "9f9203e260221194e3280d0af34b6a406418cfc11c0d67dd93776987cf0b3808"
+    },
+    {
+      "id": "EXAM-27",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "dcac37383967c3b6551c2dd59df3e5e79d40d12a163118828471c456a7cd449a"
+    },
+    {
+      "id": "EXAM-28",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "39c09bb09b1baaf53e0f4ad41089f0f12761f21f15a86a8a8125924d28a8e7b9"
+    },
+    {
+      "id": "EXAM-29",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "27e11c0941f3e47d2a692d7c721c30cfa4bc671ad050141fa5bc299cdbfadfb0"
+    },
+    {
+      "id": "EXAM-30",
+      "ready": false,
+      "questionCount": 4,
+      "commonCount": 4,
+      "technicalCount": 0,
+      "perTopic": [
+        {
+          "topicId": "O01",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O02",
+          "required": 8,
+          "verified": 0,
+          "deficit": 8,
+          "excess": 0
+        },
+        {
+          "topicId": "O03",
+          "required": 4,
+          "verified": 4,
+          "deficit": 0,
+          "excess": 0
+        },
+        {
+          "topicId": "O04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O05",
+          "required": 2,
+          "verified": 0,
+          "deficit": 2,
+          "excess": 0
+        },
+        {
+          "topicId": "O06",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O07",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O09",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O10",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O11",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O12",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "O13",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O14",
+          "required": 5,
+          "verified": 0,
+          "deficit": 5,
+          "excess": 0
+        },
+        {
+          "topicId": "O15",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "O16",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T01",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T02",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T03",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T04",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T05",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T06",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        },
+        {
+          "topicId": "T07",
+          "required": 3,
+          "verified": 0,
+          "deficit": 3,
+          "excess": 0
+        },
+        {
+          "topicId": "T08",
+          "required": 4,
+          "verified": 0,
+          "deficit": 4,
+          "excess": 0
+        }
+      ],
+      "issues": [
+        "Exam must have exactly 100 questions",
+        "Wrong distribution: O01",
+        "Wrong distribution: O02",
+        "Wrong distribution: O04",
+        "Wrong distribution: O05",
+        "Wrong distribution: O06",
+        "Wrong distribution: O07",
+        "Wrong distribution: O08",
+        "Wrong distribution: O09",
+        "Wrong distribution: O10",
+        "Wrong distribution: O11",
+        "Wrong distribution: O12",
+        "Wrong distribution: O13",
+        "Wrong distribution: O14",
+        "Wrong distribution: O15",
+        "Wrong distribution: O16",
+        "Wrong distribution: T01",
+        "Wrong distribution: T02",
+        "Wrong distribution: T03",
+        "Wrong distribution: T04",
+        "Wrong distribution: T05",
+        "Wrong distribution: T06",
+        "Wrong distribution: T07",
+        "Wrong distribution: T08",
+        "Independent complete-exam distribution/duplicate review missing or stale"
+      ],
+      "contentSHA256": "179576ce0530c8fcdb89cfa0447b6e0cc2e58d70d2bf08ff2de958d21f38f11e"
+    }
+  ],
+  "outcomes": [
+    {
+      "questionId": "Q-O03-A-0001",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0002",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0003",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0004",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0005",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0006",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0007",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0008",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0009",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0010",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0011",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0012",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0013",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0014",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0015",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0016",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0017",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0018",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0019",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0020",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0021",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0022",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0023",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0024",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0025",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0026",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0027",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0028",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0029",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0030",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0031",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0032",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0033",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0034",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0035",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0036",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0037",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0038",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0039",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0040",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0041",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0042",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0043",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0044",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0045",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0046",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0047",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0048",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0049",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0050",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0051",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0052",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0053",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0054",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0055",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0056",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0057",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0058",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0059",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0060",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0061",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0062",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0063",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0064",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0065",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0066",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0067",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0068",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0069",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0070",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0071",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0072",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0073",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0074",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0075",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0076",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0077",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0078",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0079",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0080",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0081",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0082",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0083",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0084",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0085",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0086",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0087",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0088",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0089",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0090",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0091",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0092",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0093",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0094",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0095",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0096",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0097",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0098",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0099",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0100",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0101",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0102",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0103",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0104",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0105",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0106",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0107",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0108",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0109",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0110",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0111",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0112",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0113",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0114",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0115",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0116",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0117",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0118",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0119",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O03-A-0120",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0001",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0002",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0003",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0004",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0005",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0006",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0007",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0008",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0009",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0010",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0011",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0012",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0013",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0014",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0015",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0016",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0017",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0018",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0019",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0020",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0021",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0022",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0023",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0024",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0025",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0026",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0027",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0028",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0029",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0030",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0031",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0032",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0033",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0034",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0035",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0036",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0037",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0038",
+      "issues": [
+        "Independent review is not Pass"
+      ],
+      "status": "ValidationPending"
+    },
+    {
+      "questionId": "Q-O01-A-0039",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0040",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0041",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0042",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0043",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0044",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0045",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0046",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0047",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0048",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0049",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0050",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0051",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0052",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0053",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0054",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0055",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0056",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0057",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0058",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0059",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0060",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0061",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0062",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0063",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0064",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0065",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0066",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0067",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0068",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0069",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0070",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0071",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0072",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0073",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0074",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0075",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0076",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0077",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0078",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0079",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0080",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0081",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0082",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0083",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0084",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0085",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0086",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0087",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0088",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0089",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0090",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0091",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0092",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0093",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0094",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0095",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0096",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0097",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0098",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0099",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0100",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0101",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0102",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0103",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0104",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0105",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0106",
+      "issues": [
+        "Independent review is not Pass"
+      ],
+      "status": "ValidationPending"
+    },
+    {
+      "questionId": "Q-O01-A-0107",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0108",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0109",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0110",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0111",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0112",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0113",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0114",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0115",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0116",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0117",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0118",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0119",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0120",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0121",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0122",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0123",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0124",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0125",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0126",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0127",
+      "issues": [],
+      "status": "StagedVerified"
+    },
+    {
+      "questionId": "Q-O01-A-0128",
+      "issues": [],
+      "status": "StagedVerified"
+    }
+  ],
+  "readyExams": [],
+  "publicFilesWritten": false
+}

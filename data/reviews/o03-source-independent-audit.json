@@ -1,0 +1,19 @@
+{
+  "checkCount": 1628,
+  "failedCount": 0,
+  "failures": [],
+  "paragraphsCompared": 817,
+  "rawResponseVerified": true,
+  "decodedHTMLVerified": true,
+  "parser": "lxml.html",
+  "sourceHashChecks": 5,
+  "scopeHeadingParagraphs1Based": [
+    23,
+    69,
+    481,
+    1029
+  ],
+  "checkedAt": "2026-11-06T14:48:41.916Z",
+  "checkedBy": "o03-independent-review",
+  "scope": "Integrity checks of official source material, not question legal acceptance by themselves."
+}

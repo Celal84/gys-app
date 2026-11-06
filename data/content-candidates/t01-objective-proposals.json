@@ -1,0 +1,3199 @@
+{
+  "schemaVersion": 1,
+  "topicId": "T01",
+  "status": "DraftScopeReviewPending",
+  "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+  "selectedArticles": [
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    27,
+    28,
+    29,
+    30,
+    34,
+    36,
+    39,
+    40,
+    41
+  ],
+  "allInstrumentArticlesAssumedInExamScope": false,
+  "learningObjectives": [
+    {
+      "id": "LO-T01-003-BANK-0001",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "agricultural-definition",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Tarımsal iskân tanımı, aileye projede öngörülen tarım arazisi ve diğer sayılan unsurlardan bir veya birkaçının verilmesini esas alır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0001"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[18]",
+      "sourceQuoteSHA256": "8f70a8c963a92fda5d815e9c953b6dc6830d9273783fa08dad3b8bf23397f46b",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0002",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "nonagricultural-definition",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Tarım dışı iskânda aileye projede öngörülen arsa, konut, araç, gereç, tezgâh ve kredilerden bir veya birkaçı verilebilir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0002"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[19]",
+      "sourceQuoteSHA256": "39d5bde0a9a126d7a19eed2bf9bf4e2b16c73094277657eb0c43fe7060ab9f25",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0003",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "nomad-citizenship",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Göçebe tanımı; sayılan yaşam ve hayvancılık özellikleri yanında Türk vatandaşı olma unsurunu da içerir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0003"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0004",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "migrant-definition",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Türk soyundan ve Türk kültürüne bağlı olup yerleşmek amacıyla gelenlerin ayrıca Kanun gereğince kabul edilmeleri gerekir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0004"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[22]",
+      "sourceQuoteSHA256": "2fc17bd51cdda4b62da5deb46114fa351253d942025001bdf2f7f8a8b58680a4",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0005",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "free-migrant-condition",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Serbest göçmen kabulünde Devlet eliyle iskân edilmeme talep şartı tanımın temel ayrımıdır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0005"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[23]",
+      "sourceQuoteSHA256": "f36409a3180b3799ed198625dbf7d91f8fe54b82fcc7107f14424d0a8e0142e0",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0006",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "settled-migrant-property",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "İskânlı göçmenler, özel kanunlarla yurt dışından getirilen ve Kanun hükümlerine göre taşınmaz verilerek iskân edilenlerdir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0006"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[24]",
+      "sourceQuoteSHA256": "10d8efc6dfa1704a730dfa57d08545c5c7583c06dbb0d03cb96bdb4e281a0ddb",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0007",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "individual-migrant-unit",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Münferit göçmen tanımı, Türk soyundan ve Türk kültürüne bağlı ailelerin yerleşme amacıyla gelişini esas alır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0007"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[25]",
+      "sourceQuoteSHA256": "a919278ad00bc2ef5ff56a21577abe47eed9665ac110c41bd71cc9304bf0fad9",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0008",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "collective-migrant-agreement",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Toplu göçmenler, iki ülke arasındaki anlaşmaya göre yerleşmek amacıyla toplu gelen ailelerdir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0008"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[26]",
+      "sourceQuoteSHA256": "137679efd32544cb8dc12776392190bb1e1702f7caebd5c45d52a1bf684e50ed",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-004-BANK-0009",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-004-01",
+      "subtopic": "expelled-exclusion",
+      "legalProvisionId": "LP-5543-4",
+      "legalReference": {
+        "article": 4,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 4, Türk soyundan ve Türk kültürüne bağlı bulunanlar için de sınır dışı edilme engelini düzenler.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0009"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.4; resmî tam HTML p[33]",
+      "sourceQuoteSHA256": "ed50987b85ed2b20b9a9d8bb387d403ce7addb4022c344fdde99d1e834eba659",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-005-BANK-0010",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-005-01",
+      "subtopic": "individual-admission-authority",
+      "legalProvisionId": "LP-5543-5",
+      "legalReference": {
+        "article": 5,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 5’teki inceleme, vize ve yardım istememe şartlarından sonra serbest göçmen kabulü İçişleri Bakanlığınca yapılır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0010"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0011",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "migrant-document-validity",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Göçmen Belgesi iki yıl geçerli olup geçici kimlik belgesi olarak kullanılır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0011"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0012",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "migrant-document-function",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Belgenin kanuni işlevi geçici kimlik sağlamaktır; kendiliğinden taşınmaz veya kesin vatandaşlık belgesi değildir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0012"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0013",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "naturalization-decision",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 8/4, gerekli işlemlerin tamamlanmasından sonra Cumhurbaşkanı kararıyla vatandaşlığa alınmayı düzenler.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0013"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "sourceQuoteSHA256": "5ae559de72a72f3415d919bcec2d062ab5b45fc1a8b6420613c7f7e395c05e1c",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0014",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "agricultural-credit-request-time",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Tarımsal projedeki yıllık işletme ve donatım kredilerini devirden sonraki iki yıl içinde istemeyen ailelere bu krediler kullandırılmaz.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0014"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[62]",
+      "sourceQuoteSHA256": "ced34860cf4a08dc3d898f4aaebc6b010fe49783ee5f54aa4e66f525613423fe",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0015",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "transfer-cost",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Nakiller hazırlanacak nakil projesine göre Devlet tarafından karşılıksız sağlanır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0015"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[64]",
+      "sourceQuoteSHA256": "11bd66092797896aae218d73b0771af1600a4b0e9305c9fce809dcf655db2eff",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-010-BANK-0016",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "settled-migrant-request-time",
+      "legalProvisionId": "LP-5543-10",
+      "legalReference": {
+        "article": 10,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Türkiye’ye gelişten itibaren iki yıl içinde iskânını istemeyen göçmenler iskân edilemez ve karşılıksız yardımları kesilir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0016"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.10; resmî tam HTML p[67]",
+      "sourceQuoteSHA256": "84c16240abcc04fca1c46ec8656a8013231c9ce2e54fe1453cb53625e66c1b35",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-011-BANK-0017",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "nomad-request-time",
+      "legalProvisionId": "LP-5543-11",
+      "legalReference": {
+        "article": 11,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 11, iskân duyurusunun bitiminden sonra yüz seksen gün içinde başvurmayan ailelerin iskân edilmeyeceğini belirtir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0017"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.11; resmî tam HTML p[70]",
+      "sourceQuoteSHA256": "2f628687a81ae717624f6efd6c1ae11458741169e03afe0057023adf7fc57db3",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0018",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "expropriated-request-time",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 12/4 kapsamındaki ailelerden duyuru bitiminden sonra doksan gün içinde müracaat etmeyenler iskân edilmezler.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0018"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[79]",
+      "sourceQuoteSHA256": "03b4bd729fa158594f7e452d415a97c3e69ae3742c9d8af39e2b28683116ae65",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-014-BANK-0019",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "refusal-effect",
+      "legalProvisionId": "LP-5543-14",
+      "legalReference": {
+        "article": 14,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 14’teki şartlar oluşunca hak sahipliği Mahalli İskân Komisyonunca iptal edilir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0019"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.14; resmî tam HTML p[85]",
+      "sourceQuoteSHA256": "3ede279b057494efc55ceb0d2ff6371572faa717b5738a3029a6c07254e53d7d",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-017-BANK-0020",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "family-spouses",
+      "legalProvisionId": "LP-5543-17",
+      "legalReference": {
+        "article": 17,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 17, karı ile kocayı bir aile olarak sayar; aile bir bütün kabul edilir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0020"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[107]",
+      "sourceQuoteSHA256": "2036f75cdab07c4d3504d7018902d27a9438a9ca8fef0f99c6912bd2392e0626",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-019-BANK-0021",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "conveyance-authority",
+      "legalProvisionId": "LP-5543-19",
+      "legalReference": {
+        "article": 19,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Dağıtım defter veya kararlarının vali ya da kaymakamlarca onanması temliktir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0021"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[121]",
+      "sourceQuoteSHA256": "00d9618e2a213ff3b2a87c44f3472e37a9a463ca4bba6155ab0c741225f013d4",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-019-BANK-0022",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "equal-shares",
+      "legalProvisionId": "LP-5543-19",
+      "legalReference": {
+        "article": 19,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 19/2, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle temlik ve tescili düzenler.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0022"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[122]",
+      "sourceQuoteSHA256": "0f2e5735f8a2d734f0f1eac6833355d3a65d0b0a5a0836d795beb331b22da565",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-022-BANK-0023",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "removal-authority",
+      "legalProvisionId": "LP-5543-22",
+      "legalReference": {
+        "article": 22,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 22, işgalin kime ait olduğuna bakılmaksızın en büyük mülki amirin yazılı emriyle kollukça boşaltmayı düzenler.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0023"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.22; resmî tam HTML p[134]",
+      "sourceQuoteSHA256": "b1d8d2d8b5b97f9fc55ceb33c825b8aa1fba68aff6db334444ab06a0fea0a68a",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-027-BANK-0024",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "mortgage-rank",
+      "legalProvisionId": "LP-5543-27",
+      "legalReference": {
+        "article": 27,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 27/6, yardımın tamamı için verilecek taşınmazlarda Hazine lehine birinci derece ve birinci sıra ipotek öngörür.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0024"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[179]",
+      "sourceQuoteSHA256": "648c7e2096f5c8be3a8cf28f20b3fddbb0e33d7be89adb61303bf18ac89c787f",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-039-BANK-0025",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "village-sale-revenue",
+      "legalProvisionId": "LP-5543-39",
+      "legalReference": {
+        "article": 39,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 39, köy taşınmazlarının hak sahiplerine satışından elde edilen paranın köy bütçesine kaydını öngörür.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0025"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.39; resmî tam HTML p[233]",
+      "sourceQuoteSHA256": "54631ea64f766455c8fe380af53041ed9533b0ce293a570b854f10471cbd08fe",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0026",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "physical-relocation-credit",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 3/c, köy gelişme alanındaki arsa satışından sonraki kredi desteğini fiziksel yerleşim kapsamına alır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0026"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[20]",
+      "sourceQuoteSHA256": "b6c7f0bb452651d6fc2eb82065fe203dbd7ed8a6c1be74eae76514bfaf65457a",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0027",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "nomad-mobility",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Tanım, tabiat ve iklim şartlarına göre yurt içinde yaylak ve kışlaklar arasında göçmeyi arar.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0027"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0028",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "nomad-group-livelihood",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Sabit ve daimi konuta bağlı olmadan göçer hayvancılıkla geçinme ve faaliyeti grup halinde yürütme birlikte tanımda yer alır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0028"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-004-BANK-0029",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-004-01",
+      "subtopic": "security-exclusion",
+      "legalProvisionId": "LP-5543-4",
+      "legalReference": {
+        "article": 4,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 4, güvenlik bakımından gelmeleri uygun görülmeyenlerin göçmen kabul edilmeyeceğini açıkça belirtir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0029"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.4; resmî tam HTML p[33]",
+      "sourceQuoteSHA256": "ed50987b85ed2b20b9a9d8bb387d403ce7addb4022c344fdde99d1e834eba659",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-005-BANK-0030",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-005-01",
+      "subtopic": "reference-degree",
+      "legalProvisionId": "LP-5543-5",
+      "legalReference": {
+        "article": 5,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 5/1’de Türk uyruklu ve Türkiye’deki birinci veya ikinci derecede yakının referansı başvuru yollarından biridir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0030"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-005-BANK-0031",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-005-01",
+      "subtopic": "consular-alternative",
+      "legalProvisionId": "LP-5543-5",
+      "legalReference": {
+        "article": 5,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Maddede yakın referansı veya bulunulan ülkedeki konsolosluk temsilciliğine bizzat müracaat alternatifleri düzenlenmiştir; diğer kabul şartları da aranır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0031"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-005-BANK-0032",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-005-01",
+      "subtopic": "joint-examination",
+      "legalProvisionId": "LP-5543-5",
+      "legalReference": {
+        "article": 5,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 5’teki uygunluk incelemesi Dışişleri ve İçişleri bakanlıklarınca yapılır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0032"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0033",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "reception-budget-urgency",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 8/2, kabul merkezi giderleri için ivedilikle ödenek aktarılmasını düzenler; bu, tanımdaki iskân yardımı istememe şartından farklı bir mali işlem bilgisidir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0033"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[48]",
+      "sourceQuoteSHA256": "d7349f0edd1fa4cbec1e07890d65f6bf762cf8e33cd00ce527eb9f6ac0709e15",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0034",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "reception-center-stay",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 8/1 kabul merkezlerindeki misafirliği sağlık, gümrük, idari ve nakil işlemlerinin tamamlanmasına bağlar.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0034"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[47]",
+      "sourceQuoteSHA256": "ca825832b4a4dc7ce4c5f36ed1275062db78f2b95d845c17dfe048b9a4e1e60c",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0035",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "reception-support-authority",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "2020 değişikliği işlenmiş madde 8/1’de görev İçişleri Bakanlığındadır; Kızılay da yardımcı olur ve ihtiyaçlar karşılıksız karşılanır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0035"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[47]",
+      "sourceQuoteSHA256": "ca825832b4a4dc7ce4c5f36ed1275062db78f2b95d845c17dfe048b9a4e1e60c",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0036",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "document-application-place",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "İskânlı göçmenler iskân için belirlenen yerde; serbest göçmenler ise yerleştikleri yerde en büyük mülki amire müracaat ederler.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0036"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0037",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "citizenship-declaration",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 8/3, Vatandaşlığa Girme Beyannamesinin imzalanarak Göçmen Belgesi alınmasını zorunlu tutar.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0037"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0038",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "document-admission-basis",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Göçmen Belgesinde kişinin Kanunun hangi maddesine göre yurda kabul edildiği belirtilir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0038"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[49]",
+      "sourceQuoteSHA256": "1c4cdf0e7d8c12830f430110445b7284a2e406a3f81c1f3b4d65c8c2416720da",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0039",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "unaccompanied-minor-age",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 8/4’ün son cümlesi kimsesiz gelen küçüklerin yaşlarına bakılmaksızın vatandaşlığa alınacağını düzenler.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0039"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "sourceQuoteSHA256": "5ae559de72a72f3415d919bcec2d062ab5b45fc1a8b6420613c7f7e395c05e1c",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0040",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "later-exclusion-discovery",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 4’teki engellerden birinin sonradan saptanması halinde göçmenlik işlemleri iptal edilir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0040"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[51]",
+      "sourceQuoteSHA256": "ceda1606dc2f009966ac6e86942e602bb889c00a7c922b14415882825249210a",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0041",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "housing-priority",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 9/1-a, iskân yardımlarında öncelikle konut ve arsasını belirtir.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0041"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[57]",
+      "sourceQuoteSHA256": "bdc6a7812a4df4ddecb1c2ccb923a7a8bfac97b560595a2654c447e9efaedd5f",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0042",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "craftsman-aid",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Geçimlerini sağlayacak işyeri ve arsası ile işletme kredisi esnaf, sanatkâr ve tüccarlar için sayılmıştır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0042"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[58]",
+      "sourceQuoteSHA256": "e674bc1acf24f873096a9a33481eca095e76b2aebccc17bbefefe77d40118b5c",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0043",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "farmer-aid-kind",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 9/1-c çiftçilere tarımsal projeye göre aynî ve nakdî işletme ve donatım kredilerini de kapsayan yardımları sayar.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0043"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[59]",
+      "sourceQuoteSHA256": "8e7b1247e3c8d899871dd06b20d621173384c4147972e4bc60e5bd94cbe4c273",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0044",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "self-found-property-approval",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 9/1-ç, hak sahibinin talebi ve kendi bulup teklif ettiği varlığın Bakanlıkça uygun görülmesi halinde kredi yolunu düzenler.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0044"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[60]",
+      "sourceQuoteSHA256": "3a39a349e0909e0e63423d60284b385f5aaf9a2ccaf9687544ba0819b6efeb87",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0045",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "settlement-indebtedness",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 9/1’in sonuç cümlesi sayılan yardımlarla iskânın Kanun hükümlerine göre borçlandırma yoluyla yapılacağını belirtir; diğer fıkralardaki karşılıksız yardımlar ayrıdır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0045"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[61]",
+      "sourceQuoteSHA256": "a49f6b8fd8ff39a030c3aa56a419eca4b9d8e4c1db7884bb46cee8efb0567ca9",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0046",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "clothing-oneoff-need",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 9/3, sayılan gruplardan muhtaç durumda olanlara giyecek yardımını bir defaya mahsus olarak düzenler.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0046"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "sourceQuoteSHA256": "e90b3c7fffe268ad0761d33b070b259cb2dc44720706121b7322893ceadee4c1",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-010-BANK-0047",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "late-settled-migrant-result",
+      "legalProvisionId": "LP-5543-10",
+      "legalReference": {
+        "article": 10,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 10’daki iki yıllık talep süresinin geçirilmesi iskân edilememeye ve devam eden karşılıksız yardımların kesilmesine yol açar.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0047"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.10; resmî tam HTML p[67]",
+      "sourceQuoteSHA256": "84c16240abcc04fca1c46ec8656a8013231c9ce2e54fe1453cb53625e66c1b35",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-011-BANK-0048",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "nomad-consultation",
+      "legalProvisionId": "LP-5543-11",
+      "legalReference": {
+        "article": 11,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 11, İçişleri Bakanlığı ile gerektiğinde diğer ilgili kamu kurum ve kuruluşlarının görüşünün alınmasını öngörür.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0048"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.11; resmî tam HTML p[70]",
+      "sourceQuoteSHA256": "2f628687a81ae717624f6efd6c1ae11458741169e03afe0057023adf7fc57db3",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0049",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "nonowner-three-year-start",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 12/1-b, etütlerin başladığı takvim yılı başlangıcından en az üç yıl önce sahaya yerleşmiş olmayı arar.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0049"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[75]",
+      "sourceQuoteSHA256": "7a9d4617f8153957fcfa637156457a21567fec029660df1971cf0d0173c260e5",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0050",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "left-before-studies",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 12/2’nin ilk cümlesi, etüt başlangıcından önce yerini terk eden bu ailelerin iskân edilmeyeceğini belirtir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0050"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[77]",
+      "sourceQuoteSHA256": "a7282b51471d67b3b4b1a1cae81d8a49949529f54b7eed342951060811262be7",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0051",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "within-village-process",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Yazılı başvuru üzerine ilgili valiliğin teklifi ve İçişleri Bakanlığının olumlu görüşü alınmak şartıyla Bakanlıkça aynı köy hududunda iskân yapılabilir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0051"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[78]",
+      "sourceQuoteSHA256": "bc45562f3fbdcced1ecdcdb4b44f7d1c367f57f91d55abf28953435ff3f578a7",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-014-BANK-0052",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "second-settlement-ban",
+      "legalProvisionId": "LP-5543-14",
+      "legalReference": {
+        "article": 14,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 14, bu durumdaki ailelerin ikinci bir iskân talebinde bulunamayacağını belirtir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0052"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.14; resmî tam HTML p[85]",
+      "sourceQuoteSHA256": "3ede279b057494efc55ceb0d2ff6371572faa717b5738a3029a6c07254e53d7d",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-016-BANK-0053",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "village-majority",
+      "legalProvisionId": "LP-5543-16",
+      "legalReference": {
+        "article": 16,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 16/2, birinci fıkranın (a) ve (b) bentlerindeki hizmetler için köy seçmen listesinde kayıtlıların yarıdan bir fazlasının başvurusunu esas alır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0053"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[101]",
+      "sourceQuoteSHA256": "bec4bef0a6fdb5ec111e9e0f63d3f6f253bb6655039cb2c507fa9db504fc3e39",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-017-BANK-0054",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "separate-married-family",
+      "legalProvisionId": "LP-5543-17",
+      "legalReference": {
+        "article": 17,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 17/1-c evli çocukları, evli torunları ve çocuksuz dulları başlı başına aile kabul eder.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0054"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[109]",
+      "sourceQuoteSHA256": "3389925958d29a45ca0220e2d70035825f0b0cdcfee3ae8b00cb1e650e7134d9",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-017-BANK-0055",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "orphan-sibling-shares",
+      "legalProvisionId": "LP-5543-17",
+      "legalReference": {
+        "article": 17,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "2020 değişikliği işlenmiş madde 17/1-ç, anasız ve babasız bekâr kardeş çocukları birlikte ve eşit hisselerle aile olarak iskân eder.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0055"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[110]",
+      "sourceQuoteSHA256": "d1ac39802f60ef1b2d2cc852c30c39b740eb2af042b2d6817d88b969f22b08ff",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0056",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "recent-disposal-exception",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 12/2, zorunlu hal olmadan elden çıkarma ile yerine eşdeğer veya daha değerli taşınmaz almamayı birlikte esas alır; zorunlu haller yönetmelikle belirlenir.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0056"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[77]",
+      "sourceQuoteSHA256": "a7282b51471d67b3b4b1a1cae81d8a49949529f54b7eed342951060811262be7",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0057",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "insufficient-expropriation-deposit",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 12/4, bedel belirlenen miktardan azsa kamulaştırma ve tezyidi bedellerinin tamamını Bakanlık Merkez Muhasebe Birimi Hesabına yatırma taahhüdünü arar.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0057"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[79]",
+      "sourceQuoteSHA256": "03b4bd729fa158594f7e452d415a97c3e69ae3742c9d8af39e2b28683116ae65",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-016-BANK-0058",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "disaster-unaffected-family-request",
+      "legalProvisionId": "LP-5543-16",
+      "legalReference": {
+        "article": 16,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 16/1-c, afete maruz kalmayan ailelerin talepleri halinde yeni yerleşim yerine eklenmesini kapsar.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0058"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[96]",
+      "sourceQuoteSHA256": "10dc15a5ba96517759c67b9f1d578690c0fbdbf32df323a646d5cc6bbf65b94d",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-016-BANK-0059",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "model-project-context",
+      "legalProvisionId": "LP-5543-16",
+      "legalReference": {
+        "article": 16,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 16/1-d, konut ve işletme binaları ile sosyal tesislerin tiplerinde çevrenin iklimi, sosyal-ekonomik şartlar ve yapı malzemesi imkânlarını esas alır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0059"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[98]",
+      "sourceQuoteSHA256": "a2e45305cd4b73606905744350456ca95a90fec07c0461f981d47eb9a59a1a0c",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-016-BANK-0060",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "reserve-plot-credit-method",
+      "legalProvisionId": "LP-5543-16",
+      "legalReference": {
+        "article": 16,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 16/1-e, tamamlanmış köy uygulamalarında rezerv arsa alan ailelere kendi evini yapana yardım yöntemiyle kredi açılmasını öngörür.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0060"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[99]",
+      "sourceQuoteSHA256": "e767c188d4915eb7a0450a7136281cf50c6e1106f3064c6467191ea46738e918",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-018-BANK-0061",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "central-commission-formation",
+      "legalProvisionId": "LP-5543-18",
+      "legalReference": {
+        "article": 18,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 18/1, ihtiyaç halinde Bakana veya görevlendireceği kişiye bağlı başkanlık ve kurum temsilcilerinden oluşumu düzenler.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0061"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.18; resmî tam HTML p[114]",
+      "sourceQuoteSHA256": "3cc7fa03a5dc007dc4578125e6123cab97c869ecdbde1a5635dd0d554224b657",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-018-BANK-0062",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "local-commission-allocation",
+      "legalProvisionId": "LP-5543-18",
+      "legalReference": {
+        "article": 18,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 18/3, mahallin en büyük mülki amiri veya görevlendireceği kişinin başkanlığındaki Mahalli Komisyonu tespit ve tahsise yetkili kılar.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0062"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.18; resmî tam HTML p[116]",
+      "sourceQuoteSHA256": "a0179cf4ef683ec18a1d85549e9953e034f8b468b2a722592a6ae6afc5c3c8c8",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-019-BANK-0063",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "conveyance-approval-amount",
+      "legalProvisionId": "LP-5543-19",
+      "legalReference": {
+        "article": 19,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 19/1 dağıtım defter veya kararlarının onanmasını temlik sayar ve onaylı miktarların geçerli olduğunu belirtir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0063"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[121]",
+      "sourceQuoteSHA256": "00d9618e2a213ff3b2a87c44f3472e37a9a463ca4bba6155ab0c741225f013d4",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-020-BANK-0064",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "ownership-litigation-defendants",
+      "legalProvisionId": "LP-5543-20",
+      "legalReference": {
+        "article": 20,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 20/1 mülkiyet davasında yeni maliki ve tapudaki tescil durumuna göre Hazineyi birlikte esas alır.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0064"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.20; resmî tam HTML p[125]",
+      "sourceQuoteSHA256": "04e798deca8f74a9ffd7722dc181b19aeba82a0f8a7a23f2b572602c6e28994e",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-020-BANK-0065",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "post-year-price-date",
+      "legalProvisionId": "LP-5543-20",
+      "legalReference": {
+        "article": 20,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 20/2, temlik tarihinden bir yıl sonra açılabilecek bedel davasında el koyma tarihindeki rayiç bedeli belirtir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0065"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.20; resmî tam HTML p[126]",
+      "sourceQuoteSHA256": "90fbbb30ecb4a5962012dc088d504b3e4dfd990c3bbd320e45e4d0f4feb29b2e",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-021-BANK-0066",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "release-two-conditions",
+      "legalProvisionId": "LP-5543-21",
+      "legalReference": {
+        "article": 21,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 21/1, beşinci yılın sonunda başlamak üzere borçlandırma bedelinin tamamını ödeyenlerin tapu belirtmesinin kaldırılmasını düzenler.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0066"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "sourceQuoteSHA256": "17fefc365162c933c8d5c8899c2d8c28635bec104582edd7fdaface7ed6f74d8",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-021-BANK-0067",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "unpaid-property-prohibitions",
+      "legalProvisionId": "LP-5543-21",
+      "legalReference": {
+        "article": 21,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 21/1 satış, bağış, rehin, satış vaadi şerhi ve haczi borcun tamamı ödenmeden yasaklar.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0067"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "sourceQuoteSHA256": "17fefc365162c933c8d5c8899c2d8c28635bec104582edd7fdaface7ed6f74d8",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-021-BANK-0068",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "valid-excuse-documentation",
+      "legalProvisionId": "LP-5543-21",
+      "legalReference": {
+        "article": 21,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 21/2, ticari faaliyet dahil geçim imkânı, eğitim, yurt dışına çıkış, askerlik, tutukluluk, afet ve uzun hastalık gibi özürleri belgelendirme koşuluyla dikkate alır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0068"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "sourceQuoteSHA256": "329d479c3d668fdbeee593595c0c8e064a41855d5ba2280895a320a77d0c04e1",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-021-BANK-0069",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "recovery-judicial-registration",
+      "legalProvisionId": "LP-5543-21",
+      "legalReference": {
+        "article": 21,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 21/2 hak sahipliğinin Mahalli Komisyonca iptalini ve iskân amaçlı kullanım için tapu iptal/Hazineye tescilin mahkemeden istenmesini düzenler.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0069"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "sourceQuoteSHA256": "329d479c3d668fdbeee593595c0c8e064a41855d5ba2280895a320a77d0c04e1",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-023-BANK-0070",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "judicial-personnel-exclusion",
+      "legalProvisionId": "LP-5543-23",
+      "legalReference": {
+        "article": 23,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 23/1, yargı organları hariç Devlet, özel idare ve belediye personeli ile araç-gereçten yararlanmayı düzenler.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0070"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.23; resmî tam HTML p[136]",
+      "sourceQuoteSHA256": "c1f1a973afd3b94363c0928078123088769030ec465d551f8bf7eb77d0aeca88",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-024-BANK-0071",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "project-tools-cooperative",
+      "legalProvisionId": "LP-5543-24",
+      "legalReference": {
+        "article": 24,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 24/1, ortak plan ve projelerdeki tarım araç ve gereçlerini iskânlı ailelerin kooperatif kurması şartıyla kullandırır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0071"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.24; resmî tam HTML p[140]",
+      "sourceQuoteSHA256": "4cb9f38cebfad6eb1dba5b1c177d3aedb0a0657372ccdebca66172cbf992be5f",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-027-BANK-0072",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "valuation-bases",
+      "legalProvisionId": "LP-5543-27",
+      "legalReference": {
+        "article": 27,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 27/1 yapılarda maliyet bedelini, Hazine arazilerinde rayiç bedeli esas alır; kamulaştırılan veya satın alınan taşınmazlarda ayrıca ilgili bedeller düzenlenir.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0072"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-027-BANK-0073",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "reallocation-after-year",
+      "legalProvisionId": "LP-5543-27",
+      "legalReference": {
+        "article": 27,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 27/1’in özel cümlesi bir yıl içinde tahsis edilmeyen taşınmazın yeniden uygulamaya alınmasında yeni hak sahibinin rayiç bedelden borçlandırılmasını öngörür.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0073"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-027-BANK-0074",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "contract-cash-discount",
+      "legalProvisionId": "LP-5543-27",
+      "legalReference": {
+        "article": 27,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "2022’de eklenen cümle, belirtilen ailelerin sözleşme aşamasındaki peşin ödemesinde yüzde altmış beş indirim öngörür; ödemesiz süre içindeki oranlar yönetmeliğe bırakılmıştır.",
+      "cognitiveType": "recall",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0074"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-027-BANK-0075",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "interest-distinction",
+      "legalProvisionId": "LP-5543-27",
+      "legalReference": {
+        "article": 27,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 27/3 taşınmaz borçlandırma bedellerini faizsiz; sayılan krediler ve taksitli arsa satışlarını faizli düzenler.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0075"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[176]",
+      "sourceQuoteSHA256": "c5c5a5f110df5b84c75ccd6cd5b60958e50f438ac273d0c28a0d925517b83afd",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-028-BANK-0076",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "expropriation-balance",
+      "legalProvisionId": "LP-5543-28",
+      "legalReference": {
+        "article": 28,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 28, yatırılmış bedelin borçtan düşülmesini; fazla ise iadeyi, eksik ise ilgilinin borçlandırılmasını düzenler.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0076"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.28; resmî tam HTML p[185]",
+      "sourceQuoteSHA256": "f82490aa4275d238b0a88f86cce722adfabda8b93843cb724ebe520fa26e5c93",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-029-BANK-0077",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "recovery-refund-items",
+      "legalProvisionId": "LP-5543-29",
+      "legalReference": {
+        "article": 29,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 29/1, mahkeme kararıyla geri almada önceden ödenen taksitler veya zaruri ve faydalı giderlerin geri verilecek paralar tertibinden iadesini düzenler.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0077"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.29; resmî tam HTML p[188]",
+      "sourceQuoteSHA256": "77f92987824e7e1509aec9ec1e218215f2f174370836274bbb7d0126d9290f2c",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-030-BANK-0078",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "nondebt-services",
+      "legalProvisionId": "LP-5543-30",
+      "legalReference": {
+        "article": 30,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 30 altyapı ve ortak tesislerin yanında imar planlarını ve teknik yardım niteliğindeki tip projeleri karşılıksız hizmetler arasında sayar.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0078"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.30; resmî tam HTML p[191]",
+      "sourceQuoteSHA256": "2a8a54cde5afc29e967421a4a343af7e2b93050df117138571e3188bd4192ba0",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-034-BANK-0079",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "customs-used-once",
+      "legalProvisionId": "LP-5543-34",
+      "legalReference": {
+        "article": 34,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 34, Kanuna göre kabul edilen göçmenlerin kullanılmış zati, mesleki ve ev eşyasını bir defaya mahsus muaf tutar.",
+      "cognitiveType": "analysis",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0079"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.34; resmî tam HTML p[205]",
+      "sourceQuoteSHA256": "07e58edbccfdceaec9311101065a6a868c103c7c9cfb46566d50acd611a1e435",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-036-BANK-0080",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "building-permit-exemptions",
+      "legalProvisionId": "LP-5543-36",
+      "legalReference": {
+        "article": 36,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 36/4, Kanuna göre yapılacak yapıların ruhsat ve izinlerini 2464 sayılı Kanundaki bina inşaat ve imar harçlarından istisna eder; bu bir ruhsatsız yapı izni değildir.",
+      "cognitiveType": "comprehension",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0080"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.36; resmî tam HTML p[214]",
+      "sourceQuoteSHA256": "62b8c3e602f1c6915b298e9278a73a80f6fd0e056d13c134afdb03a7fe92b112",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0081",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "agricultural-one-element-scenario",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 3/a, sayılan unsurların tümünün aynı anda verilmesini şart koşmaz; bir veya birkaçıyla tarımsal iskân yapılabilir.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0081"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[18]",
+      "sourceQuoteSHA256": "8f70a8c963a92fda5d815e9c953b6dc6830d9273783fa08dad3b8bf23397f46b",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0082",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "seasonal-worker-not-nomad",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Sabit konuta bağlılık ve göçer hayvancılık yapmama somut olayda tanımın temel unsurlarını karşılamaz; her mevsimlik çalışan göçebe sayılamaz.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0082"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[21]",
+      "sourceQuoteSHA256": "1c745b732a041c695e55c9d9fdfb354129781fd07cbcae83a9c2ac96b693d1e6",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-003-BANK-0083",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-003-01",
+      "subtopic": "origin-without-culture-scenario",
+      "legalProvisionId": "LP-5543-3",
+      "legalReference": {
+        "article": 3,
+        "paragraph": null,
+        "clause": "d"
+      },
+      "objective": "Madde3/d, göçmen tanımında Türk soyundan olmayı ve Türk kültürüne bağlılığı birlikte arar. Soy unsuru tek başına kültüre bağlılık şartının yerine geçmez.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0083"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.3; resmî tam HTML p[22]",
+      "sourceQuoteSHA256": "2fc17bd51cdda4b62da5deb46114fa351253d942025001bdf2f7f8a8b58680a4",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-005-BANK-0084",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-005-01",
+      "subtopic": "consular-no-reference-scenario",
+      "legalProvisionId": "LP-5543-5",
+      "legalReference": {
+        "article": 5,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Maddedeki veya bağlacı iki başvuru yolunu ayırır; somut olayda diğer koşulların sağlanması ayrıca verilmiştir.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0084"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.5; resmî tam HTML p[36]",
+      "sourceQuoteSHA256": "24afc97426a566a1f65aef99836162efd25c2c724edba0c1d673df302e66b6ae",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-008-BANK-0085",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-008-01",
+      "subtopic": "minor-relatives-scenario",
+      "legalProvisionId": "LP-5543-8",
+      "legalReference": {
+        "article": 8,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 8/4, küçüğü önce anne-babaya; bunlar yoksa kan ve kayın hısımlarına bağlı tutar; kimsesiz küçükler için ayrıca hüküm vardır.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0085"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.8; resmî tam HTML p[50]",
+      "sourceQuoteSHA256": "5ae559de72a72f3415d919bcec2d062ab5b45fc1a8b6420613c7f7e395c05e1c",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0086",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "migrant-support-start-scenario",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 9/3’te göçmenler için sınırdan giriş, diğer sayılan gruplar için yeni iskân alanına nakledilmeye başlanması ayrı başlangıçlardır.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0086"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "sourceQuoteSHA256": "e90b3c7fffe268ad0761d33b070b259cb2dc44720706121b7322893ceadee4c1",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-009-BANK-0087",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-009-01",
+      "subtopic": "nomad-support-start-scenario",
+      "legalProvisionId": "LP-5543-9",
+      "legalReference": {
+        "article": 9,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 9/3 göçebeler bakımından nakledilmeye başlanma tarihini esas alır; konutun daha sonraki teslimi başlangıcı ertelemez.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0087"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.9; resmî tam HTML p[63]",
+      "sourceQuoteSHA256": "e90b3c7fffe268ad0761d33b070b259cb2dc44720706121b7322893ceadee4c1",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0088",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "partial-expropriation-scenario",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 12/1-a taşınmazların kısmen veya tamamen kamulaştırılması sonucu yerini terk zorunda kalan aileleri, talepleri halinde kapsar.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0088"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12/1; resmî tam HTML p[73–76]",
+      "sourceQuoteSHA256": "fa8840c162620cd8e32a15aec419f1907ae7b2945420fa86ec4da79c07a82996",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0089",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "nonowner-duration-calculation",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Ölçüm tarihi 1 Ocak 2026’dır; 1 Ocak 2022 bu tarihten dört yıl öncedir. Bu soru yalnız verilen yerleşiklik süresi şartını ölçer.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0089"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[75]",
+      "sourceQuoteSHA256": "7a9d4617f8153957fcfa637156457a21567fec029660df1971cf0d0173c260e5",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-012-BANK-0090",
+      "topicId": "T01",
+      "parentDraftObjectiveId": "LO-T01-012-01",
+      "subtopic": "within-village-written-application",
+      "legalProvisionId": "LP-5543-12",
+      "legalReference": {
+        "article": 12,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 12/3, valilik teklifi ve İçişleri olumlu görüşüne ek olarak ailenin yazılı başvurusunu ister.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0090"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.12; resmî tam HTML p[78]",
+      "sourceQuoteSHA256": "bc45562f3fbdcced1ecdcdb4b44f7d1c367f57f91d55abf28953435ff3f578a7",
+      "scopeSelectionBasis": "ExistingDraftObjectiveRefinement",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-016-BANK-0091",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "village-majority-calculation",
+      "legalProvisionId": "LP-5543-16",
+      "legalReference": {
+        "article": 16,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "100 kişilik listede yarı 50’dir; yarıdan bir fazla 51 olur. Yalnız 50 başvuru madde 16/2’deki eşiği sağlamaz.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0091"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.16; resmî tam HTML p[101]",
+      "sourceQuoteSHA256": "bec4bef0a6fdb5ec111e9e0f63d3f6f253bb6655039cb2c507fa9db504fc3e39",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-017-BANK-0092",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "unmarried-surviving-parent",
+      "legalProvisionId": "LP-5543-17",
+      "legalReference": {
+        "article": 17,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 17/1-b, evlenmemiş çocukların ana-baba veya bunlardan sağ olanıyla birlikte aile sayılmasını düzenler.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0092"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[108]",
+      "sourceQuoteSHA256": "c3f5156193136faba9d6a88982d2d102c51a0cbd23097080a0d11ef975b82617",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-017-BANK-0093",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "sole-orphan-child",
+      "legalProvisionId": "LP-5543-17",
+      "legalReference": {
+        "article": 17,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 17/1-ç, bekâr kardeşi olmayan veya tek kalan çocuğu başlı başına aile olarak kabul eder.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0093"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.17; resmî tam HTML p[110]",
+      "sourceQuoteSHA256": "d1ac39802f60ef1b2d2cc852c30c39b740eb2af042b2d6817d88b969f22b08ff",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-019-BANK-0094",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "living-family-at-conveyance",
+      "legalProvisionId": "LP-5543-19",
+      "legalReference": {
+        "article": 19,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 19/2 ilk temlik ve tescili, temlik tarihinde yaşayan aile fertleri adına eşit hisselerle düzenler; başka miras sorunları hakkında bu soru hüküm vermez.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0094"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.19; resmî tam HTML p[122]",
+      "sourceQuoteSHA256": "0f2e5735f8a2d734f0f1eac6833355d3a65d0b0a5a0836d795beb331b22da565",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-021-BANK-0095",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "debt-paid-early-scenario",
+      "legalProvisionId": "LP-5543-21",
+      "legalReference": {
+        "article": 21,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 21/1’de tam ödeme ile beşinci yıl sonuna ulaşma birlikte değerlendirilir. Üçüncü yıl bu zaman eşiğini sağlamaz.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0095"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[130]",
+      "sourceQuoteSHA256": "17fefc365162c933c8d5c8899c2d8c28635bec104582edd7fdaface7ed6f74d8",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-021-BANK-0096",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "education-excuse-scenario",
+      "legalProvisionId": "LP-5543-21",
+      "legalReference": {
+        "article": 21,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 21/2, belgelendirilmiş eğitimi kullanılmamayı açıklayan geçerli özür örnekleri arasında sayar; somut şartlar idarece değerlendirilir.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0096"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.21; resmî tam HTML p[131]",
+      "sourceQuoteSHA256": "329d479c3d668fdbeee593595c0c8e064a41855d5ba2280895a320a77d0c04e1",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-027-BANK-0097",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "cash-discount-calculation",
+      "legalProvisionId": "LP-5543-27",
+      "legalReference": {
+        "article": 27,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "1.000.000 TL’nin yüzde 65’i 650.000 TL indirimdir. Kalan 350.000 TL’dir. Soru yalnız sözleşme aşamasındaki kanuni oranı uygular; ödemesiz dönem oranları sorulmaz.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0097"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.27; resmî tam HTML p[174]",
+      "sourceQuoteSHA256": "8a4753446c4f899efdf01d9682f4a4432dd19b70c3842580733e06e37bfa02a3",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-028-BANK-0098",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "expropriation-surplus-scenario",
+      "legalProvisionId": "LP-5543-28",
+      "legalReference": {
+        "article": 28,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Güncelleme sonrası yatırılmış bedel borçtan düşülür; 900.000−700.000=200.000 TL fazla aileye iade edilir.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0098"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.28; resmî tam HTML p[185]",
+      "sourceQuoteSHA256": "f82490aa4275d238b0a88f86cce722adfabda8b93843cb724ebe520fa26e5c93",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-040-BANK-0099",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "restricted-land-exception-scenario",
+      "legalProvisionId": "LP-5543-40",
+      "legalReference": {
+        "article": 40,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 40/2, zorunlu hallerde ilgili kurumların uygun görüşü doğrultusunda kullanıma izin verir; iki unsur birlikte aranır.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0099"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.40; resmî tam HTML p[236]–p[237]",
+      "sourceQuoteSHA256": "15889068b1d104d20108ab12c7a21f25eab721b54a7845fd65fcb934d2199b86",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    },
+    {
+      "id": "LO-T01-041-BANK-0100",
+      "topicId": "T01",
+      "parentDraftObjectiveId": null,
+      "subtopic": "common-facility-maintenance-scenario",
+      "legalProvisionId": "LP-5543-41",
+      "legalReference": {
+        "article": 41,
+        "paragraph": null,
+        "clause": null
+      },
+      "objective": "Madde 41/2, koruma, bakım, onarım ve amaca uygun kullanım sorumluluğunu adına tescil edilen tüzel kişiye; kontrol ve tedbiri mülki amirlere verir.",
+      "cognitiveType": "application",
+      "importance": "medium",
+      "prerequisiteObjectiveIds": [],
+      "relatedQuestionIds": [
+        "Q-T01-B-0100"
+      ],
+      "learningState": "Unmeasured",
+      "status": "Draft",
+      "scopeStatus": "Pending",
+      "sourceSnapshotId": "SRC-OFFICIAL-T01-UYAP-20261106-4e156e056724",
+      "sourceLocator": "5543 sayılı Kanun m.41; resmî tam HTML p[241]",
+      "sourceQuoteSHA256": "f0f5d64b687394719d30b387f77e40b1c1d1b95d48e8597b006ba94dd6116874",
+      "scopeSelectionBasis": "SelectedOperationalIskanProvisionProposal; not whole-law scope assumption",
+      "examScopeEvidence": "Resmî teknik müfredat s.2 T01; ayrıntılı hedef seçimi bağımsız inceleme bekliyor."
+    }
+  ],
+  "selectionEvidence": [
+    {
+      "articleNumber": 3,
+      "selectionReason": "İskân türleri ve yararlanıcı tanımları",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 23,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 4,
+      "selectionReason": "Göçmen kabul engelleri",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 57,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 5,
+      "selectionReason": "Münferit göçmen kabul şartları ve işlemleri",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 63,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 8,
+      "selectionReason": "Belge, geçici barınma ve vatandaşlığa kabul",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 91,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 9,
+      "selectionReason": "Yardım türleri, şartları ve başlangıçları",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 113,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 10,
+      "selectionReason": "İskânlı göçmenlerde hak kaybına yol açan talep süresi",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 148,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 11,
+      "selectionReason": "Göçebelerde görüş alma ve başvuru süresi",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 154,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 12,
+      "selectionReason": "Kamulaştırılanların talebi, yerleşikliği ve mali taahhütleri",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 160,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 14,
+      "selectionReason": "Gösterilen yeri reddetmenin hak sahipliğine etkisi",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 192,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 16,
+      "selectionReason": "Kırsal fiziksel yerleşim, proje ve katılım koşulları",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 205,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 17,
+      "selectionReason": "İskânda aile birimi ve eşit pay koşulları",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 236,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 18,
+      "selectionReason": "Merkezi ve mahalli görev ve yetki ayrımı",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 246,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 19,
+      "selectionReason": "Temlik makamı, işlem ve hak sahipleri",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 265,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 20,
+      "selectionReason": "Mülkiyet ihtilafında taraf ve bedel ölçütü",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 272,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 21,
+      "selectionReason": "Temlik kısıtları, geçerli özür ve yargısal geri alma",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 278,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 22,
+      "selectionReason": "İskân taşınmazını işgalden koruma yetkisi",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 292,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 23,
+      "selectionReason": "İskân işlerinin yürütülmesinde personel yetki ve istisnaları",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 299,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 24,
+      "selectionReason": "Proje araçlarında kooperatif koşulu",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 311,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 27,
+      "selectionReason": "Borçlandırma, bedel, indirim, faiz ve teminat ayrımları",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 358,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 28,
+      "selectionReason": "Kamulaştırma bedeli mahsup, fark ve iade",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 398,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 29,
+      "selectionReason": "Mahkemece geri almada taksit ve faydalı gider iadesi",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 405,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 30,
+      "selectionReason": "Borçlandırılmayan plan ve teknik hizmetler",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 411,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 34,
+      "selectionReason": "Göçmen eşyasında sınırlı muafiyet",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 444,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 36,
+      "selectionReason": "İskân yapılarına ilişkin harç/ücret ile ruhsat ayrımı",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 458,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 39,
+      "selectionReason": "Köy taşınmazında karar, değerleme ve gelir",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 507,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 40,
+      "selectionReason": "Arazi seçiminde yasak ve zorunlu hal istisnası",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 514,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    },
+    {
+      "articleNumber": 41,
+      "selectionReason": "Ortak tesis tescili, bakım sorumluluğu ve denetim",
+      "officialCurriculumSource": "https://kariyerkapisi.gov.tr/Ups/Evraklar/tekniksorulari011026.pdf",
+      "officialCurriculumSHA256": "48ec4152166be53f6582c6795d6b8c5e3eb3ae5f9e26a3ee383d595236cb98bb",
+      "officialCurriculumLocator": "s.2; Şube Müdürü (Teknik); 5543 sayılı İskân Kanunu; 4 soru",
+      "notesCrossReference": {
+        "driveFileId": "1cBkB1_7aZknzKJbaEtae4LZ2-9OZd1cu",
+        "contentSHA256": "769f620709d60d9399b72fa053f886923cb40dbdb7bba759a5cfbccd34d29d68",
+        "textSHA256": "25a787d780b448b3a01adbd08d66436f2ab16ee752f6042ce6522a4496791c6a",
+        "extractedTextLine": 523,
+        "headingMatched": true,
+        "privateNoteTextCopied": false
+      },
+      "status": "ProposedNotAutomaticallyApproved",
+      "selectionLimitation": "Başlık ve resmî mevzuat eşleşmesi seçim önerisini destekler; tek başına nihai sınav kapsamı onayı değildir."
+    }
+  ]
+}

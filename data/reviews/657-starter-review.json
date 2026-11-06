@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "source_integrity-independent-review",
+  "reviewType": "SeparateProcessModelAssistedOfficialProvisionReview",
+  "humanReview": false,
+  "candidateFileSHA256": "a0c2e59e38612369c0b9d5f6bb260e037676280ec879293b77c5fe6b5bbbc0d2",
+  "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "sourceArchiveHashChecks": 11,
+  "legalEdition": "preparation",
+  "examCutoffFinalized": false,
+  "reviewDecisionScope": "Pass supports controlled preparation-package publication only when separate reproducible source/rule checks pass; it is not human approval or final 2027 legal-edition acceptance.",
+  "correctedCandidates": [
+    "Q-O02-B-0001",
+    "Q-O02-B-0005",
+    "Q-O02-B-0006"
+  ],
+  "reviews": [
+    {
+      "questionId": "Q-O02-B-0001",
+      "candidateSha256": "060447f463b2cbac5139252616057158688cd8902bc4dce22cd3b09ff7e491e8",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "A) (Değişik: 31/7/1970 - 1327/2 md.) Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan Devlet memurlarını görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmaktır.",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[4]",
+      "notes": [
+        "Sınıflandırma etiketi resmî m.3 HTML p[3] başlığıyla, tanım ise p[4] ile birlikte kontrol edildi. Kariyer ve liyakat tanımları aynı maddenin p[6]/p[8] bentleriyle ayrılıyor; yetki devri ve hizmet içi eğitim sorulan ilkenin adı değil.",
+        "Liyakat çeldiricisinin ilk sürümündeki eksik cümle düzeltildi ve yeni hash üzerinden tekrar okundu. Senaryo sınıflandırma hedefini ölçüyor; diğer iki m.3 sorusu farklı temel ilkeyi ölçüyor.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0002",
+      "candidateSha256": "d2bbb878c9f2e9b5221408456b2e1f50c7a5034842e90a0061a281d8db628bf2",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "B) Devlet memurlarına, yaptıkları hizmetler için lüzumlu bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkanını sağlamaktır.",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[6]",
+      "notes": [
+        "Kariyer başlığı m.3 HTML p[5], ilerleme imkânı tanımı p[6] ile eşleştirildi. Liyakat/sınıflandırma farklı tanımlara ait; eşit işe eşit ücret ve yerinden yönetim bu tanımın adı değil.",
+        "Kariyerin sınıf içi ilerleme imkânı ayrı hedef; Q0001 nitelik/meslek sınıflamasıyla, Q0003 görevin sona erdirilmesini de kapsayan liyakatle karıştırılmadı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0003",
+      "candidateSha256": "6997eb3a2efb3c28fb58f1f5f4a5d669b109d398d267f8359ac317aba5c3a86a",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "C) Devlet kamu hizmetleri görevlerine girmeyi, sınıflar içinde ilerleme ve yükselmeyi, görevin sona erdirilmesini liyakat sistemine dayandırmak ve bu sistemin eşit imkanlarla uygulanmasında Devlet memurlarını güvenliğe sahip kılmaktır.",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[8]",
+      "notes": [
+        "Liyakat başlığı m.3 HTML p[7] ve tanımı p[8] birlikte okundu. Görevin sona erdirilmesini giriş/ilerlemeyle birlikte sayan tanım yalnız liyakattir.",
+        "Diğer dört seçenek, bu üç işlem grubunu birlikte tanımlamıyor. Aynı maddenin farklı bilgi boyutu soruluyor; yalnız kök kelimeleri değiştirilmiş bir Q0001/Q0002 tekrarı değil.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0004",
+      "candidateSha256": "e8917820af5f8c5260bb9a39f2c9bfec9481bac40357df9c4781c064c46aa354",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Aday olarak atanmış Devlet memurunun adaylık süresi bir yıldan az iki yıldan çok olamaz ve bu süre içinde aday memurun başka kurumlara nakli yapılamaz.",
+      "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[4]",
+      "notes": [
+        "Madde 54 p[4] adaylık boyunca başka kuruma nakli yasaklıyor. Kök bu maddedeki genel kuralla sınırlı; talep, karşı kurum kabulü, temel eğitim veya altı ayın dolması yasağı kaldıran şart olarak sunulmuyor.",
+        "Eski id3/id102 adaylık süresinin 1–2 yıl olmasını soruyordu; bu aday süreyi değil kurumlar arası nakil yasağını uyguluyor. Aynı hedefin ifade değişikliği sayılmadı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0005",
+      "candidateSha256": "6db9c4dfcb57aac5ed506986ff9ecb91948abf89efe9f6c9c4a98ed9089b86eb",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Madde 94 – Devlet memuru bağlı olduğu kuruma yazılı olarak müracaat etmek suretiyle memurluktan çekilme isteğinde bulunabilir. (Ek hüküm: 31/7/1970 - 1327/75 md.) Mezuniyetsiz veya kurumlarınca kabul edilen mazereti olmaksızın görevin terk edilmesi ve bu terkin kesintisiz 10 gün devam etmesi halinde, yazılı müracaat şartı aranmaksızın, çekilme isteğinde bulunulmuş sayılır.",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[2]",
+      "notes": [
+        "Madde 94 p[2] izin/kurumca kabul edilen mazeret yokluğunda kesintisiz 10 günlük terki, yazılı müracaat aranmaksızın çekilme isteğinde bulunulmuş sayılmaya bağlıyor. Doğru seçenek bu sonucu aynen koruyor; otomatik memurluktan çıkarma cezası ile karıştırmıyor.",
+        "İlk sürümdeki genel özel-hâl dışlaması düzeltildi: kök 96. maddedeki olağanüstü hal, seferberlik, savaş ve genel hayata müessir afeti tek tek, 95. maddedeki devir-teslimi de açıkça dışlıyor. Yeni sürüm yeniden incelendi.",
+        "Diğer dört seçenek m.94 tarafından doğan sonuç değil. Q0006 aynı maddeyi kullansa da orada yazılı çekilme ve bir ay sonrası haber verme usulü ölçülüyor.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0006",
+      "candidateSha256": "01949a76cd8992e88f551b8fe829f524151173ad79b66b8f5b7b79040ad24aa9",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Çekilmek istiyen memur yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder. Yerine atanan kimse bir aya kadar gelmediği veya yerine bir vekil atanmadığı takdirde, üstüne haber vererek görevini bırakabilir.",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[3]",
+      "notes": [
+        "Madde 94 p[3] bir ay içinde yerine atananın gelmemesi/vekil atanmaması halinde üstüne haber vererek ayrılmayı düzenliyor. Senaryoda bir ay ve her iki yokluk açıkça verildi; mahkeme izni, disiplin çıkarma kararı, Gazete ilanı veya bütçe yılı şartı kanunda yok.",
+        "95. madde devir-teslimi ve 96. maddedeki afet dâhil dört özel hâl düzeltilen kökte açıkça dışlanıyor. 94 p[4] olağanüstü mazeretli ayrılmanın bir ay kaydına tabi olmaması da okundu; senaryo bir ayı zaten doldurduğu için sonucu belirsizleştirmiyor.",
+        "Q0005 görevi terk/çekilme isteğinde bulunulmuş sayılma; bu soru ise yazılı isteğin kabulü beklenirken haber verme usulü. Hedef/bilişsel tekrar sayılmadı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0007",
+      "candidateSha256": "1ab0c84438762d42ca8cf8cafb79fd44f8b2a31423315481668b990af7537a4e",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+      "notes": [
+        "Madde 102 p[3] on yılı açıkça dahil ederek 20 günlük gruba alıyor. Kök hizmet süresini tam 10 yıl ve yol eklerini hariç tutarak 30 günlük grubun sınırını kapatıyor.",
+        "10/15/25 günlük ara süreler kaynakta yok; 30 gün yalnız on yıldan fazla hizmet için. Q0008 diğer hizmet grubunun süresini, bu soru sınır olayını uyguluyor.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0008",
+      "candidateSha256": "97ec65d2e42ff32d4968ba168706428accabb7122836745634f60a5a250f0cd4",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+      "notes": [
+        "Madde 102 p[3] on yıldan fazla hizmette 30 günü açıkça düzenliyor. Kök yol sürelerini hariç tuttuğu için 30 dışındaki 20/21/25/40 seçeneklerinden ikinci bir doğru çıkmıyor.",
+        "Q0007 tam 10 yılın dahil oluşunu uygulama düzeyinde; bu soru on yıldan fazla hizmet grubunu bilgi düzeyinde ölçüyor. Ayrı hizmet koşulu/öğrenme hedefi olarak kabul edildi.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0009",
+      "candidateSha256": "c1e51b3917f1c9cb7621e23dfb182ca5cc7ebc6fea734d22a1f064c0f67bc41c",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+      "notes": [
+        "Madde 102 p[3] yalnız zorunlu hâllerde, gidiş ve dönüş için en çok ikişer gün eklenebileceğini söylüyor. Doğru seçenek hem ayrı yönlerin üst sınırını hem ihtiyari eklenebilirliği koruyor.",
+        "Toplam iki gün/her durumda dört gün/zorunlu bir artı üç gün veya yalnız uzun hizmetlilere tanıma kaynakta yok. Q0007/Q0008 temel izin süresini, bu soru yol eki koşulunu ölçüyor.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0010",
+      "candidateSha256": "72eb3781823848e0f89b9c990a2f4ae47954cba71af79f675394344c56379eb7",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "A - Uyarma : Memura, görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesidir.",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[4]",
+      "notes": [
+        "Madde 125/A p[4] uyarma tanımındaki daha dikkatli olma gereği ile 125/B p[14] kınamadaki kusurlu olma bildirimi karşılaştırıldı. Kalan üç seçeneğin maddi yaptırım tanımları ayrı.",
+        "Q0011 aynı madde altında başka cezanın ayırt edici tanımını ölçüyor. Seçenekler aynı ceza ailesinde olsa da doğru bilgi ve hedef farklı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0011",
+      "candidateSha256": "d1a3f18828ec799203f929f8df9cbe9a2cced3522db51daf21a1de3ccfaf4b51",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "B - Kınama : Memura, görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesidir.",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[14]",
+      "notes": [
+        "Madde 125/B p[14] kusurlu olduğunun yazıyla bildirilmesini kınama olarak tanımlıyor. 125/A uyarma daha dikkatli olma gereği; 125/C,D,E ise kesinti/ilerleme engeli/çıkarma.",
+        "Çeldirici açıklamaları bu ayrımı doğru koruyor; ikinci doğru ceza adı bulunmadı. Uyarma ile kınama aynı hukuki tanım sayılmadı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0012",
+      "candidateSha256": "c33a25d17ba998295f7897c8d60d05a96ca1c79ef38afe6386f1afb155fa9cae",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "C - Aylıktan kesme : Memurun, brüt aylığından 1/30 - 1/8 arasında kesinti yapılmasıdır.",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[29]",
+      "notes": [
+        "Madde 125/C p[29] brüt aylık ve 1/30–1/8 sınırlarını birlikte içeriyor. Kök kanuni alt/üst sınırların tamamını sorduğu için dar veya geniş farklı aralıklar ikinci doğru değil.",
+        "Her çeldiricide yanlış alt veya üst sınır açıklaması kaynağa göre kontrol edildi. Bu oran/matrah hedefi diğer disiplin tanımı sorularından farklı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0013",
+      "candidateSha256": "f5d08a8119be77406b1da88ae485b2e1ae63150426eb4ef15358aaf4cd47ba25",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "D - Kademe ilerlemesinin durdurulması : Fiilin ağırlık derecesine göre memurun, bulunduğu kademede ilerlemesinin 1 - 3 yıl durdurulmasıdır.",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[41]",
+      "notes": [
+        "Madde 125/D p[41] fiilin ağırlığına göre ilerlemenin bulunduğu kademede 1–3 yıl durdurulmasını düzenliyor. Kök tam kanuni aralığı istiyor; 1–2 yıl bunun tamamı değil.",
+        "Altı ay–bir yıl, iki–dört ve üç–beş yıl seçenekleri kaynak aralığına uymuyor. Adaylık süresiyle görünüşte benzer sayılar farklı yaptırım hedefini tekrar hâline getirmiyor.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0014",
+      "candidateSha256": "f12b39c53d244b0d198e5fad268772e86f29f9f5cb3e0be56d5e4f95201fceb6",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "E - Devlet memurluğundan çıkarma : Bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarmaktır.",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[58]",
+      "notes": [
+        "Madde 125/E p[58] bir daha Devlet memurluğuna atanmamak üzere çıkarmayı cezanın tanımı olarak veriyor. Kök yalnız bu tanımı ayıran sonucu soruyor; özel af veya bütün kamu görevlerine giriş hakkında ek hüküm kurmuyor.",
+        "Dört çeldirici D,A,C,B cezalarının farklı sonuçlarına ait. Bu hedef uyarma/kınama/aylıktan kesme/kademe durdurmadan ayrı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0015",
+      "candidateSha256": "c4a10193bd586958d6ace54cc90491dc7c4b8e2fc99838f7062ab4b275c47934",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Hakkında memurluktan çıkarma cezası istenen memur, (…)[187] soruşturma evrakını incelemeye, tanık dinletmeye, disiplin kurulunda sözlü veya yazılı olarak kendisi veya vekili vasıtasıyla savunma yapma hakkına sahiptir.",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[4]",
+      "notes": [
+        "Madde 129 p[4] soruşturma evrakını inceleme, tanık dinletme ve disiplin kurulunda sözlü/yazılı savunmayı kendisi veya vekili aracılığıyla yapma haklarını birlikte tanıyor.",
+        "Dört çeldiricinin her biri bu haklardan birini veya savunmanın yer/kişisini haksız daraltıyor. Eski yürürlükten kaldırılan sicil dosyası hariç ibaresi p[6] dipnotunda ayrıca görüldü; seçeneklere taşınmadı.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0016",
+      "candidateSha256": "07018068c66e3eb7a845b57cf90ce131803ed2cb4a9e4755d5d5288d27c173e4",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "Soruşturmayı yapanın veya yetkili disiplin kurulunun 7 günden az olmamak üzere verdiği süre içinde veya belirtilen bir tarihte savunmasını yapmıyan memur, savunma hakkından vazgeçmiş sayılır.",
+      "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[3]",
+      "notes": [
+        "Madde 130 p[3] süre verilirse en az 7 gün şartını açıkça içeriyor. 3/5 gün alt sınırı ihlal eder; 10/15 gün verilebilir olsa da sorulan kanuni asgari değildir.",
+        "Açıklama m.130 p[2] savunma güvencesiyle p[3] süresinde savunmayanın haktan vazgeçmiş sayılması sonucunu birlikte koruyor; mutlak ve istisnasız savunmasız ceza yasağı iddiasına dönüştürmüyor.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0017",
+      "candidateSha256": "9d895e8ea2de923d90c9e0ab570f47bdd58f8d1c1548e488ebdbff41227aa71d",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "İtirazda süre, kararın ilgiliye tebliği tarihinden itibaren yedi gündür. Süresi içinde itiraz edilmeyen disiplin cezaları kesinleşir.",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[4]",
+      "notes": [
+        "Madde 135 p[4] itiraz süresini kararın ilgiliye tebliği tarihinden itibaren yedi gün olarak belirliyor. Kök disiplin itirazı dediği için idari yargı dava süresi sorulmuyor.",
+        "Verilme, öğrenme veya merciye intikal gibi başlangıçlar ve on beş/otuz günlük süreler bu başvuru süresinin doğru eşleşmesi değil. Eski id4 merciyi soruyordu; burada süre ve başlangıç ayrı hedef.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    },
+    {
+      "questionId": "Q-O02-B-0018",
+      "candidateSha256": "b720b689849523472a8b35504654e7a85e33e0abc22c61f77d519536c28c9751",
+      "decision": "Pass",
+      "checkedBy": "source_integrity-independent-review",
+      "checkedAt": "2026-11-06T12:35:39.501Z",
+      "sourceQuote": "İtiraz mercileri, itiraz dilekçesi ile karar ve eklerinin kendilerine intikalinden itibaren otuz gün içinde kararlarını vermek zorundadır.",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[5]",
+      "notes": [
+        "Madde 135 p[5] itiraz dilekçesi ile karar ve eklerinin merciye intikalini otuz günlük karar verme süresinin başlangıcı yapıyor. Dört diğer tarih bu başlangıç olarak düzenlenmemiş.",
+        "Q0017 memurun yedi günlük itirazı; burada merciin otuz günlük karar yükümlülüğü ölçülüyor. Aynı süre/başlangıç hükmünün yalnız ifade değişikliği değil, başka işlem aşaması ve hedef.",
+        "1–212 madde sınırı, beş kalıcı seçenek kimliği ve dört ayrı çeldirici açıklaması kontrol edildi. Resmî HTML arşiv hash denetimi bu ayrı inceleme sırasında tekrar çalıştırıldı."
+      ]
+    }
+  ]
+}

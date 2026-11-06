@@ -2,240 +2,366 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="GYS Duo" />
-  <meta name="theme-color" content="#131F24" />
-  <title>GYS Duo - Şube Müdürlüğü Hazırlık</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <meta name="apple-mobile-web-app-title" content="GYS 85+" />
+  <meta name="theme-color" content="#0e1725" />
+  <noscript><style>body[x-cloak] { display: block !important; } body[x-cloak] > :not(noscript) { display: none !important; }</style></noscript>
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <title>GYS 85+ · Şube Müdürü Teknik</title>
   <style>
-    :root {
-      --safe-top: env(safe-area-inset-top, 47px);
-      --safe-bottom: env(safe-area-inset-bottom, 34px);
-    }
-    * { -webkit-tap-highlight-color: transparent; user-select: none; }
-    body {
-      background-color: #131F24;
-      color: #FFFFFF;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif;
-      overscroll-behavior-y: none;
-    }
-    .safe-pt { padding-top: calc(var(--safe-top) + 0.5rem); }
-    .safe-pb { padding-bottom: calc(var(--safe-bottom) + 4.5rem); }
-    .safe-bottom-bar { padding-bottom: calc(var(--safe-bottom) + 0.4rem); }
-    .btn-3d-green { background: #58CC02; box-shadow: 0 4px 0 #46A302; }
-    .btn-3d-green:active { transform: translateY(4px); box-shadow: 0 0 0 #46A302; }
-    .btn-3d-red { background: #FF4B4B; box-shadow: 0 4px 0 #EA2B2B; }
-    .btn-3d-red:active { transform: translateY(4px); box-shadow: 0 0 0 #EA2B2B; }
-    .btn-3d-blue { background: #1CB0F6; box-shadow: 0 4px 0 #1899D6; }
-    .btn-3d-blue:active { transform: translateY(4px); box-shadow: 0 0 0 #1899D6; }
-    .btn-3d-gold { background: #FFC800; box-shadow: 0 4px 0 #E5B400; color: #131F24; }
-    .btn-3d-gold:active { transform: translateY(4px); box-shadow: 0 0 0 #E5B400; }
-    .btn-3d-card { background: #1F2F37; border: 2px solid #37464F; box-shadow: 0 4px 0 #37464F; }
-    .btn-3d-card:active { transform: translateY(3px); box-shadow: 0 1px 0 #37464F; }
-    .btn-3d-selected { background: #182B36; border: 2px solid #1CB0F6; box-shadow: 0 4px 0 #1899D6; color: #1CB0F6; }
-    .btn-3d-correct { background: #163318; border: 2px solid #58CC02; box-shadow: 0 4px 0 #46A302; color: #58CC02; }
-    .btn-3d-wrong { background: #38191C; border: 2px solid #FF4B4B; box-shadow: 0 4px 0 #EA2B2B; color: #FF4B4B; }
-    ::-webkit-scrollbar { display: none; }
+    :root { color-scheme: dark; --safe-top: env(safe-area-inset-top, 0px); --safe-bottom: env(safe-area-inset-bottom, 0px); --page: #0e1725; --panel: #172335; --line: #29384b; --muted: #a8b6c9; --accent: #5ee0bf; }
+    * { -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
+    [x-cloak] { display: none !important; }
+    html { background: #0b1220; }
+    body { margin: 0; background: var(--page); color: #eef4fb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.5; }
+    button, input, select { font: inherit; }
+    button, select, .file-button { min-height: 44px; touch-action: manipulation; }
+    button { cursor: pointer; }
+    button:disabled { cursor: default; }
+    :focus-visible { outline: 3px solid #5ee0bf; outline-offset: 3px; }
+    a { color: #8dd7ff; text-decoration: underline; text-underline-offset: 3px; }
+    .safe-pt { padding-top: calc(var(--safe-top) + 12px); }
+    .safe-pb { padding-bottom: calc(var(--safe-bottom) + 88px); }
+    .safe-bottom-bar { padding-bottom: calc(var(--safe-bottom) + 8px); }
+    .app-header { position: sticky; top: 0; z-index: 30; padding: calc(var(--safe-top) + 10px) 18px 10px; background: #0e1725f5; backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+    .brand-line { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand-mark { width: 35px; height: 35px; border-radius: 11px; background: #153e3c; display: grid; place-items: center; color: var(--accent); font-size: 15px; font-weight: 800; }
+    .brand h1 { margin: 0; font-size: 17px; letter-spacing: -.4px; font-weight: 750; }
+    .brand p { margin: 0; font-size: 12px; color: var(--muted); }
+    .goal-tag { color: var(--accent); font-size: 13px; border: 1px solid #346159; padding: 5px 9px; border-radius: 8px; font-weight: 700; white-space: nowrap; }
+    .session-strip { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; color: var(--muted); font-size: 12px; }
+    .session-strip strong { color: #eef4fb; font-weight: 650; }
+    .section-heading { margin: 0; font-size: 15px; font-weight: 700; letter-spacing: -.2px; }
+    .eyebrow { color: var(--muted); font-size: 12px; }
+    .home-intro { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 12px 0 9px; }
+    .home-intro h2 { font-size: 18px; line-height: 1.25; font-weight: 750; margin: 0; letter-spacing: -.5px; }
+    .status-pill { font-size: 11px; padding: 4px 7px; border-radius: 6px; border: 1px solid #3d4e63; color: #bfccd9; white-space: nowrap; }
+    .overview { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+    .metric { display:flex;flex-direction:column;gap:2px; border: 1px solid var(--line); border-radius: 10px; padding: 8px; background: var(--panel); min-width: 0; }
+    .metric-value { display: block; font-size: 24px; line-height: 1.2; font-weight: 750; letter-spacing: -.7px; margin: 0; }
+    .metric-label { display:block;color: var(--muted); font-size: 12px;line-height:1.3; }
+    .metric-detail { display:block;color: #c5d0dc; font-size: 11px;line-height:1.3; }
+    .source-note { display: flex; align-items: flex-start; gap: 9px; margin: 12px 0; padding: 11px 12px; background: #162d30; border: 1px solid #294c4c; border-radius: 11px; font-size: 12px; color: #b9d9d4; }
+    .source-note strong { color: #e3f3ee; font-weight: 650; }
+    .source-dot { width: 7px; height: 7px; border-radius: 50%; margin-top: 6px; background: var(--accent); flex-shrink: 0; }
+    .exam-card { border: 1px solid var(--line); padding: 12px; background: var(--panel); border-radius: 12px; }
+    .exam-card-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    .exam-card p { font-size: 12px; color: var(--muted); margin: 4px 0 10px; }
+    .exam-button { width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 9px 12px; border: 1px solid #344a60; background: #1e3044; color: #d8e5f3; border-radius: 9px; font-size: 13px; font-weight: 600; }
+    .filters { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; padding: 4px; margin-top: 12px; border: 1px solid var(--line); background: #111e2e; border-radius: 10px; }
+    .filters button { font-size: 12px; border: 0; border-radius: 7px; padding: 7px 3px; background: transparent; color: var(--muted); font-weight: 650; }
+    .filters button.filter-active { color: #e2fff6; background: #25423f; }
+    .topic-list { display: grid; gap: 6px; margin-top: 9px; }
+    .topic-row { width: 100%; display: flex; align-items: center; gap: 10px; text-align: left; background: #152133; border: 1px solid #263549; border-radius: 10px; padding: 10px; }
+    .topic-row:hover { border-color: #527568; }
+    .topic-icon { display: grid; place-items: center; width: 32px; height: 35px; flex-shrink: 0; border-radius: 8px; background: #213246; font-size: 17px; }
+    .topic-main { flex: 1; min-width: 0; }
+    .topic-title { font-size: 13px; line-height: 1.35; font-weight: 650; color: #edf4fc; display: block; }
+    .topic-meta { margin-top: 3px; color: var(--muted); font-size: 11px; display: flex; flex-wrap: wrap; gap: 3px 6px; }
+    .topic-weight { min-width: 38px; flex-shrink: 0; text-align: right; font-size: 17px; line-height: 1.1; color: #a9dfd0; font-weight: 700; }
+    .topic-weight small { display: block; font-size: 10px; font-weight: 500; color: var(--muted); margin-top: 3px; }
+    .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; max-width: 430px; margin: 0 auto; padding: 6px 10px calc(var(--safe-bottom) + 8px); background: #0e1725f5; backdrop-filter: blur(16px); border-top: 1px solid var(--line); z-index: 30; }
+    .bottom-nav button { min-height: 51px; font-size: 12px; font-weight: 600; }
+    .btn-3d-green { background: #277867; color: #fff; border: 1px solid #408e7c; box-shadow: none; }
+    .btn-3d-red { background: #9d4353; color: #fff; border: 1px solid #b96371; box-shadow: none; }
+    .btn-3d-blue { background: #286b91; color: #fff; border: 1px solid #4c8aad; box-shadow: none; }
+    .btn-3d-gold { background: #476b67; color: #fff; border: 1px solid #64918a; box-shadow: none; }
+    .btn-3d-card { background: #19283c; border: 1px solid #40536a; box-shadow: none; }
+    .btn-3d-selected { background: #173f46; border: 2px solid #7dd8e4; color: #d9fbff; }
+    .btn-3d-correct { background: #163c32; border: 2px solid #5ee0bf; color: #b1f8e5; }
+    .btn-3d-wrong { background: #3d2430; border: 2px solid #f894a5; color: #ffcfda; }
+    [class*="text-[10px]"], [class*="text-[11px]"], .text-xs { font-size: 12px; }
+    .bg-\[\#172335\] { background-color: var(--panel); }
+    .bg-\[\#0e1725\] { background-color: var(--page); }
+    .border-\[\#29384b\] { border-color: var(--line); border-width: 1px; }
+    .text-\[\#7ae3c5\] { color: #7ae3c5; }
+    .text-\[\#d7dfb5\] { color: #d7dfb5; }
+    .text-\[\#ffa7b5\] { color: #ffa7b5; }
+    .text-\[\#99d5f9\] { color: #99d5f9; }
+    .text-gray-400 { color: var(--muted); }
+    .quiz-screen { overflow-y: auto; gap: 12px; }
+    .quiz-screen > div { flex-shrink: 0; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
   </style>
 </head>
-<body x-data="gysApp()" x-init="initApp()" class="min-h-screen flex flex-col justify-between max-w-[430px] mx-auto relative overflow-x-hidden border-x border-[#202F36]">
+<body x-data="gysApp()" x-init="initApp()" x-cloak class="min-h-screen flex flex-col justify-between max-w-[430px] mx-auto relative overflow-x-hidden border-x border-[#1c2b3f]">
 
-  <!-- ÜST DURUM ÇUBUĞU (Dynamic Island Uyumlu) -->
-  <header class="fixed top-0 left-0 right-0 max-w-[430px] mx-auto bg-[#131F24]/95 backdrop-blur-md border-b border-[#202F36] z-30 safe-pt px-4 pb-2.5">
-    <div class="flex items-center justify-between text-sm font-bold">
-      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
-        <span>🔥</span>
-        <span class="text-[#FF9600]" x-text="state.streak"></span>
+  <header class="app-header">
+    <div class="brand-line">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <div><h1>GYS Hazırlık</h1><p>Şube Müdürü · Teknik</p></div>
       </div>
-      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
-        <span>⚡</span>
-        <span class="text-[#FFC800]" x-text="state.xp + ' XP'"></span>
-      </div>
-      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
-        <span>🎯</span>
-        <span class="text-[#1CB0F6]" x-text="state.dailyXP + '/' + state.settings.dailyGoal"></span>
-      </div>
-      <div class="flex items-center space-x-1.5 bg-[#202F36] px-2.5 py-1 rounded-full">
-        <span>❤️</span>
-        <span class="text-[#FF4B4B]" x-text="state.settings.examMode ? state.hearts : '∞'"></span>
-      </div>
+      <span class="goal-tag">Hedef 85+</span>
     </div>
-    <!-- Günlük Hedef İlerleme Barı -->
-    <div class="w-full bg-[#202F36] h-1.5 rounded-full mt-2 overflow-hidden">
-      <div class="bg-[#58CC02] h-full transition-all duration-500" :style="`width: ${Math.min(100, (state.dailyXP / state.settings.dailyGoal) * 100)}%`"></div>
+    <div class="session-strip" aria-label="Çalışma özeti">
+      <span>Toplam <strong x-text="state.xp + ' XP'"></strong></span>
+      <span>Günlük <strong x-text="state.dailyXP + ' / ' + state.settings.dailyGoal + ' XP'"></strong></span>
     </div>
   </header>
 
   <!-- ANA İÇERİK ALANI -->
-  <main class="flex-1 mt-24 safe-pb px-4">
+  <main :inert="strictView ? '' : null" :aria-hidden="strictView ? 'true' : null" class="flex-1 safe-pb px-4" id="main-content">
+    <div x-show="notice" x-text="notice" role="status" data-testid="notice" class="source-note mt-3"></div>
 
-    <!-- SEKME 1: DUOLINGO PATİKA (HOME) -->
-    <div x-show="activeTab === 'home'" class="space-y-4">
-      <!-- Kategori Filtresi ve Deneme Sınavı Kartı -->
-      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3.5 flex items-center justify-between">
-        <div>
-          <div class="text-xs font-bold uppercase tracking-wider text-[#1CB0F6]">GYS Şube Müdürlüğü</div>
-          <div class="text-sm font-extrabold mt-0.5">100 Soruluk Ağırlıklı Simülasyon</div>
-          <div class="text-xs text-gray-400">%70 Ortak (70) • %30 Teknik (30)</div>
-        </div>
-        <button @click="startWeightedExam()" class="btn-3d-gold px-3.5 py-2 rounded-xl font-extrabold text-xs shrink-0">
-          SINAVA GİR
-        </button>
+    <section x-show="activeTab === 'home'" data-testid="home-panel" aria-label="Konu çalışma alanı">
+      <div class="home-intro"><h2>Hazırlığına odaklan.</h2><span class="status-pill" x-text="approvedQuestionCount() ? 'Kısmi içerik' : 'Kaynak kontrolü'"></span></div>
+      <div class="overview">
+        <div class="metric"><span class="metric-label">Sınava kalan</span><strong class="metric-value" x-text="daysUntilExam()" data-testid="exam-countdown"></strong><span class="metric-detail">gün · İstanbul</span></div>
+        <div class="metric"><span class="metric-label">Onaylı soru</span><strong class="metric-value" x-text="approvedQuestionCount()" data-testid="approved-count"></strong><span class="metric-detail">5.400 hedef</span></div>
+        <div class="metric"><span class="metric-label">Müfredat</span><strong class="metric-value">24</strong><span class="metric-detail">16 ortak · 8 teknik</span></div>
       </div>
-
-      <!-- Grup Seçici -->
-      <div class="grid grid-cols-3 gap-2 text-xs font-extrabold">
-        <button @click="filterCat = 'ALL'" :class="filterCat === 'ALL' ? 'btn-3d-blue text-white' : 'bg-[#202F36] text-gray-400'" class="py-2 rounded-xl transition">TÜMÜ (24)</button>
-        <button @click="filterCat = 'Genel %70'" :class="filterCat === 'Genel %70' ? 'btn-3d-green text-white' : 'bg-[#202F36] text-gray-400'" class="py-2 rounded-xl transition">ORTAK %70 (16)</button>
-        <button @click="filterCat = 'Teknik %30'" :class="filterCat === 'Teknik %30' ? 'btn-3d-gold' : 'bg-[#202F36] text-gray-400'" class="py-2 rounded-xl transition">TEKNİK %30 (8)</button>
+      <details class="source-note" style="display:block;padding:0 10px;margin:9px 0" role="status" data-testid="content-status"><summary style="min-height:44px;display:flex;align-items:center;gap:7px;cursor:pointer"><span class="source-dot" style="margin:0" aria-hidden="true"></span><strong x-text="approvedQuestionCount() ? approvedQuestionCount() + ' onaylı hazırlık sorusu' : 'İçerik doğrulaması sürüyor.'"></strong><span aria-hidden="true" style="margin-left:auto">ⓘ</span></summary><p class="pb-3">Hazırlık mevzuatı · kesim 01.01.2027. Yalnız kaynak ve ayrı cevap incelemesi tamamlanan sorular çalışmaya açılır. Son başarılı tam mevzuat kontrolü: <span x-text="watchStatus?.lastSuccessfulFullCheck?new Date(watchStatus.lastSuccessfulFullCheck).toLocaleDateString('tr-TR'):'henüz yok'"></span>. <a href="https://kariyerkapisi.gov.tr/IlanDetay?i=232d3886-9af8-4b69-a802-b393f13a600d" target="_blank" rel="noopener noreferrer">Resmî sınav duyurusu</a></p></details>
+      <div x-show="activeAttempt" class="exam-card mb-3" data-testid="resume-card">
+        <h3 class="section-heading">Yarım kalan çalışma</h3>
+        <p x-text="activeAttempt?.title"></p>
+        <div class="grid grid-cols-2 gap-2"><button @click="resumeStudy()" class="btn-3d-green rounded-lg p-2 text-xs" data-testid="resume-study">Devam et</button><button @click="finishStudy()" :disabled="savingAnswer" class="exam-button" data-testid="finish-study">Sonuçlandır</button></div>
       </div>
-
-      <!-- Duolingo Patika Düğümleri -->
-      <div class="flex flex-col items-center space-y-5 py-3 relative">
-        <template x-for="(item, idx) in filteredTopics()" :key="item.code">
-          <div class="w-full flex flex-col items-center" :style="`transform: translateX(${Math.sin(idx * 1.1) * 32}px)`">
-            <button @click="startTopicQuiz(item)"
-              :class="getTopicMastery(item.topic) >= 80 ? 'btn-3d-gold' : (item.cat === 'Teknik %30' ? 'btn-3d-blue' : 'btn-3d-green')"
-              class="w-20 h-20 rounded-full flex flex-col items-center justify-center relative">
-              <span class="text-xl" x-text="item.icon"></span>
-              <span class="text-[10px] font-black uppercase tracking-tighter mt-0.5" x-text="item.weight + ' SORU'"></span>
-              <!-- Ustalık Yüzdesi Rozeti -->
-              <span class="absolute -top-1 -right-1 bg-[#131F24] border-2 border-[#37464F] text-[10px] font-extrabold px-1.5 py-0.5 rounded-full text-white"
-                x-text="'%' + getTopicMastery(item.topic)"></span>
-            </button>
-            <div class="mt-2 max-w-[230px] text-center">
-              <div class="text-xs font-extrabold leading-tight text-white" x-text="item.shortTitle"></div>
-              <div class="text-[10px] text-gray-400 font-semibold" x-text="item.cat + ' • ' + getQuestionCount(item.topic) + ' Soru Havuzda'"></div>
-            </div>
-          </div>
+      <details class="exam-card" style="padding:0" data-testid="exam-sources-panel"><summary style="min-height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;cursor:pointer"><strong class="text-xs">Sınav ve çıkmış kaynaklar</strong><span class="eyebrow">27.02.2027 ▾</span></summary><div class="p-3 pt-0">
+      <div class="exam-card">
+        <div class="exam-card-header"><h3 class="section-heading">27 Şubat 2027</h3><span class="eyebrow">100 soru · 150 dakika</span></div>
+        <p>70 ortak · 30 teknik · Yanlış cezası yok.</p>
+        <button @click="startWeightedExam()" class="exam-button" data-testid="full-exam-button"><span>Tam deneme hazırlanıyor</span><span aria-hidden="true">→</span></button>
+      </div>
+      <button @click="activeTab='historical'" class="exam-button mt-3" data-testid="historical-catalog-button"><span>Çıkmış sınav kaynakları</span><span>9 kitapçık →</span></button>
+      </div></details>
+      <div class="tool-row mt-3"><button class="tool-button secondary" @click="openTool('plan')" :disabled="!toolsReady">Bugünün planı</button><button class="tool-button secondary" @click="openTool('cards')" :disabled="!toolsReady">Akıllı tekrar</button></div>
+      <div class="flex items-center justify-between mt-3"><h3 class="section-heading">Konu kütüphanesi</h3><span class="eyebrow">Sabit sınav dağılımı</span></div>
+      <div class="filters" aria-label="Konu grubu">
+        <button @click="filterCat = 'ALL'" :class="{'filter-active': filterCat === 'ALL'}" :aria-pressed="filterCat === 'ALL'" data-testid="filter-all">Tümü · 24</button>
+        <button @click="filterCat = 'Genel %70'" :class="{'filter-active': filterCat === 'Genel %70'}" :aria-pressed="filterCat === 'Genel %70'" data-testid="filter-common">Ortak · 16</button>
+        <button @click="filterCat = 'Teknik %30'" :class="{'filter-active': filterCat === 'Teknik %30'}" :aria-pressed="filterCat === 'Teknik %30'" data-testid="filter-technical">Teknik · 8</button>
+      </div>
+      <div class="topic-list" data-testid="topic-list">
+        <template x-for="item in filteredTopics()" :key="item.code">
+          <button @click="startTopicQuiz(item)" class="topic-row" :disabled="loadingContent" data-testid="topic-row" :aria-label="item.shortTitle + ', ' + getQuestionCount(item.topic) + ' onaylı soru'">
+            <span class="topic-icon" aria-hidden="true" x-text="item.icon"></span>
+            <span class="topic-main"><span class="topic-title" x-text="item.shortTitle"></span><span class="topic-meta"><span x-text="getQuestionCount(item.topic) + ' onaylı soru'"></span><span aria-hidden="true">·</span><span x-text="topicAccuracyLabel(item.topic)"></span></span></span>
+            <span class="topic-weight"><span x-text="item.weight"></span><small>soru</small></span>
+          </button>
         </template>
       </div>
-    </div>
+    </section>
+
+    <section x-show="activeTab==='historical'" class="space-y-3 mt-4" aria-label="Çıkmış sınav kaynakları" data-testid="historical-catalog">
+      <div class="flex items-center justify-between"><h2 class="section-heading">Resmî kitapçık arşivi</h2><button @click="activeTab='home'" class="exam-button" style="width:auto">Konulara dön</button></div>
+      <div class="source-note">480 tarihî cevap anahtarıyla eşleşti. 580 pozisyonun benzersizlik,2027 kapsamı,güncel hukuk ve kullanım hakkı incelemesi sürüyor. Kabul edilen çıkmış soru:0.</div>
+      <p class="eyebrow">Kitapçıklar resmî MEB sitesinde çevrim içi açılır. Özgün seçenek sayısı4; farklı sınav ve kadrolar kendi adlarıyla gösterilir.</p>
+      <template x-for="booklet in historicalCatalog.booklets" :key="booklet.id">
+        <article class="exam-card" data-testid="historical-booklet">
+          <strong class="text-sm" x-text="booklet.year+' · '+booklet.examType"></strong>
+          <p x-text="booklet.cadre"></p>
+          <p x-text="booklet.date+' · '+booklet.positions+' pozisyon · '+booklet.options+' seçenek'"></p>
+          <a :href="booklet.url" target="_blank" rel="noopener noreferrer" class="text-xs">Resmî MEB PDF'sini aç</a>
+        </article>
+      </template>
+    </section>
 
     <!-- SEKME 2: HATA TEKRAR MOTORU (SPACED REPETITION) -->
-    <div x-show="activeTab === 'mistakes'" class="space-y-4">
-      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4">
+    <div x-show="activeTab === 'mistakes'" class="space-y-4 mt-4">
+      <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-4">
         <div class="flex items-center justify-between">
           <div>
-            <h2 class="text-base font-extrabold text-[#FF4B4B]">Hata Eritme Havuzu</h2>
-            <p class="text-xs text-gray-300 mt-0.5">Yanlış yaptığın sorular arka arkaya 2 kez doğru çözülene kadar burada kalır ve testlere %30 oranında serpiştirilir.</p>
+            <h2 class="text-base font-extrabold text-[#ffa7b5]">Yanlış defteri</h2>
+            <p class="text-xs text-gray-300 mt-0.5">Onaylı sorulardaki yanlışların burada görünür. Arka arkaya iki doğru yanıt, tekrar listesinden çıkarır; tek başına öğrenme kanıtı sayılmaz.</p>
           </div>
-          <div class="text-2xl font-black text-[#FF4B4B] bg-[#38191C] px-3.5 py-2 rounded-xl border border-[#FF4B4B]" x-text="mistakeList().length"></div>
+          <div class="text-2xl font-black text-[#ffa7b5] bg-[#38191C] px-3.5 py-2 rounded-xl border border-[#ffa7b5]" x-text="mistakeList().length"></div>
         </div>
         <button x-show="mistakeList().length > 0" @click="startMistakeQuiz()" class="btn-3d-red w-full py-3 rounded-xl font-extrabold text-sm mt-3">
-          HATALARI ERİTME TESTİNİ BAŞLAT (<span x-text="Math.min(15, mistakeList().length)"></span> SORU)
+          YANLIŞLARI TEKRAR ET (<span x-text="Math.min(15, mistakeList().length)"></span> SORU)
         </button>
       </div>
 
       <template x-if="mistakeList().length === 0">
-        <div class="text-center py-12 bg-[#1F2F37] rounded-2xl border-2 border-[#37464F] p-6">
+        <div class="text-center py-6 bg-[#172335] rounded-2xl border-2 border-[#29384b] p-6">
           <div class="text-4xl mb-2">🏆</div>
-          <div class="font-extrabold text-sm text-[#58CC02]">Hata Havuzun Tertemiz!</div>
-          <div class="text-xs text-gray-400 mt-1">Şu an tekrar etmen gereken hatalı bir GYS sorusu bulunmuyor.</div>
+          <div class="font-extrabold text-sm text-[#7ae3c5]">Henüz tekrar sorusu yok.</div>
+          <div class="text-xs text-gray-400 mt-1">İlk çalışmalarından sonra onaylı sorulardaki yanlışlarını burada görebilirsin.</div>
         </div>
       </template>
 
       <div class="space-y-2.5">
         <template x-for="m in mistakeList()" :key="m.qObj.id">
-          <div class="bg-[#1F2F37] border border-[#37464F] rounded-xl p-3 text-xs space-y-1.5">
+          <div class="bg-[#172335] border border-[#29384b] rounded-xl p-3 text-xs space-y-1.5">
             <div class="flex items-center justify-between">
-              <span class="bg-[#38191C] text-[#FF4B4B] font-bold px-2 py-0.5 rounded-md" x-text="m.qObj.topic"></span>
+              <span class="bg-[#38191C] text-[#ffa7b5] font-bold px-2 py-0.5 rounded-md" x-text="m.qObj.topic"></span>
               <span class="text-gray-400 font-bold" x-text="'Hata: ' + m.wrongCount + 'x | Seri Doğru: ' + m.streak + '/2'"></span>
             </div>
             <div class="font-bold text-white leading-snug" x-text="m.qObj.q"></div>
-            <div class="text-[#58CC02] font-semibold" x-text="'Doğru: ' + m.qObj.opts[m.qObj.ans]"></div>
+            <div class="text-[#7ae3c5] font-semibold" x-text="'Doğru: ' + m.qObj.opts[m.qObj.ans]"></div>
           </div>
         </template>
       </div>
     </div>
 
     <!-- SEKME 3: İSTATİSTİK PANELİ (STATS) -->
-    <div x-show="activeTab === 'stats'" class="space-y-4">
+    <div x-show="activeTab === 'stats'" class="space-y-4 mt-4">
+      <div class="source-note"><div><strong x-text="questionCompletionLabel()" data-testid="question-completion"></strong><p>Kapsam ve öğrenme hâkimiyeti: nihai hedef haritası ve çeşitli ölçümler henüz yeterli değil. Soru tamamlama bu göstergelerden ayrıdır.</p></div></div>
       <div class="grid grid-cols-2 gap-2.5">
-        <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3">
-          <div class="text-[11px] text-gray-400 font-bold">GENEL BAŞARI</div>
-          <div class="text-2xl font-black text-[#58CC02] mt-0.5" x-text="'%' + overallAccuracy()"></div>
+        <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-3">
+          <div class="text-[11px] text-gray-400 font-bold">ÇALIŞMA DOĞRULUĞU</div>
+          <div class="text-2xl font-black text-[#7ae3c5] mt-0.5" x-text="overallAccuracyLabel()"></div>
           <div class="text-[10px] text-gray-400" x-text="state.totalCorrect + ' Doğru / ' + state.totalAnswered + ' Soru'"></div>
         </div>
-        <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3">
+        <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-3">
           <div class="text-[11px] text-gray-400 font-bold">TAHMİNİ GYS PUANI</div>
-          <div class="text-2xl font-black text-[#FFC800] mt-0.5" x-text="estimatedGysScore()"></div>
-          <div class="text-[10px] text-gray-400">100 Soru Ağırlıklı Projeksiyon</div>
+          <div class="text-base font-bold text-[#d7dfb5] mt-1" x-text="estimatedGysScore()" data-testid="score-estimate"></div>
+          <div class="text-[10px] text-gray-400">Bağımsız ve yeterli ölçüm gerekli</div>
         </div>
       </div>
 
+      <div x-show="completedAttempts.length" class="bg-[#172335] border border-[#29384b] rounded-xl p-3">
+        <h3 class="section-heading">Kayıtlı konu çalışmaları</h3>
+        <p class="eyebrow">Bunlar 100 soruluk bağımsız tam deneme değildir.</p>
+        <template x-for="attempt in completedAttempts.slice(0,10)" :key="attempt.id">
+          <button @click="viewAttempt(attempt.id)" class="w-full py-3 text-left border-b border-[#29384b] text-xs" data-testid="attempt-history">
+            <strong x-text="attempt.title"></strong> · <span x-text="attempt.result?.correct + '/' + attempt.questionCount"></span>
+            <span class="eyebrow" x-text="attempt.isFirstAttempt ? ' · İlk paket çözümü' : ' · Aynı paketin tekrarı'"></span>
+          </button>
+        </template>
+      </div>
       <!-- En Zayıf 3 Konu Uyarısı -->
-      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3.5">
-        <div class="text-xs font-extrabold text-[#FF9600] mb-2">⚠️ Öncelikli Tekrar Gereken Zayıf Konular</div>
+      <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-3.5">
+        <div class="text-xs font-extrabold text-[#d8bc8d] mb-2">Ölçülen konularda çalışma önceliği</div>
+        <p class="text-xs text-gray-400" x-show="weakestTopics().length === 0">Öncelik sıralaması için henüz yeterli ölçüm yok.</p>
         <div class="space-y-2">
           <template x-for="w in weakestTopics()" :key="w.topic">
-            <div class="flex items-center justify-between text-xs bg-[#131F24] px-3 py-2 rounded-xl">
+            <div class="flex items-center justify-between text-xs bg-[#0e1725] px-3 py-2 rounded-xl">
               <span class="font-bold truncate pr-2" x-text="w.shortTitle"></span>
-              <span class="font-extrabold text-[#FF4B4B] shrink-0" x-text="'%' + w.acc + ' (' + w.weight + ' Soru)'"></span>
+              <span class="font-extrabold text-[#ffa7b5] shrink-0" x-text="'%' + w.acc + ' (' + w.weight + ' Soru)'"></span>
             </div>
           </template>
         </div>
       </div>
 
       <!-- 24 Konu Ustalık Barları -->
-      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-3.5 space-y-3">
-        <div class="text-xs font-extrabold text-[#1CB0F6]">📊 Resmi GYS Konu Dağılımı ve Ustalık Oranları</div>
+      <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-3.5 space-y-3">
+        <div class="text-xs font-extrabold text-[#99d5f9]">Konu dağılımı ve çalışma doğruluğu</div>
         <template x-for="item in curriculum" :key="item.code">
           <div class="space-y-1">
             <div class="flex justify-between text-[11px] font-bold">
               <span class="truncate pr-2" x-text="item.shortTitle + ' (' + item.weight + ' Soru)'"></span>
-              <span :class="getTopicMastery(item.topic) >= 75 ? 'text-[#58CC02]' : 'text-[#FFC800]'" x-text="'%' + getTopicMastery(item.topic)"></span>
+              <span :class="getTopicMastery(item.topic) === null ? 'text-gray-400' : (getTopicMastery(item.topic) >= 75 ? 'text-[#7ae3c5]' : 'text-[#d7dfb5]')" x-text="topicAccuracyLabel(item.topic)"></span>
             </div>
-            <div class="w-full bg-[#131F24] h-2 rounded-full overflow-hidden">
+            <div x-show="getTopicMastery(item.topic) !== null" class="w-full bg-[#0e1725] h-2 rounded-full overflow-hidden">
               <div class="h-full transition-all duration-300"
-                :class="getTopicMastery(item.topic) >= 75 ? 'bg-[#58CC02]' : (getTopicMastery(item.topic) >= 40 ? 'bg-[#FFC800]' : 'bg-[#FF4B4B]')"
-                :style="`width: ${getTopicMastery(item.topic)}%`"></div>
+                :class="getTopicMastery(item.topic) >= 75 ? 'bg-[#7ae3c5]' : (getTopicMastery(item.topic) >= 40 ? 'bg-[#d7dfb5]' : 'bg-[#ffa7b5]')"
+                :style="`width: ${getTopicMastery(item.topic) ?? 0}%`"></div>
             </div>
           </div>
         </template>
       </div>
     </div>
 
+    <section x-show="activeTab==='tools'" class="tool-panel" aria-label="Çalışma araçları" data-testid="tools-panel">
+      <div class="tool-row" style="justify-content:space-between"><h2 x-text="featureMenu.find(item=>item.id===toolMode)?.label||'Araçlar'"></h2><button class="tool-button secondary" @click="activeTab='admin'">Yönetim</button></div>
+      <p x-show="toolBusy" role="status">Hazırlanıyor…</p>
+      <div x-show="toolMode==='bank'" class="tool-panel" data-testid="bank-tool">
+        <h2>Konu soru bankası</h2>
+        <label>Konu<select aria-label="Banka konusu" x-model="toolTopicId" @change="bankProvision='all';loadLearningTopic()"><template x-for="topic in toolTopics" :key="topic.id"><option :value="topic.id" x-text="topic.title"></option></template></select></label>
+        <div class="tool-row"><label>Zorluk<select aria-label="Banka zorluk" x-model="bankDifficulty"><option value="all">Tüm düzeyler</option><option value="basic">Temel</option><option value="medium">Orta</option><option value="hard">Zor</option><option value="application">Uygulama / yorum</option></select></label><label>Paket<select aria-label="Banka paket büyüklüğü" x-model.number="state.settings.quizSize" @change="saveState()"><template x-for="size in [5,10,20,25,50,100]" :key="size"><option :value="size" x-text="size+' soru'"></option></template></select></label></div>
+        <label>Alt konu / kaynak hüküm<select aria-label="Banka alt konu" x-model="bankProvision"><option value="all">Tüm alt konular</option><template x-for="locator in bankProvisions()" :key="locator"><option :value="locator" x-text="locator"></option></template></select></label>
+        <p x-text="filteredBankCount()+' onaylı soru eşleşiyor. Paket, mevcut soru sayısıyla sınırlanır.'"></p>
+        <button class="tool-button" @click="startFilteredBank()" :disabled="!filteredBankCount()||loadingContent">Çalışmayı başlat</button>
+      </div>
+      <div x-show="toolMode==='learn'">
+        <label>Konu <select x-model="toolTopicId" @change="loadLearningTopic()"><template x-for="topic in toolTopics" :key="topic.id"><option :value="topic.id" x-text="topic.title"></option></template></select></label>
+        <p class="feature-message">Yalnız onaylı sorulara bağlı kaynak hükümleri gösterilir. Kartın öğrenilmesi, bütün konunun öğrenildiği anlamına gelmez.</p>
+        <template x-for="row in learnRows" :key="row.id"><article class="tool-card"><h3 x-text="row.title"></h3><p><strong x-text="row.answer"></strong></p><p x-text="row.explanation"></p><details><summary class="text-xs">Kaynak hüküm</summary><p class="source-quote" x-text="row.quote"></p></details><a :href="row.sourceUrl" target="_blank" rel="noopener noreferrer" class="text-xs" x-text="row.locator+' · resmî metin'"></a></article></template>
+      </div>
+      <div x-show="toolMode==='cards'||toolMode==='review'">
+        <label>Konu <select x-model="toolTopicId"><template x-for="topic in toolTopics" :key="topic.id"><option :value="topic.id" x-text="topic.title"></option></template></select></label>
+        <button class="tool-button" @click="registerStudyCards()" :disabled="toolBusy" data-testid="register-cards">Onaylı kartları hazırla</button>
+        <p class="feature-message">Tekrar:1,3,7,14,30gün başlangıç aralıkları;sonra performansa göre. Kalite0–5;başarısız kart ertesi güne döner. Bu uyarlama özgün SM-2'nin1/6gün başlangıcından farklıdır.</p>
+        <p x-show="!cards.length">Bugün bekleyen onaylı kart yok. Onaylı paketi seçerek kartlarını hazırlayabilirsin.</p>
+        <article x-show="cards.length" class="tool-card" data-testid="review-card"><small x-text="cards.length+' kart bugün sırada'"></small><h3 x-text="cards[0]?.front"></h3><button x-show="!cardRevealed" class="tool-button mt-3" @click="cardRevealed=true" data-testid="reveal-card">Cevabı göster</button><div x-show="cardRevealed"><p><strong x-text="cards[0]?.back"></strong></p><p x-text="cards[0]?.explanation"></p><a :href="cards[0]?.source.url" target="_blank" rel="noopener noreferrer" class="text-xs" x-text="cards[0]?.source.locator"></a><p>Hatırlama kaliteni değerlendir:0=hatırlamadım,5=kolayca hatırladım.</p><div class="quality-grid"><template x-for="quality in [0,1,2,3,4,5]" :key="quality"><button @click="gradeCard(quality)" :disabled="toolBusy" x-text="quality" :aria-label="'Kalite '+quality"></button></template></div></div></article>
+        <p class="eyebrow" x-text="learningStats?learningStats.reviewCount+' değerlendirme · '+learningStats.totalCards+' etkin kart':''"></p>
+      </div>
+      <div x-show="toolMode==='plan'">
+        <p class="feature-message" x-text="studyPlan?studyPlan.weeklyCapacityMinutes+' dakika haftalık kapasite · '+studyPlan.daysToExam+' gün kaldı (İstanbul)':''"></p>
+        <details class="tool-card"><summary>Çalışma kapasitesini değiştir</summary><div class="cap-grid mt-3"><template x-for="(label,key) in {monday:'Pazartesi',tuesday:'Salı',wednesday:'Çarşamba',thursday:'Perşembe',friday:'Cuma',saturday:'Cumartesi',sunday:'Pazar'}" :key="key"><div style="display:contents"><label x-text="label"></label><input type="number" min="0" max="720" x-model.number="capacityDraft[key]" :aria-label="label+' dakika'"/></div></template></div><button @click="saveCapacity()" class="tool-button mt-3">Kapasiteyi kaydet</button></details>
+        <template x-for="day in studyPlan?.days||[]" :key="day.date"><article class="tool-card"><h3 x-text="day.date+' · '+day.plannedMinutes+' dakika'"></h3><template x-for="task in day.tasks" :key="task.id"><div class="py-3 border-b border-[#29384b]"><strong class="text-sm" x-text="task.title"></strong><p x-text="task.reason"></p><p x-text="task.minutes+' dakika · '+task.questionCount+' soru · '+task.sourceLocator"></p><small x-show="task.sourceStatus==='pending'">Bu hedefin kapsam/kaynak incelemesi sürüyor;onaylı hukuk özeti gibi sunulmaz.</small><button class="tool-button secondary mt-2" @click="confirmPlanTask(day,task)" :disabled="task.status==='completed'" x-text="task.status==='completed'?'Çalışma kaydedildi':'Gerçekten çalıştım, kaydet'"></button></div></template></article></template>
+      </div>
+      <div x-show="toolMode==='analysis'">
+        <div class="tool-card"><h3>Tahmini sınav puanı</h3><strong class="clock-display" x-text="forecast?.score===null?'Veri yetersiz':forecast?.score?.toFixed(1)"></strong><p x-text="forecast?.reasons?.join(' ')"></p><p x-show="forecast?.interval" x-text="forecast?.interval?'Belirsizlik aralığı:'+forecast.interval[0].toFixed(1)+'–'+forecast.interval[1].toFixed(1):''"></p><p class="eyebrow">Tahmin kesin sınav sonucu veya85garantisi değildir. Tekrarlar ve tarihî sorular bağımsız ilk ölçüm sayılmaz.</p><button x-show="forecast?.score!==null" class="tool-button" @click="saveForecast()">Tahmini kalibrasyon için kaydet</button></div>
+        <div class="tool-card"><h3>Hata nedenleri</h3><p>Kendi belirttiğin nedenler ve sistem çıkarımları ayrı tutulur. Tek yanlıştan kesin kavram yanılgısı çıkarılmaz.</p><template x-for="(count,reason) in learningStats?.userReasons||{}" :key="reason"><p x-text="errorReasons[reason]+': '+count"></p></template><p x-show="!learningStats?.errorCount">Henüz hata analizi kaydı yok.</p><template x-for="item in learningStats?.conceptRecommendations||[]" :key="item.conceptId"><p class="feature-message" x-text="item.recommendation"></p></template></div>
+        <div class="tool-card"><h3>Tahmin kalibrasyonu</h3><p x-text="calibration?.meanAbsoluteError===null?'Henüz sonradan çözülmüş bağımsız deneme eşleşmesi yok.':'Ortalama mutlak hata:'+calibration?.meanAbsoluteError?.toFixed(1)"></p></div>
+      </div>
+      <div x-show="toolMode==='compare'">
+        <div class="tool-row"><template x-for="kind in [{id:'durations',label:'Süreler'},{id:'authorities',label:'Yetkiler'},{id:'remedies',label:'Başvuru yolları'},{id:'historical',label:'Eski/yeni hukuk'}]" :key="kind.id"><button class="tool-button secondary" @click="comparisonKind=kind.id" x-text="kind.label"></button></template></div>
+        <p class="feature-message" x-show="!comparisonTables[comparisonKind]?.length">Bu tablo için onaylı kaynaklı kayıt henüz yok. Eski seçenekler güncel hukuka uymuyorsa yapay cevap harfi atanmaz.</p>
+        <template x-for="fact in comparisonTables[comparisonKind]||[]" :key="fact.id"><article class="tool-card"><h3 x-text="fact.title"></h3><p x-text="fact.value"></p><p x-show="fact.startingEvent" x-text="'Başlangıç:'+fact.startingEvent"></p><p class="source-quote" x-text="fact.quote"></p><a :href="fact.sourceUrl" target="_blank" rel="noopener noreferrer" x-text="fact.sourceLocator"></a></article></template>
+      </div>
+      <div x-show="toolMode==='watch'">
+        <p class="feature-message">Yayımlanma,yürürlük ve geçiş hükümleri ayrıdır. Yeni metin, sınav sürümünü sessizce değiştirmez. PWA kapalıyken sürekli tarama yaptığı iddia edilmez.</p>
+        <div class="tool-card"><h3>Son başarılı tam kontrol</h3><p x-text="watchStatus?.lastSuccessfulFullCheck||'Henüz başarılı tam kontrol yok'"></p><p x-text="(watchStatus?.changedSources||0)+' değişen kaynak · '+(watchStatus?.pendingRevalidation||0)+' yeniden doğrulama kaydı'"></p><button class="tool-button" @click="checkLaws()" :disabled="watchChecking" x-text="watchChecking?'Resmî kaynaklar kontrol ediliyor…':'Şimdi resmî kaynakları kontrol et'"></button><label class="tool-button secondary mt-3">Kontrol JSON raporu içe aktar<input type="file" accept=".json" class="sr-only" @change="importWatch($event)" /></label></div>
+        <template x-for="item in revalidationQueue" :key="item.id"><article class="tool-card"><h3 x-text="item.topicId+' · yeniden doğrulama'"></h3><p x-text="item.affected.questionIds.length+' soru etkileniyor. Eski sonuçlar korunur.'"></p></article></template>
+      </div>
+      <div x-show="toolMode==='focus'">
+        <div class="tool-card text-center"><p x-text="focusSession?.phase==='break'?'Mola':'Odak çalışma'"></p><div class="clock-display" x-text="focusClock()" data-testid="focus-clock"></div><p class="eyebrow">Yalnız görünür ekranda ölçülen süre çalışma sayılır. Arka plan ve uzun kesintiler otomatik tamamlanmış sayılmaz.</p><div class="tool-row mt-3" style="justify-content:center"><button x-show="!focusSession||focusSession.status==='completed'" class="tool-button" @click="focusAction('start')">Başlat</button><button x-show="focusSession?.status==='running'" class="tool-button secondary" @click="focusAction('pause')">Duraklat</button><button x-show="focusSession?.status==='paused'" class="tool-button" @click="focusAction('resume')">Sürdür</button><button x-show="focusSession?.status==='awaiting-confirmation'" class="tool-button" @click="focusAction('confirm')">Ölçülen bölümü tamamla</button></div></div><label>Çalışma (dakika)<input type="number" min="1" max="180" x-model.number="focusDraft.workMinutes"/></label><label>Mola (dakika)<input type="number" min="1" max="60" x-model.number="focusDraft.breakMinutes"/></label>
+      </div>
+      <div x-show="toolMode==='exams'">
+        <p class="feature-message">30bağımsız deneme hedefi. Hazır deneme:<span x-text="strictCatalog.readyExams.length"></span>/30. Her deneme100soru,70ortak+30teknik,150dakika;duraklatma ve sınav içi açıklama yok.</p><p x-show="!strictCatalog.readyExams.length">Korunan100soruluk onaylı paket henüz tamamlanmadığı için deneme başlatılamaz. Konu soruları tam denemeye doldurulmaz.</p>
+        <template x-for="exam in strictCatalog.readyExams" :key="exam.id"><article class="tool-card"><h3 x-text="exam.title"></h3><button class="tool-button" @click="startStrict(exam)" :disabled="strictBusy">Strict Mode başlat</button></article></template>
+        <h3>Kayıtlı tam deneme sonuçları</h3><template x-for="attempt in strictHistory.filter(a=>a.status==='completed')" :key="attempt.id"><button class="tool-button secondary w-full mb-2" @click="openStrictResult(attempt.id)" x-text="attempt.title+' · '+attempt.result.score+'/100 · '+(attempt.isFirstAttempt?'İlk':'Tekrar')"></button></template>
+      </div>
+      <div x-show="toolMode==='data'">
+        <div class="tool-card"><h3>Tam JSON yedeği</h3><p>Eski kayıtlar,ayarlar,yeni çalışmalar,kartlar,tekrarlar,denemeler,takvim,odak ve mevzuat kontrol kayıtları tek sürümlü dosyada. PDF geri yükleme kaynağı değildir.</p><button class="tool-button" @click="exportFullBackup()" :disabled="toolBusy" data-testid="export-full-backup">Tam yedeği indir</button><label class="tool-button secondary mt-3">Tam JSON yedeği seç<input type="file" accept=".json" class="sr-only" @change="prepareRestore($event)" data-testid="import-full-backup"/></label><div x-show="restoreProposal" class="feature-message"><p x-text="restoreProposal?restoreProposal.review.studyAttempts+' konu çalışması · '+restoreProposal.review.answeredQuestions+' cevap · '+restoreProposal.review.legacyQuestions+' eski soru kaydı':''"></p><p>Önceki profil silinmez. Yeni profil hazırlanırken hata olursa etkin veri değişmez. Diğer sekmeleri kapatın.</p><button class="tool-button" @click="commitRestore()" :disabled="toolBusy" data-testid="commit-full-restore">İncelenen yedeği yeni profil olarak aç</button></div></div>
+        <div class="tool-card"><h3>Okunabilir PDF</h3><p>Sonuçlar,ilerleme özeti,konu başarıları ve çalışma planı Türkçe PDF raporuna alınır.</p><button class="tool-button" @click="exportPdf()" :disabled="toolBusy" data-testid="export-pdf">PDF raporu indir</button></div>
+      </div>
+    </section>
+
     <!-- SEKME 4: YÖNETİM VE AYARLAR PANELİ (ADMIN) -->
-    <div x-show="activeTab === 'admin'" class="space-y-4">
+    <div x-show="activeTab === 'admin'" class="space-y-4 mt-4">
+      <div class="tool-grid" data-testid="feature-menu"><template x-for="tool in featureMenu" :key="tool.id"><button @click="openTool(tool.id)" :disabled="!toolsReady" x-text="tool.label" :data-testid="'tool-'+tool.id"></button></template></div>
       <!-- Soru Bankası JSON Import / Export -->
-      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4 space-y-3">
-        <h3 class="text-sm font-extrabold text-[#1CB0F6]">📦 Soru Havuzu & JSON Yönetimi</h3>
-        <p class="text-xs text-gray-300">Aktif Havuzda <strong class="text-white" x-text="questions.length"></strong> soru kayıtlı. <code>build_questions.py</code> ile ürettiğin yeni <code>questions.json</code> dosyasını buradan yükleyebilirsin.</p>
+      <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-4 space-y-3">
+        <h3 class="text-sm font-extrabold text-[#99d5f9]">📦 Soru Havuzu & JSON Yönetimi</h3>
+        <p class="text-xs text-gray-300"><strong class="text-white" x-text="questions.length"></strong> kayıt var; <strong x-text="approvedQuestionCount()"></strong> soru onaylı. İçe aktarılan içerikler yayın öncesinde kaynak ve cevap doğrulamasından geçer.</p>
         
-        <label class="btn-3d-green w-full py-2.5 rounded-xl font-extrabold text-xs flex items-center justify-center cursor-pointer">
-          <span>📂 YENİ QUESTIONS.JSON İÇE AKTAR (EKLE/GÜNCELLE)</span>
-          <input type="file" accept=".json" @change="importQuestionsJson($event)" class="hidden" />
+        <label class="file-button btn-3d-green w-full py-2.5 rounded-xl font-extrabold text-xs flex items-center justify-center cursor-pointer">
+          <span>SORU DOSYASI İÇE AKTAR</span>
+          <input type="file" accept=".json" @change="importQuestionsJson($event)" class="sr-only" />
         </label>
 
         <div class="grid grid-cols-2 gap-2 pt-1">
           <button @click="exportBackup()" class="btn-3d-blue py-2.5 rounded-xl font-extrabold text-xs">
-            💾 İLERLEMEYİ YEDEKLE
+            ESKİ KAYIT + AYARLAR
           </button>
-          <label class="bg-[#202F36] border border-[#37464F] py-2.5 rounded-xl font-extrabold text-xs text-center cursor-pointer">
-            📥 YEDEK YÜKLE
-            <input type="file" accept=".json" @change="importBackup($event)" class="hidden" />
+          <label class="file-button bg-[#1c2b3f] border border-[#29384b] py-2.5 rounded-xl font-extrabold text-xs text-center cursor-pointer">
+            ESKİ YEDEK YÜKLE
+            <input data-testid="legacy-import" type="file" accept=".json" @change="importBackup($event)" class="sr-only" />
           </label>
         </div>
       </div>
 
+      <div class="bg-[#172335] border border-[#29384b] rounded-xl p-3 space-y-2">
+        <h3 class="section-heading">Yeni çalışma günlüğü</h3>
+        <p class="eyebrow">Soru sürümleri, cevaplar ve sonuçlar IndexedDB'de tutulur. Tam koruma için bu günlüğü ve yukarıdaki eski kayıt/ayar yedeğini birlikte saklayın.</p>
+        <div class="grid grid-cols-2 gap-2">
+          <button @click="exportStudyBackup()" class="btn-3d-blue rounded-lg p-2 text-xs" data-testid="export-journal">Günlüğü yedekle</button>
+          <label class="file-button border border-[#29384b] rounded-lg p-2 text-xs text-center">Günlük birleştir<input type="file" accept=".json" class="sr-only" @change="importStudyBackup($event)" data-testid="import-journal" /></label>
+        </div>
+      </div>
       <!-- Çalışma ve Sınav Parametreleri -->
-      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4 space-y-3 text-xs">
-        <h3 class="text-sm font-extrabold text-[#FFC800]">⚙️ Uygulama ve Eğitim Ayarları</h3>
+      <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-4 space-y-3 text-xs">
+        <h3 class="text-sm font-extrabold text-[#d7dfb5]">⚙️ Uygulama ve Eğitim Ayarları</h3>
 
         <div class="flex items-center justify-between py-1">
           <div>
             <div class="font-bold">Tur Başına Soru Sayısı</div>
-            <div class="text-[10px] text-gray-400">Her düğümde sorulacak mikro-ders uzunluğu</div>
+            <div class="text-[10px] text-gray-400">Konu çalışmasında tercih edilen paket büyüklüğü</div>
           </div>
-          <select x-model.number="state.settings.quizSize" @change="saveState()" class="bg-[#131F24] border border-[#37464F] rounded-lg px-2.5 py-1.5 font-bold">
+          <select aria-label="Çalışma paketi soru sayısı" x-model.number="state.settings.quizSize" @change="saveState()" class="bg-[#0e1725] border border-[#29384b] rounded-lg px-2.5 py-1.5 font-bold">
             <option value="5">5 Soru</option>
             <option value="10">10 Soru</option>
-            <option value="15">15 Soru</option>
             <option value="20">20 Soru</option>
+            <option value="25">25 Soru</option>
+            <option value="50">50 Soru</option>
+            <option value="100">100 Soru</option>
           </select>
         </div>
 
@@ -244,7 +370,7 @@
             <div class="font-bold">Günlük XP Hedefi</div>
             <div class="text-[10px] text-gray-400">Her doğru cevap 10 XP kazandırır</div>
           </div>
-          <select x-model.number="state.settings.dailyGoal" @change="saveState()" class="bg-[#131F24] border border-[#37464F] rounded-lg px-2.5 py-1.5 font-bold">
+          <select aria-label="Günlük XP hedefi" x-model.number="state.settings.dailyGoal" @change="saveState()" class="bg-[#0e1725] border border-[#29384b] rounded-lg px-2.5 py-1.5 font-bold">
             <option value="50">50 XP (Sakin)</option>
             <option value="100">100 XP (Normal)</option>
             <option value="200">200 XP (Ciddi)</option>
@@ -257,107 +383,106 @@
             <div class="font-bold">Hata Serpiştirme Oranı (%30)</div>
             <div class="text-[10px] text-gray-400">Normal testlere geçmiş hataları otomatik karıştır</div>
           </div>
-          <input type="checkbox" x-model="state.settings.mixMistakes" @change="saveState()" class="w-5 h-5 accent-[#58CC02]" />
+          <input aria-label="Yanlış soruları çalışma paketine karıştır" type="checkbox" x-model="state.settings.mixMistakes" @change="saveState()" class="w-5 h-5 accent-[#7ae3c5]" />
         </div>
 
         <div class="flex items-center justify-between py-1">
           <div>
-            <div class="font-bold">Sınav Modu (5 Can Sınırı)</div>
-            <div class="text-[10px] text-gray-400">Kapalıyken sınırsız canla (Öğrenme Modu) çalışırsın</div>
+            <div class="font-bold">Alıştırma can sınırı</div>
+            <div class="text-[10px] text-gray-400">5 canlı alıştırma. Strict Mode değildir.</div>
           </div>
-          <input type="checkbox" x-model="state.settings.examMode" @change="state.hearts = 5; saveState()" class="w-5 h-5 accent-[#58CC02]" />
+          <input aria-label="Alıştırmalarda beş can sınırı" type="checkbox" x-model="state.settings.examMode" @change="state.hearts = 5; saveState()" class="w-5 h-5 accent-[#7ae3c5]" />
         </div>
 
         <div class="flex items-center justify-between py-1">
           <div>
             <div class="font-bold">Ses Efektleri (Web Audio)</div>
-            <div class="text-[10px] text-gray-400">Doğru/Yanlış Duolingo ses bildirimleri</div>
+            <div class="text-[10px] text-gray-400">Doğru ve yanlış yanıt bildirimleri</div>
           </div>
-          <input type="checkbox" x-model="state.settings.sound" @change="saveState()" class="w-5 h-5 accent-[#58CC02]" />
+          <input aria-label="Yanıt sesleri" type="checkbox" x-model="state.settings.sound" @change="saveState()" class="w-5 h-5 accent-[#7ae3c5]" />
         </div>
       </div>
 
       <!-- Konu Ağırlıklarını Özelleştirme -->
-      <div class="bg-[#1F2F37] border-2 border-[#37464F] rounded-2xl p-4 space-y-2.5 text-xs">
+      <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-4 space-y-2.5 text-xs">
         <div class="flex items-center justify-between">
-          <h3 class="text-sm font-extrabold text-[#58CC02]">⚖️ GYS Soru Dağılım Ağırlıkları</h3>
-          <button @click="resetWeights()" class="text-[10px] text-[#1CB0F6] underline font-bold">Varsayılana Dön</button>
+          <h3 class="text-sm font-extrabold text-[#7ae3c5]">⚖️ GYS Soru Dağılım Ağırlıkları</h3>
+          <span class="eyebrow">70 ortak / 30 teknik</span>
         </div>
         <div class="max-h-56 overflow-y-auto space-y-2 pr-1">
           <template x-for="item in curriculum" :key="item.code">
-            <div class="flex items-center justify-between bg-[#131F24] px-2.5 py-1.5 rounded-lg">
+            <div class="flex items-center justify-between bg-[#0e1725] px-2.5 py-1.5 rounded-lg">
               <span class="truncate pr-2 font-semibold" x-text="item.shortTitle"></span>
-              <input type="number" min="1" max="30" x-model.number="item.weight" @change="saveCustomWeights()"
-                class="w-14 bg-[#1F2F37] border border-[#37464F] rounded text-center font-bold py-0.5" />
+              <span class="font-bold shrink-0" x-text="item.weight + ' soru'"></span>
             </div>
           </template>
         </div>
       </div>
 
-      <!-- Sıfırlama -->
-      <button @click="resetAllProgress()" class="btn-3d-red w-full py-3 rounded-xl font-extrabold text-xs">
-        🗑️ TÜM İSTATİSTİK VE HATA KAYITLARINI SIFIRLA
-      </button>
+      <p class="text-xs text-gray-400">Resmî konu dağılımı sabittir. JSON yedeğin ilerleme verilerini taşır.</p>
     </div>
 
   </main>
 
+  <div x-show="activeTab==='admin'" class="px-4 safe-pb"><label class="tool-row text-sm">Görünüm<select aria-label="Renk teması" x-model="featureTheme" @change="applyTheme()" class="tool-button secondary"><option value="dark">Koyu</option><option value="light">Açık</option></select></label></div>
   <!-- ALT NAVİGASYON BARI (iPhone 14 Başparmak Ergonomisi) -->
-  <nav class="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto bg-[#131F24]/95 backdrop-blur-md border-t border-[#202F36] z-30 safe-bottom-bar pt-2 px-3">
+  <nav :inert="strictView ? '' : null" class="bottom-nav" aria-label="Ana gezinme">
     <div class="grid grid-cols-4 gap-1 text-[11px] font-extrabold">
-      <button @click="activeTab = 'home'" :class="activeTab === 'home' ? 'text-[#58CC02] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
-        <span class="text-lg">🗺️</span>
-        <span>Patika</span>
+      <button @click="activeTab = 'home'" data-testid="nav-home" :aria-current="activeTab === 'home' ? 'page' : null" :class="activeTab === 'home' ? 'text-[#7ae3c5] bg-[#1c2b3f]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
+        <span class="text-lg" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 4.5h6a3 3 0 0 1 3 3V21a4 4 0 0 0-4-3H4z"/><path d="M20 4.5h-4a3 3 0 0 0-3 3V21a4 4 0 0 1 4-3h3z"/></svg></span>
+        <span>Konular</span>
       </button>
-      <button @click="activeTab = 'mistakes'" :class="activeTab === 'mistakes' ? 'text-[#FF4B4B] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl relative">
-        <span class="text-lg">🎯</span>
+      <button aria-label="Yanlış defteri" @click="activeTab = 'mistakes'" data-testid="nav-mistakes" :aria-current="activeTab === 'mistakes' ? 'page' : null" :class="activeTab === 'mistakes' ? 'text-[#ffa7b5] bg-[#1c2b3f]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl relative">
+        <span class="text-lg" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 3h12v18H6zM9 8h6M9 12h6M9 16h3"/></svg></span>
         <span>Hatalar</span>
-        <span x-show="mistakeList().length > 0" class="absolute top-1 right-4 bg-[#FF4B4B] text-white text-[9px] px-1.5 rounded-full" x-text="mistakeList().length"></span>
+        <span x-show="mistakeList().length > 0" class="absolute top-1 right-4 bg-[#ffa7b5] text-white text-[9px] px-1.5 rounded-full" x-text="mistakeList().length"></span>
       </button>
-      <button @click="activeTab = 'stats'" :class="activeTab === 'stats' ? 'text-[#1CB0F6] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
-        <span class="text-lg">📊</span>
+      <button @click="activeTab = 'stats'" data-testid="nav-stats" :aria-current="activeTab === 'stats' ? 'page' : null" :class="activeTab === 'stats' ? 'text-[#99d5f9] bg-[#1c2b3f]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
+        <span class="text-lg" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 3v17h17M8 16v-5M13 16V6M18 16v-8"/></svg></span>
         <span>İstatistik</span>
       </button>
-      <button @click="activeTab = 'admin'" :class="activeTab === 'admin' ? 'text-[#FFC800] bg-[#202F36]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
-        <span class="text-lg">⚙️</span>
+      <button @click="activeTab = 'admin'" data-testid="nav-admin" :aria-current="activeTab === 'admin' ? 'page' : null" :class="activeTab === 'admin' ? 'text-[#d7dfb5] bg-[#1c2b3f]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl">
+        <span class="text-lg" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 17h16M8 4v6M16 14v6"/><circle cx="8" cy="7" r="2" fill="currentColor"/><circle cx="16" cy="17" r="2" fill="currentColor"/></svg></span>
         <span>Yönetim</span>
       </button>
     </div>
   </nav>
 
   <!-- TAM EKRAN DUOLINGO QUIZ MODAL -->
-  <div x-show="quiz.active" x-transition.opacity class="fixed inset-0 max-w-[430px] mx-auto bg-[#131F24] z-50 flex flex-col justify-between safe-pt safe-bottom-bar px-4">
+  <div x-show="quiz.active" x-transition.opacity role="dialog" aria-modal="true" aria-label="Konu alıştırması" data-testid="quiz-dialog" class="quiz-screen fixed inset-0 max-w-[430px] mx-auto bg-[#0e1725] z-50 flex flex-col justify-between safe-pt safe-bottom-bar px-4">
     <!-- Quiz Üst Bar: Çıkış, İlerleme Çubuğu, Can -->
     <div>
       <div class="flex items-center space-x-3 py-2">
-        <button @click="closeQuiz()" class="text-gray-400 text-xl font-black px-1">✕</button>
-        <div class="flex-1 bg-[#202F36] h-3.5 rounded-full overflow-hidden p-0.5">
-          <div class="bg-[#58CC02] h-full rounded-full transition-all duration-300"
+        <button @click="closeQuiz()" aria-label="Alıştırmayı kapat" class="text-gray-400 text-xl font-black px-1">✕</button>
+        <div class="flex-1 bg-[#1c2b3f] h-3.5 rounded-full overflow-hidden p-0.5">
+          <div class="bg-[#7ae3c5] h-full rounded-full transition-all duration-300"
             :style="`width: ${((quiz.index) / Math.max(1, quiz.items.length)) * 100}%`"></div>
         </div>
-        <div class="flex items-center space-x-1 text-xs font-extrabold text-[#FF4B4B]">
+        <div class="flex items-center space-x-1 text-xs font-extrabold text-[#ffa7b5]">
           <span>❤️</span>
           <span x-text="state.settings.examMode ? state.hearts : '∞'"></span>
         </div>
       </div>
 
+<div x-show="notice" x-text="notice" role="status" class="source-note" data-testid="quiz-notice"></div>
+
       <!-- Konu Etiketi ve Hata Tekrar Rozeti -->
       <div class="flex items-center justify-between mt-2">
-        <span class="text-[11px] font-extrabold uppercase tracking-wider text-[#1CB0F6] bg-[#182B36] px-2.5 py-1 rounded-lg truncate max-w-[75%]"
+        <span class="text-[11px] font-extrabold uppercase tracking-wider text-[#99d5f9] bg-[#182B36] px-2.5 py-1 rounded-lg truncate max-w-[75%]"
           x-text="currentQ()?.topic"></span>
-        <span x-show="isMistakeQuestion(currentQ()?.id)" class="text-[10px] font-extrabold bg-[#38191C] text-[#FF4B4B] px-2 py-1 rounded-lg">
+        <span x-show="isMistakeQuestion(currentQ()?.id)" class="text-[10px] font-extrabold bg-[#38191C] text-[#ffa7b5] px-2 py-1 rounded-lg">
           🔁 HATA TEKRARI
         </span>
       </div>
 
       <!-- Soru Metni -->
-      <div class="mt-4 text-base font-extrabold leading-relaxed text-white" x-text="currentQ()?.q"></div>
+      <div class="mt-4 text-base font-extrabold leading-relaxed text-white" data-testid="question-text" x-text="currentQ()?.q"></div>
 
       <!-- Şıklar -->
       <div class="mt-4 space-y-2.5 overflow-y-auto max-h-[52vh] pb-4">
         <template x-for="(opt, oIdx) in (currentQ()?.opts || [])" :key="oIdx">
           <button @click="selectOption(oIdx)"
-            :disabled="quiz.checked"
+            :disabled="quiz.checked || savingAnswer"
             :class="getOptionClass(oIdx)"
             class="w-full text-left p-3.5 rounded-2xl text-xs font-bold flex items-start space-x-3 transition">
             <span class="w-6 h-6 rounded-lg border border-current flex items-center justify-center font-black shrink-0"
@@ -373,27 +498,30 @@
       <!-- Kontrol Et Butonu -->
       <button x-show="!quiz.checked"
         @click="checkAnswer()"
-        :disabled="quiz.selected === null"
-        :class="quiz.selected !== null ? 'btn-3d-green text-white' : 'bg-[#202F36] text-gray-500'"
+        :disabled="quiz.selected === null || savingAnswer"
+        :class="quiz.selected !== null ? 'btn-3d-green text-white' : 'bg-[#1c2b3f] text-gray-500'"
         class="w-full py-3.5 rounded-2xl font-extrabold text-sm uppercase tracking-wider transition">
-        KONTROL ET
+        <span x-text="savingAnswer ? 'Kaydediliyor…' : 'Kontrol et'"></span>
       </button>
 
       <!-- Doğru / Yanlış Açıklama Kutusu -->
       <div x-show="quiz.checked" x-transition
-        :class="quiz.isCorrect ? 'bg-[#163318] border-[#58CC02]' : 'bg-[#38191C] border-[#FF4B4B]'"
+        :class="quiz.isCorrect ? 'bg-[#163318] border-[#7ae3c5]' : 'bg-[#38191C] border-[#ffa7b5]'"
         class="border-2 rounded-2xl p-3.5 space-y-2.5">
         <div class="flex items-center justify-between">
           <div class="font-black text-sm flex items-center space-x-1.5"
-            :class="quiz.isCorrect ? 'text-[#58CC02]' : 'text-[#FF4B4B]'">
+            :class="quiz.isCorrect ? 'text-[#7ae3c5]' : 'text-[#ffa7b5]'">
             <span x-text="quiz.isCorrect ? '✅ Mükemmel!' : '❌ Dikkat! Mevzuat Notu:'"></span>
           </div>
           <span class="text-[11px] font-bold text-gray-300" x-text="(quiz.index + 1) + ' / ' + quiz.items.length"></span>
         </div>
-        <div x-show="!quiz.isCorrect" class="text-xs font-extrabold text-[#58CC02]"
+        <div x-show="!quiz.isCorrect" class="text-xs font-extrabold text-[#7ae3c5]"
           x-text="'Doğru Cevap: ' + (['A','B','C','D','E'][currentQ()?.ans]) + ') ' + (currentQ()?.opts[currentQ()?.ans])"></div>
         <div class="text-xs text-gray-200 leading-relaxed" x-text="currentQ()?.exp"></div>
-        <button @click="nextQuestion()"
+        <p class="eyebrow" x-show="currentQ()?.legalEdition === 'preparation'">Hazırlık mevzuatı · Nihai sınav sürümü henüz kesinleşmedi.</p>
+        <a x-show="currentQ()?.sourceUrl" :href="currentQ()?.sourceUrl" target="_blank" rel="noopener noreferrer" class="block text-xs">İlgili maddeyi oku <span x-text="currentQ()?.sourceLocator || ''"></span></a>
+        <details x-show="!quiz.isCorrect" class="text-xs"><summary>İsteğe bağlı hata analizi</summary><label>Hata nedeni<select x-model="errorReasonChoice" class="bg-[#172335] rounded p-2 w-full"><option value="">Belirtmek istemiyorum</option><template x-for="(label,key) in errorReasons" :key="key"><option :value="key" x-text="label"></option></template></select></label><button @click="recordStudyError(errorReasonChoice)" x-show="errorReasonChoice" class="tool-button secondary mt-2">Nedeni kaydet</button><label class="block mt-2">Doğru neden doğru,seçtiğin neden yanlış?<textarea x-model="explanationText" class="bg-[#172335] rounded p-2 w-full" rows="3"></textarea></label><button @click="compareExplanation()" class="tool-button secondary">Kavram yardımını göster</button><p x-show="explanationResult" x-text="explanationResult?.help"></p><p x-show="explanationResult" x-text="explanationResult?.notice"></p></details>
+        <button @click="nextQuestion()" :disabled="savingAnswer"
           :class="quiz.isCorrect ? 'btn-3d-green' : 'btn-3d-red'"
           class="w-full py-3 rounded-xl font-extrabold text-sm text-white uppercase tracking-wider">
           DEVAM ET
@@ -403,500 +531,46 @@
   </div>
 
   <!-- TUR SONU ÖZET MODALI -->
-  <div x-show="quiz.summary" x-transition.opacity class="fixed inset-0 max-w-[430px] mx-auto bg-[#131F24] z-50 flex flex-col items-center justify-center px-6 text-center space-y-5">
+  <div x-show="quiz.summary" x-transition.opacity role="dialog" aria-modal="true" aria-label="Alıştırma sonucu" class="fixed inset-0 max-w-[430px] mx-auto bg-[#0e1725] z-50 flex flex-col items-center justify-center px-6 text-center space-y-5">
     <div class="text-6xl">🎉</div>
-    <h2 class="text-2xl font-black text-[#FFC800]">Ders Tamamlandı!</h2>
+    <h2 class="text-2xl font-black text-[#d7dfb5]">Çalışma özeti</h2>
     <p class="text-xs text-gray-300" x-text="quiz.title"></p>
+    <p class="text-xs" x-show="quiz.result" data-testid="study-result" x-text="quiz.result ? quiz.result.correct + ' doğru · ' + quiz.result.wrong + ' yanlış · ' + quiz.result.blank + ' boş' : ''"></p>
+    <p class="text-xs text-gray-400" x-show="quiz.result" x-text="quiz.isFirstAttempt ? 'Bu soru paketinin ilk çözümü. Konu çalışmasıdır.' : 'Aynı soru paketinin tekrar çözümü. İlk çözümden ayrı saklanır.'"></p>
     <div class="grid grid-cols-3 gap-3 w-full">
-      <div class="bg-[#1F2F37] border-2 border-[#FFC800] rounded-2xl p-3">
-        <div class="text-[10px] font-bold text-[#FFC800]">KAZANILAN XP</div>
+      <div class="bg-[#172335] border-2 border-[#d7dfb5] rounded-2xl p-3">
+        <div class="text-[10px] font-bold text-[#d7dfb5]">KAZANILAN XP</div>
         <div class="text-xl font-black mt-1" x-text="'+' + (quiz.correctCount * 10)"></div>
       </div>
-      <div class="bg-[#1F2F37] border-2 border-[#58CC02] rounded-2xl p-3">
-        <div class="text-[10px] font-bold text-[#58CC02]">BAŞARI</div>
+      <div class="bg-[#172335] border-2 border-[#7ae3c5] rounded-2xl p-3">
+        <div class="text-[10px] font-bold text-[#7ae3c5]">BAŞARI</div>
         <div class="text-xl font-black mt-1" x-text="'%' + Math.round((quiz.correctCount / Math.max(1, quiz.items.length)) * 100)"></div>
       </div>
-      <div class="bg-[#1F2F37] border-2 border-[#1CB0F6] rounded-2xl p-3">
-        <div class="text-[10px] font-bold text-[#1CB0F6]">DOĞRU</div>
+      <div class="bg-[#172335] border-2 border-[#99d5f9] rounded-2xl p-3">
+        <div class="text-[10px] font-bold text-[#99d5f9]">DOĞRU</div>
         <div class="text-xl font-black mt-1" x-text="quiz.correctCount + '/' + quiz.items.length"></div>
       </div>
     </div>
     <button @click="quiz.summary = false" class="btn-3d-green w-full py-3.5 rounded-2xl font-extrabold text-sm uppercase">
-      PATİKAYA DÖN
+      KONULARA DÖN
     </button>
   </div>
 
-  <script>
-    const DEFAULT_CURRICULUM = [
-      // A) ORTAK KONULAR (%70 - 70 Soru)
-      { code: "G01", cat: "Genel %70", topic: "1 Sayılı CBK (Bakanlık Teşkilat ve Görevleri)", shortTitle: "1 Sayılı CBK (Md. 97-126)", weight: 8, icon: "🏛️" },
-      { code: "G02", cat: "Genel %70", topic: "657 Sayılı Devlet Memurları Kanunu", shortTitle: "657 Devlet Memurları K.", weight: 8, icon: "👔" },
-      { code: "G03", cat: "Genel %70", topic: "2872 Sayılı Çevre Kanunu", shortTitle: "2872 Çevre Kanunu", weight: 5, icon: "🌿" },
-      { code: "G04", cat: "Genel %70", topic: "5018 Sayılı Kamu Mali Yönetimi Kanunu", shortTitle: "5018 Kamu Mali Yönetimi", weight: 5, icon: "💰" },
-      { code: "G05", cat: "Genel %70", topic: "2577 Sayılı İdari Yargılama Usulü Kanunu", shortTitle: "2577 İYUK", weight: 5, icon: "⚖️" },
-      { code: "G06", cat: "Genel %70", topic: "2709 Sayılı T.C. Anayasası", shortTitle: "2709 T.C. Anayasası", weight: 4, icon: "🇹🇷" },
-      { code: "G07", cat: "Genel %70", topic: "Atatürk İlkeleri ve İnkılap Tarihi", shortTitle: "Atatürk İlkeleri ve İnkılap", weight: 4, icon: "📜" },
-      { code: "G08", cat: "Genel %70", topic: "5393 Sayılı Belediye Kanunu", shortTitle: "5393 Belediye Kanunu", weight: 4, icon: "🏙️" },
-      { code: "G09", cat: "Genel %70", topic: "7552 Sayılı İklim Kanunu", shortTitle: "7552 İklim Kanunu", weight: 4, icon: "🌍" },
-      { code: "G10", cat: "Genel %70", topic: "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu", shortTitle: "6331 İş Sağlığı ve Güvenliği", weight: 4, icon: "🦺" },
-      { code: "G11", cat: "Genel %70", topic: "4483 Sayılı Memurların Yargılanması Kanunu", shortTitle: "4483 Memur Yargılanması", weight: 4, icon: "🔍" },
-      { code: "G12", cat: "Genel %70", topic: "3194 Sayılı İmar Kanunu", shortTitle: "3194 İmar Kanunu", weight: 4, icon: "🏗️" },
-      { code: "G13", cat: "Genel %70", topic: "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu", shortTitle: "4735 İhale Sözleşmeleri K.", weight: 3, icon: "📝" },
-      { code: "G14", cat: "Genel %70", topic: "4982 Sayılı Bilgi Edinme Hakkı Kanunu", shortTitle: "4982 Bilgi Edinme Hakkı", weight: 3, icon: "ℹ️" },
-      { code: "G15", cat: "Genel %70", topic: "6698 Sayılı KVKK", shortTitle: "6698 KVKK", weight: 3, icon: "🔐" },
-      { code: "G16", cat: "Genel %70", topic: "4734 Sayılı Kamu İhale Kanunu", shortTitle: "4734 Kamu İhale Kanunu", weight: 2, icon: "📑" },
-      // B) ŞUBE MÜDÜRÜ TEKNİK (%30 - 30 Soru)
-      { code: "T01", cat: "Teknik %30", topic: "5543 Sayılı İskân Kanunu", shortTitle: "5543 İskân Kanunu", weight: 4, icon: "🏘️" },
-      { code: "T02", cat: "Teknik %30", topic: "775 Sayılı Gecekondu Kanunu", shortTitle: "775 Gecekondu Kanunu", weight: 4, icon: "🏚️" },
-      { code: "T03", cat: "Teknik %30", topic: "3621 Sayılı Kıyı Kanunu", shortTitle: "3621 Kıyı Kanunu", weight: 4, icon: "🌊" },
-      { code: "T04", cat: "Teknik %30", topic: "4708 Sayılı Yapı Denetimi Hakkında Kanun", shortTitle: "4708 Yapı Denetimi K.", weight: 4, icon: "🏢" },
-      { code: "T05", cat: "Teknik %30", topic: "2942 Sayılı Kamulaştırma Kanunu", shortTitle: "2942 Kamulaştırma K.", weight: 4, icon: "📐" },
-      { code: "T06", cat: "Teknik %30", topic: "Sıfır Atık Yönetmeliği", shortTitle: "Sıfır Atık Yönetmeliği", weight: 4, icon: "♻️" },
-      { code: "T07", cat: "Teknik %30", topic: "ÇED Yönetmeliği", shortTitle: "ÇED Yönetmeliği", weight: 3, icon: "🏭" },
-      { code: "T08", cat: "Teknik %30", topic: "Planlı Alanlar İmar Yönetmeliği", shortTitle: "Planlı Alanlar İmar Yön.", weight: 3, icon: "🗺️" }
-    ];
-
-    // 24 Konunun tamamı için gömülü başlangıç GYS soruları
-    const SEED_QUESTIONS = [
-      { id: 101, cat: "Genel %70", topic: "1 Sayılı CBK (Bakanlık Teşkilat ve Görevleri)", weight: 8, q: "1 sayılı Cumhurbaşkanlığı Kararnamesine göre aşağıdakilerden hangisi Çevre, Şehircilik ve İklim Değişikliği Bakanlığının hizmet birimlerinden biri değildir?", opts: ["Yerel Yönetimler Genel Müdürlüğü", "Milli Emlak Genel Müdürlüğü", "Mesleki Hizmetler Genel Müdürlüğü", "İller Bankası Anonim Şirketi", "Çevresel Etki Değerlendirmesi, İzin ve Denetim Genel Müdürlüğü"], ans: 3, exp: "İller Bankası A.Ş. Bakanlığın bağlı kuruluşu/ilgili kuruluşu statüsündedir; doğrudan merkez hizmet birimi değildir (CBK Md. 100)." },
-      { id: 102, cat: "Genel %70", topic: "657 Sayılı Devlet Memurları Kanunu", weight: 8, q: "657 sayılı Kanuna göre aday memurluk süresi en az ve en çok ne kadardır?", opts: ["6 ay - 1 yıl", "1 yıl - 2 yıl", "1 yıl - 3 yıl", "6 ay - 2 yıl", "2 yıl - 3 yıl"], ans: 1, exp: "657 sayılı DMK Madde 54 uyarınca adaylık süresi bir yıldan az iki yıldan çok olamaz." },
-      { id: 103, cat: "Genel %70", topic: "2872 Sayılı Çevre Kanunu", weight: 5, q: "2872 sayılı Çevre Kanunu'na göre çevrenin korunması ve kirliliğin önlenmesi amacıyla kullanılan temel ilkelerden 'kirleten öder' ilkesi uyarınca harcamalar kime aittir?", opts: ["Sadece Bakanlığa", "İlgili Belediyeye", "Kirletene veya bozulmaya neden olana", "Hazine ve Maliye Bakanlığına", "Valiliğe"], ans: 2, exp: "2872 sayılı Kanun Madde 3/g uyarınca kirlenme ve bozulmanın önlenmesi, sınırlandırılması ve giderilmesi harcamaları kirletene aittir." },
-      { id: 104, cat: "Genel %70", topic: "5018 Sayılı Kamu Mali Yönetimi Kanunu", weight: 5, q: "5018 sayılı Kanuna göre bütçe ödeneklerinin kullanılmasında harcama talimatı verme yetkisi kime aittir?", opts: ["Muhasebe Yetkilisi", "Gerçekleştirme Görevlisi", "Üst Yönetici", "Harcama Yetkilisi", "İç Denetçi"], ans: 3, exp: "5018 sayılı Kanun Madde 31-32 uyarınca bütçeden harcama yapılabilmesi harcama yetkilisinin harcama talimatı vermesiyle mümkündür." },
-      { id: 105, cat: "Genel %70", topic: "2577 Sayılı İdari Yargılama Usulü Kanunu", weight: 5, q: "2577 sayılı İYUK'a göre özel kanunlarında ayrı süre gösterilmeyen hallerde Danıştayda ve idare mahkemelerinde dava açma süresi kaç gündür?", opts: ["15 gün", "30 gün", "45 gün", "60 gün", "90 gün"], ans: 3, exp: "2577 sayılı İYUK Madde 7 uyarınca Danıştayda ve idare mahkemelerinde genel dava açma süresi 60 gündür (vergi mahkemelerinde 30 gün)." },
-      { id: 106, cat: "Genel %70", topic: "2709 Sayılı T.C. Anayasası", weight: 4, q: "1982 Anayasası'na göre Cumhurbaşkanı yardımcıları ve bakanlar kime karşı sorumludur?", opts: ["TBMM'ye", "Anayasa Mahkemesine", "Cumhurbaşkanına", "Danıştaya", "Yargıtaya"], ans: 2, exp: "Anayasa Madde 106 uyarınca Cumhurbaşkanı yardımcıları ve bakanlar, Cumhurbaşkanına karşı sorumludur." },
-      { id: 107, cat: "Genel %70", topic: "Atatürk İlkeleri ve İnkılap Tarihi", weight: 4, q: "Misak-ı Milli kararları aşağıdaki meclis veya kongrelerin hangisinde kabul edilmiştir?", opts: ["Erzurum Kongresi", "Sivas Kongresi", "Son Osmanlı Mebusan Meclisi", "I. TBMM", "Amasya Görüşmeleri"], ans: 2, exp: "Misak-ı Milli 28 Ocak 1920'de Son Osmanlı Mebusan Meclisi'nde kabul edilmiştir." },
-      { id: 108, cat: "Genel %70", topic: "5393 Sayılı Belediye Kanunu", weight: 4, q: "5393 sayılı Belediye Kanunu'na göre bir yerleşim yerinde belediye kurulabilmesi için nüfusun en az kaç olması gerekir?", opts: ["2.000", "5.000", "10.000", "20.000", "50.000"], ans: 1, exp: "5393 sayılı Kanun Madde 4 uyarınca nüfusu 5.000 ve üzerinde olan yerleşim birimlerinde belediye kurulabilir." },
-      { id: 109, cat: "Genel %70", topic: "7552 Sayılı İklim Kanunu", weight: 4, q: "7552 sayılı İklim Kanunu kapsamında sera gazı emisyonlarının azaltımı ve net sıfır emisyon hedefi doğrultusunda ulusal koordinasyonu sağlayan temel mekanizma aşağıdakilerden hangisidir?", opts: ["Emisyon Ticaret Sistemi (ETS) ve İklim Değişikliği Başkanlığı koordinasyonu", "Yalnızca Büyükşehir Belediyeleri", "İl Özel İdareleri", "Kıyı Emniyeti Genel Müdürlüğü", "Tapu ve Kadastro Genel Müdürlüğü"], ans: 0, exp: "7552 sayılı İklim Kanunu ulusal net sıfır emisyon hedefi, ETS ve İklim Değişikliği Başkanlığı koordinasyon esaslarını düzenler." },
-      { id: 110, cat: "Genel %70", topic: "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu", weight: 4, q: "6331 sayılı Kanuna göre çok tehlikeli sınıfta yer alan işyerlerinde acil durum planları en geç kaç yılda bir yenilenir?", opts: ["1 yıl", "2 yıl", "3 yıl", "4 yıl", "6 yıl"], ans: 1, exp: "Acil durum planları; çok tehlikeli sınıfta 2, tehlikeli sınıfta 4, az tehlikeli sınıfta 6 yılda bir yenilenir." },
-      { id: 111, cat: "Genel %70", topic: "4483 Sayılı Memurların Yargılanması Kanunu", weight: 4, q: "4483 sayılı Kanuna göre yetkili merci, soruşturma izni konusundaki kararını suçun öğrenilmesinden itibaren ön inceleme dahil en geç kaç gün içinde verir (zorunlu ek süre hariç)?", opts: ["15 gün", "30 gün", "45 gün", "60 gün", "90 gün"], ans: 1, exp: "4483 sayılı Kanun Madde 7 uyarınca yetkili merci 30 gün içinde karar verir; zorunlu hallerde 15 günü geçmemek üzere bir defa uzatılabilir." },
-      { id: 112, cat: "Genel %70", topic: "3194 Sayılı İmar Kanunu", weight: 4, q: "3194 sayılı İmar Kanunu'na göre Düzenleme Ortaklık Payı (DOP) oranı, düzenlemeye tabi tutulan yerlerin düzenlemeden önceki yüzölçümünün en fazla yüzde kaçı kadar olabilir?", opts: ["%35", "%40", "%45", "%50", "%25"], ans: 2, exp: "3194 sayılı İmar Kanunu Madde 18 uyarınca DOP oranı %45'i geçemez." },
-      { id: 113, cat: "Genel %70", topic: "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu", weight: 3, q: "4735 sayılı Kanuna göre yapım işlerinde birim fiyat sözleşmelerde, sözleşme bedelinin yüzde kaçına kadar oran dahilinde süre uzatımı ve iş artışı yapılabilir?", opts: ["%10", "%20", "%30", "%40", "%50"], ans: 1, exp: "4735 sayılı Kanun Madde 24 uyarınca yapım işlerinde birim fiyat sözleşmelerde %20'ye (Cumhurbaşkanı kararıyla %40'a) kadar iş artışı yapılabilir." },
-      { id: 114, cat: "Genel %70", topic: "4982 Sayılı Bilgi Edinme Hakkı Kanunu", weight: 3, q: "4982 sayılı Kanuna göre kurum ve kuruluşlar bilgi edinme başvurularını kural olarak kaç iş günü içinde cevaplandırır?", opts: ["7 iş günü", "10 iş günü", "15 iş günü", "30 iş günü", "60 iş günü"], ans: 2, exp: "4982 sayılı Kanun Madde 11 uyarınca başvurular 15 iş günü içinde (başka kurumdan görüş alınacaksa 30 iş günü) cevaplandırılır." },
-      { id: 115, cat: "Genel %70", topic: "6698 Sayılı KVKK", weight: 3, q: "6698 sayılı KVKK'ya göre veri sorumlusu, kendisine yöneltilen başvuruları en geç kaç gün içinde ücretsiz olarak sonuçlandırır?", opts: ["10 gün", "15 gün", "30 gün", "45 gün", "60 gün"], ans: 2, exp: "6698 sayılı KVKK Madde 13 uyarınca veri sorumlusu talepleri en geç 30 gün içinde sonuçlandırır." },
-      { id: 116, cat: "Genel %70", topic: "4734 Sayılı Kamu İhale Kanunu", weight: 2, q: "4734 sayılı Kamu İhale Kanunu'na göre aşağıdakilerden hangisi temel ihale usullerinden biridir?", opts: ["Çerçeve Anlaşma", "Dinamik Alım Sistemi", "Belli İstekliler Arasında İhale Usulü", "Elektronik Eksiltme", "Doğrudan Temin"], ans: 2, exp: "4734 sayılı Kanun Madde 18'e göre temel ihale usulleri: Açık ihale, Belli istekliler arasında ihale ve Pazarlık usulüdür." },
-      { id: 201, cat: "Teknik %30", topic: "5543 Sayılı İskân Kanunu", weight: 4, q: "5543 sayılı İskân Kanunu'na göre iskân edilen ailelere verilen taşınmaz mallar, tahsis tarihinden itibaren kaç yıl süreyle hiçbir suretle satılamaz, bağışlanamaz ve haczedilemez?", opts: ["3 yıl", "5 yıl", "10 yıl", "15 yıl", "20 yıl"], ans: 2, exp: "5543 sayılı İskân Kanunu Madde 21 uyarınca verilen taşınmazlar 10 yıl süreyle satılamaz, bağışlanamaz ve haczedilemez." },
-      { id: 202, cat: "Teknik %30", topic: "775 Sayılı Gecekondu Kanunu", weight: 4, q: "775 sayılı Gecekondu Kanunu uyarınca tahsis edilen arsalar üzerine hak sahiplerince ne kadar süre içinde bina yapımına başlanması zorunludur?", opts: ["6 ay", "1 yıl", "2 yıl", "3 yıl", "5 yıl"], ans: 1, exp: "775 sayılı Kanun Madde 27 uyarınca tahsis tarihinden itibaren 1 yıl içinde bina yapımına başlanması şarttır." },
-      { id: 203, cat: "Teknik %30", topic: "3621 Sayılı Kıyı Kanunu", weight: 4, q: "3621 sayılı Kıyı Kanunu'na göre uygulama imar planı yapılacak yerlerde sahil şeridinin derinliği kıyı kenar çizgisinden itibaren en az kaç metredir?", opts: ["20 metre", "50 metre", "100 metre", "150 metre", "200 metre"], ans: 2, exp: "3621 sayılı Kıyı Kanunu Madde 4 uyarınca sahil şeridi kıyı kenar çizgisinden itibaren yatay olarak en az 100 metre genişliğindeki alandır." },
-      { id: 204, cat: "Teknik %30", topic: "4708 Sayılı Yapı Denetimi Hakkında Kanun", weight: 4, q: "4708 sayılı Kanuna göre yapı denetim kuruluşlarının yapıların taşıyıcı sisteminden dolayı sorumluluk süresi, yapı kullanma izninin alındığı tarihten itibaren kaç yıldır?", opts: ["2 yıl", "5 yıl", "10 yıl", "15 yıl", "20 yıl"], ans: 3, exp: "4708 sayılı Kanun Madde 3 uyarınca taşıyıcı sistemden dolayı 15 yıl, taşıyıcı olmayan diğer kısımlardan dolayı 2 yıl sorumluluk vardır." },
-      { id: 205, cat: "Teknik %30", topic: "2942 Sayılı Kamulaştırma Kanunu", weight: 4, q: "2942 sayılı Kamulaştırma Kanunu'na göre kamulaştırma işlemlerinin tamamlanmasından itibaren idarece kaç yıl içinde kamulaştırma amacına uygun hiçbir işlem yapılmazsa eski malik geri alma hakkını kullanabilir?", opts: ["1 yıl", "3 yıl", "5 yıl", "10 yıl", "15 yıl"], ans: 2, exp: "2942 sayılı Kanun Madde 23 uyarınca kamulaştırma bedelinin kesinleşmesinden itibaren 5 yıl içinde amaca uygun işlem yapılmazsa geri alma hakkı doğar." },
-      { id: 206, cat: "Teknik %30", topic: "Sıfır Atık Yönetmeliği", weight: 4, q: "Sıfır Atık Yönetmeliği'ne göre kağıt-karton atıkların biriktirildiği ekipmanlarda kullanılan standart renk aşağıdakilerden hangisidir?", opts: ["Mavi", "Sarı", "Yeşil", "Gri", "Kahverengi"], ans: 0, exp: "Sıfır Atık Yönetmeliği uyarınca Kağıt/Karton için Mavi, Plastik için Sarı, Cam için Yeşil, Metal için Gri, Organik atıklar için Kahverengi kullanılır." },
-      { id: 207, cat: "Teknik %30", topic: "ÇED Yönetmeliği", weight: 3, q: "ÇED Yönetmeliği'ne göre 'ÇED Olumlu' kararı verilen bir projede kaç yıl içinde mücbir sebep olmaksızın yatırıma başlanmazsa karar geçersiz sayılır?", opts: ["2 yıl", "3 yıl", "5 yıl", "7 yıl", "10 yıl"], ans: 3, exp: "ÇED Yönetmeliği uyarınca 'ÇED Olumlu' kararı verilen projelerde 7 yıl içinde yatırıma başlanmaması halinde karar geçersiz sayılır." },
-      { id: 208, cat: "Teknik %30", topic: "Planlı Alanlar İmar Yönetmeliği", weight: 3, q: "Planlı Alanlar İmar Yönetmeliği'ne göre yapı ruhsatı alınan binalarda ruhsat tarihinden itibaren kaç yıl içinde inşaata başlanması ve kaç yıl içinde bitirilmesi zorunludur?", opts: ["1 yıl başlama - 3 yıl bitirme", "2 yıl başlama - 5 yıl bitirme", "2 yıl başlama - 10 yıl bitirme", "3 yıl başlama - 5 yıl bitirme", "1 yıl başlama - 5 yıl bitirme"], ans: 1, exp: "Ruhsat tarihinden itibaren 2 yıl içinde inşaata başlanması ve 5 yıl içinde inşaatın tamamlanması zorunludur." }
-    ];
-
-    function gysApp() {
-      return {
-        activeTab: 'home',
-        filterCat: 'ALL',
-        curriculum: JSON.parse(JSON.stringify(DEFAULT_CURRICULUM)),
-        questions: [],
-        state: {
-          xp: 0,
-          dailyXP: 0,
-          streak: 1,
-          lastActiveDate: null,
-          hearts: 5,
-          totalAnswered: 0,
-          totalCorrect: 0,
-          topicStats: {}, // { topic: { answered: 0, correct: 0 } }
-          mistakes: {},   // { qId: { wrongCount: 1, streak: 0, lastWrong: timestamp } }
-          customWeights: {},
-          settings: {
-            quizSize: 10,
-            dailyGoal: 100,
-            mixMistakes: true,
-            examMode: false,
-            sound: true
-          }
-        },
-        quiz: {
-          active: false,
-          summary: false,
-          title: '',
-          items: [],
-          index: 0,
-          selected: null,
-          checked: false,
-          isCorrect: false,
-          correctCount: 0
-        },
-
-        async initApp() {
-          // 1. LocalStorage'dan kullanıcı durumunu yükle
-          const savedState = localStorage.getItem('gys_duo_state_v1');
-          if (savedState) {
-            try {
-              this.state = { ...this.state, ...JSON.parse(savedState) };
-            } catch (e) {}
-          }
-
-          // Özel ağırlıklar varsa uygula
-          if (this.state.customWeights) {
-            this.curriculum.forEach(c => {
-              if (this.state.customWeights[c.code]) c.weight = this.state.customWeights[c.code];
-            });
-          }
-
-          // Günlük seri kontrolü
-          const today = new Date().toISOString().slice(0, 10);
-          if (this.state.lastActiveDate !== today) {
-            const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-            if (this.state.lastActiveDate === yesterday) {
-              this.state.streak += 1;
-            } else if (this.state.lastActiveDate !== null) {
-              this.state.streak = 1;
-            }
-            this.state.dailyXP = 0;
-            this.state.lastActiveDate = today;
-            this.saveState();
-          }
-
-          // 2. Soru havuzunu yükle (Önce LocalStorage, sonra varsa harici questions.json, yoksa SEED_QUESTIONS)
-          const savedQuestions = localStorage.getItem('gys_duo_questions_v1');
-          if (savedQuestions) {
-            try {
-              this.questions = JSON.parse(savedQuestions);
-            } catch (e) {}
-          }
-          if (!this.questions || this.questions.length === 0) {
-            this.questions = [...SEED_QUESTIONS];
-          }
-
-          // Aynı klasörde questions.json varsa otomatik birleştir
-          try {
-            const res = await fetch('./questions.json', { cache: 'no-store' });
-            if (res.ok) {
-              const extData = await res.json();
-              if (Array.isArray(extData) && extData.length > 0) {
-                this.mergeQuestions(extData);
-              }
-            }
-          } catch (_) {}
-        },
-
-        saveState() {
-          localStorage.setItem('gys_duo_state_v1', JSON.stringify(this.state));
-        },
-
-        mergeQuestions(newItems) {
-          const map = new Map();
-          this.questions.forEach(q => map.set(q.id, q));
-          newItems.forEach((q, idx) => {
-            const id = q.id || (10000 + idx);
-            map.set(id, { ...q, id });
-          });
-          this.questions = Array.from(map.values());
-          localStorage.setItem('gys_duo_questions_v1', JSON.stringify(this.questions));
-        },
-
-        filteredTopics() {
-          const list = this.filterCat === 'ALL'
-            ? this.curriculum
-            : this.curriculum.filter(c => c.cat === this.filterCat);
-          return [...list].sort((a, b) => b.weight - a.weight);
-        },
-
-        getQuestionCount(topicName) {
-          return this.questions.filter(q => q.topic === topicName).length;
-        },
-
-        getTopicMastery(topicName) {
-          const st = this.state.topicStats[topicName];
-          if (!st || !st.answered) return 0;
-          return Math.round((st.correct / st.answered) * 100);
-        },
-
-        overallAccuracy() {
-          if (!this.state.totalAnswered) return 0;
-          return Math.round((this.state.totalCorrect / this.state.totalAnswered) * 100);
-        },
-
-        estimatedGysScore() {
-          let totalScore = 0;
-          this.curriculum.forEach(c => {
-            const st = this.state.topicStats[c.topic];
-            const ratio = (st && st.answered > 0) ? (st.correct / st.answered) : 0.5;
-            totalScore += c.weight * ratio;
-          });
-          return totalScore.toFixed(1);
-        },
-
-        weakestTopics() {
-          return this.curriculum
-            .map(c => ({
-              ...c,
-              acc: this.getTopicMastery(c.topic),
-              ans: this.state.topicStats[c.topic]?.answered || 0
-            }))
-            .sort((a, b) => (a.acc - b.acc) || (b.weight - a.weight))
-            .slice(0, 3);
-        },
-
-        mistakeList() {
-          const list = [];
-          for (const [idStr, meta] of Object.entries(this.state.mistakes)) {
-            const qObj = this.questions.find(q => String(q.id) === String(idStr));
-            if (qObj) list.push({ qObj, ...meta });
-          }
-          return list.sort((a, b) => (b.qObj.weight - a.qObj.weight) || (b.wrongCount - a.wrongCount));
-        },
-
-        isMistakeQuestion(qId) {
-          return Boolean(qId && this.state.mistakes[qId]);
-        },
-
-        // Konu Bazlı Ders Başlat (%30 Hata Serpiştirmeli)
-        startTopicQuiz(topicItem) {
-          if (this.state.settings.examMode && this.state.hearts <= 0) {
-            this.state.hearts = 5;
-          }
-          const size = this.state.settings.quizSize || 10;
-          let pool = this.questions.filter(q => q.topic === topicItem.topic);
-          if (pool.length === 0) pool = [...this.questions];
-
-          let selected = [];
-          if (this.state.settings.mixMistakes) {
-            const topicMistakes = this.mistakeList()
-              .map(m => m.qObj)
-              .filter(q => q.topic === topicItem.topic || q.cat === topicItem.cat);
-            const mistakeQuota = Math.min(topicMistakes.length, Math.max(1, Math.floor(size * 0.3)));
-            selected.push(...this.shuffle(topicMistakes).slice(0, mistakeQuota));
-          }
-
-          const remaining = pool.filter(q => !selected.some(s => s.id === q.id));
-          selected.push(...this.shuffle(remaining).slice(0, size - selected.length));
-
-          this.launchQuiz(topicItem.shortTitle, this.shuffle(selected));
-        },
-
-        // Sadece Hataları Eritme Testi
-        startMistakeQuiz() {
-          const mItems = this.mistakeList().map(m => m.qObj).slice(0, 15);
-          if (mItems.length === 0) return;
-          this.launchQuiz('Hata Eritme Özel Turu', this.shuffle(mItems));
-        },
-
-        // GYS Ağırlıklı Genel Simülasyon
-        startWeightedExam() {
-          const picked = [];
-          this.curriculum.forEach(c => {
-            const topicPool = this.questions.filter(q => q.topic === c.topic);
-            if (topicPool.length > 0) {
-              picked.push(...this.shuffle(topicPool).slice(0, c.weight));
-            }
-          });
-          this.launchQuiz('GYS Ağırlıklı Karma Deneme', this.shuffle(picked).slice(0, 25));
-        },
-
-        launchQuiz(title, items) {
-          if (!items || items.length === 0) return;
-          this.quiz = {
-            active: true,
-            summary: false,
-            title,
-            items,
-            index: 0,
-            selected: null,
-            checked: false,
-            isCorrect: false,
-            correctCount: 0
-          };
-        },
-
-        currentQ() {
-          return this.quiz.items[this.quiz.index] || null;
-        },
-
-        selectOption(idx) {
-          if (this.quiz.checked) return;
-          this.quiz.selected = idx;
-          if (navigator.vibrate) navigator.vibrate(10);
-        },
-
-        getOptionClass(idx) {
-          if (!this.quiz.checked) {
-            return this.quiz.selected === idx ? 'btn-3d-selected' : 'btn-3d-card text-gray-100';
-          }
-          const ans = this.currentQ()?.ans;
-          if (idx === ans) return 'btn-3d-correct';
-          if (idx === this.quiz.selected && idx !== ans) return 'btn-3d-wrong';
-          return 'btn-3d-card opacity-50';
-        },
-
-        checkAnswer() {
-          if (this.quiz.selected === null || this.quiz.checked) return;
-          const q = this.currentQ();
-          const correct = this.quiz.selected === q.ans;
-          this.quiz.checked = true;
-          this.quiz.isCorrect = correct;
-
-          // İstatistik güncelle
-          this.state.totalAnswered += 1;
-          if (!this.state.topicStats[q.topic]) {
-            this.state.topicStats[q.topic] = { answered: 0, correct: 0 };
-          }
-          this.state.topicStats[q.topic].answered += 1;
-
-          if (correct) {
-            this.quiz.correctCount += 1;
-            this.state.totalCorrect += 1;
-            this.state.topicStats[q.topic].correct += 1;
-            this.state.xp += 10;
-            this.state.dailyXP += 10;
-            this.playTone(true);
-
-            // Hata havuzundaysa seri artır, 2 olunca sil
-            if (this.state.mistakes[q.id]) {
-              this.state.mistakes[q.id].streak += 1;
-              if (this.state.mistakes[q.id].streak >= 2) {
-                delete this.state.mistakes[q.id];
-              }
-            }
-          } else {
-            this.playTone(false);
-            if (navigator.vibrate) navigator.vibrate([60, 40, 80]);
-            if (this.state.settings.examMode && this.state.hearts > 0) {
-              this.state.hearts -= 1;
-            }
-            // Hata havuzuna ekle veya sıfırla
-            const prev = this.state.mistakes[q.id] || { wrongCount: 0, streak: 0 };
-            this.state.mistakes[q.id] = {
-              wrongCount: prev.wrongCount + 1,
-              streak: 0,
-              lastWrong: Date.now()
-            };
-          }
-          this.saveState();
-        },
-
-        nextQuestion() {
-          if (this.state.settings.examMode && this.state.hearts <= 0) {
-            alert('Sınav modunda canların tükendi! Tur sonlandırılıyor.');
-            this.state.hearts = 5;
-            this.quiz.active = false;
-            this.quiz.summary = true;
-            this.saveState();
-            return;
-          }
-          if (this.quiz.index + 1 < this.quiz.items.length) {
-            this.quiz.index += 1;
-            this.quiz.selected = null;
-            this.quiz.checked = false;
-            this.quiz.isCorrect = false;
-          } else {
-            this.quiz.active = false;
-            this.quiz.summary = true;
-          }
-        },
-
-        closeQuiz() {
-          this.quiz.active = false;
-        },
-
-        // Web Audio API ile sıfır harici dosyayla Duolingo ses efekti
-        playTone(isSuccess) {
-          if (!this.state.settings.sound) return;
-          try {
-            const ctx = new (window.AudioContext || window.webkitAudioContext)();
-            const osc = ctx.createOscillator();
-            const gain = ctx.createGain();
-            osc.connect(gain);
-            gain.connect(ctx.destination);
-            if (isSuccess) {
-              osc.frequency.setValueAtTime(587.33, ctx.currentTime);
-              osc.frequency.setValueAtTime(880, ctx.currentTime + 0.09);
-            } else {
-              osc.type = 'sawtooth';
-              osc.frequency.setValueAtTime(220, ctx.currentTime);
-              osc.frequency.setValueAtTime(165, ctx.currentTime + 0.12);
-            }
-            gain.gain.setValueAtTime(0.12, ctx.currentTime);
-            gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.25);
-            osc.start();
-            osc.stop(ctx.currentTime + 0.25);
-          } catch (_) {}
-        },
-
-        shuffle(arr) {
-          const a = [...arr];
-          for (let i = a.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [a[i], a[j]] = [a[j], a[i]];
-          }
-          return a;
-        },
-
-        // Yönetim Paneli İşlevleri
-        importQuestionsJson(event) {
-          const file = event.target.files[0];
-          if (!file) return;
-          const reader = new FileReader();
-          reader.onload = (e) => {
-            try {
-              const parsed = JSON.parse(e.target.result);
-              if (Array.isArray(parsed)) {
-                this.mergeQuestions(parsed);
-                alert(parsed.length + ' adet soru başarıyla soru bankasına eklendi!');
-              }
-            } catch (err) {
-              alert('Geçersiz JSON formatı!');
-            }
-          };
-          reader.readAsText(file);
-        },
-
-        exportBackup() {
-          const payload = {
-            state: this.state,
-            questions: this.questions
-          };
-          const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = 'gys_duo_yedek.json';
-          a.click();
-        },
-
-        importBackup(event) {
-          const file = event.target.files[0];
-          if (!file) return;
-          const reader = new FileReader();
-          reader.onload = (e) => {
-            try {
-              const data = JSON.parse(e.target.result);
-              if (data.state) this.state = data.state;
-              if (data.questions) this.questions = data.questions;
-              this.saveState();
-              localStorage.setItem('gys_duo_questions_v1', JSON.stringify(this.questions));
-              alert('Yedek başarıyla geri yüklendi!');
-            } catch (_) {
-              alert('Yedek dosyası okunamadı!');
-            }
-          };
-          reader.readAsText(file);
-        },
-
-        saveCustomWeights() {
-          const wMap = {};
-          this.curriculum.forEach(c => { wMap[c.code] = Number(c.weight) || 1; });
-          this.state.customWeights = wMap;
-          this.saveState();
-        },
-
-        resetWeights() {
-          this.curriculum = JSON.parse(JSON.stringify(DEFAULT_CURRICULUM));
-          this.state.customWeights = {};
-          this.saveState();
-        },
-
-        resetAllProgress() {
-          if (!confirm('Tüm XP, konu istatistikleri ve hata kayıtların sıfırlansın mı?')) return;
-          localStorage.removeItem('gys_duo_state_v1');
-          location.reload();
-        }
-      };
-    }
-  </script>
+  <noscript><style>body[x-cloak]{display:block!important}</style><p style="padding:20px">GYS Hazırlık uygulamasını kullanmak için JavaScript’i açın.</p></noscript>
+  <div x-show="strictView" class="strict-overlay" role="dialog" aria-modal="true" aria-label="Strict deneme" data-testid="strict-dialog" tabindex="-1" @keydown.tab="trapStrictFocus($event)">
+    <template x-if="strictView?.status==='active'"><div>
+      <div class="tool-row" style="justify-content:space-between"><h2>Strict Mode</h2><strong class="text-lg" x-text="strictClock()"></strong></div>
+      <p class="text-xs mt-2" x-text="(strictView.cursor+1)+'/100 · Duraklatma yok'"></p><p x-show="strictView.clockWarning" class="feature-message">Cihaz saatinde değişiklik algılandı. Çevrimdışı saatin güvenilirliği sınırlıdır;süre uzatılmaz.</p>
+      <h3 class="text-base font-bold my-5" x-text="strictQuestion()?.text"></h3>
+      <div class="strict-options"><template x-for="option in strictQuestion()?.options||[]" :key="option.id"><button @click="strictAnswer(option.id)" :disabled="strictBusy" :class="{'selected':strictSelected()===option.id}" x-text="option.text"></button></template></div>
+      <div class="tool-row"><button class="tool-button secondary" @click="strictMove(Math.max(0,strictView.cursor-1))" :disabled="strictBusy||strictView.cursor===0">Önceki</button><button class="tool-button secondary" @click="strictAnswer(null)" :disabled="strictBusy">Cevabı boş bırak</button><button class="tool-button" @click="strictMove(Math.min(99,strictView.cursor+1))" :disabled="strictBusy||strictView.cursor===99">Sonraki</button></div>
+      <details class="mt-4"><summary class="text-sm">Sorular arasında geçiş</summary><div class="number-grid mt-3"><template x-for="(question,index) in strictView.questions" :key="question.id"><button @click="strictMove(index)" :disabled="strictBusy" :class="{current:strictView.cursor===index,answered:strictView.answers.some(a=>a.questionId===question.id)}" x-text="index+1"></button></template></div></details>
+      <p x-show="notice" class="feature-message" x-text="notice"></p><button class="tool-button mt-4 w-full" @click="finishStrict()" :disabled="strictBusy">Denemeyi bitir</button>
+    </div></template>
+    <template x-if="strictView?.status==='completed'"><div><h2 x-text="strictView.title"></h2><div class="clock-display" x-text="strictView.result.score+'/100'"></div><p x-text="strictView.result.correct+' doğru · '+strictView.result.wrong+' yanlış · '+strictView.result.blank+' boş'"></p><p x-text="strictResultTrusted?(strictView.isFirstAttempt?'İlk bağımsız çözüm':'Tekrar denemesi'):'İçe aktarılan geçmiş kayıt · bağımsızlığı doğrulanmadı'"></p><p x-text="'Ortak:'+strictView.result.common.correct+'/70 · Teknik:'+strictView.result.technical.correct+'/30'"></p><template x-for="topic in strictView.result.perTopic" :key="topic.topicId"><p class="text-xs" x-text="topic.topicId+': '+topic.correct+' doğru / '+topic.wrong+' yanlış / '+topic.blank+' boş'"></p></template><details class="tool-card"><summary>Kaydedilmiş soru sürümlerini incele</summary><template x-for="question in strictView.review?.questions||[]" :key="question.id"><article class="py-4 border-b border-[#29384b]"><strong class="text-sm" x-text="question.text"></strong><p class="text-sm" x-text="question.options.find(o=>o.id===question.correctOptionId)?.text"></p><p class="text-xs" x-text="question.explanation"></p></article></template></details><button class="tool-button" @click="closeStrictResult()">Sonucu kapat</button></div></template>
+  </div>
+  <div x-show="updateAvailable" class="source-note fixed bottom-24 left-4 right-4 z-40 max-w-[398px] mx-auto"><span>Yeni uygulama sürümü hazır.</span><button class="tool-button" @click="activateAppUpdate()">Güncelle</button></div>
+  <noscript>Uygulamayı kullanmak için JavaScript etkin olmalıdır. Çalışma içerikleri kademeli doğrulanır; nihai sınav mevzuatı henüz kesinleşmedi.</noscript>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>

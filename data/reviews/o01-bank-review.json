@@ -1,0 +1,1385 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "o01-independent-review",
+  "reviewType": "SeparateProcessModelAssistedOfficialProvisionReview",
+  "humanReview": false,
+  "candidateFileSHA256": "81016a375ca86dde95a85ae473c920ffc824f0aa84ba726a2a65ed3d5f35c74a",
+  "rulesFileSHA256": "ad8829ba3aa7d121a4d4d58db52637e1039372770b16568aea8aa0b67c5349ce",
+  "sourceSnapshotId": "SRC-OFFICIAL-CBK1-UYAP-20261106-237956af81c8",
+  "sourceArchiveHashChecks": 38,
+  "sourceIntegrityChecks": {
+    "independentParser": "lxml.html on captured complete p elements",
+    "paragraphLocatorConvention": "0-based index of complete <p...>...</p> captures in source HTML, not repaired DOM xpath //p index",
+    "articleArtifacts": 35,
+    "fullRawResponse": true,
+    "fullDecodedHTML": true,
+    "provisionJSON": true,
+    "paragraphsCompared": 284,
+    "integrityDisagreements": 0,
+    "mechanicalChecks": 2267
+  },
+  "legalEdition": "preparation",
+  "examCutoffFinalized": false,
+  "reviewDecisionScope": "Pass supports controlled preparation-package publication only with separate reproducible source/rule gates. It is not human approval or final2027 legal-edition acceptance.",
+  "correctedCandidates": [
+    "Q-O01-B-0036",
+    "Q-O01-B-0037",
+    "Q-O01-B-0042",
+    "Q-O01-B-0050",
+    "Q-O01-B-0067",
+    "Q-O01-B-0089",
+    "Q-O01-B-0096",
+    "Q-O01-B-0097",
+    "Q-O01-B-0099"
+  ],
+  "difficultyCalibrationCandidates": [
+    "Q-O01-B-0056",
+    "Q-O01-B-0057",
+    "Q-O01-B-0058",
+    "Q-O01-B-0059",
+    "Q-O01-B-0060",
+    "Q-O01-B-0061",
+    "Q-O01-B-0062",
+    "Q-O01-B-0063",
+    "Q-O01-B-0064",
+    "Q-O01-B-0067",
+    "Q-O01-B-0068",
+    "Q-O01-B-0069",
+    "Q-O01-B-0070",
+    "Q-O01-B-0071",
+    "Q-O01-B-0072",
+    "Q-O01-B-0073",
+    "Q-O01-B-0074",
+    "Q-O01-B-0075",
+    "Q-O01-B-0076",
+    "Q-O01-B-0077",
+    "Q-O01-B-0078",
+    "Q-O01-B-0079",
+    "Q-O01-B-0080"
+  ],
+  "originalityReview": {
+    "comparedPublishedQuestionCount": 100,
+    "bankQuestions": 100,
+    "distinctObjectives": 100,
+    "normalizedTextDuplicatesObserved": 0,
+    "semanticDuplicatesObserved": 0,
+    "learningObjectiveDuplicatesObserved": 0,
+    "method": "Separate item-by-item reading of legal condition, measured fact, outcome and cognitive operation. Same article groups reviewed, especially112quorum/voting/conflict,109protectionauthorities,103vs104standards/permission and108externalportal/internaluse. No embedding or statistical semantic uniqueness proof is claimed. Pending mock questions are not approved by this review."
+  },
+  "summary": {
+    "reviewed": 100,
+    "pass": 100,
+    "needsReview": 0,
+    "rejected": 0,
+    "publicationApprovalPerformedByReviewer": false,
+    "difficultyCounts": {
+      "basic": 34,
+      "medium": 44,
+      "hard": 2,
+      "application": 20
+    },
+    "scenarioQuestions": 22
+  },
+  "reviews": [
+    {
+      "questionId": "Q-O01-B-0001",
+      "candidateSha256": "a88bed360aa4189be5bbcea82baa006c8966623772501629504b8ac90d48d2d5",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(1) Çevre, Şehircilik ve İklim Değişikliği Bakanlığı; merkez, taşra ve yurtdışı teşkilatından oluşur.[61]",
+      "sourceLocator": "1 sayılı CBK m.98; resmî UYAP belge114832; tam HTML p[1217]",
+      "notes": [
+        "Teşkilat kademeleri merkez, taşra ve yurtdışı olarak birlikte korunmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0002",
+      "candidateSha256": "5d9cd7f0980ca19b190bee61d47a92a8cfc6ad06462e7b8b36362a2fc587e4da",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "s) (Mülga:RG-10/1/2019-30651-CK-27/28 md.) (Yeniden Düzenleme:RG-16/10/2025-33049-CK-189/7 md.) Acil Durumlar ve Savunma Planlaması Dairesi Başkanlığı,",
+      "sourceLocator": "1 sayılı CBK m.99; resmî UYAP belge114832; tam HTML p[1242]",
+      "notes": [
+        "99/s içindeki eski mülga notu ardından 2025 yeniden düzenleme okunmuştur; güncel hizmet birimi Acil Durumlar ve Savunma Planlamasıdır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0003",
+      "candidateSha256": "19e226627381da07df5c4b76a94cc6358f5d0f0b50bf5fce1cbb0efcfddc5ea9",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Mahalli idareler personelinin hizmet içi eğitimini planlamak ve uygulanmasını takip etmek,",
+      "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1251]",
+      "notes": [
+        "Mahalli idare personelinin hizmet içi eğitimi, Bakanlık personelinin genel eğitim planından ayrılmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0004",
+      "candidateSha256": "566b305a33e376380693623700b1ef854d8766b01cea768972f7378da1d39521",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Hazinenin özel mülkiyetindeki taşınmazların satışı, kiralanması, trampası ve üzerinde sınırlı aynî hak tesisi, Devletin hüküm ve tasarrufu altındaki yerlerin kiralanması ve bu yerler için gerekli görülen hallerde kullanma izni verilmesi işlemlerini yapmak,",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1262]",
+      "notes": [
+        "Tam dört tasarruf işlemi Hazine özel mülkiyetini sorar; devletin hüküm ve tasarrufu altındaki yerlerdeki farklı izin rejimi genişletilmemiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0005",
+      "candidateSha256": "30ceeabd7d2f37fe7ccaea8b19d499dbcafa7999aedd03d91c17a2a61162a36c",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "c) Havza ve bölge bazındaki çevre düzeni planları da dâhil her tür ve ölçekteki çevre düzeni planlarının ve imar planlarının yapılmasına ilişkin usul ve esasları belirlemek, havza veya bölge bazında çevre düzeni planlarını yapmak, yaptırmak, onaylamak ve bu planların uygulanmasını ve denetlenmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1283]",
+      "notes": [
+        "Çevre düzeni planını yapma/onaylama görevi ile çevre kirliliği yönetimi ayrı tutulmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0006",
+      "candidateSha256": "b7416dedf2eceba0619e9e2dbdadcfbbcded532494fbb64646636214268509aa",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "g) Motorlu kara taşıtlarının egzoz emisyonlarının kontrolü için idari, mali ve teknik usul ve esaslar ile standartları belirlemek,",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1308]",
+      "notes": [
+        "Egzoz emisyonlarında standart belirleme yetkisi sorgulanır; uygunluğu belgeleme yetkisi ayrı sorudadır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0007",
+      "candidateSha256": "c38440e8e110e7f1df5068f8c616f33521a34b58c88ce1a5194f0cb9809ce8f0",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "e) Motorlu kara taşıtları egzoz emisyonlarının belirlenen standartlara uygunluğunu belgelemek, izlemek ve denetlemek,",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1330]",
+      "notes": [
+        "Egzoz emisyonu uygunluğunu belgeleme, izleme ve denetleme ÇED birimine aittir; standart belirlemeyle karıştırılmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0008",
+      "candidateSha256": "bca9af917c495394f6acac437b46f4ff40d35c339522f967e99e8f97ad8eb509",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) 5543 sayılı İskan Kanunu ile Bakanlığa verilen görevleri yapmak,",
+      "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1343]",
+      "notes": [
+        "5543 sayılı Kanun atfı Yapı İşleri görevine doğrudan bağlanır; bu soru 5543 ayrıntılarını ölçmez.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0009",
+      "candidateSha256": "0ed7a220aa0ecd7dced12b7030c65b16aaf52c18d18bf53c193fd185831cfe59",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Gerçek kişilere ve özel hukuk tüzel kişilerine ait her türlü yapılar ile ilgili genel ilke, strateji ve standartların belirlemesine ilişkin çalışmaları yapmak ve uygulanmasını sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1354]",
+      "notes": [
+        "Gerçek/özel hukuk kişisi yapılarının standartları, kamu yapıları standartlarından ayrılmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0010",
+      "candidateSha256": "7119a6544e4da3aa7d251e6af9691b7b0c4ab066eeffa2bb2205c5230f9c5ca6",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "i) Bakanlığın bilgi işlem hizmetlerini yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1384]",
+      "notes": [
+        "Bilgi işlem görevi CBS birimine aittir; eski 117 Bilgi İşlem birimi güncelmiş gibi kullanılmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0011",
+      "candidateSha256": "22f30c4ba8fdfea26b1ff27ea868cfe24d53d4522f164ee3e5a7c0adc1649ac8",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "a) Toprağın korunması, tabii kaynakların geliştirilmesi ve iklim değişikliği ile mücadele amacıyla; havza bütünlüğü esas alınarak çölleşme ve erozyonla mücadele, çığ, heyelan ve sel kontrolü ile entegre havza ıslahı plan ve projelerini yapmak, yaptırmak, bu plan ve projelerin gerektirdiği etüt ve proje işlerini yürütmek, projeleri uygulamak, uygulanmasını izlemek, kurumlara proje desteği sağlamak, bu iş ve işlemlerle ilgili politika ve stratejilerin belirlenmesi amacıyla ilgili kurum ve kuruluşlar arasında işbirliği ve koordinasyon sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1390]",
+      "notes": [
+        "108/A ek madde etiketi ve havza bütünlüğü görevi sınır içinde kontrol edilmiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0012",
+      "candidateSha256": "9c656718756f856c5a7af843bce7c561bacf8078e6d6b063bef4b828f30aa257",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerinin tespit, tescil, onay, değişiklik ve ilanına dair usul ve esasları belirlemek ve bu alanların sınırlarını tespit ve tescil etmek, yönetmek ve yönetilmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1402]",
+      "notes": [
+        "Tabiat varlıkları/doğal sit/özel çevre koruma usul ve esasları aynı bentte doğrulanmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0013",
+      "candidateSha256": "7807039e42e1d7e569073595cd489137ed80ef7a2ac23eda19d5f2615c7a7ba2",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Avrupa Birliği ile mali ilişkiler çerçevesindeki operasyonel programları yürütmek ve fonların uygulanmasını koordine etmek,",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1414]",
+      "notes": [
+        "Operasyonel program ve fon koordinasyonu AB ve Dış İlişkiler görevidir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0014",
+      "candidateSha256": "78a4b6eca425b6eaf9269a91fd17f87c4c7d5a4a1d5d8cac2c62f360270781fa",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Bakanlık personelinin atama, nakil, terfi, emeklilik ve benzeri özlük işlemlerini yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1428]",
+      "notes": [
+        "Atama, nakil, terfi ve emeklilik özlük işlemleri Personel görevidir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0015",
+      "candidateSha256": "12ba59b97821d873c1817867ae99b10b87ba6323a82611f7720d89458513c83f",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "a) 26/9/2011 tarihli ve 659 sayılı Kanun Hükmünde Kararname hükümlerine göre hukuk birimlerine verilen görevleri yapmak,",
+      "sourceLocator": "1 sayılı CBK m.109/C; resmî UYAP belge114832; tam HTML p[1435]",
+      "notes": [
+        "659 KHK atfı hukuk birimlerine verilen görevlere bağlanır; KHK bütün hükümleri sınav kapsamı varsayılmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0016",
+      "candidateSha256": "8326e87fdb7ed666343064458448075c1637b8e76a5194541aec6e4fc09662ca",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "a) Bakanlık teşkilatının her türlü faaliyet ve işlemleriyle ilgili olarak teftiş, inceleme ve soruşturmalar yapmak,",
+      "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1440]",
+      "notes": [
+        "Bakanlık teşkilatı teftiş, inceleme ve soruşturma görevi rehberlik/teftiştedir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0017",
+      "candidateSha256": "d45d7798f6b7b77c2ccdbadac41aa008ed44cc6135c61cb07ce4a4c3a4db06fb",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "a) 10/12/2003 tarihli ve 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu, 22/12/2005 tarihli ve 5436 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılması Hakkında Kanunun 15 inci maddesi, Cumhurbaşkanlığı kararnameleri ve diğer mevzuatla strateji geliştirme ve malî hizmetler birimlerine verilen görevleri yapmak,",
+      "sourceLocator": "1 sayılı CBK m.111; resmî UYAP belge114832; tam HTML p[1447]",
+      "notes": [
+        "5018 ile 5436/15 birlikte anılır; soru yalnız açık kanun çiftini ölçer.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0018",
+      "candidateSha256": "f810c53518d830bae04da4fb8136f8b43af65e2b63c1765abe8a94be2107d45b",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]",
+      "notes": [
+        "Bir Başkan artı 17 üye toplamı 18; bir hukukçu şartı ve dört çeldirici ayrı kontrol edilmiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0019",
+      "candidateSha256": "c5fa810a132492a242d922e4c93774261fb06f9cb16d646cb57cecfe16dd6c61",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "c) Eğitim amacıyla Bakanlığın görev alanıyla ilgili her türlü bilgi ve belgeyi toplamak, değerlendirmek, yayımlamak, film, slayt, fotoğraf ve benzeri belgeleri hazırlamak, hazırlatmak, arşiv, dokümantasyon ve kütüphane hizmetlerini yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1478]",
+      "notes": [
+        "Eğitim amaçlı yayın/dokümantasyon-kütüphane, genel evrak arşivinden ayrılır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0020",
+      "candidateSha256": "62cdf218afab2cbe1b14a84aba454e8b2dffe6a9107cad208787b1909660a3b3",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "c) Genel evrak ve arşiv faaliyetlerini düzenlemek ve yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1488]",
+      "notes": [
+        "Genel evrak ve arşiv Destek Hizmetlerindedir; eğitim yayın arşiviyle karıştırılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0021",
+      "candidateSha256": "faa0b7e0fd2e141c7aa8429b753ddd557ff916e5ca353de2acbedcb2aae5c240",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "a) Afet ve acil durumlara, sivil savunmaya, seferberlik ve savaş hâline ilişkin mevzuat kapsamındaki iş ve işlemleri diğer hizmet birimleri ile koordineli olarak yerine getirmek,",
+      "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1494]",
+      "notes": [
+        "117 eski mülga notuyla sınırlı okunmamış, 2025 yeniden düzenlenen afet koordinasyon görevi esas alınmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0022",
+      "candidateSha256": "e19b279adae2c95d366046f0c5c370905f82c7742d8f66ec7546aad082c2c8af",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) 4982 sayılı Bilgi Edinme Hakkı Kanununa göre yapılacak bilgi edinme başvurularını etkin, süratli ve doğru bir şekilde sonuçlandırmak üzere gerekli tedbirleri almak,",
+      "sourceLocator": "1 sayılı CBK m.118; resmî UYAP belge114832; tam HTML p[1504]",
+      "notes": [
+        "4982 başvurularını etkin sonuçlandırmak için tedbir görevi Basın ve Halkla İlişkilerdedir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0023",
+      "candidateSha256": "6fecbf8a50f4ce78c5ff9c2e89f75cf5c9933de2c1916afb8e9e7aa7eec9d66f",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Bakanın her türlü protokol ve tören işlerini düzenlemek ve yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.119; resmî UYAP belge114832; tam HTML p[1510]",
+      "notes": [
+        "Bakanın protokol ve töreni Özel Kalemindir; yurtdışı ilişkiler protokolü ayrı soruda ölçülür.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0024",
+      "candidateSha256": "ad119ab26496ebe54ba600fc2964ca860c757cd57723948e0cdcc574f6a2fc20",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "MADDE 122 – (1) Bakanlık döner sermaye kurmaya yetkilidir. Döner sermaye miktarı, Cumhurbaşkanlığınca belirlenir.",
+      "sourceLocator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1524]",
+      "notes": [
+        "Döner sermaye kurma yetkisi Bakanlıkta, miktar belirleme Cumhurbaşkanlığındadır; bu ayrım korunmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0025",
+      "candidateSha256": "fab9269e283d83f7409c3605e29c97ec6e80abf7bb440abf65ea9af79b06c978",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "MADDE 126 - (1) Bakanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 26 ncı maddesi uyarınca yerli veya yabancı personel istihdam edilebilir.",
+      "sourceLocator": "1 sayılı CBK m.126; resmî UYAP belge114832; tam HTML p[1539]",
+      "notes": [
+        "126 sadece 375 ek26 istihdam atfını sorar; diğer personel dayanakları ayrı çeldiricilerdir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0026",
+      "candidateSha256": "b8f7981c586185a16e822fe4404ea48e66d690564bde7177e1ae8e9e2c943683",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1195]",
+      "notes": [
+        "97/e istisnaları saklı kamu bina hizmetinde ilgili kurumun talep şartı korunmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0027",
+      "candidateSha256": "3e35612f5a71fa1591e5f5b08f8cf7603b7c3ff6c6f22b516b6583af6fc1c21c",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "i) Ulusal Coğrafi Bilgi Sisteminin kurulmasına, kullanılmasına ve geliştirilmesine dair iş ve işlemleri yapmak, yaptırmak, mahalli idarelerin planlama, harita, altyapı ve üstyapıya ilişkin faaliyetleri ile ilgili kent bilgi sistemlerinin kurulması, kullanılması ve Ulusal Coğrafi Bilgi Sistemi ile entegre olmasını desteklemek,",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1201]",
+      "notes": [
+        "Kent bilgi sistemleri entegrasyon hedefi Ulusal Coğrafi Bilgi Sistemi; adres veri tabanıyla ayrılmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0028",
+      "candidateSha256": "94af763dc9ffcaba33092604bfcb804492851e218331ba4045120e82ed635998",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) Mahalli idarelerin teşkilat, araç ve kadro standartlarını tespit etmek,",
+      "sourceLocator": "1 sayılı CBK m.100; resmî UYAP belge114832; tam HTML p[1252]",
+      "notes": [
+        "Mahalli idare teşkilat/araç/kadro standartları ile Bakanlık içi özlük görevleri ayrıdır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0029",
+      "candidateSha256": "9c6121e6c9422ede2ee9ecdbd36a9de8d048713b709f1155a2a146fc3bebfe37",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Hazinenin özel mülkiyetindeki taşınmazlar ve Devletin hüküm ve tasarrufu altındaki yerlerden kamu hizmeti için kullanılması gerekli olanları; kamu idarelerine tahsis etmek ve tahsis amacının ortadan kalkması veya amaç dışı kullanılması halinde tahsisi kaldırmak; tahsisi kaldırılan taşınmazlar üzerinde Hazine dışındaki kamu idarelerine ait yapı ve tesisleri tasfiye etmek, tasfiyeye ilişkin esas ve usulleri belirlemek,",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1264]",
+      "notes": [
+        "Tahsis amacı ortadan kalkması veya amaç dışı kullanım alternatif sebeplerdir; ikisinin birlikte zorunlu olduğu söylenmemiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0030",
+      "candidateSha256": "8222cd0b44dd812ad2c1fa6a77d398dc6256219df392786f2bed322a336f7aa6",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "f) Genel bütçe kapsamındaki kamu idarelerinin kamulaştırdığı yerlerin Hazine adına tescilini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1267]",
+      "notes": [
+        "Genel bütçe kapsamındaki idare sınırlaması kökte korunarak Hazine adına tescil sorulur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0031",
+      "candidateSha256": "9acde899bd8a7fbd7111429dea5640771d295c300e14bf8aa6287afa58e802ce",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) Devlete ait konutları yönetmek ve kamu idarelerine ait konutların yönetimi konusundaki politikaların belirlenmesi amacıyla çalışmalar yapmak, her yıl yurt içi ve yurtdışındaki kamu konutlarının kira ve yakıt bedelleri ile işletme, bakım ve onarım esaslarını tespit etmek,",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1265]",
+      "notes": [
+        "Yurt içi ve yurtdışı kamu konutları ile kira/yakıt/işletme/bakım/onarım birlikte tam seçenektir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0032",
+      "candidateSha256": "f11ee36a3c27fa198e541f1f2f22eff82efff63b1d737a28b69c42a5863ac0cf",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "l) Teşkilat ve görev alanına giren konularda denetmenleri aracılığıyla teftiş, denetim, inceleme ve soruşturma yapmak ve bu işlerin yürütülmesi amacıyla uygun görülen büyük il merkezlerinde bölge düzeyinde denetim yapmak üzere denetim grupları kurmak,[65]",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1275]",
+      "notes": [
+        "Denetmenleri aracılığıyla denetim, genel teftiş birimi personeline kaydırılmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0033",
+      "candidateSha256": "02ae189623dbf1bf07e4397abf37c887d58ff554f4738b25f291d566acb7d3ae",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) Risk yönetimi ve sakınım planlarının yapılmasına ve onaylanmasına ilişkin kuralları belirlemek ve izlemek, plana esas jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak,",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1285]",
+      "notes": [
+        "Plana esas jeolojik ve jeoteknik etütler iki unsuruyla korunmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0034",
+      "candidateSha256": "3620bbc7bdaa9cfa39a290f7201bce027f77027116ae354cb30ffec89834c4e2",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "i) Bütünleşik kıyı alanları yönetimi ve planlaması çalışmaları, kıyı alanlarının düzenlenmesine dair iş ve işlemler ile bu alanlara ilişkin jeolojik ve jeoteknik etütleri yapmak, yaptırmak ve onaylamak, kıyı kenar çizgisini tespit etmek, onaylamak ve tescilini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1292]",
+      "notes": [
+        "Kıyı kenar çizgisinde tespit, onay, tescili sağlama üçlüsü; yalnız iki aşamalı çeldiricilerden ayrılır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0035",
+      "candidateSha256": "aa587f47d9eef59c843f4a6ed7a3341580f9a53722fd685618fe386df0ee60ae",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ğ) Belediyelerin mücavir alanları ile köylerin yerleşik alanlarının sınırlarının tespitine ilişkin usul ve esasları belirlemek ve tespit edilen sınırları onaylamak,",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1289]",
+      "notes": [
+        "Mücavir alan ve köy yerleşik alan sınırlarında hem usul/esas hem onay görevi korunmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0036",
+      "candidateSha256": "a7432e7dd4b5b2bf28a6efc5a03d87e309be35ec622f60e7ef50ea3dc89c8f35",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ı) Atıksu arıtma tesislerinin tasarım esaslarını ve kriterlerini Tarım ve Orman Bakanlığı ile birlikte belirlemek, onay işlemlerini yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1311]",
+      "notes": [
+        "Atıksu arıtma tesisleri tasarımında Tarım ve Orman ile birlikte belirleme; aynı alanla ilgili bakanlık çeldiricileri güçlendirilmiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0037",
+      "candidateSha256": "7379fa09dd52dc9f91e449d68faf3bf6f11b41afa0a004e0dce79d082bb3ca65",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "e) Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu ile nükleer güvenlik konusunda işbirliği yapmak,[66]",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1306]",
+      "notes": [
+        "Gözlenen resmi metin açıkça TENMAK der; NDK gibi güncel teknik kuruluşlar ad benzerliğiyle doğru kabul edilmemiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0038",
+      "candidateSha256": "f5d1803ea1ad312ec22b44d589a674b05ab820e758fc09c17843316a15b8a900",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "n) Mahalli çevre kurullarının çalışmalarını takip etmek ve yönlendirmek,",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1317]",
+      "notes": [
+        "Mahalli çevre kurulu adı Yerel Yönetimler görevine yol açmaz; 103/n Çevre Yönetimidir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0039",
+      "candidateSha256": "e062239ed6ea4841cd21b739937ddfaf85e34856b4abc5e315cdac68660deb8a",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) Temiz hava merkezlerinin kurulması ve yönetilmesiyle ilgili iş ve işlemleri yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1329]",
+      "notes": [
+        "Temiz hava merkezi kurma/yönetme 104/d görevidir; Çevre Yönetimiyle ayrılır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0040",
+      "candidateSha256": "9ce44697a9d1083bd7d8dea3105829cf86b3d6b22e788c0f0c439f0f3fe1d39e",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "f) Alıcı ortamları izlemek, buna ilişkin altyapıyı oluşturmak, çevre kirliliği ile ilgili olarak ölçüm ve analiz ölçütlerini belirlemek, uygulamak ve uygulanmasını sağlamak; çevreyle ilgili her türlü ölçüm, izleme, analiz ve kontroller yapacak laboratuvarlar kurmak, kurdurmak, bunların akreditasyon işlemlerini yapmak, yaptırmak; alıcı ortamlar konusunda ölçüm yapacak kuruluşları belirlemek,",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1331]",
+      "notes": [
+        "Laboratuvar kurma/kurdurma ve akreditasyon yapma/yaptırma beraber düzenlenmiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0041",
+      "candidateSha256": "0ac1ebc2552b4a8e307d2be52b2b3c587b54429a8c3124b1e9fca4efafaf1304",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "h) Çevre envanterini ve çevre durum raporlarını hazırlamak ve Avrupa Çevre Ajansı ile ilişkileri yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1334]",
+      "notes": [
+        "Çevre envanteri ve durum raporlarıyla Avrupa Çevre Ajansı ilişkisi aynı bentte doğrulanmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0042",
+      "candidateSha256": "1d6d81cd1d796bf703b5bbda911cf6c6e0afaafd046ff76b281a72150355bfe2",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) 5543 sayılı Kanun uyarınca daimi iskân için kamu kurum ve kuruluşlarınca yaptırılacak her türlü yapılara ve konutlara ilişkin etüt ve planlama işlerini yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, daimi iskân için yaptırılacak her türlü yapıların inşaatlarını yapmak veya yaptırmak,",
+      "sourceLocator": "1 sayılı CBK m.105; resmî UYAP belge114832; tam HTML p[1344]",
+      "notes": [
+        "Daimi iskân yapılarında etüt/planlama ve inşaat aşamaları birlikte; yalnız aşama içeren çeldiriciler tam görev zinciri değildir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0043",
+      "candidateSha256": "12e9391c1d68dae4c9caf177345092907931b24165b8d6fb1f972d367eb90257",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Planlı ve plansız alanlardaki projelendirme ve yapılaşmaya, yapı ruhsatı ve yapı kullanma izinlerinin ulusal adres veri tabanına dayalı olarak düzenlenmesine ilişkin usul, esas ve standartları belirlemek,",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1356]",
+      "notes": [
+        "Yapı ruhsatı/kullanma izni için ulusal adres veri tabanı; ulusal CBS portalıyla ayrılmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0044",
+      "candidateSha256": "5db0860e16f6295717f6499217d8b0dba504b150958e26ab41f2cf274d8fde6b",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) Planlama, projelendirme, yapım ve kamulaştırma iş ve işlemlerinde görev alacak bilirkişilerin niteliklerine ve mesleki yeterliklerine ilişkin usul ve esasları belirlemek,",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1357]",
+      "notes": [
+        "Bilirkişi usul/esas yetkisi planlama/projelendirme/yapım/kamulaştırma grubuyla sınırlıdır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0045",
+      "candidateSha256": "5f307db92c746d6b10a01ae8846f787b601f0f381840c2ef19520535174c6710",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "g) Yapım işlerinde görev alan şantiye şefleri, fen elemanları ve yetki belgeli ustaların faaliyetlerinin, durumlarına göre, ilgili idarelerce veya meslek kuruluşlarınca denetlenmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1360]",
+      "notes": [
+        "İlgili idareler veya meslek kuruluşlarınca denetim, kişilerin durumuna göre seçim içerir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0046",
+      "candidateSha256": "d9d771aaa9ecc7ff8f003dc3f17cdf2bb72952943d7d6e4609061a9360a51af7",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "g) Ulusal Coğrafi Bilgi Sistemi kapsamında resmi ve özel kurum ve kuruluşlarca üretilen mekânsal verilerin sunulduğu portalı kurmak ve işletmek,",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1380]",
+      "notes": [
+        "Portal, hem resmi hem özel mekânsal veri sunar; iç kullanım ve başka veri tabanlarıyla karıştırılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0047",
+      "candidateSha256": "a659d71219482bebb6a03c256de9c9eb319f58b1a471ebcd4aa0cf07df88c6c1",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "h) Coğrafi bilgi sistemleri ile ilgili sertifikasyon ve akreditasyon çalışmalarının yapılmasını sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1382]",
+      "notes": [
+        "CBS sertifikasyon/akreditasyon görevi ile çevre laboratuvarı akreditasyon görevi alan ayrımına tabidir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0048",
+      "candidateSha256": "d8c74317b2a1c6e5db97c49547100650d04d834ec0536bc3acc499d4eb239968",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "e) Çölleşme ve erozyonla mücadele ile iklim ve çevre amaçlı kullanıma uygun uydu gönderimi veya uydu verilerinin teminine ilişkin iş ve işlemleri yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1395]",
+      "notes": [
+        "Uydu temini çölleşme, erozyon, iklim, çevre amaçlarıyla sınırlıdır; genel uydu haberleşmesi yetkisi çıkarılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0049",
+      "candidateSha256": "6398a8569db0328016df5cf4f9242a41ddc7801a0493be3b09cfd98dab23cfe3",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Tabiat varlıkları, doğal, tarihi, arkeolojik ve kentsel sitler ile koruma statüsü bulunan diğer alanların çakıştığı yerlerde koruma ve kullanma esaslarını ilgili bakanlıkların görüşünü alarak belirlemek ve bu alanların kısmen veya tamamen hangi idarelerce yönetileceğine karar vermek, her tür ve ölçekteki çevre düzeni, nazım ve uygulama imar planlarını yapmak, yaptırmak ve onaylamak,",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1404]",
+      "notes": [
+        "Koruma statüsü çakışmasında ilgili bakanlık görüşleri aranır; yönetici belirleme yetkisi bu koşuldan koparılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0050",
+      "candidateSha256": "1b703723002a4779fc6f41a80ef0d93ea8fa678ea4fb3e3e4932f1e7e12241d1",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "e) Desteklenecek proje ve faaliyetlere ilişkin olarak; projelerin seçimini yapmak, önceliklendirmek, ihale ve sözleşmelerini yapmak ve yürütülmesini sağlamak, ödemelerini gerçekleştirmek ve muhasebeleştirmek, buna ilişkin kontrol, izleme ve değerlendirmeleri yapmak,",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1418]",
+      "notes": [
+        "AB proje seçim/ihale/sözleşme/ödeme/kontrol zincirinde ödemeyi gerçekleştirme ve muhasebeleştirme açık unsurdur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0051",
+      "candidateSha256": "788d3275495d0f363e46a0b829bb21c1dd7f17a8f002b958dd36c900c918045d",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "g) Bakanlık faaliyetleri çerçevesinde yurtdışından gelen heyetler ve Bakanlıktan yurtdışına gönderileceklerle ilgili iş ve işlemleri yürütmek,",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1420]",
+      "notes": [
+        "Bakanlık faaliyetleri çerçevesinde gelen/giden yurtdışı heyetler AB ve Dış İlişkiler görevidir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0052",
+      "candidateSha256": "2310c0aaeb3c2b2c7b82cc725759c86a7b632eda28c35c4b44336402515fea22",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "c) Bakanlığın eğitim planını hazırlamak, uygulamak ve değerlendirmek,",
+      "sourceLocator": "1 sayılı CBK m.109/B; resmî UYAP belge114832; tam HTML p[1429]",
+      "notes": [
+        "Bakanlığın eğitim planı Personel görevindedir; mahalli eğitim ve yayın görevlerinden ayrılır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0053",
+      "candidateSha256": "fdb016b60b98eb1a336e8f812a6e0d06d282a0d3c43736fea2ff9b404d76e921",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) Başkanlıkta 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Müfettiş ve Müfettiş Yardımcısı istihdam edilir.",
+      "sourceLocator": "1 sayılı CBK m.110; resmî UYAP belge114832; tam HTML p[1443]",
+      "notes": [
+        "Rehberlik/teftiş müfettiş ve yardımcısı için 375 ek24 atfı doğrulanmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0054",
+      "candidateSha256": "6b4d28c1de79302bd09c059f44808b4784639fa8baa9a265b17091a71277195c",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) Yüksek Fen Kurulu; bir Başkan ve biri hukukçu olmak üzere onyedi üyeden oluşur. Kurul Başkan ve üyelerinin; en az dört yıllık eğitim veren hukuk, mimarlık ve mühendislik fakülteleri ile bunlara denkliği yetkili makamlarca kabul edilen yurtdışındaki yükseköğretim kurumlarının birinden mezun olmaları gerekir.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1463]",
+      "notes": [
+        "Dört yıllık hukuk/mimarlık/mühendislik ile yetkili denklik; iki yıllık veya bütün fakülteler genellemesi yapılmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0055",
+      "candidateSha256": "bf3e82b83aea86bd4d87fbf370084ababbfaaee41f855320a5a3b000640c250a",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Bakanlığın görev alanına giren konularda kamu kurum ve kuruluşları ve özel kuruluşlarla işbirliği yapmak, plan ve programların hazırlanmasında, uygulanmasında ve halkın eğitilmesinde Milli Eğitim Bakanlığı ile bilimsel ve gönüllü kuruluşlarla işbirliği yapmak,",
+      "sourceLocator": "1 sayılı CBK m.115; resmî UYAP belge114832; tam HTML p[1477]",
+      "notes": [
+        "Halk eğitimi/plan-program için MEB, bilimsel ve gönüllü kuruluş işbirliği; soru açık bakanlığı arar.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0056",
+      "candidateSha256": "f0c3c531728c12578fc454247e701183bb9dbd875cd5f2336c76bd1a7cfcefb5",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "notes": [
+        "18 kişinin üçte ikisi 12 toplantı yeter sayısı; katılan çoğunluğu karar şartıyla ayrılmıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0057",
+      "candidateSha256": "eb0682463aaf5154a24addfa18d252e3bb13dd79ad99d0b3e4ed1326f807d8d5",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "notes": [
+        "12 katılımcıda altışar eşit oya ilişkin özel kural Başkanın tarafını çoğunluk sayar; aritmetik çoğunluk aranmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0058",
+      "candidateSha256": "48c61ffc1c33234f07736789dbf1b87456905102864bbee8072ee4ab837451fe",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "notes": [
+        "Çekimser oy açıkça yasaktır; izin/gerekçe/tutanak bu yasağa istisna sayılmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0059",
+      "candidateSha256": "b75465b1e44746b80a1ffdb02eeabc1d287d3e4a6f0329204fa4323b557590ca",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(4) Yüksek Fen Kurulu, en az üçte iki çoğunluk ile toplanır ve toplantıya katılanların çoğunluğu ile karar alır; oyların eşitliği halinde, Başkanın taraf olduğu görüş çoğunlukta sayılır. Üyeler çekimser oy kullanamaz. Karşı görüşte olanlar, görüşlerini yazılı olarak karara ekler.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1465]",
+      "notes": [
+        "Karşı görüş yazılı karara eklenir; çekimser oy veya özel yazıyla ikame edilemez.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0060",
+      "candidateSha256": "e42ed32f882690fa50a429f5b421ef939993f6fad7e3e83598bb8e2498c22a22",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1464]",
+      "notes": [
+        "Kan hısımlığı üçüncü derece; kayın hısımlığının ikinci derece sınırından ayrılır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0061",
+      "candidateSha256": "d36f35219fbe97e88c43642ebaab3ebbe4f3e19378359be14107bd85383a3bf2",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(3) Başkan ve üyeler, kendileri ve eşleri ile üçüncü dereceye kadar kan ve ikinci dereceye kadar kayın hısımlarını ilgilendiren kararlarla ilgili toplantı ve oylamaya katılamaz.",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1464]",
+      "notes": [
+        "Kayın hısımlığı ikinci derece; aynı fıkradaki kan hısımlığı derecesiyle karıştırılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0062",
+      "candidateSha256": "78132c8ed9043f7b9cf513a2aa27fc55a31caa6dfeefe87ecf2482c9f8de5da6",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "c) Teknik veya fiziki yönden birbirini etkileyen plan ve yapım işleri ile ilgili olarak, kamu kurum ve kuruluşları arasında doğan anlaşmazlıkları, taraf olan idarelerin birlikte talep etmeleri halinde inceleyip karara bağlamak,",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1454]",
+      "notes": [
+        "Birbirini etkileyen plan/yapım kurumlar arası anlaşmazlıkta taraf idarelerin birlikte talebi açık koşuldur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0063",
+      "candidateSha256": "b869c7bdd30de37c40e970b41a44900dfcdcbb6a74c70c70abc656c6f84aee8f",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "b) Çevre ve imar mevzuatının yürütülmesinden doğan anlaşmazlıkları ilgili idarelerin talebine istinaden inceleyip karara bağlamak,",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1453]",
+      "notes": [
+        "Çevre/imar uyuşmazlığında ilgili idarelerin talebi; başka bentteki birlikte talep sözcüğü bu bende taşınmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0064",
+      "candidateSha256": "8d13542ae878341f6f7260966a6e543e5b93bab9727fc6af5f1a1cd301f49031",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "a) (Değişik:RG-10/6/2020-31151-CK-64/5 md.) 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununun ek 1 inci maddesi ile verilen görev ve yetkileri yerine getirmek,",
+      "sourceLocator": "1 sayılı CBK m.112; resmî UYAP belge114832; tam HTML p[1452]",
+      "notes": [
+        "Yüksek Fen Kurulu görev/yetki atfı 4735 ek1; 4734 ya da 657 ek maddeleriyle karıştırılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0065",
+      "candidateSha256": "4e2c94d44e93e1232045f78c16c12de1216f199bb05a61217148cdb6922f55dd",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+      "notes": [
+        "109/2 özel ikinci cümle Cumhurbaşkanı tescil/ilanını açıkça sorar; ilk cümle Bakan onayı ayrı tutulur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0066",
+      "candidateSha256": "6b96bd5bda77cf6b97a40f392d95f63e89f84b085ac6eecbde7d621aff32d2c3",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+      "notes": [
+        "109/2 ilk cümlesi açıkça belirtilmiştir; sonraki Cumhurbaşkanı özel kuralı açıklamada saklı tutulur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0067",
+      "candidateSha256": "98bf58b357793ad2d1a6e49ce7ecd5ca41c72b2efe3dd5e350362a63e462a3eb",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) Orman ve orman rejimine tabi olmayan yerlerde Tarım ve Orman Bakanlığınca tespit edilen veya ettirilen tabiat parkları, tabiat anıtları, tabiatı koruma alanları, sulak alanlar ve benzeri diğer koruma alanları ile Bakanlıkça tespit edilen doğal sit alanları, tabiat varlıkları ve bunların koruma alanlarının tescil ve ilanı Bakanın onayı ile yapılır. Ancak Bakanlıkça yapı yasağı önerilen tabiat varlıkları ve doğal sit alanları dahil orman rejimine tabi olmayan bütün koruma alanları Cumhurbaşkanınca tescil ve ilan edilir. Uygulama imar planı kararı ile yapı yasağı getirilen özel mülkiyete konu alanlara ilişkin arazi ve arsa düzenlemesi, trampa veya kamulaştırma işlemleri, bu alanların yönetimi ve işletmesini üstlenen kuruluşlarca veya Bakanlıkça gerçekleştirilir.",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1408]",
+      "notes": [
+        "İmar planıyla yapı yasağı, özel mülkiyet ve arazi/arsa-trampa-kamulaştırma koşulları korunmuştur; görev yönetimi üstlenen kuruluş veya Bakanlıktadır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0068",
+      "candidateSha256": "12ac285d5428290cb439a37052278e454a8b087d20e403d9e954def0f1b0f9a7",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) Orman alanları dışında yer alan korunması gerekli taşınmaz tabiat varlıkları, koruma alanları ve doğal sit alanlarının Bakanlıkça belirlenen ilke kararlarına, onaylanan planlara uygun olarak kullanılmak üzere tahsisini gerçekleştirmek, uygulamaların tahsis şartlarına uygun olarak gerçekleşmesini izlemek ve denetlemek,",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1405]",
+      "notes": [
+        "Tahsis yetkisindeki orman alanları dışında sınırlaması açıkça ölçülmüştür.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0069",
+      "candidateSha256": "2e448bfb980a252236350188dc89691c356df380f34402b937ad47ceb1835218",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) İşletmelerin görevleri, gelirleri, işleyişi ve denetimi ile diğer hususlar yönetmelikle düzenlenir.",
+      "sourceLocator": "1 sayılı CBK m.122; resmî UYAP belge114832; tam HTML p[1525]",
+      "notes": [
+        "Döner sermaye işletmesi düzenlenme türü yönetmeliktir; yalnız makam kararıyla ikame edilmemiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0070",
+      "candidateSha256": "a84da475aa91028e6f12071eda2748b872f2a3be70aa96b6043eff501f969f0f",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+      "sourceLocator": "1 sayılı CBK m.123; resmî UYAP belge114832; tam HTML p[1528]",
+      "notes": [
+        "4734/4735 göre ihale edilen işler istisnası idarenin tüm işlerine genişletilmemiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0071",
+      "candidateSha256": "d5a0b8071301b79e973f029ec40119f77580887c5f51dacf86098e5e396d60b1",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "MADDE 123 – (1) Merkezi yönetim kapsamındaki kamu idareleri, sosyal güvenlik kurumları ve mahalli idareler, ilgili kanunlarında aksine bir hüküm bulunmadığı takdirde 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre ihale ettikleri işler hariç bu bölüm uyarınca çıkarılan yönetmelik, tip sözleşme, şartname, rayiç, birim fiyat, birim fiyatlara ait analiz ve tariflerine uymak ve bunları uygulamakla yükümlüdür.",
+      "sourceLocator": "1 sayılı CBK m.123; resmî UYAP belge114832; tam HTML p[1528]",
+      "notes": [
+        "Teknik düzenlemeye uyma yükümlülüğünde ilgili kanun aksine hüküm koşulu saklıdır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0072",
+      "candidateSha256": "8d9281462672c256b42f669a5e9835e9c1b831ce9c84179b12e282a0f4f109d1",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "MADDE 124 - (1) Kadroların tespiti, ihdası, kullanımı ve iptali ile kadrolara ilişkin diğer hususlar, Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi hükümlerine göre düzenlenir.",
+      "sourceLocator": "1 sayılı CBK m.124; resmî UYAP belge114832; tam HTML p[1531]",
+      "notes": [
+        "Kadro tespit/ihdas/kullanım/iptal dayanağı Genel Kadro ve Usulü CBK; tekil personel maddeleriyle karıştırılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0073",
+      "candidateSha256": "37c2e17d706bc78704dfed6c5cfd6db05d95d5a4da315771703db836d28ad0f1",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "MADDE 125 – (1) Bakanlık, görev alanına giren konularda çalıştırılmak üzere 657 sayılı Kanunun ek 41 inci maddesine göre Çevre ve Şehircilik Uzmanı ile Çevre ve Şehircilik Uzman Yardımcısı, 657 sayılı Kanunun ek 44 üncü maddesine göre Milli Emlak Uzmanı ve Milli Emlak Uzman Yardımcısı istihdam edebilir.",
+      "sourceLocator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1534]",
+      "notes": [
+        "Uzmanlık atıfları sırasıyla 657 ek41 ve ek44; ters eşleştirme çeldiricisi ayrı incelenmiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0074",
+      "candidateSha256": "1a8c6ece2564536d54a4542438da3ef5642a30fd97c0818a835835e9f5233ef7",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) (Değişik:RG-10/6/2020-31151-CK-64/6 md.) Bakanlık taşra teşkilatında milli emlak iş ve işlemleri ile ilgili olarak teftiş, denetim, inceleme ve soruşturma yapmakla görevlendirilmek üzere 375 sayılı Kanun Hükmünde Kararnamenin ek 24 üncü maddesi uyarınca Milli Emlak Denetmeni ve Milli Emlak Denetmen Yardımcısı istihdam edilebilir.",
+      "sourceLocator": "1 sayılı CBK m.125; resmî UYAP belge114832; tam HTML p[1535]",
+      "notes": [
+        "Milli Emlak Denetmeni amacı taşra ve milli emlak iş/işlemleriyle sınırlıdır; merkez tüm teftişine genişletilmemiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0075",
+      "candidateSha256": "336d7cc57dbdd0a7c20aa60c07023a60f314720a2e135a4d5f884294b2e95f28",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(1) Bakanlık yurtdışı teşkilatı kurmaya yetkilidir.",
+      "sourceLocator": "1 sayılı CBK m.120/A; resmî UYAP belge114832; tam HTML p[1518]",
+      "notes": [
+        "120/A yurtdışı teşkilatı kurma yetkisi, 120 taşra kurma yetkisinden ayrıdır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0076",
+      "candidateSha256": "5e4f5247b0f200774da4b08881bc1d43b3e50e88e0c2206be42f133e655e1d28",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "MADDE 121 – (1) Bakanlık, görev alanına giren konularla ilgili olarak çalışmalarda bulunmak üzere diğer bakanlıklar, kamu kurum ve kuruluşları, meslek odaları, sivil toplum kuruluşları, özel sektör temsilcileri ve konu ile ilgili uzmanların katılımı ile çalışma grupları oluşturabilir.",
+      "sourceLocator": "1 sayılı CBK m.121; resmî UYAP belge114832; tam HTML p[1521]",
+      "notes": [
+        "Çalışma grupları kamu personeliyle sınırlı değildir; özel sektör/STK/meslek/uzman katılımı metinde yer alır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0077",
+      "candidateSha256": "41e86587a2f7076db47e5824fa3d0662c9224be03617cf7d075f9b45cd637dd5",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "s) (Ek:RG-29/10/2021-31643-C.K-85/2 md.) Çölleşme, erozyon ve iklim değişikliği ile mücadele kapsamında; ağaçlandırma ve ormanla ilgili görevleri yürüten kurumlarla koordinasyon sağlanarak gerekli hallerde orman sınırları dışında özel ağaçlandırma dahil her tür çalışmayı yapmak/yaptırmak, bu maksatla dış mekânlarda kullanılan ağaç veya bitki türlerinin üretimine yönelik fidanlık kurmak/kurdurmak ve bu amaçlar doğrultusunda yatırım yapacak olan gerçek veya tüzel kişileri desteklemek,",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1211]",
+      "notes": [
+        "Ağaçlandırma görevinde ilgili kurum koordinasyonu, gerekli haller ve orman sınırı dışı özel ağaçlandırma birlikte korunmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0078",
+      "candidateSha256": "af41605554e0ed235ae432bebea0c33dd0525311e57017f6a55d0a83185caec0",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "j) İlgili kurum ve kuruluşlarla işbirliği içinde atıkların taşınması ile tehlikeli atıkların taşınma lisanslarına ilişkin esasları belirlemek, uygulanmasını sağlamak, izlemek, atık ve kimyasallarla kirlenmiş alanların mevcut kirlilik durumlarını tespit etmek, çevre ve insan sağlığına yönelik risklere ve kirlenmiş alanların iyileştirilmesine ilişkin çalışmaları yapmak ve yaptırmak,",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1313]",
+      "notes": [
+        "Tehlikeli atık taşıma lisansı esaslarını işbirliğiyle belirleme/izleme; lisans vermeyle genellenmemiştir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0079",
+      "candidateSha256": "e12f371b398271fef7bdee5b1685848c8966e3ced9487848a19e30ed27e1d3b5",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "m) Yapı malzemelerinin üretim, satış, nakil ve kullanma safhalarında her türlü mekânda ve ortamda gözetim ve denetimini yapmak, yapı malzemesi numunelerinin test ve deneylerini ilgili standarda göre yapmak, yaptırmak ve laboratuvar altyapısını geliştirmek,",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1368]",
+      "notes": [
+        "Yapı malzemesi gözetim safhaları üretim, satış, nakil ve kullanma; eksik çiftler tam doğru sayılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0080",
+      "candidateSha256": "869c0f0f49866466333c917f9f8bbbf3318949d3a8e4ec466bdafc2eed4aed6c",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "c) Afet ve acil durumlara ilişkin olarak Bakanlığı Afet ve Acil Durum Yönetimi Başkanlığı Afet ve Acil Durum Yönetim Merkezinde temsil etmek,",
+      "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1496]",
+      "notes": [
+        "Afet merkezinde Bakanlığı temsil, 117/c yeni birimine ait ayrı görevdir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0081",
+      "candidateSha256": "33e3e2ea9fe22b63fbb79ee504b75ae3ae0f266badc7ebacc6fc8253330f39de",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "c) Faaliyetleri sonucu alıcı ortamlara katı, sıvı ve gaz halde atık bırakarak kirlilik oluşturan veya oluşturması muhtemel her türlü tesis ve faaliyetin, çevresel etkilerini değerlendirmek; alıcı ortamlar ile ilgili ölçüm ve izleme çalışmalarını yapmak; bahse konu tesis ve faaliyetleri izlemek, izin vermek, denetlemek ve gürültünün kontrol edilmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1192]",
+      "notes": [
+        "Kirlilik fiilen oluşmasa da oluşması muhtemel faaliyet ve gaz atık kapsanır; senaryoda mutlak izinsizlik sonucu çıkarılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0082",
+      "candidateSha256": "121e5649f7908f8e2b82d36589dae857132a8ebab4251ec25144ecdc1014aaf2",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "e) Milli Savunma Bakanlığının inşaat milli ve NATO alt yapı hizmetleri ile Ulaştırma ve Altyapı Bakanlığına bağlı genel müdürlüklere kanunlarla veya Cumhurbaşkanlığı kararnameleriyle yapım yetkisi verilmiş olan özel ihtisas işleri hariç talepleri halinde kamu kurum ve kuruluşlarına ait bina ve tesislerin ihtiyaç programlarını hazırlamak, her türlü etüt, proje ve maliyet hesaplarını yapmak veya yaptırmak, onaylamak veya onaylanmasını sağlamak, inşa, güçlendirme, tadil ve esaslı onarımlarını yapmak, yaptırmak ve denetlemek veya denetlenmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.97; resmî UYAP belge114832; tam HTML p[1195]",
+      "notes": [
+        "MSB NATO altyapısı 97/e açık istisna; talep bu istisnayı kaldırmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0083",
+      "candidateSha256": "cafa861dc25fe0589d6d199c3b6c01e27edbf381bfe4ca42b5502c4aa765f9d3",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ğ) Genel bütçe kapsamındaki kamu idarelerinin hizmet dışı kalan taşınırlarının satışını yapmak,",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1269]",
+      "notes": [
+        "Hizmet dışı taşınır satışı için genel bütçe kapsamı kökte korunur; bütün taşınır satışları genellenmez.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0084",
+      "candidateSha256": "12850b90e6c5eb5561094122ba7d81841c479d1375a8276faf7f695ef2a5f572",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "k) Görev alanına giren konulardaki alacakların süresinde ve mevzuata uygun olarak takip edilerek tahsil aşamasına getirilmesi için gerekli tedbirleri almak,",
+      "sourceLocator": "1 sayılı CBK m.101; resmî UYAP belge114832; tam HTML p[1274]",
+      "notes": [
+        "Alacağı süresinde mevzuata uygun takip ve tahsil aşamasına getirme tedbiri; otomatik terkin sonucu çıkarılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0085",
+      "candidateSha256": "7dd039c36e7e7d5792ce3c9b3ed6ec944f1e4cd74c6fc4f0f67f0f6f5fb343e3",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Sektörel planların havza veya bölge düzeyindeki mekânsal strateji planlarına ve çevre düzeni planlarına uyumlu hazırlanmasını sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1284]",
+      "notes": [
+        "Sektörel planın havza/bölge strateji ve çevre düzeni planına uyumu; alt planın otomatik üstünlüğü reddedilir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0086",
+      "candidateSha256": "b97a001fdc42816df4cf92e07fed2e2b1c8d0bd1f8fde02440f16797a55801a9",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "h) İdarelerin ihtilafı halinde, genel imar düzeni ve uyumunu sağlamak üzere, her türlü etüt, harita ve imar planı, plan değişikliği, plan revizyonu, parselasyon planı hazırlanması, onaylanması ve uygulanmasında koordinasyon sağlamak, ihtilafları gidermek, gerektiğinde ihtilaf konusu işi resen yapmak, yaptırmak ve onaylamak,",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1290]",
+      "notes": [
+        "Parselasyon ihtilafında koordinasyon ve gerektiğinde resen yapma/yaptırma/onaylama; koşulsuz özel kuruluşa devir çıkarılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0087",
+      "candidateSha256": "cf295d727598e330e7c7cc07d487ac1fe11a0de8794dbd335b30444ea2e95df1",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "(2) Çevre düzeni planlarının Bakanlıkça belirlenen mekânsal strateji planlarına, imar planlarının ise mekânsal strateji planlarına veya çevre düzeni planlarına aykırılığının tespit edilmesi halinde ilgili idareler Bakanlıkça verilen süre içerisinde aykırılıkları giderir.",
+      "sourceLocator": "1 sayılı CBK m.102; resmî UYAP belge114832; tam HTML p[1296]",
+      "notes": [
+        "Aykırılık giderme süresi Bakanlıkça verilir; sabit gün sayısı uydurulmamıştır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0088",
+      "candidateSha256": "213d175e8344c21961df29c1b0b700fcecdad150576df7f279ae5ec998c7a8ab",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "i) Atıkların kaynağında en aza indirilmesi, sınıflara ayrılması, toplanması, taşınması, geçici depolanması, geri kazanılması, bertaraf edilmesi, yeniden kullanılması, arıtılması, enerjiye dönüştürülmesi ve nihai depolanması konularında politika ve stratejilerin belirlemesi amacıyla çalışmalar yapmak,",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1312]",
+      "notes": [
+        "Atık ulusal politika/strateji görevi Çevre Yönetimidir; belediye bağlamı Yerel Yönetimlere yetki aktarmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0089",
+      "candidateSha256": "c5757d44838b59fd1660f09cff4c036ed1b9d999d9e27510320a7de363bc5256",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "o) Yerleşik alanlarda bina ve sair yapılarda görüntü kirliliğine yol açan uygulamaları önleyici tedbirler almak,",
+      "sourceLocator": "1 sayılı CBK m.103; resmî UYAP belge114832; tam HTML p[1318]",
+      "notes": [
+        "Görüntü kirliliği 103/o önleyici tedbirdir; diğer dört gerçek çevre görevi farklı konuyu ölçer.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0090",
+      "candidateSha256": "c0ebbdf9144f7f551e75da308234a162563aa1b522359e97df3661100305ff2c",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Serbest bölgeler dâhil olmak üzere, ülke genelinde çevreye olumsuz etkileri olan atık ve kimyasallar ile hava kirliliği, gürültü, titreşim ve iyonlaştırıcı olmayan radyasyon ile ilgili faaliyetleri izlemek, yeraltı ve yerüstü sularına, denizlere ve toprağa olumsuz etkileri olan her türlü faaliyeti belirlemek, denetlemek, tehlikeli hallerde veya gerekli durumlarda faaliyetleri durdurmak,",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1328]",
+      "notes": [
+        "Yeraltı suyu olumsuz faaliyeti, tehlikeli/gerekli haller ve durdurma yetkisi birlikte okunmuştur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0091",
+      "candidateSha256": "6e124055c8c846b1e51bae82393ae15dc06017a593523a6fce01421de7c93526",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "g) Her türlü atık bertaraf tesisine lisans vermek, bunları izlemek ve denetlemek,",
+      "sourceLocator": "1 sayılı CBK m.104; resmî UYAP belge114832; tam HTML p[1332]",
+      "notes": [
+        "Atık bertaraf tesisi lisans ve denetimi ÇED birimi; taşıma lisansı esaslarıyla karıştırılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0092",
+      "candidateSha256": "e6679e58f9651c2b1c68848f56542c9cfe33c088d3c4faf7a70f2a08aa8c97c7",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "k) Yapı kooperatiflerinin ve üst birliklerinin kurulması, işleyişi ve denetlenmesine ilişkin iş ve işlemleri yürütmek, kuruluş kayıtlarının ve sicillerinin tutulmasını sağlamak ve uygulamaları denetlemek,",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1366]",
+      "notes": [
+        "Yapı kooperatifi sicil/işleyiş/denetim Mesleki Hizmetlerdedir; Milli Emlak kapsamına taşınmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0093",
+      "candidateSha256": "4b379d90d790148482a3035851085b952bb553dbe13ec70852aaa39da2af1cb3",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "i) Çevresel etki değerlendirmesi raporu hazırlanmasında, çevre laboratuvarları, çevre danışmanlık firmaları ile belediyelerin çevre koruma tesislerinin projelerinde ve işletilmesinde görev alacak elemanları eğitmek, proje ve tesis ölçütlerini geliştirmek ve mesleki yetkinliği artırmak,",
+      "sourceLocator": "1 sayılı CBK m.107; resmî UYAP belge114832; tam HTML p[1364]",
+      "notes": [
+        "Belediye çevre koruma tesisi elemanı eğitimi Mesleki Hizmetler görevindedir; genel belediye personeli eğitiminden ayrılır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0094",
+      "candidateSha256": "d4961bad67ce1866d75692edac21ce14f4eb2a15e3ae3843fd658e6c3d32f554",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "d) Ulusal Coğrafi Bilgi Sistemi kapsamına giren tüm konularda, resmi ve özel kurum ve kuruluşlarca üretilen verilerin Bakanlık birimlerince kullanılmasını ve değerlendirilmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1377]",
+      "notes": [
+        "Resmi/özel kuruluşun ulusal CBS kapsamındaki verisini Bakanlık birimlerinin kullanması; portal dış sunum görevi ayrı olgudur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0095",
+      "candidateSha256": "e81d1f70144f44ecdd911b56b1b39a733dca2710c795026737099468a7e0f63f",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ğ) Uluslararası veri paylaşım ağlarına katılmak,",
+      "sourceLocator": "1 sayılı CBK m.108; resmî UYAP belge114832; tam HTML p[1381]",
+      "notes": [
+        "Uluslararası veri paylaşım ağına katılım CBS görevidir; diğer paylaşım hukuku koşulları kaldırılmış sayılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0096",
+      "candidateSha256": "d284fafd01a49191613f42de9b540c9fbaccf0f2be8d959ef5e53d1ffd05f065",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Üniversiteler ve Ar-Ge kuruluşlarıyla birlikte araştırma ve geliştirme faaliyetleri yürütmek, izleme ve değerlendirme sistemleri kurmak, eğitim, yayın ve tanıtım faaliyetlerinde bulunmak,",
+      "sourceLocator": "1 sayılı CBK m.108/A; resmî UYAP belge114832; tam HTML p[1393]",
+      "notes": [
+        "Çölleşme için üniversite ArGe/izleme işbirliği özel 108/A/ç görevidir; çevre/plan/CBS genel görevlerine otomatik kaydırılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0097",
+      "candidateSha256": "fa375c407a5e2a9dad80fd5110b737cbbf0609fa50536d534cea606afd9f45b8",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "e) Tabiat varlıkları ve doğal sit alanları ile özel çevre koruma bölgelerine ilişkin olarak; hâlihazır haritaları aldırmak, gerekli görülen projeleri yapmak, yaptırmak ve onaylamak, her türlü araştırma ve inceleme yapmak, yaptırmak, izlemek, eğitim ve bilinçlendirme çalışmaları yürütmek, kullanım yasağı getirilen alanların kamulaştırma veya benzer yollarla kamunun eline geçirilmesini sağlamak, kontrol ve denetim yapmak, gerekli görülen alanların korunması ve kirliliğin önlenmesi amacıyla yatırım yapmak veya ilgili idarelerin yatırım projelerini desteklemek, bu alan ve bölgelerde Devletin hüküm ve tasarrufu altındaki yerlere ilişkin her türlü tasarrufta bulunmak, işletmek, işlettirmek ve kullanım izinlerini vermek, korunan alanlara ilişkin insan ve finansman kaynağı sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.109; resmî UYAP belge114832; tam HTML p[1406]",
+      "notes": [
+        "Gerekli koruma alanında kirlilik önleme yatırımı veya ilgili idare projesini destekleme alternatifleri korunur.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0098",
+      "candidateSha256": "d57dfac232ac624a439e4d498694f3a9c22971d68585a5417279babc447bf731",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ğ) Yurtdışı ilişkilerle ilgili protokol işlemlerinin yürütülmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.109/A; resmî UYAP belge114832; tam HTML p[1421]",
+      "notes": [
+        "Yurtdışı ilişkiler protokolü AB ve Dış İlişkilerdedir; Bakanın tören/kişisel protokolünden ayrılır.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0099",
+      "candidateSha256": "ca306df9d6ee8ac311e9a5bc46c658da2970e6051297093d91225f0d573fd20b",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "ç) Afet ve acil durumlarda, ilgili mevzuat çerçevesinde Afet ve Acil Durum Yönetimi Başkanlığınca talep edilen imkân ve kabiliyetlerin yönlendirilmesi ile Bakanlığın sorumluluğundaki iş ve işlemlerin yerine getirilmesini sağlamak,",
+      "sourceLocator": "1 sayılı CBK m.117; resmî UYAP belge114832; tam HTML p[1497]",
+      "notes": [
+        "AFAD talebini ilgili mevzuat ve Bakanlık sorumluluğu çerçevesinde imkân/kabiliyet yönlendirmesiyle yerine getirme; sınırsız talep uygulama çıkarılmaz.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    },
+    {
+      "questionId": "Q-O01-B-0100",
+      "candidateSha256": "420e10423fc026c411b8cfbcfa2bb3d40376eb917e3e1b111ab6585673fe80da",
+      "decision": "Pass",
+      "checkedBy": "o01-independent-review",
+      "checkedAt": "2026-11-06T14:46:31.182674+00:00",
+      "sourceQuote": "a) 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu hükümleri çerçevesinde, kiralama ve satın alma işlerini yürütmek, temizlik, güvenlik, aydınlatma, ısıtma, onarım, taşıma ve benzeri hizmetleri yapmak veya yaptırmak,",
+      "sourceLocator": "1 sayılı CBK m.116; resmî UYAP belge114832; tam HTML p[1486]",
+      "notes": [
+        "Temizlik/güvenlik/ısıtma 5018 çerçevesinde yapma veya yaptırma; sadece özlük veya teknik kurul görevi değildir.",
+        "Beş kalıcı seçenek kimliği, tek doğru cevap, açıklama ve dört çeldirici; kaynak m97–126 sınırı ve tam suffix etiketi ayrı incelemede kontrol edildi. Hazırlık paketi kararıdır; insan onayı veya nihai 2027 hukuku kabulü değildir."
+      ]
+    }
+  ]
+}
