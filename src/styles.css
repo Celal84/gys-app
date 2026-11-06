@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+[x-cloak] { display: none !important; }
+:focus-visible { outline: 3px solid #27d6bc; outline-offset: 3px; }
+button, select { min-height: 44px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "status": "Prototype",
+  "legacySeedRecords": 24,
+  "externalRecords": 26,
+  "combinedRecordsById": 50,
+  "originalQuestionTarget": 5400,
+  "generatedThisPhase": 0,
+  "sourceVerifiedQuestions": 0,
+  "approvedQuestions": 0,
+  "rejectedQuestions": 0,
+  "pendingLegacyRecords": 50,
+  "duplicateCandidates": [
+    [
+      101,
+      1
+    ],
+    [
+      102,
+      3
+    ],
+    [
+      105,
+      16
+    ],
+    [
+      110,
+      15
+    ],
+    [
+      111,
+      17
+    ],
+    [
+      113,
+      8
+    ],
+    [
+      114,
+      13
+    ],
+    [
+      115,
+      14
+    ],
+    [
+      201,
+      19
+    ],
+    [
+      202,
+      20
+    ],
+    [
+      203,
+      21
+    ],
+    [
+      204,
+      22
+    ],
+    [
+      205,
+      23
+    ],
+    [
+      206,
+      24
+    ],
+    [
+      207,
+      25
+    ],
+    [
+      208,
+      26
+    ]
+  ],
+  "semanticAudit": "NotCompleted",
+  "historicalAccepted": 0,
+  "historicalReview": "NotStarted",
+  "finalContentAcceptance": false
+}

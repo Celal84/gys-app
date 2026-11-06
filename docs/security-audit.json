@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-06",
+  "production": {
+    "critical": 0,
+    "high": 0,
+    "moderate": 0,
+    "low": 0,
+    "total": 0
+  },
+  "developmentAfterUpdates": {
+    "critical": 0,
+    "high": 0,
+    "moderate": 10,
+    "low": 2,
+    "total": 12
+  },
+  "updatesApplied": [
+    "vitest 5.1.0 removed critical tinypool chain",
+    "typescript-eslint 8.72.1",
+    "vite-plugin-pwa 2.0.0",
+    "npm audit fix nonbreaking updates"
+  ],
+  "remainingPackages": [
+    "deepmerge",
+    "@rollup/plugin-node-resolve",
+    "glob",
+    "minimatch",
+    "workbox-build",
+    "vite-plugin-pwa",
+    "typescript-eslint transitive chain"
+  ],
+  "remainingScope": "Development/build tooling, not Alpine client runtime dependencies",
+  "forceDowngradesApplied": false,
+  "fullSecurityAcceptance": false
+}

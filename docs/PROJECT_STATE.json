@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "specification": "User MASTER PROMPT V4.0 — ÇŞİDB Şube Müdürü (Teknik)",
+  "updatedDate": "2026-11-06",
+  "repository": "https://github.com/Celal84/gys-app",
+  "baselineCommit": "ab731aa",
+  "workBranch": "codex/phase-0-foundation",
+  "remoteChangesMade": false,
+  "productionDeploymentMade": false,
+  "productStatus": "Prototype",
+  "phase0": "Complete",
+  "mvpWorking": false,
+  "phase1": "Raw snapshots and heading matches obtained; OCR and structure audit pending",
+  "phase2": "Canonical topic weights and explicit limits ready; objectives and legal editions pending",
+  "phase3": "Existing engine bundled and regression tested; no approved sample package",
+  "questionInventory": {
+    "targetOriginal": 5400,
+    "legacyRecords": 50,
+    "duplicateCandidateClusters": 16,
+    "generatedThisPhase": 0,
+    "sourceVerified": 0,
+    "approved": 0,
+    "rejected": 0,
+    "pendingLegacyRecords": 50,
+    "historicalAccepted": 0,
+    "historicalN": null
+  },
+  "sourceInventory": {
+    "common": 16,
+    "technical": 8,
+    "hashedRawNotes": 24,
+    "headingMatches": 24,
+    "partialOcrFiles": 1,
+    "fullyReviewedLegalDocuments": 0,
+    "historicalFilesListed": 6,
+    "historicalContentsRead": 0,
+    "excludedBranchOpened": false,
+    "distributionByteHashMatchesOfficial": true,
+    "privateSnapshotDirectory": ".local-sources/",
+    "privateSnapshotsTrackedInGit": false
+  },
+  "legalEdition": "preparation",
+  "cutoffDate": "2027-01-01",
+  "lastSuccessfulLegalWatch": null,
+  "userDecisionBlockers": [],
+  "nextTasks": [
+    "Faz 1: repair O04 OCR or use a verifiable readable alternative; verify tables, footnotes, exceptions and page locations",
+    "Faz 2: map learning objectives and in-scope provisions for all 24 topics; verify official legal editions and dates",
+    "Faz 3: independently verify a small original package and publish only Approved items",
+    "Before MVP: persist versioned attempts in IndexedDB and protect multi-tab writes",
+    "Faz 4: historical archive official booklets/keys/rights/scope/dedup/current-law decisions"
+  ],
+  "resumeInstructions": [
+    "Read AGENTS.md, docs/PHASE_0_REPORT.md and docs/QA_REPORT.md",
+    "Inspect git status before edits; preserve user changes and original progress",
+    "Use cloud runtime skill at session start; connector access is not automatically shell OAuth access",
+    "Do not open excluded Drive ID or follow shortcut ancestry without verification",
+    "Never count text extraction, test fixtures or legacy records as approved questions",
+    "Do not require previous prompt versions; use the V4 contract and recorded state"
+  ],
+  "verification": {
+    "unitPassed": 44,
+    "mobileChromiumE2EPassed": 5,
+    "typecheck": "Passed",
+    "lint": "Passed",
+    "productionBuild": "Passed",
+    "realIPhoneSafari": "NotTested",
+    "githubActionsRemote": "NotRun",
+    "productionDependencyVulnerabilities": 0,
+    "developmentDependencyVulnerabilities": 12
+  }
+}

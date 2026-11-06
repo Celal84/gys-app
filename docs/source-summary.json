@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "notesFiles": 24,
+  "commonFiles": 16,
+  "technicalFiles": 8,
+  "rawBytesHashed": 24,
+  "topicHeadingMatches": 24,
+  "textExtracted": 24,
+  "textQualityLimited": 1,
+  "fullyAuditedStructure": 0,
+  "legallyApprovedDocuments": 0,
+  "historicalFilesListed": 6,
+  "historicalQuestionsAccepted": 0,
+  "excludedBranchOpened": false,
+  "distributionMatchesOfficialSha256": true,
+  "officialParametersVerified": true,
+  "examLegalEdition": "preparation",
+  "liveMonitoringLastSuccess": null,
+  "sourceVersionPolicy": "Immutable original byte hash snapshots; provider version not available"
+}
