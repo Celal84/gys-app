@@ -1,0 +1,2 @@
+# Official evidence preserves original bytes, including CRLF and trailing spaces.
+data/public-legal-sources/snapshots/** -text -whitespace

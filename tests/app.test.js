@@ -1,4 +1,5 @@
 import { describe, it, expect, vi, afterEach } from 'vitest';
+import manifest from '../data/content-manifest.json';
 import { gysApp, DEFAULT_CURRICULUM, SEED_QUESTIONS } from '../src/app.js';
 const fixture = { id: 'fixture', topic: DEFAULT_CURRICULUM[0].topic, cat: 'Genel %70', weight: 8, q: 'Yalnız test verisidir', opts: ['Bir','İki','Üç','Dört','Beş'], ans: 2, exp: 'Test açıklaması' };
 function memory(initial = {}) {
@@ -15,13 +16,13 @@ describe('Preserved engine and safe phase-0 behavior', () => {
     const app = gysApp();
     app.mergeQuestions([{ ...fixture, verificationStatus: 'Approved' }], false);
     expect(app.questions[0].verificationStatus).toBe('ValidationPending');
-    expect(app.approvedQuestionCount()).toBe(0);
+    expect(app.approvedQuestionCount()).toBe(manifest.totalApproved);
     expect(app.studyQuestions()).toEqual([]);
   });
-  it('does not start an incomplete full exam or fall back to unrelated topic content', () => {
+  it('does not start an incomplete full exam or fall back to unrelated topic content', async () => {
     const app = gysApp(); app.questions = [...SEED_QUESTIONS];
     app.startWeightedExam(); expect(app.quiz.active).toBe(false);
-    app.startTopicQuiz(DEFAULT_CURRICULUM[0]); expect(app.quiz.active).toBe(false);
+    await app.startTopicQuiz(DEFAULT_CURRICULUM[0]); expect(app.quiz.active).toBe(false);
     expect(app.notice).toContain('onaylı soru henüz yok');
   });
   it('leaves unmeasured topics unknown and suppresses unsupported score predictions', () => {

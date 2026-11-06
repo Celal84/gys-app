@@ -32,5 +32,13 @@
   ],
   "remainingScope": "Development/build tooling, not Alpine client runtime dependencies",
   "forceDowngradesApplied": false,
-  "fullSecurityAcceptance": false
+  "fullSecurityAcceptance": false,
+  "latestDevelopmentAudit": {
+    "critical": 0,
+    "high": 0,
+    "moderate": 10,
+    "low": 2,
+    "total": 12
+  },
+  "latestAuditFile": ".local-reports/dependency-audit-current.json"
 }

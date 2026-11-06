@@ -1,3 +1,44 @@
+# QA raporu — güncel MVP
+
+06.11.2026 devam oturumu. Durum: **MVP çalışır / kısmi içerik**. Gerçek iPhone Safari ve nihai ürün kabulü henüz yapılmadı.
+
+| Kontrol | Sonuç | Kapsam |
+| --- | --- | --- |
+| TypeScript ve ESLint | Geçti | Çekirdek, kayıt katmanı, uygulama ve testler |
+| Birim/entegrasyon | **79/79 geçti** | Kaynak yayını, veri şeması, oturum/cevap atomikliği, çakışma, gerçek paket, kapsam ve regresyon |
+| Python kaynak/HTML testleri | **9/9 geçti** | Yapısal çıkarım ve inline dipnot/paragraf koruması |
+| Mobil Chromium E2E | **7/7 geçti** | Aşağıdaki gerçek soru akışı dahil |
+| Üretim derlemesi | Geçti | Konu parçaları, manifest ve PWA; 10 önbellek girdisi yaklaşık278 KiB |
+| Gerçek içerik yayın denetimi | **18/18 Approved** | Ayrı inceleme + deterministik kural + 11 gerçek kaynak HTML hash'i |
+| Resmî 657 kaynak çıkarımı | 40 kontrol,0 hata | Soru onayı değildir; belge/alinti bütünlüğü |
+| Diğer resmî kaynak envanteri | 472 kontrol,0 hata | 23 mevzuat kaynağına bağ; hukuki tam kabul değildir |
+| Bağımlılık denetimi | Kritik/yüksek0 | Geliştirmede10 orta+2 düşük bulgu sürüyor |
+| Gerçek iPhone Safari | **Yapılmadı** | Chromium mobil görünümü gerçek iPhone testi sayılmaz |
+| GitHub Actions | Yapılandırıldı | Uzak çalışma sonucu ayrıca doğrulanmadan geçti sayılmaz |
+
+Gerçek paket E2E'si: 657'de beş soruluk çalışma açıldı; ilk soru yanlış,sonraki dört doğru cevaplandı. Yanlıştan sonra bağlantı kesilip sayfa yenilendi; kalıcı seçenek sırası ve kontrol edilmiş cevapla devam edildi. Sonuç **4 doğru,1 yanlış,0 boş** olarak kaydedildi; benzersiz tamamlama **5/18** ve yanlış defteri doğrulandı. Diğer E2E'ler:9 resmî kitapçık bağlantısı ve0 kabul göstergesi,24/16/8filtre,320px taşma,çevrimdışı kabuk,eksik denemenin engeli,eski localStorage baytlarının korunması ve geçersiz yedek öncesinde onay istenmemesi.
+
+Kayıt testlerinde yeniden yükleme/ayar değişiminde XP'nin iki kez eklenmemesi,eski sekme sürüm çatışması,çift cevap,şema geçişi,değişmez geçmiş sonuçlar,journal export/merge ve bozuk/kesişen yedekte atomik ret denetlendi. İçe aktarılan sahte aktif soru,güncel paketin kimlikleri kopyalansa bile metin/seçenek/anahtar/kaynakla tam eşleşmeden sürdürülemez. Yanlış serpiştirmesi güncel onaylı nesneyi kullanır. Prototype anahtarları konu istatistiğine sokulmaz.
+
+İlk E2E çalıştırmalarında testin asenkron ekran değişimini beklememesi ve rozetli düğmenin erişilebilir adı yüzünden hata görüldü. Gezinme sırasında kontroller kilitlendi,test gerçek soru metni değişimini bekler hale getirildi,yanlış defteri düğmesine açık erişilebilir ad eklendi. Yukarıdaki7/7sonucu bu düzeltmelerden sonradır. Hatalar gizlenmedi veya beklenen puan değiştirilmedi.
+
+## Açık kabul işleri
+
+- **İçerik:**18/5.400 özgün;havuzB18/2.400,havuzA0/3.000,tam deneme0/30. Eski50 kayıt incelemede. Bu paket tüm657 kapsamını temsil etmez. Çıkmış sorular kabul edilmedi.
+- **Kaynak:**657 Word çıkarıcı farkı ve O04 OCR renkli kutu eksikleri açık.75 sayfa OCR işlendi fakat tamlık onaylanmadı.
+- **Kapsam:**24 konuda176 hedef taslağı;nihai kapsam paydası ve tüm hukuki yürürlük/geçiş değerlendirmesi bekliyor. Kapsam/hâkimiyet yüzdesi ve güvenilir sınav puanı tahmini üretilmiyor.
+- **Yedek:**Eski kayıt/ayar zarfı ile yeni tam çalışma günlüğü iki ayrı JSON'dur. Tek dosyada bütün veriyi atomik geri yükleme ve PDF raporu sonraki iş. Eski kullanıcı anahtarları silinmez.
+- **Sürüm/zaman:**Mevzuat hazırlık sürümü,kesim01.01.2027gelecekte. Otomatik nöbetçi ve sürekli arka plan taraması yok. Aktif düşünme süresi ölçülmediğinde null;duvar saati düşünme süresi sayılmaz.
+- **Diğer özellikler:**Strict100/150,sınav saati sürekliliği,SM-2,planlama,kalibrasyon,karşılaştırmalar,odak araçları ve30deneme kabulü tamamlanmadı. Can sınırı yalnız isteğe bağlı alıştırma davranışıdır.
+- **Cihaz/PWA:**HTTPS/localhost ve ilk çevrimiçi yükleme gerekir. Gerçek iPhone kurulumu,PNG apple-touch-icon,WebKit/gerçek Safari,güncelleme bildirimi ve cache tahliyesi henüz kabul edilmedi.
+- **Güvenlik:**Yeni IndexedDB cevap/sayaç değişimleri atomik ve revizyon kontrollüdür;eski ayar zarfı localStorage'da kalır. Güncel bağımlılık denetimi12geliştirme bulgusu bildiriyor(kritik/yüksek0). Nihai sızma testi yapılmadı.
+
+Makine raporları: [test-results.json](test-results.json),[content-publication-report.json](content-publication-report.json),[content-audit.json](content-audit.json),[source-integrity-summary.json](source-integrity-summary.json),[security-audit.json](security-audit.json). E2E ayrıntısı test-results/e2e-results.json içinde. [Devam raporu](CONTINUATION_REPORT.md) ve [kayıtlı durum](PROJECT_STATE.json) günceldir.
+
+Aşağıdaki bölüm önceki Faz0oturumunun tarihî raporudur;güncel sonuçlar yukarıdadır.
+
+---
+
 # QA raporu — Faz 0
 
 Tarih:06.11.2026. Ürün durumu **Prototip**. Bu rapor Faz 0 kabulünü kapsar; MVP ve nihai içerik kabulünü kapsamaz.

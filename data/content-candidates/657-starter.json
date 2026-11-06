@@ -1,0 +1,1703 @@
+{
+  "schemaVersion": 1,
+  "batch": {
+    "id": "BATCH-O02-STARTER-20261106-01",
+    "title": "657 sayılı Kanun — Kaynaklı başlangıç aday paketi",
+    "createdAt": "2026-11-06T12:31:03.024Z",
+    "status": "ValidationPending",
+    "questionCount": 18,
+    "sourcePool": "B",
+    "topicId": "O02",
+    "legalEdition": "preparation",
+    "cutoffFinalized": false,
+    "examFinalLegalVersion": false,
+    "independentReviewStatus": "Pending",
+    "generator": "first_questions",
+    "generatedOriginalQuestions": 18,
+    "approvedQuestions": 0,
+    "notes": [
+      "Only selected provisions within 1–212 are represented; the entire O02 curriculum is not covered.",
+      "Legacy candidate-period and disciplinary-appeal-authority questions are intentionally not rephrased as new items.",
+      "All quotations are from official UYAP HTML; no Drive note is used as the sole legal authority.",
+      "Exact fragment checks do not independently establish single-correct legal validity."
+    ]
+  },
+  "snapshots": [
+    {
+      "id": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceId": "SRC-OFFICIAL-657-UYAP",
+      "sourceUrl": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+      "contentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+      "hashAlgorithm": "sha256",
+      "version": "UYAP-content-503-e179523117a8",
+      "readAt": "2026-11-06T12:26:39.739481+00:00",
+      "verificationStatus": "Pending",
+      "publishedAt": "1965-07-23",
+      "legalEdition": "preparation",
+      "originalEffectiveDateKnown": false,
+      "cutoffFinalized": false,
+      "originEvidenceFile": "data/public-legal-sources/657-provisions.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q-O02-B-0001",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-003-01",
+      "text": "Bir kurum, kamu hizmeti görevlerini ve bu görevlerde çalışan memurları, görevlerin gerektirdiği niteliklere ve mesleklere göre gruplandırmaktadır. 657 sayılı Kanunun 3. maddesinde bu işlem hangi temel ilkeyle açıklanır?",
+      "options": [
+        {
+          "id": "Q-O02-B-0001-opt-01",
+          "text": "Kariyer"
+        },
+        {
+          "id": "Q-O02-B-0001-opt-02",
+          "text": "Sınıflandırma"
+        },
+        {
+          "id": "Q-O02-B-0001-opt-03",
+          "text": "Liyakat"
+        },
+        {
+          "id": "Q-O02-B-0001-opt-04",
+          "text": "Yetki devri"
+        },
+        {
+          "id": "Q-O02-B-0001-opt-05",
+          "text": "Hizmet içi eğitim"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0001-opt-02",
+      "explanation": "Sınıflandırma, kamu hizmeti görevlerini ve bu görevlerde çalışan memurları görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmaktır. Kariyer sınıf içinde ilerleme imkânına, liyakat ise göreve giriş, ilerleme ve sona erdirmenin dayandığı sisteme ilişkindir.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0001-opt-01",
+          "explanation": "Kariyer, görevleri mesleklere göre ayırmayı değil sınıf içinde en yüksek derecelere kadar ilerleme imkânını açıklar.",
+          "conceptId": "DC-classification-01",
+          "conceptLabel": "Kariyer"
+        },
+        {
+          "optionId": "Q-O02-B-0001-opt-03",
+          "explanation": "Liyakat, göreve giriş ve ilerleme gibi işlemlerin dayandığı sistemi açıklar. Soruda anlatılan işlem ise mesleklere göre sınıflara ayırmadır ve sınıflandırma ilkesine aittir.",
+          "conceptId": "DC-classification-03",
+          "conceptLabel": "Liyakat"
+        },
+        {
+          "optionId": "Q-O02-B-0001-opt-04",
+          "explanation": "Yetki devri, 3. maddede sayılan bu temel ilkenin adı değildir.",
+          "conceptId": "DC-classification-04",
+          "conceptLabel": "Yetki devri"
+        },
+        {
+          "optionId": "Q-O02-B-0001-opt-05",
+          "explanation": "Hizmet içi eğitim bir yetiştirme faaliyetidir; sorudaki sınıflara ayırma işleminin adı değildir.",
+          "conceptId": "DC-classification-05",
+          "conceptLabel": "Hizmet içi eğitim"
+        }
+      ],
+      "legalProvisionId": "LP-657-3",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[4]",
+      "articleNumber": 3,
+      "clause": "A",
+      "difficulty": "application",
+      "cognitiveType": "application",
+      "scenarioFlag": true,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0001",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "A) (Değişik: 31/7/1970 - 1327/2 md.) Devlet kamu hizmetleri görevlerini ve bu görevlerde çalışan Devlet memurlarını görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmaktır.",
+        "sourceQuoteSHA256": "6cfdc93ae7ea3676384ae38970d42eabbc1fc809ce2d6d9b5f061c24cec76b83",
+        "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[4]",
+        "requiredSourceFragments": [
+          "görevlerin gerektirdiği niteliklere ve mesleklere göre sınıflara ayırmaktır"
+        ],
+        "correctOptionId": "Q-O02-B-0001-opt-02",
+        "normalizedCorrectText": "sınıflandırma",
+        "distractorOptionIds": [
+          "Q-O02-B-0001-opt-01",
+          "Q-O02-B-0001-opt-03",
+          "Q-O02-B-0001-opt-04",
+          "Q-O02-B-0001-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0002",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-003-02",
+      "text": "657 sayılı Kanunun 3. maddesine göre memurlara, gerekli bilgi ve yetişme şartlarına uygun biçimde sınıfları içinde en yüksek derecelere kadar ilerleme imkânı sağlayan temel ilke hangisidir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0002-opt-01",
+          "text": "Liyakat"
+        },
+        {
+          "id": "Q-O02-B-0002-opt-02",
+          "text": "Sınıflandırma"
+        },
+        {
+          "id": "Q-O02-B-0002-opt-03",
+          "text": "Eşit işe eşit ücret"
+        },
+        {
+          "id": "Q-O02-B-0002-opt-04",
+          "text": "Kariyer"
+        },
+        {
+          "id": "Q-O02-B-0002-opt-05",
+          "text": "Yerinden yönetim"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0002-opt-04",
+      "explanation": "Kariyer ilkesi memura, yaptığı hizmet için gerekli bilgi ve yetişme şartlarına uygun olarak sınıfı içinde en yüksek derecelere kadar ilerleme imkânı sağlar. Görevlerin sınıflara ayrılması sınıflandırma; giriş, ilerleme ve sona erdirmenin liyakat sistemine dayandırılması ise liyakattir.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0002-opt-01",
+          "explanation": "Liyakat, giriş ve ilerleme işlemlerinin liyakat sistemine dayandırılmasını ifade eder; soruda sınıf içindeki en yüksek dereceye ilerleme imkânı soruluyor.",
+          "conceptId": "DC-career-01",
+          "conceptLabel": "Liyakat"
+        },
+        {
+          "optionId": "Q-O02-B-0002-opt-02",
+          "explanation": "Sınıflandırma, görev ve memurların nitelik ve mesleklere göre sınıflara ayrılmasıdır.",
+          "conceptId": "DC-career-02",
+          "conceptLabel": "Sınıflandırma"
+        },
+        {
+          "optionId": "Q-O02-B-0002-opt-03",
+          "explanation": "Eşit işe eşit ücret, 3. maddede bu tanıma verilen ilke adı değildir.",
+          "conceptId": "DC-career-03",
+          "conceptLabel": "Eşit işe eşit ücret"
+        },
+        {
+          "optionId": "Q-O02-B-0002-opt-05",
+          "explanation": "Yerinden yönetim, bu memuriyet ilkesinin adı değildir.",
+          "conceptId": "DC-career-05",
+          "conceptLabel": "Yerinden yönetim"
+        }
+      ],
+      "legalProvisionId": "LP-657-3",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[6]",
+      "articleNumber": 3,
+      "clause": "B",
+      "difficulty": "basic",
+      "cognitiveType": "recall",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0002",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "B) Devlet memurlarına, yaptıkları hizmetler için lüzumlu bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkanını sağlamaktır.",
+        "sourceQuoteSHA256": "2b0a02a9f4b994e09e9cee837646911a7ebeeb9bab94bf3b6b6e7f53f4d3a6d1",
+        "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[6]",
+        "requiredSourceFragments": [
+          "sınıfları içinde en yüksek derecelere kadar ilerleme imkanını sağlamaktır"
+        ],
+        "correctOptionId": "Q-O02-B-0002-opt-04",
+        "normalizedCorrectText": "kariyer",
+        "distractorOptionIds": [
+          "Q-O02-B-0002-opt-01",
+          "Q-O02-B-0002-opt-02",
+          "Q-O02-B-0002-opt-03",
+          "Q-O02-B-0002-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0003",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-003-03",
+      "text": "657 sayılı Kanunun 3. maddesinde hangi temel ilkenin tanımı, memuriyete giriş ve sınıf içi ilerlemenin yanında görevin sona erdirilmesini de kapsar?",
+      "options": [
+        {
+          "id": "Q-O02-B-0003-opt-01",
+          "text": "Liyakat"
+        },
+        {
+          "id": "Q-O02-B-0003-opt-02",
+          "text": "Kariyer"
+        },
+        {
+          "id": "Q-O02-B-0003-opt-03",
+          "text": "Sınıflandırma"
+        },
+        {
+          "id": "Q-O02-B-0003-opt-04",
+          "text": "Yetki genişliği"
+        },
+        {
+          "id": "Q-O02-B-0003-opt-05",
+          "text": "Hiyerarşi"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0003-opt-01",
+      "explanation": "Liyakat ilkesi, kamu hizmeti görevlerine girmeyi, sınıflar içinde ilerleme ve yükselmeyi ve görevin sona erdirilmesini liyakat sistemine dayandırır. Bu nedenle kapsam yalnız göreve girişten ibaret değildir.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0003-opt-02",
+          "explanation": "Kariyer ilkesi sınıf içinde en yüksek derecelere kadar ilerleme imkânıyla tanımlanır; bu üç işlem grubunu birlikte sayan tanım liyakate aittir.",
+          "conceptId": "DC-merit-02",
+          "conceptLabel": "Kariyer"
+        },
+        {
+          "optionId": "Q-O02-B-0003-opt-03",
+          "explanation": "Sınıflandırma, nitelik ve mesleklere göre sınıflara ayırmadır; görevin sona erdirilmesini kapsayan bu tanım değildir.",
+          "conceptId": "DC-merit-03",
+          "conceptLabel": "Sınıflandırma"
+        },
+        {
+          "optionId": "Q-O02-B-0003-opt-04",
+          "explanation": "Yetki genişliği, 3. maddede sayılan temel memuriyet ilkelerinden biri değildir.",
+          "conceptId": "DC-merit-04",
+          "conceptLabel": "Yetki genişliği"
+        },
+        {
+          "optionId": "Q-O02-B-0003-opt-05",
+          "explanation": "Hiyerarşi bu tanımın adı değildir; sorulan ilke giriş, ilerleme ve sona erdirmenin liyakat sistemine dayandırılmasıdır.",
+          "conceptId": "DC-merit-05",
+          "conceptLabel": "Hiyerarşi"
+        }
+      ],
+      "legalProvisionId": "LP-657-3",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[8]",
+      "articleNumber": 3,
+      "clause": "C",
+      "difficulty": "medium",
+      "cognitiveType": "comparison",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0003",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "C) Devlet kamu hizmetleri görevlerine girmeyi, sınıflar içinde ilerleme ve yükselmeyi, görevin sona erdirilmesini liyakat sistemine dayandırmak ve bu sistemin eşit imkanlarla uygulanmasında Devlet memurlarını güvenliğe sahip kılmaktır.",
+        "sourceQuoteSHA256": "cc55a8cfe7d501757ccd2191182c56c023e585314e9db9561184ef95380710b2",
+        "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[8]",
+        "requiredSourceFragments": [
+          "görevin sona erdirilmesini liyakat sistemine dayandırmak"
+        ],
+        "correctOptionId": "Q-O02-B-0003-opt-01",
+        "normalizedCorrectText": "liyakat",
+        "distractorOptionIds": [
+          "Q-O02-B-0003-opt-02",
+          "Q-O02-B-0003-opt-03",
+          "Q-O02-B-0003-opt-04",
+          "Q-O02-B-0003-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0004",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-054-01",
+      "text": "Adaylık süresi devam eden bir memur, başka bir kamu kurumuna naklen geçmek istemektedir. 657 sayılı Kanunun 54. maddesindeki genel kurala göre adaylık süresinde başka kuruma nakil bakımından hangisi doğrudur?",
+      "options": [
+        {
+          "id": "Q-O02-B-0004-opt-01",
+          "text": "Yalnız aday memurun yazılı talebi yeterlidir."
+        },
+        {
+          "id": "Q-O02-B-0004-opt-02",
+          "text": "Yalnız geçmek istediği kurumun kabulü yeterlidir."
+        },
+        {
+          "id": "Q-O02-B-0004-opt-03",
+          "text": "Temel eğitim tamamlanınca her durumda nakil yapılabilir."
+        },
+        {
+          "id": "Q-O02-B-0004-opt-04",
+          "text": "Adaylığın ilk altı ayı dolunca nakil serbesttir."
+        },
+        {
+          "id": "Q-O02-B-0004-opt-05",
+          "text": "Adaylık süresi içinde başka kurumlara nakil yapılamaz."
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0004-opt-05",
+      "explanation": "54. madde, adaylık süresi içinde aday memurun başka kurumlara naklinin yapılamayacağını açıkça belirtir. Soru yalnız bu maddedeki genel kurala ilişkindir; talep veya eğitim aşamasının tamamlanması bu kuralı kendiliğinden kaldırmaz.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0004-opt-01",
+          "explanation": "Adayın yazılı talebi, 54. maddedeki başka kuruma nakil yasağını kaldıran bir şart olarak düzenlenmemiştir.",
+          "conceptId": "DC-candidate-transfer-01",
+          "conceptLabel": "Yalnız aday memurun yazılı talebi yeterlidir."
+        },
+        {
+          "optionId": "Q-O02-B-0004-opt-02",
+          "explanation": "Diğer kurumun kabulü, adaylık içinde nakli serbest hâle getirmez.",
+          "conceptId": "DC-candidate-transfer-02",
+          "conceptLabel": "Yalnız geçmek istediği kurumun kabulü yeterlidir."
+        },
+        {
+          "optionId": "Q-O02-B-0004-opt-03",
+          "explanation": "54. madde, temel eğitimin tamamlanmasına bağlı böyle bir nakil serbestisi tanımaz.",
+          "conceptId": "DC-candidate-transfer-03",
+          "conceptLabel": "Temel eğitim tamamlanınca her durumda nakil yapılabilir."
+        },
+        {
+          "optionId": "Q-O02-B-0004-opt-04",
+          "explanation": "54. maddede altı ayın sonunda naklin serbest olacağına ilişkin bir kural yoktur.",
+          "conceptId": "DC-candidate-transfer-04",
+          "conceptLabel": "Adaylığın ilk altı ayı dolunca nakil serbesttir."
+        }
+      ],
+      "legalProvisionId": "LP-657-54",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[4]",
+      "articleNumber": 54,
+      "difficulty": "application",
+      "cognitiveType": "application",
+      "scenarioFlag": true,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0004",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Aday olarak atanmış Devlet memurunun adaylık süresi bir yıldan az iki yıldan çok olamaz ve bu süre içinde aday memurun başka kurumlara nakli yapılamaz.",
+        "sourceQuoteSHA256": "de029a026a948a7aceeeebf77f6924c7b0acf4de1c37b6544ebd2f71c74f3db6",
+        "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[4]",
+        "requiredSourceFragments": [
+          "bu süre içinde aday memurun başka kurumlara nakli yapılamaz"
+        ],
+        "correctOptionId": "Q-O02-B-0004-opt-05",
+        "normalizedCorrectText": "adaylık süresi içinde başka kurumlara nakil yapılamaz.",
+        "distractorOptionIds": [
+          "Q-O02-B-0004-opt-01",
+          "Q-O02-B-0004-opt-02",
+          "Q-O02-B-0004-opt-03",
+          "Q-O02-B-0004-opt-04"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0005",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-094-01",
+      "text": "Olağanüstü hal, seferberlik, savaş veya genel hayata müessir afet durumlarından hiçbiri bulunmamaktadır. Devir-teslim yükümlülüğü de olmayan bir memur, izin almadan ve kurumunca kabul edilen bir mazereti olmadan görevini terk etmiş; bu durum kesintisiz 10 gün sürmüştür. 657 sayılı Kanunun 94. maddesine göre yazılı çekilme başvurusu bulunmaması hangi sonuca engel değildir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0005-opt-01",
+          "text": "Memurun yalnız talebi üzerine yıllık izne ayrılmış sayılmasına"
+        },
+        {
+          "id": "Q-O02-B-0005-opt-02",
+          "text": "Memurluktan çıkarma disiplin cezasının kendiliğinden uygulanmasına"
+        },
+        {
+          "id": "Q-O02-B-0005-opt-03",
+          "text": "Yazılı müracaat şartı aranmadan çekilme isteğinde bulunulmuş sayılmasına"
+        },
+        {
+          "id": "Q-O02-B-0005-opt-04",
+          "text": "Adaylık süresinin kendiliğinden yeniden başlamasına"
+        },
+        {
+          "id": "Q-O02-B-0005-opt-05",
+          "text": "Memurun başka kuruma naklen atanmış sayılmasına"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0005-opt-03",
+      "explanation": "94. maddeye göre izinsiz veya kurumca kabul edilen mazeret olmaksızın görevin terk edilmesi kesintisiz 10 gün devam ederse, yazılı müracaat şartı aranmaksızın çekilme isteğinde bulunulmuş sayılır. Bu sonuç, memurluktan çıkarma disiplin cezasıyla aynı hukuki işlem değildir. Soruda 95. maddedeki devir-teslim yükümlülüğü ve 96. maddede sayılan özel durumlar dışlanmıştır.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0005-opt-01",
+          "explanation": "İzinsiz görevi terk, memurun talebi üzerine yıllık izin verilmesi olarak düzenlenmez.",
+          "conceptId": "DC-deemed-resignation-01",
+          "conceptLabel": "Memurun yalnız talebi üzerine yıllık izne ayrılmış sayılmasına"
+        },
+        {
+          "optionId": "Q-O02-B-0005-opt-02",
+          "explanation": "Çekilmiş sayılma ile memurluktan çıkarma disiplin cezası farklı kurumlardır; bu maddede otomatik disiplin cezası verilmez.",
+          "conceptId": "DC-deemed-resignation-02",
+          "conceptLabel": "Memurluktan çıkarma disiplin cezasının kendiliğinden uygulanmasına"
+        },
+        {
+          "optionId": "Q-O02-B-0005-opt-04",
+          "explanation": "94. maddede adaylık süresini yeniden başlatan bir sonuç yoktur.",
+          "conceptId": "DC-deemed-resignation-04",
+          "conceptLabel": "Adaylık süresinin kendiliğinden yeniden başlamasına"
+        },
+        {
+          "optionId": "Q-O02-B-0005-opt-05",
+          "explanation": "Görevi terk, başka kuruma naklen atama sonucunu doğurmaz.",
+          "conceptId": "DC-deemed-resignation-05",
+          "conceptLabel": "Memurun başka kuruma naklen atanmış sayılmasına"
+        }
+      ],
+      "legalProvisionId": "LP-657-94",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[2]",
+      "articleNumber": 94,
+      "difficulty": "application",
+      "cognitiveType": "application",
+      "scenarioFlag": true,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0005",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Madde 94 – Devlet memuru bağlı olduğu kuruma yazılı olarak müracaat etmek suretiyle memurluktan çekilme isteğinde bulunabilir. (Ek hüküm: 31/7/1970 - 1327/75 md.) Mezuniyetsiz veya kurumlarınca kabul edilen mazereti olmaksızın görevin terk edilmesi ve bu terkin kesintisiz 10 gün devam etmesi halinde, yazılı müracaat şartı aranmaksızın, çekilme isteğinde bulunulmuş sayılır.",
+        "sourceQuoteSHA256": "9cfead6923d46fd39589bb8f680e464b373fc0a0b8824a5a5200143fbad8553f",
+        "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[2]",
+        "requiredSourceFragments": [
+          "kesintisiz 10 gün",
+          "yazılı müracaat şartı aranmaksızın",
+          "çekilme isteğinde bulunulmuş sayılır"
+        ],
+        "correctOptionId": "Q-O02-B-0005-opt-03",
+        "normalizedCorrectText": "yazılı müracaat şartı aranmadan çekilme isteğinde bulunulmuş sayılmasına",
+        "distractorOptionIds": [
+          "Q-O02-B-0005-opt-01",
+          "Q-O02-B-0005-opt-02",
+          "Q-O02-B-0005-opt-04",
+          "Q-O02-B-0005-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [
+          "LP-657-95",
+          "LP-657-96"
+        ],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0006",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-094-02",
+      "text": "Olağanüstü hal, seferberlik, savaş veya genel hayata müessir afet durumlarından hiçbiri bulunmamaktadır. Devir-teslim yükümlülüğü de olmayan bir memurun yazılı çekilme isteği henüz kabul edilmemiştir. Bir ay dolmasına rağmen yerine atanan kimse gelmemiş ve bir vekil de atanmamıştır. 657 sayılı Kanunun 94. maddesine göre memur hangi usulle görevini bırakabilir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0006-opt-01",
+          "text": "İdare mahkemesinden ayrılma izni alarak"
+        },
+        {
+          "id": "Q-O02-B-0006-opt-02",
+          "text": "Üstüne haber vererek"
+        },
+        {
+          "id": "Q-O02-B-0006-opt-03",
+          "text": "Yüksek disiplin kurulunun çıkarma kararıyla"
+        },
+        {
+          "id": "Q-O02-B-0006-opt-04",
+          "text": "Resmî Gazete'de ilan yaptırarak"
+        },
+        {
+          "id": "Q-O02-B-0006-opt-05",
+          "text": "İlgili kurumun bütçe yılının sonunu bekleyerek"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0006-opt-02",
+      "explanation": "94. madde, yerine atanan kimse bir aya kadar gelmez veya yerine bir vekil atanmazsa memurun üstüne haber vererek görevini bırakabileceğini düzenler. Soruda 95. maddedeki devir-teslim yükümlülüğü ve 96. maddede sayılan olağanüstü hal, seferberlik, savaş ve genel hayata müessir afet durumları özellikle dışlanmıştır; bu özel durumlarda diğer hükümler ayrıca değerlendirilir.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0006-opt-01",
+          "explanation": "94. madde görevden ayrılabilmek için idare mahkemesinden izin alma şartı getirmez.",
+          "conceptId": "DC-resignation-wait-and-notice-01",
+          "conceptLabel": "İdare mahkemesinden ayrılma izni alarak"
+        },
+        {
+          "optionId": "Q-O02-B-0006-opt-03",
+          "explanation": "Çekilme, memurluktan çıkarma disiplin cezası değildir; yüksek disiplin kurulu kararı bu usulün şartı değildir.",
+          "conceptId": "DC-resignation-wait-and-notice-03",
+          "conceptLabel": "Yüksek disiplin kurulunun çıkarma kararıyla"
+        },
+        {
+          "optionId": "Q-O02-B-0006-opt-04",
+          "explanation": "94. maddede Resmî Gazete ilanı şartı yoktur.",
+          "conceptId": "DC-resignation-wait-and-notice-04",
+          "conceptLabel": "Resmî Gazete'de ilan yaptırarak"
+        },
+        {
+          "optionId": "Q-O02-B-0006-opt-05",
+          "explanation": "Bütçe yılının bitmesi, 94. maddede bu usulle görev bırakmanın şartı olarak düzenlenmemiştir.",
+          "conceptId": "DC-resignation-wait-and-notice-05",
+          "conceptLabel": "İlgili kurumun bütçe yılının sonunu bekleyerek"
+        }
+      ],
+      "legalProvisionId": "LP-657-94",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[3]",
+      "articleNumber": 94,
+      "difficulty": "hard",
+      "cognitiveType": "application",
+      "scenarioFlag": true,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0006",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Çekilmek istiyen memur yerine atanan kimsenin gelmesine veya çekilme isteğinin kabulüne kadar görevine devam eder. Yerine atanan kimse bir aya kadar gelmediği veya yerine bir vekil atanmadığı takdirde, üstüne haber vererek görevini bırakabilir.",
+        "sourceQuoteSHA256": "f676f1c7f050ebef5624db7ccf5d6525a58670603622b8804ea7cef1a32a6e10",
+        "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[3]",
+        "requiredSourceFragments": [
+          "Yerine atanan kimse bir aya kadar gelmediği",
+          "üstüne haber vererek görevini bırakabilir"
+        ],
+        "correctOptionId": "Q-O02-B-0006-opt-02",
+        "normalizedCorrectText": "üstüne haber vererek",
+        "distractorOptionIds": [
+          "Q-O02-B-0006-opt-01",
+          "Q-O02-B-0006-opt-03",
+          "Q-O02-B-0006-opt-04",
+          "Q-O02-B-0006-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [
+          "LP-657-95",
+          "LP-657-96"
+        ],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0007",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-102-01",
+      "text": "Yıllık izin hesabına esas hizmet süresi tam 10 yıl olan bir memur için, zorunlu hâllerde eklenebilecek yol süreleri hariç, 657 sayılı Kanunun 102. maddesine göre yıllık izin süresi kaç gündür?",
+      "options": [
+        {
+          "id": "Q-O02-B-0007-opt-01",
+          "text": "10 gün"
+        },
+        {
+          "id": "Q-O02-B-0007-opt-02",
+          "text": "15 gün"
+        },
+        {
+          "id": "Q-O02-B-0007-opt-03",
+          "text": "25 gün"
+        },
+        {
+          "id": "Q-O02-B-0007-opt-04",
+          "text": "20 gün"
+        },
+        {
+          "id": "Q-O02-B-0007-opt-05",
+          "text": "30 gün"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0007-opt-04",
+      "explanation": "102. madde, bir yıldan on yıla kadar hizmeti olanları 'on yıl dahil' diyerek 20 günlük gruba alır. Otuz günlük süre ancak hizmeti on yıldan fazla olanlar içindir; tam on yıl bu gruba geçirmez.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0007-opt-01",
+          "explanation": "102. maddede bu hizmet grubu için 10 günlük yıllık izin süresi öngörülmemiştir.",
+          "conceptId": "DC-annual-leave-ten-year-boundary-01",
+          "conceptLabel": "10 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0007-opt-02",
+          "explanation": "102. maddede bu hizmet grubu için 15 günlük yıllık izin süresi öngörülmemiştir.",
+          "conceptId": "DC-annual-leave-ten-year-boundary-02",
+          "conceptLabel": "15 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0007-opt-03",
+          "explanation": "102. maddede tam 10 yıl için 25 günlük bir ara kademe yoktur.",
+          "conceptId": "DC-annual-leave-ten-year-boundary-03",
+          "conceptLabel": "25 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0007-opt-05",
+          "explanation": "30 gün, on yıldan fazla hizmeti olanlar içindir; kanun tam on yılı 20 günlük gruba dahil eder.",
+          "conceptId": "DC-annual-leave-ten-year-boundary-05",
+          "conceptLabel": "30 gün"
+        }
+      ],
+      "legalProvisionId": "LP-657-102",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+      "articleNumber": 102,
+      "difficulty": "medium",
+      "cognitiveType": "application",
+      "scenarioFlag": true,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0007",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+        "sourceQuoteSHA256": "08a15c650ddca370ec4911851d007ec7fc233218751b7cf238ff43b48f610000",
+        "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+        "requiredSourceFragments": [
+          "On yıl dahil",
+          "yirmi gün"
+        ],
+        "correctOptionId": "Q-O02-B-0007-opt-04",
+        "normalizedCorrectText": "20 gün",
+        "distractorOptionIds": [
+          "Q-O02-B-0007-opt-01",
+          "Q-O02-B-0007-opt-02",
+          "Q-O02-B-0007-opt-03",
+          "Q-O02-B-0007-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0008",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-102-02",
+      "text": "657 sayılı Kanunun 102. maddesine göre hizmeti on yıldan fazla olan memurun yıllık izin süresi, eklenebilecek yol süreleri hariç, kaç gündür?",
+      "options": [
+        {
+          "id": "Q-O02-B-0008-opt-01",
+          "text": "30 gün"
+        },
+        {
+          "id": "Q-O02-B-0008-opt-02",
+          "text": "20 gün"
+        },
+        {
+          "id": "Q-O02-B-0008-opt-03",
+          "text": "21 gün"
+        },
+        {
+          "id": "Q-O02-B-0008-opt-04",
+          "text": "25 gün"
+        },
+        {
+          "id": "Q-O02-B-0008-opt-05",
+          "text": "40 gün"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0008-opt-01",
+      "explanation": "102. madde, hizmeti on yıldan fazla olan memur için yıllık izin süresini 30 gün olarak belirler. Bir yıldan on yıla kadar olan hizmetlerde ise on yıl dahil 20 gün uygulanır.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0008-opt-02",
+          "explanation": "20 gün, on yıl dahil bir yıldan on yıla kadar hizmet grubuna aittir.",
+          "conceptId": "DC-annual-leave-over-ten-years-02",
+          "conceptLabel": "20 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0008-opt-03",
+          "explanation": "102. maddede on yıldan fazla hizmet için 21 günlük süre yoktur.",
+          "conceptId": "DC-annual-leave-over-ten-years-03",
+          "conceptLabel": "21 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0008-opt-04",
+          "explanation": "102. maddede hizmet arttıkça uygulanan 25 günlük bir ara kademe yoktur.",
+          "conceptId": "DC-annual-leave-over-ten-years-04",
+          "conceptLabel": "25 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0008-opt-05",
+          "explanation": "Kanun bu hizmet grubu için 40 gün değil, 30 gün belirler.",
+          "conceptId": "DC-annual-leave-over-ten-years-05",
+          "conceptLabel": "40 gün"
+        }
+      ],
+      "legalProvisionId": "LP-657-102",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+      "articleNumber": 102,
+      "difficulty": "basic",
+      "cognitiveType": "recall",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0008",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+        "sourceQuoteSHA256": "08a15c650ddca370ec4911851d007ec7fc233218751b7cf238ff43b48f610000",
+        "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+        "requiredSourceFragments": [
+          "hizmeti on yıldan fazla olanlar için 30 gündür"
+        ],
+        "correctOptionId": "Q-O02-B-0008-opt-01",
+        "normalizedCorrectText": "30 gün",
+        "distractorOptionIds": [
+          "Q-O02-B-0008-opt-02",
+          "Q-O02-B-0008-opt-03",
+          "Q-O02-B-0008-opt-04",
+          "Q-O02-B-0008-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0009",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-102-03",
+      "text": "657 sayılı Kanunun 102. maddesine göre zorunlu hâllerde yıllık izin süresine gidiş ve dönüş için eklenebilecek yol süresi bakımından hangi ifade doğrudur?",
+      "options": [
+        {
+          "id": "Q-O02-B-0009-opt-01",
+          "text": "Gidiş ve dönüş toplamı her durumda iki gündür."
+        },
+        {
+          "id": "Q-O02-B-0009-opt-02",
+          "text": "Gidiş için bir, dönüş için üç gün eklenmesi zorunludur."
+        },
+        {
+          "id": "Q-O02-B-0009-opt-03",
+          "text": "Her yıllık izne kendiliğinden toplam dört gün eklenir."
+        },
+        {
+          "id": "Q-O02-B-0009-opt-04",
+          "text": "Yol süresi yalnız hizmeti on yıldan fazla olanlara tanınır."
+        },
+        {
+          "id": "Q-O02-B-0009-opt-05",
+          "text": "Gidiş ve dönüş için ayrı ayrı en çok ikişer gün eklenebilir."
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0009-opt-05",
+      "explanation": "102. madde, zorunlu hâllerde yıllık izne gidiş ve dönüş için en çok ikişer gün eklenebileceğini söyler. Bu, her izne otomatik dört gün eklenmesi veya mutlaka kullanılması gereken bir süre değildir.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0009-opt-01",
+          "explanation": "Kanun toplam iki gün değil, gidiş ve dönüşün her biri için en çok ikişer gün öngörür.",
+          "conceptId": "DC-annual-leave-travel-extension-01",
+          "conceptLabel": "Gidiş ve dönüş toplamı her durumda iki gündür."
+        },
+        {
+          "optionId": "Q-O02-B-0009-opt-02",
+          "explanation": "Bir gün gidiş ve üç gün dönüş şeklinde bir dağılım veya eklemenin zorunlu olduğu kuralı yoktur.",
+          "conceptId": "DC-annual-leave-travel-extension-02",
+          "conceptLabel": "Gidiş için bir, dönüş için üç gün eklenmesi zorunludur."
+        },
+        {
+          "optionId": "Q-O02-B-0009-opt-03",
+          "explanation": "Ek süre yalnız zorunlu hâllerde eklenebilir; her izne kendiliğinden ilave edilmez.",
+          "conceptId": "DC-annual-leave-travel-extension-03",
+          "conceptLabel": "Her yıllık izne kendiliğinden toplam dört gün eklenir."
+        },
+        {
+          "optionId": "Q-O02-B-0009-opt-04",
+          "explanation": "Hüküm yalnız on yıldan fazla hizmeti olanlara özgülenmemiştir.",
+          "conceptId": "DC-annual-leave-travel-extension-04",
+          "conceptLabel": "Yol süresi yalnız hizmeti on yıldan fazla olanlara tanınır."
+        }
+      ],
+      "legalProvisionId": "LP-657-102",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+      "articleNumber": 102,
+      "difficulty": "medium",
+      "cognitiveType": "exception",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0009",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Devlet memurlarının yıllık izin süresi, hizmeti 1 yıldan on yıla kadar (On yıl dahil) olanlar için yirmi gün, hizmeti on yıldan fazla olanlar için 30 gündür. Zorunlu hallerde bu sürelere gidiş ve dönüş için en çok ikişer gün eklenebilir.",
+        "sourceQuoteSHA256": "08a15c650ddca370ec4911851d007ec7fc233218751b7cf238ff43b48f610000",
+        "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+        "requiredSourceFragments": [
+          "Zorunlu hallerde",
+          "gidiş ve dönüş için en çok ikişer gün eklenebilir"
+        ],
+        "correctOptionId": "Q-O02-B-0009-opt-05",
+        "normalizedCorrectText": "gidiş ve dönüş için ayrı ayrı en çok ikişer gün eklenebilir.",
+        "distractorOptionIds": [
+          "Q-O02-B-0009-opt-01",
+          "Q-O02-B-0009-opt-02",
+          "Q-O02-B-0009-opt-03",
+          "Q-O02-B-0009-opt-04"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0010",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-125-01",
+      "text": "657 sayılı Kanunun 125. maddesinde, memura görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazıyla bildirilmesi hangi disiplin cezasının tanımıdır?",
+      "options": [
+        {
+          "id": "Q-O02-B-0010-opt-01",
+          "text": "Kınama"
+        },
+        {
+          "id": "Q-O02-B-0010-opt-02",
+          "text": "Aylıktan kesme"
+        },
+        {
+          "id": "Q-O02-B-0010-opt-03",
+          "text": "Uyarma"
+        },
+        {
+          "id": "Q-O02-B-0010-opt-04",
+          "text": "Kademe ilerlemesinin durdurulması"
+        },
+        {
+          "id": "Q-O02-B-0010-opt-05",
+          "text": "Devlet memurluğundan çıkarma"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0010-opt-03",
+      "explanation": "Uyarma, görev ve davranışlarda daha dikkatli olunması gerektiğinin yazıyla bildirilmesidir. Kınamanın tanımında ise memurun görevinde ve davranışlarında kusurlu olduğunun yazıyla bildirilmesi yer alır.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0010-opt-01",
+          "explanation": "Kınama, daha dikkatli olma gereğinin değil, görev ve davranışlarda kusurlu olunduğunun yazıyla bildirilmesidir.",
+          "conceptId": "DC-warning-versus-reprimand-01",
+          "conceptLabel": "Kınama"
+        },
+        {
+          "optionId": "Q-O02-B-0010-opt-02",
+          "explanation": "Aylıktan kesme, brüt aylık üzerinden kanuni oranda kesinti yapılmasıdır.",
+          "conceptId": "DC-warning-versus-reprimand-02",
+          "conceptLabel": "Aylıktan kesme"
+        },
+        {
+          "optionId": "Q-O02-B-0010-opt-04",
+          "explanation": "Kademe ilerlemesinin durdurulması, bulunduğu kademede ilerlemenin belirli süre durdurulmasıdır.",
+          "conceptId": "DC-warning-versus-reprimand-04",
+          "conceptLabel": "Kademe ilerlemesinin durdurulması"
+        },
+        {
+          "optionId": "Q-O02-B-0010-opt-05",
+          "explanation": "Devlet memurluğundan çıkarma, bir daha devlet memurluğuna atanmamak üzere memurluktan çıkarmadır.",
+          "conceptId": "DC-warning-versus-reprimand-05",
+          "conceptLabel": "Devlet memurluğundan çıkarma"
+        }
+      ],
+      "legalProvisionId": "LP-657-125",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[4]",
+      "articleNumber": 125,
+      "clause": "A",
+      "difficulty": "basic",
+      "cognitiveType": "comparison",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0010",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "A - Uyarma : Memura, görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesidir.",
+        "sourceQuoteSHA256": "c9b8eadf724262a28a2d13d406ad625c8137aa70be600e961b3d98eff0450064",
+        "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[4]",
+        "requiredSourceFragments": [
+          "görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazı ile bildirilmesidir"
+        ],
+        "correctOptionId": "Q-O02-B-0010-opt-03",
+        "normalizedCorrectText": "uyarma",
+        "distractorOptionIds": [
+          "Q-O02-B-0010-opt-01",
+          "Q-O02-B-0010-opt-02",
+          "Q-O02-B-0010-opt-04",
+          "Q-O02-B-0010-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0011",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-125-02",
+      "text": "657 sayılı Kanunun 125. maddesinde memurun görevinde ve davranışlarında kusurlu olduğunun yazıyla bildirilmesi hangi cezanın tanımı olarak düzenlenmiştir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0011-opt-01",
+          "text": "Uyarma"
+        },
+        {
+          "id": "Q-O02-B-0011-opt-02",
+          "text": "Kınama"
+        },
+        {
+          "id": "Q-O02-B-0011-opt-03",
+          "text": "Aylıktan kesme"
+        },
+        {
+          "id": "Q-O02-B-0011-opt-04",
+          "text": "Kademe ilerlemesinin durdurulması"
+        },
+        {
+          "id": "Q-O02-B-0011-opt-05",
+          "text": "Devlet memurluğundan çıkarma"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0011-opt-02",
+      "explanation": "Kınama cezasının tanımı, memurun görevinde ve davranışlarında kusurlu olduğunun yazıyla bildirilmesidir. Uyarma ile farkı, yalnız daha dikkatli olması gerektiğinin bildirilmesi yerine kusurlu olduğunun bildirilmesidir.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0011-opt-01",
+          "explanation": "Uyarma, daha dikkatli olunması gerektiğinin yazıyla bildirilmesidir; kusurlu olunduğunun bildirilmesi kınamanın tanımıdır.",
+          "conceptId": "DC-reprimand-versus-warning-01",
+          "conceptLabel": "Uyarma"
+        },
+        {
+          "optionId": "Q-O02-B-0011-opt-03",
+          "explanation": "Aylıktan kesmede brüt aylıktan kesinti yapılır; sorudaki yazılı bildirim bu cezanın tanımı değildir.",
+          "conceptId": "DC-reprimand-versus-warning-03",
+          "conceptLabel": "Aylıktan kesme"
+        },
+        {
+          "optionId": "Q-O02-B-0011-opt-04",
+          "explanation": "Kademe ilerlemesinin durdurulmasında ilerleme 1–3 yıl durdurulur; sorudaki tanım farklıdır.",
+          "conceptId": "DC-reprimand-versus-warning-04",
+          "conceptLabel": "Kademe ilerlemesinin durdurulması"
+        },
+        {
+          "optionId": "Q-O02-B-0011-opt-05",
+          "explanation": "Memurluktan çıkarma, bir daha atanmamak üzere memurluktan çıkarmadır; soruda bu sonuç yoktur.",
+          "conceptId": "DC-reprimand-versus-warning-05",
+          "conceptLabel": "Devlet memurluğundan çıkarma"
+        }
+      ],
+      "legalProvisionId": "LP-657-125",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[14]",
+      "articleNumber": 125,
+      "clause": "B",
+      "difficulty": "medium",
+      "cognitiveType": "comparison",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0011",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "B - Kınama : Memura, görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesidir.",
+        "sourceQuoteSHA256": "0120dd61d85425781ebfbedb68a3b8de7df3bdb879a659b8d6024a16bc1f0e1b",
+        "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[14]",
+        "requiredSourceFragments": [
+          "görevinde ve davranışlarında kusurlu olduğunun yazı ile bildirilmesidir"
+        ],
+        "correctOptionId": "Q-O02-B-0011-opt-02",
+        "normalizedCorrectText": "kınama",
+        "distractorOptionIds": [
+          "Q-O02-B-0011-opt-01",
+          "Q-O02-B-0011-opt-03",
+          "Q-O02-B-0011-opt-04",
+          "Q-O02-B-0011-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0012",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-125-03",
+      "text": "657 sayılı Kanunun 125. maddesindeki aylıktan kesme cezasında, memurun brüt aylığından yapılacak kesintinin kanuni alt ve üst sınırları hangi seçenekte doğru verilmiştir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0012-opt-01",
+          "text": "1/40 – 1/10"
+        },
+        {
+          "id": "Q-O02-B-0012-opt-02",
+          "text": "1/30 – 1/4"
+        },
+        {
+          "id": "Q-O02-B-0012-opt-03",
+          "text": "1/20 – 1/8"
+        },
+        {
+          "id": "Q-O02-B-0012-opt-04",
+          "text": "1/30 – 1/8"
+        },
+        {
+          "id": "Q-O02-B-0012-opt-05",
+          "text": "1/10 – 1/4"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0012-opt-04",
+      "explanation": "125/C, aylıktan kesmeyi memurun brüt aylığından 1/30 ile 1/8 arasında kesinti yapılması olarak tanımlar. Matrah brüt aylıktır; sınırlar başka oranlarla değiştirilmez.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0012-opt-01",
+          "explanation": "Kanuni alt sınır 1/40, üst sınır 1/10 değildir; iki sınır da yanlış verilmiştir.",
+          "conceptId": "DC-salary-deduction-range-01",
+          "conceptLabel": "1/40 – 1/10"
+        },
+        {
+          "optionId": "Q-O02-B-0012-opt-02",
+          "explanation": "Alt sınır doğru olsa da üst sınır 1/4 değil, 1/8'dir.",
+          "conceptId": "DC-salary-deduction-range-02",
+          "conceptLabel": "1/30 – 1/4"
+        },
+        {
+          "optionId": "Q-O02-B-0012-opt-03",
+          "explanation": "Üst sınır doğru olsa da alt sınır 1/20 değil, 1/30'dur.",
+          "conceptId": "DC-salary-deduction-range-03",
+          "conceptLabel": "1/20 – 1/8"
+        },
+        {
+          "optionId": "Q-O02-B-0012-opt-05",
+          "explanation": "Bu oranlar kanuni 1/30–1/8 aralığını karşılamaz.",
+          "conceptId": "DC-salary-deduction-range-05",
+          "conceptLabel": "1/10 – 1/4"
+        }
+      ],
+      "legalProvisionId": "LP-657-125",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[29]",
+      "articleNumber": 125,
+      "clause": "C",
+      "difficulty": "hard",
+      "cognitiveType": "recall",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0012",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "C - Aylıktan kesme : Memurun, brüt aylığından 1/30 - 1/8 arasında kesinti yapılmasıdır.",
+        "sourceQuoteSHA256": "7b14c91333b6ab1a4a5555f980967e3cab9ea498d502bd14d2fba4bf149919ae",
+        "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[29]",
+        "requiredSourceFragments": [
+          "brüt aylığından 1/30 - 1/8 arasında kesinti yapılmasıdır"
+        ],
+        "correctOptionId": "Q-O02-B-0012-opt-04",
+        "normalizedCorrectText": "1/30 – 1/8",
+        "distractorOptionIds": [
+          "Q-O02-B-0012-opt-01",
+          "Q-O02-B-0012-opt-02",
+          "Q-O02-B-0012-opt-03",
+          "Q-O02-B-0012-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0013",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-125-04",
+      "text": "657 sayılı Kanunun 125. maddesine göre kademe ilerlemesinin durdurulması cezası, fiilin ağırlık derecesine göre memurun bulunduğu kademede ilerlemesini hangi süre aralığında durdurur?",
+      "options": [
+        {
+          "id": "Q-O02-B-0013-opt-01",
+          "text": "1–3 yıl"
+        },
+        {
+          "id": "Q-O02-B-0013-opt-02",
+          "text": "6 ay–1 yıl"
+        },
+        {
+          "id": "Q-O02-B-0013-opt-03",
+          "text": "1–2 yıl"
+        },
+        {
+          "id": "Q-O02-B-0013-opt-04",
+          "text": "2–4 yıl"
+        },
+        {
+          "id": "Q-O02-B-0013-opt-05",
+          "text": "3–5 yıl"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0013-opt-01",
+      "explanation": "125/D, fiilin ağırlığına göre memurun bulunduğu kademede ilerlemesinin 1–3 yıl durdurulmasını öngörür. Bu aralık, adaylık süresi veya başka memuriyet süreleriyle karıştırılmamalıdır.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0013-opt-02",
+          "explanation": "Kademe ilerlemesinin durdurulması için bu maddede 6 ay–1 yıl aralığı yoktur.",
+          "conceptId": "DC-step-advancement-suspension-02",
+          "conceptLabel": "6 ay–1 yıl"
+        },
+        {
+          "optionId": "Q-O02-B-0013-opt-03",
+          "explanation": "1–2 yıl, bu disiplin cezasının tüm kanuni aralığını karşılamaz; üst sınır 3 yıldır.",
+          "conceptId": "DC-step-advancement-suspension-03",
+          "conceptLabel": "1–2 yıl"
+        },
+        {
+          "optionId": "Q-O02-B-0013-opt-04",
+          "explanation": "Kanuni alt ve üst sınırlar 2 ve 4 değil, 1 ve 3 yıldır.",
+          "conceptId": "DC-step-advancement-suspension-04",
+          "conceptLabel": "2–4 yıl"
+        },
+        {
+          "optionId": "Q-O02-B-0013-opt-05",
+          "explanation": "Kanuni aralık 3–5 yıl değildir.",
+          "conceptId": "DC-step-advancement-suspension-05",
+          "conceptLabel": "3–5 yıl"
+        }
+      ],
+      "legalProvisionId": "LP-657-125",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[41]",
+      "articleNumber": 125,
+      "clause": "D",
+      "difficulty": "basic",
+      "cognitiveType": "recall",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0013",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "D - Kademe ilerlemesinin durdurulması : Fiilin ağırlık derecesine göre memurun, bulunduğu kademede ilerlemesinin 1 - 3 yıl durdurulmasıdır.",
+        "sourceQuoteSHA256": "f8e2df827600f96d0f37d7a7f4f7b75d8742ef80ea4c7e54db0a68404a88c47e",
+        "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[41]",
+        "requiredSourceFragments": [
+          "bulunduğu kademede ilerlemesinin 1 - 3 yıl durdurulmasıdır"
+        ],
+        "correctOptionId": "Q-O02-B-0013-opt-01",
+        "normalizedCorrectText": "1–3 yıl",
+        "distractorOptionIds": [
+          "Q-O02-B-0013-opt-02",
+          "Q-O02-B-0013-opt-03",
+          "Q-O02-B-0013-opt-04",
+          "Q-O02-B-0013-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0014",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-125-05",
+      "text": "657 sayılı Kanunun 125. maddesinde 'Devlet memurluğundan çıkarma' cezasının tanımını diğer cezalardan ayıran hukuki sonuç hangisidir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0014-opt-01",
+          "text": "Bulunduğu kademede ilerlemenin en çok üç yıl durdurulması"
+        },
+        {
+          "id": "Q-O02-B-0014-opt-02",
+          "text": "Görevde daha dikkatli olunması gerektiğinin yazıyla bildirilmesi"
+        },
+        {
+          "id": "Q-O02-B-0014-opt-03",
+          "text": "Brüt aylıktan belirli oranda kesinti yapılması"
+        },
+        {
+          "id": "Q-O02-B-0014-opt-04",
+          "text": "Görev ve davranışlarda kusurlu olunduğunun yazıyla bildirilmesi"
+        },
+        {
+          "id": "Q-O02-B-0014-opt-05",
+          "text": "Bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarılma"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0014-opt-05",
+      "explanation": "125/E, Devlet memurluğundan çıkarmayı bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarma olarak tanımlar. Diğer seçenekler sırasıyla kademe ilerlemesinin durdurulması, uyarma, aylıktan kesme ve kınamanın sonuçlarıdır.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0014-opt-01",
+          "explanation": "Bu sonuç kademe ilerlemesinin durdurulması cezasına aittir; memurluktan çıkarmanın tanımı değildir.",
+          "conceptId": "DC-civil-service-dismissal-01",
+          "conceptLabel": "Bulunduğu kademede ilerlemenin en çok üç yıl durdurulması"
+        },
+        {
+          "optionId": "Q-O02-B-0014-opt-02",
+          "explanation": "Bu, uyarma cezasının tanımıdır.",
+          "conceptId": "DC-civil-service-dismissal-02",
+          "conceptLabel": "Görevde daha dikkatli olunması gerektiğinin yazıyla bildirilmesi"
+        },
+        {
+          "optionId": "Q-O02-B-0014-opt-03",
+          "explanation": "Bu, aylıktan kesme cezasının tanımıdır.",
+          "conceptId": "DC-civil-service-dismissal-03",
+          "conceptLabel": "Brüt aylıktan belirli oranda kesinti yapılması"
+        },
+        {
+          "optionId": "Q-O02-B-0014-opt-04",
+          "explanation": "Bu, kınama cezasının tanımıdır.",
+          "conceptId": "DC-civil-service-dismissal-04",
+          "conceptLabel": "Görev ve davranışlarda kusurlu olunduğunun yazıyla bildirilmesi"
+        }
+      ],
+      "legalProvisionId": "LP-657-125",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[58]",
+      "articleNumber": 125,
+      "clause": "E",
+      "difficulty": "medium",
+      "cognitiveType": "legal-consequence",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0014",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "E - Devlet memurluğundan çıkarma : Bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarmaktır.",
+        "sourceQuoteSHA256": "d5dc67e0074ee74557c172b346bd29bc477777f0f2156d935b10c1a1ccf79f19",
+        "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[58]",
+        "requiredSourceFragments": [
+          "Bir daha Devlet memurluğuna atanmamak üzere memurluktan çıkarmaktır"
+        ],
+        "correctOptionId": "Q-O02-B-0014-opt-05",
+        "normalizedCorrectText": "bir daha devlet memurluğuna atanmamak üzere memurluktan çıkarılma",
+        "distractorOptionIds": [
+          "Q-O02-B-0014-opt-01",
+          "Q-O02-B-0014-opt-02",
+          "Q-O02-B-0014-opt-03",
+          "Q-O02-B-0014-opt-04"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0015",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-129-01",
+      "text": "Hakkında Devlet memurluğundan çıkarma cezası istenen memurun 657 sayılı Kanunun 129. maddesindeki hakları hangi seçenekte birlikte doğru verilmiştir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0015-opt-01",
+          "text": "Yalnız yazılı savunma yapabilir; soruşturma evrakını inceleyemez."
+        },
+        {
+          "id": "Q-O02-B-0015-opt-02",
+          "text": "Soruşturma evrakını inceleyebilir; ancak tanık dinletemez."
+        },
+        {
+          "id": "Q-O02-B-0015-opt-03",
+          "text": "Soruşturma evrakını inceleyebilir, tanık dinletebilir ve kendisi veya vekiliyle sözlü ya da yazılı savunma yapabilir."
+        },
+        {
+          "id": "Q-O02-B-0015-opt-04",
+          "text": "Yalnız vekili savunma yapabilir; memurun bizzat savunma hakkı yoktur."
+        },
+        {
+          "id": "Q-O02-B-0015-opt-05",
+          "text": "Disiplin kurulunda savunma yapamaz; yalnız ceza mahkemesinde savunabilir."
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0015-opt-03",
+      "explanation": "129. madde, memura soruşturma evrakını inceleme, tanık dinletme ve disiplin kurulunda sözlü veya yazılı biçimde kendisi ya da vekili aracılığıyla savunma yapma hakkı tanır. Bu haklar birbirini dışlayan alternatifler değildir.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0015-opt-01",
+          "explanation": "129. madde evrakı inceleme hakkı tanır ve savunmayı yalnız yazılı şekille sınırlamaz.",
+          "conceptId": "DC-dismissal-defence-rights-01",
+          "conceptLabel": "Yalnız yazılı savunma yapabilir; soruşturma evrakını inceleyemez."
+        },
+        {
+          "optionId": "Q-O02-B-0015-opt-02",
+          "explanation": "Madde tanık dinletme hakkını da açıkça tanır.",
+          "conceptId": "DC-dismissal-defence-rights-02",
+          "conceptLabel": "Soruşturma evrakını inceleyebilir; ancak tanık dinletemez."
+        },
+        {
+          "optionId": "Q-O02-B-0015-opt-04",
+          "explanation": "Savunma bizzat memur tarafından da vekil aracılığıyla da yapılabilir.",
+          "conceptId": "DC-dismissal-defence-rights-04",
+          "conceptLabel": "Yalnız vekili savunma yapabilir; memurun bizzat savunma hakkı yoktur."
+        },
+        {
+          "optionId": "Q-O02-B-0015-opt-05",
+          "explanation": "129. madde disiplin kurulunda savunma hakkını açıkça düzenler; hak yalnız ceza mahkemesiyle sınırlı değildir.",
+          "conceptId": "DC-dismissal-defence-rights-05",
+          "conceptLabel": "Disiplin kurulunda savunma yapamaz; yalnız ceza mahkemesinde savunabilir."
+        }
+      ],
+      "legalProvisionId": "LP-657-129",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[4]",
+      "articleNumber": 129,
+      "difficulty": "medium",
+      "cognitiveType": "rights",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0015",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Hakkında memurluktan çıkarma cezası istenen memur, (…)[187] soruşturma evrakını incelemeye, tanık dinletmeye, disiplin kurulunda sözlü veya yazılı olarak kendisi veya vekili vasıtasıyla savunma yapma hakkına sahiptir.",
+        "sourceQuoteSHA256": "117bc622f138d856e6b119b2f2481d4e916cb8d70169ebcbbc9c1c69c04ed50b",
+        "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[4]",
+        "requiredSourceFragments": [
+          "soruşturma evrakını incelemeye",
+          "tanık dinletmeye",
+          "kendisi veya vekili vasıtasıyla savunma yapma hakkına sahiptir"
+        ],
+        "correctOptionId": "Q-O02-B-0015-opt-03",
+        "normalizedCorrectText": "soruşturma evrakını inceleyebilir, tanık dinletebilir ve kendisi veya vekiliyle sözlü ya da yazılı savunma yapabilir.",
+        "distractorOptionIds": [
+          "Q-O02-B-0015-opt-01",
+          "Q-O02-B-0015-opt-02",
+          "Q-O02-B-0015-opt-04",
+          "Q-O02-B-0015-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0016",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-130-01",
+      "text": "657 sayılı Kanunun 130. maddesine göre disiplin savunması için soruşturmayı yapan veya yetkili disiplin kurulu tarafından verilen süre en az kaç gün olmalıdır?",
+      "options": [
+        {
+          "id": "Q-O02-B-0016-opt-01",
+          "text": "3 gün"
+        },
+        {
+          "id": "Q-O02-B-0016-opt-02",
+          "text": "7 gün"
+        },
+        {
+          "id": "Q-O02-B-0016-opt-03",
+          "text": "5 gün"
+        },
+        {
+          "id": "Q-O02-B-0016-opt-04",
+          "text": "10 gün"
+        },
+        {
+          "id": "Q-O02-B-0016-opt-05",
+          "text": "15 gün"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0016-opt-02",
+      "explanation": "130. madde, soruşturmayı yapanın veya yetkili disiplin kurulunun vereceği sürenin 7 günden az olamayacağını belirtir. Savunması alınmadan disiplin cezası verilemez; verilen süre içinde veya belirtilen tarihte savunma yapılmaması savunma hakkından vazgeçmiş sayılma sonucunu doğurur.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0016-opt-01",
+          "explanation": "3 gün, maddede öngörülen en az 7 günlük sınırın altındadır.",
+          "conceptId": "DC-disciplinary-defence-minimum-time-01",
+          "conceptLabel": "3 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0016-opt-03",
+          "explanation": "5 gün, kanuni asgari 7 günlük sürenin altındadır.",
+          "conceptId": "DC-disciplinary-defence-minimum-time-03",
+          "conceptLabel": "5 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0016-opt-04",
+          "explanation": "10 gün verilebilir olmakla birlikte sorulan kanuni asgari süre değildir.",
+          "conceptId": "DC-disciplinary-defence-minimum-time-04",
+          "conceptLabel": "10 gün"
+        },
+        {
+          "optionId": "Q-O02-B-0016-opt-05",
+          "explanation": "15 gün verilebilir olmakla birlikte kanuni asgari süre 7 gündür.",
+          "conceptId": "DC-disciplinary-defence-minimum-time-05",
+          "conceptLabel": "15 gün"
+        }
+      ],
+      "legalProvisionId": "LP-657-130",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[3]",
+      "articleNumber": 130,
+      "difficulty": "basic",
+      "cognitiveType": "procedure",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0016",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "Soruşturmayı yapanın veya yetkili disiplin kurulunun 7 günden az olmamak üzere verdiği süre içinde veya belirtilen bir tarihte savunmasını yapmıyan memur, savunma hakkından vazgeçmiş sayılır.",
+        "sourceQuoteSHA256": "a7672c849cafe03f3a40666639a82aca00abca9878f1283695a2b1bf7dafdeef",
+        "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[3]",
+        "requiredSourceFragments": [
+          "7 günden az olmamak üzere"
+        ],
+        "correctOptionId": "Q-O02-B-0016-opt-02",
+        "normalizedCorrectText": "7 gün",
+        "distractorOptionIds": [
+          "Q-O02-B-0016-opt-01",
+          "Q-O02-B-0016-opt-03",
+          "Q-O02-B-0016-opt-04",
+          "Q-O02-B-0016-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0017",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-135-01",
+      "text": "657 sayılı Kanunun 135. maddesindeki disiplin itirazı için süre ve sürenin başlangıcı hangi seçenekte doğru eşleştirilmiştir?",
+      "options": [
+        {
+          "id": "Q-O02-B-0017-opt-01",
+          "text": "Kararın verildiği tarihten itibaren yedi gün"
+        },
+        {
+          "id": "Q-O02-B-0017-opt-02",
+          "text": "Kararın ilgiliye tebliğinden itibaren on beş gün"
+        },
+        {
+          "id": "Q-O02-B-0017-opt-03",
+          "text": "Kararın ilgili tarafından öğrenilmesinden itibaren otuz gün"
+        },
+        {
+          "id": "Q-O02-B-0017-opt-04",
+          "text": "Kararın ilgiliye tebliği tarihinden itibaren yedi gün"
+        },
+        {
+          "id": "Q-O02-B-0017-opt-05",
+          "text": "Kararın itiraz merciine intikalinden itibaren otuz gün"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0017-opt-04",
+      "explanation": "135. madde itiraz süresini kararın ilgiliye tebliği tarihinden itibaren yedi gün olarak belirler. Cezanın verildiği tarih ile tebliğ tarihi karıştırılmamalıdır. İtiraz merciinin karar verme süresi ayrı bir hükümdür.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0017-opt-01",
+          "explanation": "Yedi günlük sürenin başlangıcı kararın verildiği tarih değil, ilgiliye tebliğ tarihidir.",
+          "conceptId": "DC-disciplinary-appeal-time-01",
+          "conceptLabel": "Kararın verildiği tarihten itibaren yedi gün"
+        },
+        {
+          "optionId": "Q-O02-B-0017-opt-02",
+          "explanation": "Başlangıç doğru olsa da itiraz süresi on beş değil, yedi gündür.",
+          "conceptId": "DC-disciplinary-appeal-time-02",
+          "conceptLabel": "Kararın ilgiliye tebliğinden itibaren on beş gün"
+        },
+        {
+          "optionId": "Q-O02-B-0017-opt-03",
+          "explanation": "135. maddedeki açık başlangıç tebliğdir ve süre otuz değil, yedi gündür.",
+          "conceptId": "DC-disciplinary-appeal-time-03",
+          "conceptLabel": "Kararın ilgili tarafından öğrenilmesinden itibaren otuz gün"
+        },
+        {
+          "optionId": "Q-O02-B-0017-opt-05",
+          "explanation": "Otuz gün itiraz merciinin karar verme süresiyle ilgilidir; memurun itiraz süresi değildir.",
+          "conceptId": "DC-disciplinary-appeal-time-05",
+          "conceptLabel": "Kararın itiraz merciine intikalinden itibaren otuz gün"
+        }
+      ],
+      "legalProvisionId": "LP-657-135",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[4]",
+      "articleNumber": 135,
+      "difficulty": "hard",
+      "cognitiveType": "time-and-start",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0017",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "İtirazda süre, kararın ilgiliye tebliği tarihinden itibaren yedi gündür. Süresi içinde itiraz edilmeyen disiplin cezaları kesinleşir.",
+        "sourceQuoteSHA256": "1f4766c6edc1ab96a4f010dc125e468de2cce0d1f69b0c95c3fc43207bdc4d2c",
+        "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[4]",
+        "requiredSourceFragments": [
+          "kararın ilgiliye tebliği tarihinden itibaren yedi gündür"
+        ],
+        "correctOptionId": "Q-O02-B-0017-opt-04",
+        "normalizedCorrectText": "kararın ilgiliye tebliği tarihinden itibaren yedi gün",
+        "distractorOptionIds": [
+          "Q-O02-B-0017-opt-01",
+          "Q-O02-B-0017-opt-02",
+          "Q-O02-B-0017-opt-03",
+          "Q-O02-B-0017-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    },
+    {
+      "id": "Q-O02-B-0018",
+      "version": 1,
+      "sourcePool": "B",
+      "topicId": "O02",
+      "learningObjectiveId": "LO-O02-135-02",
+      "text": "657 sayılı Kanunun 135. maddesine göre itiraz merciinin otuz günlük karar verme süresi hangi olaydan itibaren başlar?",
+      "options": [
+        {
+          "id": "Q-O02-B-0018-opt-01",
+          "text": "İtiraz dilekçesi ile karar ve eklerinin itiraz merciine intikalinden"
+        },
+        {
+          "id": "Q-O02-B-0018-opt-02",
+          "text": "Disiplin soruşturmasına başlama kararından"
+        },
+        {
+          "id": "Q-O02-B-0018-opt-03",
+          "text": "Disiplin cezasına konu fiilin işlendiği tarihten"
+        },
+        {
+          "id": "Q-O02-B-0018-opt-04",
+          "text": "Ceza kararının memura tebliğinden"
+        },
+        {
+          "id": "Q-O02-B-0018-opt-05",
+          "text": "Memurun ilk savunmasını sunduğu tarihten"
+        }
+      ],
+      "correctOptionId": "Q-O02-B-0018-opt-01",
+      "explanation": "135. madde, itiraz merciinin kararını itiraz dilekçesi ile karar ve eklerinin kendisine intikalinden itibaren otuz gün içinde vermesini zorunlu tutar. Memura tebliğ ise yedi günlük itiraz süresinin başlangıcıdır; iki süre farklı olaylarla başlar.",
+      "distractorExplanations": [
+        {
+          "optionId": "Q-O02-B-0018-opt-02",
+          "explanation": "Soruşturmaya başlama tarihi, 135. maddede itiraz merciinin otuz günlük süresinin başlangıcı değildir.",
+          "conceptId": "DC-appeal-authority-decision-time-02",
+          "conceptLabel": "Disiplin soruşturmasına başlama kararından"
+        },
+        {
+          "optionId": "Q-O02-B-0018-opt-03",
+          "explanation": "Fiilin işlendiği tarih bu karar verme süresinin başlangıcı değildir.",
+          "conceptId": "DC-appeal-authority-decision-time-03",
+          "conceptLabel": "Disiplin cezasına konu fiilin işlendiği tarihten"
+        },
+        {
+          "optionId": "Q-O02-B-0018-opt-04",
+          "explanation": "Memura tebliğ, itiraz başvurusunun yedi günlük süresini başlatır; itiraz merciinin otuz günlük süresi için dosyanın intikali esas alınır.",
+          "conceptId": "DC-appeal-authority-decision-time-04",
+          "conceptLabel": "Ceza kararının memura tebliğinden"
+        },
+        {
+          "optionId": "Q-O02-B-0018-opt-05",
+          "explanation": "İlk savunmanın sunulması, 135. maddede itiraz merciinin karar verme süresini başlatmaz.",
+          "conceptId": "DC-appeal-authority-decision-time-05",
+          "conceptLabel": "Memurun ilk savunmasını sunduğu tarihten"
+        }
+      ],
+      "legalProvisionId": "LP-657-135",
+      "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[5]",
+      "articleNumber": 135,
+      "difficulty": "hard",
+      "cognitiveType": "time-and-start",
+      "scenarioFlag": false,
+      "verificationStatus": "ValidationPending",
+      "generatedBy": "first_questions",
+      "verificationEvidence": [],
+      "expectedFacts": {
+        "ruleId": "RULE-Q-O02-B-0018",
+        "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+        "sourceContentHash": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+        "sourceQuote": "İtiraz mercileri, itiraz dilekçesi ile karar ve eklerinin kendilerine intikalinden itibaren otuz gün içinde kararlarını vermek zorundadır.",
+        "sourceQuoteSHA256": "318271f9e0c7aa8b2a3680421ceb8715194979053a3156c704e4d530b0efdc34",
+        "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[5]",
+        "requiredSourceFragments": [
+          "itiraz dilekçesi ile karar ve eklerinin kendilerine intikalinden itibaren otuz gün"
+        ],
+        "correctOptionId": "Q-O02-B-0018-opt-01",
+        "normalizedCorrectText": "itiraz dilekçesi ile karar ve eklerinin itiraz merciine intikalinden",
+        "distractorOptionIds": [
+          "Q-O02-B-0018-opt-02",
+          "Q-O02-B-0018-opt-03",
+          "Q-O02-B-0018-opt-04",
+          "Q-O02-B-0018-opt-05"
+        ],
+        "direction": "single-correct",
+        "explanationConstraint": "Correct answer, scope qualifiers and distractors require separate official-provision review; source fragment matching alone is insufficient.",
+        "contextLegalProvisionIds": [],
+        "preparationOnly": true
+      }
+    }
+  ]
+}

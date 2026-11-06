@@ -4,26 +4,30 @@
   "updatedDate": "2026-11-06",
   "repository": "https://github.com/Celal84/gys-app",
   "baselineCommit": "ab731aa",
-  "workBranch": "codex/phase-0-foundation",
+  "workBranch": "codex/gys-verified-mvp",
   "remoteChangesMade": false,
   "productionDeploymentMade": false,
-  "productStatus": "Prototype",
+  "productStatus": "MVPWorkingPartialContent",
   "phase0": "Complete",
-  "mvpWorking": false,
-  "phase1": "Raw snapshots and heading matches obtained; OCR and structure audit pending",
-  "phase2": "Canonical topic weights and explicit limits ready; objectives and legal editions pending",
-  "phase3": "Existing engine bundled and regression tested; no approved sample package",
+  "mvpWorking": true,
+  "phase1": "Structural extraction and 75-page OCR advanced; O02 extraction disagreement and O04 layout gaps prevent full integrity acceptance",
+  "phase2": "24topics,166subtopics,176draft objectives;23official legal sources; final scope/transition approval pending",
+  "phase3": "Working first MVP with18Approved O02 questions, native IndexedDB sessions/results, offline resume and wrong book",
   "questionInventory": {
     "targetOriginal": 5400,
     "legacyRecords": 50,
     "duplicateCandidateClusters": 16,
-    "generatedThisPhase": 0,
-    "sourceVerified": 0,
-    "approved": 0,
+    "generatedThisPhase": 18,
+    "sourceVerified": 18,
+    "approved": 18,
     "rejected": 0,
     "pendingLegacyRecords": 50,
     "historicalAccepted": 0,
-    "historicalN": null
+    "historicalN": null,
+    "pendingNewQuestions": 0,
+    "remainingOriginalTarget": 5382,
+    "approvedMockQuestions": 0,
+    "approvedBankQuestions": 18
   },
   "sourceInventory": {
     "common": 16,
@@ -33,22 +37,35 @@
     "partialOcrFiles": 1,
     "fullyReviewedLegalDocuments": 0,
     "historicalFilesListed": 6,
-    "historicalContentsRead": 0,
+    "historicalContentsRead": 6,
     "excludedBranchOpened": false,
     "distributionByteHashMatchesOfficial": true,
     "privateSnapshotDirectory": ".local-sources/",
-    "privateSnapshotsTrackedInGit": false
+    "privateSnapshotsTrackedInGit": false,
+    "officialLegalTopics": 23,
+    "draftLearningObjectives": 176,
+    "draftSubtopics": 166,
+    "ocrProcessedPages": 75,
+    "fullOcrIntegrityApproved": false,
+    "historicalOfficialBookletsRetrieved": 9,
+    "historicalAnswerKeyMatches": 480,
+    "historicalObservedPositions": 580
   },
   "legalEdition": "preparation",
   "cutoffDate": "2027-01-01",
   "lastSuccessfulLegalWatch": null,
-  "userDecisionBlockers": [],
+  "userDecisionBlockers": [
+    "Optional HTTPS publication requires explicit user approval under V4; no live deployment made",
+    "Historical full question text is blocked pending written rights clearance; safe official-link catalog is available"
+  ],
   "nextTasks": [
-    "Faz 1: repair O04 OCR or use a verifiable readable alternative; verify tables, footnotes, exceptions and page locations",
-    "Faz 2: map learning objectives and in-scope provisions for all 24 topics; verify official legal editions and dates",
-    "Faz 3: independently verify a small original package and publish only Approved items",
-    "Before MVP: persist versioned attempts in IndexedDB and protect multi-tab writes",
-    "Faz 4: historical archive official booklets/keys/rights/scope/dedup/current-law decisions"
+    "Resolve O02 structural extraction difference and O04 OCR layout omissions",
+    "Review final scope, effective dates, transitions and historical sources for24topics",
+    "Expand Approved bank from18 to2400 through independent source/rule/reviewer process",
+    "Audit historical official booklets, answerkeys, rights and2027scope",
+    "Build protected3000question mock pool and validated100/150Strict Mode",
+    "Unify legacy/config+journal backups into one atomic restore format; addPDFreport",
+    "AddSM-2/planning/calibrated estimation/legal watcher; realiPhoneSafari acceptance"
   ],
   "resumeInstructions": [
     "Read AGENTS.md, docs/PHASE_0_REPORT.md and docs/QA_REPORT.md",
@@ -59,14 +76,16 @@
     "Do not require previous prompt versions; use the V4 contract and recorded state"
   ],
   "verification": {
-    "unitPassed": 44,
-    "mobileChromiumE2EPassed": 5,
+    "unitPassed": 79,
+    "mobileChromiumE2EPassed": 7,
     "typecheck": "Passed",
     "lint": "Passed",
     "productionBuild": "Passed",
     "realIPhoneSafari": "NotTested",
     "githubActionsRemote": "NotRun",
     "productionDependencyVulnerabilities": 0,
-    "developmentDependencyVulnerabilities": 12
-  }
+    "developmentDependencyVulnerabilities": 12,
+    "pythonSourceTestsPassed": 9
+  },
+  "phase4": "Initial archive verified:9official booklets,480answer matches,580positions;Accepted0,rights/scope/dedup pending"
 }

@@ -1,56 +1,71 @@
 # GYS 85+ · Şube Müdürü (Teknik)
 
-ÇŞİDB 2027 sınavı için mobil öncelikli hazırlık uygulaması. **Durum: Faz 0 / Prototip. MVP ve içerik kabulü tamamlanmadı.**
+ÇŞİDB 2027 sınavı için mobil öncelikli hazırlık uygulaması. **Durum: İlk MVP çalışır / kısmi içerik.** 657 konu bankasında 18 onaylı hazırlık sorusu vardır. 5.400 soru hedefi ve nihai kabul tamamlanmadı.
 
-Mevcut `Celal84/gys-app` uygulaması korunarak geliştirilmiştir. Alpine.js sürdürülmüş, CDN bağımlılıkları yerel Vite derlemesine taşınmıştır. React'e geçiş için çalışan uygulamayı yeniden yazmak gerekmemektedir. Yeni güvenilirlik katmanı TypeScript'tir; mevcut motor JavaScript'tir.
+Mevcut `Celal84/gys-app` uygulamasının Alpine motoru korundu. CDN bağımlılıkları Vite derlemesine taşındı; TypeScript kaynak doğrulama ve IndexedDB kayıt katmanları eklendi.
 
 ## Çalıştırma
 
-Node.js 24 ve npm gereklidir.
+Node.js 24, npm ve kaynak denetimi için Python 3 gereklidir.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Vite çıktısındaki yerel adresi açın. Üretim derlemesi ve çevrimdışı kontrol için:
+Vite çıktısındaki yerel adresi açın. Üretim ve çevrimdışı deneme için:
 
 ```sh
 npm run build
 npm run preview
 ```
 
-Service worker üretim derlemesinde çalışır; ilk başarılı çevrimiçi açılış gerekir. Gerçek telefonda kurulum/çevrimdışı kullanım için HTTPS gerekir (`localhost` geliştirme istisnasıdır). İlk açılışta bağlantısız yüklenebileceği veya PWA kapalıyken mevzuat tarayacağı iddia edilmez. iPhone Safari cihaz kabulü henüz yapılmadı. Kullanıcı onayı olmadan canlı yayına çıkılmadı.
+Service worker üretim derlemesinde çalışır; ilk başarılı çevrimiçi açılış gerekir. Telefonda HTTPS gerekir (`localhost` geliştirme istisnasıdır). Gerçek iPhone Safari kabulü yapılmadı. Kullanıcının açık onayı olmadan canlı yayın yapılmaz.
 
-## Kontroller
+## Doğrulama
 
 ```sh
 npm run lint
 npm run typecheck
+npm run verify:content
+npm run test:sources
 npm run test
 npm run build
 npm run audit:content
 npm run test:e2e
 ```
 
-Yerelde `/usr/bin/chromium` kullanılır; başka sistemde Playwright yapılandırmasındaki tarayıcı yolunu ayarlayın. CI, Playwright Chromium'u kurar. `.github/workflows/ci.yml` tanımlandı; uzak GitHub Actions çalışması bu oturumda yapılmadı.
+Yerel E2E `/usr/bin/chromium` kullanır; farklı sistemde tarayıcı yolunu ayarlayın. CI, Playwright Chromium'u kurar. Uzak GitHub Actions sonucu ayrıca gözlenmeden başarılı sayılmaz.
 
-## İçerik durumu
+## İçerik ve kaynak
 
-Eski dosyalarda 24 gömülü + 26 JSON = 50 kayıt var; bunlar **50 özgün/onaylı soru değildir**. 16 tekrar adayı kümesi bulundu; anlamsal denetim tamamlanmadı. 5.400 özgün soru hedefi korunuyor; bu fazda üretilen ve onaylanan soru 0.
+Eski dosyalardaki 24 gömülü ve 26 JSON kaydı, **50 özgün veya onaylı soru değildir**. İnceleme beklerler. Yeni pakette 18 özgün soru üretildi; üretimden ayrı model destekli inceleme ve deterministik resmî kaynak kontrolleriyle 18'i onaylandı. Bu süreç insan hukuk uzmanı onayı olarak gösterilmez.
 
-`data/approved-content.json` yalnız onay sürecini geçmiş içerik ve kaynak snapshot'ları içindir; şu anda boştur. Eski/import edilen sorular inceleme verisidir. JSON dosyasındaki `Approved` yazısı yayın yetkisi oluşturmaz. Kaynak kanıtı ve bağımsız kontrol kaydı olmadan yayın kapısı açılmaz. Faz 0'da konu testleri ve tam deneme bu nedenle başlatılmaz. Testlerde kullanılan sentetik sorular uygulama içerik paketine dahil değildir.
+`npm run verify:content`, gerçek resmî HTML baytlarını, alıntıyı ve dipnotu, kalıcı cevap/çeldirici kimliklerini, hedef/madde sınırını ve değişmemiş bağımsız inceleme hash'lerini kontrol eder. Sonuç `data/approved-content.json` ve konu parçalarına yazılır. Küçük manifest başlangıçta, soru metinleri konu açılırken yüklenir.
 
-## İlerleme güvenliği
+657 konu çalışması açıktır. Diğer konular onaylı paket bekler. Tam deneme, korunan soru havuzu ve 100 soru/150 dakika Strict Mode tamamlanmadan başlamaz. Test fixture'ları gerçek içerik sayılmaz. İçe aktarılan JSON içindeki `Approved` alanı yayın yetkisi oluşturmaz.
 
-`gys_duo_state_v1` ve `gys_duo_questions_v1` eski anahtarlarına yazılmaz/silinmez. Yeni kayıt `gys_v4_workspace_v1` içinde tek sürümlü zarfla tutulur. Geri yüklemeden önce şema ve çakışmalar doğrulanır, kullanıcıya kayıt sayıları gösterilir; önceki yeni kayıt kurtarma kopyasında tutulur. Bozuk kayıtlar otomatik düzeltilip üzerine yazılmaz. Tarayıcı depolaması işletim sistemi/tarayıcı tarafından temizlenebilir; düzenli JSON yedeği alın. Aynı origin'de eski ilerleme okunur; farklı origin/cihazdan otomatik taşınmaz.
+Mevzuat **hazırlık sürümüdür**. 01.01.2027 kesimi gelecekte; nihai sınav sürümü kesinleşmedi. 23 mevzuat kaynağının snapshot'ı ve 24 konu için 176 hedef taslağı bulunması, bütün kapsamın ve hukuki yürürlük/geçiş incelemesinin tamamlandığı anlamına gelmez.
 
-## Kaynaklar ve devam
+## İlerleme ve yedek
 
-- [Faz 0 bulguları ve plan](docs/PHASE_0_REPORT.md)
-- [Test raporu](docs/QA_REPORT.md)
+Eski `gys_duo_state_v1` / `gys_duo_questions_v1` anahtarlarına yazılmaz veya silinmez. Eski kayıtlar ve ayarlar sürümlü localStorage zarfında; yeni çalışmalar IndexedDB'de saklanır. Cevap ve sayaç güncellemesi atomiktir; eski sekme revizyonu reddedilir. Soru/cevap/kaynak sürümleri ve geçmiş sonuçlar korunur. Yenileme ve çevrimdışı açılışta devam edilir.
+
+Yeni çalışma günlüğü tam JSON olarak dışa aktarılır ve kayıt silmeden, çakışma denetimiyle birleştirilir. Eski kayıt/ayar yedeği ayrıdır; **tam koruma için iki dosyayı birlikte saklayın**. Tek dosyalı atomik bütün veri restore'u sonraki iştir. Bozuk yedek aktif kaydı kısmen değiştirmez. Tarayıcı depolaması temizlenebilir; düzenli yedek alın. Farklı origin veya cihazdan otomatik taşıma yapılmaz.
+
+## Çıkmış kaynaklar
+
+Katalog 9 resmî MEB kitapçığına bağlanır. 480 tarihî anahtar eşleşti; 580 pozisyonun benzersizlik, 2027 kapsamı, güncel hukuk ve kullanım hakkı incelemesi sürer. Kabul edilen çıkmış soru **0**, uygun benzersiz N bilinmiyor. Kitapçıkların tam soru metinleri uygulamada yeniden yayımlanmaz.
+
+## Raporlar ve devam
+
+- [Güncel devam raporu](docs/CONTINUATION_REPORT.md)
+- [Testler ve açık kabul işleri](docs/QA_REPORT.md)
 - [Kayıtlı proje durumu](docs/PROJECT_STATE.json)
-- [V4 uygulama sözleşmesi özeti](docs/IMPLEMENTATION_CONTRACT_V4.md)
-- [Resmî parametre doğrulaması](data/official-verification.json)
+- [Kaynaklı soru incelemesi](docs/FIRST_PACKAGE_REVIEW.md)
+- [Resmî kaynak kaydı](docs/OFFICIAL_SOURCE_REGISTRY.md)
+- [Çıkmış arşiv denetimi](docs/HISTORICAL_ARCHIVE_REPORT.md)
+- [Faz 0 başlangıç bulguları](docs/PHASE_0_REPORT.md)
+- [V4 sözleşmesi özeti](docs/IMPLEMENTATION_CONTRACT_V4.md)
 
-Özel Drive ham dosyaları ve ayrıntılı envanter `.local-sources/` altında, Git dışında tutulur. İstemciye veya depoya erişim sırrı eklenmez. `.local-sources` kalıcı uzak yedek değildir; ortam kaybolursa yetkili Drive bağlantısından tekrar alınmalıdır. İlerleme klasörü ID bazında tarama dışıdır. Drive dosyaları değiştirilmedi.
+Özel Drive ham dosyaları ve ayrıntılı envanter `.local-sources/` içinde, Git dışında tutulur. Bu dizin uzak yedek değildir; ortam kaybolursa yetkili bağlantıdan yeniden alınır. İstemciye erişim sırrı eklenmez. İlerleme klasörü ID ile dışlanır; Drive dosyaları değiştirilmez.

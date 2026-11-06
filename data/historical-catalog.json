@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "acceptedQuestions": 0,
+  "historicalAnswersMatched": 480,
+  "observedPositions": 580,
+  "booklets": [
+    {
+      "id": "2019-UDS-G1A",
+      "year": 2019,
+      "date": "13.07.2019",
+      "examType": "Unvan değişikliği",
+      "cadre": "1. Grup A - Mühendis, Mimar, Şehir Plancısı ve diğerleri",
+      "url": "https://meb.gov.tr/meb_iys_dosyalar/2019_07/16174603_CEVRE_VE_YEHYRCYLYK_BAKANLIYI_UDS_1_GRUP_A.pdf",
+      "positions": 50,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2019-UDS-G2A",
+      "year": 2019,
+      "date": "13.07.2019",
+      "examType": "Unvan değişikliği",
+      "cadre": "2. Grup A - Sağlık Teknikeri, Tekniker",
+      "url": "https://meb.gov.tr/meb_iys_dosyalar/2019_07/16174624_CEVRE_VE_YEHYRCYLYK_BAKANLIYI_UDS_2_GRUP_A.pdf",
+      "positions": 50,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2019-UDS-G3A",
+      "year": 2019,
+      "date": "13.07.2019",
+      "examType": "Unvan değişikliği",
+      "cadre": "3. Grup A - Teknisyen",
+      "url": "https://meb.gov.tr/meb_iys_dosyalar/2019_07/16174640_CEVRE_VE_YEHYRCYLYK_BAKANLIYI_UDS_3_GRUP_A.pdf",
+      "positions": 50,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2022-MEU",
+      "year": 2022,
+      "date": "30.10.2022",
+      "examType": "Millî Emlak Uzmanlığı Özel Sınavı",
+      "cadre": "Millî Emlak Uzmanlığı",
+      "url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2022_11/03145730_CEVRE_YEHYRCYLYK_BAKANLIYI.pdf",
+      "positions": 100,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2023-MEU",
+      "year": 2023,
+      "date": "26.11.2023",
+      "examType": "Millî Emlak Uzmanlığı Özel Sınavı",
+      "cadre": "Millî Emlak Uzmanlığı e-Sınavı",
+      "url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_11/29095406_milli_emlakuzmanligi_esinavi.pdf",
+      "positions": 100,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2023-UDS-G1",
+      "year": 2023,
+      "date": "23.12.2023",
+      "examType": "Unvan değişikliği",
+      "cadre": "1. Grup - Mühendis, Mimar, Şehir Plancısı ve diğerleri",
+      "url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_12/26093633_cevre-sehircilikveiklimdegisikligibakanligi1grup.pdf",
+      "positions": 50,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2023-UDS-G2",
+      "year": 2023,
+      "date": "23.12.2023",
+      "examType": "Unvan değişikliği",
+      "cadre": "2. Grup - Tekniker",
+      "url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_12/26093633_cevre-sehircilikveiklimdegisikligibakanligi2grup.pdf",
+      "positions": 50,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2023-UDS-G3",
+      "year": 2023,
+      "date": "23.12.2023",
+      "examType": "Unvan değişikliği",
+      "cadre": "3. Grup - Teknisyen",
+      "url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2023_12/26093633_cevre-sehircilikveiklimdegisikligibakanligi3grup.pdf",
+      "positions": 50,
+      "options": 4,
+      "decision": "NeedsReview"
+    },
+    {
+      "id": "2024-GYS-EM",
+      "year": 2024,
+      "date": "01.12.2024",
+      "examType": "Görevde yükselme",
+      "cadre": "Emlak/Millî Emlak Müdürü ve Müdür Yardımcılığı",
+      "url": "https://odsgm.meb.gov.tr/meb_iys_dosyalar/2024_12/04115902_sifreli_01_12_2024_milli_emlak.pdf",
+      "positions": 80,
+      "options": 4,
+      "decision": "NeedsReview"
+    }
+  ]
+}

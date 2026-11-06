@@ -1,6 +1,8 @@
 import { TOPICS, daysUntilExam } from './core/curriculum';
-import { isAvailableFor } from './core/content';
-import content from '../data/approved-content.json';
+import historicalCatalog from '../data/historical-catalog.json';
+import contentManifest from '../data/content-manifest.json';
+import { createContentRepository } from './content-repository';
+import { createAttemptStore } from './attempt-store';
 import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restoreBackup } from './storage.js';
 
     const LEGACY_CURRICULUM = [
@@ -64,11 +66,22 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
       { id: 208, cat: "Teknik %30", topic: "Planlı Alanlar İmar Yönetmeliği", weight: 3, q: "Planlı Alanlar İmar Yönetmeliği'ne göre yapı ruhsatı alınan binalarda ruhsat tarihinden itibaren kaç yıl içinde inşaata başlanması ve kaç yıl içinde bitirilmesi zorunludur?", opts: ["1 yıl başlama - 3 yıl bitirme", "2 yıl başlama - 5 yıl bitirme", "2 yıl başlama - 10 yıl bitirme", "3 yıl başlama - 5 yıl bitirme", "1 yıl başlama - 5 yıl bitirme"], ans: 1, exp: "Ruhsat tarihinden itibaren 2 yıl içinde inşaata başlanması ve 5 yıl içinde inşaatın tamamlanması zorunludur." }
     ];
 
-    export function gysApp() {
+    export function gysApp(dependencies = {}) {
+      const repository = dependencies.repository || createContentRepository(contentManifest);
+      // Keep database connections outside Alpine's reactive proxies.
+      const attemptStore = dependencies.attemptStore || (typeof indexedDB === 'undefined' ? null : createAttemptStore());
+      let baselineState = null;
+      const clone = value => JSON.parse(JSON.stringify(value));
       return {
         activeTab: 'home',
+        historicalCatalog,
         notice: '',
         storageBlocked: false,
+        loadingContent: false,
+        savingAnswer: false,
+        activeAttempt: null,
+        completedAttempts: [],
+        journalProgress: null,
         filterCat: 'ALL',
         curriculum: JSON.parse(JSON.stringify(DEFAULT_CURRICULUM)),
         questions: [],
@@ -107,6 +120,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           // Original v1 keys are read-only. All future writes use one versioned envelope.
           const loaded = readWorkspace(localStorage, this.state);
           this.state = loaded.state;
+          baselineState = clone(loaded.state);
           this.storageBlocked = Boolean(loaded.error);
           this.notice = loaded.error || '';
           this.questions = loaded.questions || [...SEED_QUESTIONS];
@@ -125,6 +139,14 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
               }
             }
           } catch {}
+          if (attemptStore) {
+            try {
+              await this.refreshJournalProgress();
+              this.completedAttempts = await attemptStore.listCompleted();
+              const active = await attemptStore.getActive();
+              if (active) { this.activeAttempt = active; this.notice = 'Yarım kalan çalışma kaydedildi. Devam düğmesiyle sürdürebilirsiniz.'; }
+            } catch (error) { this.notice = 'Çalışma kayıtları açılamadı: ' + error.message; }
+          }
         },
 
         saveState() {
@@ -132,7 +154,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
             this.notice = 'Yerel kayıt okunamadı. Veriler korunuyor; geri yükleme öncesi yedek alın.';
             return;
           }
-          try { saveWorkspace(localStorage, this.state, this.questions); }
+          try { saveWorkspace(localStorage, baselineState ? { ...baselineState, settings: clone(this.state.settings),hearts:this.state.hearts } : this.state, this.questions); }
           catch { this.notice = 'Kayıt yapılamadı. Depolama alanını kontrol edin ve yedek alın.'; }
         },
 
@@ -151,25 +173,31 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           if (persist) {
             if (this.storageBlocked) throw new Error('Yerel kayıt korunuyor; yeni içerik yazılamaz.');
             // Commit persistent bytes first; failed writes must not change the visible bank.
-            saveWorkspace(localStorage, this.state, next);
+            saveWorkspace(localStorage, baselineState ? {...baselineState,settings:clone(this.state.settings),hearts:this.state.hearts} : this.state, next);
           }
           this.questions = next;
         },
 
-        // Faz 0: no approved content package exists yet. JSON imports cannot self-approve.
         studyQuestions() {
-          return content.questions.filter(q => isAvailableFor(q, 'study', {
-            snapshot: content.snapshots.find(s => s.id === q.sourceSnapshotId)
-          })).map(q => {
+          return repository.loadedChunks().flatMap(chunk => chunk.questions.map(q => {
             const topic = DEFAULT_CURRICULUM.find(t => t.code === q.topicId);
-            const source = content.snapshots.find(s => s.id === q.sourceSnapshotId);
-            return { id: q.id, q: q.text, opts: q.options.map(o => o.text),
+            const source = chunk.snapshots.find(s => s.id === q.sourceSnapshotId);
+            return { id: q.id, version: q.version, topicId: q.topicId,
+              q: q.text, opts: q.options.map(o => o.text), optionIds: q.options.map(o => o.id),
+              correctOptionId: q.correctOptionId,
               ans: q.options.findIndex(o => o.id === q.correctOptionId), exp: q.explanation,
               topic: topic.topic, cat: topic.cat, weight: topic.weight,
-              sourceUrl: source.sourceUrl, sourceLocator: q.sourceLocator };
-          });
+              distractorExplanations: q.distractorExplanations || {},
+              sourceUrl: source.sourceUrl, sourceLocator: q.sourceLocator,sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:source.contentHash,legalEdition:source.legalEdition };
+          }));
         },
-        approvedQuestionCount() { return this.studyQuestions().length; },
+        approvedQuestionCount() { return repository.totalCount(); },
+        questionCompletionLabel() {
+          const published=new Set(contentManifest.topics.flatMap(t=>t.questionIds||[]));
+          if(!published.size)return 'Henüz onaylı paket yok';
+          const solved=(this.journalProgress?.solvedQuestionIds||[]).filter(id=>published.has(id)).length;
+          return solved+'/'+published.size+' benzersiz soru';
+        },
         daysUntilExam() { return daysUntilExam(); },
         topicAccuracyLabel(topic) {
           const value = this.getTopicMastery(topic);
@@ -187,7 +215,8 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         },
 
         getQuestionCount(topicName) {
-          return this.studyQuestions().filter(q => q.topic === topicName).length;
+          const topic = DEFAULT_CURRICULUM.find(t => t.topic === topicName);
+          return topic ? repository.countFor(topic.code) : 0;
         },
 
         getTopicMastery(topicName) {
@@ -221,7 +250,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         mistakeList() {
           const list = [];
           for (const [idStr, meta] of Object.entries(this.state.mistakes)) {
-            const qObj = this.studyQuestions().find(q => String(q.id) === String(idStr));
+            const qObj = meta.question ? this.fromSavedQuestion(meta.question) : this.studyQuestions().find(q => String(q.id) === String(idStr));
             if (qObj) list.push({ qObj, ...meta });
           }
           return list.sort((a, b) => (b.qObj.weight - a.qObj.weight) || (b.wrongCount - a.wrongCount));
@@ -232,7 +261,13 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         },
 
         // Konu Bazlı Ders Başlat (%30 Hata Serpiştirmeli)
-        startTopicQuiz(topicItem) {
+        async startTopicQuiz(topicItem) {
+          if (this.loadingContent) return;
+          if (this.activeAttempt) { this.notice = 'Önce yarım kalan çalışmayı sürdürün veya sonucunu kaydederek bitirin.'; return; }
+          this.loadingContent = true;
+          try { await repository.loadTopic(topicItem.code); }
+          catch (error) { this.notice = error.message; return; }
+          finally { this.loadingContent = false; }
           if (this.state.settings.examMode && this.state.hearts <= 0) {
             this.state.hearts = 5;
           }
@@ -240,11 +275,11 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           const pool = this.studyQuestions().filter(q => q.topic === topicItem.topic);
           if (!pool.length) { this.notice = 'Bu konuda onaylı soru henüz yok. Kaynak doğrulaması bekleniyor.'; return; }
 
-          let selected = [];
+          const selected = [];
           if (this.state.settings.mixMistakes) {
             const topicMistakes = this.mistakeList()
-              .map(m => m.qObj)
-              .filter(q => q.topic === topicItem.topic);
+              .map(m => pool.find(q => q.id === m.qObj.id && q.version === m.qObj.version))
+              .filter(Boolean);
             const mistakeQuota = Math.min(topicMistakes.length, Math.max(1, Math.floor(size * 0.3)));
             selected.push(...this.shuffle(topicMistakes).slice(0, mistakeQuota));
           }
@@ -252,14 +287,33 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           const remaining = pool.filter(q => !selected.some(s => s.id === q.id));
           selected.push(...this.shuffle(remaining).slice(0, size - selected.length));
 
-          this.launchQuiz(topicItem.shortTitle, this.shuffle(selected));
+          await this.launchQuiz(topicItem.shortTitle, this.shuffle(selected).map(q => this.shuffleOptions(q)));
+        },
+
+        shuffleOptions(question) {
+          if (!question.optionIds) return question;
+          const options=this.shuffle(question.opts.map((text,i)=>({text,id:question.optionIds[i]})));
+          return {...question,opts:options.map(o=>o.text),optionIds:options.map(o=>o.id),ans:options.findIndex(o=>o.id===question.correctOptionId)};
+        },
+        fromSavedQuestion(q) {
+          const topic=DEFAULT_CURRICULUM.find(t=>t.code===q.topicId);
+          return {id:q.id,version:q.version,topicId:q.topicId,topic:q.topic,cat:topic?.cat,weight:q.weight,
+            q:q.text,opts:q.options.map(o=>o.text),optionIds:q.options.map(o=>o.id),correctOptionId:q.correctOptionId,
+            ans:q.options.findIndex(o=>o.id===q.correctOptionId),exp:q.explanation,sourceUrl:q.sourceUrl,sourceLocator:q.sourceLocator,
+            sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:q.sourceContentHash,legalEdition:q.legalEdition};
         },
 
         // Sadece Hataları Eritme Testi
-        startMistakeQuiz() {
-          const mItems = this.mistakeList().map(m => m.qObj).slice(0, 15);
-          if (mItems.length === 0) return;
-          this.launchQuiz('Hata Eritme Özel Turu', this.shuffle(mItems));
+        async startMistakeQuiz() {
+          if (this.activeAttempt) { this.notice = 'Önce yarım kalan çalışmayı tamamlayın.'; return; }
+          try {
+            const topics=new Set(this.mistakeList().map(m=>m.qObj.topicId).filter(Boolean));
+            await Promise.all([...topics].map(id=>repository.loadTopic(id)));
+            const approved=this.studyQuestions();
+            const mItems=this.mistakeList().map(m=>approved.find(q=>q.id===m.qObj.id&&q.version===m.qObj.version)).filter(Boolean).slice(0,15);
+            if(!mItems.length){this.notice='Bu geçmiş sorular için güncel onaylı paket eşleşmesi bulunamadı.';return;}
+            await this.launchQuiz('Yanlışları tekrar',this.shuffle(mItems).map(q=>this.shuffleOptions(q)));
+          } catch(error){this.notice=error.message;}
         },
 
         // GYS Ağırlıklı Genel Simülasyon
@@ -267,8 +321,19 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           this.notice = 'Tam deneme henüz hazır değil. Her konuda yeterli onaylı soru ve Strict Mode testleri tamamlandığında açılacak.';
         },
 
-        launchQuiz(title, items) {
+        async launchQuiz(title, items) {
           if (!items || items.length === 0) return;
+          if (attemptStore) {
+            try {
+              this.activeAttempt = await attemptStore.start({title, mode:'study', questions:items.map(q => ({
+                id:String(q.id),version:q.version,topicId:q.topicId,topic:q.topic,weight:q.weight,text:q.q,
+                options:q.opts.map((text,i) => ({id:q.optionIds[i],text})),correctOptionId:q.correctOptionId,
+                explanation:q.exp,sourceUrl:q.sourceUrl,sourceLocator:q.sourceLocator,
+                sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:q.sourceContentHash,legalEdition:q.legalEdition
+              }))});
+            } catch (error) { this.notice = error.message; return; }
+          } else if (typeof window !== 'undefined') { this.notice = 'IndexedDB kullanılamıyor; güvenilir kayıt için çalışma başlatılmadı.'; return; }
+          this.notice = '';
           this.quiz = {
             active: true,
             summary: false,
@@ -287,7 +352,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         },
 
         selectOption(idx) {
-          if (this.quiz.checked) return;
+          if (this.quiz.checked || this.savingAnswer) return;
           this.quiz.selected = idx;
           if (navigator.vibrate) navigator.vibrate(10);
         },
@@ -312,10 +377,24 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           this.state.lastActiveDate = today;
         },
 
-        checkAnswer() {
-          if (this.quiz.selected === null || this.quiz.checked) return;
+        async checkAnswer() {
+          if (this.quiz.selected === null || this.quiz.checked || this.savingAnswer) return;
           const q = this.currentQ();
           const correct = this.quiz.selected === q.ans;
+          if (attemptStore && this.activeAttempt) {
+            this.savingAnswer = true;
+            try {
+              this.activeAttempt = await attemptStore.saveAnswer(this.activeAttempt.id, {
+                questionId:String(q.id),selectedOptionId:q.optionIds[this.quiz.selected],expectedRevision:this.activeAttempt.revision
+              });
+              this.quiz.checked = true; this.quiz.isCorrect = correct;
+              this.quiz.correctCount = this.activeAttempt.answers.filter(a => a.correct).length;
+              await this.refreshJournalProgress(); this.playTone(correct);
+              if(!correct&&this.state.settings.examMode){this.state.hearts=Math.max(0,this.state.hearts-1);this.saveState();}
+            } catch (error) { this.notice = error.message; }
+            finally { this.savingAnswer = false; }
+            return;
+          }
           this.quiz.checked = true;
           this.quiz.isCorrect = correct;
 
@@ -359,7 +438,23 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           this.saveState();
         },
 
-        nextQuestion() {
+        async nextQuestion() {
+          if (this.savingAnswer || !this.quiz.checked) return;
+          if (attemptStore && this.activeAttempt) {
+            try {
+              if(this.state.settings.examMode&&this.state.hearts<=0){
+                await this.finishStudy();this.state.hearts=5;this.saveState();return;
+              }
+              if (this.quiz.index + 1 < this.quiz.items.length) {
+                this.savingAnswer=true;
+                try {
+                  this.activeAttempt = await attemptStore.setCursor(this.activeAttempt.id,this.quiz.index+1,this.activeAttempt.revision);
+                  this.applyAttempt(this.activeAttempt);
+                } finally { this.savingAnswer=false; }
+              } else { await this.finishStudy(); }
+            } catch (error) { this.notice = error.message; }
+            return;
+          }
           if (this.state.settings.examMode && this.state.hearts <= 0) {
             alert('Sınav modunda canların tükendi! Tur sonlandırılıyor.');
             this.state.hearts = 5;
@@ -377,6 +472,79 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
             this.quiz.active = false;
             this.quiz.summary = true;
           }
+        },
+
+        applyAttempt(attempt) {
+          this.activeAttempt = attempt;
+          const items = attempt.questions.map(q => ({id:q.id,version:q.version,topicId:q.topicId,
+            q:q.text,opts:q.options.map(o=>o.text),optionIds:q.options.map(o=>o.id),correctOptionId:q.correctOptionId,
+            ans:q.options.findIndex(o=>o.id===q.correctOptionId),exp:q.explanation,topic:q.topic,weight:q.weight,
+            sourceUrl:q.sourceUrl,sourceLocator:q.sourceLocator,sourceSnapshotId:q.sourceSnapshotId,sourceContentHash:q.sourceContentHash,legalEdition:q.legalEdition}));
+          const current=items[attempt.cursor];
+          const answer=attempt.answers.find(a=>a.questionId===current.id);
+          this.quiz={active:attempt.status==='active',summary:attempt.status==='completed',title:attempt.title,
+            items,index:attempt.cursor,selected:answer?current.optionIds.indexOf(answer.selectedOptionId):null,
+            checked:Boolean(answer),isCorrect:answer?.correct||false,correctCount:attempt.answers.filter(a=>a.correct).length,
+            result:attempt.result,attemptNumber:attempt.attemptNumber,isFirstAttempt:attempt.isFirstAttempt};
+        },
+        async trustedAttempt(attempt) {
+          await Promise.all([...new Set(attempt.questions.map(q=>q.topicId))].map(id=>repository.loadTopic(id)));
+          const approved=this.studyQuestions();
+          return attempt.questions.every(saved=>{
+            const current=approved.find(q=>q.id===saved.id&&q.version===saved.version);
+            if(!current||current.q!==saved.text||current.exp!==saved.explanation||current.correctOptionId!==saved.correctOptionId
+              ||current.topicId!==saved.topicId||current.topic!==saved.topic||current.weight!==saved.weight
+              ||current.sourceSnapshotId!==saved.sourceSnapshotId||current.sourceContentHash!==saved.sourceContentHash
+              ||current.sourceUrl!==saved.sourceUrl||current.sourceLocator!==saved.sourceLocator)return false;
+            return saved.options.length===current.opts.length&&saved.options.every(option=>{
+              const index=current.optionIds.indexOf(option.id);return index>=0&&current.opts[index]===option.text;
+            });
+          });
+        },
+        async resumeStudy() {
+          if (!attemptStore || !this.activeAttempt) return;
+          try {
+            const saved=await attemptStore.load(this.activeAttempt.id);
+            if(saved){
+              if(!await this.trustedAttempt(saved)){this.notice='Kayıtlı sorular güncel onaylı paketle eşleşmiyor. Geçmiş kayıt korunur; çalışma sürdürülmedi.';return;}
+              if(this.state.settings.examMode)this.state.hearts=Math.max(0,5-saved.answers.filter(a=>!a.correct).length);
+              this.applyAttempt(saved);
+            }
+          }
+          catch(error) { this.notice=error.message; }
+        },
+        async finishStudy() {
+          if (!attemptStore || !this.activeAttempt || this.savingAnswer) return;
+          this.savingAnswer=true;
+          try {
+            const saved=await attemptStore.finish(this.activeAttempt.id,this.activeAttempt.revision);
+            this.applyAttempt(saved);this.activeAttempt=null;
+            this.completedAttempts=await attemptStore.listCompleted();await this.refreshJournalProgress();
+          } catch(error) { this.notice=error.message; }
+          finally { this.savingAnswer=false; }
+        },
+        async refreshJournalProgress() {
+          if (!attemptStore?.getProgress || !baselineState) return;
+          const progress=await attemptStore.getProgress(); this.journalProgress=progress;
+          this.state.totalAnswered=baselineState.totalAnswered+progress.totalAnswered;
+          this.state.totalCorrect=baselineState.totalCorrect+progress.totalCorrect;
+          this.state.xp=baselineState.xp+progress.xp;
+          this.state.streak=progress.lastActiveDate?progress.streak:baselineState.streak;
+          this.state.lastActiveDate=progress.lastActiveDate||baselineState.lastActiveDate;
+          const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Istanbul'}).format(new Date());
+          this.state.dailyXP=(baselineState.lastActiveDate===today?baselineState.dailyXP:0)+progress.dailyXP;
+          this.state.topicStats=clone(baselineState.topicStats);
+          for(const [topic,stats] of Object.entries(progress.topicStats)) {
+            if(!DEFAULT_CURRICULUM.some(t=>t.topic===topic))continue;
+            const old=Object.hasOwn(this.state.topicStats,topic)?this.state.topicStats[topic]:{answered:0,correct:0};
+            this.state.topicStats[topic]={answered:old.answered+stats.answered,correct:old.correct+stats.correct};
+          }
+          this.state.mistakes={...clone(baselineState.mistakes),...progress.mistakes};
+        },
+        async viewAttempt(id) {
+          if(!attemptStore)return;
+          try{const live=this.activeAttempt;const saved=await attemptStore.load(id);if(saved){this.applyAttempt(saved);this.activeAttempt=live;}}
+          catch(error){this.notice=error.message;}
         },
 
         closeQuiz() {
@@ -440,7 +608,7 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
         exportBackup() {
           const payload = {
             schemaVersion: 1,
-            state: this.state,
+            state: baselineState ? {...baselineState,settings:clone(this.state.settings),hearts:this.state.hearts} : this.state,
             questions: this.questions
           };
           const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
@@ -450,6 +618,24 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
           a.download = 'gys_duo_yedek.json';
           a.click();
           URL.revokeObjectURL(url);
+        },
+
+        async exportStudyBackup() {
+          if(!attemptStore){this.notice='Çalışma veritabanı kullanılamıyor.';return;}
+          try{
+            const data=await attemptStore.exportJournal();
+            const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
+            const a=document.createElement('a');a.href=url;a.download='gys-calisma-gunlugu.json';a.click();URL.revokeObjectURL(url);
+          }catch(error){this.notice=error.message;}
+        },
+        async importStudyBackup(event) {
+          const file=event.target.files[0];if(!file||!attemptStore)return;
+          if(file.size>32*1024*1024){this.notice='Dosya32 MB sınırını aşıyor.';return;}
+          try{
+            const result=await attemptStore.importJournal(JSON.parse(await file.text()));
+            await this.refreshJournalProgress();this.completedAttempts=await attemptStore.listCompleted();this.activeAttempt=await attemptStore.getActive();
+            this.notice=result.imported+' yeni çalışma kaydı birleştirildi. Mevcut kayıtlar silinmedi.';
+          }catch(error){this.notice='Çalışma yedeği yüklenemedi: '+error.message;}
         },
 
         importBackup(event) {
@@ -462,10 +648,12 @@ import { readWorkspace, saveWorkspace, validateQuestions, prepareBackup, restore
               const data = prepareBackup(JSON.parse(e.target.result), { schemaVersion: 1, state: this.state, questions: this.questions });
               if (!confirm(`Doğrulanan yedek: ${data.state.totalAnswered} cevap ve ${data.questions.length} soru kaydı. Cihazdaki ${this.state.totalAnswered} cevaplık ilerlemenin yerini alacak. Devam edilsin mi? Önceki kayıt korunur.`)) return;
               const restored = restoreBackup(localStorage, data, { schemaVersion: 1, state: this.state, questions: this.questions });
+              baselineState=clone(restored.state);
               this.state = restored.state;
               this.questions = restored.questions;
               this.storageBlocked = false;
-              this.notice = 'Yedek geri yüklendi. Eski v1 kayıtlarına dokunulmadı.';
+              this.notice = 'Eski kayıt ve ayarlar geri yüklendi. Yeni çalışma günlüğü ayrı korunur.';
+              this.refreshJournalProgress().catch(error=>{this.notice=error.message;});
             } catch {
               this.notice = 'Yedek geçersiz, çakışıyor veya yazılamadı. Mevcut kayıtlar korundu.';
             }

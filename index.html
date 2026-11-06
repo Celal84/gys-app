@@ -107,19 +107,25 @@
     <div x-show="notice" x-text="notice" role="status" data-testid="notice" class="source-note mt-3"></div>
 
     <section x-show="activeTab === 'home'" data-testid="home-panel" aria-label="Konu çalışma alanı">
-      <div class="home-intro"><h2>Hazırlığına odaklan.</h2><span class="status-pill">Faz 0 · Prototip</span></div>
+      <div class="home-intro"><h2>Hazırlığına odaklan.</h2><span class="status-pill" x-text="approvedQuestionCount() ? 'İlk çalışma paketi' : 'Kaynak kontrolü'"></span></div>
       <div class="overview">
         <div class="metric"><span class="metric-label">Sınava kalan</span><strong class="metric-value" x-text="daysUntilExam()" data-testid="exam-countdown"></strong><span class="metric-detail">gün · İstanbul</span></div>
         <div class="metric"><span class="metric-label">Onaylı soru</span><strong class="metric-value" x-text="approvedQuestionCount()" data-testid="approved-count"></strong><span class="metric-detail">5.400 hedef</span></div>
         <div class="metric"><span class="metric-label">Müfredat</span><strong class="metric-value">24</strong><span class="metric-detail">16 ortak · 8 teknik</span></div>
       </div>
-      <div class="source-note" role="status" data-testid="content-status"><span class="source-dot" aria-hidden="true"></span><div><strong>İçerik doğrulaması sürüyor.</strong> Kaynak ve cevap kontrolü tamamlanan sorular çalışmaya açılacak. Mevcut kayıtlar korunuyor.</div></div>
+      <div class="source-note" role="status" data-testid="content-status"><span class="source-dot" aria-hidden="true"></span><div><strong x-text="approvedQuestionCount() ? approvedQuestionCount() + ' onaylı hazırlık sorusu' : 'İçerik doğrulaması sürüyor.'"></strong> <span x-text="approvedQuestionCount() ? 'Kaynak, cevap ve ayrı kontrol sürecinden geçen ilk paket açık. Diğer konuların incelemesi sürüyor.' : 'Kaynak ve cevap kontrolü tamamlanan sorular çalışmaya açılacak. Mevcut kayıtlar korunuyor.'"></span></div></div>
       <p class="eyebrow" style="margin: 0 0 12px">Hazırlık mevzuatı · kesim 01.01.2027. Son mevzuat kontrolü: henüz yapılmadı.</p>
+      <div x-show="activeAttempt" class="exam-card mb-3" data-testid="resume-card">
+        <h3 class="section-heading">Yarım kalan çalışma</h3>
+        <p x-text="activeAttempt?.title"></p>
+        <div class="grid grid-cols-2 gap-2"><button @click="resumeStudy()" class="btn-3d-green rounded-lg p-2 text-xs" data-testid="resume-study">Devam et</button><button @click="finishStudy()" :disabled="savingAnswer" class="exam-button" data-testid="finish-study">Sonuçlandır</button></div>
+      </div>
       <div class="exam-card">
         <div class="exam-card-header"><h3 class="section-heading">27 Şubat 2027</h3><span class="eyebrow">100 soru · 150 dakika</span></div>
         <p>70 ortak + 30 teknik. Yanlışlar doğruları götürmez. <a href="https://kariyerkapisi.gov.tr/IlanDetay?i=232d3886-9af8-4b69-a802-b393f13a600d" target="_blank" rel="noopener noreferrer">Resmî duyuru</a></p>
         <button @click="startWeightedExam()" class="exam-button" data-testid="full-exam-button"><span>Tam deneme hazırlanıyor</span><span aria-hidden="true">→</span></button>
       </div>
+      <button @click="activeTab='historical'" class="exam-button mt-3" data-testid="historical-catalog-button"><span>Çıkmış sınav kaynakları</span><span>9 kitapçık →</span></button>
       <div class="flex items-center justify-between mt-5"><h3 class="section-heading">Konu kütüphanesi</h3><span class="eyebrow">Sabit sınav dağılımı</span></div>
       <div class="filters" aria-label="Konu grubu">
         <button @click="filterCat = 'ALL'" :class="{'filter-active': filterCat === 'ALL'}" :aria-pressed="filterCat === 'ALL'" data-testid="filter-all">Tümü · 24</button>
@@ -128,13 +134,27 @@
       </div>
       <div class="topic-list" data-testid="topic-list">
         <template x-for="item in filteredTopics()" :key="item.code">
-          <button @click="startTopicQuiz(item)" class="topic-row" data-testid="topic-row" :aria-label="item.shortTitle + ', ' + getQuestionCount(item.topic) + ' onaylı soru'">
+          <button @click="startTopicQuiz(item)" class="topic-row" :disabled="loadingContent" data-testid="topic-row" :aria-label="item.shortTitle + ', ' + getQuestionCount(item.topic) + ' onaylı soru'">
             <span class="topic-icon" aria-hidden="true" x-text="item.icon"></span>
             <span class="topic-main"><span class="topic-title" x-text="item.shortTitle"></span><span class="topic-meta"><span x-text="getQuestionCount(item.topic) + ' onaylı soru'"></span><span aria-hidden="true">·</span><span x-text="topicAccuracyLabel(item.topic)"></span></span></span>
             <span class="topic-weight"><span x-text="item.weight"></span><small>soru</small></span>
           </button>
         </template>
       </div>
+    </section>
+
+    <section x-show="activeTab==='historical'" class="space-y-3 mt-4" aria-label="Çıkmış sınav kaynakları" data-testid="historical-catalog">
+      <div class="flex items-center justify-between"><h2 class="section-heading">Resmî kitapçık arşivi</h2><button @click="activeTab='home'" class="exam-button" style="width:auto">Konulara dön</button></div>
+      <div class="source-note">480 tarihî cevap anahtarıyla eşleşti. 580 pozisyonun benzersizlik,2027 kapsamı,güncel hukuk ve kullanım hakkı incelemesi sürüyor. Kabul edilen çıkmış soru:0.</div>
+      <p class="eyebrow">Kitapçıklar resmî MEB sitesinde çevrim içi açılır. Özgün seçenek sayısı4; farklı sınav ve kadrolar kendi adlarıyla gösterilir.</p>
+      <template x-for="booklet in historicalCatalog.booklets" :key="booklet.id">
+        <article class="exam-card" data-testid="historical-booklet">
+          <strong class="text-sm" x-text="booklet.year+' · '+booklet.examType"></strong>
+          <p x-text="booklet.cadre"></p>
+          <p x-text="booklet.date+' · '+booklet.positions+' pozisyon · '+booklet.options+' seçenek'"></p>
+          <a :href="booklet.url" target="_blank" rel="noopener noreferrer" class="text-xs">Resmî MEB PDF'sini aç</a>
+        </article>
+      </template>
     </section>
 
     <!-- SEKME 2: HATA TEKRAR MOTORU (SPACED REPETITION) -->
@@ -176,6 +196,7 @@
 
     <!-- SEKME 3: İSTATİSTİK PANELİ (STATS) -->
     <div x-show="activeTab === 'stats'" class="space-y-4 mt-4">
+      <div class="source-note"><div><strong x-text="questionCompletionLabel()" data-testid="question-completion"></strong><p>Kapsam ve öğrenme hâkimiyeti: nihai hedef haritası ve çeşitli ölçümler henüz yeterli değil. Soru tamamlama bu göstergelerden ayrıdır.</p></div></div>
       <div class="grid grid-cols-2 gap-2.5">
         <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-3">
           <div class="text-[11px] text-gray-400 font-bold">ÇALIŞMA DOĞRULUĞU</div>
@@ -189,6 +210,16 @@
         </div>
       </div>
 
+      <div x-show="completedAttempts.length" class="bg-[#172335] border border-[#29384b] rounded-xl p-3">
+        <h3 class="section-heading">Kayıtlı konu çalışmaları</h3>
+        <p class="eyebrow">Bunlar 100 soruluk bağımsız tam deneme değildir.</p>
+        <template x-for="attempt in completedAttempts.slice(0,10)" :key="attempt.id">
+          <button @click="viewAttempt(attempt.id)" class="w-full py-3 text-left border-b border-[#29384b] text-xs" data-testid="attempt-history">
+            <strong x-text="attempt.title"></strong> · <span x-text="attempt.result?.correct + '/' + attempt.questionCount"></span>
+            <span class="eyebrow" x-text="attempt.isFirstAttempt ? ' · İlk paket çözümü' : ' · Aynı paketin tekrarı'"></span>
+          </button>
+        </template>
+      </div>
       <!-- En Zayıf 3 Konu Uyarısı -->
       <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-3.5">
         <div class="text-xs font-extrabold text-[#d8bc8d] mb-2">Ölçülen konularda çalışma önceliği</div>
@@ -236,15 +267,23 @@
 
         <div class="grid grid-cols-2 gap-2 pt-1">
           <button @click="exportBackup()" class="btn-3d-blue py-2.5 rounded-xl font-extrabold text-xs">
-            💾 İLERLEMEYİ YEDEKLE
+            ESKİ KAYIT + AYARLAR
           </button>
           <label class="file-button bg-[#1c2b3f] border border-[#29384b] py-2.5 rounded-xl font-extrabold text-xs text-center cursor-pointer">
-            📥 YEDEK YÜKLE
+            ESKİ YEDEK YÜKLE
             <input type="file" accept=".json" @change="importBackup($event)" class="sr-only" />
           </label>
         </div>
       </div>
 
+      <div class="bg-[#172335] border border-[#29384b] rounded-xl p-3 space-y-2">
+        <h3 class="section-heading">Yeni çalışma günlüğü</h3>
+        <p class="eyebrow">Soru sürümleri, cevaplar ve sonuçlar IndexedDB'de tutulur. Tam koruma için bu günlüğü ve yukarıdaki eski kayıt/ayar yedeğini birlikte saklayın.</p>
+        <div class="grid grid-cols-2 gap-2">
+          <button @click="exportStudyBackup()" class="btn-3d-blue rounded-lg p-2 text-xs" data-testid="export-journal">Günlüğü yedekle</button>
+          <label class="file-button border border-[#29384b] rounded-lg p-2 text-xs text-center">Günlük birleştir<input type="file" accept=".json" class="sr-only" @change="importStudyBackup($event)" data-testid="import-journal" /></label>
+        </div>
+      </div>
       <!-- Çalışma ve Sınav Parametreleri -->
       <div class="bg-[#172335] border-2 border-[#29384b] rounded-2xl p-4 space-y-3 text-xs">
         <h3 class="text-sm font-extrabold text-[#d7dfb5]">⚙️ Uygulama ve Eğitim Ayarları</h3>
@@ -330,7 +369,7 @@
         <span class="text-lg" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 4.5h6a3 3 0 0 1 3 3V21a4 4 0 0 0-4-3H4z"/><path d="M20 4.5h-4a3 3 0 0 0-3 3V21a4 4 0 0 1 4-3h3z"/></svg></span>
         <span>Konular</span>
       </button>
-      <button @click="activeTab = 'mistakes'" data-testid="nav-mistakes" :aria-current="activeTab === 'mistakes' ? 'page' : null" :class="activeTab === 'mistakes' ? 'text-[#ffa7b5] bg-[#1c2b3f]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl relative">
+      <button aria-label="Yanlış defteri" @click="activeTab = 'mistakes'" data-testid="nav-mistakes" :aria-current="activeTab === 'mistakes' ? 'page' : null" :class="activeTab === 'mistakes' ? 'text-[#ffa7b5] bg-[#1c2b3f]' : 'text-gray-400'" class="flex flex-col items-center py-1.5 rounded-xl relative">
         <span class="text-lg" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 3h12v18H6zM9 8h6M9 12h6M9 16h3"/></svg></span>
         <span>Hatalar</span>
         <span x-show="mistakeList().length > 0" class="absolute top-1 right-4 bg-[#ffa7b5] text-white text-[9px] px-1.5 rounded-full" x-text="mistakeList().length"></span>
@@ -362,6 +401,8 @@
         </div>
       </div>
 
+<div x-show="notice" x-text="notice" role="status" class="source-note" data-testid="quiz-notice"></div>
+
       <!-- Konu Etiketi ve Hata Tekrar Rozeti -->
       <div class="flex items-center justify-between mt-2">
         <span class="text-[11px] font-extrabold uppercase tracking-wider text-[#99d5f9] bg-[#182B36] px-2.5 py-1 rounded-lg truncate max-w-[75%]"
@@ -372,13 +413,13 @@
       </div>
 
       <!-- Soru Metni -->
-      <div class="mt-4 text-base font-extrabold leading-relaxed text-white" x-text="currentQ()?.q"></div>
+      <div class="mt-4 text-base font-extrabold leading-relaxed text-white" data-testid="question-text" x-text="currentQ()?.q"></div>
 
       <!-- Şıklar -->
       <div class="mt-4 space-y-2.5 overflow-y-auto max-h-[52vh] pb-4">
         <template x-for="(opt, oIdx) in (currentQ()?.opts || [])" :key="oIdx">
           <button @click="selectOption(oIdx)"
-            :disabled="quiz.checked"
+            :disabled="quiz.checked || savingAnswer"
             :class="getOptionClass(oIdx)"
             class="w-full text-left p-3.5 rounded-2xl text-xs font-bold flex items-start space-x-3 transition">
             <span class="w-6 h-6 rounded-lg border border-current flex items-center justify-center font-black shrink-0"
@@ -394,10 +435,10 @@
       <!-- Kontrol Et Butonu -->
       <button x-show="!quiz.checked"
         @click="checkAnswer()"
-        :disabled="quiz.selected === null"
+        :disabled="quiz.selected === null || savingAnswer"
         :class="quiz.selected !== null ? 'btn-3d-green text-white' : 'bg-[#1c2b3f] text-gray-500'"
         class="w-full py-3.5 rounded-2xl font-extrabold text-sm uppercase tracking-wider transition">
-        KONTROL ET
+        <span x-text="savingAnswer ? 'Kaydediliyor…' : 'Kontrol et'"></span>
       </button>
 
       <!-- Doğru / Yanlış Açıklama Kutusu -->
@@ -414,8 +455,9 @@
         <div x-show="!quiz.isCorrect" class="text-xs font-extrabold text-[#7ae3c5]"
           x-text="'Doğru Cevap: ' + (['A','B','C','D','E'][currentQ()?.ans]) + ') ' + (currentQ()?.opts[currentQ()?.ans])"></div>
         <div class="text-xs text-gray-200 leading-relaxed" x-text="currentQ()?.exp"></div>
+        <p class="eyebrow" x-show="currentQ()?.legalEdition === 'preparation'">Hazırlık mevzuatı · Nihai sınav sürümü henüz kesinleşmedi.</p>
         <a x-show="currentQ()?.sourceUrl" :href="currentQ()?.sourceUrl" target="_blank" rel="noopener noreferrer" class="block text-xs">İlgili maddeyi oku <span x-text="currentQ()?.sourceLocator || ''"></span></a>
-        <button @click="nextQuestion()"
+        <button @click="nextQuestion()" :disabled="savingAnswer"
           :class="quiz.isCorrect ? 'btn-3d-green' : 'btn-3d-red'"
           class="w-full py-3 rounded-xl font-extrabold text-sm text-white uppercase tracking-wider">
           DEVAM ET
@@ -429,6 +471,8 @@
     <div class="text-6xl">🎉</div>
     <h2 class="text-2xl font-black text-[#d7dfb5]">Çalışma özeti</h2>
     <p class="text-xs text-gray-300" x-text="quiz.title"></p>
+    <p class="text-xs" x-show="quiz.result" data-testid="study-result" x-text="quiz.result ? quiz.result.correct + ' doğru · ' + quiz.result.wrong + ' yanlış · ' + quiz.result.blank + ' boş' : ''"></p>
+    <p class="text-xs text-gray-400" x-show="quiz.result" x-text="quiz.isFirstAttempt ? 'Bu soru paketinin ilk çözümü. Konu çalışmasıdır.' : 'Aynı soru paketinin tekrar çözümü. İlk çözümden ayrı saklanır.'"></p>
     <div class="grid grid-cols-3 gap-3 w-full">
       <div class="bg-[#172335] border-2 border-[#d7dfb5] rounded-2xl p-3">
         <div class="text-[10px] font-bold text-[#d7dfb5]">KAZANILAN XP</div>

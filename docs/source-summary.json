@@ -16,5 +16,15 @@
   "officialParametersVerified": true,
   "examLegalEdition": "preparation",
   "liveMonitoringLastSuccess": null,
-  "sourceVersionPolicy": "Immutable original byte hash snapshots; provider version not available"
+  "sourceVersionPolicy": "Immutable original byte hash snapshots; provider version not available",
+  "officialLegalTopicSnapshots": 23,
+  "draftLearningObjectives": 176,
+  "ocrReprocessedPages": 75,
+  "ocrFullIntegrityApproved": false,
+  "approvedPreparationQuestions": 18,
+  "historicalFilesRead": 6,
+  "historicalOfficialPdfs": 9,
+  "historicalAnswerMatches": 480,
+  "historicalRawPositions": 580,
+  "acceptedHistoricalQuestions": 0
 }

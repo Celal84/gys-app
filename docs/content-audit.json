@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "status": "Prototype",
+  "status": "PartialContentAvailable",
   "legacySeedRecords": 24,
   "externalRecords": 26,
   "combinedRecordsById": 50,
   "originalQuestionTarget": 5400,
-  "generatedThisPhase": 0,
-  "sourceVerifiedQuestions": 0,
-  "approvedQuestions": 0,
+  "generatedThisPhase": 18,
+  "sourceVerifiedQuestions": 18,
+  "approvedQuestions": 18,
+  "pendingNewQuestions": 0,
   "rejectedQuestions": 0,
   "pendingLegacyRecords": 50,
   "duplicateCandidates": [
@@ -76,8 +77,9 @@
       26
     ]
   ],
-  "semanticAudit": "NotCompleted",
+  "semanticAudit": "NotCompletedForWholeBank",
+  "newPackageIndependentReview": "CompletedFor18",
   "historicalAccepted": 0,
-  "historicalReview": "NotStarted",
+  "historicalReview": "9OfficialBooklets480AnswerMatchesRightsScopePending",
   "finalContentAcceptance": false
 }

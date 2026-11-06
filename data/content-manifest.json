@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "contentEdition": "preparation",
+  "totalApproved": 18,
+  "topics": [
+    {
+      "topicId": "O02",
+      "count": 18,
+      "questionIds": [
+        "Q-O02-B-0001",
+        "Q-O02-B-0002",
+        "Q-O02-B-0003",
+        "Q-O02-B-0004",
+        "Q-O02-B-0005",
+        "Q-O02-B-0006",
+        "Q-O02-B-0007",
+        "Q-O02-B-0008",
+        "Q-O02-B-0009",
+        "Q-O02-B-0010",
+        "Q-O02-B-0011",
+        "Q-O02-B-0012",
+        "Q-O02-B-0013",
+        "Q-O02-B-0014",
+        "Q-O02-B-0015",
+        "Q-O02-B-0016",
+        "Q-O02-B-0017",
+        "Q-O02-B-0018"
+      ],
+      "path": "content/O02.json",
+      "sha256": "e3aacf82640e9f012dfa02a58ee54ff85deb78f039e2cda750ca653aeca53aa7"
+    }
+  ]
+}

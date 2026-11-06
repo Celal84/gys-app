@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "batchId": "BATCH-O02-STARTER-20261106-01",
+  "checkedAt": "2026-11-06T12:56:19.052Z",
+  "generated": 18,
+  "approved": 18,
+  "pending": 0,
+  "sourceArtifactsChecked": 11,
+  "independentReview": true,
+  "outcomes": [
+    {
+      "questionId": "Q-O02-B-0001",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0002",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0003",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0004",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0005",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0006",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0007",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0008",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0009",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0010",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0011",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0012",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0013",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0014",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0015",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0016",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0017",
+      "decision": "Approved",
+      "issues": []
+    },
+    {
+      "questionId": "Q-O02-B-0018",
+      "decision": "Approved",
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "schemaVersion": 1,
+  "sourceSnapshotId": "SRC-OFFICIAL-657-UYAP-20261106-e179523117a8",
+  "checkedAt": "2026-11-06T12:32:07.016670+00:00",
+  "checkedBy": "official-law-source-extraction",
+  "scope": "Official source artifact and verbatim excerpt integrity; not question approval",
+  "sourceDocumentURL": "https://mevzuat.adalet.gov.tr/mevzuat/102924",
+  "transportURL": "https://bedesten.adalet.gov.tr/mevzuat/getDocumentContent",
+  "requestMethod": "POST",
+  "requestBody": {
+    "data": {
+      "documentType": "MEVZUAT",
+      "id": "102924"
+    },
+    "applicationName": "UyapMevzuat"
+  },
+  "rawFullResponseSHA256": "e179523117a8b6c1d8addc4f4151b6410320be70ce14d9f4146c34ac162b26c0",
+  "decodedFullHTMLSHA256": "b4645c93cb71d5f50a14af49425ac1f226473e0e7d5fe40db921ae12f3cbb50e",
+  "fullSnapshotRetrievedAt": "2026-11-06T12:26:39.739481+00:00",
+  "legalVersionStage": "Preparation",
+  "examVersionFinalized": false,
+  "publicProvisionFile": "data/public-legal-sources/657-provisions.json",
+  "publicProvisionFileSHA256": "c627e25d032a7cf0edefddb146cc410b18b63f156c177673caa2b0c03eaae0d3",
+  "artifacts": [
+    {
+      "articleNumber": 3,
+      "legalProvisionId": "LP-657-3",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/3-ee89258b84824c401b193e7a3daae7e41d0cebef288f973adb5cc3d87d664dda.html",
+      "sha256": "ee89258b84824c401b193e7a3daae7e41d0cebef288f973adb5cc3d87d664dda",
+      "byteLength": 2255,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "9225b43084be0ef1a4badcfe4b8afc61f184fca2a567cf63ffe0e2392b3e573e",
+      "officialArticleId": "1653311",
+      "retrievedAt": "2026-11-06T12:27:53.743665+00:00",
+      "paragraphCount": 8
+    },
+    {
+      "articleNumber": 54,
+      "legalProvisionId": "LP-657-54",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/54-c12fa3f5e549365879f976c84b34570ec0ec2167ac38769f3b7d376efc89e743.html",
+      "sha256": "c12fa3f5e549365879f976c84b34570ec0ec2167ac38769f3b7d376efc89e743",
+      "byteLength": 1177,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "8aa0fb28219056a9f559b49a413715602c980e25c6d5eaa125779c5391fade4c",
+      "officialArticleId": "1653485",
+      "retrievedAt": "2026-11-06T12:27:53.909648+00:00",
+      "paragraphCount": 4
+    },
+    {
+      "articleNumber": 94,
+      "legalProvisionId": "LP-657-94",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/94-1d3f501e949928ad03ca7aa3fc3fade47faea910fb44a61238966edd32f8bc93.html",
+      "sha256": "1d3f501e949928ad03ca7aa3fc3fade47faea910fb44a61238966edd32f8bc93",
+      "byteLength": 1619,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "328ebc7f16ed967ff1b80095dcbd422652425c540f709127b445180d11a90f69",
+      "officialArticleId": "1653613",
+      "retrievedAt": "2026-11-06T12:27:53.627536+00:00",
+      "paragraphCount": 4
+    },
+    {
+      "articleNumber": 95,
+      "legalProvisionId": "LP-657-95",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/95-b8a5f9b021f3bcf88c569dd5e6801c6cbc9bdd650b40b7363a6613a6ed5abc74.html",
+      "sha256": "b8a5f9b021f3bcf88c569dd5e6801c6cbc9bdd650b40b7363a6613a6ed5abc74",
+      "byteLength": 785,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "b9c4e602fbc7b95f8ca01f1a4b3e674ed728321137199a444a591bf5326dee67",
+      "officialArticleId": "1653616",
+      "retrievedAt": "2026-11-06T12:27:54.064609+00:00",
+      "paragraphCount": 2
+    },
+    {
+      "articleNumber": 96,
+      "legalProvisionId": "LP-657-96",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/96-39363f960ca9c8c87e2b4db03939681aab4cfba8223276821b204f99d1a9d7e6.html",
+      "sha256": "39363f960ca9c8c87e2b4db03939681aab4cfba8223276821b204f99d1a9d7e6",
+      "byteLength": 1164,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "fbfca3ec3ccbaea3aa955a4a8d6e9d8d80f1cc51b4ddfd7d21b96aa9e60ee572",
+      "officialArticleId": "1653619",
+      "retrievedAt": "2026-11-06T12:27:54.195605+00:00",
+      "paragraphCount": 3
+    },
+    {
+      "articleNumber": 102,
+      "legalProvisionId": "LP-657-102",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/102-9f60fd848155aa47229c13ce983af1d8b4c3ef2229dfa10eeb03bb2fd857059e.html",
+      "sha256": "9f60fd848155aa47229c13ce983af1d8b4c3ef2229dfa10eeb03bb2fd857059e",
+      "byteLength": 895,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "78f3704cc8049e84f2e4972f8b7f80a75409d234ead87c0cfd4466ec4ab2aa18",
+      "officialArticleId": "1653641",
+      "retrievedAt": "2026-11-06T12:27:54.344670+00:00",
+      "paragraphCount": 3
+    },
+    {
+      "articleNumber": 125,
+      "legalProvisionId": "LP-657-125",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/125-29e0b5cdcfbdc57c2953b1bbb99a20ae05fc9a8bedcb07159d85048ba3443f04.html",
+      "sha256": "29e0b5cdcfbdc57c2953b1bbb99a20ae05fc9a8bedcb07159d85048ba3443f04",
+      "byteLength": 21896,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "7c0592f95c23350831d530c93b33d93d8eb3a3b83959ce8bb071119ed1218cb9",
+      "officialArticleId": "1653710",
+      "retrievedAt": "2026-11-06T12:27:54.496464+00:00",
+      "paragraphCount": 80
+    },
+    {
+      "articleNumber": 129,
+      "legalProvisionId": "LP-657-129",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/129-150dcef92e0315e8ad7255e348fa825b2c5e8e91e76b047d1baeb41c2eb9da7f.html",
+      "sha256": "150dcef92e0315e8ad7255e348fa825b2c5e8e91e76b047d1baeb41c2eb9da7f",
+      "byteLength": 2802,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "ef1a647bc625ca2d5e347d928aaec9ad18e9525deec02d5f89b804dc540385f3",
+      "officialArticleId": "1653721",
+      "retrievedAt": "2026-11-06T12:27:54.752214+00:00",
+      "paragraphCount": 6
+    },
+    {
+      "articleNumber": 130,
+      "legalProvisionId": "LP-657-130",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/130-97a88f13abe9ade7a7a5c5c729d3d0778f59f4eb109caba3f23c2b7ac32d620c.html",
+      "sha256": "97a88f13abe9ade7a7a5c5c729d3d0778f59f4eb109caba3f23c2b7ac32d620c",
+      "byteLength": 983,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "f259cd55ec30c283123fcb45e8b0c3b8df547eccdc3574929a731264e27482c0",
+      "officialArticleId": "1653724",
+      "retrievedAt": "2026-11-06T12:27:54.643108+00:00",
+      "paragraphCount": 3
+    },
+    {
+      "articleNumber": 135,
+      "legalProvisionId": "LP-657-135",
+      "examScope": true,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/135-68b31a90ec5e2c85690bcc448e526d9a7de955fc3bd4b127e7624e20381e1281.html",
+      "sha256": "68b31a90ec5e2c85690bcc448e526d9a7de955fc3bd4b127e7624e20381e1281",
+      "byteLength": 1839,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "55dbfa82a5586d10cd88eb6eb24e47e63f5d05332e66e824be64aa11dd5cd329",
+      "officialArticleId": "1653738",
+      "retrievedAt": "2026-11-06T12:27:54.806210+00:00",
+      "paragraphCount": 7
+    },
+    {
+      "articleNumber": 238,
+      "legalProvisionId": "LP-657-238",
+      "examScope": false,
+      "path": "data/public-legal-sources/snapshots/SRC-OFFICIAL-657-UYAP-20261106-e179523117a8/238-92c194f2232084418b7ff1a02fcd079e41b8d3f0958b41a7f0d20c9e8b60be97.html",
+      "sha256": "92c194f2232084418b7ff1a02fcd079e41b8d3f0958b41a7f0d20c9e8b60be97",
+      "byteLength": 483,
+      "mediaType": "text/html",
+      "encoding": "UTF-8",
+      "kind": "Base64DecodedOfficialAPIContent",
+      "sourceRawResponseSHA256": "798311a8b551c999c038a3d04a2518d5af364c325fb5f36e367a77f49441c409",
+      "officialArticleId": "1654032",
+      "retrievedAt": "2026-11-06T12:27:55.127994+00:00",
+      "paragraphCount": 2
+    }
+  ],
+  "paragraphChecks": [
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[1]",
+      "paragraphTextSHA256": "5ad4b1298d837ab8249ba8412b73ace831a87074b424c68d024aa43b29d4533c",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[2]",
+      "paragraphTextSHA256": "89d08617aa7a3f18cbe32fce3a960e7a4db63891626bdc75db192135194bc425",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[3]",
+      "paragraphTextSHA256": "c445cd9be6476b2bb7bbddedf89ae60feceab109239eb5388196eb9edb9ecc80",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 4,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[4]",
+      "paragraphTextSHA256": "6cfdc93ae7ea3676384ae38970d42eabbc1fc809ce2d6d9b5f061c24cec76b83",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 5,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[5]",
+      "paragraphTextSHA256": "4b216755bbe6a9f72b63d3fc6c647174353ea346449ed0af00690a8e8eb7a3a9",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 6,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[6]",
+      "paragraphTextSHA256": "2b0a02a9f4b994e09e9cee837646911a7ebeeb9bab94bf3b6b6e7f53f4d3a6d1",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 7,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[7]",
+      "paragraphTextSHA256": "661d9624dc5e24331cea2be020ebe6e1525224c2d76e236e7af8ccca33d4dcf3",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 3,
+      "htmlParagraphIndex": 8,
+      "legalProvisionId": "LP-657-3",
+      "sourceLocator": "657 sayılı Kanun m.3; UYAP maddeId=1653311; HTML p[8]",
+      "paragraphTextSHA256": "cc55a8cfe7d501757ccd2191182c56c023e585314e9db9561184ef95380710b2",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 54,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-54",
+      "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[1]",
+      "paragraphTextSHA256": "dd4656f806338eef93f1fbf6f915d4c0fafa0a3965c53e7f6393bec37339b842",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 54,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-54",
+      "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[2]",
+      "paragraphTextSHA256": "03fc6b355b4ab108c189ff1635fea5111aea85bffd3b20f61cb02baa6ae55d94",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 54,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-54",
+      "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[3]",
+      "paragraphTextSHA256": "531ead73851bcffb651647da962085e98bd4eb6f81dce22a4a87ce9cb67f43f8",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 54,
+      "htmlParagraphIndex": 4,
+      "legalProvisionId": "LP-657-54",
+      "sourceLocator": "657 sayılı Kanun m.54; UYAP maddeId=1653485; HTML p[4]",
+      "paragraphTextSHA256": "de029a026a948a7aceeeebf77f6924c7b0acf4de1c37b6544ebd2f71c74f3db6",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 94,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-94",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[1]",
+      "paragraphTextSHA256": "e4467cd8b308479b5936fb760d40a7bf569adaf39db15abcffa3803c6c03871d",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 94,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-94",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[2]",
+      "paragraphTextSHA256": "9cfead6923d46fd39589bb8f680e464b373fc0a0b8824a5a5200143fbad8553f",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 94,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-94",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[3]",
+      "paragraphTextSHA256": "f676f1c7f050ebef5624db7ccf5d6525a58670603622b8804ea7cef1a32a6e10",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 94,
+      "htmlParagraphIndex": 4,
+      "legalProvisionId": "LP-657-94",
+      "sourceLocator": "657 sayılı Kanun m.94; UYAP maddeId=1653613; HTML p[4]",
+      "paragraphTextSHA256": "c8090e79e9dd3cc6792042d985ff1f206313d776d4b2ceb862a96510158fef2d",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 95,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-95",
+      "sourceLocator": "657 sayılı Kanun m.95; UYAP maddeId=1653616; HTML p[1]",
+      "paragraphTextSHA256": "8b6ba464b79e29323d53bae21071dfa88d20e477ae5910d52670bc4da015ebaf",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 95,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-95",
+      "sourceLocator": "657 sayılı Kanun m.95; UYAP maddeId=1653616; HTML p[2]",
+      "paragraphTextSHA256": "bef7396129492e825f8c484a7cb497e5a6650bafd0a9ce083bdfa9ef694dafb7",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 96,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-96",
+      "sourceLocator": "657 sayılı Kanun m.96; UYAP maddeId=1653619; HTML p[1]",
+      "paragraphTextSHA256": "4e31c4320a9ecee4682dae1ba6849382c10f656e38dec09e8869194c500eb705",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 96,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-96",
+      "sourceLocator": "657 sayılı Kanun m.96; UYAP maddeId=1653619; HTML p[2]",
+      "paragraphTextSHA256": "c35102a6065926fcd5badfcb787406ed7c2d089a4ee9aba876ca4160421c9de3",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 96,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-96",
+      "sourceLocator": "657 sayılı Kanun m.96; UYAP maddeId=1653619; HTML p[3]",
+      "paragraphTextSHA256": "1219e7f31c7b3607713546186f4259e85c48cb07520ddfc4df7c7b44e33a4a48",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 102,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-102",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[1]",
+      "paragraphTextSHA256": "71b9e38ae35c9abd7994b839f38918031073eaa1df2bd966fcd8d9d48bc87370",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 102,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-102",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[2]",
+      "paragraphTextSHA256": "e9d9081d888f6db485a04cce4e78023eddce60fbb9b1620c759cdb49ea358c9a",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 102,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-102",
+      "sourceLocator": "657 sayılı Kanun m.102; UYAP maddeId=1653641; HTML p[3]",
+      "paragraphTextSHA256": "08a15c650ddca370ec4911851d007ec7fc233218751b7cf238ff43b48f610000",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[1]",
+      "paragraphTextSHA256": "9700e510934d8e53ef40f53203057dd6010361daddaba16526b0f1bb29cdd358",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[2]",
+      "paragraphTextSHA256": "87b2d4c67c9614e4461491bf55f0901ff839f358ef3c1058cd805b648dc836f1",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[3]",
+      "paragraphTextSHA256": "0038e42acc7bff9480e44fefc5044cccd5a0df404fb9921c2944ed70ee968425",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 4,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[4]",
+      "paragraphTextSHA256": "c9b8eadf724262a28a2d13d406ad625c8137aa70be600e961b3d98eff0450064",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 5,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[5]",
+      "paragraphTextSHA256": "442bcc6e10857be650b1f5de40dd712d5beacfe9f264042488171df64224daae",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 6,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[6]",
+      "paragraphTextSHA256": "fe80e4ddf3cbd38d94b3608c7eef884efed1e23bfd0eb4961713b206d2c15c9e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 7,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[7]",
+      "paragraphTextSHA256": "a9ffc64cba3bc225c321f60ffae0b1291c173cb0dd89f3081ba21ac42c58a551",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 8,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[8]",
+      "paragraphTextSHA256": "b19323ce0c152696dae332721b0bac7612e2ff85fbd3574ee7549a3a972600ee",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 9,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[9]",
+      "paragraphTextSHA256": "5ac65f722dd56032f6bda147af9b773fcc2f79e6aa60bca61f920b0b287dd14b",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 10,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[10]",
+      "paragraphTextSHA256": "4b99b8952fe778fa0562ff1f53400adef27e31e796ae0c926c2fed6d7a7a87ad",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 11,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[11]",
+      "paragraphTextSHA256": "5c223af9c72c001c878d2ddcbf877235d7e48beb43b761a6982163bf437646bb",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 12,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[12]",
+      "paragraphTextSHA256": "a2ec5006cecca23fde9eb0ff2aafe125cecdbe20c833294e7a3fd8c9a0bf6bc1",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 13,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[13]",
+      "paragraphTextSHA256": "5f20168c62b984cd1244bb84d33926e54a34b0dbf7ae256a4574326ed56ac0c7",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 14,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[14]",
+      "paragraphTextSHA256": "0120dd61d85425781ebfbedb68a3b8de7df3bdb879a659b8d6024a16bc1f0e1b",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 15,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[15]",
+      "paragraphTextSHA256": "6372d5687723fa4b1319740c0bacc5a08664b944ddd36f7e0ad09924217d1d14",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 16,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[16]",
+      "paragraphTextSHA256": "27e8153dd57e5d9938c5664b3efad876fd35254ada3cb02aa2ff2b230e9b5bf7",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 17,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[17]",
+      "paragraphTextSHA256": "fefd21b634e07073d792b5ad637873b70fad36b8290d03450a67e980657b0b07",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 18,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[18]",
+      "paragraphTextSHA256": "144555510d739fbce6e45b7082f31d834071d85be128fe22eeb8cbb1488f54f4",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 19,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[19]",
+      "paragraphTextSHA256": "b745dc60ec79b67224cffeea7e37272e8c7cb534eba25d286dbd44258b1cb9b7",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 20,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[20]",
+      "paragraphTextSHA256": "43020bd4e8fa771dc5b4413ffea634bcc2b56ef30785b75fa1a35fed69ed4926",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 21,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[21]",
+      "paragraphTextSHA256": "94581094f2eee7971b7da1d7222c910264a0c1fbdfcb95f7d4f2d1ba57a26c64",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 22,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[22]",
+      "paragraphTextSHA256": "1b2c4d6dc8874f8b1300c371380cbf9e70bb2334531c9af8313c2ca37f59bde1",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 23,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[23]",
+      "paragraphTextSHA256": "6e74a0950572a2997c2594cf154e6a9276a4de1e81f8454cce2786d3d46440df",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 24,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[24]",
+      "paragraphTextSHA256": "cd0aed94058d2b4232a004024cace5f0192069d899e94fce7d142e97d70476e1",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 25,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[25]",
+      "paragraphTextSHA256": "979c492028cca11e1c4369aa8600f48fd8c77b0888d5fd50f0cc782b25a70e09",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 26,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[26]",
+      "paragraphTextSHA256": "e0619f394344776cb1d56782f0390531bcbafa2936dddfe706e344417ad62c2d",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 27,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[27]",
+      "paragraphTextSHA256": "7d20668c3af63757ac44e90555fc2a2fa69c5c079e24afe3c34f1547adb639c9",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 28,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[28]",
+      "paragraphTextSHA256": "b1349cf98cc79f415a5dfd2712e552e216a9596f7214a2f8f8d49a6e40f2ad8e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 29,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[29]",
+      "paragraphTextSHA256": "7b14c91333b6ab1a4a5555f980967e3cab9ea498d502bd14d2fba4bf149919ae",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 30,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[30]",
+      "paragraphTextSHA256": "168edf4618e1b514e0b11646ccd19b663757c60de23cb486805d76d6d2f5185e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 31,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[31]",
+      "paragraphTextSHA256": "7fbf407918fe9c2423660df58d11631e6fe7180cbf74117476ca8697f62e4bbe",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 32,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[32]",
+      "paragraphTextSHA256": "48f80cea08610555f2acc9396438531637d73f74c7d38ecafeadfe87464d9ed6",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 33,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[33]",
+      "paragraphTextSHA256": "5b9c5c0243638adcff20b1d93dbe72384740c3cf6e26ed155d4dc564885abfd7",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 34,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[34]",
+      "paragraphTextSHA256": "2264ed2127d626e3a59b73ee93cd42947fd7acbef570f802c91d39827ed08846",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 35,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[35]",
+      "paragraphTextSHA256": "96062d278bd52d14e6c5c3752a61af83025f82dc324a6995cc516575c8e67106",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 36,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[36]",
+      "paragraphTextSHA256": "cb33589e6f87cc459de8efcd5eb26754a277c7ef537a011d9c29455110f21b0a",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 37,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[37]",
+      "paragraphTextSHA256": "9d0b0f872a5be7b6881a88e7f01abb132ea6284e59397ac2420a8cdc6895e62c",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 38,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[38]",
+      "paragraphTextSHA256": "cc99e9bb6a54d9fc2ce535390fa8cdbc516ceddc579d6b75f0dce0602c5bc3ba",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 39,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[39]",
+      "paragraphTextSHA256": "6da298298ccf86903412de3e10626ae13fd1c6480a67c4eddd8acaad5bbf701b",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 40,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[40]",
+      "paragraphTextSHA256": "298dacfe4be0cf096b247427288b6270248510b9813767b4577498c0480d40a7",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 41,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[41]",
+      "paragraphTextSHA256": "f8e2df827600f96d0f37d7a7f4f7b75d8742ef80ea4c7e54db0a68404a88c47e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 42,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[42]",
+      "paragraphTextSHA256": "ebc1fd2fa86ef555e34de581b957b4f16d45208ab6aadc91b1c1ed2bdca45c6d",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 43,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[43]",
+      "paragraphTextSHA256": "7c175dd1ced79c51e6f071b91f976979d62e59bde90f149993514cd7fe016f38",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 44,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[44]",
+      "paragraphTextSHA256": "3d2e465c6d58536eaef080aef4eb440a80bef6654a0abc13eaac2faf357bc9f0",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 45,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[45]",
+      "paragraphTextSHA256": "08746622a91f87fa3e4025a5da15740e1e996be89d7a23bf676b356e35f39b79",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 46,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[46]",
+      "paragraphTextSHA256": "1a8960d2db8500ad7ab4a0426a35f74628703b48f6201836a0f675351b92a64a",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 47,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[47]",
+      "paragraphTextSHA256": "b726cfa6c567ed050c45be35a580ab601d9deaaf2763cd73a70e027e68707985",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 48,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[48]",
+      "paragraphTextSHA256": "6803923892de4cab70c6c541c995e1b15a3a597a54166e67665bc342d4a66eb1",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 49,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[49]",
+      "paragraphTextSHA256": "e1082e0aaf775d89b78f72f09b7fef32164594c64c8627007cd3815f499d640a",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 50,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[50]",
+      "paragraphTextSHA256": "d152b45f772ba7cbc366f21e9ea29fb6b09fde02d517b21e7de9f444ba1a4278",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 51,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[51]",
+      "paragraphTextSHA256": "53a222df20079029394d79092fc3d3c68244d94c1837950e12fbbf2675e9a2a5",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 52,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[52]",
+      "paragraphTextSHA256": "708c8486811c388b17c65890c41919e2e8734b5d19763a406300059bfc3ca60d",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 53,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[53]",
+      "paragraphTextSHA256": "530357cd2144559b4a3131d078a9f065ffa7f3adcebc893002c37167e214895b",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 54,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[54]",
+      "paragraphTextSHA256": "cb5b33fddb2b993f7dcb396b1cb6e82cfd3401bb41931d74654b0f5d88ce0cc1",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 55,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[55]",
+      "paragraphTextSHA256": "a8caf69f5f63a10f3d8f3d894f24c81289387e251966720cee6a745c2b0541dc",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 56,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[56]",
+      "paragraphTextSHA256": "265f8635a995803f04dbbe507130ecbb4afb2ae0a65813f829442e24ab24e0e5",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 57,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[57]",
+      "paragraphTextSHA256": "32ffae6873a80bcef34b0503bcfa31a01181b08cbc87dc41613b082d63955d51",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 58,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[58]",
+      "paragraphTextSHA256": "d5dc67e0074ee74557c172b346bd29bc477777f0f2156d935b10c1a1ccf79f19",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 59,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[59]",
+      "paragraphTextSHA256": "b7a8223d60c2462a2f8a6de5af0dfc399d5db0038e7d37d18b0800a4c8cae08e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 60,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[60]",
+      "paragraphTextSHA256": "4039322f1b0c944f9898333e23c045ecad82f9a5124ca307c9809f447bba6a12",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 61,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[61]",
+      "paragraphTextSHA256": "6bb126bfb7188b3d00db1d4c0d146417a22d4ee3ce87b5d55d530525311d10ba",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 62,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[62]",
+      "paragraphTextSHA256": "ffee4433048dc370446f6466afa392c6f057a821219545d4a8220371022a4292",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 63,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[63]",
+      "paragraphTextSHA256": "fefa8fb39cca23f070db5e5afe3df153ce67418e7f60b9be935f834e98999966",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 64,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[64]",
+      "paragraphTextSHA256": "475f832587d4f551844f884a2dfc103b6fb4cf6a87da3416df9d518ca1b9e4a3",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 65,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[65]",
+      "paragraphTextSHA256": "46c1df17461d320c460fc6b66b44e0b04adfec1fd8477c55418f680c0cda3031",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 66,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[66]",
+      "paragraphTextSHA256": "3df53af44b465890f516c305375ec963313ead4f0bf630424f3e4dd1ff2aed11",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 67,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[67]",
+      "paragraphTextSHA256": "a7e5cf1b6faa82e52029a9eae10971ee85d37b80f1f35451d27b2f8b35907769",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 68,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[68]",
+      "paragraphTextSHA256": "be54af104bfe84944bdd6bc0dd6796cb382989dcafc39798c36a448de5966f57",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 69,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[69]",
+      "paragraphTextSHA256": "4830ba37a9ca6f11bf7fc34e6a48fd2c68b1ea31d9e52533091b07e1a1ad5f8f",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 70,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[70]",
+      "paragraphTextSHA256": "d4784cfee8f52adee85445f1e5f9606d2a81bef3bfccb43b34953d199a43c882",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 71,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[71]",
+      "paragraphTextSHA256": "ce4e8f430ade0d536d43d64ffe057ff8263c4e51dd34d5c9b6cce8c9052876f2",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 72,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[72]",
+      "paragraphTextSHA256": "9bd1f5c72d82d30bccb4df3e98e8ee24c79bec89f81d46224fc50c62a7d7b4fd",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 73,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[73]",
+      "paragraphTextSHA256": "492525d155a2803775727f43cf0c7d3b81da82c9c6fc38698c82aa32acf42630",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 74,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[74]",
+      "paragraphTextSHA256": "f61dd084be76dc4c32b9b439d3aabf9baa725bf61a0e0253ac4d118f858f1004",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 75,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[75]",
+      "paragraphTextSHA256": "9eec3b3fb670a761ec1de50fd4abc7a62b56241e5e7e3cd8586113d2e527b502",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 76,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[76]",
+      "paragraphTextSHA256": "8ad34c4a3f09c0435f4d1e5f505d95c86d1b6649366677707386d398b5d03621",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 77,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[77]",
+      "paragraphTextSHA256": "77d4f044fc84760a50dbe98a9a7a319e71a4aa4cdcf838d3494630f67fc3be8a",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 78,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[78]",
+      "paragraphTextSHA256": "9f8e4ec5ede9544963e76504f4b6952964a001e24b6082cc57572d028b6c0823",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 79,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[79]",
+      "paragraphTextSHA256": "0f1747a710a3549ed1b7044096ebfbe1e35a528884961429c4e862f7990501ec",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 125,
+      "htmlParagraphIndex": 80,
+      "legalProvisionId": "LP-657-125",
+      "sourceLocator": "657 sayılı Kanun m.125; UYAP maddeId=1653710; HTML p[80]",
+      "paragraphTextSHA256": "557d616b4b7ed61854c5a1654b790d66f943e82b2aad274c0ff5610ae988ba9f",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 129,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-129",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[1]",
+      "paragraphTextSHA256": "371c16c730ec65a33dd61fad92492d65ab7ad171aad6e6ffbc517b005d4e22e8",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 129,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-129",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[2]",
+      "paragraphTextSHA256": "496a9584896db5cdfb838bb1c83e86b708dc4981b10022a5bc955e7a95f5425e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 129,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-129",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[3]",
+      "paragraphTextSHA256": "d179d49132adcc9f1f0795b910e906139256e7e8805d3993ac01d2b10300cf16",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 129,
+      "htmlParagraphIndex": 4,
+      "legalProvisionId": "LP-657-129",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[4]",
+      "paragraphTextSHA256": "117bc622f138d856e6b119b2f2481d4e916cb8d70169ebcbbc9c1c69c04ed50b",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 129,
+      "htmlParagraphIndex": 5,
+      "legalProvisionId": "LP-657-129",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[5]",
+      "paragraphTextSHA256": "5e038d9384a31580122df3d86b4ffe66d7eb090b358f65daab050a0aa8715ae8",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 129,
+      "htmlParagraphIndex": 6,
+      "legalProvisionId": "LP-657-129",
+      "sourceLocator": "657 sayılı Kanun m.129; UYAP maddeId=1653721; HTML p[6]",
+      "paragraphTextSHA256": "09a6a8b5d7b2330d82af976bb4759ba348bdccb6e905530f82f2dda7fdca3c9e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 130,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-130",
+      "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[1]",
+      "paragraphTextSHA256": "04bf97bb1d16dc2c1aa8a56393c6bdd55954c7674229338fbccfc32835398162",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 130,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-130",
+      "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[2]",
+      "paragraphTextSHA256": "c318450c39f0017167862507476ea8b3a95320e09ef1cb6072b471358392c654",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 130,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-130",
+      "sourceLocator": "657 sayılı Kanun m.130; UYAP maddeId=1653724; HTML p[3]",
+      "paragraphTextSHA256": "a7672c849cafe03f3a40666639a82aca00abca9878f1283695a2b1bf7dafdeef",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 135,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-135",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[1]",
+      "paragraphTextSHA256": "31c9b189343b360e45fd97f42015bb2aa68d14ae7a3b5997fb2524152809aeac",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 135,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-135",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[2]",
+      "paragraphTextSHA256": "14e050de80c86bd1e535604a0adc501554a0547015e4633a3e9d349395b3e37f",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 135,
+      "htmlParagraphIndex": 3,
+      "legalProvisionId": "LP-657-135",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[3]",
+      "paragraphTextSHA256": "54cf5c78ae53f0a492824ee5309859d46b84a137c0a2f2668637bad7d7efd65d",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 135,
+      "htmlParagraphIndex": 4,
+      "legalProvisionId": "LP-657-135",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[4]",
+      "paragraphTextSHA256": "1f4766c6edc1ab96a4f010dc125e468de2cce0d1f69b0c95c3fc43207bdc4d2c",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 135,
+      "htmlParagraphIndex": 5,
+      "legalProvisionId": "LP-657-135",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[5]",
+      "paragraphTextSHA256": "318271f9e0c7aa8b2a3680421ceb8715194979053a3156c704e4d530b0efdc34",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 135,
+      "htmlParagraphIndex": 6,
+      "legalProvisionId": "LP-657-135",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[6]",
+      "paragraphTextSHA256": "04a3e96011c102e2c3f7cbe4edf311ea43dfdb339689c9245abfc042b5266d28",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 135,
+      "htmlParagraphIndex": 7,
+      "legalProvisionId": "LP-657-135",
+      "sourceLocator": "657 sayılı Kanun m.135; UYAP maddeId=1653738; HTML p[7]",
+      "paragraphTextSHA256": "7022b9aff8178ea395863e39b7beb6032885baeff7bc70d355a405365521942e",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 238,
+      "htmlParagraphIndex": 1,
+      "legalProvisionId": "LP-657-238",
+      "sourceLocator": "657 sayılı Kanun m.238; UYAP maddeId=1654032; HTML p[1]",
+      "paragraphTextSHA256": "1de5c3faec5cde626cd25c85549ee4f987e72793c80eaed3566eac71547e2d6f",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    },
+    {
+      "articleNumber": 238,
+      "htmlParagraphIndex": 2,
+      "legalProvisionId": "LP-657-238",
+      "sourceLocator": "657 sayılı Kanun m.238; UYAP maddeId=1654032; HTML p[2]",
+      "paragraphTextSHA256": "74d97cd204fe78239f0c02c09c11793d720234a1d75ff6c656b9300fad8a0fe3",
+      "exactParagraphMatchesArchivedOfficialHTML": true,
+      "exactParagraphMatchesFullOfficialHTML": true
+    }
+  ],
+  "result": {
+    "artifactHashesPassed": 11,
+    "paragraphChecksPassed": 122,
+    "failures": 0,
+    "questionApprovalCount": 0
+  },
+  "offlineVerificationContract": [
+    "Read each artifact path relative to repository root and compare SHA256(bytes) with artifact.sha256 and matching provision.htmlSHA256.",
+    "Decode each artifact as UTF-8 and parse p elements preserving order; resolve HTML character references and normalize whitespace only.",
+    "Match each paragraph text and SHA256 against 657-provisions.json and this manifest.",
+    "For candidate evidence, require exact quoted text in the selected provision paragraph; do not replace legal interpretation with a hash test."
+  ],
+  "limitations": [
+    "The complete original official response is retained in the private immutable archive; only selected official article HTML bytes are public for offline checks.",
+    "HTML has no authoritative PDF page numbering; article ID and HTML paragraph locator replace page.",
+    "Original and amendment publication/effectiveness/transition dates are separate; missing historical dates are not inferred from adoption dates.",
+    "The final 2027-01-01 exam legislation version is not finalized."
+  ]
+}

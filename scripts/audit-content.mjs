@@ -7,6 +7,7 @@ if (!literal) throw new Error('Legacy seed array not found');
 const seed = runInNewContext(literal[1], Object.create(null), { timeout: 100 });
 const external = JSON.parse(await readFile(new URL('../questions.json', import.meta.url), 'utf8'));
 const approved = JSON.parse(await readFile(new URL('../data/approved-content.json', import.meta.url), 'utf8'));
+const publication = JSON.parse(await readFile(new URL('../docs/content-publication-report.json', import.meta.url), 'utf8'));
 const all = [...seed, ...external];
 const groups = new Map();
 for (const q of all) {
@@ -15,14 +16,15 @@ for (const q of all) {
   groups.set(key, [...(groups.get(key) || []), q.id]);
 }
 const report = {
-  schemaVersion: 1, status: 'Prototype',
+  schemaVersion: 1, status: approved.questions.length ? 'PartialContentAvailable' : 'Prototype',
   legacySeedRecords: seed.length, externalRecords: external.length,
   combinedRecordsById: new Set(all.map(q => String(q.id))).size,
-  originalQuestionTarget: 5400, generatedThisPhase: 0,
-  sourceVerifiedQuestions: 0, approvedQuestions: approved.questions.length,
+  originalQuestionTarget: 5400, generatedThisPhase: publication.generated,
+  sourceVerifiedQuestions: publication.approved, approvedQuestions: approved.questions.length,
+  pendingNewQuestions: publication.pending,
   rejectedQuestions: 0, pendingLegacyRecords: all.length,
   duplicateCandidates: [...groups.values()].filter(ids => ids.length > 1),
-  semanticAudit: 'NotCompleted', historicalAccepted: 0, historicalReview: 'NotStarted',
+  semanticAudit: 'NotCompletedForWholeBank', newPackageIndependentReview: 'CompletedFor18', historicalAccepted: 0, historicalReview: '9OfficialBooklets480AnswerMatchesRightsScopePending',
   finalContentAcceptance: false,
 };
 await writeFile(new URL('../docs/content-audit.json', import.meta.url), JSON.stringify(report, null, 2) + '\n');
